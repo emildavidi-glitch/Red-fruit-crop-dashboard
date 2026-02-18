@@ -232,7 +232,8 @@
     <button class="refresh-btn" onclick="loadNews()">↻ Refresh News</button>
   </div>
   <div class="news-section-note">
-    📡 News is fetched live via the Claude AI news search. Results show the latest articles from the past 48 hours related to your monitored crops and regions.
+    📡 Articles are fetched automatically every 24h from FreshPlaza, Eurofresh, FreshFruitPortal, Google News and more. Each article stays for 7 days.
+    &nbsp;·&nbsp; <span id="news-last-updated" style="font-weight:500">Loading...</span>
   </div>
   <div class="news-filter-bar">
     <span class="filter-label">Filter:</span>
@@ -514,92 +515,26 @@ const WATCH_DAYS = 14;
 // NEWS ARTICLES — curated live-fetched summaries
 // In a production app this would call a news API
 // ============================================================
-const NEWS_ARTICLES = [
-  {
-    id:1, crop:'strawberry',
-    title:'Despite the phenological delay, Huelva starts strawberry harvest with good market forecasts',
-    summary:'The first strawberries of the 2025/2026 season are appearing in Lepe, Huelva, after overcoming weather challenges including high temperatures during sowing and storm Claudia. The season began with high technical demands but marketing expectations remain optimistic with good demand across all potential markets.',
-    source:'FreshPlaza', date:'Dec 2025', region:'Huelva, Spain',
-    url:'https://www.freshplaza.com/north-america/article/9791308/despite-the-phenological-delay-we-are-starting-the-strawberry-harvest-with-good-market-forecasts/'
-  },
-  {
-    id:2, crop:'blueberry',
-    title:'Chile forecasts a modest increase in blueberry exports in the 2025-2026 season',
-    summary:'Frutas de Chile\'s Blueberry Committee projects a 1% rise in fresh blueberry shipments for 2025-2026, with frozen blueberry exports forecast to exceed 161,000 tons — a record 43% of total shipments. Protected varieties expected to account for 35% of total exports, up from 21% last season.',
-    source:'FreshPlaza', date:'Oct 2025', region:'Chile',
-    url:'https://www.freshplaza.com/north-america/article/9772640/chile-forecasts-a-modest-increase-in-blueberry-exports-in-the-2025-2026-season/'
-  },
-  {
-    id:3, crop:'sour cherry',
-    title:'Turkish cherry season anticipated to be much better than the last two years',
-    summary:'Turkish cherry exporters report less rainy weather compared to the previous two problematic seasons. Growers in key regions are in close contact with exporters, with early signs pointing to better quality and weather conditions heading into the 2026 harvest. European markets are a key target for expansion.',
-    source:'FreshPlaza', date:'May 2024', region:'Turkey',
-    url:'https://www.freshplaza.com/north-america/article/9626976/turkish-cherry-season-anticipated-to-be-much-better-than-the-last-two-years/'
-  },
-  {
-    id:4, crop:'raspberry',
-    title:'Serbia\'s frozen raspberry exports hit by low yields and disease',
-    summary:'Serbia faces a challenging season with a forecast 20-30% yield drop due to adverse weather, disease pressures, and aging plantations in the Arilje region. Poland and Ukraine are also impacted. High European frozen raspberry prices around €4.6/kg, but scarcity is a concern heading into 2026.',
-    source:'FreshPlaza', date:'May 2025', region:'Serbia',
-    url:'https://www.freshplaza.com/europe/article/9732196/serbia-s-frozen-raspberry-exports-hit-by-low-yields-disease/'
-  },
-  {
-    id:5, crop:'strawberry',
-    title:'At the moment there is enough demand for strawberries in the European market',
-    summary:'Huelva growers report growing European interest in Spanish strawberries over Egyptian and Moroccan supply. As Huelva production peaks, Egypt is expected to be displaced due to shelf-life disadvantages. Peak production typically reached in March, though this season may be delayed due to later planting.',
-    source:'FreshPlaza', date:'Jan 2024', region:'Huelva, Spain vs Egypt',
-    url:'https://www.freshplaza.com/africa/article/9591162/at-the-moment-there-is-enough-demand-for-strawberries-in-the-european-market/'
-  },
-  {
-    id:6, crop:'blueberry',
-    title:'Chile officially kicks off the 2025-2026 blueberry season',
-    summary:'The Chilean industry launched the 2025-2026 blueberry season at Blueberry Day 2025 in the Ñuble Region, with optimism driven by growth in new variety shipments. Protected varieties now make up 21% of total exports. Frozen blueberries are a key strategic growth channel, growing at 13% annually.',
-    source:'FreshFruitPortal', date:'Sep 2025', region:'Chile',
-    url:'https://www.freshfruitportal.com/news/2025/09/05/chile-launches-blueberry-season/'
-  },
-  {
-    id:7, crop:'raspberry',
-    title:'Serbian raspberry production hit by weather',
-    summary:'Serbian raspberry production faces significant challenges from adverse weather conditions in 2025. Once a premier global berry exporter, Serbia\'s sector is now grappling with yield pressures that could affect supply to European processing factories in the coming season.',
-    source:'FreshPlaza', date:'Jul 2025', region:'Serbia',
-    url:'https://www.freshplaza.com/europe/article/9749304/serbian-raspberry-production-hit-by-weather/'
-  },
-  {
-    id:8, crop:'sour cherry',
-    title:'Forecasts state Turkish cherry production will be 5% lower in 2024/25',
-    summary:'Turkish cherry production is forecast at 900,000 MT for MY 2024/25, down 5% from a record year. Production includes 700,000 MT sweet cherries and 200,000 MT sour cherries. Key growing provinces are Izmir and Afyonkarahisar. Weather conditions were adequate with no spring frost damage reported.',
-    source:'FreshPlaza', date:'Aug 2024', region:'Turkey',
-    url:'https://www.freshplaza.com/north-america/article/9653440/forecasts-state-turkish-cherry-production-will-be-5-lower/'
-  },
-  {
-    id:9, crop:'raspberry',
-    title:'Raspberry market overview for Ukraine, Poland, Serbia and Moldova',
-    summary:'Significant stocks of frozen raspberries remain from the 2022 Serbian season. Serbian freezers hold high-quality stocks but paid more for raw materials than Ukrainian competitors. The global raspberry market faces a complex supply-demand balance with pricing uncertainty across key European producing regions.',
-    source:'FreshPlaza', date:'Jul 2023', region:'Serbia, Poland & Ukraine',
-    url:'https://www.freshplaza.com/north-america/article/9542563/raspberry-market-overview-for-ukraine-poland-serbia-and-moldova/'
-  },
-  {
-    id:10, crop:'strawberry',
-    title:'New short-day strawberry varieties for Mediterranean area presented in Huelva',
-    summary:'Planasa presented RedSayra and Red Samantha — two new short-day strawberry varieties for the Mediterranean area — at an event in Huelva that exceeded all participation expectations. RedSayra has become one of the most planted varieties in Huelva and is now favoured by major European retailers.',
-    source:'FreshPlaza', date:'Feb 2026', region:'Huelva, Spain',
-    url:'https://www.freshplaza.com/europe/article/9436398/new-short-day-strawberry-varieties-for-mediterranean-area-in-huelva/'
-  },
-  {
-    id:11, crop:'blueberry',
-    title:'Chile\'s blueberry exports reach 55,946 tons in 2024-2025 season with 12% organic share',
-    summary:'Chile exported 55,946 tons of blueberries as of week 2 of 2025 — a 7% increase from 2023/24. Continental Europe is the primary market at 41% of exports, followed by the USA at 35%. New and recommended varieties now account for 81% of shipments, with Legacy the leading variety at 45%.',
-    source:'FreshPlaza', date:'Jan 2025', region:'Chile',
-    url:'https://www.freshplaza.com/north-america/article/9698412/chile-s-blueberry-exports-reach-55-946-tons-in-2024-2025-season-with-12-organic-share/'
-  },
-  {
-    id:12, crop:'sour cherry',
-    title:'Turkish cherry producers renew varieties for export markets',
-    summary:'Turkish stone fruit producers are expanding orchards and planting export-suitable varieties. Turkey is one of the world\'s leading cherry producers, with over 100 sweet cherry varieties. The 0900 Ziraat (Napoleon) remains the top export variety due to its shelf life and market appeal.',
-    source:'Eurofresh Distribution', date:'Jul 2022', region:'Turkey',
-    url:'https://www.eurofresh-distribution.com/news/turkish-cherry-producers-renew-varieties/'
-  },
-];
+// NEWS — loaded live from news.json (auto-updated daily by GitHub Actions)
+let NEWS_ARTICLES = [];
+let newsLoaded = false;
+
+async function fetchNewsJSON() {
+  try {
+    const resp = await fetch('news.json?t=' + Date.now()); // cache-bust
+    if (!resp.ok) throw new Error('news.json not found');
+    const data = await resp.json();
+    NEWS_ARTICLES = data.articles || [];
+    newsLoaded = true;
+    const updated = data.last_updated ? new Date(data.last_updated).toLocaleString('de-DE') : 'unknown';
+    document.getElementById('news-last-updated').textContent = 'Last fetched: ' + updated;
+    return true;
+  } catch(e) {
+    console.warn('Could not load news.json:', e);
+    newsLoaded = false;
+    return false;
+  }
+}
 
 
 // ============================================================
@@ -802,7 +737,7 @@ function filterByRisk(level, card) {
     activeRiskFilter = level;
     cards.forEach(c => { c.classList.remove("active-filter"); c.querySelector(".click-hint").textContent = "click to filter"; });
     card.classList.add("active-filter");
-    card.querySelector(".click-hint").textContent = "showing only u2014 click to clear";
+    card.querySelector(".click-hint").textContent = "showing only — click to clear";
     document.querySelectorAll(".region-card").forEach(c => {
       c.style.display = (c.dataset.risk === level) ? "block" : "none";
     });
@@ -832,7 +767,7 @@ function switchTab(tab, btn) {
   document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
   btn.classList.add('active');
   document.getElementById('tab-'+tab).classList.add('active');
-  if(tab==='news') renderNews('all');
+  if(tab==='news') loadNews();
 }
 
 // ============================================================
@@ -840,39 +775,59 @@ function switchTab(tab, btn) {
 // ============================================================
 let currentNewsFilter='all';
 
-function renderNews(filter) {
-  currentNewsFilter=filter;
-  const articles=filter==='all'?NEWS_ARTICLES:NEWS_ARTICLES.filter(a=>a.crop===filter||a.crop.includes(filter));
-  if(!articles.length) {
-    document.getElementById('news-grid').innerHTML='<div class="news-loading">No articles found for this crop.</div>';
+function renderNewsGrid(filter) {
+  currentNewsFilter = filter;
+  const all = NEWS_ARTICLES;
+  const articles = filter === 'all'
+    ? all
+    : all.filter(a => a.crops && a.crops.includes(filter) || a.crop === filter || (a.crop && a.crop.includes(filter)));
+
+  if (!articles.length) {
+    document.getElementById('news-grid').innerHTML = '<div class="news-loading">No articles found for this crop. New articles are fetched every 24h.</div>';
     return;
   }
-  document.getElementById('news-grid').innerHTML=articles.map(a=>`
+
+  document.getElementById('news-grid').innerHTML = articles.map(a => {
+    const pubDate = a.published ? new Date(a.published).toLocaleDateString('de-DE') : (a.date || '');
+    const cropIcon = CROP_RISKS[a.crop]?.icon || '🌿';
+    const allCrops = a.crops || [a.crop];
+    const cropTags = allCrops.map(c => `<span class="news-crop-tag">${CROP_RISKS[c]?.icon||'🌿'} ${c}</span>`).join(' ');
+    return `
     <div class="news-card" data-crop="${a.crop}">
       <div class="news-card-header">
-        <span class="news-crop-tag">${CROP_RISKS[a.crop]?.icon||'🌿'} ${a.crop}</span>
+        <div style="display:flex;gap:4px;flex-wrap:wrap">${cropTags}</div>
         <span class="news-source">${a.source}</span>
       </div>
       <div class="news-body">
         <div class="news-title">${a.title}</div>
-        <div class="news-summary">${a.summary}</div>
+        <div class="news-summary">${a.summary || ''}</div>
       </div>
       <div class="news-footer">
-        <span class="news-date">📍 ${a.region} · ${a.date}</span>
-        <a href="${a.url}" target="_blank" class="news-link">Read more →</a>
+        <span class="news-date">📍 ${a.region || ''} · ${pubDate}</span>
+        <a href="${a.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
-function loadNews() {
-  document.getElementById('news-grid').innerHTML='<div class="news-loading"><div class="spinner" style="display:inline-block;vertical-align:middle;margin-right:8px"></div>Refreshing news...</div>';
-  setTimeout(()=>renderNews(currentNewsFilter), 800);
+async function loadNews() {
+  document.getElementById('news-grid').innerHTML = '<div class="news-loading"><div class="spinner" style="display:inline-block;vertical-align:middle;margin-right:8px"></div>Fetching latest news...</div>';
+  await fetchNewsJSON();
+  if (!newsLoaded || NEWS_ARTICLES.length === 0) {
+    document.getElementById('news-grid').innerHTML = '<div class="news-loading" style="color:#C0392B">⚠️ news.json not found.<br><small style=\'font-size:0.75rem;margin-top:8px;display:block\'>Run <code>python news_fetcher.py</code> locally and commit news.json to your repo, or enable GitHub Actions.</small></div>';
+    return;
+  }
+  renderNewsGrid(currentNewsFilter);
+}
+
+function renderNews(filter) {
+  renderNewsGrid(filter);
 }
 
 function filterNews(crop, btn) {
   document.querySelectorAll('.news-filter-bar .filter-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  renderNews(crop==='all'?'all':crop);
+  renderNewsGrid(crop === 'all' ? 'all' : crop);
 }
 
 // ============================================================
