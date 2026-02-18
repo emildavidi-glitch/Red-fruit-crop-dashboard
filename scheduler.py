@@ -1,56 +1,50 @@
 # =============================================================
-# scheduler.py — Run monitor.py every morning at 07:00
+# scheduler.py — Red Fruit Crop Monitor · Unified Scheduler
 #
-# Option A: Run this script on your PC/Mac (keeps running)
-# Option B: Use Windows Task Scheduler or Mac launchd instead
-# Option C: Deploy to PythonAnywhere.com (free cloud hosting)
+# Runs two jobs daily:
+#   07:00 — Weather check + email alert (monitor.py)
+#   07:15 — News fetch from RSS feeds (news_fetcher.py)
 # =============================================================
 
 import schedule
 import time
-from monitor import run
+from datetime import datetime
 
-# ── Schedule: every day at 07:00 local time ──────────────────
-RUN_TIME = "07:00"
+from monitor      import run as run_monitor
+from news_fetcher import run as run_news
 
-def job():
-    print(f"\n⏰ Scheduled run triggered at {RUN_TIME}")
-    run()
+WEATHER_TIME = "07:00"
+NEWS_TIME    = "07:15"
 
-schedule.every().day.at(RUN_TIME).do(job)
 
-print(f"🍒 Red Fruit Crop Monitor — Scheduler started")
-print(f"   Will run every day at {RUN_TIME} local time.")
+def weather_job():
+    print(f"\n⏰ [{datetime.now().strftime('%H:%M')}] Running weather monitor & email...")
+    try:
+        run_monitor()
+    except Exception as e:
+        print(f"  ❌ Weather job failed: {e}")
+
+
+def news_job():
+    print(f"\n⏰ [{datetime.now().strftime('%H:%M')}] Running news fetcher...")
+    try:
+        run_news()
+    except Exception as e:
+        print(f"  ❌ News job failed: {e}")
+
+
+schedule.every().day.at(WEATHER_TIME).do(weather_job)
+schedule.every().day.at(NEWS_TIME).do(news_job)
+
+print("🍒 Red Fruit Crop Monitor — Scheduler started")
+print(f"   Weather + Email: daily at {WEATHER_TIME}")
+print(f"   News Fetch:      daily at {NEWS_TIME}")
 print(f"   Press Ctrl+C to stop.\n")
 
-# Run once immediately on startup so you see it working
-print("▶ Running immediately on startup...")
-run()
+print("▶ Running both jobs now on startup...\n")
+weather_job()
+news_job()
 
-# Then keep running on schedule
 while True:
     schedule.run_pending()
     time.sleep(60)
-
-
-# =============================================================
-# ALTERNATIVE: Windows Task Scheduler (no Python script needed)
-# =============================================================
-# 1. Open Task Scheduler → Create Basic Task
-# 2. Trigger: Daily at 07:00
-# 3. Action: Start a program
-#    Program: C:\Python312\python.exe   (your Python path)
-#    Arguments: monitor.py
-#    Start in: C:\path\to\your\project\
-# Done — runs silently every morning even if script is closed.
-
-
-# =============================================================
-# ALTERNATIVE: PythonAnywhere.com (free cloud, always-on)
-# =============================================================
-# 1. Sign up at pythonanywhere.com (free tier works)
-# 2. Upload all 5 .py files via their file manager
-# 3. Go to Tasks → Add a scheduled task
-# 4. Command: python /home/yourusername/monitor.py
-# 5. Set time to 07:00 UTC (adjust for your timezone)
-# That's it — runs every day from the cloud, no PC needed.
