@@ -254,55 +254,255 @@
 
 <script>
 // ============================================================
-// REGIONS — researched exact growing coordinates
+// REGIONS — with per-region, per-crop critical months
+// cropRisk: { cropName: { criticalMonths, frostThreshold, watchThreshold } }
+// This overrides global CROP_RISKS for that specific region+crop combo
 // ============================================================
 const REGIONS = [
-  // SOUR CHERRY
-  { id:'turkey-kutahya',  name:'Kütahya & Afyon',     country:'Turkey',  flag:'🇹🇷', lat:39.4, lon:29.9,  crops:['sour cherry'], notes:'Largest sour cherry belt in Turkey' },
-  { id:'turkey-isparta',  name:'Isparta',              country:'Turkey',  flag:'🇹🇷', lat:37.8, lon:30.5,  crops:['sour cherry','strawberry'], notes:'Major cherry & strawberry region' },
-  { id:'turkey-bursa',    name:'Bursa & Marmara',      country:'Turkey',  flag:'🇹🇷', lat:40.2, lon:29.0,  crops:['sour cherry','strawberry'], notes:'Key Marmara cherry belt' },
-  { id:'poland-masovia',  name:'Masovia',              country:'Poland',  flag:'🇵🇱', lat:51.9, lon:21.0,  crops:['sour cherry','black currant','red currant','raspberry','blueberry'], notes:'Largest European sour cherry region' },
-  { id:'poland-lubelskie',name:'Lubelskie',            country:'Poland',  flag:'🇵🇱', lat:51.2, lon:22.5,  crops:['sour cherry','black currant','red currant','raspberry','blueberry'], notes:'Major cherry & currant belt' },
-  { id:'serbia-sumadija', name:'Šumadija & Dragutin',  country:'Serbia',  flag:'🇷🇸', lat:44.0, lon:20.9,  crops:['sour cherry','raspberry'], notes:'World leading raspberry & sour cherry' },
-  { id:'serbia-top',      name:'Toplica Valley',       country:'Serbia',  flag:'🇷🇸', lat:43.2, lon:21.5,  crops:['sour cherry','raspberry'], notes:'Key Serbian cherry growing zone' },
-  { id:'hungary-szabolcs',name:'Szabolcs-Szatmár',     country:'Hungary', flag:'🇭🇺', lat:47.8, lon:22.1,  crops:['sour cherry','elderberry'], notes:'Northeast Hungary — top cherry region' },
-  { id:'hungary-bacs',    name:'Bács-Kiskun',          country:'Hungary', flag:'🇭🇺', lat:46.6, lon:19.4,  crops:['sour cherry','elderberry'], notes:'Key Hungarian fruit belt' },
-  { id:'germany-rheinland',name:'Rhineland-Palatinate',country:'Germany', flag:'🇩🇪', lat:50.0, lon:7.3,   crops:['sour cherry','black currant','red currant','rhubarb'], notes:'Main German sour cherry zone' },
-  { id:'germany-saxony',  name:'Saxony & Thuringia',   country:'Germany', flag:'🇩🇪', lat:51.1, lon:12.5,  crops:['sour cherry','black currant','red currant','rhubarb','elderberry'], notes:'East German fruit belt' },
-  // STRAWBERRY
-  { id:'spain-huelva',    name:'Huelva, Andalusia',    country:'Spain',   flag:'🇪🇸', lat:37.3, lon:-6.9,  crops:['strawberry','blueberry'], notes:'95% of Spanish strawberries — Europe\'s strawberry capital' },
-  { id:'spain-murcia',    name:'Murcia',               country:'Spain',   flag:'🇪🇸', lat:37.9, lon:-1.1,  crops:['strawberry','blueberry'], notes:'Secondary Spanish berry region' },
-  { id:'turkey-mersin',   name:'Mersin & Adana',       country:'Turkey',  flag:'🇹🇷', lat:36.8, lon:34.6,  crops:['strawberry'], notes:'Major Mediterranean strawberry belt' },
-  { id:'egypt-beheira',   name:'Beheira & Ismailia',   country:'Egypt',   flag:'🇪🇬', lat:30.8, lon:30.3,  crops:['strawberry'], notes:'Top Egyptian strawberry growing region' },
-  { id:'egypt-qaluobia',  name:'Qaluobia',             country:'Egypt',   flag:'🇪🇬', lat:30.4, lon:31.2,  crops:['strawberry'], notes:'Key Nile Delta strawberry zone' },
-  // RASPBERRY & CURRANTS
-  { id:'ukraine-lviv',    name:'Lviv & Volyn',         country:'Ukraine', flag:'🇺🇦', lat:50.4, lon:24.0,  crops:['raspberry','blueberry'], notes:'Western Ukraine berry belt' },
-  { id:'ukraine-cherniv', name:'Chernivtsi',           country:'Ukraine', flag:'🇺🇦', lat:48.3, lon:25.9,  crops:['raspberry','blueberry'], notes:'Carpathian foothills berry zone' },
-  // BLUEBERRY
-  { id:'canada-bc',       name:'Fraser Valley, BC',    country:'Canada',  flag:'🇨🇦', lat:49.1, lon:-122.3, crops:['blueberry'], notes:'Largest Canadian blueberry region' },
-  { id:'canada-ontario',  name:'Ontario Berry Belt',   country:'Canada',  flag:'🇨🇦', lat:44.3, lon:-79.5,  crops:['blueberry'], notes:'Eastern Canada blueberry & soft fruit' },
-  { id:'chile-ohiggins',  name:"O'Higgins Region",     country:'Chile',   flag:'🇨🇱', lat:-34.5, lon:-71.0, crops:['blueberry','raspberry'], notes:'Top Chilean blueberry export region' },
-  { id:'chile-biobio',    name:'Biobío Region',        country:'Chile',   flag:'🇨🇱', lat:-37.5, lon:-72.5, crops:['blueberry','raspberry'], notes:'Southern Chile berry belt' },
-  // RHUBARB
-  { id:'germany-nrw',     name:'North Rhine-Westphalia',country:'Germany',flag:'🇩🇪', lat:51.4, lon:7.0,   crops:['rhubarb'], notes:'Main German rhubarb production area' },
-  { id:'poland-lodz',     name:'Łódź Region',          country:'Poland',  flag:'🇵🇱', lat:51.8, lon:19.5,  crops:['rhubarb','black currant','red currant'], notes:'Central Poland — rhubarb & currants' },
-  // ELDERBERRY
-  { id:'austria-styria',  name:'Styria',               country:'Austria', flag:'🇦🇹', lat:47.1, lon:15.4,  crops:['elderberry'], notes:'Austria\'s top elderberry (Haschberg variety) region' },
-  { id:'ukraine-transcar', name:'Transcarpathia',      country:'Ukraine', flag:'🇺🇦', lat:48.6, lon:22.3,  crops:['elderberry','raspberry'], notes:'Western Ukraine elderberry growing zone' },
+
+  // ── TURKEY: Sour Cherry ─────────────────────────────────
+  // Turkey cherries flower late March–April (warmer climate than Poland)
+  { id:'turkey-kutahya', name:'Kütahya & Afyon', country:'Turkey', flag:'🇹🇷', lat:39.4, lon:29.9,
+    crops:['sour cherry'],
+    cropRisk:{ 'sour cherry': { criticalMonths:[3,4], frostThreshold:-1.0, watchThreshold:2.0 } },
+    notes:'Largest sour cherry belt in Turkey — flowering late March/April' },
+
+  { id:'turkey-isparta', name:'Isparta', country:'Turkey', flag:'🇹🇷', lat:37.8, lon:30.5,
+    crops:['sour cherry','strawberry'],
+    cropRisk:{
+      'sour cherry': { criticalMonths:[3,4],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'strawberry':  { criticalMonths:[2,3,4], frostThreshold:-0.5, watchThreshold:3.0 },
+    },
+    notes:'Major cherry & strawberry region — Mediterranean climate' },
+
+  { id:'turkey-bursa', name:'Bursa & Marmara', country:'Turkey', flag:'🇹🇷', lat:40.2, lon:29.0,
+    crops:['sour cherry','strawberry'],
+    cropRisk:{
+      'sour cherry': { criticalMonths:[3,4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'strawberry':  { criticalMonths:[3,4,5], frostThreshold:-0.5, watchThreshold:3.0 },
+    },
+    notes:'Marmara cherry belt — slightly cooler than south Turkey' },
+
+  // ── POLAND: Sour Cherry, Currants, Raspberry, Blueberry ─
+  // Poland has cold continental climate — critical window April–May
+  { id:'poland-masovia', name:'Masovia', country:'Poland', flag:'🇵🇱', lat:51.9, lon:21.0,
+    crops:['sour cherry','black currant','red currant','raspberry','blueberry'],
+    cropRisk:{
+      'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry':     { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry':     { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Largest European sour cherry region — flowering late April/May' },
+
+  { id:'poland-lubelskie', name:'Lubelskie', country:'Poland', flag:'🇵🇱', lat:51.2, lon:22.5,
+    crops:['sour cherry','black currant','red currant','raspberry','blueberry'],
+    cropRisk:{
+      'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry':     { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry':     { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Major cherry & currant belt — similar season to Masovia' },
+
+  { id:'poland-lodz', name:'Łódź Region', country:'Poland', flag:'🇵🇱', lat:51.8, lon:19.5,
+    crops:['rhubarb','black currant','red currant'],
+    cropRisk:{
+      'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
+      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Central Poland — rhubarb & currants' },
+
+  // ── SERBIA: Sour Cherry, Raspberry ──────────────────────
+  // Serbia slightly warmer than Poland — cherry critical April
+  { id:'serbia-sumadija', name:'Šumadija & Dragutin', country:'Serbia', flag:'🇷🇸', lat:44.0, lon:20.9,
+    crops:['sour cherry','raspberry'],
+    cropRisk:{
+      'sour cherry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry':   { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:3.0 },
+    },
+    notes:'World leading raspberry & sour cherry — flowering April' },
+
+  { id:'serbia-toplica', name:'Toplica Valley', country:'Serbia', flag:'🇷🇸', lat:43.2, lon:21.5,
+    crops:['sour cherry','raspberry'],
+    cropRisk:{
+      'sour cherry': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry':   { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:3.0 },
+    },
+    notes:'Key Serbian cherry growing zone' },
+
+  // ── HUNGARY: Sour Cherry, Elderberry ────────────────────
+  { id:'hungary-szabolcs', name:'Szabolcs-Szatmár', country:'Hungary', flag:'🇭🇺', lat:47.8, lon:22.1,
+    crops:['sour cherry','elderberry'],
+    cropRisk:{
+      'sour cherry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'elderberry':  { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Northeast Hungary — top cherry region' },
+
+  { id:'hungary-bacs', name:'Bács-Kiskun', country:'Hungary', flag:'🇭🇺', lat:46.6, lon:19.4,
+    crops:['sour cherry','elderberry'],
+    cropRisk:{
+      'sour cherry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'elderberry':  { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Key Hungarian fruit belt' },
+
+  // ── GERMANY: Cherry, Currants, Rhubarb, Elderberry ──────
+  { id:'germany-rheinland', name:'Rhineland-Palatinate', country:'Germany', flag:'🇩🇪', lat:50.0, lon:7.3,
+    crops:['sour cherry','black currant','red currant','rhubarb'],
+    cropRisk:{
+      'sour cherry':   { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'black currant': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'red currant':   { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+      'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
+    },
+    notes:'Main German sour cherry zone — Mosel/Rhine valley' },
+
+  { id:'germany-saxony', name:'Saxony & Thuringia', country:'Germany', flag:'🇩🇪', lat:51.1, lon:12.5,
+    crops:['sour cherry','black currant','red currant','rhubarb','elderberry'],
+    cropRisk:{
+      'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
+      'elderberry':    { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'East German fruit belt' },
+
+  { id:'germany-nrw', name:'North Rhine-Westphalia', country:'Germany', flag:'🇩🇪', lat:51.4, lon:7.0,
+    crops:['rhubarb'],
+    cropRisk:{
+      'rhubarb': { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
+    },
+    notes:'Main German rhubarb production area — Westphalia forcing sheds' },
+
+  // ── SPAIN: Strawberry, Blueberry ────────────────────────
+  // Huelva strawberries flower Nov–Feb — frost risk Dec–Feb only
+  { id:'spain-huelva', name:'Huelva, Andalusia', country:'Spain', flag:'🇪🇸', lat:37.3, lon:-6.9,
+    crops:['strawberry','blueberry'],
+    cropRisk:{
+      'strawberry': { criticalMonths:[12,1,2,3], frostThreshold:-0.5, watchThreshold:3.0 },
+      'blueberry':  { criticalMonths:[2,3,4],    frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'95% of Spanish strawberries — critical window Dec–March (winter flowering)' },
+
+  { id:'spain-murcia', name:'Murcia', country:'Spain', flag:'🇪🇸', lat:37.9, lon:-1.1,
+    crops:['strawberry','blueberry'],
+    cropRisk:{
+      'strawberry': { criticalMonths:[1,2,3,4], frostThreshold:-0.5, watchThreshold:3.0 },
+      'blueberry':  { criticalMonths:[3,4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Secondary Spanish berry region — slightly later season than Huelva' },
+
+  // ── TURKEY: Strawberry (Mediterranean coast) ─────────────
+  // Mersin/Adana harvest Dec–April — very mild winters
+  { id:'turkey-mersin', name:'Mersin & Adana', country:'Turkey', flag:'🇹🇷', lat:36.8, lon:34.6,
+    crops:['strawberry'],
+    cropRisk:{
+      'strawberry': { criticalMonths:[12,1,2,3], frostThreshold:-0.5, watchThreshold:3.0 },
+    },
+    notes:'Mediterranean coast — strawberry harvest Dec–April, frost very rare' },
+
+  // ── EGYPT: Strawberry ────────────────────────────────────
+  // Egypt harvest Nov–March — frost risk only Dec–Feb (rare but possible)
+  { id:'egypt-beheira', name:'Beheira & Ismailia', country:'Egypt', flag:'🇪🇬', lat:30.8, lon:30.3,
+    crops:['strawberry'],
+    cropRisk:{
+      'strawberry': { criticalMonths:[12,1,2], frostThreshold:-0.5, watchThreshold:5.0 },
+    },
+    notes:'Top Egyptian strawberry region — harvest Nov–March, watch for rare Dec–Feb cold snaps' },
+
+  { id:'egypt-qaluobia', name:'Qaluobia', country:'Egypt', flag:'🇪🇬', lat:30.4, lon:31.2,
+    crops:['strawberry'],
+    cropRisk:{
+      'strawberry': { criticalMonths:[12,1,2], frostThreshold:-0.5, watchThreshold:5.0 },
+    },
+    notes:'Nile Delta strawberry zone — similar season to Beheira' },
+
+  // ── UKRAINE: Raspberry, Blueberry, Elderberry ────────────
+  { id:'ukraine-lviv', name:'Lviv & Volyn', country:'Ukraine', flag:'🇺🇦', lat:50.4, lon:24.0,
+    crops:['raspberry','blueberry'],
+    cropRisk:{
+      'raspberry': { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry': { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Western Ukraine berry belt — continental climate' },
+
+  { id:'ukraine-cherniv', name:'Chernivtsi', country:'Ukraine', flag:'🇺🇦', lat:48.3, lon:25.9,
+    crops:['raspberry','blueberry'],
+    cropRisk:{
+      'raspberry': { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry': { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Carpathian foothills — slightly warmer than Lviv' },
+
+  { id:'ukraine-transcar', name:'Transcarpathia', country:'Ukraine', flag:'🇺🇦', lat:48.6, lon:22.3,
+    crops:['elderberry','raspberry'],
+    cropRisk:{
+      'elderberry': { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry':  { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
+    },
+    notes:'Western Ukraine elderberry growing zone' },
+
+  // ── CANADA: Blueberry ────────────────────────────────────
+  // BC blueberries flower April–May
+  { id:'canada-bc', name:'Fraser Valley, BC', country:'Canada', flag:'🇨🇦', lat:49.1, lon:-122.3,
+    crops:['blueberry'],
+    cropRisk:{
+      'blueberry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Largest Canadian blueberry region — flowering April/May' },
+
+  { id:'canada-ontario', name:'Ontario Berry Belt', country:'Canada', flag:'🇨🇦', lat:44.3, lon:-79.5,
+    crops:['blueberry'],
+    cropRisk:{
+      'blueberry': { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Eastern Canada — later season than BC, flowering May/June' },
+
+  // ── CHILE: Blueberry, Raspberry (Southern Hemisphere) ────
+  // Southern Hemisphere: flowering Oct–Dec, harvest Jan–Mar
+  { id:'chile-ohiggins', name:"O'Higgins Region", country:'Chile', flag:'🇨🇱', lat:-34.5, lon:-71.0,
+    crops:['blueberry','raspberry'],
+    cropRisk:{
+      'blueberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:3.0 },
+    },
+    notes:'Top Chilean export region — S.Hemisphere: flowering Oct–Dec' },
+
+  { id:'chile-biobio', name:'Biobío Region', country:'Chile', flag:'🇨🇱', lat:-37.5, lon:-72.5,
+    crops:['blueberry','raspberry'],
+    cropRisk:{
+      'blueberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:3.0 },
+    },
+    notes:'Southern Chile — slightly later season than O\'Higgins' },
+
+  // ── AUSTRIA: Elderberry ──────────────────────────────────
+  { id:'austria-styria', name:'Styria', country:'Austria', flag:'🇦🇹', lat:47.1, lon:15.4,
+    crops:['elderberry'],
+    cropRisk:{
+      'elderberry': { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
+    },
+    notes:'Austria\'s top Haschberg elderberry region — flowering May/June' },
 ];
 
 // ============================================================
-// CROP RISK THRESHOLDS
+// GLOBAL CROP DEFAULTS (used only if region has no cropRisk override)
 // ============================================================
 const CROP_RISKS = {
-  'sour cherry':   { criticalMonths:[4,5],       criticalMonthsSouth:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0,  icon:'🍒' },
-  'black currant': { criticalMonths:[4,5],       criticalMonthsSouth:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0,  icon:'🫐' },
-  'red currant':   { criticalMonths:[4,5],       criticalMonthsSouth:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0,  icon:'🔴' },
-  'raspberry':     { criticalMonths:[4,5,6],     criticalMonthsSouth:[10,11,12], frostThreshold:-1.0, watchThreshold:3.0,  icon:'🫐' },
-  'strawberry':    { criticalMonths:[2,3,4,5,6], criticalMonthsSouth:[10,11,12], frostThreshold:-0.5, watchThreshold:3.0,  icon:'🍓' },
-  'blueberry':     { criticalMonths:[4,5,6],     criticalMonthsSouth:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0,  icon:'🫐' },
-  'rhubarb':       { criticalMonths:[3,4,5],     criticalMonthsSouth:[9,10,11],  frostThreshold:-2.0, watchThreshold:1.0,  icon:'🌿' },
-  'elderberry':    { criticalMonths:[5,6],       criticalMonthsSouth:[11,12,1],  frostThreshold:-1.0, watchThreshold:2.0,  icon:'🍇' },
+  'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🍒' },
+  'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🫐' },
+  'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🔴' },
+  'raspberry':     { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0, icon:'🫐' },
+  'strawberry':    { criticalMonths:[3,4,5], frostThreshold:-0.5, watchThreshold:3.0, icon:'🍓' },
+  'blueberry':     { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0, icon:'🫐' },
+  'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0, icon:'🌿' },
+  'elderberry':    { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🍇' },
 };
 const WATCH_DAYS = 14;
 
@@ -414,36 +614,44 @@ function getSeasonPhase() {
 // ============================================================
 // RISK ENGINE
 // ============================================================
-function daysUntilCritical(cropDef, isSouth) {
-  const crit = isSouth&&cropDef.criticalMonthsSouth?cropDef.criticalMonthsSouth:cropDef.criticalMonths;
+function daysUntilCritical(critMonths) {
   const today = new Date(); const cm = today.getMonth()+1;
-  if(crit.includes(cm)) return 0;
-  for(let i=1;i<366;i++){const f=new Date(today);f.setDate(today.getDate()+i);if(crit.includes(f.getMonth()+1))return i;}
+  if(critMonths.includes(cm)) return 0;
+  for(let i=1;i<366;i++){const f=new Date(today);f.setDate(today.getDate()+i);if(critMonths.includes(f.getMonth()+1))return i;}
   return 999;
 }
 
 function assessRegion(region, weather) {
-  const isSouth = region.lat<0;
   const cm = new Date().getMonth()+1;
   const mins = weather.daily_min;
   let highest='safe', alerts=[], affected=[];
+
   for(const crop of region.crops) {
-    const cd = CROP_RISKS[crop]; if(!cd) continue;
-    const crit = isSouth&&cd.criticalMonthsSouth?cd.criticalMonthsSouth:cd.criticalMonths;
-    const inWindow = crit.includes(cm);
-    const dtc = daysUntilCritical(cd, isSouth);
-    const nearWindow = dtc>0&&dtc<=WATCH_DAYS;
-    const frostDays = mins.filter(t=>t<=cd.frostThreshold);
-    const coldDays  = mins.filter(t=>t>cd.frostThreshold&&t<=cd.watchThreshold);
-    if(inWindow&&frostDays.length) {
+    // Per-region override takes priority; fall back to global default
+    const regionCropDef = region.cropRisk && region.cropRisk[crop];
+    const globalCropDef = CROP_RISKS[crop];
+    const cd = regionCropDef || globalCropDef;
+    if(!cd) continue;
+
+    const crit   = cd.criticalMonths;
+    const inWindow  = crit.includes(cm);
+    const dtc       = daysUntilCritical(crit);
+    const nearWindow = dtc>0 && dtc<=WATCH_DAYS;
+    const frostDays  = mins.filter(t=>t<=cd.frostThreshold);
+    const coldDays   = mins.filter(t=>t>cd.frostThreshold && t<=cd.watchThreshold);
+
+    if(inWindow && frostDays.length) {
       highest='critical'; affected.push(crop);
-      alerts.push({level:'critical',crop,message:`FROST: ${frostDays.length} day(s) ≤${cd.frostThreshold}°C (min:${Math.min(...frostDays)}°C) — ${crop} flowering at critical risk!`});
-    } else if(inWindow&&coldDays.length) {
+      alerts.push({level:'critical',crop,
+        message:`FROST: ${frostDays.length} day(s) ≤${cd.frostThreshold}°C (min:${Math.min(...frostDays)}°C) — ${crop} flowering at critical risk!`});
+    } else if(inWindow && coldDays.length) {
       if(highest!=='critical') highest='risk'; affected.push(crop);
-      alerts.push({level:'risk',crop,message:`Near-frost during flowering: ${coldDays.length} day(s) below ${cd.watchThreshold}°C — ${crop} at risk.`});
-    } else if(nearWindow&&(frostDays.length||coldDays.length)) {
+      alerts.push({level:'risk',crop,
+        message:`Near-frost during flowering: ${coldDays.length} day(s) below ${cd.watchThreshold}°C — ${crop} at risk.`});
+    } else if(nearWindow && (frostDays.length||coldDays.length)) {
       if(!['critical','risk'].includes(highest)) highest='watch';
-      alerts.push({level:'watch',crop,message:`${dtc} days to ${crop} critical window. Cold temps in forecast (min:${Math.min(...mins)}°C).`});
+      alerts.push({level:'watch',crop,
+        message:`${dtc} days to ${crop} critical window. Cold temps in forecast (min:${Math.min(...mins)}°C).`});
     }
   }
   return {region, weather, risk_level:highest, alerts, affected_crops:[...new Set(affected)]};
