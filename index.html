@@ -50,10 +50,14 @@
 
   /* SUMMARY ROW */
   .summary-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:26px; }
-  .summary-card { background:var(--card-bg); border-radius:8px; padding:18px 20px; box-shadow:var(--shadow); border-top:3px solid transparent; transition:transform 0.2s; }
-  .summary-card:hover { transform:translateY(-2px); }
+  .summary-card { background:var(--card-bg); border-radius:8px; padding:18px 20px; box-shadow:var(--shadow); border-top:3px solid transparent; transition:transform 0.2s, box-shadow 0.2s, background 0.2s; cursor:pointer; user-select:none; }
+  .summary-card:hover { transform:translateY(-2px); box-shadow:0 6px 24px rgba(28,28,28,0.14); }
   .summary-card.safe { border-top-color:var(--risk-low); } .summary-card.watch { border-top-color:var(--risk-med); }
   .summary-card.risk { border-top-color:var(--risk-high); } .summary-card.critical { border-top-color:var(--risk-critical); }
+  .summary-card.active-filter.safe { background:#F0FFF4; } .summary-card.active-filter.watch { background:#FFFBF0; }
+  .summary-card.active-filter.risk { background:#FFF5F5; } .summary-card.active-filter.critical { background:#FFF0EE; }
+  .summary-card .click-hint { font-family:'IBM Plex Mono',monospace; font-size:0.58rem; color:var(--light); margin-top:6px; letter-spacing:0.05em; }
+  .summary-card.active-filter .click-hint { color:var(--mid); font-weight:500; }
   .summary-num { font-family:'Playfair Display',serif; font-size:2rem; font-weight:900; line-height:1; }
   .summary-card.safe .summary-num{color:var(--risk-low)} .summary-card.watch .summary-num{color:var(--risk-med)}
   .summary-card.risk .summary-num{color:var(--risk-high)} .summary-card.critical .summary-num{color:var(--risk-critical)}
@@ -180,10 +184,10 @@
 <div id="tab-weather" class="tab-content active">
 <main>
   <div class="summary-row">
-    <div class="summary-card safe"><div class="summary-num" id="count-safe">–</div><div class="summary-desc">✅ Regions Safe</div></div>
-    <div class="summary-card watch"><div class="summary-num" id="count-watch">–</div><div class="summary-desc">👁 Watch</div></div>
-    <div class="summary-card risk"><div class="summary-num" id="count-risk">–</div><div class="summary-desc">⚠️ At Risk</div></div>
-    <div class="summary-card critical"><div class="summary-num" id="count-critical">–</div><div class="summary-desc">🚨 Critical</div></div>
+    <div class="summary-card safe" onclick="filterByRisk('safe',this)" title="Click to filter"><div class="summary-num" id="count-safe">–</div><div class="summary-desc">✅ Regions Safe</div><div class="click-hint">click to filter</div></div>
+    <div class="summary-card watch" onclick="filterByRisk('watch',this)" title="Click to filter"><div class="summary-num" id="count-watch">–</div><div class="summary-desc">👁 Watch</div><div class="click-hint">click to filter</div></div>
+    <div class="summary-card risk" onclick="filterByRisk('risk',this)" title="Click to filter"><div class="summary-num" id="count-risk">–</div><div class="summary-desc">⚠️ At Risk</div><div class="click-hint">click to filter</div></div>
+    <div class="summary-card critical" onclick="filterByRisk('critical',this)" title="Click to filter"><div class="summary-num" id="count-critical">–</div><div class="summary-desc">🚨 Critical</div><div class="click-hint">click to filter</div></div>
   </div>
 
   <div class="filter-bar">
@@ -781,11 +785,41 @@ function renderAll(data) {
 // ============================================================
 // CROP FILTER
 // ============================================================
+// active risk filter state
+let activeRiskFilter = null;
+
+function filterByRisk(level, card) {
+  const cards = document.querySelectorAll(".summary-card");
+  if (activeRiskFilter === level) {
+    // Clicking same card again — clear filter
+    activeRiskFilter = null;
+    cards.forEach(c => c.classList.remove("active-filter"));
+    card.querySelector(".click-hint").textContent = "click to filter";
+    document.querySelectorAll(".region-card").forEach(c => c.style.display = "block");
+  } else {
+    // Apply filter
+    activeRiskFilter = level;
+    cards.forEach(c => { c.classList.remove("active-filter"); c.querySelector(".click-hint").textContent = "click to filter"; });
+    card.classList.add("active-filter");
+    card.querySelector(".click-hint").textContent = "showing only u2014 click to clear";
+    document.querySelectorAll(".region-card").forEach(c => {
+      c.style.display = (c.dataset.risk === level) ? "block" : "none";
+    });
+    // Also reset crop filter to "all" so risk filter is not masked
+    document.querySelectorAll(".filter-bar .filter-btn").forEach(b => b.classList.remove("active"));
+    const allBtn = document.querySelector(".filter-bar .filter-btn");
+    if (allBtn) allBtn.classList.add("active");
+  }
+}
+
 function filterCrop(crop, btn) {
-  document.querySelectorAll('.filter-bar .filter-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  document.querySelectorAll('.region-card').forEach(c=>{
-    c.style.display=(crop==='all'||c.dataset.crops.includes(crop))?'block':'none';
+  // Clear any active risk filter when using crop filter
+  activeRiskFilter = null;
+  document.querySelectorAll(".summary-card").forEach(c => { c.classList.remove("active-filter"); c.querySelector(".click-hint").textContent = "click to filter"; });
+  document.querySelectorAll(".filter-bar .filter-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  document.querySelectorAll(".region-card").forEach(c => {
+    c.style.display = (crop === "all" || c.dataset.crops.includes(crop)) ? "block" : "none";
   });
 }
 
