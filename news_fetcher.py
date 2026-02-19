@@ -1,12 +1,17 @@
 # =============================================================
-# news_fetcher.py — Red Fruit Crop Monitor · Automatic News Fetcher
+# news_fetcher.py — Red Fruit Crop Monitor · News Fetcher
 #
-# Fetches RSS feeds from FreshPlaza, Eurofresh, FreshFruitPortal
-# and other industry sources every 24 hours.
-# Keeps articles for 7 days, saves to news.json for the dashboard.
+# FILTERING RULES:
+#   - Crops (sour cherry, raspberry, etc.): GLOBAL — no geographic
+#     filter. Articles from any country are welcome.
+#   - Concentrates & juices: GLOBAL — any fruit, any country.
+#     If it mentions NFC, juice concentrate, frozen fruit
+#     or fruit processing — include it.
+#   - No geographic restriction on news whatsoever.
 #
+# Keeps articles for 14 days. Saves to news.json.
 # Run manually:  python news_fetcher.py
-# Scheduled:     see scheduler.py (runs daily at 07:00)
+# Scheduled:     scheduler.py runs this daily at 07:15
 # =============================================================
 
 import json
@@ -25,153 +30,154 @@ try:
     BS4_AVAILABLE = True
 except ImportError:
     BS4_AVAILABLE = False
-    print("  [INFO] BeautifulSoup not installed — summaries will use RSS description only.")
-    print("         For better summaries run: pip install beautifulsoup4 lxml")
+    print("  [INFO] BeautifulSoup not installed — run: pip install beautifulsoup4 lxml")
 
 # =============================================================
 # CONFIGURATION
 # =============================================================
 
-NEWS_FILE = Path(__file__).parent / "news.json"
-ARTICLE_TTL_DAYS = 14      # Articles older than this are removed
-MAX_ARTICLES = 40          # Maximum total articles to keep
-REQUEST_TIMEOUT = 15       # Seconds before giving up on a feed
+NEWS_FILE        = Path(__file__).parent / "news.json"
+ARTICLE_TTL_DAYS = 14
+MAX_ARTICLES     = 60       # increased — more topics now
+REQUEST_TIMEOUT  = 15
 
 # =============================================================
 # RSS SOURCES
-# All free, public RSS feeds from industry-standard websites
 # =============================================================
 
 RSS_SOURCES = [
-    # ── FreshPlaza (world's leading fresh produce news) ──────
-    {
-        "name": "FreshPlaza",
-        "url":  "https://www.freshplaza.com/rss/",
-        "region": "Global"
-    },
-    {
-        "name": "FreshPlaza Europe",
-        "url":  "https://www.freshplaza.com/europe/rss/",
-        "region": "Europe"
-    },
-    # ── Eurofresh Distribution ───────────────────────────────
-    {
-        "name": "Eurofresh Distribution",
-        "url":  "https://www.eurofresh-distribution.com/feed/",
-        "region": "Europe"
-    },
-    # ── Fresh Fruit Portal ───────────────────────────────────
-    {
-        "name": "FreshFruitPortal",
-        "url":  "https://www.freshfruitportal.com/feed/",
-        "region": "Global"
-    },
-    # ── Produce Business ─────────────────────────────────────
-    {
-        "name": "Produce Business",
-        "url":  "https://www.producebusiness.com/feed/",
-        "region": "Global"
-    },
-    # ── Hortidaily ───────────────────────────────────────────
-    {
-        "name": "Hortidaily",
-        "url":  "https://www.hortidaily.com/rss/",
-        "region": "Global"
-    },
-    # ── The Packer ───────────────────────────────────────────
-    {
-        "name": "The Packer",
-        "url":  "https://www.thepacker.com/rss.xml",
-        "region": "North America"
-    },
-    # ── Google News RSS — targeted crop searches ─────────────
-    # These search Google News in real time for your exact crops
-    {
-        "name": "Google News: Sour Cherry",
-        "url":  "https://news.google.com/rss/search?q=sour+cherry+crop+harvest&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
-    {
-        "name": "Google News: Black Currant",
-        "url":  "https://news.google.com/rss/search?q=black+currant+blackcurrant+crop&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
-    {
-        "name": "Google News: Raspberry",
-        "url":  "https://news.google.com/rss/search?q=raspberry+crop+harvest+Serbia+Poland&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
-    {
-        "name": "Google News: Strawberry",
-        "url":  "https://news.google.com/rss/search?q=strawberry+crop+Huelva+Egypt+Turkey&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
-    {
-        "name": "Google News: Blueberry",
-        "url":  "https://news.google.com/rss/search?q=blueberry+crop+Chile+Canada+export&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
-    {
-        "name": "Google News: Elderberry",
-        "url":  "https://news.google.com/rss/search?q=elderberry+market+harvest+Austria+Hungary&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
-    {
-        "name": "Google News: Rhubarb",
-        "url":  "https://news.google.com/rss/search?q=rhubarb+harvest+Germany+market&hl=en&gl=US&ceid=US:en",
-        "region": "Global"
-    },
+    # ── Industry trade press ─────────────────────────────────
+    { "name": "FreshPlaza",            "url": "https://www.freshplaza.com/rss/" },
+    { "name": "FreshPlaza Europe",     "url": "https://www.freshplaza.com/europe/rss/" },
+    { "name": "FreshPlaza Latin America","url":"https://www.freshplaza.com/latin-america/rss/" },
+    { "name": "Eurofresh Distribution","url": "https://www.eurofresh-distribution.com/feed/" },
+    { "name": "FreshFruitPortal",      "url": "https://www.freshfruitportal.com/feed/" },
+    { "name": "Produce Business",      "url": "https://www.producebusiness.com/feed/" },
+    { "name": "Hortidaily",            "url": "https://www.hortidaily.com/rss/" },
+    { "name": "The Packer",            "url": "https://www.thepacker.com/rss.xml" },
+    { "name": "Fruit Processing Mag",  "url": "https://www.fruit-processing.com/feed/" },
+
+    # ── Google News: your 8 monitored crops — GLOBAL, no geo filter ──
+    { "name": "GNews: Sour Cherry",
+      "url": "https://news.google.com/rss/search?q=%22sour+cherry%22+OR+%22tart+cherry%22+OR+%22sauerkirsche%22&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Black Currant",
+      "url": "https://news.google.com/rss/search?q=%22black+currant%22+OR+%22blackcurrant%22+OR+%22cassis%22&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Red Currant",
+      "url": "https://news.google.com/rss/search?q=%22red+currant%22+OR+%22redcurrant%22&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Raspberry",
+      "url": "https://news.google.com/rss/search?q=raspberry+OR+raspberries+crop+OR+harvest+OR+market&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Strawberry",
+      "url": "https://news.google.com/rss/search?q=strawberry+OR+strawberries+crop+OR+harvest+OR+market&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Blueberry",
+      "url": "https://news.google.com/rss/search?q=blueberry+OR+blueberries+crop+OR+harvest+OR+market&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Elderberry",
+      "url": "https://news.google.com/rss/search?q=elderberry+OR+elderberries+market+OR+harvest&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Rhubarb",
+      "url": "https://news.google.com/rss/search?q=rhubarb+harvest+OR+market+OR+production&hl=en&gl=US&ceid=US:en" },
+
+    # ── Google News: concentrates & juices — ANY fruit, GLOBAL ───
+    # This is the new category: NFC, juice concentrate, frozen fruit,
+    # fruit processing — relevant regardless of fruit type or country
+    { "name": "GNews: Fruit Concentrate",
+      "url": "https://news.google.com/rss/search?q=%22fruit+concentrate%22+OR+%22juice+concentrate%22+price+OR+market+OR+supply&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: NFC Juice",
+      "url": "https://news.google.com/rss/search?q=%22not+from+concentrate%22+OR+%22NFC+juice%22+OR+%22NFC+berry%22+market+OR+price&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Frozen Fruit",
+      "url": "https://news.google.com/rss/search?q=%22frozen+fruit%22+OR+%22IQF+fruit%22+market+OR+price+OR+supply&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Fruit Processing",
+      "url": "https://news.google.com/rss/search?q=%22fruit+processing%22+OR+%22fruit+juice+industry%22+market+OR+price+OR+supply&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Orange Juice Concentrate",
+      "url": "https://news.google.com/rss/search?q=%22orange+juice+concentrate%22+OR+%22FCOJ%22+price+OR+market+OR+supply&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Berry Juice Market",
+      "url": "https://news.google.com/rss/search?q=%22berry+juice%22+OR+%22berry+concentrate%22+market+OR+price+OR+supply&hl=en&gl=US&ceid=US:en" },
+    { "name": "GNews: Cherry Concentrate",
+      "url": "https://news.google.com/rss/search?q=%22cherry+concentrate%22+OR+%22cherry+juice%22+market+OR+price+OR+supply&hl=en&gl=US&ceid=US:en" },
 ]
 
 # =============================================================
-# KEYWORDS — article must match at least ONE crop keyword
-# AND at least ONE context keyword to be included
+# KEYWORD RULES
 # =============================================================
 
+# Your 8 monitored crops — global, any country
 CROP_KEYWORDS = {
-    "sour cherry":   ["sour cherry", "sauerkirsche", "vişne", "cerise acide", "tart cherry"],
-    "black currant": ["black currant", "blackcurrant", "schwarze johannisbeere", "cassis"],
-    "red currant":   ["red currant", "redcurrant", "rote johannisbeere"],
-    "raspberry":     ["raspberry", "raspberries", "himbeere", "framboise", "ahududu"],
-    "strawberry":    ["strawberry", "strawberries", "erdbeere", "fraise", "çilek"],
-    "blueberry":     ["blueberry", "blueberries", "heidelbeere", "myrtille"],
-    "rhubarb":       ["rhubarb", "rhabarber", "rhubarbe"],
-    "elderberry":    ["elderberry", "elderberries", "holunder", "sureau", "mürver"],
+    "sour cherry":   ["sour cherry", "tart cherry", "sauerkirsche", "vişne", "cerise acide",
+                      "kiraz", "višnja"],
+    "black currant": ["black currant", "blackcurrant", "schwarze johannisbeere", "cassis",
+                      "ribis nigrum", "czarna porzeczka"],
+    "red currant":   ["red currant", "redcurrant", "rote johannisbeere", "czerwona porzeczka"],
+    "raspberry":     ["raspberry", "raspberries", "himbeere", "framboise", "ahududu",
+                      "malina", "maline"],
+    "strawberry":    ["strawberry", "strawberries", "erdbeere", "fraise", "çilek",
+                      "truskawka", "jagoda"],
+    "blueberry":     ["blueberry", "blueberries", "heidelbeere", "myrtille", "borówka",
+                      "yabaní mersini"],
+    "rhubarb":       ["rhubarb", "rhabarber", "rhubarbe", "rabarbar"],
+    "elderberry":    ["elderberry", "elderberries", "holunder", "sureau", "mürver",
+                      "czarny bez", "sambucus"],
 }
 
+# Concentrate & juice keywords — any fruit, any country
+# An article matching ANY of these is included regardless of crop mention
+CONCENTRATE_KEYWORDS = [
+    "fruit concentrate", "juice concentrate", "not from concentrate", "NFC juice",
+    "NFC berry", "IQF fruit", "frozen fruit market", "frozen berry",
+    "fruit processing", "fruit juice industry", "berry concentrate",
+    "cherry concentrate", "cherry juice concentrate", "blackcurrant concentrate",
+    "currant concentrate", "raspberry concentrate", "strawberry concentrate",
+    "blueberry concentrate", "elderberry concentrate", "elderberry juice",
+    "orange juice concentrate", "FCOJ", "apple juice concentrate",
+    "fruit puree", "aseptic fruit", "drum concentrate",
+    "Brix", "degrees brix",   # trade term for concentrate sugar content
+]
+
+# General context — article needs this if it only matches a crop (not concentrate)
 CONTEXT_KEYWORDS = [
     "harvest", "crop", "production", "season", "export", "import",
     "price", "market", "supply", "demand", "frost", "yield", "grower",
-    "processor", "concentrate", "frozen", "fresh", "berry", "fruit",
-    "poland", "turkey", "serbia", "spain", "huelva", "egypt", "chile",
-    "canada", "ukraine", "germany", "hungary", "austria",
-    "ernte", "saison", "markt", "récolte", "saison",
+    "processor", "shortage", "surplus", "outlook", "forecast",
+    "acreage", "plantation", "orchard", "berry", "fruit",
 ]
 
 # =============================================================
-# CROP DETECTION
+# ARTICLE CATEGORISATION
 # =============================================================
 
 def detect_crops(text: str) -> list[str]:
-    """Return list of crops mentioned in text."""
-    text_lower = text.lower()
-    found = []
-    for crop, keywords in CROP_KEYWORDS.items():
-        if any(kw in text_lower for kw in keywords):
-            found.append(crop)
-    return found
+    """Return monitored crops mentioned anywhere in text."""
+    t = text.lower()
+    return [crop for crop, kws in CROP_KEYWORDS.items() if any(kw in t for kw in kws)]
+
+
+def detect_concentrate(text: str) -> bool:
+    """Return True if article is about concentrates/juices/frozen fruit."""
+    t = text.lower()
+    return any(kw.lower() in t for kw in CONCENTRATE_KEYWORDS)
 
 
 def is_relevant(text: str) -> bool:
-    """Check if article has both a crop keyword and a context keyword."""
-    text_lower = text.lower()
-    has_crop    = any(kw in text_lower for kws in CROP_KEYWORDS.values() for kw in kws)
-    has_context = any(kw in text_lower for kw in CONTEXT_KEYWORDS)
-    return has_crop and has_context
+    """
+    Include article if:
+      (a) mentions one of our 8 crops  AND  a context keyword  [no geo filter]
+      OR
+      (b) mentions concentrates/juices/frozen fruit  [any fruit, any country]
+    """
+    has_crop        = bool(detect_crops(text))
+    has_context     = any(kw in text.lower() for kw in CONTEXT_KEYWORDS)
+    has_concentrate = detect_concentrate(text)
+
+    return (has_crop and has_context) or has_concentrate
+
+
+def article_category(text: str, crops: list[str]) -> str:
+    """Primary category for display in dashboard."""
+    if detect_concentrate(text) and not crops:
+        return "concentrate & juice"
+    if crops:
+        return crops[0]
+    return "general"
 
 
 def article_id(url: str) -> str:
-    """Stable unique ID from URL."""
     return hashlib.md5(url.encode()).hexdigest()[:12]
 
 
@@ -180,60 +186,44 @@ def article_id(url: str) -> str:
 # =============================================================
 
 def parse_date(date_str: str) -> datetime:
-    """Parse RSS date string to UTC datetime."""
     if not date_str:
         return datetime.now(timezone.utc)
-
-    formats = [
-        "%a, %d %b %Y %H:%M:%S %z",
-        "%a, %d %b %Y %H:%M:%S GMT",
-        "%Y-%m-%dT%H:%M:%S%z",
-        "%Y-%m-%dT%H:%M:%SZ",
-    ]
-    for fmt in formats:
+    for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
+                "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ"]:
         try:
             dt = datetime.strptime(date_str.strip(), fmt)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt
+            return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
         except ValueError:
             continue
-
     return datetime.now(timezone.utc)
 
 
 def clean_html(raw: str) -> str:
-    """Strip HTML tags from summary text."""
     if not raw:
         return ""
     if BS4_AVAILABLE:
         return BeautifulSoup(raw, "lxml").get_text(separator=" ", strip=True)
-    # Fallback: basic tag stripping
     import re
     return re.sub(r"<[^>]+>", " ", raw).strip()
 
 
 def fetch_feed(source: dict) -> list[dict]:
-    """Fetch and parse one RSS feed. Returns list of article dicts."""
     articles = []
     headers = {
-        "User-Agent": "RedFruitCropMonitor/1.0 (crop risk intelligence; contact@example.com)",
-        "Accept": "application/rss+xml, application/xml, text/xml",
+        "User-Agent": "RedFruitCropMonitor/1.0 (procurement intelligence)",
+        "Accept":     "application/rss+xml, application/xml, text/xml",
     }
-
     try:
         resp = requests.get(source["url"], headers=headers, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
     except Exception as e:
-        print(f"    ⚠️  Could not fetch {source['name']}: {e}")
+        print(f"    ⚠️  {source['name']}: {e}")
         return []
 
-    # Handle both RSS and Atom namespaces
-    ns = {"atom": "http://www.w3.org/2005/Atom",
-          "media": "http://search.yahoo.com/mrss/"}
-
+    ns    = {"atom": "http://www.w3.org/2005/Atom"}
     items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+    age_cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
 
     for item in items:
         def get(tag):
@@ -243,50 +233,49 @@ def fetch_feed(source: dict) -> list[dict]:
         title   = get("title")
         url     = get("link") or get("guid")
         summary = clean_html(get("description") or get("summary") or "")
-        pub_str = get("pubDate") or get("published") or get("updated")
-        pub_dt  = parse_date(pub_str)
-
-        full_text = f"{title} {summary}"
+        pub_dt  = parse_date(get("pubDate") or get("published") or get("updated"))
 
         if not title or not url:
             continue
 
-        # ── Skip articles older than 14 days ──────────────────
-        age_cutoff = datetime.now(timezone.utc) - timedelta(days=14)
+        # Age filter — skip anything older than 14 days
         if pub_dt.tzinfo is None:
             pub_dt = pub_dt.replace(tzinfo=timezone.utc)
         if pub_dt < age_cutoff:
             continue
 
+        full_text = f"{title} {summary}"
+
         if not is_relevant(full_text):
             continue
 
-        crops = detect_crops(full_text)
-        if not crops:
-            continue
+        crops      = detect_crops(full_text)
+        is_conc    = detect_concentrate(full_text)
+        category   = article_category(full_text, crops)
 
-        # Truncate summary to ~300 chars cleanly
-        if len(summary) > 300:
-            summary = summary[:297].rsplit(" ", 1)[0] + "…"
+        # Truncate summary cleanly
+        if len(summary) > 320:
+            summary = summary[:317].rsplit(" ", 1)[0] + "…"
 
         articles.append({
-            "id":        article_id(url),
-            "title":     title,
-            "summary":   summary,
-            "url":       url,
-            "source":    source["name"],
-            "region":    source["region"],
-            "crops":     crops,
-            "crop":      crops[0],          # primary crop (for filter)
-            "published": pub_dt.isoformat(),
-            "fetched":   datetime.now(timezone.utc).isoformat(),
+            "id":          article_id(url),
+            "title":       title,
+            "summary":     summary,
+            "url":         url,
+            "source":      source["name"],
+            "region":      source.get("region", "Global"),
+            "crops":       crops,
+            "crop":        category,          # primary category for filter
+            "is_concentrate": is_conc,
+            "published":   pub_dt.isoformat(),
+            "fetched":     datetime.now(timezone.utc).isoformat(),
         })
 
     return articles
 
 
 # =============================================================
-# NEWS STORE — load, merge, expire, save
+# NEWS STORE
 # =============================================================
 
 def load_existing() -> list[dict]:
@@ -294,15 +283,14 @@ def load_existing() -> list[dict]:
         return []
     try:
         with open(NEWS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return data.get("articles", [])
+            return json.load(f).get("articles", [])
     except Exception:
         return []
 
 
 def remove_expired(articles: list[dict]) -> list[dict]:
-    cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
-    kept = []
+    cutoff  = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
+    kept    = []
     expired = 0
     for a in articles:
         try:
@@ -314,9 +302,9 @@ def remove_expired(articles: list[dict]) -> list[dict]:
             else:
                 expired += 1
         except Exception:
-            kept.append(a)  # keep if date unreadable
+            kept.append(a)
     if expired:
-        print(f"  🗑  Removed {expired} expired article(s) older than {ARTICLE_TTL_DAYS} days.")
+        print(f"  🗑  Removed {expired} expired article(s).")
     return kept
 
 
@@ -329,7 +317,6 @@ def merge(existing: list[dict], new: list[dict]) -> list[dict]:
             existing_ids.add(article["id"])
             added += 1
 
-    # Sort newest first
     def pub_key(a):
         try:
             dt = datetime.fromisoformat(a["published"])
@@ -344,13 +331,13 @@ def merge(existing: list[dict], new: list[dict]) -> list[dict]:
 
 def save(articles: list[dict]):
     payload = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "article_count": len(articles),
-        "articles": articles,
+        "last_updated":   datetime.now(timezone.utc).isoformat(),
+        "article_count":  len(articles),
+        "articles":       articles,
     }
     with open(NEWS_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    print(f"  💾 Saved {len(articles)} articles to {NEWS_FILE}")
+    print(f"  💾 Saved {len(articles)} articles → {NEWS_FILE}")
 
 
 # =============================================================
@@ -360,38 +347,39 @@ def save(articles: list[dict]):
 def run():
     print("=" * 60)
     print(f"  📰 News Fetcher — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"  Rules: crops = global (no geo filter)")
+    print(f"         concentrates/juices = all fruits, global")
     print("=" * 60)
 
-    # 1. Load existing articles
     existing = load_existing()
-    print(f"  📂 Loaded {len(existing)} existing articles.")
-
-    # 2. Remove expired
+    print(f"  📂 {len(existing)} existing articles.")
     existing = remove_expired(existing)
 
-    # 3. Fetch all RSS feeds
     all_new = []
     for source in RSS_SOURCES:
-        print(f"\n  🌐 Fetching: {source['name']}...")
+        print(f"\n  🌐 {source['name']}...")
         fetched = fetch_feed(source)
-        print(f"     → {len(fetched)} relevant article(s) found.")
+        crops_found    = sum(1 for a in fetched if a["crops"])
+        conc_found     = sum(1 for a in fetched if a["is_concentrate"] and not a["crops"])
+        print(f"     → {len(fetched)} relevant ({crops_found} crop articles, {conc_found} concentrate/juice articles)")
         all_new.extend(fetched)
 
-    # 4. Merge and save
-    print(f"\n  🔀 Merging {len(all_new)} fetched with {len(existing)} existing...")
+    print(f"\n  🔀 Merging...")
     merged = merge(existing, all_new)
     save(merged)
 
-    # 5. Summary by crop
-    print("\n  📊 Articles by crop:")
+    # Summary
     from collections import Counter
-    crop_counts = Counter(crop for a in merged for crop in a["crops"])
-    for crop, count in sorted(crop_counts.items(), key=lambda x: -x[1]):
-        icon = {"sour cherry":"🍒","black currant":"🫐","red currant":"🔴",
-                "raspberry":"🫐","strawberry":"🍓","blueberry":"🫐",
-                "rhubarb":"🌿","elderberry":"🍇"}.get(crop,"🌱")
-        print(f"     {icon} {crop}: {count} article(s)")
+    print("\n  📊 Articles by category:")
+    cats = Counter(a["crop"] for a in merged)
+    icons = {"sour cherry":"🍒","black currant":"🫐","red currant":"🔴","raspberry":"🫐",
+             "strawberry":"🍓","blueberry":"🫐","rhubarb":"🌿","elderberry":"🍇",
+             "concentrate & juice":"🥤","general":"📰"}
+    for cat, count in sorted(cats.items(), key=lambda x: -x[1]):
+        print(f"     {icons.get(cat,'📰')} {cat}: {count}")
 
+    conc_total = sum(1 for a in merged if a.get("is_concentrate"))
+    print(f"\n  🥤 Concentrate/juice articles: {conc_total} of {len(merged)} total")
     print("\n  Done.\n")
     return merged
 
