@@ -5,7 +5,6 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
-# ── Give the workflow write permission to push news.json back ──
 permissions:
   contents: write
 
@@ -36,4 +35,5 @@ jobs:
           git config user.email "crop-monitor@users.noreply.github.com"
           git add news.json
           git diff --staged --quiet || git commit -m "chore: auto-update news.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git pull --rebase origin main
           git push
