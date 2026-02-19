@@ -68,7 +68,7 @@ RSS_SOURCES = [
     { "name": "GNews: Red Currant",
       "url": "https://news.google.com/rss/search?q=%22red+currant%22+OR+%22redcurrant%22+(harvest+OR+crop+OR+production+OR+price+OR+export)&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Raspberry",
-      "url": "https://news.google.com/rss/search?q=%22raspberry+crop%22+OR+%22raspberry+harvest%22+OR+%22raspberry+production%22+OR+%22raspberry+price%22+OR+%22frozen+raspberry%22+OR+%22raspberry+concentrate%22+OR+%22raspberry+export%22&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=(%22raspberry+crop%22+OR+%22raspberry+harvest%22+OR+%22raspberry+production%22+OR+%22raspberry+price%22+OR+%22frozen+raspberry%22+OR+%22raspberry+concentrate%22+OR+%22raspberry+export%22)+-raspberry+pi+-stock+-finance+-banking&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Strawberry",
       "url": "https://news.google.com/rss/search?q=%22strawberry+crop%22+OR+%22strawberry+harvest%22+OR+%22strawberry+production%22+OR+%22strawberry+price%22+OR+%22frozen+strawberry%22+OR+%22strawberry+export%22+OR+%22strawberry+grower%22&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Blueberry",
@@ -152,14 +152,21 @@ EXCLUSION_KEYWORDS = [
     "nurse", "nursing", "hospital", "patient", "medical", "clinical", "therapy",
     "diet tip", "smoothie recipe", "cocktail recipe", "dessert recipe",
     "beauty tip", "skin care", "skincare", "weight loss", "superfood",
-    # Finance unrelated
+    # Finance / banking — fruit crop names appearing in financial news
+    "stock surge", "stock rally", "stock price", "share price", "market rally",
+    "market cap", "ceo purchase", "banking & finance", "global banking",
+    "investment", "investor", "hedge fund", "private equity", "ipo",
     "stock market", "nasdaq", "nyse", "cryptocurrency", "bitcoin", "blockchain",
-    # Geography false positives for crop names used differently
+    "quarterly earnings", "annual report", "revenue",
+    # Non-food consumer products
     "raspberry ketone",   # weight loss supplement
     "strawberry blonde",  # hair color
     "strawberry moon",    # astronomy
     "strawberry shortcake",  # cartoon/dessert
     "elderflower",        # different product
+    # Tech & gadgets
+    "raspberry pi",       # repeated explicitly as catch-all
+    "software", "firmware", "hardware", "app store", "android", "ios",
 ]
 
 # Concentrate & juice keywords — any fruit, any country
