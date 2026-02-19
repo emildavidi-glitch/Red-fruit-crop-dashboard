@@ -58,22 +58,25 @@ RSS_SOURCES = [
     { "name": "Fruit Processing Mag",  "url": "https://www.fruit-processing.com/feed/" },
 
     # ── Google News: your 8 monitored crops — GLOBAL, no geo filter ──
+    # ── Crop-specific queries use EXACT PHRASES to avoid false positives ──
+    # "raspberry crop" not just "raspberry" — prevents Raspberry Pi results
+    # "strawberry harvest" not just "strawberry" — prevents lifestyle/recipe results
     { "name": "GNews: Sour Cherry",
-      "url": "https://news.google.com/rss/search?q=%22sour+cherry%22+OR+%22tart+cherry%22+OR+%22sauerkirsche%22&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22sour+cherry%22+OR+%22tart+cherry%22+OR+%22morello+cherry%22+(harvest+OR+crop+OR+production+OR+price+OR+export)&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Black Currant",
-      "url": "https://news.google.com/rss/search?q=%22black+currant%22+OR+%22blackcurrant%22+OR+%22cassis%22&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22black+currant%22+OR+%22blackcurrant%22+(harvest+OR+crop+OR+production+OR+price+OR+export+OR+concentrate)&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Red Currant",
-      "url": "https://news.google.com/rss/search?q=%22red+currant%22+OR+%22redcurrant%22&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22red+currant%22+OR+%22redcurrant%22+(harvest+OR+crop+OR+production+OR+price+OR+export)&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Raspberry",
-      "url": "https://news.google.com/rss/search?q=raspberry+OR+raspberries+crop+OR+harvest+OR+market&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22raspberry+crop%22+OR+%22raspberry+harvest%22+OR+%22raspberry+production%22+OR+%22raspberry+price%22+OR+%22frozen+raspberry%22+OR+%22raspberry+concentrate%22+OR+%22raspberry+export%22&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Strawberry",
-      "url": "https://news.google.com/rss/search?q=strawberry+OR+strawberries+crop+OR+harvest+OR+market&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22strawberry+crop%22+OR+%22strawberry+harvest%22+OR+%22strawberry+production%22+OR+%22strawberry+price%22+OR+%22frozen+strawberry%22+OR+%22strawberry+export%22+OR+%22strawberry+grower%22&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Blueberry",
-      "url": "https://news.google.com/rss/search?q=blueberry+OR+blueberries+crop+OR+harvest+OR+market&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22blueberry+crop%22+OR+%22blueberry+harvest%22+OR+%22blueberry+production%22+OR+%22blueberry+price%22+OR+%22frozen+blueberry%22+OR+%22blueberry+export%22&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Elderberry",
-      "url": "https://news.google.com/rss/search?q=elderberry+OR+elderberries+market+OR+harvest&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22elderberry+juice%22+OR+%22elderberry+extract%22+OR+%22elderberry+production%22+OR+%22elderberry+market%22+OR+%22sambucus+nigra%22&hl=en&gl=US&ceid=US:en" },
     { "name": "GNews: Rhubarb",
-      "url": "https://news.google.com/rss/search?q=rhubarb+harvest+OR+market+OR+production&hl=en&gl=US&ceid=US:en" },
+      "url": "https://news.google.com/rss/search?q=%22rhubarb+harvest%22+OR+%22rhubarb+production%22+OR+%22rhubarb+crop%22+OR+%22rhubarb+market%22&hl=en&gl=US&ceid=US:en" },
 
     # ── Google News: concentrates & juices — ANY fruit, GLOBAL ───
     # This is the new category: NFC, juice concentrate, frozen fruit,
@@ -100,24 +103,66 @@ RSS_SOURCES = [
 
 # Your 8 monitored crops — global, any country
 CROP_KEYWORDS = {
-    "sour cherry":   ["sour cherry", "tart cherry", "sauerkirsche", "vişne", "cerise acide",
-                      "kiraz", "višnja"],
+    # ── Use EXACT / highly specific phrases to avoid false positives ──
+    # "raspberry" alone matches "Raspberry Pi" — require agricultural context IN the keyword itself
+    "sour cherry":   ["sour cherry", "tart cherry", "sauerkirsche", "vişne", "višnja",
+                      "morello cherry", "amarelle", "griotte"],
     "black currant": ["black currant", "blackcurrant", "schwarze johannisbeere", "cassis",
-                      "ribis nigrum", "czarna porzeczka"],
+                      "ribis nigrum", "czarna porzeczka", "blackcurrant crop", "blackcurrant harvest"],
     "red currant":   ["red currant", "redcurrant", "rote johannisbeere", "czerwona porzeczka"],
-    "raspberry":     ["raspberry", "raspberries", "himbeere", "framboise", "ahududu",
-                      "malina", "maline"],
-    "strawberry":    ["strawberry", "strawberries", "erdbeere", "fraise", "çilek",
-                      "truskawka", "jagoda"],
-    "blueberry":     ["blueberry", "blueberries", "heidelbeere", "myrtille", "borówka",
-                      "yabaní mersini"],
-    "rhubarb":       ["rhubarb", "rhabarber", "rhubarbe", "rabarbar"],
-    "elderberry":    ["elderberry", "elderberries", "holunder", "sureau", "mürver",
-                      "czarny bez", "sambucus"],
+    "raspberry":     ["raspberry crop", "raspberry harvest", "raspberry production", "raspberry grower",
+                      "raspberry yield", "raspberry season", "raspberry export", "raspberry import",
+                      "raspberry price", "raspberry market", "raspberry supply", "raspberry freeze",
+                      "frozen raspberry", "raspberry concentrate", "raspberry juice",
+                      "raspberry acreage", "raspberry farm", "raspberry plantation",
+                      "himbeere", "framboise", "ahududu", "malina", "maline",
+                      "raspberries crop", "raspberries harvest", "raspberries market"],
+    "strawberry":    ["strawberry crop", "strawberry harvest", "strawberry production",
+                      "strawberry grower", "strawberry yield", "strawberry season",
+                      "strawberry export", "strawberry import", "strawberry price",
+                      "strawberry market", "strawberry supply", "strawberry plantation",
+                      "strawberry acreage", "strawberry farm", "strawberry freeze",
+                      "frozen strawberry", "strawberry concentrate", "strawberry juice",
+                      "erdbeere", "fraise", "çilek", "truskawka",
+                      "strawberries crop", "strawberries harvest", "strawberries market",
+                      "huelva strawberr", "egypt strawberr", "turkey strawberr"],
+    "blueberry":     ["blueberry crop", "blueberry harvest", "blueberry production",
+                      "blueberry grower", "blueberry yield", "blueberry season",
+                      "blueberry export", "blueberry import", "blueberry price",
+                      "blueberry market", "blueberry supply", "blueberry plantation",
+                      "frozen blueberry", "blueberry concentrate", "blueberry juice",
+                      "heidelbeere", "myrtille", "borówka",
+                      "blueberries crop", "blueberries harvest", "blueberries market"],
+    "rhubarb":       ["rhubarb crop", "rhubarb harvest", "rhubarb production",
+                      "rhubarb market", "rhubarb season", "rhubarb grower",
+                      "rhabarber", "rhubarbe", "rabarbar"],
+    "elderberry":    ["elderberry crop", "elderberry harvest", "elderberry production",
+                      "elderberry market", "elderberry juice", "elderberry extract",
+                      "elderberry concentrate", "elderberry supply", "sambucus nigra",
+                      "holunder", "sureau", "czarny bez"],
 }
 
+# ── HARD EXCLUSION — if ANY of these appear in title or summary, REJECT the article ──
+# Prevents false positives like Raspberry Pi, nursing strawberry, cocktail recipes, etc.
+EXCLUSION_KEYWORDS = [
+    # Tech false positives
+    "raspberry pi", "raspberrypi", "raspberry pi 4", "raspberry pi 5",
+    "raspberry pi zero", "raspberry pi pico",
+    # Medical / nursing
+    "nurse", "nursing", "hospital", "patient", "medical", "clinical", "therapy",
+    "diet tip", "smoothie recipe", "cocktail recipe", "dessert recipe",
+    "beauty tip", "skin care", "skincare", "weight loss", "superfood",
+    # Finance unrelated
+    "stock market", "nasdaq", "nyse", "cryptocurrency", "bitcoin", "blockchain",
+    # Geography false positives for crop names used differently
+    "raspberry ketone",   # weight loss supplement
+    "strawberry blonde",  # hair color
+    "strawberry moon",    # astronomy
+    "strawberry shortcake",  # cartoon/dessert
+    "elderflower",        # different product
+]
+
 # Concentrate & juice keywords — any fruit, any country
-# An article matching ANY of these is included regardless of crop mention
 CONCENTRATE_KEYWORDS = [
     "fruit concentrate", "juice concentrate", "not from concentrate", "NFC juice",
     "NFC berry", "IQF fruit", "frozen fruit market", "frozen berry",
@@ -127,15 +172,20 @@ CONCENTRATE_KEYWORDS = [
     "blueberry concentrate", "elderberry concentrate", "elderberry juice",
     "orange juice concentrate", "FCOJ", "apple juice concentrate",
     "fruit puree", "aseptic fruit", "drum concentrate",
-    "Brix", "degrees brix",   # trade term for concentrate sugar content
+    "Brix", "degrees brix",
 ]
 
-# General context — article needs this if it only matches a crop (not concentrate)
+# Agricultural context — at least ONE must appear alongside a crop mention
+# Much stricter than before — rules out tech, medical, lifestyle articles
 CONTEXT_KEYWORDS = [
-    "harvest", "crop", "production", "season", "export", "import",
-    "price", "market", "supply", "demand", "frost", "yield", "grower",
-    "processor", "shortage", "surplus", "outlook", "forecast",
-    "acreage", "plantation", "orchard", "berry", "fruit",
+    "harvest", "crop", "production", "orchard", "plantation", "acreage",
+    "grower", "farmer", "producer", "processor", "packhouse",
+    "export", "import", "shipment", "trade",
+    "frost", "freeze", "cold snap", "drought", "yield loss",
+    "supply", "shortage", "surplus", "inventory", "stock",
+    "price", "market price", "spot price", "wholesale",
+    "season outlook", "crop forecast", "production forecast",
+    "berry industry", "fruit industry", "agri",
 ]
 
 # =============================================================
@@ -154,15 +204,28 @@ def detect_concentrate(text: str) -> bool:
     return any(kw.lower() in t for kw in CONCENTRATE_KEYWORDS)
 
 
+def is_excluded(text: str) -> bool:
+    """Return True if article matches any hard exclusion rule — must be rejected."""
+    t = text.lower()
+    return any(kw.lower() in t for kw in EXCLUSION_KEYWORDS)
+
+
 def is_relevant(text: str) -> bool:
     """
-    Include article if:
-      (a) mentions one of our 8 crops  AND  a context keyword  [no geo filter]
+    Include article ONLY if:
+      (a) NOT excluded by hard exclusion list (Raspberry Pi, nursing, recipes etc.)
+      AND
+      (b1) mentions one of our 8 crops via SPECIFIC agricultural phrases
+           AND at least one agricultural context keyword
       OR
-      (b) mentions concentrates/juices/frozen fruit  [any fruit, any country]
+      (b2) mentions concentrates/juices/frozen fruit trade keywords
+           AND not excluded
     """
+    if is_excluded(text):
+        return False
+
     has_crop        = bool(detect_crops(text))
-    has_context     = any(kw in text.lower() for kw in CONTEXT_KEYWORDS)
+    has_context     = any(kw.lower() in text.lower() for kw in CONTEXT_KEYWORDS)
     has_concentrate = detect_concentrate(text)
 
     return (has_crop and has_context) or has_concentrate
