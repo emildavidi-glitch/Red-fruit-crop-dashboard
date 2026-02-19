@@ -33,7 +33,7 @@ except ImportError:
 # =============================================================
 
 NEWS_FILE = Path(__file__).parent / "news.json"
-ARTICLE_TTL_DAYS = 7       # Articles older than this are removed
+ARTICLE_TTL_DAYS = 14      # Articles older than this are removed
 MAX_ARTICLES = 40          # Maximum total articles to keep
 REQUEST_TIMEOUT = 15       # Seconds before giving up on a feed
 
@@ -250,6 +250,14 @@ def fetch_feed(source: dict) -> list[dict]:
 
         if not title or not url:
             continue
+
+        # ── Skip articles older than 14 days ──────────────────
+        age_cutoff = datetime.now(timezone.utc) - timedelta(days=14)
+        if pub_dt.tzinfo is None:
+            pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+        if pub_dt < age_cutoff:
+            continue
+
         if not is_relevant(full_text):
             continue
 
