@@ -1,49 +1,35 @@
-# =============================================================
-# .github/workflows/fetch-news.yml
-#
-# GitHub Actions workflow — runs news_fetcher.py every 24 hours
-# automatically on GitHub's servers (FREE, no PC needed).
-#
-# It fetches fresh articles, saves news.json, and commits it
-# back to the repo so the dashboard always has live news.
-# =============================================================
-
 name: Fetch Crop News Daily
 
 on:
   schedule:
-    # Runs every day at 06:00 UTC (08:00 German time / CET+1)
     - cron: '0 6 * * *'
-
-  # Also allows you to trigger manually from GitHub Actions tab
   workflow_dispatch:
+
+# ── Give the workflow write permission to push news.json back ──
+permissions:
+  contents: write
 
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Check out your repository
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Set up Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # 3. Install dependencies
       - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml
 
-      # 4. Run the news fetcher
       - name: Fetch latest crop news
         run: python news_fetcher.py
 
-      # 5. Commit and push news.json back to the repo
-      #    The dashboard reads this file to show live articles
       - name: Commit updated news.json
         run: |
           git config user.name  "Crop Monitor Bot"
