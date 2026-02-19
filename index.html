@@ -3,150 +3,235 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Red Fruit Crop Monitor</title>
+<title>Red Fruit DSS · Decision Support System</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --red: #C0392B; --red-deep: #7B1A12; --red-light: #E74C3C;
-    --cream: #FAF6F0; --charcoal: #1C1C1C; --mid: #5C5C5C;
-    --light: #A8A8A8; --border: #E8DDD5; --card-bg: #FFFFFF;
-    --risk-low: #27AE60; --risk-med: #F39C12; --risk-high: #E74C3C; --risk-critical: #7B1A12;
-    --shadow: 0 2px 20px rgba(28,28,28,0.08);
+    --red:#C0392B; --red-deep:#7B1A12; --red-light:#E74C3C;
+    --cream:#FAF6F0; --charcoal:#1C1C1C; --mid:#5C5C5C;
+    --light:#A8A8A8; --border:#E8DDD5; --card-bg:#FFFFFF;
+    --risk-safe:#27AE60; --risk-watch:#F39C12; --risk-risk:#E74C3C;
+    --risk-critical:#7B1A12; --risk-catastrophic:#000000;
+    --shadow:0 2px 20px rgba(28,28,28,0.08);
+    --sim:#6C3483;
   }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--cream); font-family:'IBM Plex Sans',sans-serif; color:var(--charcoal); }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);font-family:'IBM Plex Sans',sans-serif;color:var(--charcoal);}
 
   /* HEADER */
-  header { background:var(--charcoal); color:var(--cream); padding:0 40px; display:flex; align-items:center; justify-content:space-between; height:70px; border-bottom:3px solid var(--red); position:sticky; top:0; z-index:100; }
-  .logo { display:flex; align-items:center; gap:14px; }
-  .logo-icon { width:36px; height:36px; background:var(--red); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:18px; }
-  .logo-text { font-family:'Playfair Display',serif; font-size:1.2rem; font-weight:700; }
-  .logo-sub { font-family:'IBM Plex Mono',monospace; font-size:0.65rem; color:var(--light); letter-spacing:0.15em; text-transform:uppercase; margin-top:1px; }
-  .header-right { display:flex; align-items:center; gap:16px; }
-  #last-updated { font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--light); }
-  .refresh-btn { background:var(--red); color:white; border:none; padding:8px 18px; border-radius:4px; font-family:'IBM Plex Mono',monospace; font-size:0.75rem; cursor:pointer; transition:background 0.2s; }
-  .refresh-btn:hover { background:var(--red-light); }
+  header{background:var(--charcoal);color:var(--cream);padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:64px;border-bottom:3px solid var(--red);position:sticky;top:0;z-index:200;}
+  .logo{display:flex;align-items:center;gap:12px;}
+  .logo-icon{width:34px;height:34px;background:var(--red);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:17px;}
+  .logo-text{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;}
+  .logo-sub{font-family:'IBM Plex Mono',monospace;font-size:0.6rem;color:var(--light);letter-spacing:.15em;text-transform:uppercase;margin-top:1px;}
+  .header-right{display:flex;align-items:center;gap:12px;}
+  #last-updated{font-family:'IBM Plex Mono',monospace;font-size:0.65rem;color:var(--light);}
+  .refresh-btn{background:var(--red);color:white;border:none;padding:7px 16px;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:0.7rem;cursor:pointer;transition:background .2s;}
+  .refresh-btn:hover{background:var(--red-light);}
 
-  /* ALERT BANNER */
-  #alert-banner { display:none; background:var(--risk-critical); color:white; padding:10px 40px; font-family:'IBM Plex Mono',monospace; font-size:0.8rem; animation:pulse-bg 2s infinite; }
-  @keyframes pulse-bg { 0%,100%{background:var(--risk-critical)}50%{background:var(--red-light)} }
-
-  /* SEASON BANNER */
-  #season-banner { background:linear-gradient(135deg,var(--red-deep),var(--red)); color:white; padding:12px 40px; display:flex; align-items:center; justify-content:space-between; }
-  .season-label { font-family:'IBM Plex Mono',monospace; font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; opacity:0.8; }
-  .season-status { font-family:'Playfair Display',serif; font-size:1rem; font-weight:700; }
-  .season-tip { font-size:0.78rem; opacity:0.85; max-width:480px; text-align:right; }
+  /* BANNERS */
+  #alert-banner{display:none;background:var(--risk-critical);color:white;padding:9px 32px;font-family:'IBM Plex Mono',monospace;font-size:0.78rem;animation:pulse-bg 2s infinite;z-index:190;}
+  @keyframes pulse-bg{0%,100%{background:var(--risk-critical)}50%{background:var(--red-light)}}
+  #market-alert{display:none;background:#6C3483;color:white;padding:8px 32px;font-family:'IBM Plex Mono',monospace;font-size:0.75rem;}
+  #season-banner{background:linear-gradient(135deg,var(--red-deep),var(--red));color:white;padding:11px 32px;display:flex;align-items:center;justify-content:space-between;}
+  .season-label{font-family:'IBM Plex Mono',monospace;font-size:0.65rem;letter-spacing:.12em;text-transform:uppercase;opacity:.8;}
+  .season-status{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700;}
+  .season-tip{font-size:.75rem;opacity:.85;max-width:460px;text-align:right;}
 
   /* TABS */
-  .tabs { display:flex; background:var(--charcoal); padding:0 40px; border-bottom:1px solid #333; }
-  .tab-btn { padding:14px 24px; font-family:'IBM Plex Mono',monospace; font-size:0.75rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--light); background:none; border:none; cursor:pointer; border-bottom:3px solid transparent; transition:all 0.2s; }
-  .tab-btn.active { color:white; border-bottom-color:var(--red); }
-  .tab-btn:hover:not(.active) { color:#ccc; }
-  .tab-content { display:none; }
-  .tab-content.active { display:block; }
+  .tabs{display:flex;background:var(--charcoal);padding:0 32px;border-bottom:1px solid #333;}
+  .tab-btn{padding:13px 22px;font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--light);background:none;border:none;cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;}
+  .tab-btn.active{color:white;border-bottom-color:var(--red);}
+  .tab-btn:hover:not(.active){color:#ccc;}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;}
 
-  /* MAIN */
-  main { padding:28px 40px; max-width:1400px; margin:0 auto; }
+  /* LAYOUT */
+  .page-wrap{display:flex;gap:0;}
+  .main-col{flex:1;min-width:0;}
+  main{padding:24px 32px;max-width:1300px;margin:0 auto;}
+
+  /* SIM PANEL */
+  .sim-panel{width:280px;min-height:100vh;background:#F3EEF9;border-left:2px solid #D7C9EE;padding:20px 16px;flex-shrink:0;}
+  .sim-panel h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--sim);margin-bottom:4px;}
+  .sim-subtitle{font-family:'IBM Plex Mono',monospace;font-size:0.6rem;color:#8E44AD;margin-bottom:16px;text-transform:uppercase;letter-spacing:.08em;}
+  .sim-region-row{margin-bottom:12px;}
+  .sim-region-label{font-family:'IBM Plex Mono',monospace;font-size:0.62rem;color:var(--charcoal);margin-bottom:4px;font-weight:500;}
+  .sim-input{width:100%;padding:5px 8px;border:1.5px solid #D7C9EE;border-radius:5px;font-family:'IBM Plex Mono',monospace;font-size:0.75rem;background:white;color:var(--charcoal);}
+  .sim-input:focus{outline:none;border-color:var(--sim);}
+  .sim-apply-btn{width:100%;margin-top:14px;padding:9px;background:var(--sim);color:white;border:none;border-radius:6px;font-family:'IBM Plex Mono',monospace;font-size:0.72rem;cursor:pointer;letter-spacing:.05em;}
+  .sim-apply-btn:hover{background:#5B2C6F;}
+  .sim-clear-btn{width:100%;margin-top:6px;padding:7px;background:white;color:var(--sim);border:1.5px solid #D7C9EE;border-radius:6px;font-family:'IBM Plex Mono',monospace;font-size:0.68rem;cursor:pointer;}
+  .sim-active-badge{background:#EDD7F5;color:var(--sim);font-family:'IBM Plex Mono',monospace;font-size:0.6rem;padding:2px 8px;border-radius:10px;margin-bottom:10px;display:none;}
+  .sim-note{font-size:0.67rem;color:#8E44AD;margin-top:12px;line-height:1.5;}
 
   /* SUMMARY ROW */
-  .summary-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:26px; }
-  .summary-card { background:var(--card-bg); border-radius:8px; padding:18px 20px; box-shadow:var(--shadow); border-top:3px solid transparent; transition:transform 0.2s, box-shadow 0.2s, background 0.2s; cursor:pointer; user-select:none; }
-  .summary-card:hover { transform:translateY(-2px); box-shadow:0 6px 24px rgba(28,28,28,0.14); }
-  .summary-card.safe { border-top-color:var(--risk-low); } .summary-card.watch { border-top-color:var(--risk-med); }
-  .summary-card.risk { border-top-color:var(--risk-high); } .summary-card.critical { border-top-color:var(--risk-critical); }
-  .summary-card.active-filter.safe { background:#F0FFF4; } .summary-card.active-filter.watch { background:#FFFBF0; }
-  .summary-card.active-filter.risk { background:#FFF5F5; } .summary-card.active-filter.critical { background:#FFF0EE; }
-  .summary-card .click-hint { font-family:'IBM Plex Mono',monospace; font-size:0.58rem; color:var(--light); margin-top:6px; letter-spacing:0.05em; }
-  .summary-card.active-filter .click-hint { color:var(--mid); font-weight:500; }
-  .summary-num { font-family:'Playfair Display',serif; font-size:2rem; font-weight:900; line-height:1; }
-  .summary-card.safe .summary-num{color:var(--risk-low)} .summary-card.watch .summary-num{color:var(--risk-med)}
-  .summary-card.risk .summary-num{color:var(--risk-high)} .summary-card.critical .summary-num{color:var(--risk-critical)}
-  .summary-desc { font-size:0.75rem; color:var(--mid); margin-top:5px; font-weight:500; }
+  .summary-row{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:22px;}
+  .summary-card{background:var(--card-bg);border-radius:8px;padding:15px 16px;box-shadow:var(--shadow);border-top:3px solid transparent;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;user-select:none;}
+  .summary-card:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(28,28,28,.14);}
+  .summary-card.safe{border-top-color:var(--risk-safe);}
+  .summary-card.watch{border-top-color:var(--risk-watch);}
+  .summary-card.risk{border-top-color:var(--risk-risk);}
+  .summary-card.critical{border-top-color:var(--risk-critical);}
+  .summary-card.catastrophic{border-top-color:var(--risk-catastrophic);}
+  .summary-card.active-filter.safe{background:#F0FFF4;}
+  .summary-card.active-filter.watch{background:#FFFBF0;}
+  .summary-card.active-filter.risk{background:#FFF5F5;}
+  .summary-card.active-filter.critical{background:#FFF0EE;}
+  .summary-card.active-filter.catastrophic{background:#F0F0F0;}
+  .summary-card .click-hint{font-family:'IBM Plex Mono',monospace;font-size:0.55rem;color:var(--light);margin-top:5px;}
+  .summary-card.active-filter .click-hint{color:var(--mid);font-weight:500;}
+  .summary-num{font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:900;line-height:1;}
+  .summary-card.safe .summary-num{color:var(--risk-safe);}
+  .summary-card.watch .summary-num{color:var(--risk-watch);}
+  .summary-card.risk .summary-num{color:var(--risk-risk);}
+  .summary-card.critical .summary-num{color:var(--risk-critical);}
+  .summary-card.catastrophic .summary-num{color:var(--risk-catastrophic);}
+  .summary-desc{font-size:0.72rem;color:var(--mid);margin-top:4px;font-weight:500;}
+
+  /* MARKET SENTIMENT */
+  .mkt-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:22px;}
+  .mkt-card{background:var(--card-bg);border-radius:8px;padding:14px 16px;box-shadow:var(--shadow);border:1px solid var(--border);}
+  .mkt-label{font-family:'IBM Plex Mono',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:6px;}
+  .mkt-value{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;}
+  .mkt-value.low{color:var(--risk-safe);}
+  .mkt-value.medium{color:var(--risk-watch);}
+  .mkt-value.high{color:var(--risk-risk);}
+  .mkt-value.extreme{color:var(--risk-critical);}
+  .mkt-sub{font-size:0.68rem;color:var(--mid);margin-top:4px;}
 
   /* FILTER BAR */
-  .filter-bar { display:flex; gap:10px; margin-bottom:24px; flex-wrap:wrap; align-items:center; }
-  .filter-label { font-family:'IBM Plex Mono',monospace; font-size:0.7rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--mid); }
-  .filter-btn { padding:6px 16px; border:1.5px solid var(--border); background:white; border-radius:20px; font-family:'IBM Plex Mono',monospace; font-size:0.7rem; cursor:pointer; transition:all 0.2s; color:var(--mid); }
-  .filter-btn.active { background:var(--charcoal); color:white; border-color:var(--charcoal); }
-  .filter-btn:hover:not(.active) { border-color:var(--red); color:var(--red); }
+  .filter-bar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;align-items:center;}
+  .filter-label{font-family:'IBM Plex Mono',monospace;font-size:0.65rem;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  .filter-btn{padding:5px 14px;border:1.5px solid var(--border);background:white;border-radius:20px;font-family:'IBM Plex Mono',monospace;font-size:0.65rem;cursor:pointer;transition:all .2s;color:var(--mid);}
+  .filter-btn.active{background:var(--charcoal);color:white;border-color:var(--charcoal);}
+  .filter-btn:hover:not(.active){border-color:var(--red);color:var(--red);}
 
   /* SECTION TITLE */
-  .section-title { font-family:'Playfair Display',serif; font-size:1.3rem; font-weight:700; margin-bottom:14px; display:flex; align-items:center; gap:10px; }
-  .section-title::after { content:''; flex:1; height:1px; background:var(--border); }
+  .section-title{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:13px;display:flex;align-items:center;gap:10px;}
+  .section-title::after{content:'';flex:1;height:1px;background:var(--border);}
 
   /* REGION GRID */
-  .region-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:18px; margin-bottom:36px; }
-  .region-card { background:var(--card-bg); border-radius:10px; box-shadow:var(--shadow); overflow:hidden; transition:transform 0.2s,box-shadow 0.2s; border:1px solid var(--border); }
-  .region-card:hover { transform:translateY(-3px); box-shadow:0 8px 30px rgba(28,28,28,0.14); }
-  .region-header { padding:14px 18px 12px; display:flex; justify-content:space-between; align-items:flex-start; border-bottom:1px solid var(--border); }
-  .region-name { font-family:'Playfair Display',serif; font-size:1rem; font-weight:700; }
-  .region-country { font-family:'IBM Plex Mono',monospace; font-size:0.62rem; color:var(--light); letter-spacing:0.1em; text-transform:uppercase; margin-top:2px; }
-  .risk-badge { padding:3px 10px; border-radius:10px; font-family:'IBM Plex Mono',monospace; font-size:0.62rem; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:white; }
-  .risk-badge.safe{background:var(--risk-low)} .risk-badge.watch{background:var(--risk-med)}
-  .risk-badge.risk{background:var(--risk-high)} .risk-badge.critical{background:var(--risk-critical)}
-  .region-body { padding:14px 18px; }
-  .weather-row { display:flex; gap:10px; margin-bottom:12px; }
-  .weather-stat { flex:1; text-align:center; padding:8px 4px; background:var(--cream); border-radius:6px; }
-  .weather-stat-val { font-family:'IBM Plex Mono',monospace; font-size:1rem; font-weight:500; }
-  .weather-stat-label { font-size:0.6rem; color:var(--light); text-transform:uppercase; letter-spacing:0.08em; margin-top:2px; }
-  .frost-warning { background:#FFF3F3; border:1px solid #FFCCCC; border-radius:6px; padding:7px 10px; font-size:0.72rem; color:var(--risk-critical); font-weight:500; margin-bottom:8px; }
-  .crops-row { display:flex; flex-wrap:wrap; gap:5px; margin-top:8px; }
-  .crop-tag { padding:3px 9px; border-radius:10px; font-size:0.65rem; font-family:'IBM Plex Mono',monospace; background:var(--cream); border:1px solid var(--border); color:var(--mid); }
-  .crop-tag.affected { background:#FFF0EE; border-color:var(--red-light); color:var(--red); }
-  .forecast-strip { display:flex; gap:5px; margin-top:10px; padding-top:10px; border-top:1px solid var(--border); }
-  .forecast-day { flex:1; text-align:center; padding:5px 3px; border-radius:5px; background:var(--cream); }
-  .forecast-day.frost-day { background:#FFF0EE; border:1px solid #FFCCCC; }
-  .forecast-day-name { font-family:'IBM Plex Mono',monospace; font-size:0.58rem; color:var(--light); text-transform:uppercase; }
-  .forecast-icon { font-size:0.9rem; margin:2px 0; }
-  .forecast-temp { font-family:'IBM Plex Mono',monospace; font-size:0.68rem; font-weight:500; }
-  .forecast-temp.cold { color:var(--risk-high); }
-  .loading-overlay { display:flex; align-items:center; justify-content:center; padding:50px; color:var(--mid); font-family:'IBM Plex Mono',monospace; font-size:0.85rem; }
-  .spinner { width:18px; height:18px; border:2px solid var(--border); border-top-color:var(--red); border-radius:50%; animation:spin 0.8s linear infinite; margin-right:10px; }
+  .region-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:32px;}
+  .region-card{background:var(--card-bg);border-radius:10px;box-shadow:var(--shadow);overflow:hidden;transition:transform .2s,box-shadow .2s;border:1px solid var(--border);cursor:pointer;}
+  .region-card:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(28,28,28,.14);}
+  .region-card.simulated{border:2px solid var(--sim);}
+  .region-header{padding:13px 16px 11px;display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid var(--border);}
+  .region-name{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700;}
+  .region-country{font-family:'IBM Plex Mono',monospace;font-size:0.58rem;color:var(--light);letter-spacing:.1em;text-transform:uppercase;margin-top:2px;}
+  .risk-badge{padding:3px 9px;border-radius:10px;font-family:'IBM Plex Mono',monospace;font-size:0.58rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:white;}
+  .risk-badge.safe{background:var(--risk-safe);}
+  .risk-badge.watch{background:var(--risk-watch);}
+  .risk-badge.risk{background:var(--risk-risk);}
+  .risk-badge.critical{background:var(--risk-critical);}
+  .risk-badge.catastrophic{background:var(--risk-catastrophic);}
+  .region-body{padding:13px 16px;}
+  .weather-row{display:flex;gap:8px;margin-bottom:10px;}
+  .weather-stat{flex:1;text-align:center;padding:7px 3px;background:var(--cream);border-radius:6px;}
+  .weather-stat-val{font-family:'IBM Plex Mono',monospace;font-size:.92rem;font-weight:500;}
+  .weather-stat-label{font-size:0.55rem;color:var(--light);text-transform:uppercase;letter-spacing:.08em;margin-top:2px;}
+  .frost-warning{background:#FFF3F3;border:1px solid #FFCCCC;border-radius:6px;padding:6px 9px;font-size:0.68rem;color:var(--risk-critical);font-weight:500;margin-bottom:7px;}
+  .frost-warning.catastrophic{background:#1a1a1a;color:#ff6b6b;border-color:#ff6b6b;}
+  .t50-warning{background:#FFF0EE;border:1px solid #FFAAAA;border-radius:6px;padding:5px 9px;font-size:0.65rem;color:#8B0000;margin-bottom:5px;}
+  .crops-row{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px;}
+  .crop-tag{padding:2px 8px;border-radius:10px;font-size:0.6rem;font-family:'IBM Plex Mono',monospace;background:var(--cream);border:1px solid var(--border);color:var(--mid);}
+  .crop-tag.affected{background:#FFF0EE;border-color:var(--red-light);color:var(--red);}
+  .forecast-strip{display:flex;gap:4px;margin-top:9px;padding-top:9px;border-top:1px solid var(--border);}
+  .forecast-day{flex:1;text-align:center;padding:4px 2px;border-radius:5px;background:var(--cream);}
+  .forecast-day.frost-day{background:#FFF0EE;border:1px solid #FFCCCC;}
+  .forecast-day.t50-day{background:#FFE0E0;border:1px solid #FF8888;}
+  .forecast-day-name{font-family:'IBM Plex Mono',monospace;font-size:0.53rem;color:var(--light);text-transform:uppercase;}
+  .forecast-icon{font-size:.85rem;margin:2px 0;}
+  .forecast-temp{font-family:'IBM Plex Mono',monospace;font-size:.63rem;font-weight:500;}
+  .forecast-temp.cold{color:var(--risk-risk);}
+  .forecast-temp.very-cold{color:var(--risk-critical);}
+  .phenology-bar{margin-top:8px;padding-top:8px;border-top:1px solid var(--border);}
+  .phenology-label{font-family:'IBM Plex Mono',monospace;font-size:0.55rem;color:var(--light);text-transform:uppercase;margin-bottom:3px;}
+  .phenology-track{height:6px;background:#eee;border-radius:3px;overflow:hidden;}
+  .phenology-fill{height:100%;border-radius:3px;transition:width .5s;}
+  .gdd-text{font-family:'IBM Plex Mono',monospace;font-size:0.6rem;color:var(--mid);margin-top:3px;}
+  .price-pressure-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-family:'IBM Plex Mono',monospace;font-size:0.58rem;font-weight:500;margin-top:6px;}
+  .price-pressure-badge.low{background:#E8F8F5;color:#1E8449;}
+  .price-pressure-badge.medium{background:#FEF9E7;color:#9A7D0A;}
+  .price-pressure-badge.high{background:#FDEDEC;color:#C0392B;}
+  .price-pressure-badge.extreme{background:#1a1a1a;color:#FF6B6B;}
+  .loading-overlay{display:flex;align-items:center;justify-content:center;padding:50px;color:var(--mid);font-family:'IBM Plex Mono',monospace;font-size:.82rem;}
+  .spinner{width:17px;height:17px;border:2px solid var(--border);border-top-color:var(--red);border-radius:50%;animation:spin .8s linear infinite;margin-right:9px;}
   @keyframes spin{to{transform:rotate(360deg)}}
 
   /* RISK TABLE */
-  .risk-table-wrap { background:var(--card-bg); border-radius:10px; box-shadow:var(--shadow); overflow:hidden; border:1px solid var(--border); margin-bottom:36px; }
-  table { width:100%; border-collapse:collapse; }
-  thead { background:var(--charcoal); color:white; }
-  th { padding:12px 18px; text-align:left; font-family:'IBM Plex Mono',monospace; font-size:0.68rem; letter-spacing:0.1em; text-transform:uppercase; }
-  td { padding:11px 18px; font-size:0.8rem; border-bottom:1px solid var(--border); }
-  tr:last-child td { border-bottom:none; }
-  tr:hover td { background:var(--cream); }
-  .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:6px; }
-  .dot.safe{background:var(--risk-low)} .dot.watch{background:var(--risk-med)}
-  .dot.risk{background:var(--risk-high)} .dot.critical{background:var(--risk-critical)}
+  .risk-table-wrap{background:var(--card-bg);border-radius:10px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--border);margin-bottom:32px;}
+  table{width:100%;border-collapse:collapse;}
+  thead{background:var(--charcoal);color:white;}
+  th{padding:11px 16px;text-align:left;font-family:'IBM Plex Mono',monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;}
+  td{padding:10px 16px;font-size:.77rem;border-bottom:1px solid var(--border);}
+  tr:last-child td{border-bottom:none;}
+  tr:hover td{background:var(--cream);}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;}
+  .dot.safe{background:var(--risk-safe);}
+  .dot.watch{background:var(--risk-watch);}
+  .dot.risk{background:var(--risk-risk);}
+  .dot.critical{background:var(--risk-critical);}
+  .dot.catastrophic{background:var(--risk-catastrophic);}
+  .legend{display:flex;gap:18px;margin-bottom:14px;flex-wrap:wrap;}
+  .legend-item{display:flex;align-items:center;gap:6px;font-size:.72rem;color:var(--mid);font-family:'IBM Plex Mono',monospace;}
 
-  /* LEGEND */
-  .legend { display:flex; gap:20px; margin-bottom:16px; flex-wrap:wrap; }
-  .legend-item { display:flex; align-items:center; gap:7px; font-size:0.75rem; color:var(--mid); font-family:'IBM Plex Mono',monospace; }
+  /* MODAL */
+  .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;align-items:center;justify-content:center;}
+  .modal-overlay.open{display:flex;}
+  .modal{background:white;border-radius:12px;padding:24px;width:460px;max-width:95vw;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+  .modal-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;}
+  .modal-title{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;}
+  .modal-close{background:none;border:none;font-size:1.3rem;cursor:pointer;color:var(--mid);line-height:1;}
+  .modal-chart-wrap{position:relative;height:180px;margin-bottom:14px;}
+  .modal-stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px;}
+  .modal-stat{background:var(--cream);border-radius:6px;padding:8px;text-align:center;}
+  .modal-stat-val{font-family:'IBM Plex Mono',monospace;font-size:1rem;font-weight:500;}
+  .modal-stat-label{font-size:0.58rem;color:var(--light);text-transform:uppercase;margin-top:2px;}
+  .modal-alerts{margin-top:10px;}
+  .modal-alert-item{background:#FFF3F3;border-left:3px solid var(--red);padding:7px 10px;margin-bottom:6px;font-size:0.72rem;border-radius:0 4px 4px 0;}
+  .modal-t-thresholds{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;}
+  .threshold-card{border-radius:6px;padding:8px 10px;font-family:'IBM Plex Mono',monospace;font-size:0.65rem;}
+  .threshold-card.t10{background:#FFF8F0;border:1px solid #FFDDAA;color:#9A5800;}
+  .threshold-card.t50{background:#FFF0EE;border:1px solid #FFAAAA;color:#8B0000;}
+  .threshold-label{font-size:0.55rem;text-transform:uppercase;letter-spacing:.08em;opacity:.7;margin-bottom:2px;}
+  .threshold-val{font-size:0.9rem;font-weight:700;}
 
   /* NEWS TAB */
-  .news-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; }
-  .news-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:18px; margin-bottom:30px; }
-  .news-card { background:var(--card-bg); border-radius:10px; box-shadow:var(--shadow); overflow:hidden; border:1px solid var(--border); transition:transform 0.2s,box-shadow 0.2s; }
-  .news-card:hover { transform:translateY(-3px); box-shadow:0 8px 30px rgba(28,28,28,0.14); }
-  .news-card-header { padding:12px 16px 10px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; }
-  .news-crop-tag { padding:3px 10px; border-radius:10px; font-family:'IBM Plex Mono',monospace; font-size:0.62rem; background:#FFF0EE; color:var(--red); border:1px solid #FFCCCC; }
-  .news-source { font-family:'IBM Plex Mono',monospace; font-size:0.6rem; color:var(--light); }
-  .news-body { padding:14px 16px; }
-  .news-title { font-family:'Playfair Display',serif; font-size:0.95rem; font-weight:700; line-height:1.35; margin-bottom:8px; color:var(--charcoal); }
-  .news-summary { font-size:0.78rem; color:var(--mid); line-height:1.5; }
-  .news-footer { padding:10px 16px; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; }
-  .news-date { font-family:'IBM Plex Mono',monospace; font-size:0.6rem; color:var(--light); }
-  .news-link { font-family:'IBM Plex Mono',monospace; font-size:0.65rem; color:var(--red); text-decoration:none; }
-  .news-link:hover { text-decoration:underline; }
-  .news-loading { text-align:center; padding:40px; color:var(--mid); font-family:'IBM Plex Mono',monospace; font-size:0.85rem; }
-  .news-filter-bar { display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap; align-items:center; }
-  .news-section-note { background:#FFF8EE; border:1px solid #FFE0A0; border-radius:8px; padding:12px 16px; font-size:0.78rem; color:#856404; margin-bottom:20px; font-family:'IBM Plex Mono',monospace; }
+  .news-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+  .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;margin-bottom:28px;}
+  .news-card{background:var(--card-bg);border-radius:10px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--border);transition:transform .2s,box-shadow .2s;position:relative;}
+  .news-card:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(28,28,28,.14);}
+  .news-card.high-impact{border-left:4px solid var(--risk-critical);}
+  .news-card-header{padding:11px 15px 9px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px;}
+  .news-crop-tag{padding:2px 9px;border-radius:10px;font-family:'IBM Plex Mono',monospace;font-size:0.58rem;background:#FFF0EE;color:var(--red);border:1px solid #FFCCCC;}
+  .news-source{font-family:'IBM Plex Mono',monospace;font-size:0.58rem;color:var(--light);}
+  .news-body{padding:13px 15px;}
+  .news-title{font-family:'Playfair Display',serif;font-size:.9rem;font-weight:700;line-height:1.35;margin-bottom:7px;color:var(--charcoal);}
+  .news-summary{font-size:.75rem;color:var(--mid);line-height:1.5;}
+  .news-keywords{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px;}
+  .news-keyword{padding:1px 7px;border-radius:8px;font-family:'IBM Plex Mono',monospace;font-size:0.55rem;font-weight:500;}
+  .news-keyword.price{background:#FEF9E7;color:#9A7D0A;border:1px solid #F9E79F;}
+  .news-keyword.supply{background:#EBF5FB;color:#1A5276;border:1px solid #AED6F1;}
+  .news-keyword.risk{background:#FDEDEC;color:#C0392B;border:1px solid #F5B7B1;}
+  .news-footer{padding:9px 15px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;}
+  .news-date{font-family:'IBM Plex Mono',monospace;font-size:0.58rem;color:var(--light);}
+  .news-link{font-family:'IBM Plex Mono',monospace;font-size:0.62rem;color:var(--red);text-decoration:none;}
+  .news-link:hover{text-decoration:underline;}
+  .news-loading{text-align:center;padding:40px;color:var(--mid);font-family:'IBM Plex Mono',monospace;font-size:.82rem;}
+  .news-filter-bar{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;align-items:center;}
+  .news-section-note{background:#FFF8EE;border:1px solid #FFE0A0;border-radius:8px;padding:11px 15px;font-size:.75rem;color:#856404;margin-bottom:18px;font-family:'IBM Plex Mono',monospace;}
 
   /* FOOTER */
-  footer { background:var(--charcoal); color:var(--light); padding:20px 40px; font-family:'IBM Plex Mono',monospace; font-size:0.7rem; display:flex; justify-content:space-between; }
+  footer{background:var(--charcoal);color:var(--light);padding:18px 32px;font-family:'IBM Plex Mono',monospace;font-size:.65rem;display:flex;justify-content:space-between;}
 
-  @media(max-width:900px) {
-    header,main,.tabs,#season-banner,#alert-banner,footer { padding-left:16px; padding-right:16px; }
-    .summary-row { grid-template-columns:repeat(2,1fr); }
-    .region-grid,.news-grid { grid-template-columns:1fr; }
-    .season-tip { display:none; }
+  @media(max-width:1100px){.sim-panel{display:none;}}
+  @media(max-width:900px){
+    header,main,.tabs,#season-banner,#alert-banner,footer{padding-left:14px;padding-right:14px;}
+    .summary-row{grid-template-columns:repeat(3,1fr);}
+    .region-grid,.news-grid{grid-template-columns:1fr;}
+    .season-tip,.mkt-row{display:none;}
   }
 </style>
 </head>
@@ -156,8 +241,8 @@
   <div class="logo">
     <div class="logo-icon">🍒</div>
     <div>
-      <div class="logo-text">Red Fruit Crop Monitor</div>
-      <div class="logo-sub">Weather Risk Intelligence · Germany</div>
+      <div class="logo-text">Red Fruit DSS</div>
+      <div class="logo-sub">Decision Support System · Germany</div>
     </div>
   </div>
   <div class="header-right">
@@ -167,6 +252,7 @@
 </header>
 
 <div id="alert-banner"></div>
+<div id="market-alert"></div>
 <div id="season-banner">
   <div>
     <div class="season-label">Current Season Phase</div>
@@ -176,68 +262,102 @@
 </div>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('weather',this)">🌡 Weather Dashboard</button>
-  <button class="tab-btn" onclick="switchTab('news',this)">📰 Market & Crop News</button>
+  <button class="tab-btn active" onclick="switchTab('weather',this)">🌡 Weather &amp; Risk</button>
+  <button class="tab-btn" onclick="switchTab('market',this)">📊 Market Sentiment</button>
+  <button class="tab-btn" onclick="switchTab('news',this)">📰 News</button>
 </div>
 
-<!-- WEATHER TAB -->
+<!-- ═══════════════ WEATHER TAB ═══════════════ -->
 <div id="tab-weather" class="tab-content active">
+<div class="page-wrap">
+  <div class="main-col">
+  <main>
+    <div class="summary-row">
+      <div class="summary-card safe" onclick="filterByRisk('safe',this)"><div class="summary-num" id="count-safe">–</div><div class="summary-desc">✅ Safe</div><div class="click-hint">click to filter</div></div>
+      <div class="summary-card watch" onclick="filterByRisk('watch',this)"><div class="summary-num" id="count-watch">–</div><div class="summary-desc">👁 Watch</div><div class="click-hint">click to filter</div></div>
+      <div class="summary-card risk" onclick="filterByRisk('risk',this)"><div class="summary-num" id="count-risk">–</div><div class="summary-desc">⚠️ At Risk</div><div class="click-hint">click to filter</div></div>
+      <div class="summary-card critical" onclick="filterByRisk('critical',this)"><div class="summary-num" id="count-critical">–</div><div class="summary-desc">🚨 Critical</div><div class="click-hint">click to filter</div></div>
+      <div class="summary-card catastrophic" onclick="filterByRisk('catastrophic',this)"><div class="summary-num" id="count-catastrophic">–</div><div class="summary-desc">☠️ Catastrophic</div><div class="click-hint">click to filter</div></div>
+    </div>
+
+    <div class="filter-bar">
+      <span class="filter-label">Crop:</span>
+      <button class="filter-btn active" onclick="filterCrop('all',this)">All</button>
+      <button class="filter-btn" onclick="filterCrop('sour cherry',this)">🍒 Cherry</button>
+      <button class="filter-btn" onclick="filterCrop('black currant',this)">🫐 Black Currant</button>
+      <button class="filter-btn" onclick="filterCrop('red currant',this)">🔴 Red Currant</button>
+      <button class="filter-btn" onclick="filterCrop('raspberry',this)">🫐 Raspberry</button>
+      <button class="filter-btn" onclick="filterCrop('strawberry',this)">🍓 Strawberry</button>
+      <button class="filter-btn" onclick="filterCrop('blueberry',this)">🫐 Blueberry</button>
+      <button class="filter-btn" onclick="filterCrop('rhubarb',this)">🌿 Rhubarb</button>
+      <button class="filter-btn" onclick="filterCrop('elderberry',this)">🍇 Elderberry</button>
+    </div>
+
+    <div class="section-title">Live Weather · Growing Regions <span style="font-family:'IBM Plex Mono',monospace;font-size:0.7rem;font-weight:400;color:var(--light)">(click card for 3-day trend)</span></div>
+    <div id="region-grid" class="region-grid">
+      <div class="loading-overlay"><div class="spinner"></div>Fetching live weather for all regions...</div>
+    </div>
+
+    <div class="section-title">Risk Summary Table</div>
+    <div class="legend">
+      <div class="legend-item"><span class="dot safe"></span>Safe — outside critical window</div>
+      <div class="legend-item"><span class="dot watch"></span>Watch — &lt;14 days to window</div>
+      <div class="legend-item"><span class="dot risk"></span>Risk — cold during window</div>
+      <div class="legend-item"><span class="dot critical"></span>Critical — frost T₁₀ breach</div>
+      <div class="legend-item"><span class="dot catastrophic"></span>Catastrophic — T₅₀ breach / &gt;2h below -2°C</div>
+    </div>
+    <div class="risk-table-wrap">
+      <table>
+        <thead><tr><th>Region</th><th>Country</th><th>Now</th><th>Min 7d</th><th>GDD Stage</th><th>T₁₀/T₅₀</th><th>Risk</th><th>Price Pressure</th></tr></thead>
+        <tbody id="risk-table-body"><tr><td colspan="8" style="text-align:center;padding:24px;color:#aaa;font-family:monospace;font-size:0.8rem">Loading...</td></tr></tbody>
+      </table>
+    </div>
+  </main>
+  </div>
+
+  <!-- SIMULATION PANEL -->
+  <div class="sim-panel">
+    <h3>🧪 Simulation Mode</h3>
+    <div class="sim-subtitle">Override temperatures</div>
+    <div class="sim-active-badge" id="sim-active-badge">⚡ Simulation active</div>
+    <div id="sim-inputs"></div>
+    <button class="sim-apply-btn" onclick="applySimulation()">▶ Apply Simulation</button>
+    <button class="sim-clear-btn" onclick="clearSimulation()">✕ Clear & Restore</button>
+    <div class="sim-note">Override any region's minimum temperature to model a hypothetical frost event. The risk table and cards update instantly.</div>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════════ MARKET TAB ═══════════════ -->
+<div id="tab-market" class="tab-content">
 <main>
-  <div class="summary-row">
-    <div class="summary-card safe" onclick="filterByRisk('safe',this)" title="Click to filter"><div class="summary-num" id="count-safe">–</div><div class="summary-desc">✅ Regions Safe</div><div class="click-hint">click to filter</div></div>
-    <div class="summary-card watch" onclick="filterByRisk('watch',this)" title="Click to filter"><div class="summary-num" id="count-watch">–</div><div class="summary-desc">👁 Watch</div><div class="click-hint">click to filter</div></div>
-    <div class="summary-card risk" onclick="filterByRisk('risk',this)" title="Click to filter"><div class="summary-num" id="count-risk">–</div><div class="summary-desc">⚠️ At Risk</div><div class="click-hint">click to filter</div></div>
-    <div class="summary-card critical" onclick="filterByRisk('critical',this)" title="Click to filter"><div class="summary-num" id="count-critical">–</div><div class="summary-desc">🚨 Critical</div><div class="click-hint">click to filter</div></div>
+  <div class="section-title">Market Sentiment Dashboard</div>
+  <div class="mkt-row" id="mkt-cards">
+    <div class="mkt-card"><div class="mkt-label">Overall Price Pressure Index</div><div class="mkt-value" id="mkt-overall">–</div><div class="mkt-sub" id="mkt-overall-sub">Loading...</div></div>
+    <div class="mkt-card"><div class="mkt-label">Regions at Risk (supply threat)</div><div class="mkt-value" id="mkt-regions">–</div><div class="mkt-sub" id="mkt-regions-sub">Loading...</div></div>
+    <div class="mkt-card"><div class="mkt-label">Most Exposed Crop</div><div class="mkt-value" id="mkt-crop">–</div><div class="mkt-sub" id="mkt-crop-sub">Loading...</div></div>
   </div>
-
-  <div class="filter-bar">
-    <span class="filter-label">Filter:</span>
-    <button class="filter-btn active" onclick="filterCrop('all',this)">All Crops</button>
-    <button class="filter-btn" onclick="filterCrop('sour cherry',this)">🍒 Sour Cherry</button>
-    <button class="filter-btn" onclick="filterCrop('black currant',this)">🫐 Black Currant</button>
-    <button class="filter-btn" onclick="filterCrop('red currant',this)">🔴 Red Currant</button>
-    <button class="filter-btn" onclick="filterCrop('raspberry',this)">🫐 Raspberry</button>
-    <button class="filter-btn" onclick="filterCrop('strawberry',this)">🍓 Strawberry</button>
-    <button class="filter-btn" onclick="filterCrop('blueberry',this)">🫐 Blueberry</button>
-    <button class="filter-btn" onclick="filterCrop('rhubarb',this)">🌿 Rhubarb</button>
-    <button class="filter-btn" onclick="filterCrop('elderberry',this)">🍇 Elderberry</button>
-  </div>
-
-  <div class="section-title">Live Weather by Growing Region</div>
-  <div id="region-grid" class="region-grid">
-    <div class="loading-overlay"><div class="spinner"></div>Loading weather for all regions...</div>
-  </div>
-
-  <div class="section-title">Risk Summary Table</div>
-  <div class="legend">
-    <div class="legend-item"><span class="dot safe"></span>Safe</div>
-    <div class="legend-item"><span class="dot watch"></span>Watch — 14 days to critical window</div>
-    <div class="legend-item"><span class="dot risk"></span>Risk — near-frost in critical window</div>
-    <div class="legend-item"><span class="dot critical"></span>Critical — frost during flowering</div>
-  </div>
-  <div class="risk-table-wrap">
-    <table>
-      <thead><tr><th>Region</th><th>Country</th><th>Now</th><th>Min 7d</th><th>Crops</th><th>Risk</th><th>Alert</th></tr></thead>
-      <tbody id="risk-table-body"><tr><td colspan="7" style="text-align:center;padding:24px;color:#aaa;font-family:monospace;font-size:0.8rem">Loading...</td></tr></tbody>
-    </table>
+  <div class="section-title">Price Pressure by Crop</div>
+  <div id="crop-pressure-grid" class="region-grid">
+    <div class="loading-overlay"><div class="spinner"></div>Calculating...</div>
   </div>
 </main>
 </div>
 
-<!-- NEWS TAB -->
+<!-- ═══════════════ NEWS TAB ═══════════════ -->
 <div id="tab-news" class="tab-content">
 <main>
   <div class="news-header">
-    <div class="section-title" style="margin-bottom:0">Market & Crop News</div>
-    <button class="refresh-btn" onclick="loadNews()">↻ Refresh News</button>
+    <div class="section-title" style="margin-bottom:0">Market &amp; Crop News</div>
+    <button class="refresh-btn" onclick="loadNews()">↻ Refresh</button>
   </div>
   <div class="news-section-note">
-    📡 Articles are fetched automatically every 24h from FreshPlaza, Eurofresh, FreshFruitPortal, Google News and more. Each article stays for 7 days.
-    &nbsp;·&nbsp; <span id="news-last-updated" style="font-weight:500">Loading...</span>
+    📡 Auto-fetched every 24h · All crops: global coverage · 🥤 Concentrates &amp; juices: any fruit, any country · Articles &lt;14 days
+    &nbsp;·&nbsp;<span id="news-last-updated" style="font-weight:500">Loading...</span>
   </div>
   <div class="news-filter-bar">
     <span class="filter-label">Filter:</span>
-    <button class="filter-btn active" onclick="filterNews('all',this)">All Topics</button>
+    <button class="filter-btn active" onclick="filterNews('all',this)">All</button>
     <button class="filter-btn" onclick="filterNews('sour cherry',this)">🍒 Cherry</button>
     <button class="filter-btn" onclick="filterNews('currant',this)">🫐 Currant</button>
     <button class="filter-btn" onclick="filterNews('raspberry',this)">🫐 Raspberry</button>
@@ -245,283 +365,836 @@
     <button class="filter-btn" onclick="filterNews('blueberry',this)">🫐 Blueberry</button>
     <button class="filter-btn" onclick="filterNews('elderberry',this)">🍇 Elderberry</button>
     <button class="filter-btn" onclick="filterNews('rhubarb',this)">🌿 Rhubarb</button>
+    <button class="filter-btn" onclick="filterNews('concentrate & juice',this)">🥤 Concentrates & Juices</button>
   </div>
   <div id="news-grid" class="news-grid">
-    <div class="news-loading"><div class="spinner" style="display:inline-block;vertical-align:middle;margin-right:8px"></div>Fetching latest crop news...</div>
+    <div class="news-loading"><div class="spinner" style="display:inline-block;vertical-align:middle;margin-right:8px"></div>Loading...</div>
   </div>
 </main>
 </div>
 
+<!-- REGION DETAIL MODAL -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal-box">
+    <div class="modal-header">
+      <div class="modal-title" id="modal-title">Region Detail</div>
+      <button class="modal-close" onclick="closeModal()">×</button>
+    </div>
+    <div class="modal-stat-row" id="modal-stats"></div>
+    <div class="modal-chart-wrap"><canvas id="modal-chart"></canvas></div>
+    <div class="modal-t-thresholds" id="modal-thresholds"></div>
+    <div class="modal-alerts" id="modal-alerts"></div>
+  </div>
+</div>
+
 <footer>
-  <div>🍒 Red Fruit Crop Monitor · Weather: Open-Meteo API · News: Claude AI</div>
+  <div>🍒 Red Fruit DSS · Weather: Open-Meteo · GDD · T₁₀/T₅₀ Frost Modeling</div>
   <div>Processing Factory Intelligence · Germany 🇩🇪</div>
 </footer>
 
 <script>
-// ============================================================
-// REGIONS — with per-region, per-crop critical months
-// cropRisk: { cropName: { criticalMonths, frostThreshold, watchThreshold } }
-// This overrides global CROP_RISKS for that specific region+crop combo
-// ============================================================
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  REGIONS — per-region per-crop critical windows             ║
+// ║  Precision coordinates on actual agricultural hubs          ║
+// ╚══════════════════════════════════════════════════════════════╝
 const REGIONS = [
+  // ── TURKEY ───────────────────────────────────────────────────
+  { id:'turkey-isparta',  name:'Isparta / Afyon', country:'Turkey', flag:'🇹🇷',
+    lat:37.76, lon:30.55,  // Isparta city center — precision hub
+    crops:['sour cherry','strawberry'],
+    cropRisk:{
+      'sour cherry':{ criticalMonths:[3,4], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'strawberry': { criticalMonths:[2,3,4], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:3.0 },
+    }, importance:'high', notes:'Largest sour cherry hub in Turkey — Isparta province' },
 
-  // ── TURKEY: Sour Cherry ─────────────────────────────────
-  // Turkey cherries flower late March–April (warmer climate than Poland)
-  { id:'turkey-kutahya', name:'Kütahya & Afyon', country:'Turkey', flag:'🇹🇷', lat:39.4, lon:29.9,
+  { id:'turkey-kutahya',  name:'Kütahya', country:'Turkey', flag:'🇹🇷',
+    lat:39.42, lon:29.98,
     crops:['sour cherry'],
-    cropRisk:{ 'sour cherry': { criticalMonths:[3,4], frostThreshold:-1.0, watchThreshold:2.0 } },
-    notes:'Largest sour cherry belt in Turkey — flowering late March/April' },
+    cropRisk:{
+      'sour cherry':{ criticalMonths:[3,4], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+    }, importance:'high', notes:'Afyon/Kütahya cherry belt' },
 
-  { id:'turkey-isparta', name:'Isparta', country:'Turkey', flag:'🇹🇷', lat:37.8, lon:30.5,
+  { id:'turkey-bursa',    name:'Bursa & Marmara', country:'Turkey', flag:'🇹🇷',
+    lat:40.19, lon:29.06,
     crops:['sour cherry','strawberry'],
     cropRisk:{
-      'sour cherry': { criticalMonths:[3,4],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'strawberry':  { criticalMonths:[2,3,4], frostThreshold:-0.5, watchThreshold:3.0 },
-    },
-    notes:'Major cherry & strawberry region — Mediterranean climate' },
+      'sour cherry':{ criticalMonths:[3,4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'strawberry': { criticalMonths:[3,4,5], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:3.0 },
+    }, importance:'medium', notes:'Marmara cherry belt' },
 
-  { id:'turkey-bursa', name:'Bursa & Marmara', country:'Turkey', flag:'🇹🇷', lat:40.2, lon:29.0,
-    crops:['sour cherry','strawberry'],
+  { id:'turkey-mersin',   name:'Mersin & Adana', country:'Turkey', flag:'🇹🇷',
+    lat:36.80, lon:34.62,
+    crops:['strawberry'],
     cropRisk:{
-      'sour cherry': { criticalMonths:[3,4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'strawberry':  { criticalMonths:[3,4,5], frostThreshold:-0.5, watchThreshold:3.0 },
-    },
-    notes:'Marmara cherry belt — slightly cooler than south Turkey' },
+      'strawberry':{ criticalMonths:[12,1,2,3], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:3.0 },
+    }, importance:'medium', notes:'Mediterranean coast winter strawberry' },
 
-  // ── POLAND: Sour Cherry, Currants, Raspberry, Blueberry ─
-  // Poland has cold continental climate — critical window April–May
-  { id:'poland-masovia', name:'Masovia', country:'Poland', flag:'🇵🇱', lat:51.9, lon:21.0,
+  // ── POLAND ───────────────────────────────────────────────────
+  { id:'poland-lublin',   name:'Lublin / Mazovia', country:'Poland', flag:'🇵🇱',
+    lat:51.25, lon:22.57,  // Lublin precision hub — Poland's main soft fruit belt
     crops:['sour cherry','black currant','red currant','raspberry','blueberry'],
     cropRisk:{
-      'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry':     { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
-      'blueberry':     { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Largest European sour cherry region — flowering late April/May' },
+      'sour cherry':  { criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'black currant':{ criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'red currant':  { criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'raspberry':    { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry':    { criticalMonths:[4,5,6], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'critical', notes:'Largest European sour cherry & currant belt' },
 
-  { id:'poland-lubelskie', name:'Lubelskie', country:'Poland', flag:'🇵🇱', lat:51.2, lon:22.5,
+  { id:'poland-masovia',  name:'Masovia (Warsaw)', country:'Poland', flag:'🇵🇱',
+    lat:51.92, lon:21.00,
     crops:['sour cherry','black currant','red currant','raspberry','blueberry'],
     cropRisk:{
-      'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry':     { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
-      'blueberry':     { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Major cherry & currant belt — similar season to Masovia' },
+      'sour cherry':  { criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'black currant':{ criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'red currant':  { criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'raspberry':    { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry':    { criticalMonths:[4,5,6], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'critical', notes:'Warsaw-surrounding fruit zone' },
 
-  { id:'poland-lodz', name:'Łódź Region', country:'Poland', flag:'🇵🇱', lat:51.8, lon:19.5,
+  { id:'poland-lodz',     name:'Łódź Region', country:'Poland', flag:'🇵🇱',
+    lat:51.77, lon:19.46,
     crops:['rhubarb','black currant','red currant'],
     cropRisk:{
-      'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
-      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Central Poland — rhubarb & currants' },
+      'rhubarb':      { criticalMonths:[3,4,5], t10:-2.0, t50:-4.0, frostThreshold:-2.0, watchThreshold:1.0 },
+      'black currant':{ criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'red currant':  { criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Central Poland rhubarb & currants' },
 
-  // ── SERBIA: Sour Cherry, Raspberry ──────────────────────
-  // Serbia slightly warmer than Poland — cherry critical April
-  { id:'serbia-sumadija', name:'Šumadija & Dragutin', country:'Serbia', flag:'🇷🇸', lat:44.0, lon:20.9,
+  // ── SERBIA ───────────────────────────────────────────────────
+  { id:'serbia-sumadija', name:'Šumadija / Arilje', country:'Serbia', flag:'🇷🇸',
+    lat:43.75, lon:20.09,  // Arilje — world capital of raspberry
     crops:['sour cherry','raspberry'],
     cropRisk:{
-      'sour cherry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry':   { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:3.0 },
-    },
-    notes:'World leading raspberry & sour cherry — flowering April' },
+      'sour cherry':{ criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'raspberry':  { criticalMonths:[4,5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+    }, importance:'critical', notes:'Arilje — world raspberry capital' },
 
-  { id:'serbia-toplica', name:'Toplica Valley', country:'Serbia', flag:'🇷🇸', lat:43.2, lon:21.5,
+  { id:'serbia-toplica',  name:'Toplica Valley', country:'Serbia', flag:'🇷🇸',
+    lat:43.20, lon:21.50,
     crops:['sour cherry','raspberry'],
     cropRisk:{
-      'sour cherry': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry':   { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:3.0 },
-    },
-    notes:'Key Serbian cherry growing zone' },
+      'sour cherry':{ criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'raspberry':  { criticalMonths:[4,5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+    }, importance:'medium', notes:'Key Serbian cherry zone' },
 
-  // ── HUNGARY: Sour Cherry, Elderberry ────────────────────
-  { id:'hungary-szabolcs', name:'Szabolcs-Szatmár', country:'Hungary', flag:'🇭🇺', lat:47.8, lon:22.1,
+  // ── HUNGARY ──────────────────────────────────────────────────
+  { id:'hungary-szabolcs',name:'Szabolcs-Szatmár', country:'Hungary', flag:'🇭🇺',
+    lat:47.80, lon:22.14,
     crops:['sour cherry','elderberry'],
     cropRisk:{
-      'sour cherry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'elderberry':  { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Northeast Hungary — top cherry region' },
+      'sour cherry':{ criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'elderberry': { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:2.0 },
+    }, importance:'high', notes:'Northeast Hungary top cherry' },
 
-  { id:'hungary-bacs', name:'Bács-Kiskun', country:'Hungary', flag:'🇭🇺', lat:46.6, lon:19.4,
+  { id:'hungary-bacs',    name:'Bács-Kiskun', country:'Hungary', flag:'🇭🇺',
+    lat:46.57, lon:19.38,
     crops:['sour cherry','elderberry'],
     cropRisk:{
-      'sour cherry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'elderberry':  { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Key Hungarian fruit belt' },
+      'sour cherry':{ criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'elderberry': { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Hungarian fruit belt' },
 
-  // ── GERMANY: Cherry, Currants, Rhubarb, Elderberry ──────
-  { id:'germany-rheinland', name:'Rhineland-Palatinate', country:'Germany', flag:'🇩🇪', lat:50.0, lon:7.3,
+  // ── GERMANY ──────────────────────────────────────────────────
+  { id:'germany-rheinland',name:'Rhineland-Palatinate', country:'Germany', flag:'🇩🇪',
+    lat:49.91, lon:7.45,
     crops:['sour cherry','black currant','red currant','rhubarb'],
     cropRisk:{
-      'sour cherry':   { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'black currant': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'red currant':   { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-      'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
-    },
-    notes:'Main German sour cherry zone — Mosel/Rhine valley' },
+      'sour cherry':  { criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'black currant':{ criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'red currant':  { criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'rhubarb':      { criticalMonths:[3,4,5], t10:-2.0, t50:-4.0, frostThreshold:-2.0, watchThreshold:1.0 },
+    }, importance:'medium', notes:'Main German sour cherry zone' },
 
-  { id:'germany-saxony', name:'Saxony & Thuringia', country:'Germany', flag:'🇩🇪', lat:51.1, lon:12.5,
+  { id:'germany-saxony',  name:'Saxony & Thuringia', country:'Germany', flag:'🇩🇪',
+    lat:51.05, lon:12.37,
     crops:['sour cherry','black currant','red currant','rhubarb','elderberry'],
     cropRisk:{
-      'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
-      'elderberry':    { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'East German fruit belt' },
+      'sour cherry':  { criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0 },
+      'black currant':{ criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'red currant':  { criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0 },
+      'rhubarb':      { criticalMonths:[3,4,5], t10:-2.0, t50:-4.0, frostThreshold:-2.0, watchThreshold:1.0 },
+      'elderberry':   { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:2.0 },
+    }, importance:'medium', notes:'East German fruit belt' },
 
-  { id:'germany-nrw', name:'North Rhine-Westphalia', country:'Germany', flag:'🇩🇪', lat:51.4, lon:7.0,
+  { id:'germany-nrw',     name:'North Rhine-Westphalia', country:'Germany', flag:'🇩🇪',
+    lat:51.43, lon:7.01,
     crops:['rhubarb'],
     cropRisk:{
-      'rhubarb': { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0 },
-    },
-    notes:'Main German rhubarb production area — Westphalia forcing sheds' },
+      'rhubarb':{ criticalMonths:[3,4,5], t10:-2.0, t50:-4.0, frostThreshold:-2.0, watchThreshold:1.0 },
+    }, importance:'medium', notes:'NRW rhubarb forcing zone' },
 
-  // ── SPAIN: Strawberry, Blueberry ────────────────────────
-  // Huelva strawberries flower Nov–Feb — frost risk Dec–Feb only
-  { id:'spain-huelva', name:'Huelva, Andalusia', country:'Spain', flag:'🇪🇸', lat:37.3, lon:-6.9,
+  // ── SPAIN ────────────────────────────────────────────────────
+  { id:'spain-huelva',    name:'Huelva, Andalusia', country:'Spain', flag:'🇪🇸',
+    lat:37.27, lon:-6.95,
     crops:['strawberry','blueberry'],
     cropRisk:{
-      'strawberry': { criticalMonths:[12,1,2,3], frostThreshold:-0.5, watchThreshold:3.0 },
-      'blueberry':  { criticalMonths:[2,3,4],    frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'95% of Spanish strawberries — critical window Dec–March (winter flowering)' },
+      'strawberry':{ criticalMonths:[12,1,2,3], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:3.0 },
+      'blueberry': { criticalMonths:[2,3,4], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'critical', notes:'Europe strawberry capital — 95% of Spanish output' },
 
-  { id:'spain-murcia', name:'Murcia', country:'Spain', flag:'🇪🇸', lat:37.9, lon:-1.1,
+  { id:'spain-murcia',    name:'Murcia', country:'Spain', flag:'🇪🇸',
+    lat:37.98, lon:-1.13,
     crops:['strawberry','blueberry'],
     cropRisk:{
-      'strawberry': { criticalMonths:[1,2,3,4], frostThreshold:-0.5, watchThreshold:3.0 },
-      'blueberry':  { criticalMonths:[3,4,5],   frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Secondary Spanish berry region — slightly later season than Huelva' },
+      'strawberry':{ criticalMonths:[1,2,3,4], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:3.0 },
+      'blueberry': { criticalMonths:[3,4,5], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Secondary Spanish berry region' },
 
-  // ── TURKEY: Strawberry (Mediterranean coast) ─────────────
-  // Mersin/Adana harvest Dec–April — very mild winters
-  { id:'turkey-mersin', name:'Mersin & Adana', country:'Turkey', flag:'🇹🇷', lat:36.8, lon:34.6,
+  // ── EGYPT ────────────────────────────────────────────────────
+  { id:'egypt-beheira',   name:'Beheira & Ismailia', country:'Egypt', flag:'🇪🇬',
+    lat:30.85, lon:30.35,
     crops:['strawberry'],
     cropRisk:{
-      'strawberry': { criticalMonths:[12,1,2,3], frostThreshold:-0.5, watchThreshold:3.0 },
-    },
-    notes:'Mediterranean coast — strawberry harvest Dec–April, frost very rare' },
+      'strawberry':{ criticalMonths:[12,1,2], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:5.0 },
+    }, importance:'medium', notes:'Top Egyptian strawberry zone' },
 
-  // ── EGYPT: Strawberry ────────────────────────────────────
-  // Egypt harvest Nov–March — frost risk only Dec–Feb (rare but possible)
-  { id:'egypt-beheira', name:'Beheira & Ismailia', country:'Egypt', flag:'🇪🇬', lat:30.8, lon:30.3,
+  { id:'egypt-qaluobia',  name:'Qaluobia', country:'Egypt', flag:'🇪🇬',
+    lat:30.41, lon:31.21,
     crops:['strawberry'],
     cropRisk:{
-      'strawberry': { criticalMonths:[12,1,2], frostThreshold:-0.5, watchThreshold:5.0 },
-    },
-    notes:'Top Egyptian strawberry region — harvest Nov–March, watch for rare Dec–Feb cold snaps' },
+      'strawberry':{ criticalMonths:[12,1,2], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:5.0 },
+    }, importance:'medium', notes:'Nile Delta strawberry zone' },
 
-  { id:'egypt-qaluobia', name:'Qaluobia', country:'Egypt', flag:'🇪🇬', lat:30.4, lon:31.2,
-    crops:['strawberry'],
-    cropRisk:{
-      'strawberry': { criticalMonths:[12,1,2], frostThreshold:-0.5, watchThreshold:5.0 },
-    },
-    notes:'Nile Delta strawberry zone — similar season to Beheira' },
-
-  // ── UKRAINE: Raspberry, Blueberry, Elderberry ────────────
-  { id:'ukraine-lviv', name:'Lviv & Volyn', country:'Ukraine', flag:'🇺🇦', lat:50.4, lon:24.0,
+  // ── UKRAINE ──────────────────────────────────────────────────
+  { id:'ukraine-lviv',    name:'Lviv & Volyn', country:'Ukraine', flag:'🇺🇦',
+    lat:50.45, lon:24.02,
     crops:['raspberry','blueberry'],
     cropRisk:{
-      'raspberry': { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
-      'blueberry': { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Western Ukraine berry belt — continental climate' },
+      'raspberry':{ criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry':{ criticalMonths:[4,5,6], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Western Ukraine berry belt' },
 
-  { id:'ukraine-cherniv', name:'Chernivtsi', country:'Ukraine', flag:'🇺🇦', lat:48.3, lon:25.9,
+  { id:'ukraine-cherniv', name:'Chernivtsi', country:'Ukraine', flag:'🇺🇦',
+    lat:48.29, lon:25.94,
     crops:['raspberry','blueberry'],
     cropRisk:{
-      'raspberry': { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
-      'blueberry': { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Carpathian foothills — slightly warmer than Lviv' },
+      'raspberry':{ criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+      'blueberry':{ criticalMonths:[4,5,6], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Carpathian foothills berry zone' },
 
-  { id:'ukraine-transcar', name:'Transcarpathia', country:'Ukraine', flag:'🇺🇦', lat:48.6, lon:22.3,
+  { id:'ukraine-transcar', name:'Transcarpathia', country:'Ukraine', flag:'🇺🇦',
+    lat:48.62, lon:22.29,
     crops:['elderberry','raspberry'],
     cropRisk:{
-      'elderberry': { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry':  { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0 },
-    },
-    notes:'Western Ukraine elderberry growing zone' },
+      'elderberry':{ criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:2.0 },
+      'raspberry': { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+    }, importance:'medium', notes:'Western Ukraine elderberry zone' },
 
-  // ── CANADA: Blueberry ────────────────────────────────────
-  // BC blueberries flower April–May
-  { id:'canada-bc', name:'Fraser Valley, BC', country:'Canada', flag:'🇨🇦', lat:49.1, lon:-122.3,
+  // ── CANADA ───────────────────────────────────────────────────
+  { id:'canada-bc',       name:'Fraser Valley, BC', country:'Canada', flag:'🇨🇦',
+    lat:49.17, lon:-122.34,
     crops:['blueberry'],
     cropRisk:{
-      'blueberry': { criticalMonths:[4,5], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Largest Canadian blueberry region — flowering April/May' },
+      'blueberry':{ criticalMonths:[4,5], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Largest Canadian blueberry region' },
 
-  { id:'canada-ontario', name:'Ontario Berry Belt', country:'Canada', flag:'🇨🇦', lat:44.3, lon:-79.5,
+  { id:'canada-ontario',  name:'Ontario Berry Belt', country:'Canada', flag:'🇨🇦',
+    lat:44.34, lon:-79.52,
     crops:['blueberry'],
     cropRisk:{
-      'blueberry': { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Eastern Canada — later season than BC, flowering May/June' },
+      'blueberry':{ criticalMonths:[5,6], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Eastern Canada blueberry zone' },
 
-  // ── CHILE: Blueberry, Raspberry (Southern Hemisphere) ────
-  // Southern Hemisphere: flowering Oct–Dec, harvest Jan–Mar
-  { id:'chile-ohiggins', name:"O'Higgins Region", country:'Chile', flag:'🇨🇱', lat:-34.5, lon:-71.0,
+  // ── CHILE (Southern Hemisphere — reversed season) ─────────────
+  { id:'chile-maule',     name:'Maule Region', country:'Chile', flag:'🇨🇱',
+    lat:-35.42, lon:-71.65,  // Maule hub — precision coordinate
     crops:['blueberry','raspberry'],
     cropRisk:{
-      'blueberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:3.0 },
-    },
-    notes:'Top Chilean export region — S.Hemisphere: flowering Oct–Dec' },
+      'blueberry':{ criticalMonths:[10,11,12], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+      'raspberry': { criticalMonths:[10,11,12], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+    }, importance:'high', notes:'Maule — S.Hemisphere blueberry hub, flowering Oct–Dec' },
 
-  { id:'chile-biobio', name:'Biobío Region', country:'Chile', flag:'🇨🇱', lat:-37.5, lon:-72.5,
+  { id:'chile-ohiggins',  name:"O'Higgins Region", country:'Chile', flag:'🇨🇱',
+    lat:-34.58, lon:-71.00,
     crops:['blueberry','raspberry'],
     cropRisk:{
-      'blueberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:2.0 },
-      'raspberry': { criticalMonths:[10,11,12], frostThreshold:-1.0, watchThreshold:3.0 },
-    },
-    notes:'Southern Chile — slightly later season than O\'Higgins' },
+      'blueberry':{ criticalMonths:[10,11,12], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0 },
+      'raspberry': { criticalMonths:[10,11,12], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0 },
+    }, importance:'high', notes:'Top Chilean blueberry export region' },
 
-  // ── AUSTRIA: Elderberry ──────────────────────────────────
-  { id:'austria-styria', name:'Styria', country:'Austria', flag:'🇦🇹', lat:47.1, lon:15.4,
+  // ── AUSTRIA ──────────────────────────────────────────────────
+  { id:'austria-styria',  name:'Styria', country:'Austria', flag:'🇦🇹',
+    lat:47.07, lon:15.44,
     crops:['elderberry'],
     cropRisk:{
-      'elderberry': { criticalMonths:[5,6], frostThreshold:-1.0, watchThreshold:2.0 },
-    },
-    notes:'Austria\'s top Haschberg elderberry region — flowering May/June' },
+      'elderberry':{ criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:2.0 },
+    }, importance:'medium', notes:'Haschberg elderberry hub' },
 ];
 
-// ============================================================
-// GLOBAL CROP DEFAULTS (used only if region has no cropRisk override)
-// ============================================================
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  CROP GLOBAL DEFAULTS & ICONS                               ║
+// ╚══════════════════════════════════════════════════════════════╝
 const CROP_RISKS = {
-  'sour cherry':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🍒' },
-  'black currant': { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🫐' },
-  'red currant':   { criticalMonths:[4,5],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🔴' },
-  'raspberry':     { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:3.0, icon:'🫐' },
-  'strawberry':    { criticalMonths:[3,4,5], frostThreshold:-0.5, watchThreshold:3.0, icon:'🍓' },
-  'blueberry':     { criticalMonths:[4,5,6], frostThreshold:-1.0, watchThreshold:2.0, icon:'🫐' },
-  'rhubarb':       { criticalMonths:[3,4,5], frostThreshold:-2.0, watchThreshold:1.0, icon:'🌿' },
-  'elderberry':    { criticalMonths:[5,6],   frostThreshold:-1.0, watchThreshold:2.0, icon:'🍇' },
+  'sour cherry':  { criticalMonths:[4,5], t10:-2.2, t50:-3.9, frostThreshold:-2.2, watchThreshold:2.0, icon:'🍒' },
+  'black currant':{ criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0, icon:'🫐' },
+  'red currant':  { criticalMonths:[4,5], t10:-1.5, t50:-3.0, frostThreshold:-1.5, watchThreshold:2.0, icon:'🔴' },
+  'raspberry':    { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:3.0, icon:'🫐' },
+  'strawberry':   { criticalMonths:[3,4,5], t10:-0.5, t50:-2.0, frostThreshold:-0.5, watchThreshold:3.0, icon:'🍓' },
+  'blueberry':    { criticalMonths:[4,5,6], t10:-1.5, t50:-3.5, frostThreshold:-1.5, watchThreshold:2.0, icon:'🫐' },
+  'rhubarb':      { criticalMonths:[3,4,5], t10:-2.0, t50:-4.0, frostThreshold:-2.0, watchThreshold:1.0, icon:'🌿' },
+  'elderberry':   { criticalMonths:[5,6], t10:-1.0, t50:-2.5, frostThreshold:-1.0, watchThreshold:2.0, icon:'🍇' },
 };
 const WATCH_DAYS = 14;
+const WX = {0:'☀️',1:'🌤',2:'⛅',3:'☁️',45:'🌫',51:'🌦',53:'🌦',61:'🌧',63:'🌧',71:'🌨',73:'🌨',75:'❄️',80:'🌦',81:'🌧',95:'⛈',99:'⛈'};
+const DAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
-// ============================================================
-// NEWS ARTICLES — curated live-fetched summaries
-// In a production app this would call a news API
-// ============================================================
-// NEWS — loaded live from news.json (auto-updated daily by GitHub Actions)
+// Region importance weights for price pressure calc
+const IMPORTANCE_WEIGHT = { critical:3, high:2, medium:1 };
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  GDD — Growing Degree Days                                  ║
+// ║  Estimates phenological stage from Jan 1 accumulated warmth ║
+// ╚══════════════════════════════════════════════════════════════╝
+function calcGDD(dailyMax, dailyMin, baseTemp = 5) {
+  // Average GDD per day = max(0, (Tmax+Tmin)/2 - Tbase)
+  // We simulate Jan 1 → today using forecast as a proxy
+  const today = new Date();
+  const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 1)) / 86400000);
+  // We don't have historical data so estimate: assume average 2°C warmth per day since Jan 1
+  const historicalGDD = Math.max(0, dayOfYear * 1.8);
+  const forecastGDD = dailyMax.reduce((sum, mx, i) => {
+    return sum + Math.max(0, ((mx + dailyMin[i]) / 2) - baseTemp);
+  }, 0);
+  return Math.round(historicalGDD + forecastGDD);
+}
+
+function gddStage(gdd, crop) {
+  // Approximate phenological breakpoints per crop
+  const stages = {
+    'sour cherry':  [{gdd:0,label:'Dormant'},{gdd:80,label:'Bud Swell'},{gdd:150,label:'Green Tip'},{gdd:250,label:'Flowering'},{gdd:500,label:'Fruit Set'}],
+    'raspberry':    [{gdd:0,label:'Dormant'},{gdd:100,label:'Cane Break'},{gdd:250,label:'Flowering'},{gdd:450,label:'Fruit Set'}],
+    'strawberry':   [{gdd:0,label:'Dormant'},{gdd:50,label:'Leaf Break'},{gdd:100,label:'Flowering'},{gdd:300,label:'Fruiting'}],
+    'blueberry':    [{gdd:0,label:'Dormant'},{gdd:120,label:'Bud Break'},{gdd:200,label:'Flowering'},{gdd:400,label:'Fruit Set'}],
+    'black currant':[{gdd:0,label:'Dormant'},{gdd:80,label:'Bud Burst'},{gdd:180,label:'Flowering'},{gdd:350,label:'Fruit Set'}],
+    'red currant':  [{gdd:0,label:'Dormant'},{gdd:80,label:'Bud Burst'},{gdd:180,label:'Flowering'},{gdd:350,label:'Fruit Set'}],
+    'rhubarb':      [{gdd:0,label:'Dormant'},{gdd:30,label:'Forcing'},{gdd:80,label:'Crown Break'},{gdd:200,label:'Stalk Growth'}],
+    'elderberry':   [{gdd:0,label:'Dormant'},{gdd:150,label:'Leaf Break'},{gdd:300,label:'Flowering'},{gdd:500,label:'Fruit Set'}],
+  };
+  const s = stages[crop] || stages['sour cherry'];
+  let stage = s[0];
+  for (const st of s) { if (gdd >= st.gdd) stage = st; else break; }
+  const next = s[s.indexOf(stage)+1];
+  const pct = next ? Math.min(100, Math.round(((gdd - stage.gdd) / (next.gdd - stage.gdd)) * 100)) : 100;
+  return { label: stage.label, pct };
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  RISK ENGINE — T10/T50 + Duration-based Catastrophic        ║
+// ╚══════════════════════════════════════════════════════════════╝
+function daysUntilCritical(critMonths) {
+  const today = new Date(); const cm = today.getMonth()+1;
+  if (critMonths.includes(cm)) return 0;
+  for (let i=1; i<366; i++) {
+    const f = new Date(today); f.setDate(today.getDate()+i);
+    if (critMonths.includes(f.getMonth()+1)) return i;
+  }
+  return 999;
+}
+
+function assessRegion(region, weather, simOverride = null) {
+  const cm = new Date().getMonth()+1;
+  const mins = simOverride !== null
+    ? weather.daily_min.map(() => simOverride)
+    : weather.daily_min;
+  let highest = 'safe', alerts = [], affected = [];
+
+  for (const crop of region.crops) {
+    const cd = (region.cropRisk && region.cropRisk[crop]) || CROP_RISKS[crop];
+    if (!cd) continue;
+
+    const crit = cd.criticalMonths;
+    const inWindow = crit.includes(cm);
+    const dtc = daysUntilCritical(crit);
+    const nearWindow = dtc > 0 && dtc <= WATCH_DAYS;
+
+    const t10 = cd.t10 ?? cd.frostThreshold;
+    const t50 = cd.t50 ?? (cd.frostThreshold - 1.5);
+
+    // Duration rule: if any day min ≤ -2°C treat as 2+ hour frost
+    // (Open-Meteo daily min is the coldest point — if min ≤ -2, frost likely lasted several hours)
+    const catastrophicDays = mins.filter(t => t <= t50);
+    const criticalDays     = mins.filter(t => t > t50 && t <= t10);
+    const coldDays         = mins.filter(t => t > t10 && t <= cd.watchThreshold);
+    const durationFrost    = mins.filter(t => t <= -2.0); // ≤ -2°C = catastrophic duration rule
+
+    if (inWindow && (catastrophicDays.length || durationFrost.length)) {
+      highest = 'catastrophic'; affected.push(crop);
+      const minT = Math.min(...mins);
+      alerts.push({ level:'catastrophic', crop,
+        message:`☠️ T₅₀ BREACH: ${Math.max(catastrophicDays.length,durationFrost.length)} day(s) at/below ${t50}°C (min:${minT}°C) — 50%+ kill probability for ${crop}!` });
+    } else if (inWindow && criticalDays.length) {
+      if (!['catastrophic'].includes(highest)) highest = 'critical'; affected.push(crop);
+      alerts.push({ level:'critical', crop,
+        message:`🚨 T₁₀ breach: ${criticalDays.length} day(s) ≤${t10}°C — 10%+ damage to ${crop} flowering.` });
+    } else if (inWindow && coldDays.length) {
+      if (!['catastrophic','critical'].includes(highest)) highest = 'risk'; affected.push(crop);
+      alerts.push({ level:'risk', crop,
+        message:`Near-frost during flowering: ${coldDays.length} day(s) below ${cd.watchThreshold}°C — ${crop} at risk.` });
+    } else if (nearWindow && (criticalDays.length || coldDays.length)) {
+      if (!['catastrophic','critical','risk'].includes(highest)) highest = 'watch';
+      alerts.push({ level:'watch', crop,
+        message:`${dtc}d to ${crop} critical window. Cold forecast (min:${Math.min(...mins)}°C).` });
+    }
+  }
+  return { region, weather, risk_level: highest, alerts, affected_crops: [...new Set(affected)] };
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  MARKET SENTIMENT — Price Pressure Index                    ║
+// ╚══════════════════════════════════════════════════════════════╝
+const PRICE_KEYWORDS = ['shortage','price increase','crop failure','supply crunch','frost damage',
+  'production loss','scarcity','below average','disruption','price spike','inventory low'];
+const SUPPLY_KEYWORDS = ['supply','inventory','stocks','export','production','volume'];
+const RISK_KEYWORDS = ['frost','damage','loss','decline','fall','drop','crisis'];
+
+function calcPricePressure(allResults) {
+  const cropScores = {};
+  for (const crop of Object.keys(CROP_RISKS)) cropScores[crop] = 0;
+
+  for (const result of allResults) {
+    const w = IMPORTANCE_WEIGHT[result.region.importance] || 1;
+    const score = { safe:0, watch:1, risk:2, critical:4, catastrophic:8 }[result.risk_level] || 0;
+    for (const crop of result.region.crops) {
+      if (cropScores[crop] !== undefined) cropScores[crop] += score * w;
+    }
+  }
+
+  const totalScore = Object.values(cropScores).reduce((s,v) => s+v, 0);
+  const maxCrop = Object.entries(cropScores).sort((a,b) => b[1]-a[1])[0];
+
+  let overall;
+  if (totalScore === 0)     overall = 'low';
+  else if (totalScore < 10) overall = 'medium';
+  else if (totalScore < 25) overall = 'high';
+  else                      overall = 'extreme';
+
+  return { overall, totalScore, cropScores, maxCrop };
+}
+
+function getPressureLabel(score) {
+  if (score === 0) return 'low';
+  if (score < 4)  return 'medium';
+  if (score < 10) return 'high';
+  return 'extreme';
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  WEATHER FETCH — Open-Meteo                                 ║
+// ╚══════════════════════════════════════════════════════════════╝
+async function fetchWeather(region) {
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${region.lat}&longitude=${region.lon}&current=temperature_2m,weathercode,windspeed_10m,precipitation&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum&timezone=auto&forecast_days=7`;
+  const r = await fetch(url);
+  if (!r.ok) throw new Error('API error');
+  const d = await r.json();
+  return {
+    current_temp: Math.round(d.current.temperature_2m*10)/10,
+    wind_kmh:     Math.round(d.current.windspeed_10m),
+    precip_mm:    Math.round(d.current.precipitation*10)/10,
+    daily_dates:  d.daily.time,
+    daily_max:    d.daily.temperature_2m_max.map(t=>Math.round(t*10)/10),
+    daily_min:    d.daily.temperature_2m_min.map(t=>Math.round(t*10)/10),
+    daily_codes:  d.daily.weathercode,
+    min_7d:       Math.round(Math.min(...d.daily.temperature_2m_min)*10)/10,
+  };
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  SIMULATION                                                 ║
+// ╚══════════════════════════════════════════════════════════════╝
+let simOverrides = {};
+
+function buildSimPanel() {
+  const container = document.getElementById('sim-inputs');
+  container.innerHTML = REGIONS.map(r => `
+    <div class="sim-region-row">
+      <div class="sim-region-label">${r.flag} ${r.name}</div>
+      <input class="sim-input" type="number" id="sim-${r.id}" placeholder="e.g. -4" step="0.5"
+        title="Override min temp for ${r.name}">
+    </div>`).join('');
+}
+
+function applySimulation() {
+  simOverrides = {};
+  let anySet = false;
+  for (const r of REGIONS) {
+    const input = document.getElementById('sim-'+r.id);
+    if (input && input.value !== '') {
+      simOverrides[r.id] = parseFloat(input.value);
+      anySet = true;
+    }
+  }
+  if (!anySet) { alert('Enter at least one temperature override first.'); return; }
+  document.getElementById('sim-active-badge').style.display = 'block';
+  reRenderWithSim();
+}
+
+function clearSimulation() {
+  simOverrides = {};
+  document.getElementById('sim-active-badge').style.display = 'none';
+  REGIONS.forEach(r => {
+    const input = document.getElementById('sim-'+r.id);
+    if (input) input.value = '';
+  });
+  reRenderWithSim();
+}
+
+function reRenderWithSim() {
+  const simData = allData.map(result => {
+    const override = simOverrides[result.region.id];
+    if (override !== undefined && result.weather) {
+      return assessRegion(result.region, result.weather, override);
+    }
+    return result;
+  });
+  renderAll(simData);
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  RENDER CARD                                                ║
+// ╚══════════════════════════════════════════════════════════════╝
+function renderCard(result) {
+  const { region, weather, risk_level, alerts, affected_crops } = result;
+  const isSimulated = simOverrides[region.id] !== undefined;
+  const mins = simOverrides[region.id] !== undefined
+    ? weather.daily_min.map(() => simOverrides[region.id])
+    : weather.daily_min;
+
+  const gdd = calcGDD(weather.daily_max, weather.daily_min);
+  const primaryCrop = region.crops[0];
+  const stage = gddStage(gdd, primaryCrop);
+  const stageColor = { Dormant:'#aaa', 'Bud Swell':'#7DCEA0', 'Bud Break':'#7DCEA0',
+    'Bud Burst':'#7DCEA0', 'Green Tip':'#58D68D', Flowering:'#E74C3C',
+    Forcing:'#F39C12', 'Crown Break':'#F39C12', 'Stalk Growth':'#27AE60',
+    'Cane Break':'#7DCEA0', 'Leaf Break':'#58D68D','Fruit Set':'#27AE60',
+    Fruiting:'#27AE60' }[stage.label] || '#aaa';
+
+  const cd = (region.cropRisk && region.cropRisk[primaryCrop]) || CROP_RISKS[primaryCrop] || {};
+  const pressureScore = { safe:0, watch:1, risk:3, critical:5, catastrophic:9 }[risk_level] || 0;
+  const pressureLabel = getPressureLabel(pressureScore);
+
+  const cropTags = region.crops.map(c => {
+    const aff = affected_crops.includes(c);
+    return `<span class="crop-tag${aff?' affected':''}">${CROP_RISKS[c]?.icon||''} ${c}</span>`;
+  }).join('');
+
+  const alertHtml = alerts.map(a =>
+    `<div class="frost-warning ${a.level==='catastrophic'?'catastrophic':''}">⚠️ ${a.message}</div>`
+  ).join('');
+
+  const t50Warn = alerts.some(a => a.level === 'catastrophic')
+    ? `<div class="t50-warning">☠️ T₅₀ threshold breached — 50%+ kill probability modeled</div>` : '';
+
+  const forecast = weather.daily_dates.slice(0,7).map((dt, i) => {
+    const mn = mins[i], mx = weather.daily_max[i];
+    const cd0 = (region.cropRisk && region.cropRisk[primaryCrop]) || CROP_RISKS[primaryCrop] || {};
+    const isT50 = mn <= (cd0.t50 ?? -3.9);
+    const isFrost = !isT50 && mn <= (cd0.t10 ?? -2.2);
+    const dn = DAYS[new Date(dt+'T12:00:00').getDay()];
+    const tempClass = isT50 ? 'very-cold' : isFrost ? 'cold' : '';
+    return `<div class="forecast-day${isT50?' t50-day':isFrost?' frost-day':''}">
+      <div class="forecast-day-name">${dn}</div>
+      <div class="forecast-icon">${WX[weather.daily_codes[i]]||'🌡'}</div>
+      <div class="forecast-temp ${tempClass}">${mx}°/${mn}°</div>
+    </div>`;
+  }).join('');
+
+  return `<div class="region-card${isSimulated?' simulated':''}"
+    data-crops="${region.crops.join(',')}" data-risk="${risk_level}"
+    onclick="openModal('${region.id}')" title="Click for 3-day temperature trend">
+    <div class="region-header">
+      <div>
+        <div class="region-name">${region.flag} ${region.name}${isSimulated?' <span style="color:var(--sim);font-size:0.6rem">⚡SIM</span>':''}</div>
+        <div class="region-country">${region.country}</div>
+      </div>
+      <span class="risk-badge ${risk_level}">${risk_level}</span>
+    </div>
+    <div class="region-body">
+      <div class="weather-row">
+        <div class="weather-stat"><div class="weather-stat-val">${weather.current_temp}°C</div><div class="weather-stat-label">Now</div></div>
+        <div class="weather-stat"><div class="weather-stat-val" style="color:${weather.min_7d<=-2?'var(--risk-critical)':weather.min_7d<=0?'var(--risk-risk)':'inherit'}">${weather.min_7d}°C</div><div class="weather-stat-label">Min 7d</div></div>
+        <div class="weather-stat"><div class="weather-stat-val">${weather.wind_kmh}</div><div class="weather-stat-label">km/h</div></div>
+        <div class="weather-stat"><div class="weather-stat-val">${weather.precip_mm}</div><div class="weather-stat-label">mm</div></div>
+      </div>
+      ${t50Warn}${alertHtml}
+      <div class="crops-row">${cropTags}</div>
+      <div class="phenology-bar">
+        <div class="phenology-label">GDD Stage: ${stage.label}</div>
+        <div class="phenology-track"><div class="phenology-fill" style="width:${stage.pct}%;background:${stageColor}"></div></div>
+        <div class="gdd-text">~${gdd} GDD since Jan 1 · ${stage.pct}% to next stage</div>
+      </div>
+      <span class="price-pressure-badge ${pressureLabel}">💰 Price Pressure: ${pressureLabel.toUpperCase()}</span>
+      <div class="forecast-strip">${forecast}</div>
+    </div>
+  </div>`;
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  MODAL — 3-day trend chart                                  ║
+// ╚══════════════════════════════════════════════════════════════╝
+let modalChart = null;
+
+function openModal(regionId) {
+  const result = allData.find(d => d.region.id === regionId);
+  if (!result || !result.weather) return;
+  const { region, weather, risk_level, alerts } = result;
+  const cd = (region.cropRisk && region.cropRisk[region.crops[0]]) || CROP_RISKS[region.crops[0]] || {};
+
+  document.getElementById('modal-title').textContent = `${region.flag} ${region.name}`;
+
+  document.getElementById('modal-stats').innerHTML = `
+    <div class="modal-stat"><div class="modal-stat-val">${weather.current_temp}°C</div><div class="modal-stat-label">Current</div></div>
+    <div class="modal-stat"><div class="modal-stat-val">${weather.min_7d}°C</div><div class="modal-stat-label">Min 7d</div></div>
+    <div class="modal-stat"><div class="modal-stat-val">${risk_level.toUpperCase()}</div><div class="modal-stat-label">Risk Level</div></div>`;
+
+  // 3-day temperature trend chart
+  const labels3 = weather.daily_dates.slice(0,3).map(dt => DAYS[new Date(dt+'T12:00:00').getDay()]);
+  const max3 = weather.daily_max.slice(0,3);
+  const min3 = weather.daily_min.slice(0,3);
+
+  if (modalChart) { modalChart.destroy(); modalChart = null; }
+  const ctx = document.getElementById('modal-chart').getContext('2d');
+  modalChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels3,
+      datasets: [
+        { label:'Max °C', data:max3, borderColor:'#E74C3C', backgroundColor:'rgba(231,76,60,0.08)', tension:0.3, pointRadius:5 },
+        { label:'Min °C', data:min3, borderColor:'#3498DB', backgroundColor:'rgba(52,152,219,0.08)', tension:0.3, pointRadius:5 },
+        { label:'T₁₀ threshold', data: Array(3).fill(cd.t10 ?? -2.2), borderColor:'#F39C12', borderDash:[5,3], pointRadius:0 },
+        { label:'T₅₀ threshold', data: Array(3).fill(cd.t50 ?? -3.9), borderColor:'#7B1A12', borderDash:[5,3], pointRadius:0 },
+      ]
+    },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ labels:{ font:{ family:'IBM Plex Mono', size:10 } } } },
+      scales:{ y:{ ticks:{ font:{ family:'IBM Plex Mono', size:10 } } }, x:{ ticks:{ font:{ family:'IBM Plex Mono', size:10 } } } }
+    }
+  });
+
+  document.getElementById('modal-thresholds').innerHTML = `
+    <div class="threshold-card t10">
+      <div class="threshold-label">T₁₀ — 10% Kill Temperature</div>
+      <div class="threshold-val">${cd.t10 ?? 'N/A'}°C</div>
+    </div>
+    <div class="threshold-card t50">
+      <div class="threshold-label">T₅₀ — 50% Kill Temperature</div>
+      <div class="threshold-val">${cd.t50 ?? 'N/A'}°C</div>
+    </div>`;
+
+  document.getElementById('modal-alerts').innerHTML = alerts.length
+    ? alerts.map(a => `<div class="modal-alert-item">⚠️ ${a.message}</div>`).join('')
+    : '<div style="font-size:0.75rem;color:#aaa;font-family:IBM Plex Mono,monospace">No active alerts for this region.</div>';
+
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function closeModal(e) {
+  if (!e || e.target === document.getElementById('modal-overlay')) {
+    document.getElementById('modal-overlay').classList.remove('open');
+  }
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  MAIN LOAD                                                  ║
+// ╚══════════════════════════════════════════════════════════════╝
+let allData = [];
+
+async function loadAll() {
+  document.getElementById('region-grid').innerHTML =
+    '<div class="loading-overlay"><div class="spinner"></div>Fetching live weather for '+REGIONS.length+' regions...</div>';
+  document.getElementById('risk-table-body').innerHTML =
+    '<tr><td colspan="8" style="text-align:center;padding:20px;color:#aaa;font-family:monospace;font-size:0.8rem">Loading...</td></tr>';
+
+  const season = getSeasonPhase();
+  document.getElementById('season-status').textContent = season.status;
+  document.getElementById('season-tip').textContent = season.tip;
+  if (season.critical) document.getElementById('season-banner').style.background = 'linear-gradient(135deg,#7B1A12,#C0392B)';
+
+  allData = await Promise.all(REGIONS.map(async r => {
+    try { const w = await fetchWeather(r); return assessRegion(r, w); }
+    catch(e) { return { region:r, weather:null, risk_level:'watch', alerts:[{level:'watch',message:'Data unavailable'}], affected_crops:[] }; }
+  }));
+
+  simOverrides = {};
+  renderAll(allData);
+  document.getElementById('last-updated').textContent = `Updated: ${new Date().toLocaleTimeString('de-DE')}`;
+  buildSimPanel();
+}
+
+function getSeasonPhase() {
+  const m = new Date().getMonth()+1, d = new Date().getDate();
+  if (m===2||(m===3&&d<15)) return {status:'🌱 Pre-season — Bud Swell & Forcing',tip:'Rhubarb forcing underway. Strawberry flowering in Egypt & Turkey. Monitor frost for early crops.',critical:false};
+  if (m===3||(m===4&&d<10)) return {status:'🌸 Early Flowering — Cherry & Currants',tip:'Cherry buds breaking in Turkey. Watch for late frosts. Critical window approaching.',critical:false};
+  if ((m===4&&d>=10)||(m===5&&d<20)) return {status:'🌸 CRITICAL — Flowering Season',tip:'⚠️ Frost below T₁₀ during flowering can destroy 10-50%+ of crop.',critical:true};
+  if (m===5||m===6) return {status:'🍃 Fruit Set — Post Flowering',tip:'Frost risk decreasing. Monitor late crops.',critical:false};
+  if (m>=7&&m<=9) return {status:'🍒 Harvest Season — Northern Hemisphere',tip:'Southern Hemisphere (Chile/Maule) entering pre-flowering.',critical:false};
+  if (m>=10&&m<=12) return {status:'❄️ Dormancy N.Hem · 🌸 Flowering S.Hem',tip:'Chile critical flowering window. Northern crops dormant.',critical:(m===10||m===11)};
+  return {status:'❄️ Dormancy',tip:'Crops dormant.',critical:false};
+}
+
+function renderAll(data) {
+  const counts = {safe:0, watch:0, risk:0, critical:0, catastrophic:0};
+  data.forEach(d => { if (counts[d.risk_level] !== undefined) counts[d.risk_level]++; });
+  Object.keys(counts).forEach(l => {
+    const el = document.getElementById('count-'+l);
+    if (el) el.textContent = counts[l];
+  });
+
+  const crits = data.filter(d => d.risk_level === 'critical' || d.risk_level === 'catastrophic');
+  const banner = document.getElementById('alert-banner');
+  if (crits.length) {
+    banner.style.display = 'block';
+    banner.textContent = `🚨 CRITICAL ALERTS: ${crits.map(d=>d.region.name).join(', ')} — Immediate attention required!`;
+  } else banner.style.display = 'none';
+
+  // Market alert if catastrophic
+  const cats = data.filter(d => d.risk_level === 'catastrophic');
+  const mktAlert = document.getElementById('market-alert');
+  if (cats.length) {
+    mktAlert.style.display = 'block';
+    mktAlert.textContent = `📊 MARKET ALERT: High probability of price spike — catastrophic frost in: ${cats.map(d=>d.region.name+' ('+d.region.crops.join('/')+')').join('; ')}`;
+  } else mktAlert.style.display = 'none';
+
+  const order = {catastrophic:0, critical:1, risk:2, watch:3, safe:4};
+  const sorted = [...data].sort((a,b) => (order[a.risk_level]||4) - (order[b.risk_level]||4));
+
+  document.getElementById('region-grid').innerHTML = sorted.map(d => {
+    if (!d.weather) return `<div class="region-card" data-crops="${d.region.crops.join(',')}" data-risk="${d.risk_level}">
+      <div class="region-header"><div><div class="region-name">${d.region.flag} ${d.region.name}</div>
+      <div class="region-country">${d.region.country}</div></div><span class="risk-badge watch">N/A</span></div>
+      <div class="region-body" style="color:#aaa;font-size:0.8rem;padding:16px">Data unavailable</div></div>`;
+    return renderCard(d);
+  }).join('');
+
+  // Risk table with GDD and T10/T50
+  document.getElementById('risk-table-body').innerHTML = sorted.map(d => {
+    if (!d.weather) return '';
+    const gdd = calcGDD(d.weather.daily_max, d.weather.daily_min);
+    const primaryCrop = d.region.crops[0];
+    const stage = gddStage(gdd, primaryCrop);
+    const cd = (d.region.cropRisk && d.region.cropRisk[primaryCrop]) || CROP_RISKS[primaryCrop] || {};
+    const alert = d.alerts[0]?.message || '–';
+    const crops = d.region.crops.map(c => `${CROP_RISKS[c]?.icon} ${c}`).join(', ');
+    const pressureScore = { safe:0, watch:1, risk:3, critical:5, catastrophic:9 }[d.risk_level] || 0;
+    const pl = getPressureLabel(pressureScore);
+    const plColors = { low:'#27AE60', medium:'#F39C12', high:'#E74C3C', extreme:'#7B1A12' };
+    return `<tr onclick="openModal('${d.region.id}')" style="cursor:pointer">
+      <td><strong>${d.region.name}</strong></td>
+      <td>${d.region.flag} ${d.region.country}</td>
+      <td style="font-family:monospace">${d.weather.current_temp}°C</td>
+      <td style="font-family:monospace;color:${d.weather.min_7d<=-2?'#7B1A12':d.weather.min_7d<=0?'#E74C3C':'inherit'}">${d.weather.min_7d}°C</td>
+      <td style="font-size:0.7rem">${stage.label} (~${gdd} GDD)</td>
+      <td style="font-family:monospace;font-size:0.7rem">${cd.t10??'–'}°/${cd.t50??'–'}°C</td>
+      <td><span class="dot ${d.risk_level}"></span>${d.risk_level.charAt(0).toUpperCase()+d.risk_level.slice(1)}</td>
+      <td><span style="color:${plColors[pl]};font-family:monospace;font-size:0.7rem;font-weight:600">${pl.toUpperCase()}</span></td>
+    </tr>`;
+  }).join('');
+
+  // Update market tab
+  renderMarket(data);
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  MARKET SENTIMENT TAB                                       ║
+// ╚══════════════════════════════════════════════════════════════╝
+function renderMarket(data) {
+  const pp = calcPricePressure(data);
+  const colorMap = { low:'var(--risk-safe)', medium:'var(--risk-watch)', high:'var(--risk-risk)', extreme:'var(--risk-critical)' };
+
+  const el_overall = document.getElementById('mkt-overall');
+  const el_sub = document.getElementById('mkt-overall-sub');
+  if (el_overall) { el_overall.textContent = pp.overall.toUpperCase(); el_overall.className = 'mkt-value '+pp.overall; }
+  if (el_sub) el_sub.textContent = `Risk score: ${pp.totalScore} · ${data.filter(d=>['critical','catastrophic'].includes(d.risk_level)).length} critical/catastrophic regions`;
+
+  const el_regions = document.getElementById('mkt-regions');
+  const el_rsub = document.getElementById('mkt-regions-sub');
+  const atRisk = data.filter(d => ['risk','critical','catastrophic'].includes(d.risk_level));
+  if (el_regions) { el_regions.textContent = atRisk.length; el_regions.className = 'mkt-value '+(atRisk.length>3?'high':atRisk.length>0?'medium':'low'); }
+  if (el_rsub) el_rsub.textContent = atRisk.length ? atRisk.map(d=>d.region.name).join(', ') : 'No supply threats detected';
+
+  const el_crop = document.getElementById('mkt-crop');
+  const el_csub = document.getElementById('mkt-crop-sub');
+  if (el_crop && pp.maxCrop) {
+    const [cropName, score] = pp.maxCrop;
+    el_crop.textContent = `${CROP_RISKS[cropName]?.icon} ${cropName}`;
+    el_crop.className = 'mkt-value '+ getPressureLabel(score/3);
+    if (el_csub) el_csub.textContent = `Pressure score: ${score}`;
+  }
+
+  // Per-crop pressure cards
+  const grid = document.getElementById('crop-pressure-grid');
+  if (grid) {
+    grid.innerHTML = Object.entries(pp.cropScores).map(([crop, score]) => {
+      const lbl = getPressureLabel(score);
+      const affectedRegions = data.filter(d => d.region.crops.includes(crop) && ['risk','critical','catastrophic'].includes(d.risk_level));
+      return `<div class="mkt-card" style="border-top:3px solid ${colorMap[lbl]}">
+        <div class="mkt-label">${CROP_RISKS[crop]?.icon} ${crop}</div>
+        <div class="mkt-value ${lbl}">${lbl.toUpperCase()}</div>
+        <div class="mkt-sub">Score: ${score} · ${affectedRegions.length} region(s) at risk</div>
+        ${affectedRegions.length ? `<div style="margin-top:6px;font-size:0.65rem;color:var(--mid);font-family:'IBM Plex Mono',monospace">${affectedRegions.map(r=>`${r.region.flag} ${r.region.name}`).join('<br>')}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  FILTERS                                                    ║
+// ╚══════════════════════════════════════════════════════════════╝
+let activeRiskFilter = null;
+
+function filterByRisk(level, card) {
+  const cards = document.querySelectorAll('.summary-card');
+  if (activeRiskFilter === level) {
+    activeRiskFilter = null;
+    cards.forEach(c => { c.classList.remove('active-filter'); c.querySelector('.click-hint').textContent = 'click to filter'; });
+    document.querySelectorAll('.region-card').forEach(c => c.style.display = 'block');
+  } else {
+    activeRiskFilter = level;
+    cards.forEach(c => { c.classList.remove('active-filter'); c.querySelector('.click-hint').textContent = 'click to filter'; });
+    card.classList.add('active-filter');
+    card.querySelector('.click-hint').textContent = 'showing only — click to clear';
+    document.querySelectorAll('.region-card').forEach(c => {
+      c.style.display = c.dataset.risk === level ? 'block' : 'none';
+    });
+    document.querySelectorAll('.filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
+    const allBtn = document.querySelector('.filter-bar .filter-btn');
+    if (allBtn) allBtn.classList.add('active');
+  }
+}
+
+function filterCrop(crop, btn) {
+  activeRiskFilter = null;
+  document.querySelectorAll('.summary-card').forEach(c => { c.classList.remove('active-filter'); c.querySelector('.click-hint').textContent = 'click to filter'; });
+  document.querySelectorAll('.filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.region-card').forEach(c => {
+    c.style.display = (crop === 'all' || c.dataset.crops.includes(crop)) ? 'block' : 'none';
+  });
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  TAB SWITCH                                                 ║
+// ╚══════════════════════════════════════════════════════════════╝
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('tab-'+tab).classList.add('active');
+  if (tab === 'news') loadNews();
+  if (tab === 'market' && allData.length) renderMarket(allData);
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  NEWS                                                       ║
+// ╚══════════════════════════════════════════════════════════════╝
 let NEWS_ARTICLES = [];
 let newsLoaded = false;
+let currentNewsFilter = 'all';
 
 async function fetchNewsJSON() {
   try {
-    const resp = await fetch('news.json?t=' + Date.now()); // cache-bust
+    const resp = await fetch('news.json?t=' + Date.now());
     if (!resp.ok) throw new Error('news.json not found');
     const data = await resp.json();
     NEWS_ARTICLES = data.articles || [];
@@ -530,309 +1203,100 @@ async function fetchNewsJSON() {
     document.getElementById('news-last-updated').textContent = 'Last fetched: ' + updated;
     return true;
   } catch(e) {
-    console.warn('Could not load news.json:', e);
-    newsLoaded = false;
-    return false;
+    newsLoaded = false; return false;
   }
 }
 
-
-// ============================================================
-// SEASON
-// ============================================================
-function getSeasonPhase() {
-  const m = new Date().getMonth()+1, d = new Date().getDate();
-  if (m===2||(m===3&&d<15)) return {status:'🌱 Pre-season — Bud Swell & Forcing',tip:'Rhubarb forcing underway. Strawberry flowering begins in Egypt & Turkey. Monitor frost for early crops.',critical:false};
-  if (m===3||(m===4&&d<10)) return {status:'🌸 Early Flowering — Cherry & Currants Approaching',tip:'Sour cherry buds breaking in Turkey. Watch for late frosts. Critical window approaching in 14 days.',critical:false};
-  if ((m===4&&d>=10)||(m===5&&d<20)) return {status:'🌸 CRITICAL — Flowering Season for most crops',tip:'⚠️ Frost below 0°C during flowering can destroy 100% of the crop. Monitor continuously.',critical:true};
-  if (m===5||m===6) return {status:'🍃 Fruit Set — Post Flowering',tip:'Frost risk decreasing. Monitor until mid-June for late crops.',critical:false};
-  if (m>=7&&m<=9) return {status:'🍒 Harvest Season — Northern Hemisphere',tip:'Focus on rain and hail. Southern Hemisphere (Chile) entering pre-flowering.',critical:false};
-  if (m>=10&&m<=12) return {status:'❄️ Dormancy N.Hem · 🌸 Flowering S.Hem (Chile)',tip:'Chilean blueberry & raspberry in critical flowering window. Northern crops dormant.',critical:(m===10||m===11)};
-  return {status:'❄️ Dormancy / Off-Season',tip:'Crops dormant. Monitor for extreme cold.',critical:false};
-}
-
-// ============================================================
-// RISK ENGINE
-// ============================================================
-function daysUntilCritical(critMonths) {
-  const today = new Date(); const cm = today.getMonth()+1;
-  if(critMonths.includes(cm)) return 0;
-  for(let i=1;i<366;i++){const f=new Date(today);f.setDate(today.getDate()+i);if(critMonths.includes(f.getMonth()+1))return i;}
-  return 999;
-}
-
-function assessRegion(region, weather) {
-  const cm = new Date().getMonth()+1;
-  const mins = weather.daily_min;
-  let highest='safe', alerts=[], affected=[];
-
-  for(const crop of region.crops) {
-    // Per-region override takes priority; fall back to global default
-    const regionCropDef = region.cropRisk && region.cropRisk[crop];
-    const globalCropDef = CROP_RISKS[crop];
-    const cd = regionCropDef || globalCropDef;
-    if(!cd) continue;
-
-    const crit   = cd.criticalMonths;
-    const inWindow  = crit.includes(cm);
-    const dtc       = daysUntilCritical(crit);
-    const nearWindow = dtc>0 && dtc<=WATCH_DAYS;
-    const frostDays  = mins.filter(t=>t<=cd.frostThreshold);
-    const coldDays   = mins.filter(t=>t>cd.frostThreshold && t<=cd.watchThreshold);
-
-    if(inWindow && frostDays.length) {
-      highest='critical'; affected.push(crop);
-      alerts.push({level:'critical',crop,
-        message:`FROST: ${frostDays.length} day(s) ≤${cd.frostThreshold}°C (min:${Math.min(...frostDays)}°C) — ${crop} flowering at critical risk!`});
-    } else if(inWindow && coldDays.length) {
-      if(highest!=='critical') highest='risk'; affected.push(crop);
-      alerts.push({level:'risk',crop,
-        message:`Near-frost during flowering: ${coldDays.length} day(s) below ${cd.watchThreshold}°C — ${crop} at risk.`});
-    } else if(nearWindow && (frostDays.length||coldDays.length)) {
-      if(!['critical','risk'].includes(highest)) highest='watch';
-      alerts.push({level:'watch',crop,
-        message:`${dtc} days to ${crop} critical window. Cold temps in forecast (min:${Math.min(...mins)}°C).`});
-    }
-  }
-  return {region, weather, risk_level:highest, alerts, affected_crops:[...new Set(affected)]};
-}
-
-// ============================================================
-// WEATHER FETCH
-// ============================================================
-const WX = {0:'☀️',1:'🌤',2:'⛅',3:'☁️',45:'🌫',51:'🌦',53:'🌦',61:'🌧',63:'🌧',71:'🌨',73:'🌨',75:'❄️',80:'🌦',81:'🌧',95:'⛈',99:'⛈'};
-const DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-
-async function fetchWeather(region) {
-  const url=`https://api.open-meteo.com/v1/forecast?latitude=${region.lat}&longitude=${region.lon}&current=temperature_2m,weathercode,windspeed_10m,precipitation&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum&timezone=auto&forecast_days=7`;
-  const r=await fetch(url); if(!r.ok) throw new Error();
-  const d=await r.json();
-  return {
-    current_temp:Math.round(d.current.temperature_2m),
-    wind_kmh:Math.round(d.current.windspeed_10m),
-    precip_mm:Math.round(d.current.precipitation*10)/10,
-    daily_dates:d.daily.time,
-    daily_max:d.daily.temperature_2m_max.map(t=>Math.round(t)),
-    daily_min:d.daily.temperature_2m_min.map(t=>Math.round(t)),
-    daily_codes:d.daily.weathercode,
-    min_7d:Math.round(Math.min(...d.daily.temperature_2m_min)),
-  };
-}
-
-// ============================================================
-// RENDER CARD
-// ============================================================
-function renderCard(result) {
-  const {region,weather,risk_level,alerts,affected_crops}=result;
-  const riskLabels={safe:'safe',watch:'watch',risk:'risk',critical:'critical'};
-  const cropTags=region.crops.map(c=>{
-    const aff=affected_crops.includes(c);
-    return `<span class="crop-tag${aff?' affected':''}">${CROP_RISKS[c]?.icon||''} ${c}</span>`;
-  }).join('');
-  const alertHtml=alerts.map(a=>`<div class="frost-warning">⚠️ ${a.message}</div>`).join('');
-  const forecast=weather.daily_dates.slice(0,7).map((dt,i)=>{
-    const mn=weather.daily_min[i], mx=weather.daily_max[i];
-    const frost=mn<=0;
-    const dn=DAYS[new Date(dt+'T12:00:00').getDay()];
-    return `<div class="forecast-day${frost?' frost-day':''}">
-      <div class="forecast-day-name">${dn}</div>
-      <div class="forecast-icon">${WX[weather.daily_codes[i]]||'🌡'}</div>
-      <div class="forecast-temp${frost?' cold':''}">${mx}°/${mn}°</div>
-    </div>`;
-  }).join('');
-  return `<div class="region-card" data-crops="${region.crops.join(',')}" data-risk="${risk_level}">
-    <div class="region-header">
-      <div><div class="region-name">${region.flag} ${region.name}</div><div class="region-country">${region.country}</div></div>
-      <span class="risk-badge ${risk_level}">${risk_level}</span>
-    </div>
-    <div class="region-body">
-      <div class="weather-row">
-        <div class="weather-stat"><div class="weather-stat-val">${weather.current_temp}°C</div><div class="weather-stat-label">Now</div></div>
-        <div class="weather-stat"><div class="weather-stat-val" style="color:${weather.min_7d<=0?'var(--risk-critical)':'inherit'}">${weather.min_7d}°C</div><div class="weather-stat-label">Min 7d</div></div>
-        <div class="weather-stat"><div class="weather-stat-val">${weather.wind_kmh}</div><div class="weather-stat-label">km/h</div></div>
-        <div class="weather-stat"><div class="weather-stat-val">${weather.precip_mm}</div><div class="weather-stat-label">mm</div></div>
-      </div>
-      ${alertHtml}
-      <div class="crops-row">${cropTags}</div>
-      <div class="forecast-strip">${forecast}</div>
-    </div>
-  </div>`;
-}
-
-// ============================================================
-// MAIN LOAD
-// ============================================================
-let allData=[];
-
-async function loadAll() {
-  document.getElementById('region-grid').innerHTML='<div class="loading-overlay"><div class="spinner"></div>Fetching live weather for '+REGIONS.length+' regions...</div>';
-  document.getElementById('risk-table-body').innerHTML='<tr><td colspan="7" style="text-align:center;padding:20px;color:#aaa;font-family:monospace;font-size:0.8rem">Loading...</td></tr>';
-
-  const season=getSeasonPhase();
-  document.getElementById('season-status').textContent=season.status;
-  document.getElementById('season-tip').textContent=season.tip;
-  if(season.critical) document.getElementById('season-banner').style.background='linear-gradient(135deg,#7B1A12,#C0392B)';
-
-  allData=await Promise.all(REGIONS.map(async r=>{
-    try { const w=await fetchWeather(r); return assessRegion(r,w); }
-    catch(e) { return {region:r,weather:null,risk_level:'watch',alerts:[{level:'watch',message:'Data unavailable'}],affected_crops:[]}; }
-  }));
-
-  renderAll(allData);
-  document.getElementById('last-updated').textContent=`Updated: ${new Date().toLocaleTimeString('de-DE')}`;
-}
-
-function renderAll(data) {
-  const counts={safe:0,watch:0,risk:0,critical:0};
-  data.forEach(d=>counts[d.risk_level]++);
-  ['safe','watch','risk','critical'].forEach(l=>document.getElementById('count-'+l).textContent=counts[l]);
-
-  const crits=data.filter(d=>d.risk_level==='critical');
-  const banner=document.getElementById('alert-banner');
-  if(crits.length) {
-    banner.style.display='block';
-    banner.textContent=`🚨 CRITICAL FROST ALERTS: ${crits.map(d=>d.region.name).join(', ')} — Immediate attention required!`;
-  } else banner.style.display='none';
-
-  const order={critical:0,risk:1,watch:2,safe:3};
-  const sorted=[...data].sort((a,b)=>order[a.risk_level]-order[b.risk_level]);
-
-  document.getElementById('region-grid').innerHTML=sorted.map(d=>{
-    if(!d.weather) return `<div class="region-card" data-crops="${d.region.crops.join(',')}" data-risk="${d.risk_level}"><div class="region-header"><div><div class="region-name">${d.region.flag} ${d.region.name}</div><div class="region-country">${d.region.country}</div></div><span class="risk-badge watch">N/A</span></div><div class="region-body" style="color:#aaa;font-size:0.8rem;padding:16px;">Weather data unavailable</div></div>`;
-    return renderCard(d);
-  }).join('');
-
-  document.getElementById('risk-table-body').innerHTML=sorted.map(d=>{
-    if(!d.weather) return '';
-    const alert=d.alerts[0]?.message||'–';
-    const crops=d.region.crops.map(c=>`${CROP_RISKS[c]?.icon} ${c}`).join(', ');
-    return `<tr>
-      <td><strong>${d.region.name}</strong></td>
-      <td>${d.region.flag} ${d.region.country}</td>
-      <td style="font-family:monospace">${d.weather.current_temp}°C</td>
-      <td style="font-family:monospace;color:${d.weather.min_7d<=0?'var(--risk-critical)':'inherit'}">${d.weather.min_7d}°C</td>
-      <td style="font-size:0.72rem">${crops}</td>
-      <td><span class="dot ${d.risk_level}"></span>${d.risk_level.charAt(0).toUpperCase()+d.risk_level.slice(1)}</td>
-      <td style="font-size:0.72rem;color:var(--mid)">${alert.length>70?alert.slice(0,70)+'…':alert}</td>
-    </tr>`;
-  }).join('');
-}
-
-// ============================================================
-// CROP FILTER
-// ============================================================
-// active risk filter state
-let activeRiskFilter = null;
-
-function filterByRisk(level, card) {
-  const cards = document.querySelectorAll(".summary-card");
-  if (activeRiskFilter === level) {
-    // Clicking same card again — clear filter
-    activeRiskFilter = null;
-    cards.forEach(c => c.classList.remove("active-filter"));
-    card.querySelector(".click-hint").textContent = "click to filter";
-    document.querySelectorAll(".region-card").forEach(c => c.style.display = "block");
-  } else {
-    // Apply filter
-    activeRiskFilter = level;
-    cards.forEach(c => { c.classList.remove("active-filter"); c.querySelector(".click-hint").textContent = "click to filter"; });
-    card.classList.add("active-filter");
-    card.querySelector(".click-hint").textContent = "showing only — click to clear";
-    document.querySelectorAll(".region-card").forEach(c => {
-      c.style.display = (c.dataset.risk === level) ? "block" : "none";
-    });
-    // Also reset crop filter to "all" so risk filter is not masked
-    document.querySelectorAll(".filter-bar .filter-btn").forEach(b => b.classList.remove("active"));
-    const allBtn = document.querySelector(".filter-bar .filter-btn");
-    if (allBtn) allBtn.classList.add("active");
-  }
-}
-
-function filterCrop(crop, btn) {
-  // Clear any active risk filter when using crop filter
-  activeRiskFilter = null;
-  document.querySelectorAll(".summary-card").forEach(c => { c.classList.remove("active-filter"); c.querySelector(".click-hint").textContent = "click to filter"; });
-  document.querySelectorAll(".filter-bar .filter-btn").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
-  document.querySelectorAll(".region-card").forEach(c => {
-    c.style.display = (crop === "all" || c.dataset.crops.includes(crop)) ? "block" : "none";
+function highlightKeywords(text) {
+  if (!text) return '';
+  const priceKw = ['shortage','price increase','price spike','crop failure','supply crunch','scarcity','inventory low'];
+  const supplyKw = ['supply','inventory','stocks','export','production','volume'];
+  const riskKw   = ['frost','damage','loss','decline','drop','crisis','freeze'];
+  let result = text;
+  [...priceKw, ...supplyKw, ...riskKw].forEach(kw => {
+    const re = new RegExp(`(${kw})`, 'gi');
+    const cls = priceKw.includes(kw.toLowerCase()) ? 'price' : supplyKw.includes(kw.toLowerCase()) ? 'supply' : 'risk';
+    result = result.replace(re, `<mark style="background:transparent;font-weight:600;color:${cls==='price'?'#9A7D0A':cls==='supply'?'#1A5276':'#C0392B'}">$1</mark>`);
   });
+  return result;
 }
 
-// ============================================================
-// TAB SWITCH
-// ============================================================
-function switchTab(tab, btn) {
-  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-  document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('tab-'+tab).classList.add('active');
-  if(tab==='news') loadNews();
+function getArticleKeywordBadges(text) {
+  const all = (text||'').toLowerCase();
+  const badges = [];
+  if (['shortage','price increase','price spike','crop failure','scarcity'].some(k=>all.includes(k))) badges.push({label:'⚠️ Price Impact',cls:'price'});
+  if (['supply','inventory','stocks'].some(k=>all.includes(k))) badges.push({label:'📦 Supply',cls:'supply'});
+  if (['frost','freeze','damage','loss'].some(k=>all.includes(k))) badges.push({label:'❄️ Risk',cls:'risk'});
+  return badges.map(b=>`<span class="news-keyword ${b.cls}">${b.label}</span>`).join('');
 }
 
-// ============================================================
-// NEWS RENDER
-// ============================================================
-let currentNewsFilter='all';
+function isHighImpact(article) {
+  const text = ((article.title||'')+(article.summary||'')).toLowerCase();
+  return ['shortage','price increase','crop failure','frost','freeze','catastrophic','50%','record low'].some(k=>text.includes(k));
+}
 
 function renderNewsGrid(filter) {
   currentNewsFilter = filter;
-  const all = NEWS_ARTICLES;
-  const articles = filter === 'all'
-    ? all
-    : all.filter(a => a.crops && a.crops.includes(filter) || a.crop === filter || (a.crop && a.crop.includes(filter)));
+  const articles = filter === 'all' ? NEWS_ARTICLES
+    : NEWS_ARTICLES.filter(a => {
+        if (filter === 'concentrate & juice') return a.is_concentrate || a.crop === 'concentrate & juice';
+        return (a.crops && a.crops.includes(filter)) || a.crop === filter || (a.crop && a.crop.includes(filter));
+      });
 
   if (!articles.length) {
-    document.getElementById('news-grid').innerHTML = '<div class="news-loading">No articles found for this crop. New articles are fetched every 24h.</div>';
+    document.getElementById('news-grid').innerHTML = '<div class="news-loading">No articles found. New articles are fetched every 24h.</div>';
     return;
   }
 
   document.getElementById('news-grid').innerHTML = articles.map(a => {
-    const pubDate = a.published ? new Date(a.published).toLocaleDateString('de-DE') : (a.date || '');
-    const cropIcon = CROP_RISKS[a.crop]?.icon || '🌿';
-    const allCrops = a.crops || [a.crop];
-    const cropTags = allCrops.map(c => `<span class="news-crop-tag">${CROP_RISKS[c]?.icon||'🌿'} ${c}</span>`).join(' ');
-    return `
-    <div class="news-card" data-crop="${a.crop}">
+    const pubDate = a.published ? new Date(a.published).toLocaleDateString('de-DE') : (a.date||'');
+    const allCrops = (a.crops && a.crops.length) ? a.crops : [a.crop];
+    const CONC_ICONS = {'concentrate & juice':'🥤','general':'📰'};
+    const cropTags = allCrops.map(c => `<span class="news-crop-tag">${CROP_RISKS[c]?.icon||CONC_ICONS[c]||'🌿'} ${c}</span>`).join(' ');
+    const badges = getArticleKeywordBadges((a.title||'')+(a.summary||''));
+    const hiImpact = isHighImpact(a);
+    return `<div class="news-card${hiImpact?' high-impact':''}">
       <div class="news-card-header">
         <div style="display:flex;gap:4px;flex-wrap:wrap">${cropTags}</div>
-        <span class="news-source">${a.source}</span>
+        <span class="news-source">${a.source||''}</span>
       </div>
       <div class="news-body">
-        <div class="news-title">${a.title}</div>
-        <div class="news-summary">${a.summary || ''}</div>
+        <div class="news-title">${a.title||''}</div>
+        <div class="news-summary">${highlightKeywords(a.summary||'')}</div>
+        ${badges ? `<div class="news-keywords">${badges}</div>` : ''}
       </div>
       <div class="news-footer">
-        <span class="news-date">📍 ${a.region || ''} · ${pubDate}</span>
-        <a href="${a.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>
+        <span class="news-date">📍 ${a.region||''} · ${pubDate}</span>
+        <a href="${a.url||'#'}" target="_blank" rel="noopener" class="news-link">Read more →</a>
       </div>
     </div>`;
   }).join('');
 }
 
 async function loadNews() {
-  document.getElementById('news-grid').innerHTML = '<div class="news-loading"><div class="spinner" style="display:inline-block;vertical-align:middle;margin-right:8px"></div>Fetching latest news...</div>';
+  document.getElementById('news-grid').innerHTML = '<div class="news-loading"><div class="spinner" style="display:inline-block;vertical-align:middle;margin-right:8px"></div>Loading news...</div>';
   await fetchNewsJSON();
-  if (!newsLoaded || NEWS_ARTICLES.length === 0) {
-    document.getElementById('news-grid').innerHTML = '<div class="news-loading" style="color:#C0392B">⚠️ news.json not found.<br><small style=\'font-size:0.75rem;margin-top:8px;display:block\'>Run <code>python news_fetcher.py</code> locally and commit news.json to your repo, or enable GitHub Actions.</small></div>';
+  if (!newsLoaded || !NEWS_ARTICLES.length) {
+    document.getElementById('news-grid').innerHTML = `<div class="news-loading" style="color:#C0392B">
+      ⚠️ news.json not found.<br>
+      <small style="font-size:0.72rem;margin-top:8px;display:block">
+        Upload <code>news.json</code> to your GitHub repo root, or run <code>python news_fetcher.py</code> and commit the output.
+      </small></div>`;
     return;
   }
   renderNewsGrid(currentNewsFilter);
 }
 
-function renderNews(filter) {
-  renderNewsGrid(filter);
-}
-
+function renderNews(filter) { renderNewsGrid(filter); }
 function filterNews(crop, btn) {
   document.querySelectorAll('.news-filter-bar .filter-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  renderNewsGrid(crop === 'all' ? 'all' : crop);
+  renderNewsGrid(crop==='all'?'all':crop);
 }
 
-// ============================================================
-// INIT
-// ============================================================
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  INIT                                                       ║
+// ╚══════════════════════════════════════════════════════════════╝
 loadAll();
 setInterval(loadAll, 30*60*1000);
 </script>
