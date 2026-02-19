@@ -749,14 +749,38 @@ const SUPPLY_KEYWORDS = ['supply','inventory','stocks','export','production','vo
 const RISK_KEYWORDS = ['frost','damage','loss','decline','fall','drop','crisis'];
 
 function calcPricePressure(allResults) {
+  // ── RULE: Price pressure only counts when frost occurs DURING
+  //    actual flowering window. Watch = pre-flowering = zero pressure.
+  //    Only risk/critical/catastrophic INSIDE the window count.
   const cropScores = {};
-  for (const crop of Object.keys(CROP_RISKS)) cropScores[crop] = 0;
+  const cropReasons = {};
+  for (const crop of Object.keys(CROP_RISKS)) { cropScores[crop] = 0; cropReasons[crop] = []; }
+
+  const cm = new Date().getMonth() + 1;
 
   for (const result of allResults) {
     const w = IMPORTANCE_WEIGHT[result.region.importance] || 1;
-    const score = { safe:0, watch:1, risk:2, critical:4, catastrophic:8 }[result.risk_level] || 0;
+
     for (const crop of result.region.crops) {
-      if (cropScores[crop] !== undefined) cropScores[crop] += score * w;
+      if (cropScores[crop] === undefined) continue;
+
+      const cd = (result.region.cropRisk && result.region.cropRisk[crop]) || CROP_RISKS[crop];
+      if (!cd) continue;
+
+      // Is flowering actually happening right now in this region for this crop?
+      const inWindow = cd.criticalMonths && cd.criticalMonths.includes(cm);
+
+      // Only score if we are INSIDE the flowering window AND have actual frost damage
+      // Watch = pre-window approach = 0 (no damage yet, no price pressure)
+      // Safe outside window = 0
+      // risk/critical/catastrophic inside window = real signal
+      if (!inWindow) continue;
+
+      const score = { safe:0, watch:0, risk:2, critical:4, catastrophic:8 }[result.risk_level] || 0;
+      if (score === 0) continue;
+
+      cropScores[crop] += score * w;
+      cropReasons[crop].push(`${result.region.flag} ${result.region.name} (${result.risk_level})`);
     }
   }
 
@@ -764,18 +788,19 @@ function calcPricePressure(allResults) {
   const maxCrop = Object.entries(cropScores).sort((a,b) => b[1]-a[1])[0];
 
   let overall;
-  if (totalScore === 0)     overall = 'low';
-  else if (totalScore < 10) overall = 'medium';
-  else if (totalScore < 25) overall = 'high';
-  else                      overall = 'extreme';
+  if (totalScore === 0)    overall = 'low';
+  else if (totalScore < 6) overall = 'medium';
+  else if (totalScore < 15) overall = 'high';
+  else                     overall = 'extreme';
 
-  return { overall, totalScore, cropScores, maxCrop };
+  return { overall, totalScore, cropScores, cropReasons, maxCrop };
 }
 
 function getPressureLabel(score) {
+  // Same thresholds — only reached when damage actually occurs during flowering
   if (score === 0) return 'low';
-  if (score < 4)  return 'medium';
-  if (score < 10) return 'high';
+  if (score < 6)  return 'medium';
+  if (score < 15) return 'high';
   return 'extreme';
 }
 
@@ -870,7 +895,12 @@ function renderCard(result) {
     Fruiting:'#27AE60' }[stage.label] || '#aaa';
 
   const cd = (region.cropRisk && region.cropRisk[primaryCrop]) || CROP_RISKS[primaryCrop] || {};
-  const pressureScore = { safe:0, watch:1, risk:3, critical:5, catastrophic:9 }[risk_level] || 0;
+  // Price pressure only meaningful if frost occurred DURING flowering window
+  const cm_card = new Date().getMonth() + 1;
+  const inFloweringWindow = cd.criticalMonths && cd.criticalMonths.includes(cm_card);
+  const pressureScore = inFloweringWindow
+    ? ({ safe:0, watch:0, risk:3, critical:5, catastrophic:9 }[risk_level] || 0)
+    : 0;
   const pressureLabel = getPressureLabel(pressureScore);
 
   const cropTags = region.crops.map(c => {
@@ -1076,7 +1106,12 @@ function renderAll(data) {
     const cd = (d.region.cropRisk && d.region.cropRisk[primaryCrop]) || CROP_RISKS[primaryCrop] || {};
     const alert = d.alerts[0]?.message || '–';
     const crops = d.region.crops.map(c => `${CROP_RISKS[c]?.icon} ${c}`).join(', ');
-    const pressureScore = { safe:0, watch:1, risk:3, critical:5, catastrophic:9 }[d.risk_level] || 0;
+    const cm_row = new Date().getMonth() + 1;
+    const cd_primary = (d.region.cropRisk && d.region.cropRisk[primaryCrop]) || CROP_RISKS[primaryCrop] || {};
+    const inWindow_row = cd_primary.criticalMonths && cd_primary.criticalMonths.includes(cm_row);
+    const pressureScore = inWindow_row
+      ? ({ safe:0, watch:0, risk:3, critical:5, catastrophic:9 }[d.risk_level] || 0)
+      : 0;
     const pl = getPressureLabel(pressureScore);
     const plColors = { low:'#27AE60', medium:'#F39C12', high:'#E74C3C', extreme:'#7B1A12' };
     return `<tr onclick="openModal('${d.region.id}')" style="cursor:pointer">
