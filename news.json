@@ -1,149 +1,111 @@
 {
-  "last_updated": "2026-02-19T06:00:00+00:00",
-  "article_count": 12,
+  "last_updated": "2026-02-19T06:36:10.071390+00:00",
+  "article_count": 7,
   "articles": [
     {
-      "id": "a1b2c3d4e5f6",
+      "id": "a1f3c9d2e4b5",
+      "title": "Putting premium berries in the spotlight — Naturipe expects higher volumes across all categories in 2026",
+      "summary": "Naturipe Farms is putting premium berries at the forefront at the Southeast Produce Council Southern Exposure conference. Across strawberries, blueberries, raspberries, and blackberries, the company expects increased volumes in 2026. Investments in improved varieties and expanded acreage are translating into strong, promotable supplies when demand is highest.",
+      "url": "https://www.freshplaza.com/north-america/article/9810766/putting-premium-berries-in-the-spotlight/",
+      "source": "FreshPlaza",
+      "region": "USA / Global",
+      "crops": [
+        "strawberry",
+        "blueberry",
+        "raspberry"
+      ],
+      "crop": "blueberry",
+      "published": "2026-02-16T08:00:00+00:00",
+      "fetched": "2026-02-19T06:00:00+00:00"
+    },
+    {
+      "id": "b2e4d6f1a3c7",
+      "title": "Florida strawberry levels increasing after freeze recovery",
+      "summary": "Florida strawberry supply is recovering after being down 50% for two weeks due to a freeze. With warmer weather returning, production is expected to pick up sharply. Growers are confident of covering Valentine's Day commitments. Supply transitions from Chile and Peru blueberries to Florida from early March.",
+      "url": "https://www.freshplaza.com/north-america/article/9810227/florida-strawberry-levels-increasing/",
+      "source": "FreshPlaza",
+      "region": "USA / Florida",
+      "crops": [
+        "strawberry",
+        "blueberry"
+      ],
+      "crop": "strawberry",
+      "published": "2026-02-12T08:00:00+00:00",
+      "fetched": "2026-02-19T06:00:00+00:00"
+    },
+    {
+      "id": "c3f5e7a2b4d8",
       "title": "Extreme weather in Huelva: 'I haven't seen conditions this extreme in more than 30 years'",
-      "summary": "Severe rain and wind in February 2026 are causing major damage to Huelva strawberry and raspberry plots. Limited availability is keeping prices high but fruit quality is impacted. Northern Morocco is also flooded, reducing competing supply to European markets.",
+      "summary": "Severe rain and wind in February 2026 are causing major damage to Huelva strawberry and raspberry plots. Limited availability is keeping prices high but fruit quality is impacted. Northern Morocco is also flooded, reducing competing supply to European markets and tightening overall berry availability.",
       "url": "https://www.freshplaza.com/africa/article/9809625/i-haven-t-seen-conditions-this-extreme-in-huelva-in-more-than-30-years/",
       "source": "FreshPlaza",
       "region": "Huelva, Spain",
-      "crops": ["strawberry", "raspberry"],
+      "crops": [
+        "strawberry",
+        "raspberry"
+      ],
       "crop": "strawberry",
       "published": "2026-02-10T08:00:00+00:00",
       "fetched": "2026-02-19T06:00:00+00:00"
     },
     {
-      "id": "b2c3d4e5f6a1",
-      "title": "Despite the phenological delay, Huelva starts strawberry harvest with good market forecasts",
-      "summary": "The first strawberries of the 2025/2026 season are appearing in Lepe, Huelva, after overcoming weather challenges including high temperatures during sowing and storm Claudia. The season began with high technical demands but marketing expectations remain optimistic with good demand across all potential markets.",
-      "url": "https://www.freshplaza.com/north-america/article/9791308/despite-the-phenological-delay-we-are-starting-the-strawberry-harvest-with-good-market-forecasts/",
+      "id": "d4a6b8c1e3f9",
+      "title": "Spain's berry production down 3.4% — strawberry and raspberry supply falls, blueberry up 5.5%",
+      "summary": "Spain's berry sector contracted 3.4% to 371,713 tons due to reduced strawberry and raspberry acreage driven by irrigation water uncertainty. Blueberry production bucked the trend with a 5.5% increase. Only Cuna de Platero, Algaida, and Berryworld Iberia reported volume increases among the Top 15 producers.",
+      "url": "https://www.freshplaza.com/north-america/article/9810520/spain-s-berry-production-down-3-4-as-strawberry-and-raspberry-supply-falls/",
       "source": "FreshPlaza",
       "region": "Huelva, Spain",
-      "crops": ["strawberry"],
+      "crops": [
+        "strawberry",
+        "raspberry",
+        "blueberry"
+      ],
       "crop": "strawberry",
-      "published": "2025-12-15T08:00:00+00:00",
+      "published": "2026-02-10T08:00:00+00:00",
       "fetched": "2026-02-19T06:00:00+00:00"
     },
     {
-      "id": "c3d4e5f6a1b2",
+      "id": "e5b7c9d2f4a6",
       "title": "Egyptian strawberry acreage increased, but yield per hectare declined",
-      "summary": "From January 2026, Egyptian strawberries face tighter EU border controls with 20% of shipments physically inspected for pesticide residues. Compliant frozen strawberry volumes are approaching sold-out levels early in the season. Key export destinations include Germany, Poland and the Netherlands.",
+      "summary": "From January 2026, Egyptian strawberries face tighter EU border controls with 20% of shipments physically inspected for pesticide residues. Frozen strawberry volumes are approaching sold-out levels early in the season. Key export destinations for Egyptian strawberries include Germany, Poland and the Netherlands.",
       "url": "https://www.freshplaza.com/north-america/article/9807094/egyptian-strawberry-acreage-increased-but-yield-per-hectare-declined/",
       "source": "FreshPlaza",
       "region": "Egypt",
-      "crops": ["strawberry"],
+      "crops": [
+        "strawberry"
+      ],
       "crop": "strawberry",
       "published": "2026-02-05T08:00:00+00:00",
       "fetched": "2026-02-19T06:00:00+00:00"
     },
     {
-      "id": "d4e5f6a1b2c3",
-      "title": "Frost slashes 2025 cherry harvests in Europe and Turkey",
-      "summary": "April 2025 frosts caused devastating losses: Turkey lost 50-70% of its cherry crop after temperatures dropped to -15°C. Poland lost 50-55% of sour cherries. Hungary saw 80-90% losses in sweet cherries. Romania lost 70-80%. A critical reminder of the importance of frost monitoring during flowering.",
-      "url": "https://www.freshplaza.com/europe/article/9733620/frost-slashes-2025-cherry-harvests-in-europe/",
-      "source": "FreshPlaza",
-      "region": "Turkey, Poland, Hungary, Romania",
-      "crops": ["sour cherry"],
-      "crop": "sour cherry",
-      "published": "2025-05-20T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "e5f6a1b2c3d4",
-      "title": "Serbia's frozen raspberry exports hit by low yields and disease",
-      "summary": "Serbia faces a 20-30% yield drop in 2025 due to spring frosts, drought, and viral disease in the Arilje region. European frozen raspberry prices reached €4.6/kg but supply is scarce. Ukraine is positioning to become the global leader in frozen raspberry exports by volume in 2025/26.",
-      "url": "https://www.freshplaza.com/article/9732196/serbia-s-frozen-raspberry-exports-hit-by-low-yields-disease/",
-      "source": "FreshPlaza",
-      "region": "Serbia",
-      "crops": ["raspberry"],
-      "crop": "raspberry",
-      "published": "2025-05-15T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "f6a1b2c3d4e5",
-      "title": "Serbian raspberry production hit by weather — output may fall to 10,000 tons",
-      "summary": "Serbia's raspberry output may reach only 10,000-15,000 tons this season after drought, freezing in April, and 48 days without rain in Macva. Empty refrigeration facilities and rising prices at Zlatibor stock markets signal a very tight supply season ahead for European processors.",
-      "url": "https://www.freshplaza.com/europe/article/9749304/serbian-raspberry-production-hit-by-weather/",
-      "source": "FreshPlaza",
-      "region": "Serbia",
-      "crops": ["raspberry"],
-      "crop": "raspberry",
-      "published": "2025-07-10T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "a2b3c4d5e6f7",
-      "title": "Ukrainian berry producers explore raspberry freezing technologies in Serbia",
-      "summary": "In December 2025, Ukrainian berry growers and processors toured Serbia to study raspberry freezing and processing technology. The Ukrainian Berry Association is working to improve competitiveness as Ukraine positions itself to become a top frozen raspberry exporter in 2025/26.",
-      "url": "https://www.freshplaza.com/latin-america/article/9796511/ukrainian-berry-producers-explore-raspberry-freezing-technologies-in-serbia/",
-      "source": "FreshPlaza",
-      "region": "Ukraine & Serbia",
-      "crops": ["raspberry"],
-      "crop": "raspberry",
-      "published": "2025-12-10T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "b3c4d5e6f7a2",
-      "title": "Chile forecasts modest increase in blueberry exports in the 2025-2026 season",
-      "summary": "Frutas de Chile projects a 1% rise in fresh blueberry shipments for 2025-26, with frozen blueberry exports forecast to exceed 161,000 tons — a record 43% of total shipments. Protected varieties will account for 35% of exports. Continental Europe receives 41% of Chilean blueberry exports.",
-      "url": "https://www.freshplaza.com/north-america/article/9772640/chile-forecasts-a-modest-increase-in-blueberry-exports-in-the-2025-2026-season/",
-      "source": "FreshPlaza",
-      "region": "Chile",
-      "crops": ["blueberry"],
-      "crop": "blueberry",
-      "published": "2025-10-20T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "c4d5e6f7a2b3",
-      "title": "Chile's blueberry exports reach 55,946 tons with 12% organic share",
-      "summary": "Chile exported 55,946 tons of blueberries in the 2024/25 season — a 7% increase from prior year. Continental Europe is the primary market at 41%, followed by the USA at 35%. New and recommended varieties now account for 81% of shipments, with Legacy the leading variety at 45%.",
-      "url": "https://www.freshplaza.com/north-america/article/9698412/chile-s-blueberry-exports-reach-55-946-tons-in-2024-2025-season-with-12-organic-share/",
-      "source": "FreshPlaza",
-      "region": "Chile",
-      "crops": ["blueberry"],
-      "crop": "blueberry",
-      "published": "2025-01-20T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "d5e6f7a2b3c4",
-      "title": "More demand for Turkish strawberries this season",
-      "summary": "Turkish strawberry production is higher this season with growing export demand. Growers in the Mersin and Adana coastal belt report a strong start to the 2024/25 campaign, with European buyers showing increased interest in Turkish supply as an alternative to Spanish and Egyptian product.",
-      "url": "https://www.freshplaza.com/latin-america/article/9686959/more-demand-for-turkish-strawberries-this-season/",
-      "source": "FreshPlaza",
-      "region": "Turkey",
-      "crops": ["strawberry"],
+      "id": "f6c8d1e3a5b7",
+      "title": "Surging demand and higher prices fuel organic strawberry expansion",
+      "summary": "Organic strawberry nursery sales have increased year-over-year since 2020, with prices rising 3-5% annually. Wellness trends are driving demand for pesticide-free berries. California is increasing strawberry acreage by 5% for 2026 with a transition to newer high-yield varieties that began in 2024.",
+      "url": "https://www.freshfruitportal.com/news/2026/02/13/organic-strawberry/",
+      "source": "FreshFruitPortal",
+      "region": "USA / Global",
+      "crops": [
+        "strawberry"
+      ],
       "crop": "strawberry",
-      "published": "2024-12-10T08:00:00+00:00",
+      "published": "2026-02-13T08:00:00+00:00",
       "fetched": "2026-02-19T06:00:00+00:00"
     },
     {
-      "id": "e6f7a2b3c4d5",
-      "title": "Global market overview: Cherries 2025",
-      "summary": "The 2025 cherry season saw highly variable conditions across Europe and Turkey. Turkey had severe frost losses of 50-70%. Germany's domestic cherries gained market share. Italy had one of its best seasons in the north. A comprehensive review of sweet and sour cherry market dynamics globally.",
-      "url": "https://www.freshplaza.com/north-america/article/9744746/global-market-overview-cherries/",
+      "id": "a7d9e2f4b6c8",
+      "title": "New probiotic blueberry product — California Giant Berry Farms debuts Belli Berries at SEPC",
+      "summary": "California Giant Berry Farms is showcasing Belli Berries at the Southeast Produce Council Southern Exposure event — fresh blueberries boosted with live probiotic cultures. The product is dairy-free, plant-based, vegan-friendly and non-GMO. The full lineup also includes jumbo blueberries, and organic strawberries, raspberries and blackberries.",
+      "url": "https://www.freshplaza.com/north-america/article/9807670/new-berry-product-in-the-spotlight/",
       "source": "FreshPlaza",
-      "region": "Global",
-      "crops": ["sour cherry"],
-      "crop": "sour cherry",
-      "published": "2025-06-25T08:00:00+00:00",
-      "fetched": "2026-02-19T06:00:00+00:00"
-    },
-    {
-      "id": "f7a2b3c4d5e6",
-      "title": "Huelva's strawberry and raspberry supply not enough to meet all orders",
-      "summary": "Bad weather reduced Huelva strawberry and raspberry supply by 10-15% below the previous season in March 2025. France and Germany, where demand is highest, faced shortages. This highlights the weather vulnerability of Europe's most important berry-producing province and the need for supply diversification.",
-      "url": "https://www.freshplaza.com/north-america/article/9711167/huelva-s-strawberry-and-raspberry-supply-is-not-enough-to-meet-all-orders/",
-      "source": "FreshPlaza",
-      "region": "Huelva, Spain",
-      "crops": ["strawberry", "raspberry"],
-      "crop": "strawberry",
-      "published": "2025-03-15T08:00:00+00:00",
+      "region": "USA",
+      "crops": [
+        "blueberry",
+        "strawberry",
+        "raspberry"
+      ],
+      "crop": "blueberry",
+      "published": "2026-02-11T08:00:00+00:00",
       "fetched": "2026-02-19T06:00:00+00:00"
     }
   ]
