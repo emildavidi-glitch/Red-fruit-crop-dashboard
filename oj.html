@@ -277,7 +277,7 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
 <main>
 
   <!-- ═══════ PRICE PANEL ═══════ -->
-  <div class="section-hd"><span>📈</span> FCOJ Futures — ICE Exchange (USX/lb)</div>
+  <div class="section-hd"><span>📈</span> FCOJ Futures -- ICE Exchange (USX/lb)</div>
   <div class="price-row">
     <div class="price-hero">
       <div class="price-hero-label">FCOJ Front Month · Feb 19, 2026</div>
@@ -309,7 +309,7 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
       <div class="stat-label">Open Interest</div>
       <div class="stat-val">2,540</div>
       <div class="stat-sub">Volume: 1,040 contracts</div>
-      <div class="stat-sub" style="margin-top:4px">Low liquidity market — thin trading common</div>
+      <div class="stat-sub" style="margin-top:4px">Low liquidity market -- thin trading common</div>
     </div>
   </div>
 
@@ -317,7 +317,7 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
   <div class="chart-grid">
     <div class="chart-card">
       <div class="section-hd" style="border:none;margin-bottom:0;padding-bottom:0;font-size:1rem">
-        <span>📊</span> Price History 2024–2026
+        <span>📊</span> Price History 2024--2026
       </div>
       <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
     </div>
@@ -374,7 +374,7 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
       </div>
       <div style="margin-top:14px;padding:10px 12px;background:var(--parchment);border-radius:8px;font-size:0.68rem;color:var(--mid);line-height:1.5;">
         <strong style="color:var(--warm)">Today's Market Commentary (Jack Scoville, Feb 19):</strong><br>
-        Florida harvest active, wrapping up. Cold January/early February may have caused some tree damage — frozen fruit being sent to processors. Brazil weather good. Trends mixed to up on daily charts. Market feels demand remains weak after last year's high prices.
+        Florida harvest active, wrapping up. Cold January/early February may have caused some tree damage -- frozen fruit being sent to processors. Brazil weather good. Trends mixed to up on daily charts. Market feels demand remains weak after last year's high prices.
       </div>
     </div>
   </div>
@@ -391,7 +391,7 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
   <div class="section-hd"><span>🇧🇷</span> Brazil Supply Intelligence · Fundecitrus 2025/26 Season</div>
   <div class="brazil-grid">
     <div class="fundecitrus-card">
-      <div style="font-family:var(--font-mono);font-size:0.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:12px;">Crop Forecast Revisions — São Paulo Citrus Belt</div>
+      <div style="font-family:var(--font-mono);font-size:0.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:12px;">Crop Forecast Revisions -- São Paulo Citrus Belt</div>
       <div class="forecast-timeline">
         <div class="forecast-row">
           <div class="forecast-date">May 2025</div>
@@ -419,7 +419,7 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
         </div>
       </div>
       <div style="font-size:0.65rem;color:var(--mid);margin-top:12px;padding:8px 10px;background:var(--parchment);border-radius:6px;line-height:1.5;">
-        ★ Feb 10, 2026 update: Drop rate maintained at 23% — highest in 11 harvests. Rainfall 10% below historical average. Fruit weight 1g below projection. Final estimate due April 10, 2026.
+        ★ Feb 10, 2026 update: Drop rate maintained at 23% -- highest in 11 harvests. Rainfall 10% below historical average. Fruit weight 1g below projection. Final estimate due April 10, 2026.
       </div>
       <div class="kpi-row">
         <div class="kpi">
@@ -498,12 +498,12 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
 
 <footer>
   <div>🍊 OJ Intelligence · ICE FCOJ-A Futures · Open-Meteo · Fundecitrus 2025/26</div>
-  <div>Price data delayed — not for trading purposes · Updated: <span id="footer-time"></span></div>
+  <div>Price data delayed -- not for trading purposes · Updated: <span id="footer-time"></span></div>
 </footer>
 
 <script>
 // ══════════════════════════════════════════════════════
-//  CITRUS REGIONS — heat/drought monitoring
+//  CITRUS REGIONS -- heat/drought monitoring
 // ══════════════════════════════════════════════════════
 const CITRUS_REGIONS = [
   { id:'brazil-saopaulo', name:'São Paulo Citrus Belt', country:'Brazil', flag:'🇧🇷',
@@ -513,7 +513,7 @@ const CITRUS_REGIONS = [
     lat:-18.9, lon:-48.3, role:'Secondary São Paulo Belt (~25M boxes)',
     heatThreshold:35, droughtDays:3 },
   { id:'florida-usa', name:'Florida Citrus Belt', country:'USA', flag:'🇺🇸',
-    lat:27.9, lon:-81.5, role:'US domestic NFC — freeze risk Nov–Mar',
+    lat:27.9, lon:-81.5, role:'US domestic NFC -- freeze risk Nov--Mar',
     heatThreshold:38, droughtDays:5 },
   { id:'egypt-nile', name:'Nile Delta (Beheira)', country:'Egypt', flag:'🇪🇬',
     lat:30.8, lon:30.5, role:'Winter NFC supply to Europe',
@@ -522,7 +522,7 @@ const CITRUS_REGIONS = [
     lat:37.5, lon:-0.5, role:'European NFC production',
     heatThreshold:36, droughtDays:5 },
   { id:'southafrica-wc', name:'Western Cape', country:'South Africa', flag:'🇿🇦',
-    lat:-33.9, lon:18.9, role:'Southern Hemisphere — May–Sep supply',
+    lat:-33.9, lon:18.9, role:'Southern Hemisphere -- May--Sep supply',
     heatThreshold:38, droughtDays:6 },
 ];
 
@@ -573,7 +573,7 @@ async function loadWeather() {
   document.getElementById('wx-grid').innerHTML = results.map(({r, wx}) => {
     if (!wx) return `<div class="wx-card">
       <div class="wx-card-hd"><div><div class="wx-region">${r.flag} ${r.name}</div><div class="wx-country">${r.country}</div></div><span class="wx-badge watch">N/A</span></div>
-      <div class="wx-body" style="color:#aaa;font-size:0.75rem;padding:14px 16px">Weather data temporarily unavailable — retrying in 30 min.</div></div>`;
+      <div class="wx-body" style="color:#aaa;font-size:0.75rem;padding:14px 16px">Weather data temporarily unavailable -- retrying in 30 min.</div></div>`;
 
     const risk = assessCitrusRisk(r, wx);
     const forecast = wx.dates7.slice(0,5).map((dt,i) => {
@@ -623,7 +623,7 @@ function buildOutlook(wxResults) {
   score += 1;
 
   // Brazil supply: greening + drought = structural decline
-  factors.push({ icon:'🍊', text:'Brazil 2025/26: forecast cut 4 times, now ~286M boxes est. Greening affects 47.6% of trees. Drop rate 23% — worst in 11 years.', bullish:false });
+  factors.push({ icon:'🍊', text:'Brazil 2025/26: forecast cut 4 times, now ~286M boxes est. Greening affects 47.6% of trees. Drop rate 23% -- worst in 11 years.', bullish:false });
   score -= 1;
 
   // Florida
@@ -631,7 +631,7 @@ function buildOutlook(wxResults) {
   score -= 1;
 
   // Demand
-  factors.push({ icon:'📦', text:'Demand remains weak — consumers adjusted to high prices. Market expects demand suppression to continue near-term.', bullish:false });
+  factors.push({ icon:'📦', text:'Demand remains weak -- consumers adjusted to high prices. Market expects demand suppression to continue near-term.', bullish:false });
   score -= 1;
 
   // Technical
@@ -642,7 +642,7 @@ function buildOutlook(wxResults) {
   if (brazilWX?.wx) {
     const risk = assessCitrusRisk(brazilWX.r, brazilWX.wx);
     if (risk.badge === 'heat' || risk.badge === 'drought') {
-      factors.push({ icon:'🌡', text:`Brazil citrus belt showing ${risk.label} conditions — additional supply pressure possible.`, bullish:false });
+      factors.push({ icon:'🌡', text:`Brazil citrus belt showing ${risk.label} conditions -- additional supply pressure possible.`, bullish:false });
       score -= 1;
     } else if (risk.badge === 'good') {
       factors.push({ icon:'🌧', text:'Brazil weather currently favourable for crop development.', bullish:true });
@@ -653,15 +653,15 @@ function buildOutlook(wxResults) {
   let direction, title, text;
   if (score <= -3) {
     direction = 'bearish';
-    title = 'Outlook: Bearish — Demand Destruction Dominant';
+    title = 'Outlook: Bearish -- Demand Destruction Dominant';
     text = 'Despite historically tight supply from Brazil and Florida, weak consumer demand after 2024 record highs is keeping prices suppressed. The structural supply problem (greening, drought) supports a long-term floor, but near-term price direction is down or sideways until demand recovers.';
   } else if (score >= 1) {
     direction = 'bullish';
-    title = 'Outlook: Bullish — Supply Constraints Taking Hold';
+    title = 'Outlook: Bullish -- Supply Constraints Taking Hold';
     text = 'Supply-side pressure from Brazil greening and Florida weather damage is beginning to outweigh demand weakness. Technical indicators turning positive.';
   } else {
     direction = 'neutral';
-    title = 'Outlook: Neutral — Supply vs Demand in Balance';
+    title = 'Outlook: Neutral -- Supply vs Demand in Balance';
     text = 'Tight supply from Brazil (greening, drought) is offset by weak global demand after 2024 record prices. Watch for Brazil rainfall data and US demand indicators as key catalysts.';
   }
 
@@ -690,9 +690,9 @@ function buildOutlook(wxResults) {
   bar.className = direction;
   dot.className = `signal-dot ${direction}`;
   const msgs = {
-    bullish:'📈 MARKET SIGNAL: BULLISH — Supply constraints outweighing demand weakness. Watch for breakout above 211¢.',
-    bearish:'📉 MARKET SIGNAL: BEARISH — Demand destruction dominant. Price likely range-bound 163–211¢ near-term.',
-    neutral:'⚖️ MARKET SIGNAL: NEUTRAL — Supply tightness vs weak demand. Key levels: Support 186¢ / Resistance 211¢.',
+    bullish:'📈 MARKET SIGNAL: BULLISH -- Supply constraints outweighing demand weakness. Watch for breakout above 211¢.',
+    bearish:'📉 MARKET SIGNAL: BEARISH -- Demand destruction dominant. Price likely range-bound 163--211¢ near-term.',
+    neutral:'⚖️ MARKET SIGNAL: NEUTRAL -- Supply tightness vs weak demand. Key levels: Support 186¢ / Resistance 211¢.',
   };
   txt.textContent = msgs[direction];
 }
@@ -754,22 +754,22 @@ function buildPriceChart() {
 }
 
 // ══════════════════════════════════════════════════════
-//  NEWS — OJ-specific from news.json + static
+//  NEWS -- OJ-specific from news.json + static
 // ══════════════════════════════════════════════════════
 const OJ_STATIC_NEWS = [
   {
-    title: 'Brazil orange crop forecast cut again — 294.81M boxes on greening and drought',
-    summary: 'Fundecitrus December 2025 revision: forecast down 6.3% from May's 314.6M boxes. Greening severity rose to 22.7%, drop rate at 23% — highest in 11 harvests. Rainfall 20% below average from May–November.',
+    title: `Brazil orange crop forecast cut again -- 294.81M boxes on greening and drought`,
+    summary: `Fundecitrus December 2025 revision: forecast down 6.3% from May 314.6M boxes. Greening severity rose to 22.7%, drop rate at 23% -- highest in 11 harvests. Rainfall 20% below average from May--November.`,
     url: 'https://www.freshfruitportal.com/news/2025/12/12/brazilian-orange/',
     source: 'FreshFruitPortal',
-    region: 'Brazil — São Paulo Citrus Belt',
+    region: 'Brazil -- São Paulo Citrus Belt',
     published: '2025-12-12',
     tag: 'Supply',
     highImpact: true
   },
   {
-    title: 'February 2026 Fundecitrus update: Drop rate maintained at 23% — worst in 11 years',
-    summary: 'The February 10, 2026 Fundecitrus update maintains fruit drop at 23%, the highest recorded across 11 harvests. Rainfall 10% below historical average. Average fruit weight 153g — 1g below projection. Final estimate April 10.',
+    title: `February 2026 Fundecitrus update: Drop rate maintained at 23% -- worst in 11 years`,
+    summary: `The February 10, 2026 Fundecitrus update maintains fruit drop at 23%, the highest recorded across 11 harvests. Rainfall 10% below historical average. Average fruit weight 153g -- 1g below projection. Final estimate April 10.`,
     url: 'https://citrusindustry.net/2026/02/10/brazilian-orange-forecast-updated/',
     source: 'Citrus Industry Magazine',
     region: 'Brazil',
@@ -778,8 +778,8 @@ const OJ_STATIC_NEWS = [
     highImpact: true
   },
   {
-    title: 'FCOJ Softs Report Feb 19, 2026: Trends mixed to up — support 186¢, resistance 211¢',
-    summary: 'Florida harvest active but wrapping up. Cold January/February may have caused tree damage — frozen fruit going to processors. Brazil weather good with scattered showers. Market feels weak demand will continue after last year's high prices.',
+    title: `FCOJ Softs Report Feb 19, 2026: Trends mixed to up -- support 186¢, resistance 211¢`,
+    summary: `Florida harvest active but wrapping up. Cold January/February may have caused tree damage -- frozen fruit going to processors. Brazil weather good with scattered showers. Market feels weak demand will continue after last year's high prices.`,
     url: 'https://blog.pricegroup.com/2026/02/19/softs-report-02-19-2026/',
     source: 'Price Group (Jack Scoville)',
     region: 'Global',
@@ -788,8 +788,8 @@ const OJ_STATIC_NEWS = [
     highImpact: false
   },
   {
-    title: 'FCOJ price −42.94% year-over-year despite structural supply deficit — demand destruction dominant',
-    summary: 'After hitting 357¢/lb in 2024, FCOJ has fallen sharply to 200¢ despite Brazil greening affecting 47.6% of trees and Florida at historic lows. Consumers and manufacturers adjusted to high prices, reducing OJ consumption across EU and US.',
+    title: `FCOJ price −42.94% year-over-year despite structural supply deficit -- demand destruction dominant`,
+    summary: `After hitting 357¢/lb in 2024, FCOJ has fallen sharply to 200¢ despite Brazil greening affecting 47.6% of trees and Florida at historic lows. Consumers and manufacturers adjusted to high prices, reducing OJ consumption across EU and US.`,
     url: 'https://www.tradingview.com/symbols/ICEUS-OJ1!/',
     source: 'TradingView / ICE',
     region: 'Global',
@@ -798,8 +798,8 @@ const OJ_STATIC_NEWS = [
     highImpact: true
   },
   {
-    title: 'Brazil orange crop forecast: 40% affected by greening — season output up YoY but below potential',
-    summary: 'Fundecitrus reports ~40% of 2025-26 crop affected by citrus greening (HLB). Despite a projected 28% increase vs the poor 2024/25 season, output is still constrained by disease and drought. Greening now reducing productive potential by approximately 35%.',
+    title: `Brazil orange crop forecast: 40% affected by greening -- season output up YoY but below potential`,
+    summary: `Fundecitrus reports ~40% of 2025-26 crop affected by citrus greening (HLB). Despite a projected 28% increase vs the poor 2024/25 season, output is still constrained by disease and drought. Greening now reducing productive potential by approximately 35%.`,
     url: 'https://www.freshplaza.com/north-america/article/9789039/brazil-orange-crop-forecast-cut-to-306-7-million-boxes/',
     source: 'FreshPlaza',
     region: 'Brazil',
@@ -808,8 +808,8 @@ const OJ_STATIC_NEWS = [
     highImpact: false
   },
   {
-    title: 'Brazil's orange juice exports fell 19.7% in first half of 2024/25 crop',
-    summary: 'Brazil OJ exports dropped significantly in H1 2024/25, driven by lower production from 230.87M box season (lowest in years). EU remained primary destination. High prices suppressed buyer demand while supply was scarce.',
+    title: `Brazil orange juice exports fell 19.7% in first half of 2024/25 crop`,
+    summary: `Brazil OJ exports dropped significantly in H1 2024/25, driven by lower production from 230.87M box season (lowest in years). EU remained primary destination. High prices suppressed buyer demand while supply was scarce.`,
     url: 'https://www.investing.com/commodities/orange-juice',
     source: 'Reuters / Investing.com',
     region: 'Brazil',
@@ -850,14 +850,14 @@ function updateClock() {
 // ══════════════════════════════════════════════════════
 //  INIT
 // ══════════════════════════════════════════════════════
-// Fire everything immediately — don't wait for async weather
+// Fire everything immediately -- do not wait for async weather
 buildPriceChart();
 renderOJNews();
 buildOutlook(null);  // Build outlook immediately with static data
 updateClock();
 setInterval(updateClock, 1000);
 
-// Load weather separately — updates outlook again when done
+// Load weather separately -- updates outlook again when done
 loadWeather();
 setInterval(loadWeather, 30*60*1000);
 </script>
