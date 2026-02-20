@@ -531,7 +531,10 @@ const DAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
 async function fetchWX(r) {
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${r.lat}&longitude=${r.lon}&current=temperature_2m,weathercode,windspeed_10m,precipitation&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum&timezone=auto&forecast_days=7`;
-  const res = await fetch(url);
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 8000); // 8s timeout
+  const res = await fetch(url, { signal: controller.signal });
+  clearTimeout(timeout);
   if (!res.ok) throw new Error();
   const d = await res.json();
   return {
@@ -570,7 +573,7 @@ async function loadWeather() {
   document.getElementById('wx-grid').innerHTML = results.map(({r, wx}) => {
     if (!wx) return `<div class="wx-card">
       <div class="wx-card-hd"><div><div class="wx-region">${r.flag} ${r.name}</div><div class="wx-country">${r.country}</div></div><span class="wx-badge watch">N/A</span></div>
-      <div class="wx-body" style="color:#aaa;font-size:0.75rem">Data unavailable</div></div>`;
+      <div class="wx-body" style="color:#aaa;font-size:0.75rem;padding:14px 16px">Weather data temporarily unavailable — retrying in 30 min.</div></div>`;
 
     const risk = assessCitrusRisk(r, wx);
     const forecast = wx.dates7.slice(0,5).map((dt,i) => {
@@ -635,7 +638,7 @@ function buildOutlook(wxResults) {
   factors.push({ icon:'🎯', text:'Technical: Support 186¢ holding. Resistance at 211¢. A break above 211 would be bullish signal.', bullish:null });
 
   // Weather stress in Brazil
-  const brazilWX = wxResults.find(d => d.r.id === 'brazil-saopaulo');
+  const brazilWX = wxResults ? wxResults.find(d => d.r.id === 'brazil-saopaulo') : null;
   if (brazilWX?.wx) {
     const risk = assessCitrusRisk(brazilWX.r, brazilWX.wx);
     if (risk.badge === 'heat' || risk.badge === 'drought') {
@@ -847,11 +850,15 @@ function updateClock() {
 // ══════════════════════════════════════════════════════
 //  INIT
 // ══════════════════════════════════════════════════════
+// Fire everything immediately — don't wait for async weather
 buildPriceChart();
-loadWeather();
 renderOJNews();
+buildOutlook(null);  // Build outlook immediately with static data
 updateClock();
 setInterval(updateClock, 1000);
+
+// Load weather separately — updates outlook again when done
+loadWeather();
 setInterval(loadWeather, 30*60*1000);
 </script>
 </body>
