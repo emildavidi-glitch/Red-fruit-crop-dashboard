@@ -327,7 +327,13 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
         <span style="font-family:var(--font-mono);font-size:0.58rem;color:var(--light);font-weight:400">ICE:OJ1! · Real-time</span>
       </div>
       <div class="tradingview-wrap" id="tv-wrap">
-        <div id="tradingview_oj" style="height:100%;width:100%"></div>
+        <iframe
+          src="https://s.tradingview.com/widgetembed/?frameElementId=tv_oj&symbol=OJ1!&interval=D&hidesidetoolbar=0&symboledit=0&saveimage=0&toolbarbg=f5edd8&studies=RSI%40tv-basicstudies%1FMACD%40tv-basicstudies&theme=light&style=1&timezone=Europe%2FBerlin&withdateranges=1&showpopupbutton=1&locale=en"
+          style="width:100%;height:100%;border:none;"
+          allowtransparency="true"
+          frameborder="0"
+          scrolling="no">
+        </iframe>
       </div>
     </div>
     <div class="chart-card">
@@ -974,42 +980,7 @@ setInterval(fetchLivePrice, 5 * 60 * 1000);
 loadWeather();
 setInterval(loadWeather, 30 * 60 * 1000);
 
-// TradingView chart -- load tv.js dynamically then init widget
-function loadTradingView() {
-  if (typeof TradingView !== 'undefined') {
-    new TradingView.widget({
-      autosize: true,
-      symbol: 'OJ1!',
-      interval: 'D',
-      timezone: 'Europe/Berlin',
-      theme: 'light',
-      style: '1',
-      locale: 'en',
-      toolbar_bg: '#FDF8F0',
-      enable_publishing: false,
-      hide_side_toolbar: false,
-      allow_symbol_change: false,
-      studies: ['RSI@tv-basicstudies', 'MACD@tv-basicstudies'],
-      container_id: 'tradingview_oj',
-      hide_legend: false,
-      range: '12M',
-      withdateranges: true,
-    });
-  } else {
-    setTimeout(loadTradingView, 500);
-  }
-}
-
-(function() {
-  var tvScript = document.createElement('script');
-  tvScript.src = 'https://s3.tradingview.com/tv.js';
-  tvScript.onload = loadTradingView;
-  tvScript.onerror = function() {
-    var wrap = document.getElementById('tv-wrap');
-    if (wrap) wrap.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#B89060;font-family:DM Mono,monospace;font-size:0.75rem;flex-direction:column;gap:8px"><span style="font-size:2rem">📊</span>TradingView chart unavailable -- visit <a href="https://www.tradingview.com/symbols/ICEUS-OJ1!/" target="_blank" style="color:#E8650A">TradingView.com</a> directly.</div>';
-  };
-  document.head.appendChild(tvScript);
-})();
+// TradingView loaded via iframe -- no JS needed
 </script>
 </body>
 </html>
