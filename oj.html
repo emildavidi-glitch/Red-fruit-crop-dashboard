@@ -277,49 +277,58 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
 <main>
 
   <!-- ═══════ PRICE PANEL ═══════ -->
-  <div class="section-hd"><span>📈</span> FCOJ Futures -- ICE Exchange (USX/lb)</div>
+  <div class="section-hd">
+    <span>📈</span> FCOJ Futures -- ICE Exchange (USX/lb)
+    <span id="price-freshness" style="font-family:var(--font-mono);font-size:0.6rem;font-weight:400;color:var(--light);margin-left:8px">Loading...</span>
+  </div>
   <div class="price-row">
     <div class="price-hero">
-      <div class="price-hero-label">FCOJ Front Month · Feb 19, 2026</div>
-      <div class="price-hero-val">200.00</div>
-      <div class="price-hero-unit">USX per pound · ICE Futures U.S.</div>
-      <div class="price-hero-change up">▲ +8.70% today · +5.35% 24h</div>
+      <div class="price-hero-label" id="price-label">FCOJ Front Month -- Live Quote</div>
+      <div class="price-hero-val" id="price-main" style="font-size:2.4rem">--</div>
+      <div class="price-hero-unit">USX per pound · ICE Futures U.S. (OJ=F)</div>
+      <div class="price-hero-change" id="price-change" style="background:rgba(255,255,255,0.1);color:#ccc">Loading live price...</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">52-Week Range</div>
-      <div class="stat-val">132.50</div>
-      <div class="stat-sub">Low · <strong>357.00</strong> High</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:47%"></div></div>
-      <div class="stat-sub" style="margin-top:6px">Currently mid-range</div>
+      <div class="stat-val" id="price-52low">--</div>
+      <div class="stat-sub">Low · <strong id="price-52high">--</strong> High</div>
+      <div class="stat-bar"><div class="stat-bar-fill" id="price-range-bar" style="width:0%"></div></div>
+      <div class="stat-sub" id="price-range-pos" style="margin-top:6px">--</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Year to Date</div>
-      <div class="stat-val" style="color:var(--red)">−0.20%</div>
-      <div class="stat-sub">1 year: −42.94%</div>
-      <div class="stat-sub" style="margin-top:4px">From 357 peak (2024) demand destruction driving price down despite tight supply</div>
+      <div class="stat-label">Day Range</div>
+      <div class="stat-val" id="price-daylow">--</div>
+      <div class="stat-sub">Low · <strong id="price-dayhigh">--</strong> High</div>
+      <div class="stat-bar"><div class="stat-bar-fill" id="price-day-bar" style="width:50%"></div></div>
+      <div class="stat-sub" id="price-vs-prev" style="margin-top:6px">vs prev close: --</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Today's Range</div>
-      <div class="stat-val">177.80</div>
-      <div class="stat-sub">Low · <strong>200.00</strong> High</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:100%"></div></div>
-      <div class="stat-sub" style="margin-top:6px">Closed at session high</div>
+      <div class="stat-label">Previous Close</div>
+      <div class="stat-val" id="price-prevclose">--</div>
+      <div class="stat-sub" id="price-open">Open: --</div>
+      <div class="stat-sub" id="price-volume" style="margin-top:4px">Volume: --</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Open Interest</div>
-      <div class="stat-val">2,540</div>
-      <div class="stat-sub">Volume: 1,040 contracts</div>
-      <div class="stat-sub" style="margin-top:4px">Low liquidity market -- thin trading common</div>
+      <div class="stat-label">Market Status</div>
+      <div class="stat-val" id="price-market-state" style="font-size:1rem">--</div>
+      <div class="stat-sub" id="price-exchange">ICE Futures U.S.</div>
+      <div class="stat-sub" style="margin-top:4px;font-size:0.6rem;color:var(--light)">
+        Via Yahoo Finance · ~15min delayed<br>
+        <span id="price-updated">Not yet loaded</span>
+      </div>
     </div>
   </div>
 
   <!-- ═══════ CHART + TECHNICALS ═══════ -->
   <div class="chart-grid">
-    <div class="chart-card">
-      <div class="section-hd" style="border:none;margin-bottom:0;padding-bottom:0;font-size:1rem">
-        <span>📊</span> Price History 2024--2026
+    <div class="chart-card" style="padding:0;overflow:hidden;">
+      <div style="padding:16px 20px 0;font-family:var(--font-display);font-size:1rem;color:var(--warm);display:flex;align-items:center;gap:8px;">
+        <span>📊</span> FCOJ Live Chart · TradingView
+        <span style="font-family:var(--font-mono);font-size:0.58rem;color:var(--light);font-weight:400">ICE:OJ1! · Real-time</span>
       </div>
-      <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+      <div class="tradingview-wrap" id="tv-wrap">
+        <div id="tradingview_oj" style="height:100%;width:100%"></div>
+      </div>
     </div>
     <div class="chart-card">
       <div class="section-hd" style="border:none;margin-bottom:8px;padding-bottom:0;font-size:1rem">
@@ -343,8 +352,8 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
         </div>
         <div class="tech-item signal">
           <div class="tech-label">Current Price</div>
-          <div class="tech-val" style="color:var(--orange)">200.00¢</div>
-          <div class="tech-note">▲ Below R1</div>
+          <div class="tech-val" style="color:var(--orange)" id="tech-current-price">--¢</div>
+          <div class="tech-note" id="tech-price-note">Loading...</div>
         </div>
         <div class="tech-item support">
           <div class="tech-label">Support 1</div>
@@ -610,17 +619,33 @@ async function loadWeather() {
 // ══════════════════════════════════════════════════════
 //  PRICE OUTLOOK SIGNAL
 // ══════════════════════════════════════════════════════
-function buildOutlook(wxResults) {
+function buildOutlook(wxResults, livePrice, priceChange, priceChangePct) {
   const factors = [];
   let score = 0;
 
-  // Price trend: -42.94% YoY despite tight supply = demand destruction dominant
-  factors.push({ icon:'📉', text:'Price down −42.94% YoY: demand destruction after 2024 highs is dominant force.', bullish:false });
-  score -= 2;
-
-  // But today +8.70% reversal is notable
-  factors.push({ icon:'📈', text:'Today: strong +8.70% session reversal. Short-term trend mixed to up. Technical buy signal.', bullish:true });
-  score += 1;
+  // Price trend -- use live data if available, else static context
+  if (livePrice != null && priceChange != null) {
+    const p = livePrice.toFixed(2);
+    const c = priceChange.toFixed(2);
+    const pct = priceChangePct ? priceChangePct.toFixed(2) : '?';
+    if (priceChange >= 0) {
+      factors.push({ icon:'📈', text:`Live price ${p}¢ (+${c}, +${pct}% today). Positive session -- watch resistance at 211¢.`, bullish:true });
+      score += 1;
+    } else {
+      factors.push({ icon:'📉', text:`Live price ${p}¢ (${c}, ${pct}% today). Negative session -- demand weakness continuing.`, bullish:false });
+      score -= 1;
+    }
+    if (livePrice < 186) {
+      factors.push({ icon:'⚠️', text:`Price ${p}¢ has broken below key support 186¢ -- bearish signal, next support 163¢.`, bullish:false });
+      score -= 2;
+    } else if (livePrice > 211) {
+      factors.push({ icon:'🚀', text:`Price ${p}¢ has broken above resistance 211¢ -- bullish breakout signal.`, bullish:true });
+      score += 2;
+    }
+  } else {
+    factors.push({ icon:'📉', text:'Price down ~42% YoY: demand destruction after 2024 highs is dominant force.', bullish:false });
+    score -= 2;
+  }
 
   // Brazil supply: greening + drought = structural decline
   factors.push({ icon:'🍊', text:'Brazil 2025/26: forecast cut 4 times, now ~286M boxes est. Greening affects 47.6% of trees. Drop rate 23% -- worst in 11 years.', bullish:false });
@@ -698,59 +723,144 @@ function buildOutlook(wxResults) {
 }
 
 // ══════════════════════════════════════════════════════
-//  PRICE HISTORY CHART
+//  LIVE PRICE — Yahoo Finance (OJ=F, ~15min delayed)
+//  Updates every 5 minutes automatically
 // ══════════════════════════════════════════════════════
-function buildPriceChart() {
-  const ctx = document.getElementById('priceChart').getContext('2d');
+let lastKnownPrice = null;
 
-  // Approximate monthly FCOJ prices 2024-2026 (documented data points)
-  const labels = ['Jan 24','Feb 24','Mar 24','Apr 24','May 24','Jun 24','Jul 24',
-                  'Aug 24','Sep 24','Oct 24','Nov 24','Dec 24',
-                  'Jan 25','Feb 25','Mar 25','Apr 25','May 25','Jun 25',
-                  'Jul 25','Aug 25','Sep 25','Oct 25','Nov 25','Dec 25',
-                  'Jan 26','Feb 26'];
-  const prices = [320,340,357,345,330,310,290,270,255,240,230,220,
-                  210,205,215,225,218,210,200,195,188,180,175,172,
-                  180,200];
+async function fetchLivePrice() {
+  // Yahoo Finance v8 API -- no key required, ~15min delayed
+  // Use allorigins.win as CORS proxy since GitHub Pages is a browser context
+  const ticker = 'OJ=F';
+  const proxyUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`;
+  const corsProxy = `https://corsproxy.io/?${encodeURIComponent(proxyUrl)}`;
 
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [{
-        label: 'FCOJ USX/lb',
-        data: prices,
-        borderColor: '#E8650A',
-        backgroundColor: 'rgba(232,101,10,0.08)',
-        borderWidth: 2.5,
-        tension: 0.3,
-        pointRadius: 2,
-        pointHoverRadius: 5,
-        fill: true,
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: ctx => `${ctx.parsed.y}¢/lb`
-          }
-        }
-      },
-      scales: {
-        y: {
-          ticks: { font: { family: 'DM Mono', size: 10 }, callback: v => v+'¢' },
-          grid: { color: '#F0E8D8' }
-        },
-        x: {
-          ticks: { font: { family: 'DM Mono', size: 9 }, maxRotation: 45 },
-          grid: { display: false }
-        }
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
+    const res = await fetch(corsProxy, { signal: controller.signal });
+    clearTimeout(timeout);
+
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const meta = data?.chart?.result?.[0]?.meta;
+    if (!meta) throw new Error('No meta in response');
+
+    const price     = meta.regularMarketPrice;
+    const prevClose = meta.chartPreviousClose || meta.previousClose;
+    const dayHigh   = meta.regularMarketDayHigh;
+    const dayLow    = meta.regularMarketDayLow;
+    const weekHigh  = meta.fiftyTwoWeekHigh;
+    const weekLow   = meta.fiftyTwoWeekLow;
+    const volume    = meta.regularMarketVolume;
+    const open      = meta.regularMarketOpen;
+    const state     = meta.marketState; // REGULAR, PRE, POST, CLOSED
+
+    if (!price) throw new Error('Price missing');
+    lastKnownPrice = price;
+    renderLivePrice({ price, prevClose, dayHigh, dayLow, weekHigh, weekLow, volume, open, state });
+    return price;
+
+  } catch(e) {
+    console.warn('Yahoo Finance fetch failed:', e.message);
+    // Try backup proxy
+    try {
+      const backup = `https://api.allorigins.win/get?url=${encodeURIComponent(
+        `https://query2.finance.yahoo.com/v8/finance/chart/OJ=F?interval=1d&range=1d`
+      )}`;
+      const res2 = await fetch(backup, { signal: AbortSignal.timeout(8000) });
+      const json2 = await res2.json();
+      const data2 = JSON.parse(json2.contents);
+      const meta2 = data2?.chart?.result?.[0]?.meta;
+      if (meta2?.regularMarketPrice) {
+        lastKnownPrice = meta2.regularMarketPrice;
+        renderLivePrice({
+          price:     meta2.regularMarketPrice,
+          prevClose: meta2.chartPreviousClose,
+          dayHigh:   meta2.regularMarketDayHigh,
+          dayLow:    meta2.regularMarketDayLow,
+          weekHigh:  meta2.fiftyTwoWeekHigh,
+          weekLow:   meta2.fiftyTwoWeekLow,
+          volume:    meta2.regularMarketVolume,
+          open:      meta2.regularMarketOpen,
+          state:     meta2.marketState,
+        });
+        return meta2.regularMarketPrice;
       }
+    } catch(e2) {
+      console.warn('Backup proxy also failed:', e2.message);
     }
-  });
+    showPriceError();
+    return null;
+  }
+}
+
+function renderLivePrice({ price, prevClose, dayHigh, dayLow, weekHigh, weekLow, volume, open, state }) {
+  const fmt = v => v != null ? v.toFixed(2) : '--';
+  const now = new Date().toLocaleTimeString('de-DE');
+
+  // Main price
+  document.getElementById('price-main').textContent = fmt(price);
+
+  // Change vs previous close
+  const change = prevClose ? price - prevClose : null;
+  const changePct = prevClose ? ((change / prevClose) * 100) : null;
+  const changeEl = document.getElementById('price-change');
+  if (change !== null) {
+    const up = change >= 0;
+    changeEl.className = `price-hero-change ${up ? 'up' : 'down'}`;
+    changeEl.textContent = `${up ? '▲' : '▼'} ${up ? '+' : ''}${fmt(change)} (${up ? '+' : ''}${changePct.toFixed(2)}%) vs prev close`;
+  }
+
+  // 52-week range
+  document.getElementById('price-52low').textContent = fmt(weekLow);
+  document.getElementById('price-52high').textContent = fmt(weekHigh);
+  if (weekHigh && weekLow) {
+    const pct52 = Math.round(((price - weekLow) / (weekHigh - weekLow)) * 100);
+    document.getElementById('price-range-bar').style.width = pct52 + '%';
+    document.getElementById('price-range-pos').textContent =
+      pct52 < 30 ? 'Near 52-week low' : pct52 > 70 ? 'Near 52-week high' : 'Mid 52-week range';
+  }
+
+  // Day range
+  document.getElementById('price-daylow').textContent = fmt(dayLow);
+  document.getElementById('price-dayhigh').textContent = fmt(dayHigh);
+  if (dayHigh && dayLow) {
+    const dayPct = Math.round(((price - dayLow) / (dayHigh - dayLow)) * 100);
+    document.getElementById('price-day-bar').style.width = dayPct + '%';
+  }
+  document.getElementById('price-vs-prev').textContent =
+    prevClose ? `Prev close: ${fmt(prevClose)}` : '';
+
+  // Previous close / open / volume
+  document.getElementById('price-prevclose').textContent = fmt(prevClose);
+  document.getElementById('price-open').textContent = `Open: ${fmt(open)}`;
+  document.getElementById('price-volume').textContent =
+    volume ? `Volume: ${volume.toLocaleString()} contracts` : 'Volume: --';
+
+  // Market state
+  const stateLabels = { REGULAR:'🟢 Market Open', PRE:'🟡 Pre-Market', POST:'🟡 After-Hours', CLOSED:'⚫ Market Closed' };
+  document.getElementById('price-market-state').textContent = stateLabels[state] || state || '--';
+  document.getElementById('price-updated').textContent = `Updated: ${now}`;
+  document.getElementById('price-freshness').textContent = `Live · ${now}`;
+  document.getElementById('price-label').textContent = `FCOJ Front Month (OJ=F) · ${now}`;
+
+  // Technical levels current price
+  document.getElementById('tech-current-price').textContent = `${fmt(price)}¢`;
+  const techNote = change >= 0 ? '▲ Rising' : '▼ Falling';
+  document.getElementById('tech-price-note').textContent = techNote;
+
+  // Update outlook with live price
+  buildOutlook(null, price, change, changePct);
+}
+
+function showPriceError() {
+  document.getElementById('price-main').textContent = 'N/A';
+  document.getElementById('price-change').textContent = 'Price unavailable -- Yahoo Finance unreachable';
+  document.getElementById('price-change').className = 'price-hero-change';
+  document.getElementById('price-change').style.cssText = 'background:rgba(255,255,255,0.1);color:#ccc';
+  document.getElementById('price-freshness').textContent = 'Price feed offline';
+  document.getElementById('price-updated').textContent = 'Could not fetch -- retry in 5min';
 }
 
 // ══════════════════════════════════════════════════════
@@ -850,16 +960,56 @@ function updateClock() {
 // ══════════════════════════════════════════════════════
 //  INIT
 // ══════════════════════════════════════════════════════
-// Fire everything immediately -- do not wait for async weather
-buildPriceChart();
+// Fire everything immediately
 renderOJNews();
-buildOutlook(null);  // Build outlook immediately with static data
+buildOutlook(null, null, null, null);
 updateClock();
 setInterval(updateClock, 1000);
 
-// Load weather separately -- updates outlook again when done
+// Live price -- every 5 minutes
+fetchLivePrice();
+setInterval(fetchLivePrice, 5 * 60 * 1000);
+
+// Weather -- every 30 minutes
 loadWeather();
-setInterval(loadWeather, 30*60*1000);
+setInterval(loadWeather, 30 * 60 * 1000);
+
+// TradingView chart -- load tv.js dynamically then init widget
+function loadTradingView() {
+  if (typeof TradingView !== 'undefined') {
+    new TradingView.widget({
+      autosize: true,
+      symbol: 'ICEUS:OJ1!',
+      interval: 'D',
+      timezone: 'Europe/Berlin',
+      theme: 'light',
+      style: '1',
+      locale: 'en',
+      toolbar_bg: '#FDF8F0',
+      enable_publishing: false,
+      hide_side_toolbar: false,
+      allow_symbol_change: false,
+      studies: ['RSI@tv-basicstudies', 'MACD@tv-basicstudies'],
+      container_id: 'tradingview_oj',
+      hide_legend: false,
+      range: '12M',
+      withdateranges: true,
+    });
+  } else {
+    setTimeout(loadTradingView, 500);
+  }
+}
+
+(function() {
+  var tvScript = document.createElement('script');
+  tvScript.src = 'https://s3.tradingview.com/tv.js';
+  tvScript.onload = loadTradingView;
+  tvScript.onerror = function() {
+    var wrap = document.getElementById('tv-wrap');
+    if (wrap) wrap.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#B89060;font-family:DM Mono,monospace;font-size:0.75rem;flex-direction:column;gap:8px"><span style="font-size:2rem">📊</span>TradingView chart unavailable -- visit <a href="https://www.tradingview.com/symbols/ICEUS-OJ1!/" target="_blank" style="color:#E8650A">TradingView.com</a> directly.</div>';
+  };
+  document.head.appendChild(tvScript);
+})();
 </script>
 </body>
 </html>
