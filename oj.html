@@ -323,17 +323,29 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
   <div class="chart-grid">
     <div class="chart-card" style="padding:0;overflow:hidden;">
       <div style="padding:16px 20px 0;font-family:var(--font-display);font-size:1rem;color:var(--warm);display:flex;align-items:center;gap:8px;">
-        <span>📊</span> FCOJ Live Chart · TradingView
-        <span style="font-family:var(--font-mono);font-size:0.58rem;color:var(--light);font-weight:400">ICE:OJ1! · Real-time</span>
+        <span>📊</span> FCOJ Price Chart · Barchart.com
+        <span style="font-family:var(--font-mono);font-size:0.58rem;color:var(--light);font-weight:400">OJ*0 Nearest Futures · Daily</span>
       </div>
-      <div class="tradingview-wrap" id="tv-wrap">
-        <iframe
-          src="https://s.tradingview.com/widgetembed/?frameElementId=tv_oj&symbol=OJ1!&interval=D&hidesidetoolbar=0&symboledit=0&saveimage=0&toolbarbg=f5edd8&studies=RSI%40tv-basicstudies%1FMACD%40tv-basicstudies&theme=light&style=1&timezone=Europe%2FBerlin&withdateranges=1&showpopupbutton=1&locale=en"
-          style="width:100%;height:100%;border:none;"
-          allowtransparency="true"
-          frameborder="0"
-          scrolling="no">
-        </iframe>
+      <div id="tv-wrap" style="height:340px;display:flex;flex-direction:column;gap:0;">
+        <!-- Barchart snapshot chart image — updates every ~10 min during trading hours -->
+        <div style="flex:1;overflow:hidden;border-radius:8px;border:1px solid var(--border);background:#fff;position:relative;">
+          <img
+            id="barchart-img"
+            src="https://www.barchart.com/chart?symbol=OJ*0&frequency=daily&period=18&data=nearby&startDate=&endDate=&type=line&style=bar&volume=0&height=280&width=680&txtColor=2D1F0A&mcColor=E8650A&bgColor=FDF8F0&grColor=E8D8B8&axColor=B89060&volColor=F5A623"
+            style="width:100%;height:100%;object-fit:contain;"
+            onerror="this.parentElement.innerHTML='<div style=\"display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:12px;color:#B89060;font-family:DM Mono,monospace;font-size:0.75rem;\"><span style=\"font-size:2rem;\">📊</span><span>Chart temporarily unavailable</span><a href=\"https://www.barchart.com/futures/quotes/OJ*0/interactive-chart\" target=\"_blank\" style=\"color:#E8650A;\">Open on Barchart.com →</a></div>'"
+            alt="FCOJ Orange Juice Futures Chart"
+          />
+        </div>
+        <div style="padding:8px 12px;background:var(--parchment);border:1px solid var(--border);border-top:none;border-radius:0 0 8px 8px;display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-family:var(--font-mono);font-size:0.6rem;color:var(--light);">
+            📊 Barchart.com · OJ*0 Nearest Futures · Daily · ~10min delayed
+          </span>
+          <a href="https://www.barchart.com/futures/quotes/OJ*0/interactive-chart" target="_blank"
+             style="font-family:var(--font-mono);font-size:0.62rem;color:var(--orange);text-decoration:none;">
+            Open interactive chart →
+          </a>
+        </div>
       </div>
     </div>
     <div class="chart-card">
