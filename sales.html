@@ -914,14 +914,55 @@ const GLOBAL_ARTICLES = [
 
 // ══════════════════════════════════════════════════
 //  LIVE MORNING BRIEFING + REGION SIGNALS
-//  Single API call with web_search fetches today\'s
-//  beverage industry headlines and generates:
-//  1. A 3-sentence global morning briefing
-//  2. A one-line current signal for each of the 6 regions
+//  Strategy:
+//  1. Try to load pre-generated briefing.json (from GitHub Actions)
+//  2. If that fails OR is stale (>26 hours old), try live API call
+//  3. If both fail, show error message
 // ══════════════════════════════════════════════════
 async function fetchMorningBriefing() {
   const today = new Date().toLocaleDateString('en-GB', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
 
+  // ── Step 1: Try pre-generated briefing.json ──
+  try {
+    const jsonRes = await fetch('briefing.json?_=' + Date.now(), {signal: AbortSignal.timeout(5000)});
+    if (jsonRes.ok) {
+      const data = await jsonRes.json();
+      const generatedAt = new Date(data.generated_at);
+      const ageHours = (Date.now() - generatedAt.getTime()) / (1000 * 60 * 60);
+
+      if (data.briefing && ageHours < 26) {
+        // Valid and fresh — use it
+        const briefEl = document.getElementById('brief-text');
+        if (briefEl) briefEl.textContent = data.briefing;
+        const srcEl = document.getElementById('brief-source');
+        if (srcEl) {
+          const genTime = generatedAt.toLocaleTimeString('en-GB', {hour:'2-digit',minute:'2-digit'});
+          srcEl.textContent = `AI-generated via web search · Updated ${data.generated_date} at ${genTime} UTC`;
+        }
+
+        // Apply region signals
+        if (data.signals) {
+          Object.entries(data.signals).forEach(([regionId, signalText]) => {
+            if (REGIONS[regionId]) {
+              REGIONS[regionId].signal_text = signalText;
+            }
+            const cardSignalEl = document.querySelector(`[data-signal-region="${regionId}"]`);
+            if (cardSignalEl) cardSignalEl.textContent = signalText;
+          });
+          renderRegionCards();
+        }
+
+        console.log('Morning briefing loaded from briefing.json (age: ' + ageHours.toFixed(1) + 'h)');
+        return;  // Done — no need for live API call
+      } else {
+        console.log('briefing.json is stale (' + ageHours.toFixed(1) + 'h old) — trying live API...');
+      }
+    }
+  } catch (e) {
+    console.log('briefing.json not available — trying live API...', e.message);
+  }
+
+  // ── Step 2: Fall back to live Anthropic API call ──
   const prompt = `Today is ${today}. Search for the latest beverage industry news from the last 2 weeks covering the US, Germany, France, Spain, Italy and Austria markets.
 
 Then return ONLY a JSON object (no markdown, no backticks) with exactly these fields:
@@ -987,9 +1028,17 @@ Then return ONLY a JSON object (no markdown, no backticks) with exactly these fi
   } catch (err) {
     console.error('Morning briefing fetch failed:', err);
     const briefEl = document.getElementById('brief-text');
-    if (briefEl) briefEl.textContent = 'Live briefing unavailable — check network connection. Market data and regulatory information below is current.';
+    if (briefEl) briefEl.textContent = 'Live briefing unavailable — ensure briefing.json is deployed via GitHub Actions, or add x-api-key header for direct API access.';
     const srcEl = document.getElementById('brief-source');
-    if (srcEl) srcEl.textContent = 'Live fetch failed · Refresh to retry';
+    if (srcEl) srcEl.textContent = 'Both briefing.json and live API failed · Check GitHub Actions logs';
+
+    // Still set fallback signal texts so cards aren't empty
+    Object.keys(REGIONS).forEach(regionId => {
+      if (REGIONS[regionId].signal_text === 'Loading…') {
+        REGIONS[regionId].signal_text = 'Data pending — refresh or check Actions';
+      }
+    });
+    renderRegionCards();
   }
 }
 
