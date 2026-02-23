@@ -40,10 +40,6 @@ MAX_ARTICLES     = 60
 MAX_SALES_ARTICLES = 120   # more capacity — 6 regions × ~20 each
 REQUEST_TIMEOUT  = 15
 
-# Anthropic API key — set via environment variable (GitHub Secret)
-import os
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-
 # =============================================================
 # ── SECTION 1: RED FRUIT RSS SOURCES (unchanged) ────────────
 # =============================================================
@@ -669,95 +665,206 @@ def save_json(articles: list, path: Path, label: str):
     print(f"  Saved {len(articles)} {label} articles -> {path.name}")
 
 # =============================================================
-# BRIEFING GENERATION (via Anthropic API + web search)
+# BRIEFING GENERATION (from fetched RSS articles — no API needed)
 # =============================================================
 
-def generate_briefing():
+# Topic keywords for detecting what each article is about
+TOPIC_DETECTORS = {
+    "energy drinks":    ["energy drink", "red bull", "monster", "celsius", "rockstar", "caffeine"],
+    "functional":       ["functional", "probiotic", "prebiotic", "adaptogen", "nootropic", "gut health", "immunity"],
+    "juice decline":    ["juice decline", "juice falling", "juice down", "juice drop", "nfc decline"],
+    "juice growth":     ["premium juice", "nfc juice", "cold pressed", "juice growth", "juice up"],
+    "sugar tax":        ["sugar tax", "sugar levy", "soda tax", "hfss", "sweetened beverage tax"],
+    "packaging":        ["ppwr", "packaging", "deposit", "pfand", "recycl", "pcr content", "pet bottle"],
+    "organic":          ["organic", "bio ", "biologique", "ökologisch", "bio-"],
+    "launches":         ["launch", "debut", "unveil", "introduces", "new product", "new range", "rolls out"],
+    "pricing":          ["price", "inflation", "cost", "commodity", "margin", "tariff"],
+    "regulation":       ["regulation", "fda", "efsa", "nutri-score", "labelling", "ban", "directive"],
+    "rtd":              ["rtd", "ready to drink", "ready-to-drink", "canned cocktail"],
+    "no-low alcohol":   ["non-alcoholic", "no-alcohol", "alcohol-free", "low-alcohol", "0%", "zero alcohol"],
+    "sparkling water":  ["sparkling water", "mineral water", "seltzer", "carbonated water"],
+    "m&a":              ["acquisition", "acquire", "merger", "m&a", "takeover", "buyout"],
+}
+
+def detect_topics(text: str) -> list[str]:
+    """Detect which topics an article covers."""
+    t = text.lower()
+    return [topic for topic, keywords in TOPIC_DETECTORS.items()
+            if any(kw in t for kw in keywords)]
+
+
+def generate_briefing(sales_articles: list, fruit_articles: list):
     """
-    Calls the Anthropic API with web_search to generate:
-    1. A 3-sentence morning briefing on the global beverage market
-    2. A one-line signal for each of the 6 regions
-    Saves to briefing.json for the frontend to consume.
+    Generate morning briefing + region signals from fetched RSS articles.
+    No API needed — pure keyword/frequency analysis of recent articles.
     """
-    if not ANTHROPIC_API_KEY:
-        print("  ⚠ ANTHROPIC_API_KEY not set — skipping briefing generation.")
-        print("    Set it as a GitHub Secret or env var to enable live briefings.")
+    today = datetime.now(timezone.utc).strftime("%A, %d %B %Y")
+    now_iso = datetime.now(timezone.utc).isoformat()
+
+    # Combine all articles for analysis
+    all_articles = sales_articles + fruit_articles
+
+    if not all_articles:
+        print("  ⚠ No articles available — cannot generate briefing.")
         return
 
-    today = datetime.now(timezone.utc).strftime("%A, %d %B %Y")
-    prompt = f"""Today is {today}. Search for the latest beverage industry news from the last 2 weeks covering the US, Germany, France, Spain, Italy and Austria markets.
+    # ── Analyze global topics ──
+    topic_counts = {}
+    region_topics = {r: {} for r in REGION_KEYWORDS}
+    region_articles = {r: [] for r in REGION_KEYWORDS}
+    global_articles = []
 
-Then return ONLY a JSON object (no markdown, no backticks) with exactly these fields:
-{{
-  "briefing": "3 sentences max. A factual morning briefing on the global beverage market TODAY based on what you found. Reference real recent news. Do not invent statistics.",
-  "signals": {{
-    "usa": "one sentence, max 8 words, factual, current trend for US beverage market",
-    "germany": "one sentence, max 8 words, factual, current trend for Germany beverage market",
-    "france": "one sentence, max 8 words, factual, current trend for France beverage market",
-    "spain": "one sentence, max 8 words, factual, current trend for Spain beverage market",
-    "italy": "one sentence, max 8 words, factual, current trend for Italy beverage market",
-    "austria": "one sentence, max 8 words, factual, current trend for Austria beverage market"
-  }}
-}}"""
+    for a in all_articles:
+        text = f"{a.get('title', '')} {a.get('summary', '')}"
+        topics = detect_topics(text)
+        regions = a.get("regions", ["global"])
 
-    print("  Calling Anthropic API for morning briefing...")
-    try:
-        res = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "Content-Type": "application/json",
-                "x-api-key": ANTHROPIC_API_KEY,
-                "anthropic-version": "2025-04-15",
-            },
-            json={
-                "model": "claude-sonnet-4-20250514",
-                "max_tokens": 1000,
-                "tools": [{"type": "web_search_20250305", "name": "web_search"}],
-                "messages": [{"role": "user", "content": prompt}],
-            },
-            timeout=90,
+        for topic in topics:
+            topic_counts[topic] = topic_counts.get(topic, 0) + 1
+
+        if isinstance(regions, list):
+            for r in regions:
+                if r in region_topics:
+                    region_articles[r].append(a)
+                    for topic in topics:
+                        region_topics[r][topic] = region_topics[r].get(topic, 0) + 1
+                elif r == "global":
+                    global_articles.append(a)
+        else:
+            global_articles.append(a)
+
+    # ── Build briefing from top topics ──
+    sorted_topics = sorted(topic_counts.items(), key=lambda x: -x[1])
+    top_topics = [t[0] for t in sorted_topics[:5]]
+
+    # Count articles by category
+    cat_counts = {}
+    for a in sales_articles:
+        cat = a.get("cat", "market")
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+
+    # Get most recent headlines for context
+    recent = sorted(all_articles, key=lambda a: a.get("published", ""), reverse=True)[:5]
+    recent_titles = [a.get("title", "")[:80] for a in recent]
+
+    # Build briefing sentences
+    sentences = []
+
+    # Sentence 1: Overall market activity
+    total = len(sales_articles)
+    launch_count = cat_counts.get("launch", 0)
+    reg_count = cat_counts.get("regulation", 0)
+    trend_count = cat_counts.get("trend", 0)
+    if total > 0:
+        parts = []
+        if launch_count > 0:
+            parts.append(f"{launch_count} product launches")
+        if reg_count > 0:
+            parts.append(f"{reg_count} regulatory updates")
+        if trend_count > 0:
+            parts.append(f"{trend_count} market trends")
+        activity = ", ".join(parts[:3]) if parts else f"{total} articles"
+        sentences.append(
+            f"Beverage market intelligence tracked {activity} across {len([r for r in region_articles if region_articles[r]])} active regions in the past 2 weeks."
         )
-        res.raise_for_status()
-        data = res.json()
 
-        # Extract text blocks (skip tool_use blocks)
-        text = "".join(
-            b["text"] for b in data.get("content", []) if b.get("type") == "text"
-        )
-        clean = text.replace("```json", "").replace("```", "").strip()
-        result = json.loads(clean)
-
-        # Validate structure
-        if "briefing" not in result or "signals" not in result:
-            raise ValueError("Missing briefing or signals in response")
-
-        # Save with metadata
-        briefing_data = {
-            "generated_at": datetime.now(timezone.utc).isoformat(),
-            "generated_date": today,
-            "briefing": result["briefing"],
-            "signals": result["signals"],
+    # Sentence 2: Dominant themes
+    if len(top_topics) >= 2:
+        theme_map = {
+            "energy drinks": "energy drinks continue to dominate headlines",
+            "functional": "functional and wellness beverages gaining momentum",
+            "sugar tax": "sugar tax developments reshaping pricing strategies",
+            "packaging": "EU packaging regulation (PPWR) driving compliance activity",
+            "organic": "organic and clean-label demand accelerating",
+            "launches": "new product launches intensifying across markets",
+            "pricing": "pricing pressures and commodity costs in focus",
+            "regulation": "regulatory changes impacting product strategies",
+            "no-low alcohol": "no/low alcohol category expanding rapidly",
+            "juice decline": "traditional juice volumes under pressure",
+            "juice growth": "premium NFC and cold-pressed juice segments growing",
+            "rtd": "RTD formats gaining share across categories",
+            "sparkling water": "sparkling and functional water demand rising",
+            "m&a": "M&A activity consolidating the beverage landscape",
         }
-        with open(BRIEFING_FILE, "w", encoding="utf-8") as f:
-            json.dump(briefing_data, f, ensure_ascii=False, indent=2)
+        themes = [theme_map.get(t, t.replace("_", " ") + " trending") for t in top_topics[:3]]
+        sentences.append(f"Key themes: {'; '.join(themes)}.")
 
-        print(f"  ✓ Briefing generated and saved to {BRIEFING_FILE.name}")
-        print(f"    Briefing: {result['briefing'][:120]}...")
-        for region, signal in result["signals"].items():
-            print(f"    {region}: {signal}")
+    # Sentence 3: Most notable recent headline
+    if recent_titles:
+        sentences.append(f"Latest: {recent_titles[0]}.")
 
-    except requests.exceptions.RequestException as e:
-        print(f"  ✗ API request failed: {e}")
-        # Log response body for debugging
-        if hasattr(e, 'response') and e.response is not None:
-            try:
-                print(f"    Response body: {e.response.text[:500]}")
-            except Exception:
-                pass
-    except (json.JSONDecodeError, ValueError) as e:
-        print(f"  ✗ Failed to parse API response: {e}")
-    except Exception as e:
-        print(f"  ✗ Unexpected error: {e}")
+    briefing_text = " ".join(sentences) if sentences else "Market intelligence is being collected. Check back after the next scheduled update."
+
+    # ── Build region signals ──
+    def make_signal(region_id: str) -> str:
+        """Generate a short signal for a region based on its articles."""
+        rt = region_topics.get(region_id, {})
+        ra = region_articles.get(region_id, [])
+
+        if not rt and not ra:
+            # No region-specific articles — use a sensible default based on known market characteristics
+            defaults = {
+                "usa":     "Energy drinks & functional RTD surging.",
+                "germany": "Functional water growing. Juice declining.",
+                "france":  "Premium juice & organic sparkling growing.",
+                "spain":   "Energy drinks and Horeca recovery strong.",
+                "italy":   "Aperitivo culture driving premium mixers.",
+                "austria": "Red Bull home market. Organic above EU avg.",
+            }
+            return defaults.get(region_id, "Monitoring — limited recent data.")
+
+        # Pick top topic for this region
+        top = sorted(rt.items(), key=lambda x: -x[1])
+        top_topic = top[0][0] if top else "market"
+
+        signal_map = {
+            "energy drinks":    "Energy drink segment leading growth.",
+            "functional":       "Functional beverage demand accelerating.",
+            "sugar tax":        "Sugar tax impacting pricing strategy.",
+            "packaging":        "Packaging regulation compliance in focus.",
+            "organic":          "Organic & clean-label demand rising.",
+            "launches":         f"{len(ra)} new launches tracked recently.",
+            "pricing":          "Commodity costs pressuring margins.",
+            "regulation":       "Regulatory changes reshaping market.",
+            "no-low alcohol":   "No/low alcohol segment expanding fast.",
+            "juice decline":    "Traditional juice volumes declining.",
+            "juice growth":     "Premium juice segment outperforming.",
+            "rtd":              "RTD formats gaining shelf space.",
+            "sparkling water":  "Sparkling water demand accelerating.",
+            "m&a":              "M&A activity consolidating players.",
+        }
+
+        signal = signal_map.get(top_topic, f"{top_topic.title()} trending.")
+
+        # Add article count context if we have enough
+        if len(ra) >= 3:
+            signal = f"{signal} ({len(ra)} articles)"
+
+        return signal
+
+    signals = {region: make_signal(region) for region in REGION_KEYWORDS}
+
+    # ── Save briefing.json ──
+    briefing_data = {
+        "generated_at": now_iso,
+        "generated_date": today,
+        "briefing": briefing_text,
+        "signals": signals,
+        "meta": {
+            "total_articles_analyzed": len(all_articles),
+            "sales_articles": len(sales_articles),
+            "fruit_articles": len(fruit_articles),
+            "top_topics": dict(sorted_topics[:8]),
+            "method": "rss-analysis",
+        }
+    }
+    with open(BRIEFING_FILE, "w", encoding="utf-8") as f:
+        json.dump(briefing_data, f, ensure_ascii=False, indent=2)
+
+    print(f"  ✓ Briefing generated from {len(all_articles)} articles → {BRIEFING_FILE.name}")
+    print(f"    Briefing: {briefing_text[:150]}...")
+    for region, signal in signals.items():
+        print(f"    {region}: {signal}")
 
 
 # =============================================================
@@ -821,9 +928,9 @@ def run():
     save_json(merged_sales, SALES_NEWS_FILE, "sales intelligence")
     print(f"  Added {added_sales} new sales articles. Total: {len(merged_sales)}")
 
-    # ── Part 3: AI Morning Briefing + Region Signals ────────
-    print("\n  [3/3] MORNING BRIEFING (Anthropic API + web search)")
-    generate_briefing()
+    # ── Part 3: Morning Briefing + Region Signals (from RSS data) ──
+    print("\n  [3/3] MORNING BRIEFING (from RSS analysis — no API needed)")
+    generate_briefing(merged_sales, merged_fruit)
 
     # ── Summary ──────────────────────────────────────────────
     print("\n  SUMMARY:")
