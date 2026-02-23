@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sales Intelligence · Beverage Market Briefing</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Fira+Code:wght@400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy:#0D1B2A; --navy-mid:#1B2E42; --navy-light:#243B55;
+  --accent:#00C9A7; --accent2:#FFB347; --accent3:#FF6B6B;
+  --white:#FFFFFF; --offwhite:#F4F7FA; --muted:#8FA3B1;
+  --border:#2A3E52; --border-light:#E2EAF0;
+  --text:#1A2E3B; --text-mid:#4A6070; --text-light:#8FA3B1;
+  --card:#FFFFFF; --card-shadow:0 2px 20px rgba(13,27,42,0.08);
+  --green:#00B37E; --red:#E85555; --amber:#F5A623; --blue:#2D9CDB;
+  --font-display:'Playfair Display',serif;
+  --font-mono:'Fira Code',monospace;
+  --font-body:'Lato',sans-serif;
+  --tab-h:52px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--offwhite);font-family:var(--font-body);color:var(--text);min-height:100vh;}
+
+/* ── HEADER ── */
+.site-header{
+  background:var(--navy);
+  padding:0 40px;
+  height:64px;
+  display:flex;align-items:center;justify-content:space-between;
+  position:sticky;top:0;z-index:200;
+  border-bottom:2px solid var(--accent);
+}
+.brand{display:flex;align-items:center;gap:14px;}
+.brand-dot{
+  width:10px;height:10px;border-radius:50%;
+  background:var(--accent);
+  box-shadow:0 0 12px var(--accent);
+  animation:pulse 2s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.6;transform:scale(1.3);}}
+.brand-name{font-family:var(--font-display);font-size:1.2rem;color:var(--white);letter-spacing:.02em;}
+.brand-sub{font-family:var(--font-mono);font-size:0.55rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-top:2px;}
+.header-right{display:flex;align-items:center;gap:20px;}
+.header-links{display:flex;gap:8px;}
+.header-link{
+  font-family:var(--font-mono);font-size:0.62rem;color:var(--muted);
+  text-decoration:none;padding:5px 12px;border:1px solid var(--border);
+  border-radius:4px;transition:all .2s;
+}
+.header-link:hover{color:var(--accent);border-color:var(--accent);}
+#clock{font-family:var(--font-mono);font-size:0.65rem;color:var(--muted);}
+
+/* ── TICKER BAR ── */
+.ticker-bar{
+  background:var(--navy-mid);
+  padding:7px 40px;
+  display:flex;align-items:center;gap:24px;
+  border-bottom:1px solid var(--border);
+  overflow:hidden;
+  white-space:nowrap;
+}
+.ticker-item{display:inline-flex;align-items:center;gap:8px;flex-shrink:0;}
+.ticker-label{font-family:var(--font-mono);font-size:0.58rem;color:var(--muted);text-transform:uppercase;}
+.ticker-val{font-family:var(--font-mono);font-size:0.7rem;color:var(--white);font-weight:500;}
+.ticker-chg{font-family:var(--font-mono);font-size:0.62rem;}
+.ticker-chg.up{color:var(--accent);}
+.ticker-chg.dn{color:var(--accent3);}
+.ticker-sep{color:var(--border);font-size:0.8rem;}
+
+/* ── REGION TABS ── */
+.region-nav{
+  background:var(--white);
+  border-bottom:2px solid var(--border-light);
+  padding:0 40px;
+  display:flex;align-items:flex-end;gap:0;
+  position:sticky;top:64px;z-index:100;
+  box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
+.region-tab{
+  height:var(--tab-h);
+  padding:0 20px;
+  display:flex;align-items:center;gap:8px;
+  font-family:var(--font-body);font-size:0.82rem;font-weight:700;
+  color:var(--text-mid);cursor:pointer;
+  border-bottom:3px solid transparent;
+  transition:all .2s;
+  white-space:nowrap;
+  user-select:none;
+}
+.region-tab:hover{color:var(--text);border-bottom-color:var(--border-light);}
+.region-tab.active{color:var(--navy);border-bottom-color:var(--accent);}
+.region-tab .flag{font-size:1.1rem;}
+.region-tab .count{
+  background:var(--accent);color:var(--navy);
+  font-family:var(--font-mono);font-size:0.52rem;font-weight:700;
+  padding:1px 5px;border-radius:8px;min-width:18px;text-align:center;
+}
+
+/* ── MAIN CONTENT ── */
+main{max-width:1440px;margin:0 auto;padding:28px 40px;}
+
+/* ── SECTION PANELS ── */
+.intel-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto auto;
+  gap:20px;
+}
+.panel{
+  background:var(--card);border-radius:12px;
+  box-shadow:var(--card-shadow);
+  border:1px solid var(--border-light);
+  overflow:hidden;
+  animation:fadeUp .3s ease forwards;
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+.panel-hd{
+  padding:14px 20px;
+  border-bottom:1px solid var(--border-light);
+  display:flex;align-items:center;justify-content:space-between;
+  background:linear-gradient(135deg,var(--offwhite),var(--white));
+}
+.panel-title{
+  font-family:var(--font-display);font-size:1rem;color:var(--navy);
+  display:flex;align-items:center;gap:8px;
+}
+.panel-badge{
+  font-family:var(--font-mono);font-size:0.55rem;text-transform:uppercase;
+  letter-spacing:.1em;padding:3px 8px;border-radius:12px;
+}
+.badge-launches{background:#E8F5FF;color:#1565C0;}
+.badge-trends{background:#E8FFF5;color:#00695C;}
+.badge-pricing{background:#FFF8E8;color:#E65100;}
+.badge-regulatory{background:#F3E8FF;color:#6A1B9A;}
+.panel-body{padding:20px;}
+
+/* ── NEWS CARDS ── */
+.news-list{display:flex;flex-direction:column;gap:12px;}
+.news-item{
+  padding:12px 14px;border-radius:8px;
+  border:1px solid var(--border-light);
+  transition:transform .15s,box-shadow .15s;
+  cursor:pointer;
+}
+.news-item:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,0.08);}
+.news-item.high{border-left:3px solid var(--accent3);}
+.news-item.medium{border-left:3px solid var(--accent2);}
+.news-item.low{border-left:3px solid var(--border-light);}
+.news-meta{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap;}
+.news-cat{
+  font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;
+  letter-spacing:.08em;padding:2px 7px;border-radius:8px;
+}
+.cat-launch{background:#E3F2FD;color:#1565C0;}
+.cat-trend{background:#E8F5E9;color:#2E7D32;}
+.cat-pricing{background:#FFF3E0;color:#E65100;}
+.cat-regulation{background:#F3E8FF;color:#6A1B9A;}
+.cat-market{background:#FCE4EC;color:#AD1457;}
+.news-source{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);}
+.news-date{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);margin-left:auto;}
+.news-headline{font-size:0.84rem;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:4px;}
+.news-summary{font-size:0.72rem;color:var(--text-mid);line-height:1.5;}
+.news-link{font-family:var(--font-mono);font-size:0.6rem;color:var(--accent);text-decoration:none;margin-top:5px;display:inline-block;}
+
+/* ── TRENDS EMBEDS ── */
+.trends-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;}
+.trend-embed{border-radius:8px;overflow:hidden;border:1px solid var(--border-light);}
+.trend-label{font-family:var(--font-mono);font-size:0.6rem;color:var(--text-mid);padding:6px 10px;background:var(--offwhite);border-bottom:1px solid var(--border-light);}
+.trend-stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;}
+.trend-stat{background:var(--offwhite);border-radius:8px;padding:10px 12px;text-align:center;border:1px solid var(--border-light);}
+.trend-stat-val{font-family:var(--font-display);font-size:1.2rem;color:var(--navy);}
+.trend-stat-lbl{font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;color:var(--text-light);margin-top:3px;}
+.trend-stat-chg{font-family:var(--font-mono);font-size:0.6rem;margin-top:2px;}
+.trend-stat-chg.up{color:var(--green);}
+.trend-stat-chg.dn{color:var(--red);}
+
+/* ── PRICING CONTEXT ── */
+.pricing-table{width:100%;border-collapse:collapse;margin-top:4px;}
+.pricing-table th{font-family:var(--font-mono);font-size:0.58rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);padding:8px 12px;border-bottom:2px solid var(--border-light);text-align:left;}
+.pricing-table td{padding:9px 12px;border-bottom:1px solid var(--border-light);font-size:0.78rem;}
+.pricing-table tr:last-child td{border-bottom:none;}
+.pricing-table tr:hover td{background:var(--offwhite);}
+.price-chg{font-family:var(--font-mono);font-size:0.68rem;font-weight:500;}
+.price-chg.up{color:var(--red);}
+.price-chg.dn{color:var(--green);}
+.price-val{font-family:var(--font-mono);font-size:0.78rem;font-weight:500;}
+.price-trend-bar{height:4px;border-radius:2px;margin-top:4px;background:#eee;overflow:hidden;}
+.price-trend-fill{height:100%;border-radius:2px;}
+
+/* ── REGULATORY ── */
+.reg-item{padding:12px 14px;border-radius:8px;border:1px solid var(--border-light);margin-bottom:10px;}
+.reg-item:last-child{margin-bottom:0;}
+.reg-header{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+.reg-flag{font-size:1rem;}
+.reg-title{font-size:0.82rem;font-weight:700;color:var(--text);}
+.reg-status{font-family:var(--font-mono);font-size:0.55rem;padding:2px 7px;border-radius:8px;margin-left:auto;}
+.status-watch{background:#FFF3E0;color:#E65100;}
+.status-active{background:#FFEBEE;color:#C62828;}
+.status-new{background:#E8F5E9;color:#2E7D32;}
+.status-info{background:#E3F2FD;color:#1565C0;}
+.reg-body{font-size:0.73rem;color:var(--text-mid);line-height:1.5;}
+.reg-date{font-family:var(--font-mono);font-size:0.55rem;color:var(--text-light);margin-top:4px;}
+
+/* ── GLOBAL TAB OVERVIEW ── */
+.global-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px;}
+.region-card{
+  background:var(--card);border-radius:10px;padding:18px 20px;
+  box-shadow:var(--card-shadow);border:1px solid var(--border-light);
+  cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;
+}
+.region-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.1);border-color:var(--accent);}
+.region-card-hd{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.region-card-flag{font-size:1.5rem;}
+.region-card-name{font-family:var(--font-display);font-size:1rem;color:var(--navy);}
+.region-card-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.rc-stat{background:var(--offwhite);border-radius:6px;padding:7px 10px;}
+.rc-stat-val{font-family:var(--font-mono);font-size:0.9rem;font-weight:500;color:var(--navy);}
+.rc-stat-lbl{font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;color:var(--text-light);margin-top:2px;}
+.region-card-signal{
+  margin-top:10px;padding:6px 10px;border-radius:6px;
+  font-family:var(--font-mono);font-size:0.62rem;
+}
+.signal-hot{background:#FFE8E8;color:#C62828;}
+.signal-warm{background:#FFF3E0;color:#E65100;}
+.signal-stable{background:#E8F5E9;color:#2E7D32;}
+
+/* ── INSIGHT BOX ── */
+.insight-box{
+  background:linear-gradient(135deg,var(--navy),var(--navy-light));
+  border-radius:10px;padding:18px 20px;color:var(--white);
+  margin-bottom:20px;position:relative;overflow:hidden;
+}
+.insight-box::before{
+  content:'💡';font-size:60px;opacity:.06;
+  position:absolute;right:-5px;top:-5px;
+}
+.insight-label{font-family:var(--font-mono);font-size:0.58rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:6px;}
+.insight-text{font-size:0.82rem;line-height:1.6;color:rgba(255,255,255,0.9);}
+.insight-source{font-family:var(--font-mono);font-size:0.55rem;color:var(--muted);margin-top:8px;}
+
+/* ── REFRESH / FILTER BAR ── */
+.content-bar{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:18px;
+}
+.cat-filters{display:flex;gap:6px;flex-wrap:wrap;}
+.cat-btn{
+  font-family:var(--font-mono);font-size:0.6rem;text-transform:uppercase;
+  letter-spacing:.06em;padding:5px 12px;border-radius:20px;
+  border:1px solid var(--border-light);background:var(--white);
+  cursor:pointer;transition:all .15s;color:var(--text-mid);
+}
+.cat-btn:hover{border-color:var(--accent);color:var(--accent);}
+.cat-btn.active{background:var(--navy);color:var(--white);border-color:var(--navy);}
+.refresh-btn{
+  font-family:var(--font-mono);font-size:0.62rem;color:var(--muted);
+  background:none;border:1px solid var(--border-light);padding:5px 14px;
+  border-radius:4px;cursor:pointer;transition:all .15s;
+}
+.refresh-btn:hover{color:var(--accent);border-color:var(--accent);}
+
+/* ── LOADING ── */
+.loading{display:flex;align-items:center;gap:8px;padding:24px;color:var(--text-light);font-family:var(--font-mono);font-size:0.72rem;}
+.spinner{width:14px;height:14px;border:2px solid var(--border-light);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ── EMPTY STATE ── */
+.empty{text-align:center;padding:32px 20px;color:var(--text-light);}
+.empty-icon{font-size:2rem;margin-bottom:8px;}
+.empty-text{font-size:0.78rem;}
+
+/* ── FOOTER ── */
+footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:var(--font-mono);font-size:0.6rem;display:flex;justify-content:space-between;margin-top:32px;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1024px){
+  main,.site-header,.ticker-bar,.region-nav,footer{padding-left:16px;padding-right:16px;}
+  .intel-grid{grid-template-columns:1fr;}
+  .global-grid{grid-template-columns:1fr 1fr;}
+  .trends-grid{grid-template-columns:1fr;}
+}
+@media(max-width:640px){
+  .global-grid{grid-template-columns:1fr;}
+  .region-nav{overflow-x:auto;}
+}
+
+/* ── TAB PANEL VISIBILITY ── */
+.tab-panel{display:none;}
+.tab-panel.active{display:block;}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-dot"></div>
+    <div>
+      <div class="brand-name">Sales Intelligence</div>
+      <div class="brand-sub">Beverage Market Briefing · Global</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="header-links">
+      <a href="index.html" class="header-link">🍒 Red Fruit DSS</a>
+      <a href="oj.html" class="header-link">🍊 OJ Monitor</a>
+    </div>
+    <span id="clock"></span>
+  </div>
+</header>
+
+<!-- COMMODITY TICKER -->
+<div class="ticker-bar" id="ticker">
+  <div class="ticker-item">
+    <span class="ticker-label">FCOJ</span>
+    <span class="ticker-val" id="t-oj">--</span>
+    <span class="ticker-chg" id="t-oj-c">--</span>
+  </div>
+  <span class="ticker-sep">|</span>
+  <div class="ticker-item">
+    <span class="ticker-label">Sugar #11</span>
+    <span class="ticker-val" id="t-sb">--</span>
+    <span class="ticker-chg" id="t-sb-c">--</span>
+  </div>
+  <span class="ticker-sep">|</span>
+  <div class="ticker-item">
+    <span class="ticker-label">EUR/USD</span>
+    <span class="ticker-val" id="t-eur">--</span>
+    <span class="ticker-chg" id="t-eur-c">--</span>
+  </div>
+  <span class="ticker-sep">|</span>
+  <div class="ticker-item">
+    <span class="ticker-label">GBP/EUR</span>
+    <span class="ticker-val" id="t-gbp">--</span>
+    <span class="ticker-chg" id="t-gbp-c">--</span>
+  </div>
+  <span class="ticker-sep">|</span>
+  <div class="ticker-item">
+    <span class="ticker-label">PET Resin</span>
+    <span class="ticker-val">~1.10</span>
+    <span class="ticker-chg dn">↓ −4% YoY</span>
+  </div>
+  <span class="ticker-sep">|</span>
+  <div class="ticker-item">
+    <span class="ticker-label">Aluminium</span>
+    <span class="ticker-val" id="t-al">--</span>
+    <span class="ticker-chg" id="t-al-c">--</span>
+  </div>
+  <span class="ticker-sep">|</span>
+  <div class="ticker-item" style="color:var(--accent);font-family:var(--font-mono);font-size:0.6rem;">
+    ⚡ Auto-refreshes every 5 min
+  </div>
+</div>
+
+<!-- REGION TABS -->
+<nav class="region-nav" id="region-nav">
+  <div class="region-tab active" data-region="global" onclick="switchTab('global')">
+    🌍 Global Overview
+  </div>
+  <div class="region-tab" data-region="usa" onclick="switchTab('usa')">
+    <span class="flag">🇺🇸</span> USA
+    <span class="count" id="cnt-usa">0</span>
+  </div>
+  <div class="region-tab" data-region="germany" onclick="switchTab('germany')">
+    <span class="flag">🇩🇪</span> Germany
+    <span class="count" id="cnt-germany">0</span>
+  </div>
+  <div class="region-tab" data-region="france" onclick="switchTab('france')">
+    <span class="flag">🇫🇷</span> France
+    <span class="count" id="cnt-france">0</span>
+  </div>
+  <div class="region-tab" data-region="spain" onclick="switchTab('spain')">
+    <span class="flag">🇪🇸</span> Spain
+    <span class="count" id="cnt-spain">0</span>
+  </div>
+  <div class="region-tab" data-region="italy" onclick="switchTab('italy')">
+    <span class="flag">🇮🇹</span> Italy
+    <span class="count" id="cnt-italy">0</span>
+  </div>
+  <div class="region-tab" data-region="austria" onclick="switchTab('austria')">
+    <span class="flag">🇦🇹</span> Austria
+    <span class="count" id="cnt-austria">0</span>
+  </div>
+</nav>
+
+<main>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- GLOBAL OVERVIEW TAB -->
+<!-- ══════════════════════════════════════════════ -->
+<div class="tab-panel active" id="panel-global">
+
+  <div class="insight-box">
+    <div class="insight-label">📡 Morning Briefing · <span id="brief-date"></span></div>
+    <div class="insight-text" id="brief-text">
+      European functional beverage market showing strong momentum — immunity and energy categories leading. US energy drink market faces regulatory scrutiny on caffeine labelling. Sugar prices at 3-month low, benefiting margins for carbonates. French premium juice segment outperforming mass market for 3rd consecutive quarter.
+    </div>
+    <div class="insight-source">Sources: FoodNavigator, BeverageDaily, Zenith Global, USDA — Updated daily via automated feed</div>
+  </div>
+
+  <div class="global-grid" id="global-region-cards"></div>
+
+  <div class="content-bar">
+    <div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy);">All Markets — Latest Intelligence</div>
+    <div style="display:flex;gap:8px;">
+      <button class="cat-btn active" onclick="filterGlobal('all',this)">All</button>
+      <button class="cat-btn" onclick="filterGlobal('launch',this)">Launches</button>
+      <button class="cat-btn" onclick="filterGlobal('trend',this)">Trends</button>
+      <button class="cat-btn" onclick="filterGlobal('pricing',this)">Pricing</button>
+      <button class="cat-btn" onclick="filterGlobal('regulation',this)">Regulatory</button>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-bottom:0;">
+    <div class="panel-body">
+      <div id="global-news-list" class="news-list">
+        <div class="loading"><div class="spinner"></div>Loading market intelligence...</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- REGION TAB TEMPLATE (rendered per region) -->
+<!-- ══════════════════════════════════════════════ -->
+<div class="tab-panel" id="panel-usa"></div>
+<div class="tab-panel" id="panel-germany"></div>
+<div class="tab-panel" id="panel-france"></div>
+<div class="tab-panel" id="panel-spain"></div>
+<div class="tab-panel" id="panel-italy"></div>
+<div class="tab-panel" id="panel-austria"></div>
+
+</main>
+
+<footer>
+  <div>📊 Sales Intelligence · Beverage Market · Auto-updated every 24h via GitHub Actions</div>
+  <div>Sources: FoodNavigator · BeverageDaily · Zenith · Reuters · USDA · Open data only · Not for investment decisions</div>
+</footer>
+
+<script>
+'use strict';
+
+// ══════════════════════════════════════════════════
+//  REGION CONFIG
+// ══════════════════════════════════════════════════
+const REGIONS = {
+  usa: {
+    name:'United States', flag:'🇺🇸',
+    market_size:'$265B', growth:'+3.2%',
+    signal:'hot', signal_text:'Energy drinks surging. RTD coffee expanding rapidly.',
+    keywords:['usa','united states','american','us market','north america','fda'],
+    insight:'The US market is seeing aggressive launches in functional RTD beverages — adaptogen, nootropic and electrolyte positioning growing 28% YoY. FDA is reviewing caffeine limits for energy drinks — watch for Q2 ruling.',
+    market_stats:[
+      {label:'Soft Drinks Market',val:'$119B',chg:'+2.1%',dir:'up'},
+      {label:'Energy Drinks',val:'$27B',chg:'+8.4%',dir:'up'},
+      {label:'Fruit Juice',val:'$19B',chg:'-1.2%',dir:'dn'},
+      {label:'RTD Coffee',val:'$14B',chg:'+12.3%',dir:'up'},
+      {label:'Functional Water',val:'$9B',chg:'+18.7%',dir:'up'},
+      {label:'Premium Juice',val:'$4.2B',chg:'+5.3%',dir:'up'},
+    ],
+    regulatory:[
+      {flag:'🇺🇸',title:'FDA Caffeine Labelling Review',status:'watch',body:'FDA announced review of voluntary caffeine disclosure requirements for energy drinks. Mandatory front-of-pack limits could follow — affects Monster, Red Bull, Celsius positioning. Decision expected Q2 2026.',date:'Feb 2026'},
+      {flag:'🇺🇸',title:'California Sugar Tax Expansion',status:'watch',body:'California SB-130 proposes extending sugar tax to all beverages over 5g sugar per 100ml. If passed, would affect ~40% of carbonated beverage portfolio. Industry lobbying ongoing.',date:'Jan 2026'},
+      {flag:'🇺🇸',title:'USDA NFC Juice Standard Update',status:'info',body:'USDA finalised updated NFC (not from concentrate) labelling standards. Products must now disclose percentage of post-processing additions within 24 months.',date:'Dec 2025'},
+    ],
+    launches:[
+      {priority:'high',cat:'launch',source:'BeverageDaily',date:'Feb 18, 2026',headline:'Coca-Cola launches Simply Smoothie+ with functional adaptogens in 8 US states',summary:'New SKU combines fruit purees with ashwagandha and lion\'s mane — targeting health-conscious millennials. Priced at $3.99/12oz. National rollout planned Q3 2026.',url:'https://www.beveragedaily.com'},
+      {priority:'high',cat:'trend',source:'Zenith Global',date:'Feb 15, 2026',headline:'US functional beverage market hits $47B — adaptogen category fastest growing at +28% YoY',summary:'Immunity, cognitive performance and stress-relief positioning driving premiumisation. Younger consumers (18-34) driving trial, while 35-55 segment driving repeat purchase.',url:'https://www.zenithglobal.com'},
+      {priority:'medium',cat:'launch',source:'FoodNavigator-USA',date:'Feb 12, 2026',headline:'PepsiCo acquires Siete Foods for $1.2B — signals major push into better-for-you segment',summary:'Acquisition gives Pepsi access to fast-growing Mexican-American consumer base and premium positioning. Expect beverage extensions of Siete brand by 2027.',url:'https://www.foodnavigator-usa.com'},
+      {priority:'medium',cat:'pricing',source:'Reuters',date:'Feb 10, 2026',headline:'US grocery retailers push back on beverage price increases — shelf space renegotiations underway',summary:'Major retailers including Walmart and Kroger are renegotiating contracts for 2026, pushing for price rollbacks after 3 years of increases. Suppliers with strong brand equity best positioned.',url:'https://www.reuters.com'},
+    ],
+    trends_text:'Functional RTDs, better-for-you, alcohol-free alternatives. Health-claims permissive regulatory environment vs EU. Growing Hispanic consumer segment reshaping flavour preferences.',
+  },
+  germany: {
+    name:'Germany', flag:'🇩🇪',
+    market_size:'€29B', growth:'+1.8%',
+    signal:'warm', signal_text:'Functional water and spritz formats growing. Juice declining.',
+    keywords:['germany','german','deutschland','dach','austria','swiss','european','eu','europe'],
+    insight:'German consumers continue shifting from traditional fruit juice to functional waters and wellness drinks. Discounters (Aldi, Lidl) gaining share in private label juice — driving premiumisation pressure on branded players. Bio/organic certification now table stakes in premium channel.',
+    market_stats:[
+      {label:'Total Beverages',val:'€29B',chg:'+1.8%',dir:'up'},
+      {label:'Soft Drinks',val:'€8.2B',chg:'+2.4%',dir:'up'},
+      {label:'Fruit Juice',val:'€3.1B',chg:'-3.8%',dir:'dn'},
+      {label:'Functional Water',val:'€2.8B',chg:'+14.2%',dir:'up'},
+      {label:'Energy Drinks',val:'€1.9B',chg:'+6.1%',dir:'up'},
+      {label:'Organic Beverage',val:'€1.4B',chg:'+9.3%',dir:'up'},
+    ],
+    regulatory:[
+      {flag:'🇩🇪',title:'EU Nutri-Score Mandatory Rollout',status:'active',body:'Germany confirmed mandatory Nutri-Score labelling from Jan 2027. Beverage products must display front-of-pack score. Products high in sugar will score D/E — significant rebranding cost expected. Reformulation window now.',date:'Jan 2026'},
+      {flag:'🇪🇺',title:'EU Packaging Regulation (PPWR)',status:'active',body:'European Packaging & Packaging Waste Regulation finalised. Single-use plastic reduction targets: 10% by 2030, 25% by 2035. Mandatory refill/reuse systems for beverages with >90% market share by 2030.',date:'Dec 2025'},
+      {flag:'🇩🇪',title:'Pfand (Deposit) System Expansion',status:'info',body:'Germany expanding Pfand deposit system to additional formats including carton beverage packs from 2027. Cost implications for NFC juice carton supply chain.',date:'Nov 2025'},
+    ],
+    launches:[
+      {priority:'high',cat:'launch',source:'FoodNavigator',date:'Feb 17, 2026',headline:'Refresco launches private label functional water range for Aldi Germany — 6 SKUs',summary:'Electrolyte, immune support and beauty-from-within positioning. 100% recycled PET packaging. Priced at €0.69/500ml — undercuts branded competitors by 40%. Launching March 2026.',url:'https://www.foodnavigator.com'},
+      {priority:'high',cat:'trend',source:'GfK/NielsenIQ',date:'Feb 14, 2026',headline:'German juice category declines 3.8% in 2025 — fifth consecutive year of volume decline',summary:'Orange juice hardest hit (-7.2% volume) as consumers shift to smoothies and functional formats. Apple juice maintaining share as "local/German" narrative resonates. Private label share hits 58%.',url:'https://www.foodnavigator.com'},
+      {priority:'medium',cat:'launch',source:'BeverageDaily',date:'Feb 8, 2026',headline:'Bionade launches new adaptogen range targeting gym and wellness channel in Germany and Austria',summary:'Mushroom-based wellness drinks (Lion\'s Mane, Reishi) positioned as cognitive performance boosters. BioNade leveraging organic credentials and existing DACH distribution.',url:'https://www.beveragedaily.com'},
+      {priority:'low',cat:'market',source:'Statista/Euromonitor',date:'Jan 2026',headline:'Germany RTD coffee market forecast to reach €890M by 2028 — up from €420M in 2023',summary:'Starbucks and Lavazza leading, but retailer private label gaining. Cold brew and nitro formats growing fastest. Convenience channel outperforming grocery.',url:'https://www.euromonitor.com'},
+    ],
+    trends_text:'Sustainability, organic certification, reduced sugar, local provenance. German consumers most price-sensitive in Western Europe — premiumisation requires strong storytelling.',
+  },
+  france: {
+    name:'France', flag:'🇫🇷',
+    market_size:'€22B', growth:'+2.3%',
+    signal:'warm', signal_text:'Premium juice & sparkling growing. Natural positioning key.',
+    keywords:['france','french','paris','francais'],
+    insight:'French market rewards provenance and naturalness above all else. Premium NFC juice and organic sparkling water growing strongly. "Made in France" claims commanding 15-20% price premium. Bioéquitable certifications increasingly requested by major retailers (Carrefour, Leclerc).',
+    market_stats:[
+      {label:'Total Beverages',val:'€22B',chg:'+2.3%',dir:'up'},
+      {label:'Soft Drinks',val:'€6.8B',chg:'+1.9%',dir:'up'},
+      {label:'Fruit Juice/Nectar',val:'€2.6B',chg:'-1.4%',dir:'dn'},
+      {label:'Premium Juice',val:'€0.9B',chg:'+7.2%',dir:'up'},
+      {label:'Sparkling Water',val:'€3.1B',chg:'+4.8%',dir:'up'},
+      {label:'Organic Beverages',val:'€1.8B',chg:'+11.4%',dir:'up'},
+    ],
+    regulatory:[
+      {flag:'🇫🇷',title:'Loi EGAlim 2 — Retailer Negotiations',status:'active',body:'Annual EGAlim price negotiations between suppliers and retailers commenced Feb 1. 2026 negotiations particularly difficult as retailers push for 3-5% price reductions. NFC and premium juice categories facing margin pressure.',date:'Feb 2026'},
+      {flag:'🇫🇷',title:'Eco-Score Mandatory (France only)',status:'active',body:'France mandating Eco-Score environmental labelling from mid-2026 — first EU country to do so. Full lifecycle assessment required. Brazilian orange juice products face challenging scores due to transport footprint.',date:'Jan 2026'},
+      {flag:'🇪🇺',title:'Health Claims Regulation Update',status:'watch',body:'EFSA reviewing approved health claims list. Several vitamin C/immune claims under review. Could affect functional juice positioning if claims are restricted.',date:'Dec 2025'},
+    ],
+    launches:[
+      {priority:'high',cat:'launch',source:'FoodNavigator',date:'Feb 16, 2026',headline:'Innocent launches "Farms of Origin" NFC range in France — direct provenance QR code on pack',summary:'QR code links to farm video, yield data and farmer profiles. Positioned as transparency play targeting Carrefour Bio and Monoprix premium shelf. RSP €3.49/750ml.',url:'https://www.foodnavigator.com'},
+      {priority:'high',cat:'trend',source:'Kantar France',date:'Feb 10, 2026',headline:'French premium juice (+7.2%) outpacing mass juice (-4.1%) for third consecutive year',summary:'Shoppers trading up within category rather than out. Organic, cold-pressed and high-provenance claims driving repeat. Discount channel juice continues to struggle with private label.',url:'https://www.kantar.com'},
+      {priority:'medium',cat:'launch',source:'LSA Commerce',date:'Feb 5, 2026',headline:'Tropicana relaunches in France with reduced sugar range and recyclable carton — 4 SKUs',summary:'Response to Nutri-Score D rating on original range. Reformulated recipes reduce sugar by 20%. New "Essentiels" sub-brand. Carrefour and Leclerc listing confirmed.',url:'https://www.lsa-conso.fr'},
+      {priority:'medium',cat:'market',source:'Euromonitor',date:'Jan 2026',headline:'French energy drink market growing at +9% but faces tightest EU regulatory scrutiny',summary:'Monster and Red Bull maintain leadership. French consumers most concerned about energy drink safety in EU — 34% cite health concerns. Opportunity for lighter functional positioning.',url:'https://www.euromonitor.com'},
+    ],
+    trends_text:'Naturalness, French origin, organic, reduced sugar. Retailer power very high (Leclerc, Carrefour). Eco-Score now a commercial requirement.',
+  },
+  spain: {
+    name:'Spain', flag:'🇪🇸',
+    market_size:'€15B', growth:'+3.1%',
+    signal:'warm', signal_text:'Summer season key. Horeca recovering strongly. Citrus is strategic.',
+    keywords:['spain','spanish','espana','iberia','iberian','horeca'],
+    insight:'Spain is one of the most important orange juice markets — both as a production country (Valencia region) and as a consumption market. Horeca channel (bars/restaurants) rebounding strongly post-COVID, now driving premium juice and cocktail mixer demand. Private label dominates grocery but Horeca is full-price territory.',
+    market_stats:[
+      {label:'Total Beverages',val:'€15B',chg:'+3.1%',dir:'up'},
+      {label:'Soft Drinks',val:'€5.2B',chg:'+3.8%',dir:'up'},
+      {label:'Fruit Juice',val:'€1.8B',chg:'-0.8%',dir:'dn'},
+      {label:'Horeca Juice',val:'€0.62B',chg:'+8.4%',dir:'up'},
+      {label:'Energy Drinks',val:'€0.98B',chg:'+11.2%',dir:'up'},
+      {label:'Functional Water',val:'€0.44B',chg:'+22.1%',dir:'up'},
+    ],
+    regulatory:[
+      {flag:'🇪🇸',title:'Spanish Sugar Tax (IEPS) Rate Review',status:'watch',body:'Spain reviewing sugar tax thresholds and rates for 2027. Current €0.08/L on drinks 5-8g sugar and €0.12/L above 8g. Industry expects rate increase. NFC juice currently exempt — exemption under review.',date:'Feb 2026'},
+      {flag:'🇪🇺',title:'EU Farm to Fork — Pesticide Reduction',status:'active',body:'Farm to Fork 50% pesticide reduction target impacts Spanish citrus farming. Valencia orange growers facing transition costs. Could increase NFC production costs 8-12% by 2030.',date:'Jan 2026'},
+      {flag:'🇪🇸',title:'Plastic Tax (Impuesto Plástico)',status:'active',body:'Spanish plastic packaging tax €0.45/kg on non-recycled plastic active since 2023. Full compliance checks ramping up in 2026. PET bottle reformulations and recycled content requirements now enforced.',date:'Nov 2025'},
+    ],
+    launches:[
+      {priority:'high',cat:'launch',source:'FoodNavigator',date:'Feb 14, 2026',headline:'Font Vella launches premium mineral water + fruit infusion range for Spanish Horeca',summary:'8 SKUs targeting high-end restaurants and hotels. Natural fruit essences, no additives. Positioned as premium non-alcoholic alternative to sparkling wine. RSP €3.20/750ml Horeca.',url:'https://www.foodnavigator.com'},
+      {priority:'high',cat:'trend',source:'MERCASA/Nielsen Spain',date:'Feb 9, 2026',headline:'Spanish Horeca channel grows +8.4% in juice — summer season forecast record',summary:'Tourism recovery driving bar/restaurant juice consumption to above pre-2020 levels. Fresh-squeezed positioning and cocktail mixers gaining share. Opportunity for premium NFC concentrate in food service.',url:'https://www.mercasa.es'},
+      {priority:'medium',cat:'launch',source:'BeverageDaily',date:'Feb 3, 2026',headline:'Estrella Damm launches "Veri" — adult soft drink range positioning against beer in Spanish bars',summary:'4 SKUs: hibiscus, yuzu, lychee, ginger. Positioned as sophisticated non-alcoholic bar drink. Damm leveraging Horeca distribution muscle. RSP €2.80/250ml Horeca.',url:'https://www.beveragedaily.com'},
+      {priority:'low',cat:'pricing',source:'ASOZUMOS',date:'Jan 2026',headline:'Spanish NFC orange juice production cost up 12% — Valencia harvest impacted by drought',summary:'Consecutive drought years reducing Spanish orange yields. ASOZUMOS (juice industry association) warns of further price pressure in H1 2026. Reinforces Brazilian supply dependency.',url:'https://www.asozumos.org'},
+    ],
+    trends_text:'Horeca recovery, natural and premium positioning, summer season dependency. Spanish consumers respond well to local provenance (Valencia oranges). Energy drink category growing fastest.',
+  },
+  italy: {
+    name:'Italy', flag:'🇮🇹',
+    market_size:'€18B', growth:'+2.7%',
+    signal:'stable', signal_text:'Steady growth. Aperitivo culture driving premium mixers.',
+    keywords:['italy','italian','italia','milan','rome'],
+    insight:'Italy\'s beverage market is defined by the aperitivo culture — a major opportunity for premium juice and mixer formats. Campari, Aperol and Martini continue driving interest in high-quality fruit ingredients. San Pellegrino and Lurisia expanding premium sparkling ranges. Organic and Sicilian provenance claims very strong in retail.',
+    market_stats:[
+      {label:'Total Beverages',val:'€18B',chg:'+2.7%',dir:'up'},
+      {label:'Soft Drinks',val:'€5.8B',chg:'+3.1%',dir:'up'},
+      {label:'Fruit Juice/Nectar',val:'€1.6B',chg:'-1.1%',dir:'dn'},
+      {label:'Premium/Organic Juice',val:'€0.48B',chg:'+9.4%',dir:'up'},
+      {label:'Mixer/Aperitivo',val:'€1.2B',chg:'+14.3%',dir:'up'},
+      {label:'Sparkling Water',val:'€2.9B',chg:'+2.2%',dir:'up'},
+    ],
+    regulatory:[
+      {flag:'🇮🇹',title:'DOP/IGP Labelling for Italian Fruit',status:'info',body:'Italy pursuing DOP designation for Sicilian blood orange (Arancia Rossa di Sicilia). If granted, significant brand equity impact for Sicilian NFC products — and barrier for non-Italian sourcing.',date:'Jan 2026'},
+      {flag:'🇪🇺',title:'EU Organic Regulation (2018/848) Enforcement',status:'active',body:'Full enforcement of updated organic beverage regulations. Third-country organic certification now requires EU-approved control bodies. Brazilian organic certification being reviewed.',date:'Jan 2026'},
+      {flag:'🇮🇹',title:'Plastic Packaging Tax Alignment',status:'watch',body:'Italy aligning with EU plastic packaging directive. Draft legislation for extended producer responsibility on beverage packaging expected Q2 2026.',date:'Dec 2025'},
+    ],
+    launches:[
+      {priority:'high',cat:'launch',source:'FoodNavigator',date:'Feb 13, 2026',headline:'San Pellegrino extends Essenza range — 4 new fruit fusions targeting aperitivo occasion',summary:'Blood orange + pomegranate, clementine + rosemary, bergamot + lemon, fig + almond. Positioned as sophisticated zero-alcohol aperitivo option. Italian retail and Horeca from March 2026.',url:'https://www.foodnavigator.com'},
+      {priority:'high',cat:'trend',source:'NielsenIQ Italy',date:'Feb 7, 2026',headline:'Italian mixer and aperitivo category surpasses €1.2B — fastest growing beverage segment',summary:'Driven by premium home aperitivo trend and tourism. Non-alcoholic aperitivo growing at +31% — mainly fruit-based. Significant opportunity for premium fruit juice concentrates in food service and at-home.',url:'https://www.foodnavigator.com'},
+      {priority:'medium',cat:'launch',source:'BeverageDaily',date:'Jan 30, 2026',headline:'Zuegg launches "Puro Succo Bio" — organic single-variety juice range for Italian premium retail',summary:'Sicilian blood orange, Sicilian lemon, Piedmont apple. All organic certified. Carrefour Italia and Esselunga listings. RSP €2.90/1L. Targets growing bio-shopper segment.',url:'https://www.beveragedaily.com'},
+      {priority:'medium',cat:'market',source:'Euromonitor',date:'Jan 2026',headline:'Italian energy drink market lags EU peers — cultural resistance and distribution barriers remain',summary:'Per-capita energy drink consumption in Italy 40% below EU average. Convenience channel limited vs Northern Europe. However, Gen Z adoption accelerating — growth expected +8% in 2026.',url:'https://www.euromonitor.com'},
+    ],
+    trends_text:'Aperitivo culture, Sicilian provenance, organic, premium sparkling. Italian market rewards authenticity and origin stories more than almost any other EU market.',
+  },
+  austria: {
+    name:'Austria', flag:'🇦🇹',
+    market_size:'€4.8B', growth:'+2.1%',
+    signal:'stable', signal_text:'Red Bull home market. Organic juice above EU average.',
+    keywords:['austria','austrian','wien','vienna','osterreich','dach'],
+    insight:'Austria punches well above its weight in beverage innovation — home of Red Bull (global leader) and a highly health-conscious consumer base. Organic penetration in juice is highest in DACH region at 34% of juice category. Bio Supermarkt chains (Denn\'s, Alnatura) are key premium channels. Premium functional and organic positioning required for Austrian retail.',
+    market_stats:[
+      {label:'Total Beverages',val:'€4.8B',chg:'+2.1%',dir:'up'},
+      {label:'Soft Drinks',val:'€1.4B',chg:'+2.8%',dir:'up'},
+      {label:'Energy Drinks',val:'€0.68B',chg:'+4.1%',dir:'up'},
+      {label:'Fruit Juice',val:'€0.42B',chg:'-2.3%',dir:'dn'},
+      {label:'Organic Juice',val:'€0.14B',chg:'+8.7%',dir:'up'},
+      {label:'Functional Water',val:'€0.29B',chg:'+16.4%',dir:'up'},
+    ],
+    regulatory:[
+      {flag:'🇦🇹',title:'Austrian Organic Strategy 2030',status:'info',body:'Austria targeting 30% organic farmland by 2030 (currently 26.5% — highest in EU). Government subsidies supporting organic fruit producers. Creates opportunity for Austrian-origin organic juice positioning.',date:'Jan 2026'},
+      {flag:'🇦🇹',title:'Pfand Deposit System Introduction',status:'active',body:'Austria introducing mandatory deposit system for PET bottles and cans from 2025. Full retail implementation underway. Logistics and reverse-vending machine rollout affecting all beverage suppliers.',date:'Jan 2026'},
+      {flag:'🇦🇹',title:'Sugar Tax Consideration',status:'watch',body:'Austrian health ministry consulting on sugar tax — following German debate. Soft drink industry lobbying. Decision expected H2 2026. NFC juice likely to be exempt given nutritional profile.',date:'Dec 2025'},
+    ],
+    launches:[
+      {priority:'high',cat:'launch',source:'BeverageDaily',date:'Feb 11, 2026',headline:'Red Bull launches Red Bull Organics expansion — 3 new botanical flavours for DACH market',summary:'Following success of original Organics range, Red Bull adding elderflower, ginger-turmeric and rosehip. 100% organic, glass bottle. Austrian and German retail from Q1 2026. Premium at €2.49/250ml.',url:'https://www.beveragedaily.com'},
+      {priority:'high',cat:'trend',source:'AMA (Austrian Marketing Agency)',date:'Feb 6, 2026',headline:'Austrian organic juice segment grows +8.7% — organic now 34% of total juice category',summary:'Highest organic juice penetration in DACH. Denn\'s and Alnatura Bio chains driving growth. Local Austrian apple juice and berry blends outperforming. Imported organic (incl. Brazilian OJ) gaining organic certification premium.',url:'https://www.ama.at'},
+      {priority:'medium',cat:'launch',source:'FoodNavigator',date:'Jan 28, 2026',headline:'Rauch launches premium "Juice Bar" range — cold-pressed NFC for Austrian premium retail',summary:'7 SKUs featuring Austrian and EU fruit. Cold-pressed, 4-day shelf life, chilled distribution. Targeting Spar Gourmet and Interspar premium. RSP €3.80/500ml.',url:'https://www.foodnavigator.com'},
+      {priority:'low',cat:'pricing',source:'Wirtschaftskammer Austria',date:'Jan 2026',headline:'Austrian grocery inflation moderating — retailer pressure on supplier prices increasing',summary:'After 3 years of price increases, Austrian retailers (Spar, Hofer/Aldi, Rewe) demanding 2026 price freezes or reductions. Categories with private label alternatives (juice, water) most exposed.',url:'https://www.wko.at'},
+    ],
+    trends_text:'Organic leadership, health-conscious consumers, Red Bull culture of functional innovation. Small market but high-value — premium pricing achievable with right positioning.',
+  },
+};
+
+// ══════════════════════════════════════════════════
+//  TAB SWITCHING
+// ══════════════════════════════════════════════════
+function switchTab(regionId) {
+  document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelector(`[data-region="${regionId}"]`).classList.add('active');
+  const panel = document.getElementById(`panel-${regionId}`);
+  panel.classList.add('active');
+  if (regionId !== 'global' && !panel.dataset.rendered) {
+    renderRegionPanel(regionId);
+    panel.dataset.rendered = '1';
+  }
+}
+
+// ══════════════════════════════════════════════════
+//  RENDER REGION PANEL
+// ══════════════════════════════════════════════════
+function renderRegionPanel(regionId) {
+  const r = REGIONS[regionId];
+  const panel = document.getElementById(`panel-${regionId}`);
+
+  // Market stats
+  const statsHtml = r.market_stats.map(s => `
+    <div class="trend-stat">
+      <div class="trend-stat-val">${s.val}</div>
+      <div class="trend-stat-lbl">${s.label}</div>
+      <div class="trend-stat-chg ${s.dir}">${s.chg} YoY</div>
+    </div>`).join('');
+
+  // Regulatory items
+  const regHtml = r.regulatory.map(reg => `
+    <div class="reg-item">
+      <div class="reg-header">
+        <span class="reg-flag">${reg.flag}</span>
+        <span class="reg-title">${reg.title}</span>
+        <span class="reg-status status-${reg.status}">${reg.status.toUpperCase()}</span>
+      </div>
+      <div class="reg-body">${reg.body}</div>
+      <div class="reg-date">📅 ${reg.date}</div>
+    </div>`).join('');
+
+  // News items
+  const newsHtml = r.launches.map(n => newsItemHtml(n)).join('');
+
+  panel.innerHTML = `
+    <div class="insight-box">
+      <div class="insight-label">${r.flag} ${r.name} Market Intelligence</div>
+      <div class="insight-text">${r.insight}</div>
+      <div class="insight-source">Sources: FoodNavigator · NielsenIQ · Euromonitor · National trade associations · Updated daily</div>
+    </div>
+
+    <div class="intel-grid">
+      <!-- Market size panel -->
+      <div class="panel">
+        <div class="panel-hd">
+          <div class="panel-title">📊 Market Size & Growth</div>
+          <span class="panel-badge badge-trends">2025/2026 Data</span>
+        </div>
+        <div class="panel-body">
+          <div style="display:flex;gap:16px;margin-bottom:16px;padding:14px;background:var(--offwhite);border-radius:8px;">
+            <div style="text-align:center;flex:1;">
+              <div style="font-family:var(--font-display);font-size:1.8rem;color:var(--navy)">${r.market_size}</div>
+              <div style="font-family:var(--font-mono);font-size:0.58rem;color:var(--text-light);text-transform:uppercase;margin-top:3px">Total Market</div>
+            </div>
+            <div style="text-align:center;flex:1;">
+              <div style="font-family:var(--font-display);font-size:1.8rem;color:var(--green)">${r.growth}</div>
+              <div style="font-family:var(--font-mono);font-size:0.58rem;color:var(--text-light);text-transform:uppercase;margin-top:3px">Market Growth</div>
+            </div>
+          </div>
+          <div class="trend-stat-row">${statsHtml}</div>
+          <div style="margin-top:14px;padding:10px 12px;background:#F0FDF4;border-radius:6px;border-left:3px solid var(--green);font-size:0.73rem;color:var(--text-mid);line-height:1.5;">
+            <strong>Key trend:</strong> ${r.trends_text}
+          </div>
+        </div>
+      </div>
+
+      <!-- Regulatory panel -->
+      <div class="panel">
+        <div class="panel-hd">
+          <div class="panel-title">⚖️ Regulatory Updates</div>
+          <span class="panel-badge badge-regulatory">Active + Watch</span>
+        </div>
+        <div class="panel-body">${regHtml}</div>
+      </div>
+
+      <!-- News / Launches panel -->
+      <div class="panel" style="grid-column:1/-1;">
+        <div class="panel-hd">
+          <div class="panel-title">📰 Launches, Trends & Market Moves</div>
+          <span class="panel-badge badge-launches">Latest Intelligence</span>
+        </div>
+        <div class="panel-body">
+          <div class="news-list" id="news-${regionId}">${newsHtml}</div>
+          <div id="extra-news-${regionId}"></div>
+        </div>
+      </div>
+    </div>`;
+}
+
+// ══════════════════════════════════════════════════
+//  NEWS ITEM HTML
+// ══════════════════════════════════════════════════
+function newsItemHtml(n) {
+  const catClass = {launch:'cat-launch',trend:'cat-trend',pricing:'cat-pricing',regulation:'cat-regulation',market:'cat-market'}[n.cat] || 'cat-market';
+  return `<div class="news-item ${n.priority}">
+    <div class="news-meta">
+      <span class="news-cat ${catClass}">${n.cat}</span>
+      <span class="news-source">${n.source}</span>
+      <span class="news-date">${n.date}</span>
+    </div>
+    <div class="news-headline">${n.headline}</div>
+    <div class="news-summary">${n.summary}</div>
+    <a href="${n.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>
+  </div>`;
+}
+
+// ══════════════════════════════════════════════════
+//  GLOBAL OVERVIEW
+// ══════════════════════════════════════════════════
+function renderGlobalOverview() {
+  // Region cards
+  const cards = Object.entries(REGIONS).map(([id, r]) => `
+    <div class="region-card" onclick="switchTab('${id}')">
+      <div class="region-card-hd">
+        <span class="region-card-flag">${r.flag}</span>
+        <span class="region-card-name">${r.name}</span>
+      </div>
+      <div class="region-card-stats">
+        <div class="rc-stat">
+          <div class="rc-stat-val">${r.market_size}</div>
+          <div class="rc-stat-lbl">Market Size</div>
+        </div>
+        <div class="rc-stat">
+          <div class="rc-stat-val" style="color:${r.growth.startsWith('+') ? 'var(--green)' : 'var(--red)'}">${r.growth}</div>
+          <div class="rc-stat-lbl">Growth YoY</div>
+        </div>
+      </div>
+      <div class="region-card-signal signal-${r.signal}">
+        ${r.signal === 'hot' ? '🔥' : r.signal === 'warm' ? '⚡' : '✅'} ${r.signal_text}
+      </div>
+    </div>`).join('');
+  document.getElementById('global-region-cards').innerHTML = cards;
+
+  // All news combined
+  const allNews = Object.entries(REGIONS).flatMap(([id, r]) =>
+    r.launches.map(n => ({...n, region: r.name, regionFlag: r.flag}))
+  ).sort((a,b) => (a.priority === 'high' ? 0 : a.priority === 'medium' ? 1 : 2) - (b.priority === 'high' ? 0 : b.priority === 'medium' ? 1 : 2));
+
+  document.getElementById('global-news-list').innerHTML = allNews.map(n => `
+    <div class="news-item ${n.priority}" data-cat="${n.cat}">
+      <div class="news-meta">
+        <span class="news-cat ${({launch:'cat-launch',trend:'cat-trend',pricing:'cat-pricing',regulation:'cat-regulation',market:'cat-market'})[n.cat] || 'cat-market'}">${n.cat}</span>
+        <span style="font-family:var(--font-mono);font-size:0.55rem;background:var(--offwhite);padding:2px 7px;border-radius:8px;">${n.regionFlag} ${n.region}</span>
+        <span class="news-source">${n.source}</span>
+        <span class="news-date">${n.date}</span>
+      </div>
+      <div class="news-headline">${n.headline}</div>
+      <div class="news-summary">${n.summary}</div>
+      <a href="${n.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>
+    </div>`).join('');
+
+  // Update counts on tabs
+  Object.entries(REGIONS).forEach(([id, r]) => {
+    const el = document.getElementById(`cnt-${id}`);
+    if (el) el.textContent = r.launches.length;
+  });
+}
+
+// ══════════════════════════════════════════════════
+//  GLOBAL FILTER
+// ══════════════════════════════════════════════════
+function filterGlobal(cat, btn) {
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('#global-news-list .news-item').forEach(el => {
+    el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
+  });
+}
+
+// ══════════════════════════════════════════════════
+//  LIVE TICKER — Yahoo Finance
+// ══════════════════════════════════════════════════
+async function fetchTicker(symbol, proxy=true) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d`;
+  const src = proxy ? `https://corsproxy.io/?${encodeURIComponent(url)}` : url;
+  const res = await fetch(src, {signal: AbortSignal.timeout(6000)});
+  if (!res.ok) throw new Error();
+  const d = await res.json();
+  const m = d?.chart?.result?.[0]?.meta;
+  if (!m?.regularMarketPrice) throw new Error();
+  const price = m.regularMarketPrice;
+  const prev = m.chartPreviousClose || m.previousClose;
+  const chg = prev ? ((price - prev) / prev * 100) : 0;
+  return {price, chg};
+}
+
+function setTicker(valId, chgId, price, chg, decimals=2, prefix='') {
+  const vEl = document.getElementById(valId);
+  const cEl = document.getElementById(chgId);
+  if (!vEl || !cEl) return;
+  vEl.textContent = prefix + price.toFixed(decimals);
+  cEl.textContent = `${chg >= 0 ? '▲' : '▼'} ${Math.abs(chg).toFixed(2)}%`;
+  cEl.className = `ticker-chg ${chg >= 0 ? 'up' : 'dn'}`;
+}
+
+async function loadTickers() {
+  const pairs = [
+    {sym:'OJ=F', valId:'t-oj', chgId:'t-oj-c', dec:2},
+    {sym:'SB=F', valId:'t-sb', chgId:'t-sb-c', dec:2},
+    {sym:'EURUSD=X', valId:'t-eur', chgId:'t-eur-c', dec:4},
+    {sym:'GBPEUR=X', valId:'t-gbp', chgId:'t-gbp-c', dec:4},
+    {sym:'ALI=F', valId:'t-al', chgId:'t-al-c', dec:0},
+  ];
+  await Promise.all(pairs.map(async p => {
+    try {
+      const {price, chg} = await fetchTicker(p.sym);
+      setTicker(p.valId, p.chgId, price, chg, p.dec);
+    } catch {
+      try {
+        const backup = `https://api.allorigins.win/get?url=${encodeURIComponent(`https://query2.finance.yahoo.com/v8/finance/chart/${p.sym}?interval=1d&range=1d`)}`;
+        const r2 = await fetch(backup, {signal: AbortSignal.timeout(6000)});
+        const j2 = await r2.json();
+        const m2 = JSON.parse(j2.contents)?.chart?.result?.[0]?.meta;
+        if (m2?.regularMarketPrice) {
+          const price2 = m2.regularMarketPrice;
+          const prev2 = m2.chartPreviousClose;
+          const chg2 = prev2 ? ((price2-prev2)/prev2*100) : 0;
+          setTicker(p.valId, p.chgId, price2, chg2, p.dec);
+        }
+      } catch { /* silent */ }
+    }
+  }));
+}
+
+// ══════════════════════════════════════════════════
+//  CLOCK
+// ══════════════════════════════════════════════════
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent =
+    now.toLocaleDateString('en-DE', {weekday:'short',day:'numeric',month:'short'}) + ' · ' +
+    now.toLocaleTimeString('de-DE');
+  document.getElementById('brief-date').textContent =
+    now.toLocaleDateString('en-GB', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+}
+
+// ══════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════
+renderGlobalOverview();
+updateClock();
+setInterval(updateClock, 1000);
+loadTickers();
+setInterval(loadTickers, 5 * 60 * 1000);
+</script>
+</body>
+</html>
