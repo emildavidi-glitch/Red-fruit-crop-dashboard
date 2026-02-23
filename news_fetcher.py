@@ -707,7 +707,7 @@ Then return ONLY a JSON object (no markdown, no backticks) with exactly these fi
             headers={
                 "Content-Type": "application/json",
                 "x-api-key": ANTHROPIC_API_KEY,
-                "anthropic-version": "2023-06-01",
+                "anthropic-version": "2025-04-15",
             },
             json={
                 "model": "claude-sonnet-4-20250514",
@@ -715,7 +715,7 @@ Then return ONLY a JSON object (no markdown, no backticks) with exactly these fi
                 "tools": [{"type": "web_search_20250305", "name": "web_search"}],
                 "messages": [{"role": "user", "content": prompt}],
             },
-            timeout=60,
+            timeout=90,
         )
         res.raise_for_status()
         data = res.json()
@@ -748,6 +748,12 @@ Then return ONLY a JSON object (no markdown, no backticks) with exactly these fi
 
     except requests.exceptions.RequestException as e:
         print(f"  ✗ API request failed: {e}")
+        # Log response body for debugging
+        if hasattr(e, 'response') and e.response is not None:
+            try:
+                print(f"    Response body: {e.response.text[:500]}")
+            except Exception:
+                pass
     except (json.JSONDecodeError, ValueError) as e:
         print(f"  ✗ Failed to parse API response: {e}")
     except Exception as e:
