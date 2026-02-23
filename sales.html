@@ -913,129 +913,57 @@ const GLOBAL_ARTICLES = [
 ];
 
 // ══════════════════════════════════════════════════
-//  LIVE MORNING BRIEFING + REGION SIGNALS
-//  Strategy:
-//  1. Try to load pre-generated briefing.json (from GitHub Actions)
-//  2. If that fails OR is stale (>26 hours old), try live API call
-//  3. If both fail, show error message
+//  MORNING BRIEFING + REGION SIGNALS
+//  Loads pre-generated briefing.json (built by news_fetcher.py
+//  from RSS analysis during GitHub Actions — no API needed)
 // ══════════════════════════════════════════════════
 async function fetchMorningBriefing() {
-  const today = new Date().toLocaleDateString('en-GB', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
-
-  // ── Step 1: Try pre-generated briefing.json ──
   try {
-    const jsonRes = await fetch('briefing.json?_=' + Date.now(), {signal: AbortSignal.timeout(5000)});
-    if (jsonRes.ok) {
-      const data = await jsonRes.json();
-      const generatedAt = new Date(data.generated_at);
-      const ageHours = (Date.now() - generatedAt.getTime()) / (1000 * 60 * 60);
+    const jsonRes = await fetch('briefing.json?_=' + Date.now(), {signal: AbortSignal.timeout(8000)});
+    if (!jsonRes.ok) throw new Error(`HTTP ${jsonRes.status}`);
+    const data = await jsonRes.json();
 
-      if (data.briefing && ageHours < 26) {
-        // Valid and fresh — use it
-        const briefEl = document.getElementById('brief-text');
-        if (briefEl) briefEl.textContent = data.briefing;
-        const srcEl = document.getElementById('brief-source');
-        if (srcEl) {
-          const genTime = generatedAt.toLocaleTimeString('en-GB', {hour:'2-digit',minute:'2-digit'});
-          srcEl.textContent = `AI-generated via web search · Updated ${data.generated_date} at ${genTime} UTC`;
-        }
+    if (!data.briefing) throw new Error('No briefing text in response');
 
-        // Apply region signals
-        if (data.signals) {
-          Object.entries(data.signals).forEach(([regionId, signalText]) => {
-            if (REGIONS[regionId]) {
-              REGIONS[regionId].signal_text = signalText;
-            }
-            const cardSignalEl = document.querySelector(`[data-signal-region="${regionId}"]`);
-            if (cardSignalEl) cardSignalEl.textContent = signalText;
-          });
-          renderRegionCards();
-        }
-
-        console.log('Morning briefing loaded from briefing.json (age: ' + ageHours.toFixed(1) + 'h)');
-        return;  // Done — no need for live API call
-      } else {
-        console.log('briefing.json is stale (' + ageHours.toFixed(1) + 'h old) — trying live API...');
-      }
-    }
-  } catch (e) {
-    console.log('briefing.json not available — trying live API...', e.message);
-  }
-
-  // ── Step 2: Fall back to live Anthropic API call ──
-  const prompt = `Today is ${today}. Search for the latest beverage industry news from the last 2 weeks covering the US, Germany, France, Spain, Italy and Austria markets.
-
-Then return ONLY a JSON object (no markdown, no backticks) with exactly these fields:
-{
-  "briefing": "3 sentences max. A factual morning briefing on the global beverage market TODAY based on what you found. Reference real recent news. Do not invent statistics.",
-  "signals": {
-    "usa": "one sentence, max 8 words, factual, current trend for US beverage market",
-    "germany": "one sentence, max 8 words, factual, current trend for Germany beverage market",
-    "france": "one sentence, max 8 words, factual, current trend for France beverage market",
-    "spain": "one sentence, max 8 words, factual, current trend for Spain beverage market",
-    "italy": "one sentence, max 8 words, factual, current trend for Italy beverage market",
-    "austria": "one sentence, max 8 words, factual, current trend for Austria beverage market"
-  }
-}`;
-
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-        messages: [{ role: 'user', content: prompt }]
-      })
-    });
-
-    if (!res.ok) throw new Error(`API ${res.status}`);
-    const data = await res.json();
-
-    const text = data.content
-      .filter(b => b.type === 'text')
-      .map(b => b.text)
-      .join('');
-
-    const clean = text.replace(/```json|```/g, '').trim();
-    const result = JSON.parse(clean);
-
-    // Inject morning briefing
+    // Inject briefing text
     const briefEl = document.getElementById('brief-text');
-    if (briefEl && result.briefing) {
-      briefEl.textContent = result.briefing;
-    }
+    if (briefEl) briefEl.textContent = data.briefing;
+
+    // Inject source line with timestamp
     const srcEl = document.getElementById('brief-source');
     if (srcEl) {
-      srcEl.textContent = `AI-generated from live web search · ${today}`;
+      const genAt = new Date(data.generated_at);
+      const genTime = genAt.toLocaleTimeString('en-GB', {hour:'2-digit', minute:'2-digit'});
+      const method = data.meta?.method === 'rss-analysis' ? 'RSS analysis' : 'AI-generated';
+      const articleCount = data.meta?.total_articles_analyzed || '?';
+      srcEl.textContent = `Generated via ${method} of ${articleCount} articles · Updated ${data.generated_date} at ${genTime} UTC`;
     }
 
-    // Inject region signal_text into cards
-    if (result.signals) {
-      Object.entries(result.signals).forEach(([regionId, signalText]) => {
+    // Apply region signals to cards
+    if (data.signals) {
+      Object.entries(data.signals).forEach(([regionId, signalText]) => {
         if (REGIONS[regionId]) {
           REGIONS[regionId].signal_text = signalText;
         }
-        // Update the rendered card if already shown
         const cardSignalEl = document.querySelector(`[data-signal-region="${regionId}"]`);
         if (cardSignalEl) cardSignalEl.textContent = signalText;
       });
-      // Re-render region cards with updated signals
       renderRegionCards();
     }
 
-  } catch (err) {
-    console.error('Morning briefing fetch failed:', err);
-    const briefEl = document.getElementById('brief-text');
-    if (briefEl) briefEl.textContent = 'Live briefing unavailable — ensure briefing.json is deployed via GitHub Actions, or add x-api-key header for direct API access.';
-    const srcEl = document.getElementById('brief-source');
-    if (srcEl) srcEl.textContent = 'Both briefing.json and live API failed · Check GitHub Actions logs';
+    console.log('Morning briefing loaded from briefing.json');
 
-    // Still set fallback signal texts so cards aren't empty
+  } catch (err) {
+    console.error('Morning briefing load failed:', err);
+    const briefEl = document.getElementById('brief-text');
+    if (briefEl) briefEl.textContent = 'Briefing not yet available — waiting for GitHub Actions to generate briefing.json. Run the workflow manually or wait for the next scheduled run.';
+    const srcEl = document.getElementById('brief-source');
+    if (srcEl) srcEl.textContent = 'briefing.json not found · Trigger GitHub Actions workflow to generate';
+
+    // Set fallback signal texts
     Object.keys(REGIONS).forEach(regionId => {
       if (REGIONS[regionId].signal_text === 'Loading…') {
-        REGIONS[regionId].signal_text = 'Data pending — refresh or check Actions';
+        REGIONS[regionId].signal_text = 'Awaiting first briefing run.';
       }
     });
     renderRegionCards();
