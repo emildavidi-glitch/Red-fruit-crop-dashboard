@@ -34,10 +34,15 @@ except ImportError:
 
 NEWS_FILE        = Path(__file__).parent / "news.json"
 SALES_NEWS_FILE  = Path(__file__).parent / "sales_news.json"
+BRIEFING_FILE    = Path(__file__).parent / "briefing.json"
 ARTICLE_TTL_DAYS = 14
 MAX_ARTICLES     = 60
 MAX_SALES_ARTICLES = 120   # more capacity — 6 regions × ~20 each
 REQUEST_TIMEOUT  = 15
+
+# Anthropic API key — set via environment variable (GitHub Secret)
+import os
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # =============================================================
 # ── SECTION 1: RED FRUIT RSS SOURCES (unchanged) ────────────
@@ -664,6 +669,92 @@ def save_json(articles: list, path: Path, label: str):
     print(f"  Saved {len(articles)} {label} articles -> {path.name}")
 
 # =============================================================
+# BRIEFING GENERATION (via Anthropic API + web search)
+# =============================================================
+
+def generate_briefing():
+    """
+    Calls the Anthropic API with web_search to generate:
+    1. A 3-sentence morning briefing on the global beverage market
+    2. A one-line signal for each of the 6 regions
+    Saves to briefing.json for the frontend to consume.
+    """
+    if not ANTHROPIC_API_KEY:
+        print("  ⚠ ANTHROPIC_API_KEY not set — skipping briefing generation.")
+        print("    Set it as a GitHub Secret or env var to enable live briefings.")
+        return
+
+    today = datetime.now(timezone.utc).strftime("%A, %d %B %Y")
+    prompt = f"""Today is {today}. Search for the latest beverage industry news from the last 2 weeks covering the US, Germany, France, Spain, Italy and Austria markets.
+
+Then return ONLY a JSON object (no markdown, no backticks) with exactly these fields:
+{{
+  "briefing": "3 sentences max. A factual morning briefing on the global beverage market TODAY based on what you found. Reference real recent news. Do not invent statistics.",
+  "signals": {{
+    "usa": "one sentence, max 8 words, factual, current trend for US beverage market",
+    "germany": "one sentence, max 8 words, factual, current trend for Germany beverage market",
+    "france": "one sentence, max 8 words, factual, current trend for France beverage market",
+    "spain": "one sentence, max 8 words, factual, current trend for Spain beverage market",
+    "italy": "one sentence, max 8 words, factual, current trend for Italy beverage market",
+    "austria": "one sentence, max 8 words, factual, current trend for Austria beverage market"
+  }}
+}}"""
+
+    print("  Calling Anthropic API for morning briefing...")
+    try:
+        res = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "Content-Type": "application/json",
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+            },
+            json={
+                "model": "claude-sonnet-4-20250514",
+                "max_tokens": 1000,
+                "tools": [{"type": "web_search_20250305", "name": "web_search"}],
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=60,
+        )
+        res.raise_for_status()
+        data = res.json()
+
+        # Extract text blocks (skip tool_use blocks)
+        text = "".join(
+            b["text"] for b in data.get("content", []) if b.get("type") == "text"
+        )
+        clean = text.replace("```json", "").replace("```", "").strip()
+        result = json.loads(clean)
+
+        # Validate structure
+        if "briefing" not in result or "signals" not in result:
+            raise ValueError("Missing briefing or signals in response")
+
+        # Save with metadata
+        briefing_data = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_date": today,
+            "briefing": result["briefing"],
+            "signals": result["signals"],
+        }
+        with open(BRIEFING_FILE, "w", encoding="utf-8") as f:
+            json.dump(briefing_data, f, ensure_ascii=False, indent=2)
+
+        print(f"  ✓ Briefing generated and saved to {BRIEFING_FILE.name}")
+        print(f"    Briefing: {result['briefing'][:120]}...")
+        for region, signal in result["signals"].items():
+            print(f"    {region}: {signal}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"  ✗ API request failed: {e}")
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"  ✗ Failed to parse API response: {e}")
+    except Exception as e:
+        print(f"  ✗ Unexpected error: {e}")
+
+
+# =============================================================
 # MAIN
 # =============================================================
 
@@ -723,6 +814,10 @@ def run():
     merged_sales, added_sales = merge_articles(existing_sales, all_sales_new, MAX_SALES_ARTICLES)
     save_json(merged_sales, SALES_NEWS_FILE, "sales intelligence")
     print(f"  Added {added_sales} new sales articles. Total: {len(merged_sales)}")
+
+    # ── Part 3: AI Morning Briefing + Region Signals ────────
+    print("\n  [3/3] MORNING BRIEFING (Anthropic API + web search)")
+    generate_briefing()
 
     # ── Summary ──────────────────────────────────────────────
     print("\n  SUMMARY:")
