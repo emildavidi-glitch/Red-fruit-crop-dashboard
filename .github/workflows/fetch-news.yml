@@ -23,8 +23,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run news fetcher + briefing generator
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python news_fetcher.py
 
       - name: Commit updated data files
@@ -34,5 +32,4 @@ jobs:
           git add news.json sales_news.json
           git add briefing.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "📊 Auto-update: news + briefing $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git pull --rebase origin main
           git push
