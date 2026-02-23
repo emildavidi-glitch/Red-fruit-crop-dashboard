@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-02-23T20:14:29.254239+00:00",
+  "generated_date": "Monday, 23 February 2026",
+  "briefing": "Beverage market intelligence tracked 12 product launches, 1 regulatory updates, 49 market trends across 5 active regions in the past 2 weeks. Key themes: pricing pressures and commodity costs in focus; new product launches intensifying across markets; RTD formats gaining share across categories. Latest: F1 LIVE: Max Verstappen blasts new regulations as Red Bull car bursts into flame.",
+  "signals": {
+    "usa": "13 new launches tracked recently. (13 articles)",
+    "germany": "Energy drink segment leading growth.",
+    "france": "3 new launches tracked recently. (3 articles)",
+    "spain": "Energy drinks and Horeca recovery strong.",
+    "italy": "4 new launches tracked recently. (4 articles)",
+    "austria": "Energy drink segment leading growth. (6 articles)"
+  },
+  "meta": {
+    "total_articles_analyzed": 140,
+    "sales_articles": 92,
+    "fruit_articles": 48,
+    "top_topics": {
+      "pricing": 18,
+      "launches": 13,
+      "rtd": 9,
+      "energy drinks": 7,
+      "functional": 6,
+      "no-low alcohol": 5,
+      "regulation": 4,
+      "m&a": 3
+    },
+    "method": "rss-analysis"
+  }
+}
