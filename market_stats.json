@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-02-24T06:27:25.959300+00:00",
+  "regions": {
+    "usa": {
+      "market_context": {
+        "currency": "USD",
+        "market_size": {
+          "value": 265,
+          "unit": "USD_B",
+          "year": 2024,
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – US Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/united-states"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Order-of-magnitude estimate from Statista public preview. Includes soft drinks, juice, water, energy, RTD coffee/tea."
+        },
+        "growth": {
+          "value": 3.0,
+          "unit": "pct",
+          "period": "YoY",
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – US Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/united-states"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Approximate YoY growth rate from public market summaries."
+        }
+      },
+      "sales_relevance_notes": [
+        "0 intelligence items tracked in last 28 days."
+      ]
+    },
+    "germany": {
+      "market_context": {
+        "currency": "EUR",
+        "market_size": {
+          "value": 29,
+          "unit": "EUR_B",
+          "year": 2024,
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – DE Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/germany"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Order-of-magnitude estimate. DACH region context."
+        },
+        "growth": {
+          "value": 2.0,
+          "unit": "pct",
+          "period": "YoY",
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista DE",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/germany"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Approximate growth rate."
+        }
+      },
+      "sales_relevance_notes": [
+        "0 intelligence items tracked in last 28 days."
+      ]
+    },
+    "france": {
+      "market_context": {
+        "currency": "EUR",
+        "market_size": {
+          "value": 22,
+          "unit": "EUR_B",
+          "year": 2024,
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – FR Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/france"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Order-of-magnitude estimate."
+        },
+        "growth": {
+          "value": 2.0,
+          "unit": "pct",
+          "period": "YoY",
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista FR",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/france"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Approximate growth rate."
+        }
+      },
+      "sales_relevance_notes": [
+        "0 intelligence items tracked in last 28 days."
+      ]
+    },
+    "spain": {
+      "market_context": {
+        "currency": "EUR",
+        "market_size": {
+          "value": 12,
+          "unit": "EUR_B",
+          "year": 2024,
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – ES Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/spain"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Order-of-magnitude estimate."
+        },
+        "growth": {
+          "value": 3.0,
+          "unit": "pct",
+          "period": "YoY",
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista ES",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/spain"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Approximate growth rate."
+        }
+      },
+      "sales_relevance_notes": [
+        "0 intelligence items tracked in last 28 days."
+      ]
+    },
+    "italy": {
+      "market_context": {
+        "currency": "EUR",
+        "market_size": {
+          "value": 18,
+          "unit": "EUR_B",
+          "year": 2024,
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – IT Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/italy"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Order-of-magnitude estimate."
+        },
+        "growth": {
+          "value": 3.0,
+          "unit": "pct",
+          "period": "YoY",
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista IT",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/italy"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Approximate growth rate."
+        }
+      },
+      "sales_relevance_notes": [
+        "0 intelligence items tracked in last 28 days."
+      ]
+    },
+    "austria": {
+      "market_context": {
+        "currency": "EUR",
+        "market_size": {
+          "value": 5,
+          "unit": "EUR_B",
+          "year": 2024,
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista – AT Non-Alcoholic Beverages",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/austria"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Order-of-magnitude estimate. Red Bull home market."
+        },
+        "growth": {
+          "value": 2.0,
+          "unit": "pct",
+          "period": "YoY",
+          "method": "manual_estimate",
+          "sources": [
+            {
+              "name": "Statista AT",
+              "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/austria"
+            }
+          ],
+          "last_verified": "2025-01-15",
+          "confidence": "medium",
+          "notes": "Approximate growth rate."
+        }
+      },
+      "sales_relevance_notes": [
+        "0 intelligence items tracked in last 28 days."
+      ]
+    }
+  }
+}
