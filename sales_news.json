@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T11:35:23.395703+00:00",
+  "generated_at": "2026-02-24T16:12:57.909930+00:00",
   "window_days": 28,
   "regions": {
     "usa": [],
@@ -21,33 +21,21 @@
     "errors": [
       {
         "region": "global",
-        "source": "BeverageDaily",
-        "error": "404 Client Error: Not Found for url: https://www.beveragedaily.com/rss/editorial.rss",
-        "time": "2026-02-24T11:35:23.395703+00:00"
-      },
-      {
-        "region": "global",
-        "source": "FoodNavigator",
-        "error": "404 Client Error: Not Found for url: https://www.foodnavigator.com/rss/editorial.rss",
-        "time": "2026-02-24T11:35:23.395703+00:00"
+        "source": "FoodBev Media",
+        "error": "404 Client Error: Not Found for url: https://www.foodbev.com/feed",
+        "time": "2026-02-24T16:12:57.909930+00:00"
       },
       {
         "region": "usa",
-        "source": "FoodNavigator-USA",
-        "error": "404 Client Error: Not Found for url: https://www.foodnavigator-usa.com/rss/editorial.rss",
-        "time": "2026-02-24T11:35:23.395703+00:00"
+        "source": "Food Business News",
+        "error": "403 Client Error: Forbidden for url: https://www.foodbusinessnews.net/rss/articles",
+        "time": "2026-02-24T16:12:57.909930+00:00"
       },
       {
         "region": "usa",
-        "source": "BevIndustry",
-        "error": "404 Client Error: Not Found for url: https://www.bevindustry.com/rss/all",
-        "time": "2026-02-24T11:35:23.395703+00:00"
-      },
-      {
-        "region": "usa",
-        "source": "FDA Recalls",
+        "source": "FDA Press",
         "error": "404 Client Error: Not Found for url: https://www.fda.gov/apology_objects/abuse-detection-apology.htm",
-        "time": "2026-02-24T11:35:23.395703+00:00"
+        "time": "2026-02-24T16:12:57.909930+00:00"
       }
     ],
     "counts": {

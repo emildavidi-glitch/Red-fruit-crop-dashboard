@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-24T11:35:23.395703+00:00",
+  "generated_at": "2026-02-24T16:12:57.909930+00:00",
   "regions": {
     "usa": {
       "status": "error",
       "items": 0,
       "region_specific": 0,
-      "sources_ok": 35,
-      "sources_failed": 5,
+      "sources_ok": 41,
+      "sources_failed": 3,
       "last_item_date": null,
       "notes": [
         "Extended to 42d window",
@@ -17,8 +17,8 @@
       "status": "error",
       "items": 0,
       "region_specific": 0,
-      "sources_ok": 35,
-      "sources_failed": 5,
+      "sources_ok": 41,
+      "sources_failed": 3,
       "last_item_date": null,
       "notes": [
         "Extended to 42d window",
@@ -29,8 +29,8 @@
       "status": "error",
       "items": 0,
       "region_specific": 0,
-      "sources_ok": 35,
-      "sources_failed": 5,
+      "sources_ok": 41,
+      "sources_failed": 3,
       "last_item_date": null,
       "notes": [
         "Extended to 42d window",
@@ -41,8 +41,8 @@
       "status": "error",
       "items": 0,
       "region_specific": 0,
-      "sources_ok": 35,
-      "sources_failed": 5,
+      "sources_ok": 41,
+      "sources_failed": 3,
       "last_item_date": null,
       "notes": [
         "Extended to 42d window",
@@ -53,8 +53,8 @@
       "status": "error",
       "items": 0,
       "region_specific": 0,
-      "sources_ok": 35,
-      "sources_failed": 5,
+      "sources_ok": 41,
+      "sources_failed": 3,
       "last_item_date": null,
       "notes": [
         "Extended to 42d window",
@@ -65,8 +65,8 @@
       "status": "error",
       "items": 0,
       "region_specific": 0,
-      "sources_ok": 35,
-      "sources_failed": 5,
+      "sources_ok": 41,
+      "sources_failed": 3,
       "last_item_date": null,
       "notes": [
         "Extended to 42d window",
@@ -76,7 +76,7 @@
   },
   "global": {
     "total_items": 0,
-    "total_sources_ok": 35,
-    "total_sources_failed": 5
+    "total_sources_ok": 41,
+    "total_sources_failed": 3
   }
 }
