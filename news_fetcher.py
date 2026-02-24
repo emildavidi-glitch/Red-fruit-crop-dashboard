@@ -96,12 +96,10 @@ SALES_RSS_SOURCES = [
 # ---------- TRADE PRESS (BEST SIGNAL) ----------
 
 {
-{
 "name":"BeverageDaily",
 "url":"https://www.beveragedaily.com/arc/outboundfeeds/rss/",
 "regions":["global"],
 "cat":"launch"
-},
 },
 
 {
