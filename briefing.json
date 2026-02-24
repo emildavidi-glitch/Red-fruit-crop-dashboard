@@ -1,18 +1,29 @@
 {
-  "generated_at": "2026-02-24T10:19:30.701721+00:00",
+  "generated_at": "2026-02-24T10:22:38.869864+00:00",
   "generated_date": "Tuesday, 24 February 2026",
-  "briefing": "Sales intelligence tracked 0 items across 0 regions in the past 28 days.",
+  "briefing": "Beverage market intelligence tracked 2 product launches, 44 market trends across 3 active regions in the past 2 weeks. Key themes: new product launches intensifying across markets; pricing pressures and commodity costs in focus; functional and wellness beverages gaining momentum. Latest: REIGN Total Body Fuel launches bold new watermelon sour gummy flavour.",
   "signals": {
-    "usa": "No recent data — monitoring.",
-    "germany": "No recent data — monitoring.",
-    "france": "No recent data — monitoring.",
-    "spain": "No recent data — monitoring.",
-    "italy": "No recent data — monitoring.",
-    "austria": "No recent data — monitoring."
+    "usa": "Market trending. (3 articles)",
+    "germany": "Market trending. (4 articles)",
+    "france": "Premium juice & organic sparkling growing.",
+    "spain": "Energy drinks and Horeca recovery strong.",
+    "italy": "Aperitivo culture driving premium mixers.",
+    "austria": "Market trending. (4 articles)"
   },
   "meta": {
-    "total_articles_analyzed": 0,
-    "method": "rss-analysis",
-    "top_topics": {}
+    "total_articles_analyzed": 95,
+    "sales_articles": 48,
+    "fruit_articles": 47,
+    "top_topics": {
+      "launches": 8,
+      "pricing": 8,
+      "functional": 3,
+      "rtd": 2,
+      "no-low alcohol": 2,
+      "sparkling water": 2,
+      "organic": 2,
+      "juice growth": 1
+    },
+    "method": "rss-analysis"
   }
 }

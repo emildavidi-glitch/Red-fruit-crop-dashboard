@@ -1,86 +1,634 @@
 {
-  "generated_at": "2026-02-24T10:19:30.701721+00:00",
-  "window_days": 28,
-  "regions": {
-    "usa": [],
-    "germany": [],
-    "france": [],
-    "spain": [],
-    "italy": [],
-    "austria": []
-  },
-  "meta": {
-    "sources_used": {
-      "usa": [],
-      "germany": [],
-      "france": [],
-      "spain": [],
-      "italy": [],
-      "austria": []
+  "last_updated": "2026-02-24T10:22:38.847324+00:00",
+  "article_count": 48,
+  "articles": [
+    {
+      "id": "8dda56deaca8",
+      "title": "Protein Hydrolysate Ingredient Market: Beverage Fortification, Protein-Enriched Drinks & Market Forecast - vocal.media",
+      "summary": "Protein Hydrolysate Ingredient Market: Beverage Fortification, Protein-Enriched Drinks & Market Forecast vocal.media",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZEtTZUhqQlFDOUl6NzNvN24tMHRfUDY4OU9sWVFLWlRXVDVpenp5WHJSMEpVbW50QlNNbDRQSGNHUFFyT0FqakJwelBuLTFYZjdiWDg5RzdmLUVXeWFYaVhwSEE4WlhRMUlsa1dwWDlBenIzR21kbi00Tll2TjZjV1BFNTRHNzQ4UjBWcU92NEFnOU9yaWwxbkUtN2tXVW5ZQ1hXSWRmLTFyc3dVeTNNX3V6am1jbDBjYTBFQnZ3Zk5uSE9pQmxRbXZOLXBXdw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-24T09:03:34+00:00",
+      "fetched": "2026-02-24T10:22:34.427234+00:00"
     },
-    "errors": [
-      {
-        "region": "global",
-        "source": "FoodNavigator",
-        "error": "404 Client Error: Not Found for url: https://www.foodnavigator.com/rss/editorial.rss",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "global",
-        "source": "BeverageDaily",
-        "error": "404 Client Error: Not Found for url: https://www.beveragedaily.com/rss/editorial.rss",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "usa",
-        "source": "FoodNavigator-USA",
-        "error": "404 Client Error: Not Found for url: https://www.foodnavigator-usa.com/rss/editorial.rss",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "usa",
-        "source": "Beverage Industry Magazine",
-        "error": "404 Client Error: Not Found for url: https://www.bevindustry.com/rss/all",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "global",
-        "source": "Food & Drink Technology",
-        "error": "HTTPSConnectionPool(host='www.foodanddrink-technology.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.foodanddrink-technology.com', port=443): Failed to resolve 'www.foodanddrink-technology.com' ([Errno -2] Name or service not known)\"))",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "usa",
-        "source": "FDA Recalls",
-        "error": "404 Client Error: Not Found for url: https://www.fda.gov/apology_objects/abuse-detection-apology.html",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "germany,france,spain,italy,austria",
-        "source": "EFSA News",
-        "error": "not well-formed (invalid token): line 1, column 180",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "global",
-        "source": "Coca-Cola Press",
-        "error": "404 Client Error: Not Found for url: https://www.coca-colacompany.com/media-center/rss",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      },
-      {
-        "region": "global",
-        "source": "Nestlé News",
-        "error": "403 Client Error: Forbidden for url: https://www.nestle.com/media/mediaeventsnews/rss",
-        "time": "2026-02-24T10:19:30.701721+00:00"
-      }
-    ],
-    "counts": {
-      "usa": 0,
-      "germany": 0,
-      "france": 0,
-      "spain": 0,
-      "italy": 0,
-      "austria": 0
+    {
+      "id": "7b05483ca07b",
+      "title": "How innovation is reshaping food and beverage manufacturing in Australia - Manufacturers' Monthly",
+      "summary": "How innovation is reshaping food and beverage manufacturing in Australia Manufacturers' Monthly",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS0lLYmw5QldvcUxfLXFLNms0TVg5T0VldWtMVmRZQ015ZllRSDlvOWNpbldZWGlSX0hHVkVzSFE3M3EzaU5ZY21peFZ4ZHhnc2l0bGFCeUkxa0Y3SU9fQ0xJNkpUXzNoY2NLOWk1eDdDSmdaUHEtMWhWdzJOdkV1WWtpRVJERG9QN3A0LWd2eXRMMHJueUtOd01CRjN3QVRhX2twREZB?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "market",
+      "published": "2026-02-23T23:55:24+00:00",
+      "fetched": "2026-02-24T10:22:34.427969+00:00"
+    },
+    {
+      "id": "909b07052d1a",
+      "title": "Cheyenne’s Bison Beverage buys Casper’s Connect Beverage as market evolves - Oil City News",
+      "summary": "Cheyenne’s Bison Beverage buys Casper’s Connect Beverage as market evolves Oil City News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR1NwU183SlFyMkdBVDcwYk9OR0FHc0NqSDBscjYxaGUzS0Fla0RVTWJ6RjN3OV8xT2RUdTMtUHNWSUkzM0J2SEdfU0VhVkxOSmtpd2RiQW10YW8xbjNkNWhNdnRYQmgtY2NSQm9GZ2hkbDZjR2h6UURKMEdkUmU1UzJOT3Y0czZGYXRDcEFRbGlkSlZyZWJQaXdYUXZYX3NiQVFjZFRsTG1tVG1WcEMyV2dIeWQ1OVM5OGRDVnE0X3hjQQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T20:45:23+00:00",
+      "fetched": "2026-02-24T10:22:34.427195+00:00"
+    },
+    {
+      "id": "32c90c9f5e42",
+      "title": "McDonald’s wants to shake up Australia’s coffee beverage market - World Coffee Portal",
+      "summary": "McDonald’s wants to shake up Australia’s coffee beverage market World Coffee Portal",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWJxRGxGbEFCajZEMkdpck5pbnM0Nkh3eHZUQXhLQTk0M1k3TjVMVm9PdmpYQ2d5WmllSlZaSHBETHJpbmw5NkZBM3N5U3VlMlhzZGhWRXBJZXJQX3hKazFqNG1BdlNaM2FKYVFfQmtKdERyajdYV0xGamlndFRxWVNKV01IMU9ibE1NcjNaaw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T20:19:42+00:00",
+      "fetched": "2026-02-24T10:22:34.427269+00:00"
+    },
+    {
+      "id": "dea2d07a7f64",
+      "title": "Vinexpo Americas 2026: Where the Americas’ Beverage Business Converges - Wine Industry Advisor",
+      "summary": "Vinexpo Americas 2026: Where the Americas’ Beverage Business Converges Wine Industry Advisor",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHc3cUFOQ1g3NzlqOWljblNxRnZnVW1USVpmYVlVeWRIX2Z5MnF3NDRmeTNnR3IxZmppS2RsNWdTRmU4NU9yQUZ2UjQ5cUx5UDYtZm9qUVJ5Q0Vack13LXR5SzZYU1JhYUhjNEJtdDVRVHg1TjFCVUxZV1lQVkwtY3VjNVRudkhQSzRVMGZuV3pLRmFLY181cUdCWUhwRC1wSnpqa2ZPeEpjdWJzUzRPejN3?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "market",
+      "published": "2026-02-23T16:02:27+00:00",
+      "fetched": "2026-02-24T10:22:34.427311+00:00"
+    },
+    {
+      "id": "d1a24e11559f",
+      "title": "823,493 pre-market volume on OJC.AX Original Juice ASX Feb 2026: liquidity watch - Meyka",
+      "summary": "823,493 pre-market volume on OJC.AX Original Juice ASX Feb 2026: liquidity watch Meyka",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQUU0YUxzSzNvMFRiaHAxVE5qb0pTaVhuT0lxT1lJdHFJbjlCbnRPdktkVFJVdzdVQjRCcXVPeW5GREMyMTJfem9UaGItcVk2dGZON2FDNzZxdUZaeXpsY1FJYlNnSnFVekUyVEJrcF9KcmpZZHhwSzJfa2N1T2w3NWFmWE9mcExuOXZsaVlfLUhuYTBPRUZ3djB2TDhVaFBYM2sxNllhdVd6QQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T15:06:45+00:00",
+      "fetched": "2026-02-24T10:22:34.427508+00:00"
+    },
+    {
+      "id": "5aa4653270bb",
+      "title": "The Trend of Apple Juice on TikTok, What Are the Benefits for the Body? - VOI.id",
+      "summary": "The Trend of Apple Juice on TikTok, What Are the Benefits for the Body? VOI.id",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWbWxTMUJGdG9VeWh5NTlLcWJ5Z3Vyb2k5Y053aHJzbHB3c3ByZkszMWI2Z2VvSDNjNE04VE5nMG1uS0Z4V2lCV21Rd9IBQkFVX3lxTE9OaDlJS3BZeVkyWGhtVzJCYU5fREJDY3d0OWtIWHU5b3JyeWpYb2pCYWtHN2lkR3Q4bEVpenRqQkVaQQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T13:30:38+00:00",
+      "fetched": "2026-02-24T10:22:34.428198+00:00"
+    },
+    {
+      "id": "e81ae54c2a4d",
+      "title": "Ready-to-Drink Coffee Market Forecast 2026-2036: Global Market to Reach USD 59.9 Billion by 2036 at 4.10% CAGR - openPR.com",
+      "summary": "Ready-to-Drink Coffee Market Forecast 2026-2036: Global Market to Reach USD 59.9 Billion by 2036 at 4.10% CAGR openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeDkyY2ZPb2JMWkpKOEZGNF9TTkcwekZ3T2tPS0drc0pydjI3V1l4XzdVUlNaaWg5Q1Z1TlRRcUlBOGxzb0N2Z2JnWEgzSnBDRGtfT1FLVlc4Z0hBMjdiVV9FZlpwRVpzWk1RZ0hubWQxMGVybjJOdVdnVWY0WDBaazN6R2EzUldnREt2bkhfV2twS3NJ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T12:59:48+00:00",
+      "fetched": "2026-02-24T10:22:34.427587+00:00"
+    },
+    {
+      "id": "0925a813e48e",
+      "title": "Ready-to-drink Beverage Market Forecast 2026-2036: Global - openPR.com",
+      "summary": "Ready-to-drink Beverage Market Forecast 2026-2036: Global openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR1VGcjBMMFBhN0FpeUNWRlI0UTdZdGFTOWNNZHNwVGNWUEw2OVF6Nk16bE4wV0VLRWdKb2Y4dFgycTlGS2lPYnVfV3dvOGdKLVlSSS1BVUNneDBrSmFPd1ROeXlRdHlEX1J0bzhXSzNDWndxYVI5X29Qc0ZQY2czc3NwRkJncjN5TTNIVmZUTmxjUjRVem1j?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T12:55:03+00:00",
+      "fetched": "2026-02-24T10:22:34.427363+00:00"
+    },
+    {
+      "id": "80108aa8ea3c",
+      "title": "Market Trend Analysis: The Impact of Recent Innovations on the Food and Beverage Industry Pumps Market - openPR.com",
+      "summary": "Market Trend Analysis: The Impact of Recent Innovations on the Food and Beverage Industry Pumps Market openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmtKMm0wb1FYc0RzMUNVVVNEUHY4WHNPXzJHMVZITjg0MDZ3RVZ6RWU4NEtlV0lobzNvbHlrUE5sc0QwTHlmb0JRS3NNWWhhNmFuSUdlVUMwcHE2cXpRTEdaTGk0WDRHWEJKZkl4SWlucFZ6Q0tPQVlNNkJwQmJFeHlWbmJLM3YyLXNwLVdDRTBpLTl4a0xkSw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T11:29:47+00:00",
+      "fetched": "2026-02-24T10:22:34.427839+00:00"
+    },
+    {
+      "id": "3fcb31c0cfed",
+      "title": "Specialty Beverage Stabilizers Market Size to Reach USD 4.128 - openPR.com",
+      "summary": "Specialty Beverage Stabilizers Market Size to Reach USD 4.128 openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1RuQXdYU25LcFhtdWkxa1luOEtQNG40SDRMbmpFb1NnSWx5Z09VNXRqR29SRlplUzVnbFJuSnNxTlpCRXJBR2NBMUJiTnN6MHhZX2lGaUxnQVNwYVdXOUQxdndjelBfanc2VzFyUUwxd2EtZkx4UEhFckpxY3l5a2NYSVlucVdla0RQNW5JeFB2dDNzcUEwVzZTOE40dw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T10:54:11+00:00",
+      "fetched": "2026-02-24T10:22:34.427696+00:00"
+    },
+    {
+      "id": "01147a7f5e6c",
+      "title": "Nestlé bets big on ‘healthy longevity’: Inside its new launch - FoodNavigator.com",
+      "summary": "Nestlé bets big on ‘healthy longevity’: Inside its new launch FoodNavigator.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOTRuM0VoWTk1TmRHYnhZZ0kxR0FmQnJMbXZtQWFjbG94U2NLOUoxZXJTQTdIUmg2bnFMM1pIdWZGdzJFbHpZZl9qWF9XMFpjN3BOdjBoS3pqV2NCZVQ4SHVuUE5PbXBNNjZidHRkdWhDRDB0NjI3YVJNX0JJX2pTT2wza1VydmtwemhBYllpVXBXekdu?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "launch",
+      "published": "2026-02-23T08:23:57+00:00",
+      "fetched": "2026-02-24T10:22:34.427458+00:00"
+    },
+    {
+      "id": "4a0ab8840e5c",
+      "title": "Sugar Beet Juice Extract Market Size USD 1.145 Billion with CAGR - openPR.com",
+      "summary": "Sugar Beet Juice Extract Market Size USD 1.145 Billion with CAGR openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVWdmM2Z1WnM5MXE1YnNoRGVxc0Jzck5CdTZtektDeFJiZHhodGxpTDJudHJxbVJLNWVxbjVkVm9ueWNuWjhHUFlLUHA3a1dBS19QaDN5d1BzR0FQMmVhRXFxR3RzY3Z5VWJVMGExQjBEc0ZkdnZWTUlSYW1PZ1NxZXV6SUtRbHZVamZJVTR3TXloNFJTampkVkROaWlkUG9YdUE?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T07:01:33+00:00",
+      "fetched": "2026-02-24T10:22:34.427813+00:00"
+    },
+    {
+      "id": "e27f1cd44d70",
+      "title": "Northern America's Tomato Juice Market Forecasts Modest Growth With a +0.6% Value CAGR Through 2035 - IndexBox",
+      "summary": "Northern America's Tomato Juice Market Forecasts Modest Growth With a +0.6% Value CAGR Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOVR1eEpodnZ6RlJiSjZWWFllR0lTRWZ2VFNTUWRKQjI1d2RkQXIyMTc2OV9Eby1CbHFmMlBKdjJCeFlXeVpzV3VkVy10WGlmSy1BRF8tOHhpS1dfWVlPTG9ydHZLVVFuRko1clZqQlhKcjdLejN3ZUwwdVVlYkxPeC1hMFFQZTFoTkE?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T05:31:18+00:00",
+      "fetched": "2026-02-24T10:22:34.427390+00:00"
+    },
+    {
+      "id": "936862ca07bd",
+      "title": "Samsung Electronics stellt den Bespoke AI Ice Water Purifier vor - MarketScreener Deutschland",
+      "summary": "Samsung Electronics stellt den Bespoke AI Ice Water Purifier vor MarketScreener Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcm4xbkljWEVsZU55dGtweHoxLTN3WVd3Q0xSSDN5Nkx4UXMyVmVraUlDaUhwOG5GTDgxblhDTE1zbmFhdlFEeDVtNElFR0lRQVhDZ3JVQkVwdEZ2Y0xDZkpDNlpoNU9JQXctXzdBeGNsLWhWbUF3NnRoeU9wWE5lMjFHV2tVeTNrWThIWjR3Sm1nNlRhS0R4M1BTdVNSRVFJazI2S1dRT2JTOW9PdzFISzVUQnByaWhVVmctU2lvdFBIUVIwbi1BaTd3?oc=5",
+      "source": "Germany Beverage",
+      "regions": [
+        "germany",
+        "austria"
+      ],
+      "cat": "trend",
+      "published": "2026-02-23T02:50:25+00:00",
+      "fetched": "2026-02-24T10:22:37.372879+00:00"
+    },
+    {
+      "id": "55f6f42aae68",
+      "title": "Jet-black café trend sweeps America as experts share health benefits behind the hype - Fox News",
+      "summary": "Jet-black café trend sweeps America as experts share health benefits behind the hype Fox News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZEs5NWFnaExlQWZDTjBjSElTNlhHZG9rYzFENnY3MFlTZTdYdk5uUk9CSjF0ZDN1QVRQTG55d0pxeFZRWU9iXzhaOGtsRkNnenVNWUxFd2lWYXdvTGI4bTc3bVV0VlNaaFhtRG9LTDItVDR5UmhoaGdNdlY5N1J2TllDejM5UHhXdTdNU2VncEtPc01oWm5scXVQSnlGczVpTE13VnljbTFJOG5LaHgzUDlR0gG3AUFVX3lxTFB4S2YyT2FPcTc5cS1aLVFuNUFHZWo4THlhc2JCZjVUSG9kN3BldGNGdlc2S0FXeFRSMU1LdjNNWV9RcV9MVlhYNnN5TmRTUEMzOGlfR3UzVUVtS0pRN1JJLUUxOVFnSmJOUXNidVFTUFViOW5wa2xhbTVvX1lGV1N2ZWNHNXdjLTBsakNEa21TWE1FWkR3YXBaWElvSjR0VVhEblo3SzU4WFpOUDgwRk84NjBpS0pZRQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-22T15:00:13+00:00",
+      "fetched": "2026-02-24T10:22:34.427425+00:00"
+    },
+    {
+      "id": "33e2f8fdb21d",
+      "title": "Global Sugary Soft Drink Market's 0.9% Volume CAGR Signals Steady Growth Through 2035 - IndexBox",
+      "summary": "Global Sugary Soft Drink Market's 0.9% Volume CAGR Signals Steady Growth Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVVdXYmFJcFdPZjlUeXNSNW5xcUVFSmRkUjdJVXRYSXJpSzZ2OWVjUnJla1FnZ1p0VUR6VDdFVTRzXzdnMjZrV1dJUEZLRnU4NFJlazlUVlhlc0pFWHpHMHlkOUE5Yk1YdlFYNVhwQjJWSHk1UHBxMDdRLWhKVzBwUTRHYw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-21T04:00:53+00:00",
+      "fetched": "2026-02-24T10:22:34.427561+00:00"
+    },
+    {
+      "id": "89462ab1e83c",
+      "title": "Inside the culture and culinary innovation behind First Watch's growth - Restaurant Business",
+      "summary": "Inside the culture and culinary innovation behind First Watch's growth Restaurant Business",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcFJ0MnNJbEwxQ0JleHBpVWhQY3lyLUp0TmM0a3pkRV9DUDhsaUlvVDE4SVJyUERJdWdJLVR1ZDlmRF81TUU3Wjd2RmRiQU54VUJzcmF0ckRNcUhwMFZUWUZIY0hHSW1lRDJocTVZVlpORndYQUNVc1pFOFRueUJONWdmcTk1Nk5xUUh2bWdmY1dXcTdRdXhQcVgzYVFPbzJNcEpnSVVB?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-20T17:36:59+00:00",
+      "fetched": "2026-02-24T10:22:34.427537+00:00"
+    },
+    {
+      "id": "09429a23ed7d",
+      "title": "Polish food, a new Asian market and apocalyptic fiction - The Cap Times",
+      "summary": "Polish food, a new Asian market and apocalyptic fiction The Cap Times",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObVlpZDZpaTQzRndQaXAybzF4eUlYX0hCUlRFZW1Wbnl2QS14TWs3SXVvclhzeGhxZDNUTnpoTy1UX1k4RG9MUG1OUDVHMUZlUDFjNTZ5Q0FPeEhEdEdxaG9JQmtGR1pxTnVKVmlyWnZVZTFXS0lZdnpnVFphQmVjcmRPQVEtOWtVYXBiam9tLU83RU44bm5qdUxMUElnZXpQSE4zOTloUlRKLWF5SXRVS3dmbnBqOGlCank3UVZGQmlzVF9peDNaUklYQ0Q4Q044alE?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-20T16:00:00+00:00",
+      "fetched": "2026-02-24T10:22:34.427485+00:00"
+    },
+    {
+      "id": "2ece3f53c1a7",
+      "title": "Alcoholic Beverage Market Set to Boom by 2033: Strategic - openPR.com",
+      "summary": "Alcoholic Beverage Market Set to Boom by 2033: Strategic openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTVpoZkdYTThxRC1hcm1OeUhjR1ZuQTFrOGttUjNGUFhWOFNXSXgxVXJpUVdlT21yX3IzQ3B6dGtJVU9kWjZLX2lCY0FHSkVxS0N3ZU1sUHFGTmwyUzNKcjNSelpDSS1nQkRTdzN1RWRmeGZLVTVQQUt0Q2YyTkZCMndQMlM2eGFNMkVtT1hiRzk3TFhNNHc?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-20T10:57:03+00:00",
+      "fetched": "2026-02-24T10:22:34.427791+00:00"
+    },
+    {
+      "id": "99006dc34679",
+      "title": "New beverage launches: Nestlé, boutique whisky, Oatly and more… - BeverageDaily.com",
+      "summary": "New beverage launches: Nestlé, boutique whisky, Oatly and more… BeverageDaily.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS0VNbXZxZDhJQmgxeWg5cHEzbTBpc2lxV3JIRHZHT00xZ3o2MXlKOFlvdUp3V0JXN3czaTlRTnl6cjJid2FWbVdSVXNtZEh2MmpYUlFMMXFWTGhVS0dacWlOZ3I2bmdEWDZBNDBFM2pGUDBCRnV2a2Y3d0VlMXZHb29lMWFlWm40OGFRajluTmkwdGdFTDJRRzI1RERiSldVeGhYaHRBNFdKZF9UVjYwLUxR?oc=5",
+      "source": "RTD Drinks",
+      "regions": [
+        "global"
+      ],
+      "cat": "launch",
+      "published": "2026-02-20T10:35:10+00:00",
+      "fetched": "2026-02-24T10:22:35.639325+00:00"
+    },
+    {
+      "id": "f37be81ee8c5",
+      "title": "Orange Juice Market See Incredible Growth 2026-2033 |Coca-Cola - openPR.com",
+      "summary": "Orange Juice Market See Incredible Growth 2026-2033 |Coca-Cola openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcEZwTzNxLVZ2dGZRWVh1UnpHRkF0bTBRUGQyXzNSYW1LeThqUG5xT0ZPQWI2MEQyOERVMXhUOVMxVFRfclFiYlJBX2pvYkgyYzZLM2NMWmVkWUlDY1ZMY04zaVozUlJSS2U2VERqSFBkWjdvVzFRaUpFUXJpRXp0VF9zLU1XWWd2TnJfdzFkOFB0S3Rud3FTUHBVT1FWdw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-20T10:05:09+00:00",
+      "fetched": "2026-02-24T10:22:34.427635+00:00"
+    },
+    {
+      "id": "29314335118e",
+      "title": "Australia's Tomato Juice Market Set to Reach 1.7K Tons and $1.6M by 2035 - IndexBox",
+      "summary": "Australia's Tomato Juice Market Set to Reach 1.7K Tons and $1.6M by 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ3ZfanhyUVpVWVItS2FQXzRWWDB0VDhHT1cyR3d5TXBERkFfbzVQakxIMEluandNV2dEMjZvby1oeU41eWU2dldkcXNLNS1fYUR4Q3VfNlRiX3RjWDBKUWRhQkxaVDVpNmdYbUhlejU2WVZWLWh5Sk8zdXNuN2lkUA?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-20T05:21:46+00:00",
+      "fetched": "2026-02-24T10:22:34.427673+00:00"
+    },
+    {
+      "id": "8e50a204d1aa",
+      "title": "Global Apple Juice Market's Decelerating Growth Forecast at 0.8% CAGR Through 2035 - IndexBox",
+      "summary": "Global Apple Juice Market's Decelerating Growth Forecast at 0.8% CAGR Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wT0NqTnhtamZuUjVnaUpIYmxKaEdUOGFLVDNpcklMRi1IeU1uYjFuZkd6QUhmVkJlcFpXMTNfTXlYV21BTG5zZnR2anVnVmhoaEVnc1o1Tm92MjdPRVhidW9Ra2J4d2JxcmtLaW03Z1Voc01NSnJnSDRR?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-20T04:09:00+00:00",
+      "fetched": "2026-02-24T10:22:34.427721+00:00"
+    },
+    {
+      "id": "48924409faf2",
+      "title": "North America Fruit Juice Market Size and Analysis, 2034 - Market Data Forecast",
+      "summary": "North America Fruit Juice Market Size and Analysis, 2034 Market Data Forecast",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHgzakp3MUNOcGlicUw1STNoclZBdmdkaWwyUzF3MFdtTThLc0VfeHUzRHVmOFhReDBpaFFuaUU1MnR3LTZrYVVHMnFENmgxekctYWg5S0VSZGVZVGhjd0x2c3EwN1c4ZWhpelJmVy1hdHRhM2w4MHV5c3hFUnl0Y3BMOVJYR0J0MGc?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "usa"
+      ],
+      "cat": "trend",
+      "published": "2026-02-19T08:00:00+00:00",
+      "fetched": "2026-02-24T10:22:34.427338+00:00"
+    },
+    {
+      "id": "5a1bcf07962e",
+      "title": "The bizarre broccoli juice trend sweeping Winter Olympics: ‘It’s better than Jagermeister’ - The Independent",
+      "summary": "The bizarre broccoli juice trend sweeping Winter Olympics: ‘It’s better than Jagermeister’ The Independent",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEhwUGlfUm9ReFAzbUZyQkpGb1pua0JsakpmWjYtOThpN1NNNFVBVm9GcFdLN0pMOEFUY1pnWlhJUFg3MnpHd1hKX3B1NDFwZkhsOEs0OGdnMGRwQzFuam0xWGlwdDgxbjFYNzRjUC04YVBFWFVWTjJsN1E4MTVpcmRXQUhFWThYVEFhWEZuS1BpajRObzVHc0hqOC1PczA4S0YxMA?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-19T07:20:00+00:00",
+      "fetched": "2026-02-24T10:22:34.428027+00:00"
+    },
+    {
+      "id": "5e4989e1df4d",
+      "title": "European Union's Orange Juice Market Poised for Steady Growth With 2.2% Value CAGR Through 2035 - IndexBox",
+      "summary": "European Union's Orange Juice Market Poised for Steady Growth With 2.2% Value CAGR Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM1VvZ1BuQS1PRGxzNXkza0xpSkRZMXkzWW82aDVTZzdNUjAyRXNEUWJwNFhmZ2l5Z2JqdF9kV1hzakVFdW9nY0RqNWhXNE0xMUxJdnc5bkRqenQ0NnRhSV9NbGtEYk0wdlNFMWZlUVpnLUZSN2ozbG4yUHpCaE9ZTVBWLXFRQlBNdVN6d2dKSjltMW9GOGVvTHRRWWo?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-19T04:29:39+00:00",
+      "fetched": "2026-02-24T10:22:34.427612+00:00"
+    },
+    {
+      "id": "265a0a27c263",
+      "title": "American Water Works verfehlt Quartalserwartungen aufgrund höherer Ausgaben - MarketScreener Deutschland",
+      "summary": "American Water Works verfehlt Quartalserwartungen aufgrund höherer Ausgaben MarketScreener Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOHEtUDhlVjR1ZGlnYzc1c3JPd19INFgwUzBJRW1VRDN4MjE2alk4QWdMcTlWSnRPdzFsWTBDWWlwcXZpR3ZJWXJRdVRGaXZycnQ0YTRwVlFseVpXbEZGTUdTVjhRek5PRHlUS3hyZFYzakVFdmhPUC1xTGhuUUhYcGxkZllJVkN5Q3JNbFFRQzU1QlFieTg1T0l0aFl2MVFPRWpaRXc3ckdRVUxHVzJOclBlTE1yb2UzMzFQSzkzYnk0NTlGcGh2emFsX2hJMGxHQXk2anA5UnhSQQ?oc=5",
+      "source": "Germany Beverage",
+      "regions": [
+        "germany",
+        "austria"
+      ],
+      "cat": "trend",
+      "published": "2026-02-18T23:06:26+00:00",
+      "fetched": "2026-02-24T10:22:37.373076+00:00"
+    },
+    {
+      "id": "fbfebab5df0b",
+      "title": "GCC's Non-Sugary Beverage Market Set to Reach 2.8 Billion Litres and $3.8 Billion in Value - IndexBox",
+      "summary": "GCC's Non-Sugary Beverage Market Set to Reach 2.8 Billion Litres and $3.8 Billion in Value IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMzBMMXhoeFF0Nk5CU1RUZmJyWVI3OC1uZG5naXkxbUVfOTVXdV9kTHY5YmxBdTc4TDFSWF9ESzNKSWJiU1NPU21jeUVCVU9ia3g3WG5Bc3hxU1lWd01YZ0RrSGZtRnJaNXRaYmd4d3JxZlJPaHo3MGd0Qk1QYVl3NFV5OXdUNVVZUW5pX05ic090Skd1RENlNVVNeWdMQUxEM2dhWXZhaVdPSWZ0NFl6Q0NVZzZpNVZxUW9NSnZNRUtBTXc?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-18T07:24:45+00:00",
+      "fetched": "2026-02-24T10:22:34.427746+00:00"
+    },
+    {
+      "id": "4bedcbbd5354",
+      "title": "GCC's Sugary Soft Drink Market to See Slower Growth With 29% Value CAGR Through 2035 - IndexBox",
+      "summary": "GCC's Sugary Soft Drink Market to See Slower Growth With 29% Value CAGR Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OalJtV0g1SDRfbENvT0dZb1FUdm5RZmY4bGZCMTJ6TEt5YnNlajBYZnlKYXBnVVdmM1h5RmQ4Z0JwaGtOa0NKTU5pYUlULUpndVpvbU9ZWXIxVnVHcnZTalNmOTRKcXhNXzE2bVNwZWlVZkwzOHE2d2J2Z1Y4THM?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-18T07:15:13+00:00",
+      "fetched": "2026-02-24T10:22:34.427769+00:00"
+    },
+    {
+      "id": "2a390933d1f3",
+      "title": "Azuria Water Solutions, Inc. übernimmt Infrastructure Systems, Inc. - MarketScreener Deutschland",
+      "summary": "Azuria Water Solutions, Inc. übernimmt Infrastructure Systems, Inc. MarketScreener Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUGN1Q2tkSE9uRVlUZUFkZE5tYmVkNEdQWlFmcDd6MWNqc1BKZGFpamRaWElvZVk5VFZXUlBQOS1LSElOcVFXS1lWLVVYUDBlbWw5SmJQX2RROWVsXzR4Y1NfX3dDQ0RRV29xNW5iejZRbk9aY0pBNnIwM0JuYW40SUl3aER4TTV3RkIxcHNvVTJJaGhYcEVMTWRReEtRa2lOUG14LVBEcm1VTlh2c0hTdWllcVoyZDU2ZERfTVdsQllnSzg3bWFzU1FB?oc=5",
+      "source": "Germany Beverage",
+      "regions": [
+        "germany",
+        "austria"
+      ],
+      "cat": "trend",
+      "published": "2026-02-17T21:13:21+00:00",
+      "fetched": "2026-02-24T10:22:37.373099+00:00"
+    },
+    {
+      "id": "e55e04029466",
+      "title": "GCC's Apple Juice Market Set to Reach 216K Tons and $216M by 2035 - IndexBox",
+      "summary": "GCC's Apple Juice Market Set to Reach 216K Tons and $216M by 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kQjlySGZKNEFrejd6Z0xqTEJ5QWRhMjhwR19VWGtKZDNYX051dlY3dTFtUTd6eFl5S1hDUkV6YzRzQWw2dXA4QllTUUx6ekNfSi00cF9SWVByVFlDZUF5WWt1S0pKM1kyeU1mZDdwMFh6VXZLWGZr?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-17T06:37:54+00:00",
+      "fetched": "2026-02-24T10:22:34.427888+00:00"
+    },
+    {
+      "id": "b6f6e432315c",
+      "title": "Asia-Pacific's Tomato Juice Market Forecast Shows Decelerating Growth With a +0.6% Volume CAGR Through 2035 - IndexBox",
+      "summary": "Asia-Pacific's Tomato Juice Market Forecast Shows Decelerating Growth With a +0.6% Volume CAGR Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObXlHQy1ZQ2NwTnNSRU1zV0U1MExmOU9XRXBCb0kyUk9FSXpHUWswU0hrT0JzenFINlpQeTdjNFVUTl9ZbTFHVnpWZVFqU3RYS2NOYkpwQlMzZmV5MzFfdEZKRklOOVJiMGxVeEdWUmFLRTdhcnUxRUIyWjdud3JEMDRNNXo?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-17T05:13:27+00:00",
+      "fetched": "2026-02-24T10:22:34.428149+00:00"
+    },
+    {
+      "id": "a210148cd0e4",
+      "title": "United Kingdom's Grape Juice Market Poised for Modest Growth With 1.9% CAGR Forecast - IndexBox",
+      "summary": "United Kingdom's Grape Juice Market Poised for Modest Growth With 1.9% CAGR Forecast IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRkJOYUdpTU9TbzE4ZHFETFBmRFlFVEpTcEwtUS04X1JEeEZOOGQ0dVhFdFpFRGcwYXpYek9FaTRTMEYxeEIxV0NWdC1nRTNycEl1RWxoajNOQ0h3WXk0b0RDN2liYnUyY2VoWm5vaElOMFBlNm1BOXU4UmZfV1Y0MU80Uk00b3ZaSTZzRzYzc0c1ODFCc1hFcVdYNA?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-17T04:53:23+00:00",
+      "fetched": "2026-02-24T10:22:34.427912+00:00"
+    },
+    {
+      "id": "d75a86e3130a",
+      "title": "Ken Research Stated Saudi Arabia's Food and Beverage Market to Reached USD 23.5 Billion - openPR.com",
+      "summary": "Ken Research Stated Saudi Arabia's Food and Beverage Market to Reached USD 23.5 Billion openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPclVFd2lSSmc1MTVmN2NVM2doLUlwQ09LNUdmbHNONDhON1ZkVE5UcjRVWGh6MWk3NFhGWXJLdVM5R21aT0QzdVNqaXdZWUZvZkoySmlDa1J0Nk5aNzFhYjNNSVpsU3NpZUQ1MXJvcjc0azAyTXZ3V3NFc19MMm1PZWFUUjBIanQwRTNvQkhiNHBrdy1PMlNjZnItUQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-16T08:55:47+00:00",
+      "fetched": "2026-02-24T10:22:34.428248+00:00"
+    },
+    {
+      "id": "4c9e8e34d639",
+      "title": "China's Orange Juice Market Forecast to Reach 10K Tons and $10M Value by 2035 After Recent Contraction - IndexBox",
+      "summary": "China's Orange Juice Market Forecast to Reach 10K Tons and $10M Value by 2035 After Recent Contraction IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT0E2d0dnNnhkaUc2UUV3Sk5jaVBKdHhUdVFpbzNaWld5czg4VF9oWThQYXc4c0FXLWI4UnJKVmJoZXRiMDFZWS1ETFE2eXd1VnFKMmh4eXhuekYxQ1VQd2NNRm9XNjktRkNGRU9XOEFqYjMzU3ZCOVd3c0Vxell2V0pMSFNnZURuY3pQTG1mWXQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-16T04:21:03+00:00",
+      "fetched": "2026-02-24T10:22:34.427866+00:00"
+    },
+    {
+      "id": "cce815935113",
+      "title": "Global Sport Drink Market to Reach USD 42.70 Billion by 2032 at 6.15% CAGR - National Today",
+      "summary": "Global Sport Drink Market to Reach USD 42.70 Billion by 2032 at 6.15% CAGR National Today",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUE1JVm9NTE40RWR6dFVOVEdCZUZhWlU2a1pJTmpHWU1tSnRHSVJCLWVKWmF3b2d2WDZodTJWM0l4Y05icU5La0hrb2tfQXFUTENzcjNPWDRaZWgwVk80QXVOaHlKM2swTnNDNHRBZEEyNHY2dG9veEE3ekwxdHg2Skc4elk3UTdBQ3lZa0lWVHBIUnB6b2paQjFQLTRYQXFrZV9QYXVBaDhjUDlvNzhXY21mYWVyQmNYNnlkWHBBUFNSbF9uQ24wR2xoSQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-13T08:00:00+00:00",
+      "fetched": "2026-02-24T10:22:34.428272+00:00"
+    },
+    {
+      "id": "2ea1e2777b8c",
+      "title": "United Kingdom's Mixed Juice Market Forecast to Reach 300K Tons and $585M by 2035 - IndexBox",
+      "summary": "United Kingdom's Mixed Juice Market Forecast to Reach 300K Tons and $585M by 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN1hDQWFxLXRPc3FGNWJ6SGJpdk1ieFNvMHBWcGptTlE3aEtRM2VuRExkT3dpeU9YdnJDOHZaUXZIWWFJRHpQWDdJNjFQTXByUlBKQVNfQUdFY3NoRG9TMG1fVW9uYm9LQ0h3elk2NzR5RExYdS15QTd4X0JSanFKQ0lVc2Jqd3M?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-13T05:12:04+00:00",
+      "fetched": "2026-02-24T10:22:34.428123+00:00"
+    },
+    {
+      "id": "85a4d3f2366a",
+      "title": "United States' Orange Juice Market Grows to 1.4M Tons and $1B in Value Amid Surging Imports - IndexBox",
+      "summary": "United States' Orange Juice Market Grows to 1.4M Tons and $1B in Value Amid Surging Imports IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVUNrU3FwcXA4MzlhMXptM0F4a0xDNmJrbVdWN1ZEUlBOdXowdnJNajM0TVdvZTB5Q3JhUkY5YlFBNVZhTnMyZkZMWEJ5T1RCeW5uMUoyNjdWRnhCN3RqTnJGdk5Dc25tbktpLWxDcmJJWkxab3UyZzdkQk9lYU1OVmxkNFpQWV9PdjN4LWRLSmxJUURIQnA3SWtJSQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "usa"
+      ],
+      "cat": "trend",
+      "published": "2026-02-13T04:15:26+00:00",
+      "fetched": "2026-02-24T10:22:34.427937+00:00"
+    },
+    {
+      "id": "298a544a9510",
+      "title": "Watts Water Technologies, Inc. sucht nach Übernahmen - MarketScreener Deutschland",
+      "summary": "Watts Water Technologies, Inc. sucht nach Übernahmen MarketScreener Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeFZoNEplTnRMU01xaWRSam5sYm1QNTJBX1I5dk1nWXA2NmJxR0ZKd2NaSGVJRmM0VERQakxrdmQ4bG1YVS1RbU1hOThmb3VHdFhkSG9Uc0JWQ1MzblIzam90QmZFeldpbWRCdzV0THkzb2NWOUxuRE45UXIwLUxjNTVlcU94c25WbEJXNHROdWNfZHI5eEc4UXd0RGhzS3NqMmFzZzBid2RkZTJHXzZMQ2huYUUwWTNw?oc=5",
+      "source": "Germany Beverage",
+      "regions": [
+        "germany",
+        "austria"
+      ],
+      "cat": "trend",
+      "published": "2026-02-12T17:06:18+00:00",
+      "fetched": "2026-02-24T10:22:37.373119+00:00"
+    },
+    {
+      "id": "6bbd870c7c2f",
+      "title": "Celery Juice: The Health Benefits, Side Effects and Science Behind the Trend - EatingWell",
+      "summary": "Celery Juice: The Health Benefits, Side Effects and Science Behind the Trend EatingWell",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWhoeTZaZndzaHNuQ2o4SlJ3ZG5ESnlpT0FybzBrX0Z0Z0xZNHBNTmVac3Y0Zl90SkdOeHdJRlB4QzlhMS1iekpOeHA3ZlZmUUJIQ0NUUEE1d2NsZVRtczlrdi1YX0dEOGY1V0pyVFk3M01hZko0Vi1iWVhQTUxNbXhPbTZuazRHZFF1MV9XMWJjN0pCZDFrUlI3V2F4WktWSW41c0pYLTFROTVmTXZxcmEtcDlHcE42?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-12T08:00:00+00:00",
+      "fetched": "2026-02-24T10:22:34.428308+00:00"
+    },
+    {
+      "id": "4d6c3ef2d486",
+      "title": "Cold Pressed Juice And Smoothie Market Set for Rapid Growth: - openPR.com",
+      "summary": "Cold Pressed Juice And Smoothie Market Set for Rapid Growth: openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMGNITHdtNVR3VTh2cTA2S0lJbjU3UnpiY3FaMzB4WVNwMmlYMnVaR3M1NTJOLWE4WWhDSGlPZHMtVUpaY2w4SEpSNHlvdjVDM1FuOXZUQWNqNWp1MGFWTVY0b2NqUkYyM2gzaUUxWnJXT2dVblRwejZ1TTA4c0ZZaGtEelFjOURaMWhqME5KQjc4OWpXb0loOUxGcw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-12T08:00:00+00:00",
+      "fetched": "2026-02-24T10:22:34.428330+00:00"
+    },
+    {
+      "id": "005ddc4084bf",
+      "title": "Europe's Non-Sugary Beverage Market Forecast for Modest Growth With 03% CAGR - IndexBox",
+      "summary": "Europe's Non-Sugary Beverage Market Forecast for Modest Growth With 03% CAGR IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlB0SC01NGI5SWxIOWRnUG84OThIdE5xczdkOUhENHRDLVZMYmlHQ1p2QlUtWUxXUjNNQ2RNRkotWE9WaXJpRzhsaUlVM0d3c0V1RUhVeEFPM0FVdFN4UWhBMThHMnl6aFVTdEM5VGVNT2NpSlplUXRDQ21kOW1zakRGRWo3Z05hN292OHJueW9FdnFsOHNZczV6R0Vhb2hUeTR0TUswaGNsSVBRY0tCUjd4OE9yYlk1X2h6enBXVm5nM0dhMlFj?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-12T07:28:15+00:00",
+      "fetched": "2026-02-24T10:22:34.428051+00:00"
+    },
+    {
+      "id": "d4acd3b87530",
+      "title": "Europe's Sugary Soft Drink Market to Reach 83 Billion Litres and $84.6 Billion by 2035 - IndexBox",
+      "summary": "Europe's Sugary Soft Drink Market to Reach 83 Billion Litres and $84.6 Billion by 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWi1jN010T2dtSE9uRjFhRkdUeG5YWm9KOHJfZWhoOGdXYjVVaGZXQ3VxeWpQU0RHaHdzNWxCU09ISVVFS05ERUFTRmo4N0pZMmdYUkFBNDNBTUtPUmxDQVZ6X29nUjRXNGJsaEZheEk1X281bVZzeTJNbERTTkkyZDdqZw?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-12T07:12:38+00:00",
+      "fetched": "2026-02-24T10:22:34.428100+00:00"
+    },
+    {
+      "id": "1dca723edf63",
+      "title": "Asia's Soft Drink Market Set to Reach 294 Billion Litres and $337 Billion in Value - IndexBox",
+      "summary": "Asia's Soft Drink Market Set to Reach 294 Billion Litres and $337 Billion in Value IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JVW1pR0Q3dmplTE1FZWk5bS1SaTg5SmIwcHg1dElycjd2bnNibTZoMzU5TGJMRU9vT2UwX0JLVHVWeVBVMktzOFUySXdZM3VkSWV4UXQyUmN2VnFKTEZubVBDVHR1cDR0MGE2ZWcwVllWS05oNExV?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-12T06:28:10+00:00",
+      "fetched": "2026-02-24T10:22:34.428222+00:00"
+    },
+    {
+      "id": "a336b46986ae",
+      "title": "Europe's Apple Juice Market to Reach 5 Million Tons and $4 Billion by 2035 - IndexBox",
+      "summary": "Europe's Apple Juice Market to Reach 5 Million Tons and $4 Billion by 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tUk9kTjR1N1FEblFjMWtWdWZ2ZVJLeGVTeExjSWdYUE84dGlHOXVYbVhVZDRIdjFaTlNDWlE0cG1YSzk5ampTa1FENGQ3VDBGT21uUHJYbEJkLUZFOWktdUdXTmg5TDE2M1VibWlsRnEzRVg1bXpSQnYwRQ?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-11T07:15:28+00:00",
+      "fetched": "2026-02-24T10:22:34.428172+00:00"
+    },
+    {
+      "id": "fc5d19cbee77",
+      "title": "United Kingdom's Tomato Juice Market Forecast Shows Steady Growth With a 4.3% CAGR in Value - IndexBox",
+      "summary": "United Kingdom's Tomato Juice Market Forecast Shows Steady Growth With a 4.3% CAGR in Value IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcW9ZV2dqc1JpLVFLUW5vcFFoSWc0YjllV0xuUWNuUlFSbzY1Y0pfMkZWNUpsbzg5N1Ewa296QzljMUtHalRTMnlJQndQazZOTERUYW51YmtaX0diOEJodzVyd25CMWQyaVZpTllyb3B1QmdJUEtfVFhyY1EtZXEtNFZnYjhwN2M?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "global"
+      ],
+      "cat": "trend",
+      "published": "2026-02-11T05:09:04+00:00",
+      "fetched": "2026-02-24T10:22:34.428076+00:00"
+    },
+    {
+      "id": "1810c0543987",
+      "title": "United States' Pineapple Juice Market Forecast Shows Modest 0.5% Volume CAGR Through 2035 - IndexBox",
+      "summary": "United States' Pineapple Juice Market Forecast Shows Modest 0.5% Volume CAGR Through 2035 IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZkMydzFuY25LRFlZRWdQLWdpRTJzZVBZQnlic0Y0VG1qWFJsLUo4Q0tHQV80LWp1R2RmOXdDUWFpVFItc3ZoNWR3LTJNZzY5WE9iMTFEano5T3V0ZDFVblhmWHBubjJteUt0U281VDdTb184VUF1MGxvVmU5WVZsWE52S1l6bW9JZXZ6WklqSEJzN1dMeWFUTmlxMWZ0Ums?oc=5",
+      "source": "Global Beverage Market",
+      "regions": [
+        "usa"
+      ],
+      "cat": "trend",
+      "published": "2026-02-11T04:23:44+00:00",
+      "fetched": "2026-02-24T10:22:34.427992+00:00"
     }
-  }
+  ]
 }
