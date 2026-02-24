@@ -87,86 +87,93 @@ RSS_SOURCES = [
 ]
 
 # =============================================================
-# ── SECTION 2: SALES INTELLIGENCE RSS SOURCES (SAFE VERSION)
+# FINAL PRO SALES INTELLIGENCE SOURCES
+# Ingredient + Beverage Industry Intelligence
 # =============================================================
 
 SALES_RSS_SOURCES = [
 
-# GLOBAL — safest sources (Google News)
-{
-"name":"Global Beverage Market",
-"url":"https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(market+OR+launch+OR+trend+OR+innovation)&hl=en&gl=US&ceid=US:en",
-"regions":["global"],
-"cat":"market"
-},
+# ---------- TRADE PRESS (EXECUTIVE LEVEL) ----------
 
 {
-"name":"Functional Drinks",
-"url":"https://news.google.com/rss/search?q=%22functional+beverage%22+OR+%22functional+drink%22+OR+adaptogen+drink&hl=en&gl=US&ceid=US:en",
+"name":"FoodNavigator",
+"url":"https://www.foodnavigator.com/arc/outboundfeeds/rss/",
 "regions":["global"],
 "cat":"trend"
 },
 
 {
-"name":"RTD Drinks",
-"url":"https://news.google.com/rss/search?q=%22ready+to+drink%22+OR+RTD+beverage+launch&hl=en&gl=US&ceid=US:en",
+"name":"BeverageDaily",
+"url":"https://www.beveragedaily.com/arc/outboundfeeds/rss/",
 "regions":["global"],
 "cat":"launch"
 },
 
-# USA
 {
-"name":"USA Beverage Launch",
-"url":"https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(launch+OR+innovation)+USA&hl=en&gl=US&ceid=US:en",
-"regions":["usa"],
+"name":"FoodBev",
+"url":"https://www.foodbev.com/feed/",
+"regions":["global"],
 "cat":"launch"
 },
 
 {
-"name":"FDA Regulation",
-"url":"https://news.google.com/rss/search?q=FDA+(beverage+OR+drink)+(rule+OR+regulation)&hl=en&gl=US&ceid=US:en",
+"name":"Food Business News",
+"url":"https://www.foodbusinessnews.net/rss/topic/108-manufacturing",
+"regions":["usa"],
+"cat":"market"
+},
+
+{
+"name":"FoodDive",
+"url":"https://www.fooddive.com/feeds/news/",
+"regions":["usa"],
+"cat":"trend"
+},
+
+{
+"name":"SupplySide FBJ",
+"url":"https://www.nutritionaloutlook.com/rss",
+"regions":["global"],
+"cat":"innovation"
+},
+
+# ---------- REGULATION ----------
+
+{
+"name":"FDA News",
+"url":"https://news.google.com/rss/search?q=FDA+food+OR+beverage+regulation&hl=en&gl=US&ceid=US:en",
 "regions":["usa"],
 "cat":"regulation"
 },
 
-# GERMANY / DACH
 {
-"name":"Germany Beverage",
-"url":"https://news.google.com/rss/search?q=(Getraenk+OR+Saft+OR+beverage)+(Deutschland+OR+Germany)+market&hl=de&gl=DE&ceid=DE:de",
-"regions":["germany","austria"],
-"cat":"market"
+"name":"EFSA Regulation",
+"url":"https://news.google.com/rss/search?q=EFSA+food+regulation+OR+additives&hl=en&gl=DE&ceid=DE:en",
+"regions":["germany","france","spain","italy","austria"],
+"cat":"regulation"
 },
 
-# FRANCE
+# ---------- INGREDIENT INNOVATION ----------
+
 {
-"name":"France Beverage",
-"url":"https://news.google.com/rss/search?q=(boisson+OR+jus+OR+beverage)+France+market+launch&hl=fr&gl=FR&ceid=FR:fr",
-"regions":["france"],
-"cat":"market"
+"name":"Flavor Innovation",
+"url":"https://news.google.com/rss/search?q=flavour+innovation+OR+ingredient+innovation+IFF+DSM+Givaudan+Symrise&hl=en&gl=US&ceid=US:en",
+"regions":["global"],
+"cat":"innovation"
 },
 
-# SPAIN
 {
-"name":"Spain Beverage",
-"url":"https://news.google.com/rss/search?q=(bebida+OR+zumo+OR+beverage)+Spain+market+launch&hl=es&gl=ES&ceid=ES:es",
-"regions":["spain"],
-"cat":"market"
+"name":"Functional Beverage",
+"url":"https://news.google.com/rss/search?q=functional+beverage+launch+OR+adaptogen+drink&hl=en&gl=US&ceid=US:en",
+"regions":["global"],
+"cat":"trend"
 },
 
-# ITALY
 {
-"name":"Italy Beverage",
-"url":"https://news.google.com/rss/search?q=(bevanda+OR+succo+OR+beverage)+Italy+market+launch&hl=it&gl=IT&ceid=IT:it",
-"regions":["italy"],
-"cat":"market"
-},
-
-# AUSTRIA
-{
-"name":"Austria Beverage",
-"url":"https://news.google.com/rss/search?q=(Getraenk+OR+Saft+OR+beverage)+Austria+launch&hl=de&gl=AT&ceid=AT:de",
-"regions":["austria"],
-"cat":"market"
+"name":"RTD Beverage",
+"url":"https://news.google.com/rss/search?q=ready+to+drink+beverage+launch&hl=en&gl=US&ceid=US:en",
+"regions":["global"],
+"cat":"launch"
 },
 
 ]
@@ -194,6 +201,21 @@ BEVERAGE_KEYWORDS = [
     "launch", "new product", "innovation", "market", "trend", "consumer",
     "sugar tax", "nutri-score", "packaging", "regulation", "labelling",
     "prix", "price", "pricing", "commodity", "ingredient cost",
+    "ingredient", "ingredient",
+"flavour",
+"flavor",
+"aroma",
+"extract",
+"colour",
+"color",
+"additive",
+"stabilizer",
+"emulsifier",
+"natural extract",
+"botanical",
+"fortified",
+"protein drink",
+
 ]
 
 # Hard exclusions for sales news (less strict than fruit — just filter obvious junk)
