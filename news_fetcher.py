@@ -242,56 +242,56 @@ def clean_html(raw: str) -> str:
 
 def fetch_rss(url: str, source_name: str) -> list[dict]:
 
-headers = {
-"User-Agent":
-"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-"(KHTML, like Gecko) Chrome/121 Safari/537.36"
-}
+    headers = {
+        "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/121 Safari/537.36"
+    }
 
-try:
-resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+    try:
+        resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
 
-if resp.status_code != 200:
-print(f"WARNING {source_name}: HTTP {resp.status_code}")
-return []
+        if resp.status_code != 200:
+            print(f"WARNING {source_name}: HTTP {resp.status_code}")
+            return []
 
-root = ET.fromstring(resp.content)
+        root = ET.fromstring(resp.content)
 
-except Exception as e:
-print(f"WARNING {source_name}: {e}")
-return []
+    except Exception as e:
+        print(f"WARNING {source_name}: {e}")
+        return []
 
-items = root.findall(".//item")
+    items = root.findall(".//item")
 
-age_cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
+    age_cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
 
-out=[]
+    out = []
 
-for item in items:
+    for item in items:
 
-def get(tag):
-el=item.find(tag)
-return el.text.strip() if el is not None and el.text else ""
+        def get(tag):
+            el = item.find(tag)
+            return el.text.strip() if el is not None and el.text else ""
 
-title=get("title")
-link=get("link")
-summary=clean_html(get("description"))
-pub=parse_date(get("pubDate"))
+        title = get("title")
+        link = get("link")
+        summary = clean_html(get("description"))
+        pub = parse_date(get("pubDate"))
 
-if not title or not link:
-continue
+        if not title or not link:
+            continue
 
-if pub < age_cutoff:
-continue
+        if pub < age_cutoff:
+            continue
 
-out.append({
-"title":title,
-"url":link,
-"summary":summary,
-"pub_dt":pub
-})
+        out.append({
+            "title": title,
+            "url": link,
+            "summary": summary,
+            "pub_dt": pub
+        })
 
-return out
+    return out
 
 # =============================================================
 # ── RED FRUIT LOGIC (unchanged from original) ───────────────
