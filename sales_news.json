@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T16:12:57.909930+00:00",
+  "generated_at": "2026-02-24T16:17:36.689298+00:00",
   "window_days": 28,
   "regions": {
     "usa": [],
@@ -23,19 +23,19 @@
         "region": "global",
         "source": "FoodBev Media",
         "error": "404 Client Error: Not Found for url: https://www.foodbev.com/feed",
-        "time": "2026-02-24T16:12:57.909930+00:00"
+        "time": "2026-02-24T16:17:36.689298+00:00"
       },
       {
         "region": "usa",
         "source": "Food Business News",
         "error": "403 Client Error: Forbidden for url: https://www.foodbusinessnews.net/rss/articles",
-        "time": "2026-02-24T16:12:57.909930+00:00"
+        "time": "2026-02-24T16:17:36.689298+00:00"
       },
       {
         "region": "usa",
         "source": "FDA Press",
         "error": "404 Client Error: Not Found for url: https://www.fda.gov/apology_objects/abuse-detection-apology.htm",
-        "time": "2026-02-24T16:12:57.909930+00:00"
+        "time": "2026-02-24T16:17:36.689298+00:00"
       }
     ],
     "counts": {
