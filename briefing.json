@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-02-24T10:31:46.659781+00:00",
+  "generated_at": "2026-02-24T10:37:49.919214+00:00",
   "generated_date": "Tuesday, 24 February 2026",
-  "briefing": "Beverage market intelligence tracked 8 product launches, 4 regulatory updates, 67 market trends across 6 active regions in the past 2 weeks. Key themes: new product launches intensifying across markets; pricing pressures and commodity costs in focus; regulatory changes impacting product strategies. Latest: Waterloo Sparkling Water introduces all-new flavours Waterloo.",
+  "briefing": "Beverage market intelligence tracked 14 product launches, 8 regulatory updates, 73 market trends across 6 active regions in the past 2 weeks. Key themes: new product launches intensifying across markets; regulatory changes impacting product strategies; pricing pressures and commodity costs in focus. Latest: Waterloo Sparkling Water introduces all-new flavours Waterloo.",
   "signals": {
     "usa": "Regulatory changes reshaping market. (12 articles)",
     "germany": "Regulatory changes reshaping market. (6 articles)",
-    "france": "Regulatory changes reshaping market.",
+    "france": "2 new launches tracked recently.",
     "spain": "Regulatory changes reshaping market.",
-    "italy": "Regulatory changes reshaping market.",
+    "italy": "4 new launches tracked recently. (4 articles)",
     "austria": "Regulatory changes reshaping market. (5 articles)"
   },
   "meta": {
-    "total_articles_analyzed": 131,
-    "sales_articles": 83,
+    "total_articles_analyzed": 168,
+    "sales_articles": 120,
     "fruit_articles": 48,
     "top_topics": {
-      "launches": 15,
-      "pricing": 11,
-      "regulation": 8,
+      "launches": 21,
+      "regulation": 13,
+      "pricing": 13,
       "functional": 8,
       "rtd": 6,
       "sparkling water": 4,
-      "organic": 3,
-      "packaging": 2
+      "no-low alcohol": 4,
+      "m&a": 3
     },
     "method": "rss-analysis"
   }
