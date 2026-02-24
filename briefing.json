@@ -1,18 +1,29 @@
 {
-  "generated_at": "2026-02-24T06:31:02.961253+00:00",
+  "generated_at": "2026-02-24T08:05:06.040869+00:00",
   "generated_date": "Tuesday, 24 February 2026",
-  "briefing": "Sales intelligence tracked 0 items across 0 regions in the past 28 days.",
+  "briefing": "Beverage market intelligence tracked 13 product launches, 1 regulatory updates, 47 market trends across 6 active regions in the past 2 weeks. Key themes: new product launches intensifying across markets; pricing pressures and commodity costs in focus; energy drinks continue to dominate headlines. Latest: Internorga 2026: SEB Professional Beverage showcases what Gen Z wants to drink —.",
   "signals": {
-    "usa": "No recent data — monitoring.",
-    "germany": "No recent data — monitoring.",
-    "france": "No recent data — monitoring.",
-    "spain": "No recent data — monitoring.",
-    "italy": "No recent data — monitoring.",
-    "austria": "No recent data — monitoring."
+    "usa": "Functional beverage demand accelerating. (13 articles)",
+    "germany": "Energy drink segment leading growth. (4 articles)",
+    "france": "4 new launches tracked recently. (4 articles)",
+    "spain": "Market trending.",
+    "italy": "5 new launches tracked recently. (5 articles)",
+    "austria": "Energy drink segment leading growth. (7 articles)"
   },
   "meta": {
-    "total_articles_analyzed": 0,
-    "method": "rss-analysis",
-    "top_topics": {}
+    "total_articles_analyzed": 137,
+    "sales_articles": 91,
+    "fruit_articles": 46,
+    "top_topics": {
+      "launches": 14,
+      "pricing": 14,
+      "energy drinks": 9,
+      "rtd": 8,
+      "functional": 7,
+      "no-low alcohol": 5,
+      "m&a": 3,
+      "regulation": 3
+    },
+    "method": "rss-analysis"
   }
 }
