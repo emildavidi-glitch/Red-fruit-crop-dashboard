@@ -259,52 +259,84 @@ def fetch_rss(url: str, source_name: str) -> list[dict]:
 
     headers = {
         "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/121 Safari/537.36"
+        "Mozilla/5.0 (MarketIntelBot)"
     }
 
     try:
-        resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
 
-        if resp.status_code != 200:
-            print(f"WARNING {source_name}: HTTP {resp.status_code}")
-            return []
+        r = requests.get(
+            url,
+            headers=headers,
+            timeout=REQUEST_TIMEOUT
+        )
 
-        root = ET.fromstring(resp.content)
+        r.raise_for_status()
+
+        root = ET.fromstring(r.content)
 
     except Exception as e:
-        print(f"WARNING {source_name}: {e}")
+
+        print("FAIL", source_name, e)
         return []
 
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom"
+    }
+
+    # RSS items
     items = root.findall(".//item")
 
-    age_cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
+    # ATOM fallback (BeverageDaily etc)
+    if not items:
+
+        items = root.findall(".//atom:entry", ns)
+
+    print(source_name, "RAW:", len(items))
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
 
     out = []
 
     for item in items:
 
         def get(tag):
+
             el = item.find(tag)
+
             return el.text.strip() if el is not None and el.text else ""
 
         title = get("title")
-        link = get("link")
-        summary = clean_html(get("description"))
-        pub = parse_date(get("pubDate"))
+
+        link = get("link") or get("id")
+
+        summary = (
+            get("description")
+            or get("summary")
+            or get("{http://www.w3.org/2005/Atom}summary")
+        )
+
+        pub = parse_date(
+            get("pubDate")
+            or get("published")
+            or get("updated")
+        )
 
         if not title or not link:
             continue
 
-        if pub < age_cutoff:
+        if pub < cutoff:
             continue
 
         out.append({
+
             "title": title,
             "url": link,
-            "summary": summary,
+            "summary": summary[:400],
             "pub_dt": pub
+
         })
+
+    print(source_name, "KEPT:", len(out))
 
     return out
 
