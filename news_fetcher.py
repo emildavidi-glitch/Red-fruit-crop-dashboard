@@ -96,10 +96,12 @@ SALES_RSS_SOURCES = [
 # ---------- TRADE PRESS (BEST SIGNAL) ----------
 
 {
+{
 "name":"BeverageDaily",
 "url":"https://www.beveragedaily.com/arc/outboundfeeds/rss/",
 "regions":["global"],
 "cat":"launch"
+},
 },
 
 {
@@ -482,8 +484,7 @@ def fetch_sales_feed(source: dict) -> list[dict]:
         if is_sales_excluded(full_text):
             continue
 
-        if not is_beverage_relevant(full_text):
-            continue
+
 
         regions = assign_regions(full_text, source["regions"])
         cat     = detect_sales_category(full_text, source.get("cat", "market"))
