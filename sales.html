@@ -127,7 +127,6 @@ main{max-width:1440px;margin:0 auto;padding:28px 40px;}
 .cat-btn.active{background:var(--navy);color:var(--white);border-color:var(--navy);}
 
 /* BRIEFING SECTIONS */
-.briefing-section{margin-bottom:16px;}
 .briefing-item{padding:10px 14px;border-radius:8px;border:1px solid var(--border-light);margin-bottom:8px;}
 .briefing-item:last-child{margin-bottom:0;}
 .bi-headline{font-size:0.82rem;font-weight:700;color:var(--text);margin-bottom:4px;}
@@ -146,11 +145,6 @@ main{max-width:1440px;margin:0 auto;padding:28px 40px;}
 
 /* INTEL GRID */
 .intel-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-
-/* LOADING / EMPTY */
-.loading{display:flex;align-items:center;gap:8px;padding:24px;color:var(--text-light);font-family:var(--font-mono);font-size:0.72rem;}
-.spinner{width:14px;height:14px;border:2px solid var(--border-light);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;}
-@keyframes spin{to{transform:rotate(360deg);}}
 
 footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:var(--font-mono);font-size:0.6rem;display:flex;justify-content:space-between;margin-top:32px;flex-wrap:wrap;gap:8px;}
 
@@ -184,7 +178,6 @@ footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:v
   </div>
 </header>
 
-<!-- DATA STATUS BAR -->
 <div class="data-bar" id="data-bar">
   <span class="status-dot" id="status-dot"></span>
   <span id="data-status">Loading pipeline data…</span>
@@ -192,11 +185,9 @@ footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:v
 </div>
 <div class="errors-panel" id="errors-panel"></div>
 
-<!-- REGION TABS -->
 <nav class="region-nav" id="region-nav"></nav>
 
 <main>
-  <!-- Panels injected by JS -->
   <div id="panel-global" class="tab-panel active"></div>
   <div id="panel-usa" class="tab-panel"></div>
   <div id="panel-germany" class="tab-panel"></div>
@@ -214,9 +205,6 @@ footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:v
 <script>
 'use strict';
 
-// ═══════════════════════════════════════════════
-// DATA STORE
-// ═══════════════════════════════════════════════
 let DATA = { news: null, briefings: null, stats: null, health: null };
 
 const REGION_META = {
@@ -234,70 +222,152 @@ const CAT_LABELS = {
   retail:'Retail', trend:'Trends', macro:'Macro',
 };
 
-// ═══════════════════════════════════════════════
-// FETCH DATA
-// ═══════════════════════════════════════════════
+/* ======= COMPAT LAYER: supports BOTH old and new sales_news.json schemas ======= */
+function normalizeNewsSchema(raw) {
+  if (!raw) return null;
+
+  // New schema: { generated_at, window_days/ttl_days, regions:{ usa:[...] }, meta:{counts...} }
+  if (raw.regions && typeof raw.regions === 'object') {
+    raw.meta = raw.meta || {};
+    raw.meta.counts = raw.meta.counts || {};
+    for (const rid of Object.keys(REGION_META)) {
+      raw.meta.counts[rid] = raw.meta.counts[rid] ?? (raw.regions[rid]?.length || 0);
+    }
+    raw.window_days = raw.window_days || raw.ttl_days || 28;
+    raw.generated_at = raw.generated_at || raw.last_updated || new Date().toISOString();
+    return raw;
+  }
+
+  // Old schema: { last_updated, article_count, articles:[ {title,url,regions:[...]} ] }
+  if (Array.isArray(raw.articles)) {
+    const regionsMap = {};
+    for (const rid of Object.keys(REGION_META)) regionsMap[rid] = [];
+
+    for (const a of raw.articles) {
+      const rlist = Array.isArray(a.regions) ? a.regions : [];
+      for (const rid of rlist) {
+        if (!regionsMap[rid]) continue;
+        regionsMap[rid].push({
+          title: a.title || '',
+          url: a.url || a.link || '',
+          source: a.source || a.publisher || '',
+          published: a.published || a.date || a.pubDate || '',
+          category: (a.category || a.cat || 'trend'),
+          summary: a.summary || a.description || '',
+          why_it_matters: a.why_it_matters || '',
+          product_tags: a.product_tags || a.tags || [],
+          confidence: a.confidence || 'medium',
+          score: a.score || 0
+        });
+      }
+    }
+
+    const counts = {};
+    for (const rid of Object.keys(REGION_META)) counts[rid] = regionsMap[rid].length;
+
+    return {
+      generated_at: raw.last_updated || raw.generated_at || new Date().toISOString(),
+      window_days: raw.window_days || 28,
+      regions: regionsMap,
+      meta: { counts, errors: [] }
+    };
+  }
+
+  return null;
+}
+
+function ensureBriefings(raw) {
+  if (!raw || typeof raw !== 'object') return { generated_at: new Date().toISOString(), regions: {} };
+  raw.generated_at = raw.generated_at || new Date().toISOString();
+  raw.regions = raw.regions || {};
+  return raw;
+}
+
+function ensureHealth(raw) {
+  if (!raw || typeof raw !== 'object') {
+    return { generated_at: new Date().toISOString(), regions: {}, global: { total_items: 0, total_sources_ok: 0, total_sources_failed: 0 } };
+  }
+  raw.generated_at = raw.generated_at || new Date().toISOString();
+  raw.regions = raw.regions || {};
+  raw.global = raw.global || { total_items: 0, total_sources_ok: 0, total_sources_failed: 0 };
+  return raw;
+}
+
+/* ======= FETCH ======= */
 async function loadJSON(file) {
   try {
-    const r = await fetch(file + '?_=' + Date.now(), { signal: AbortSignal.timeout(8000) });
+    const r = await fetch(file + '?_=' + Date.now());
     if (!r.ok) throw new Error(`${r.status}`);
     return await r.json();
-  } catch(e) { console.warn(`Failed: ${file}`, e); return null; }
+  } catch(e) {
+    console.warn(`Failed: ${file}`, e);
+    return null;
+  }
 }
 
 async function loadAllData() {
-  [DATA.news, DATA.briefings, DATA.stats, DATA.health] = await Promise.all([
+  const [newsRaw, briefRaw, statsRaw, healthRaw] = await Promise.all([
     loadJSON('sales_news.json'),
     loadJSON('sales_briefings.json'),
     loadJSON('market_stats.json'),
     loadJSON('data_health.json'),
   ]);
+
+  DATA.news = normalizeNewsSchema(newsRaw);
+  DATA.briefings = ensureBriefings(briefRaw);
+  DATA.stats = statsRaw || { generated_at: new Date().toISOString(), regions: {} };
+  DATA.health = ensureHealth(healthRaw);
+
   renderDataBar();
   renderTabs();
   renderGlobal();
 }
 
-// ═══════════════════════════════════════════════
-// DATA STATUS BAR
-// ═══════════════════════════════════════════════
+/* ======= DATA BAR ======= */
 function renderDataBar() {
   const dot = document.getElementById('status-dot');
   const status = document.getElementById('data-status');
   const toggle = document.getElementById('errors-toggle');
   const errPanel = document.getElementById('errors-panel');
 
-  if (!DATA.health) {
+  const genAt = DATA.health?.generated_at ? new Date(DATA.health.generated_at) : null;
+
+  if (!genAt || isNaN(genAt.getTime())) {
     dot.className = 'status-dot error';
-    status.textContent = 'Pipeline data not available — run GitHub Actions workflow';
+    status.textContent = 'Pipeline data not available — data_health.json missing/invalid';
     return;
   }
 
-  const h = DATA.health;
-  const genAt = new Date(h.generated_at);
   const ageH = ((Date.now() - genAt.getTime()) / 3600000).toFixed(1);
-  const allOk = Object.values(h.regions).every(r => r.status === 'ok');
-  const hasErr = Object.values(h.regions).some(r => r.status === 'error');
+  const regions = DATA.health.regions || {};
+  const regionVals = Object.values(regions);
+  const allOk = regionVals.length ? regionVals.every(r => r.status === 'ok') : true;
+  const hasErr = regionVals.some(r => r.status === 'error');
 
   dot.className = `status-dot ${hasErr ? 'error' : allOk ? 'ok' : 'warning'}`;
-  status.textContent = `Data updated: ${genAt.toLocaleString()} (${ageH}h ago) · Window: ${DATA.news?.window_days || 28} days · Items: ${h.global.total_items} · Sources: ${h.global.total_sources_ok} OK / ${h.global.total_sources_failed} failed`;
 
-  // Show errors if any
+  const windowDays = DATA.news?.window_days || 28;
+  const g = DATA.health.global || { total_items: 0, total_sources_ok: 0, total_sources_failed: 0 };
+  status.textContent = `Data updated: ${genAt.toLocaleString()} (${ageH}h ago) · Window: ${windowDays} days · Items: ${g.total_items} · Sources: ${g.total_sources_ok} OK / ${g.total_sources_failed} failed`;
+
   const errs = DATA.news?.meta?.errors || [];
-  const regionNotes = Object.entries(h.regions).filter(([_,v]) => v.notes.length > 0);
+  const regionNotes = Object.entries(regions).filter(([_,v]) => Array.isArray(v.notes) && v.notes.length > 0);
+
   if (errs.length > 0 || regionNotes.length > 0) {
     toggle.style.display = 'inline';
     let html = '';
     regionNotes.forEach(([rid, v]) => {
       v.notes.forEach(n => { html += `<div>${REGION_META[rid]?.flag||''} ${rid}: ${n}</div>`; });
     });
-    errs.slice(0, 10).forEach(e => { html += `<div>⚠ ${e.source}: ${e.error.slice(0,80)}</div>`; });
+    errs.slice(0, 10).forEach(e => { html += `<div>⚠ ${e.source || 'source'}: ${(e.error || '').slice(0,80)}</div>`; });
     errPanel.innerHTML = html;
+  } else {
+    toggle.style.display = 'none';
+    errPanel.innerHTML = '';
   }
 }
 
-// ═══════════════════════════════════════════════
-// TABS
-// ═══════════════════════════════════════════════
+/* ======= TABS ======= */
 let currentTab = 'global';
 
 function renderTabs() {
@@ -328,13 +398,11 @@ function switchTab(regionId) {
   }
 }
 
-// ═══════════════════════════════════════════════
-// MARKET STAT POPOVER
-// ═══════════════════════════════════════════════
+/* ======= MARKET STAT POPOVER ======= */
 function statPopover(stat) {
   if (!stat) return '';
   const srcs = (stat.sources || []).map(s => `<a href="${s.url}" target="_blank" style="color:var(--accent);">${s.name}</a>`).join(', ');
-  return `<span class="info-popover"><span class="rc-stat-info" title="Click for details">ℹ️</span>
+  return `<span class="info-popover"><span class="rc-stat-info">ℹ️</span>
     <span class="pop-content">
       Method: ${stat.method || '?'}<br>
       Year: ${stat.year || '?'}<br>
@@ -346,28 +414,29 @@ function statPopover(stat) {
 }
 
 function formatMarketSize(stat) {
-  if (!stat) return '—';
+  if (!stat || stat.value === undefined || stat.value === null || stat.value === '') return '—';
   const sym = stat.unit === 'USD_B' ? '$' : '€';
   return `~${sym}${stat.value}B`;
 }
 
 function formatGrowth(stat) {
-  if (!stat) return '—';
-  return `~+${stat.value}%`;
+  if (!stat || stat.value === undefined || stat.value === null || stat.value === '') return '—';
+  const sign = (Number(stat.value) >= 0) ? '+' : '';
+  return `~${sign}${stat.value}%`;
 }
 
-// ═══════════════════════════════════════════════
-// NEWS ITEM HTML
-// ═══════════════════════════════════════════════
+/* ======= NEWS ITEM HTML ======= */
 function newsHtml(n) {
-  const catCls = `cat-${n.category || 'trend'}`;
-  const confCls = `conf-${n.confidence || 'medium'}`;
+  const cat = n.category || 'trend';
+  const catCls = `cat-${cat}`;
+  const conf = n.confidence || '';
+  const confCls = `conf-${(n.confidence || 'medium')}`;
   const date = n.published ? new Date(n.published).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}) : '';
   const tags = (n.product_tags || []).map(t => `<span class="news-tag">${t}</span>`).join('');
-  return `<div class="news-item" data-cat="${n.category}">
+  return `<div class="news-item" data-cat="${cat}">
     <div class="news-meta">
-      <span class="news-cat ${catCls}">${n.category || 'news'}</span>
-      <span class="news-conf ${confCls}">${n.confidence || ''}</span>
+      <span class="news-cat ${catCls}">${cat}</span>
+      ${conf ? `<span class="news-conf ${confCls}">${conf}</span>` : ''}
       <span class="news-source">${n.source || ''}</span>
       <span class="news-date">${date}</span>
     </div>
@@ -379,23 +448,16 @@ function newsHtml(n) {
   </div>`;
 }
 
-// ═══════════════════════════════════════════════
-// GLOBAL OVERVIEW
-// ═══════════════════════════════════════════════
+/* ======= GLOBAL OVERVIEW ======= */
 function renderGlobal() {
   const panel = document.getElementById('panel-global');
 
-  // Morning briefing
-  const briefingText = DATA.briefings
-    ? `Tracked intelligence across ${Object.keys(DATA.briefings.regions).length} regions. ${Object.entries(DATA.briefings.regions).map(([rid, b]) => {
-        const s = b.signals?.[0];
-        return s ? `${REGION_META[rid]?.name || rid}: ${s.signal.toLowerCase()}` : '';
-      }).filter(Boolean).slice(0,3).join('. ')}.`
+  const briefingText = (DATA.briefings && DATA.briefings.regions)
+    ? `Tracked intelligence across ${Object.keys(DATA.briefings.regions).length} regions.`
     : 'Briefing data not yet available — run the pipeline.';
 
   const genAt = DATA.news?.generated_at ? new Date(DATA.news.generated_at).toLocaleString() : 'unknown';
 
-  // Region cards
   let cardsHtml = '';
   for (const [rid, meta] of Object.entries(REGION_META)) {
     const mctx = DATA.stats?.regions?.[rid]?.market_context;
@@ -427,17 +489,13 @@ function renderGlobal() {
     </div>`;
   }
 
-  // Global news (all regions combined, sorted by score)
   let allNews = [];
   if (DATA.news?.regions) {
-    for (const [rid, arts] of Object.entries(DATA.news.regions)) {
-      allNews.push(...arts);
-    }
+    for (const arts of Object.values(DATA.news.regions)) allNews.push(...arts);
   }
   allNews.sort((a,b) => (b.score||0) - (a.score||0));
   const topNews = allNews.slice(0, 30);
 
-  // Filter buttons
   const catSet = new Set(topNews.map(n => n.category));
   let filterHtml = `<button class="cat-btn active" onclick="filterNews('all',this)">All</button>`;
   for (const cat of Object.keys(CAT_LABELS)) {
@@ -450,7 +508,7 @@ function renderGlobal() {
     <div class="insight-box">
       <div class="insight-label">📡 Morning Briefing · ${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</div>
       <div class="insight-text">${briefingText}</div>
-      <div class="insight-source">Generated via RSS analysis · Updated ${genAt} · No paid APIs</div>
+      <div class="insight-source">Updated ${genAt} · No paid APIs</div>
     </div>
 
     <div class="global-grid">${cardsHtml}</div>
@@ -463,7 +521,7 @@ function renderGlobal() {
     <div class="panel">
       <div class="panel-body">
         <div class="news-list" id="global-news-list">
-          ${topNews.length ? topNews.map(newsHtml).join('') : '<div style="padding:20px;text-align:center;color:var(--text-light);">No articles yet. Run the pipeline to fetch data.</div>'}
+          ${topNews.length ? topNews.map(newsHtml).join('') : '<div style="padding:20px;text-align:center;color:var(--text-light);">No articles yet.</div>'}
         </div>
       </div>
     </div>`;
@@ -477,9 +535,7 @@ function filterNews(cat, btn) {
   });
 }
 
-// ═══════════════════════════════════════════════
-// REGION VIEW
-// ═══════════════════════════════════════════════
+/* ======= REGION VIEW ======= */
 function renderRegion(rid) {
   const panel = document.getElementById(`panel-${rid}`);
   const meta = REGION_META[rid];
@@ -488,57 +544,43 @@ function renderRegion(rid) {
   const articles = DATA.news?.regions?.[rid] || [];
   const h = DATA.health?.regions?.[rid];
 
-  // Executive summary
   const execHtml = (brief?.executive_summary || []).map(s => `
     <div class="briefing-item">
-      <div class="bi-headline">${s.headline}</div>
-      <div class="bi-detail">${s.detail}</div>
-      <div class="bi-meta"><span class="news-conf conf-${s.confidence}">${s.confidence}</span>
-        ${(s.evidence_urls||[]).map(u => `<a href="${u}" target="_blank" class="bi-link">source</a>`).join(' ')}
-      </div>
+      <div class="bi-headline">${s.headline || ''}</div>
+      <div class="bi-detail">${s.detail || ''}</div>
     </div>`).join('') || '<div style="color:var(--text-light);font-size:0.78rem;">No executive summary available yet.</div>';
 
-  // Signals
   const signalsHtml = (brief?.signals || []).map(s => `
     <div class="briefing-item">
-      <div class="bi-headline">${s.signal}</div>
-      <div class="bi-detail">${s.explanation}</div>
-      <div class="bi-meta"><span class="news-conf conf-${s.confidence}">${s.confidence}</span> · ${s.support_count} supporting articles</div>
-    </div>`).join('') || '';
+      <div class="bi-headline">${s.signal || ''}</div>
+      <div class="bi-detail">${s.explanation || ''}</div>
+      <div class="bi-meta">${s.support_count || 0} supporting articles</div>
+    </div>`).join('');
 
-  // Talking points
   const tpHtml = (brief?.talking_points || []).map(tp => `
     <div class="briefing-item">
-      <div class="bi-headline" style="color:var(--accent);">🎯 ${tp.customer_type.toUpperCase()}</div>
-      <div class="bi-detail">${tp.pitch}</div>
-      <div class="bi-meta">${(tp.supporting_evidence_urls||[]).map(u => `<a href="${u}" target="_blank" class="bi-link">evidence</a>`).join(' ')}</div>
-    </div>`).join('') || '';
+      <div class="bi-headline" style="color:var(--accent);">🎯 ${(tp.customer_type || '').toUpperCase()}</div>
+      <div class="bi-detail">${tp.pitch || ''}</div>
+    </div>`).join('');
 
-  // Actions
   const actHtml = (brief?.recommended_actions || []).map(a => `
     <div class="briefing-item" style="border-left:3px solid var(--accent2);">
-      <div class="bi-headline">⚡ ${a.action}</div>
-      <div class="bi-detail">${a.why_now}</div>
-      <div class="bi-meta">${(a.evidence_urls||[]).map(u => `<a href="${u}" target="_blank" class="bi-link">evidence</a>`).join(' ')}</div>
-    </div>`).join('') || '';
+      <div class="bi-headline">⚡ ${a.action || ''}</div>
+      <div class="bi-detail">${a.why_now || ''}</div>
+    </div>`).join('');
 
-  // Key launches
   const launchHtml = (brief?.key_launches || []).map(l => `
     <div class="briefing-item">
-      <div class="bi-headline">${l.title}</div>
-      <div class="bi-detail">${l.company} · ${l.product}</div>
-      <div class="bi-meta"><a href="${l.evidence_url}" target="_blank" class="bi-link">source</a> · ${l.date ? new Date(l.date).toLocaleDateString('en-GB',{day:'numeric',month:'short'}) : ''}</div>
+      <div class="bi-headline">${l.title || ''}</div>
+      <div class="bi-detail">${l.company || ''} · ${l.product || ''}</div>
     </div>`).join('') || '<div style="color:var(--text-light);font-size:0.78rem;">No launches tracked yet.</div>';
 
-  // Regulatory
   const regHtml = (brief?.regulatory_watch || []).map(r => `
     <div class="briefing-item" style="border-left:3px solid #6A1B9A;">
-      <div class="bi-headline">⚖️ ${r.title}</div>
-      <div class="bi-detail">${r.impact_on_sales}</div>
-      <div class="bi-meta"><a href="${r.evidence_url}" target="_blank" class="bi-link">source</a></div>
+      <div class="bi-headline">⚖️ ${r.title || ''}</div>
+      <div class="bi-detail">${r.impact_on_sales || ''}</div>
     </div>`).join('') || '<div style="color:var(--text-light);font-size:0.78rem;">No regulatory items tracked.</div>';
 
-  // News filter
   const catSet = new Set(articles.map(n => n.category));
   let filterHtml = `<button class="cat-btn active" onclick="filterRegionNews('${rid}','all',this)">All</button>`;
   for (const cat of Object.keys(CAT_LABELS)) {
@@ -547,8 +589,9 @@ function renderRegion(rid) {
     }
   }
 
-  // Health warning
-  const healthNote = h?.notes?.length ? `<div style="background:#FFF8E1;border-radius:8px;padding:8px 14px;margin-bottom:12px;font-family:var(--font-mono);font-size:0.6rem;color:#F57F17;">⚠ ${h.notes.join(' · ')}</div>` : '';
+  const healthNote = (h?.notes?.length)
+    ? `<div style="background:#FFF8E1;border-radius:8px;padding:8px 14px;margin-bottom:12px;font-family:var(--font-mono);font-size:0.6rem;color:#F57F17;">⚠ ${h.notes.join(' · ')}</div>`
+    : '';
 
   panel.innerHTML = `
     ${healthNote}
@@ -567,12 +610,12 @@ function renderRegion(rid) {
     <div class="intel-grid">
       <div>
         ${signalsHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">📡 Market Signals</div></div><div class="panel-body">${signalsHtml}</div></div>` : ''}
-        <div class="panel"><div class="panel-hd"><div class="panel-title">🚀 Key Launches</div><span class="panel-badge badge-launch">Tracked</span></div><div class="panel-body">${launchHtml}</div></div>
-        <div class="panel"><div class="panel-hd"><div class="panel-title">⚖️ Regulatory Watch</div><span class="panel-badge badge-regulatory">Monitor</span></div><div class="panel-body">${regHtml}</div></div>
+        <div class="panel"><div class="panel-hd"><div class="panel-title">🚀 Key Launches</div></div><div class="panel-body">${launchHtml}</div></div>
+        <div class="panel"><div class="panel-hd"><div class="panel-title">⚖️ Regulatory Watch</div></div><div class="panel-body">${regHtml}</div></div>
       </div>
       <div>
         ${tpHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">🎯 Talking Points</div></div><div class="panel-body">${tpHtml}</div></div>` : ''}
-        ${actHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">⚡ Recommended Actions</div><span class="panel-badge badge-action">Sales</span></div><div class="panel-body">${actHtml}</div></div>` : ''}
+        ${actHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">⚡ Recommended Actions</div></div><div class="panel-body">${actHtml}</div></div>` : ''}
       </div>
     </div>
 
@@ -583,7 +626,7 @@ function renderRegion(rid) {
     <div class="panel">
       <div class="panel-body">
         <div class="news-list region-news-list" id="news-${rid}">
-          ${articles.length ? articles.map(newsHtml).join('') : '<div style="padding:20px;text-align:center;color:var(--text-light);">No articles available. Run pipeline.</div>'}
+          ${articles.length ? articles.map(newsHtml).join('') : '<div style="padding:20px;text-align:center;color:var(--text-light);">No articles available.</div>'}
         </div>
       </div>
     </div>`;
@@ -597,9 +640,7 @@ function filterRegionNews(rid, cat, btn) {
   });
 }
 
-// ═══════════════════════════════════════════════
-// COPY BRIEFING
-// ═══════════════════════════════════════════════
+/* ======= COPY BRIEFING ======= */
 function copyBriefing(rid) {
   const b = DATA.briefings?.regions?.[rid];
   if (!b) { alert('No briefing data available.'); return; }
@@ -607,15 +648,15 @@ function copyBriefing(rid) {
   let text = `📊 ${meta.name} SALES BRIEFING\n${'='.repeat(40)}\n\n`;
 
   text += `EXECUTIVE SUMMARY\n`;
-  (b.executive_summary || []).forEach(s => { text += `• ${s.headline}\n  ${s.detail}\n\n`; });
+  (b.executive_summary || []).forEach(s => { text += `• ${s.headline || ''}\n  ${s.detail || ''}\n\n`; });
 
   text += `\nTALKING POINTS\n`;
-  (b.talking_points || []).forEach(tp => { text += `🎯 [${tp.customer_type.toUpperCase()}] ${tp.pitch}\n`; });
+  (b.talking_points || []).forEach(tp => { text += `🎯 [${(tp.customer_type || '').toUpperCase()}] ${tp.pitch || ''}\n`; });
 
   text += `\nRECOMMENDED ACTIONS\n`;
-  (b.recommended_actions || []).forEach(a => { text += `⚡ ${a.action} — ${a.why_now}\n`; });
+  (b.recommended_actions || []).forEach(a => { text += `⚡ ${a.action || ''} — ${a.why_now || ''}\n`; });
 
-  text += `\n---\nGenerated: ${DATA.briefings.generated_at || 'unknown'}\nSource: Sales Intelligence Pipeline (RSS analysis)\n`;
+  text += `\n---\nGenerated: ${DATA.briefings.generated_at || 'unknown'}\n`;
 
   navigator.clipboard.writeText(text).then(
     () => { alert('Briefing copied to clipboard!'); },
@@ -623,18 +664,13 @@ function copyBriefing(rid) {
   );
 }
 
-// ═══════════════════════════════════════════════
-// CLOCK
-// ═══════════════════════════════════════════════
+/* ======= CLOCK ======= */
 function updateClock() {
   const now = new Date();
   const el = document.getElementById('clock');
   if (el) el.textContent = now.toLocaleDateString('en-DE',{weekday:'short',day:'numeric',month:'short'}) + ' · ' + now.toLocaleTimeString('de-DE');
 }
 
-// ═══════════════════════════════════════════════
-// INIT
-// ═══════════════════════════════════════════════
 updateClock();
 setInterval(updateClock, 1000);
 loadAllData();
