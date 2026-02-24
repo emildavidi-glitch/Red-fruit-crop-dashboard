@@ -1,18 +1,29 @@
 {
-  "generated_at": "2026-02-24T11:06:37.397623+00:00",
+  "generated_at": "2026-02-24T11:09:40.939560+00:00",
   "generated_date": "Tuesday, 24 February 2026",
-  "briefing": "Sales intelligence tracked 0 items across 0 regions in the past 28 days.",
+  "briefing": "Beverage market intelligence tracked 13 product launches, 6 regulatory updates, 42 market trends across 4 active regions in the past 2 weeks. Key themes: new product launches intensifying across markets; pricing pressures and commodity costs in focus; regulatory changes impacting product strategies. Latest: Christie’s to sell Burgundies from renowned British collector Ian Mills KC.",
   "signals": {
-    "usa": "No recent data — monitoring.",
-    "germany": "No recent data — monitoring.",
-    "france": "No recent data — monitoring.",
-    "spain": "No recent data — monitoring.",
-    "italy": "No recent data — monitoring.",
-    "austria": "No recent data — monitoring."
+    "usa": "12 new launches tracked recently. (12 articles)",
+    "germany": "Market trending.",
+    "france": "1 new launches tracked recently.",
+    "spain": "Energy drinks and Horeca recovery strong.",
+    "italy": "2 new launches tracked recently.",
+    "austria": "Red Bull home market. Organic above EU avg."
   },
   "meta": {
-    "total_articles_analyzed": 0,
-    "method": "rss-analysis",
-    "top_topics": {}
+    "total_articles_analyzed": 132,
+    "sales_articles": 84,
+    "fruit_articles": 48,
+    "top_topics": {
+      "launches": 18,
+      "pricing": 12,
+      "regulation": 10,
+      "functional": 7,
+      "sparkling water": 4,
+      "rtd": 4,
+      "m&a": 3,
+      "no-low alcohol": 3
+    },
+    "method": "rss-analysis"
   }
 }
