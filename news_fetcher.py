@@ -93,20 +93,20 @@ RSS_SOURCES = [
 
 SALES_RSS_SOURCES = [
 
-# ---------- TRADE PRESS (EXECUTIVE LEVEL) ----------
-
-{
-"name":"FoodNavigator",
-"url":"https://www.foodnavigator.com/arc/outboundfeeds/rss/",
-"regions":["global"],
-"cat":"trend"
-},
+# ---------- TRADE PRESS (BEST SIGNAL) ----------
 
 {
 "name":"BeverageDaily",
 "url":"https://www.beveragedaily.com/arc/outboundfeeds/rss/",
 "regions":["global"],
 "cat":"launch"
+},
+
+{
+"name":"FoodNavigator",
+"url":"https://www.foodnavigator.com/arc/outboundfeeds/rss/",
+"regions":["global"],
+"cat":"trend"
 },
 
 {
@@ -117,11 +117,13 @@ SALES_RSS_SOURCES = [
 },
 
 {
-"name":"Food Business News",
-"url":"https://www.foodbusinessnews.net/rss/topic/108-manufacturing",
-"regions":["usa"],
+"name":"Drinks Business",
+"url":"https://www.thedrinksbusiness.com/feed/",
+"regions":["global"],
 "cat":"market"
 },
+
+# ---------- USA ----------
 
 {
 "name":"FoodDive",
@@ -131,49 +133,40 @@ SALES_RSS_SOURCES = [
 },
 
 {
-"name":"SupplySide FBJ",
-"url":"https://www.nutritionaloutlook.com/rss",
+"name":"Food Business News",
+"url":"https://www.foodbusinessnews.net/rss",
+"regions":["usa"],
+"cat":"market"
+},
+
+# ---------- GOOGLE NEWS SUPPORT ----------
+
+{
+"name":"Global Beverage Launches",
+"url":"https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(launch+OR+innovation)&hl=en&gl=US&ceid=US:en",
+"regions":["global"],
+"cat":"launch"
+},
+
+{
+"name":"Ingredient Innovation",
+"url":"https://news.google.com/rss/search?q=ingredient+innovation+OR+flavour+innovation&hl=en&gl=US&ceid=US:en",
 "regions":["global"],
 "cat":"innovation"
 },
 
-# ---------- REGULATION ----------
-
 {
-"name":"FDA News",
-"url":"https://news.google.com/rss/search?q=FDA+food+OR+beverage+regulation&hl=en&gl=US&ceid=US:en",
+"name":"FDA Beverage",
+"url":"https://news.google.com/rss/search?q=FDA+beverage+regulation&hl=en&gl=US&ceid=US:en",
 "regions":["usa"],
 "cat":"regulation"
 },
 
 {
-"name":"EFSA Regulation",
-"url":"https://news.google.com/rss/search?q=EFSA+food+regulation+OR+additives&hl=en&gl=DE&ceid=DE:en",
+"name":"EU Regulation",
+"url":"https://news.google.com/rss/search?q=EFSA+food+regulation+additives&hl=en&gl=DE&ceid=DE:en",
 "regions":["germany","france","spain","italy","austria"],
 "cat":"regulation"
-},
-
-# ---------- INGREDIENT INNOVATION ----------
-
-{
-"name":"Flavor Innovation",
-"url":"https://news.google.com/rss/search?q=flavour+innovation+OR+ingredient+innovation+IFF+DSM+Givaudan+Symrise&hl=en&gl=US&ceid=US:en",
-"regions":["global"],
-"cat":"innovation"
-},
-
-{
-"name":"Functional Beverage",
-"url":"https://news.google.com/rss/search?q=functional+beverage+launch+OR+adaptogen+drink&hl=en&gl=US&ceid=US:en",
-"regions":["global"],
-"cat":"trend"
-},
-
-{
-"name":"RTD Beverage",
-"url":"https://news.google.com/rss/search?q=ready+to+drink+beverage+launch&hl=en&gl=US&ceid=US:en",
-"regions":["global"],
-"cat":"launch"
 },
 
 ]
@@ -429,9 +422,24 @@ def is_sales_excluded(text: str) -> bool:
     t = text.lower()
     return any(kw in t for kw in SALES_EXCLUSIONS)
 
-def is_beverage_relevant(text: str) -> bool:
-    t = text.lower()
-    return any(kw in t for kw in BEVERAGE_KEYWORDS)
+def is_beverage_relevant(text: str):
+
+    t=text.lower()
+
+    KEYWORDS=[
+    "beverage",
+    "drink",
+    "juice",
+    "launch",
+    "innovation",
+    "ingredient",
+    "flavour",
+    "flavor",
+    "functional",
+    "market"
+    ]
+
+    return any(k in t for k in KEYWORDS)
 
 def detect_sales_category(text: str, default_cat: str) -> str:
     t = text.lower()
