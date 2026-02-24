@@ -256,88 +256,94 @@ def clean_html(raw: str) -> str:
     return re.sub(r"<[^>]+>", " ", raw).strip()
 
 def fetch_rss(url: str, source_name: str) -> list[dict]:
-
+    """Fetch & parse RSS2 OR ATOM feeds. Returns: title,url,summary,pub_dt"""
     headers = {
-        "User-Agent":
-        "Mozilla/5.0 (MarketIntelBot)"
+        "User-Agent": "Mozilla/5.0 (compatible; SalesIntelBot/1.0)",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
     }
 
     try:
-
-        r = requests.get(
-            url,
-            headers=headers,
-            timeout=REQUEST_TIMEOUT
-        )
-
-        r.raise_for_status()
-
-        root = ET.fromstring(r.content)
-
+        resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
     except Exception as e:
-
-        print("FAIL", source_name, e)
+        print(f"    WARNING {source_name}: {e}")
         return []
 
-    ns = {
-        "atom": "http://www.w3.org/2005/Atom"
-    }
-
-    # RSS items
-    items = root.findall(".//item")
-
-    # ATOM fallback (BeverageDaily etc)
-    if not items:
-
-        items = root.findall(".//atom:entry", ns)
-
-    print(source_name, "RAW:", len(items))
-
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
     cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
+
+    # RSS2
+    rss_items = root.findall(".//item")
+    if rss_items:
+        items = [("rss", it) for it in rss_items]
+    else:
+        # ATOM
+        atom_entries = root.findall(".//atom:entry", ns)
+        items = [("atom", it) for it in atom_entries]
+
+    print(f"    {source_name}: parsed {len(items)} raw entries")
+
+    def _text(el):
+        return el.text.strip() if (el is not None and el.text) else ""
+
+    def _rss_get(item, tag_names):
+        for tag in tag_names:
+            el = item.find(tag)
+            t = _text(el)
+            if t:
+                return t
+        return ""
+
+    def _atom_get(item, tag_names):
+        # tag_names are local names: "title", "summary", "published", ...
+        for tag in tag_names:
+            el = item.find(f"atom:{tag}", ns)
+            t = _text(el)
+            if t:
+                return t
+        return ""
 
     out = []
 
-    for item in items:
+    for kind, item in items:
+        if kind == "rss":
+            title = _rss_get(item, ["title"])
+            link = _rss_get(item, ["link"]) or _rss_get(item, ["guid"])
+            summary = _rss_get(item, ["description"]) or _rss_get(item, ["summary"])
+            pub_s = _rss_get(item, ["pubDate"]) or _rss_get(item, ["published"]) or _rss_get(item, ["updated"])
+        else:
+            title = _atom_get(item, ["title"])
+            # ATOM link is usually href attribute
+            link_el = item.find("atom:link", ns)
+            link = ""
+            if link_el is not None:
+                link = (link_el.attrib.get("href") or "").strip()
+            if not link:
+                link = _atom_get(item, ["id"])  # fallback: often a URL
+            summary = _atom_get(item, ["summary"]) or _atom_get(item, ["content"])
+            pub_s = _atom_get(item, ["published"]) or _atom_get(item, ["updated"])
 
-        def get(tag):
-
-            el = item.find(tag)
-
-            return el.text.strip() if el is not None and el.text else ""
-
-        title = get("title")
-
-        link = get("link") or get("id")
-
-        summary = (
-            get("description")
-            or get("summary")
-            or get("{http://www.w3.org/2005/Atom}summary")
-        )
-
-        pub = parse_date(
-            get("pubDate")
-            or get("published")
-            or get("updated")
-        )
+        pub_dt = parse_date(pub_s)
 
         if not title or not link:
             continue
-
-        if pub < cutoff:
+        if pub_dt.tzinfo is None:
+            pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+        if pub_dt < cutoff:
             continue
 
-        out.append({
+        if summary and len(summary) > 400:
+            summary = summary[:397].rsplit(" ", 1)[0] + "..."
 
+        out.append({
             "title": title,
             "url": link,
-            "summary": summary[:400],
-            "pub_dt": pub
-
+            "summary": clean_html(summary),
+            "pub_dt": pub_dt,
         })
 
-    print(source_name, "KEPT:", len(out))
-
+    print(f"    {source_name}: kept {len(out)} after cutoff")
     return out
 
 # =============================================================
