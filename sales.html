@@ -22,193 +22,50 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 body{background:var(--offwhite);font-family:var(--font-body);color:var(--text);min-height:100vh;}
 
-/* ── HEADER ── */
-.site-header{
-  background:var(--navy);
-  padding:0 40px;
-  height:64px;
-  display:flex;align-items:center;justify-content:space-between;
-  position:sticky;top:0;z-index:200;
-  border-bottom:2px solid var(--accent);
-}
+.site-header{background:var(--navy);padding:0 40px;height:64px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:200;border-bottom:2px solid var(--accent);}
 .brand{display:flex;align-items:center;gap:14px;}
-.brand-dot{
-  width:10px;height:10px;border-radius:50%;
-  background:var(--accent);
-  box-shadow:0 0 12px var(--accent);
-  animation:pulse 2s ease-in-out infinite;
-}
+.brand-dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent);animation:pulse 2s ease-in-out infinite;}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.6;transform:scale(1.3);}}
 .brand-name{font-family:var(--font-display);font-size:1.2rem;color:var(--white);letter-spacing:.02em;}
 .brand-sub{font-family:var(--font-mono);font-size:0.55rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-top:2px;}
 .header-right{display:flex;align-items:center;gap:20px;}
 .header-links{display:flex;gap:8px;}
-.header-link{
-  font-family:var(--font-mono);font-size:0.62rem;color:var(--muted);
-  text-decoration:none;padding:5px 12px;border:1px solid var(--border);
-  border-radius:4px;transition:all .2s;
-}
+.header-link{font-family:var(--font-mono);font-size:0.62rem;color:var(--muted);text-decoration:none;padding:5px 12px;border:1px solid var(--border);border-radius:4px;transition:all .2s;}
 .header-link:hover{color:var(--accent);border-color:var(--accent);}
 #clock{font-family:var(--font-mono);font-size:0.65rem;color:var(--muted);}
 
-/* ── TICKER BAR ── */
-.ticker-bar{
-  background:var(--navy-mid);
-  padding:7px 40px;
-  display:flex;align-items:center;gap:24px;
-  border-bottom:1px solid var(--border);
-  overflow:hidden;
-  white-space:nowrap;
-}
-.ticker-item{display:inline-flex;align-items:center;gap:8px;flex-shrink:0;}
-.ticker-label{font-family:var(--font-mono);font-size:0.58rem;color:var(--muted);text-transform:uppercase;}
-.ticker-val{font-family:var(--font-mono);font-size:0.7rem;color:var(--white);font-weight:500;}
-.ticker-chg{font-family:var(--font-mono);font-size:0.62rem;}
-.ticker-chg.up{color:var(--accent);}
-.ticker-chg.dn{color:var(--accent3);}
-.ticker-sep{color:var(--border);font-size:0.8rem;}
+/* DATA BAR */
+.data-bar{background:var(--navy-mid);padding:8px 40px;display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--border);font-family:var(--font-mono);font-size:0.6rem;flex-wrap:wrap;}
+.data-bar .status-dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
+.data-bar .status-dot.ok{background:var(--green);}
+.data-bar .status-dot.warning{background:var(--amber);}
+.data-bar .status-dot.error{background:var(--red);}
+.data-bar span{color:var(--muted);}
+.data-bar .errors-toggle{color:var(--accent3);cursor:pointer;text-decoration:underline;}
+.errors-panel{display:none;background:var(--navy);padding:10px 40px;font-family:var(--font-mono);font-size:0.58rem;color:var(--accent3);border-bottom:1px solid var(--border);}
+.errors-panel.show{display:block;}
 
-/* ── REGION TABS ── */
-.region-nav{
-  background:var(--white);
-  border-bottom:2px solid var(--border-light);
-  padding:0 40px;
-  display:flex;align-items:flex-end;gap:0;
-  position:sticky;top:64px;z-index:100;
-  box-shadow:0 2px 8px rgba(0,0,0,0.06);
-}
-.region-tab{
-  height:var(--tab-h);
-  padding:0 20px;
-  display:flex;align-items:center;gap:8px;
-  font-family:var(--font-body);font-size:0.82rem;font-weight:700;
-  color:var(--text-mid);cursor:pointer;
-  border-bottom:3px solid transparent;
-  transition:all .2s;
-  white-space:nowrap;
-  user-select:none;
-}
+/* TABS */
+.region-nav{background:var(--white);border-bottom:2px solid var(--border-light);padding:0 40px;display:flex;align-items:flex-end;gap:0;position:sticky;top:64px;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.06);}
+.region-tab{height:var(--tab-h);padding:0 20px;display:flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:0.82rem;font-weight:700;color:var(--text-mid);cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap;user-select:none;}
 .region-tab:hover{color:var(--text);border-bottom-color:var(--border-light);}
 .region-tab.active{color:var(--navy);border-bottom-color:var(--accent);}
-.region-tab .flag{font-size:1.1rem;}
-.region-tab .count{
-  background:var(--accent);color:var(--navy);
-  font-family:var(--font-mono);font-size:0.52rem;font-weight:700;
-  padding:1px 5px;border-radius:8px;min-width:18px;text-align:center;
-}
+.region-tab .count{background:var(--accent);color:var(--navy);font-family:var(--font-mono);font-size:0.52rem;font-weight:700;padding:1px 5px;border-radius:8px;min-width:18px;text-align:center;}
 
-/* ── MAIN CONTENT ── */
 main{max-width:1440px;margin:0 auto;padding:28px 40px;}
+.tab-panel{display:none;}
+.tab-panel.active{display:block;}
 
-/* ── SECTION PANELS ── */
-.intel-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:auto auto;
-  gap:20px;
-}
-.panel{
-  background:var(--card);border-radius:12px;
-  box-shadow:var(--card-shadow);
-  border:1px solid var(--border-light);
-  overflow:hidden;
-  animation:fadeUp .3s ease forwards;
-}
-@keyframes fadeUp{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
-.panel-hd{
-  padding:14px 20px;
-  border-bottom:1px solid var(--border-light);
-  display:flex;align-items:center;justify-content:space-between;
-  background:linear-gradient(135deg,var(--offwhite),var(--white));
-}
-.panel-title{
-  font-family:var(--font-display);font-size:1rem;color:var(--navy);
-  display:flex;align-items:center;gap:8px;
-}
-.panel-badge{
-  font-family:var(--font-mono);font-size:0.55rem;text-transform:uppercase;
-  letter-spacing:.1em;padding:3px 8px;border-radius:12px;
-}
-.badge-launches{background:#E8F5FF;color:#1565C0;}
-.badge-trends{background:#E8FFF5;color:#00695C;}
-.badge-pricing{background:#FFF8E8;color:#E65100;}
-.badge-regulatory{background:#F3E8FF;color:#6A1B9A;}
-.panel-body{padding:20px;}
+/* INSIGHT BOX */
+.insight-box{background:linear-gradient(135deg,var(--navy),var(--navy-light));border-radius:10px;padding:18px 20px;color:var(--white);margin-bottom:20px;position:relative;overflow:hidden;}
+.insight-box::before{content:'📡';font-size:60px;opacity:.06;position:absolute;right:-5px;top:-5px;}
+.insight-label{font-family:var(--font-mono);font-size:0.58rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:6px;}
+.insight-text{font-size:0.82rem;line-height:1.6;color:rgba(255,255,255,0.9);}
+.insight-source{font-family:var(--font-mono);font-size:0.55rem;color:var(--muted);margin-top:8px;}
 
-/* ── NEWS CARDS ── */
-.news-list{display:flex;flex-direction:column;gap:12px;}
-.news-item{
-  padding:12px 14px;border-radius:8px;
-  border:1px solid var(--border-light);
-  transition:transform .15s,box-shadow .15s;
-  cursor:pointer;
-}
-.news-item:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,0.08);}
-.news-item.high{border-left:3px solid var(--accent3);}
-.news-item.medium{border-left:3px solid var(--accent2);}
-.news-item.low{border-left:3px solid var(--border-light);}
-.news-meta{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap;}
-.news-cat{
-  font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;
-  letter-spacing:.08em;padding:2px 7px;border-radius:8px;
-}
-.cat-launch{background:#E3F2FD;color:#1565C0;}
-.cat-trend{background:#E8F5E9;color:#2E7D32;}
-.cat-pricing{background:#FFF3E0;color:#E65100;}
-.cat-regulation{background:#F3E8FF;color:#6A1B9A;}
-.cat-market{background:#FCE4EC;color:#AD1457;}
-.news-source{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);}
-.news-date{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);margin-left:auto;}
-.news-headline{font-size:0.84rem;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:4px;}
-.news-summary{font-size:0.72rem;color:var(--text-mid);line-height:1.5;}
-.news-link{font-family:var(--font-mono);font-size:0.6rem;color:var(--accent);text-decoration:none;margin-top:5px;display:inline-block;}
-
-/* ── TRENDS EMBEDS ── */
-.trends-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;}
-.trend-embed{border-radius:8px;overflow:hidden;border:1px solid var(--border-light);}
-.trend-label{font-family:var(--font-mono);font-size:0.6rem;color:var(--text-mid);padding:6px 10px;background:var(--offwhite);border-bottom:1px solid var(--border-light);}
-.trend-stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;}
-.trend-stat{background:var(--offwhite);border-radius:8px;padding:10px 12px;text-align:center;border:1px solid var(--border-light);}
-.trend-stat-val{font-family:var(--font-display);font-size:1.2rem;color:var(--navy);}
-.trend-stat-lbl{font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;color:var(--text-light);margin-top:3px;}
-.trend-stat-chg{font-family:var(--font-mono);font-size:0.6rem;margin-top:2px;}
-.trend-stat-chg.up{color:var(--green);}
-.trend-stat-chg.dn{color:var(--red);}
-
-/* ── PRICING CONTEXT ── */
-.pricing-table{width:100%;border-collapse:collapse;margin-top:4px;}
-.pricing-table th{font-family:var(--font-mono);font-size:0.58rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);padding:8px 12px;border-bottom:2px solid var(--border-light);text-align:left;}
-.pricing-table td{padding:9px 12px;border-bottom:1px solid var(--border-light);font-size:0.78rem;}
-.pricing-table tr:last-child td{border-bottom:none;}
-.pricing-table tr:hover td{background:var(--offwhite);}
-.price-chg{font-family:var(--font-mono);font-size:0.68rem;font-weight:500;}
-.price-chg.up{color:var(--red);}
-.price-chg.dn{color:var(--green);}
-.price-val{font-family:var(--font-mono);font-size:0.78rem;font-weight:500;}
-.price-trend-bar{height:4px;border-radius:2px;margin-top:4px;background:#eee;overflow:hidden;}
-.price-trend-fill{height:100%;border-radius:2px;}
-
-/* ── REGULATORY ── */
-.reg-item{padding:12px 14px;border-radius:8px;border:1px solid var(--border-light);margin-bottom:10px;}
-.reg-item:last-child{margin-bottom:0;}
-.reg-header{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
-.reg-flag{font-size:1rem;}
-.reg-title{font-size:0.82rem;font-weight:700;color:var(--text);}
-.reg-status{font-family:var(--font-mono);font-size:0.55rem;padding:2px 7px;border-radius:8px;margin-left:auto;}
-.status-watch{background:#FFF3E0;color:#E65100;}
-.status-active{background:#FFEBEE;color:#C62828;}
-.status-new{background:#E8F5E9;color:#2E7D32;}
-.status-info{background:#E3F2FD;color:#1565C0;}
-.reg-body{font-size:0.73rem;color:var(--text-mid);line-height:1.5;}
-.reg-date{font-family:var(--font-mono);font-size:0.55rem;color:var(--text-light);margin-top:4px;}
-
-/* ── GLOBAL TAB OVERVIEW ── */
+/* CARDS GRID */
 .global-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px;}
-.region-card{
-  background:var(--card);border-radius:10px;padding:18px 20px;
-  box-shadow:var(--card-shadow);border:1px solid var(--border-light);
-  cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;
-}
+.region-card{background:var(--card);border-radius:10px;padding:18px 20px;box-shadow:var(--card-shadow);border:1px solid var(--border-light);cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;}
 .region-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.1);border-color:var(--accent);}
 .region-card-hd{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
 .region-card-flag{font-size:1.5rem;}
@@ -217,77 +74,95 @@ main{max-width:1440px;margin:0 auto;padding:28px 40px;}
 .rc-stat{background:var(--offwhite);border-radius:6px;padding:7px 10px;}
 .rc-stat-val{font-family:var(--font-mono);font-size:0.9rem;font-weight:500;color:var(--navy);}
 .rc-stat-lbl{font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;color:var(--text-light);margin-top:2px;}
-.region-card-signal{
-  margin-top:10px;padding:6px 10px;border-radius:6px;
-  font-family:var(--font-mono);font-size:0.62rem;
-}
-.signal-hot{background:#FFE8E8;color:#C62828;}
-.signal-warm{background:#FFF3E0;color:#E65100;}
-.signal-stable{background:#E8F5E9;color:#2E7D32;}
+.region-card-signal{margin-top:10px;padding:6px 10px;border-radius:6px;font-family:var(--font-mono);font-size:0.62rem;background:#E8F5E9;color:#2E7D32;}
+.rc-stat-info{cursor:help;font-size:0.58rem;color:var(--accent);margin-left:4px;}
 
-/* ── INSIGHT BOX ── */
-.insight-box{
-  background:linear-gradient(135deg,var(--navy),var(--navy-light));
-  border-radius:10px;padding:18px 20px;color:var(--white);
-  margin-bottom:20px;position:relative;overflow:hidden;
-}
-.insight-box::before{
-  content:'💡';font-size:60px;opacity:.06;
-  position:absolute;right:-5px;top:-5px;
-}
-.insight-label{font-family:var(--font-mono);font-size:0.58rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:6px;}
-.insight-text{font-size:0.82rem;line-height:1.6;color:rgba(255,255,255,0.9);}
-.insight-source{font-family:var(--font-mono);font-size:0.55rem;color:var(--muted);margin-top:8px;}
+/* PANELS */
+.panel{background:var(--card);border-radius:12px;box-shadow:var(--card-shadow);border:1px solid var(--border-light);overflow:hidden;margin-bottom:16px;}
+.panel-hd{padding:14px 20px;border-bottom:1px solid var(--border-light);display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,var(--offwhite),var(--white));}
+.panel-title{font-family:var(--font-display);font-size:1rem;color:var(--navy);display:flex;align-items:center;gap:8px;}
+.panel-badge{font-family:var(--font-mono);font-size:0.55rem;text-transform:uppercase;letter-spacing:.1em;padding:3px 8px;border-radius:12px;}
+.badge-launch{background:#E8F5FF;color:#1565C0;}
+.badge-trend{background:#E8FFF5;color:#00695C;}
+.badge-pricing{background:#FFF8E8;color:#E65100;}
+.badge-regulatory{background:#F3E8FF;color:#6A1B9A;}
+.badge-competitor{background:#FFF0F0;color:#C62828;}
+.badge-supply{background:#E0F2F1;color:#004D40;}
+.badge-action{background:#FFF3E0;color:#E65100;}
+.panel-body{padding:20px;}
 
-/* ── REFRESH / FILTER BAR ── */
-.content-bar{
-  display:flex;align-items:center;justify-content:space-between;
-  margin-bottom:18px;
-}
+/* NEWS ITEMS */
+.news-list{display:flex;flex-direction:column;gap:10px;}
+.news-item{padding:12px 14px;border-radius:8px;border:1px solid var(--border-light);transition:transform .15s,box-shadow .15s;cursor:default;}
+.news-item:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,0.06);}
+.news-meta{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap;}
+.news-cat{font-family:var(--font-mono);font-size:0.52rem;text-transform:uppercase;letter-spacing:.08em;padding:2px 7px;border-radius:8px;}
+.cat-launch{background:#E3F2FD;color:#1565C0;}
+.cat-innovation{background:#E8F5E9;color:#2E7D32;}
+.cat-trend{background:#E8F5E9;color:#2E7D32;}
+.cat-pricing{background:#FFF3E0;color:#E65100;}
+.cat-regulatory{background:#F3E8FF;color:#6A1B9A;}
+.cat-competitor{background:#FFF0F0;color:#C62828;}
+.cat-supply_chain{background:#E0F2F1;color:#004D40;}
+.cat-retail{background:#FBE9E7;color:#BF360C;}
+.cat-macro{background:#ECEFF1;color:#37474F;}
+.news-source{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);}
+.news-date{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);margin-left:auto;}
+.news-headline{font-size:0.84rem;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:4px;}
+.news-summary{font-size:0.72rem;color:var(--text-mid);line-height:1.5;}
+.news-why{font-size:0.68rem;color:var(--navy);background:var(--offwhite);padding:6px 10px;border-radius:6px;margin-top:6px;border-left:3px solid var(--accent);}
+.news-link{font-family:var(--font-mono);font-size:0.6rem;color:var(--accent);text-decoration:none;margin-top:5px;display:inline-block;}
+.news-conf{font-family:var(--font-mono);font-size:0.48rem;padding:2px 6px;border-radius:6px;margin-left:6px;}
+.conf-high{background:#E8F5E9;color:#2E7D32;}
+.conf-medium{background:#FFF8E1;color:#F57F17;}
+.conf-low{background:#FFEBEE;color:#C62828;}
+.news-tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:4px;}
+.news-tag{font-family:var(--font-mono);font-size:0.48rem;background:var(--offwhite);color:var(--text-mid);padding:1px 6px;border-radius:6px;}
+
+/* FILTERS */
+.filter-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px;}
 .cat-filters{display:flex;gap:6px;flex-wrap:wrap;}
-.cat-btn{
-  font-family:var(--font-mono);font-size:0.6rem;text-transform:uppercase;
-  letter-spacing:.06em;padding:5px 12px;border-radius:20px;
-  border:1px solid var(--border-light);background:var(--white);
-  cursor:pointer;transition:all .15s;color:var(--text-mid);
-}
+.cat-btn{font-family:var(--font-mono);font-size:0.6rem;text-transform:uppercase;letter-spacing:.06em;padding:5px 12px;border-radius:20px;border:1px solid var(--border-light);background:var(--white);cursor:pointer;transition:all .15s;color:var(--text-mid);}
 .cat-btn:hover{border-color:var(--accent);color:var(--accent);}
 .cat-btn.active{background:var(--navy);color:var(--white);border-color:var(--navy);}
-.refresh-btn{
-  font-family:var(--font-mono);font-size:0.62rem;color:var(--muted);
-  background:none;border:1px solid var(--border-light);padding:5px 14px;
-  border-radius:4px;cursor:pointer;transition:all .15s;
-}
-.refresh-btn:hover{color:var(--accent);border-color:var(--accent);}
 
-/* ── LOADING ── */
+/* BRIEFING SECTIONS */
+.briefing-section{margin-bottom:16px;}
+.briefing-item{padding:10px 14px;border-radius:8px;border:1px solid var(--border-light);margin-bottom:8px;}
+.briefing-item:last-child{margin-bottom:0;}
+.bi-headline{font-size:0.82rem;font-weight:700;color:var(--text);margin-bottom:4px;}
+.bi-detail{font-size:0.72rem;color:var(--text-mid);line-height:1.5;}
+.bi-meta{font-family:var(--font-mono);font-size:0.52rem;color:var(--text-light);margin-top:4px;}
+.bi-link{font-family:var(--font-mono);font-size:0.55rem;color:var(--accent);text-decoration:none;}
+
+/* COPY BTN */
+.copy-btn{font-family:var(--font-mono);font-size:0.6rem;padding:6px 14px;border-radius:6px;border:1px solid var(--border-light);background:var(--white);cursor:pointer;color:var(--text-mid);transition:all .15s;}
+.copy-btn:hover{border-color:var(--accent);color:var(--accent);}
+
+/* POPOVER */
+.info-popover{position:relative;display:inline-block;}
+.info-popover .pop-content{display:none;position:absolute;bottom:120%;left:50%;transform:translateX(-50%);background:var(--navy);color:var(--white);padding:10px 14px;border-radius:8px;font-family:var(--font-mono);font-size:0.55rem;line-height:1.5;width:280px;z-index:300;box-shadow:0 8px 24px rgba(0,0,0,0.3);}
+.info-popover:hover .pop-content{display:block;}
+
+/* INTEL GRID */
+.intel-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+
+/* LOADING / EMPTY */
 .loading{display:flex;align-items:center;gap:8px;padding:24px;color:var(--text-light);font-family:var(--font-mono);font-size:0.72rem;}
 .spinner{width:14px;height:14px;border:2px solid var(--border-light);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;}
 @keyframes spin{to{transform:rotate(360deg);}}
 
-/* ── EMPTY STATE ── */
-.empty{text-align:center;padding:32px 20px;color:var(--text-light);}
-.empty-icon{font-size:2rem;margin-bottom:8px;}
-.empty-text{font-size:0.78rem;}
+footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:var(--font-mono);font-size:0.6rem;display:flex;justify-content:space-between;margin-top:32px;flex-wrap:wrap;gap:8px;}
 
-/* ── FOOTER ── */
-footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:var(--font-mono);font-size:0.6rem;display:flex;justify-content:space-between;margin-top:32px;}
-
-/* ── RESPONSIVE ── */
 @media(max-width:1024px){
-  main,.site-header,.ticker-bar,.region-nav,footer{padding-left:16px;padding-right:16px;}
+  main,.site-header,.data-bar,.region-nav,footer{padding-left:16px;padding-right:16px;}
   .intel-grid{grid-template-columns:1fr;}
   .global-grid{grid-template-columns:1fr 1fr;}
-  .trends-grid{grid-template-columns:1fr;}
 }
 @media(max-width:640px){
   .global-grid{grid-template-columns:1fr;}
   .region-nav{overflow-x:auto;}
 }
-
-/* ── TAB PANEL VISIBILITY ── */
-.tab-panel{display:none;}
-.tab-panel.active{display:block;}
 </style>
 </head>
 <body>
@@ -309,798 +184,460 @@ footer{background:var(--navy);color:var(--muted);padding:16px 40px;font-family:v
   </div>
 </header>
 
-<!-- COMMODITY TICKER -->
-<div class="ticker-bar" id="ticker">
-  <div class="ticker-item">
-    <span class="ticker-label">FCOJ</span>
-    <span class="ticker-val" id="t-oj">--</span>
-    <span class="ticker-chg" id="t-oj-c">--</span>
-  </div>
-  <span class="ticker-sep">|</span>
-  <div class="ticker-item">
-    <span class="ticker-label">Sugar #11</span>
-    <span class="ticker-val" id="t-sb">--</span>
-    <span class="ticker-chg" id="t-sb-c">--</span>
-  </div>
-  <span class="ticker-sep">|</span>
-  <div class="ticker-item">
-    <span class="ticker-label">EUR/USD</span>
-    <span class="ticker-val" id="t-eur">--</span>
-    <span class="ticker-chg" id="t-eur-c">--</span>
-  </div>
-  <span class="ticker-sep">|</span>
-  <div class="ticker-item">
-    <span class="ticker-label">GBP/EUR</span>
-    <span class="ticker-val" id="t-gbp">--</span>
-    <span class="ticker-chg" id="t-gbp-c">--</span>
-  </div>
-  <span class="ticker-sep">|</span>
-  <div class="ticker-item">
-    <span class="ticker-label">PET Resin</span>
-    <span class="ticker-val">~1.10</span>
-    <span class="ticker-chg dn">↓ −4% YoY</span>
-  </div>
-  <span class="ticker-sep">|</span>
-  <div class="ticker-item">
-    <span class="ticker-label">Aluminium</span>
-    <span class="ticker-val" id="t-al">--</span>
-    <span class="ticker-chg" id="t-al-c">--</span>
-  </div>
-  <span class="ticker-sep">|</span>
-  <div class="ticker-item" style="color:var(--accent);font-family:var(--font-mono);font-size:0.6rem;">
-    ⚡ Auto-refreshes every 5 min
-  </div>
+<!-- DATA STATUS BAR -->
+<div class="data-bar" id="data-bar">
+  <span class="status-dot" id="status-dot"></span>
+  <span id="data-status">Loading pipeline data…</span>
+  <span class="errors-toggle" id="errors-toggle" style="display:none;" onclick="document.getElementById('errors-panel').classList.toggle('show')">Show details</span>
 </div>
+<div class="errors-panel" id="errors-panel"></div>
 
 <!-- REGION TABS -->
-<nav class="region-nav" id="region-nav">
-  <div class="region-tab active" data-region="global" onclick="switchTab('global')">
-    🌍 Global Overview
-  </div>
-  <div class="region-tab" data-region="usa" onclick="switchTab('usa')">
-    <span class="flag">🇺🇸</span> USA
-    <span class="count" id="cnt-usa">0</span>
-  </div>
-  <div class="region-tab" data-region="germany" onclick="switchTab('germany')">
-    <span class="flag">🇩🇪</span> Germany
-    <span class="count" id="cnt-germany">0</span>
-  </div>
-  <div class="region-tab" data-region="france" onclick="switchTab('france')">
-    <span class="flag">🇫🇷</span> France
-    <span class="count" id="cnt-france">0</span>
-  </div>
-  <div class="region-tab" data-region="spain" onclick="switchTab('spain')">
-    <span class="flag">🇪🇸</span> Spain
-    <span class="count" id="cnt-spain">0</span>
-  </div>
-  <div class="region-tab" data-region="italy" onclick="switchTab('italy')">
-    <span class="flag">🇮🇹</span> Italy
-    <span class="count" id="cnt-italy">0</span>
-  </div>
-  <div class="region-tab" data-region="austria" onclick="switchTab('austria')">
-    <span class="flag">🇦🇹</span> Austria
-    <span class="count" id="cnt-austria">0</span>
-  </div>
-</nav>
+<nav class="region-nav" id="region-nav"></nav>
 
 <main>
-
-<!-- ══════════════════════════════════════════════ -->
-<!-- GLOBAL OVERVIEW TAB -->
-<!-- ══════════════════════════════════════════════ -->
-<div class="tab-panel active" id="panel-global">
-
-  <div class="insight-box">
-    <div class="insight-label">📡 Morning Briefing · <span id="brief-date"></span></div>
-    <div class="insight-text" id="brief-text">
-      <span style="color:var(--muted);font-size:0.8rem;">⏳ Generating live briefing from today\'s beverage industry news…</span>
-    </div>
-    <div class="insight-source" id="brief-source">AI-generated from live web search · Refreshes on page load</div>
-  </div>
-
-  <div class="global-grid" id="global-region-cards"></div>
-
-  <div class="content-bar">
-    <div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy);">All Markets — Latest Intelligence</div>
-    <div style="display:flex;gap:8px;">
-      <button class="cat-btn active" onclick="filterGlobal('all',this)">All</button>
-      <button class="cat-btn" onclick="filterGlobal('launch',this)">Launches</button>
-      <button class="cat-btn" onclick="filterGlobal('trend',this)">Trends</button>
-      <button class="cat-btn" onclick="filterGlobal('pricing',this)">Pricing</button>
-      <button class="cat-btn" onclick="filterGlobal('regulation',this)">Regulatory</button>
-    </div>
-  </div>
-
-  <div class="panel" style="margin-bottom:0;">
-    <div class="panel-body">
-      <div id="global-news-list" class="news-list">
-        <div class="loading"><div class="spinner"></div>Loading market intelligence...</div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<!-- ══════════════════════════════════════════════ -->
-<!-- REGION TAB TEMPLATE (rendered per region) -->
-<!-- ══════════════════════════════════════════════ -->
-<div class="tab-panel" id="panel-usa"></div>
-<div class="tab-panel" id="panel-germany"></div>
-<div class="tab-panel" id="panel-france"></div>
-<div class="tab-panel" id="panel-spain"></div>
-<div class="tab-panel" id="panel-italy"></div>
-<div class="tab-panel" id="panel-austria"></div>
-
+  <!-- Panels injected by JS -->
+  <div id="panel-global" class="tab-panel active"></div>
+  <div id="panel-usa" class="tab-panel"></div>
+  <div id="panel-germany" class="tab-panel"></div>
+  <div id="panel-france" class="tab-panel"></div>
+  <div id="panel-spain" class="tab-panel"></div>
+  <div id="panel-italy" class="tab-panel"></div>
+  <div id="panel-austria" class="tab-panel"></div>
 </main>
 
 <footer>
-  <div>📊 Sales Intelligence · Beverage Market · Auto-updated every 24h via GitHub Actions</div>
-  <div>Sources: FoodNavigator · BeverageDaily · Zenith · Reuters · USDA · Open data only · Not for investment decisions</div>
+  <div>📊 Sales Intelligence · Beverage Market · Auto-updated daily via GitHub Actions</div>
+  <div>Sources: FoodNavigator · BeverageDaily · Just-Drinks · Google News RSS · FDA · EFSA · Open data only</div>
 </footer>
 
 <script>
 'use strict';
 
-// ══════════════════════════════════════════════════════════════════════════════
-//  REGION CONFIG
-//  market_stats: industry estimates from Statista / Euromonitor / ZMP / USDA.
-//  These are ORDER-OF-MAGNITUDE figures for sales context only, NOT investment data.
-//  Sources cited per region. Regulatory items all link to primary sources.
-// ══════════════════════════════════════════════════════════════════════════════
-const REGIONS = {
+// ═══════════════════════════════════════════════
+// DATA STORE
+// ═══════════════════════════════════════════════
+let DATA = { news: null, briefings: null, stats: null, health: null };
 
-  usa: {
-    name:'United States', flag:'🇺🇸',
-    market_size:'~$265B', growth:'+3%',
-    signal:'hot', signal_text:'Loading…',
-    insight:'US is the world\'s largest beverage market. Energy drinks growing fastest (+8-10% YoY). Fruit juice declining as consumers shift to functional waters and RTD coffee. GLP-1 drug adoption (1 in 10 Americans) reshaping nutrition demand toward high-protein, low-calorie formats. FDA reviewing caffeine labelling for energy drinks — decision expected Q2 2026.',
-    market_stats:[
-      {label:'Total Beverages (est.)',val:'~$265B',chg:'~+3%',dir:'up',src:'Statista 2024'},
-      {label:'Soft Drinks',val:'~$119B',chg:'~+2%',dir:'up',src:'Statista 2024'},
-      {label:'Energy Drinks',val:'~$27B',chg:'~+8%',dir:'up',src:'Grand View Research 2024'},
-      {label:'Fruit Juice',val:'~$19B',chg:'~-1%',dir:'dn',src:'Statista 2024'},
-      {label:'RTD Coffee',val:'~$14B',chg:'~+12%',dir:'up',src:'Allied Market Research 2024'},
-      {label:'Functional Water',val:'~$9B',chg:'~+18%',dir:'up',src:'MarketsandMarkets 2024'},
-    ],
-    stats_disclaimer:'Estimates from Statista, Grand View Research, Allied Market Research (2024). Order-of-magnitude guidance only. Not audited market data.',
-    regulatory:[
-      {flag:'🇺🇸',status:'ACTIVE',title:'2025–2030 Dietary Guidelines: "Less alcohol" replaces specific limits',
-       body:'New US Dietary Guidelines dropped the specific 2 drinks/day limit for men and 1 for women. Simple message: "less alcohol = better health." Signals hostile regulatory environment for alcohol — widening the non-alc opportunity.',
-       date:'Jan 8, 2026',url:'https://www.beveragedaily.com/Article/2026/01/08/us-drinking-guidelines-promote-moderation/'},
-      {flag:'🇺🇸',status:'WATCH',title:'FDA Energy Drink Caffeine Labelling Review — Q2 2026 Decision',
-       body:'FDA reviewing mandatory caffeine content disclosure and warning labels for energy drinks. A ruling requiring prominent caffeine labelling could impact packaging costs and consumer perception. Major brands lobbying against specific limits.',
-       date:'Jan 5, 2026',url:'https://www.beveragedaily.com/Article/2026/01/05/top-beverage-trends-for-2026/'},
-      {flag:'🇺🇸',status:'WATCH',title:'GLP-1 Reshaping Beverage Nutrition Requirements',
-       body:'1 in 10 Americans now on GLP-1 weight-loss drugs. Users reduce calorie intake but prioritise nutrient density — high-protein, low-calorie functional beverages seeing strongest growth in this cohort. Brands reformulating specifically for GLP-1 users.',
-       date:'Jan 5, 2026',url:'https://www.beveragedaily.com/Article/2026/01/05/top-beverage-trends-for-2026/'},
-    ],
-    news_query:'US beverage drink juice launch regulation market 2026 site:foodnavigator.com OR site:beveragedaily.com',
-    trends_text:'Functional RTDs, better-for-you, alcohol-free alternatives. Health-claims permissive regulatory environment vs EU. Growing Hispanic consumer segment reshaping flavour preferences.',
-  },
-
-  germany: {
-    name:'Germany', flag:'🇩🇪',
-    market_size:'~€29B', growth:'~+2%',
-    signal:'warm', signal_text:'Loading…',
-    insight:'German consumers are shifting from traditional fruit juice to functional waters and wellness drinks. Discounters (Aldi, Lidl) gaining private label share in juice — driving premiumisation pressure on branded players. Bio/organic certification is now expected in premium retail. Nutri-Score algorithm was updated Jan 2024 — penalises sugar and sweeteners more heavily.',
-    market_stats:[
-      {label:'Total Beverages (est.)',val:'~€29B',chg:'~+2%',dir:'up',src:'Statista DE 2024'},
-      {label:'Soft Drinks',val:'~€8B',chg:'~+2%',dir:'up',src:'Statista DE 2024'},
-      {label:'Fruit Juice',val:'~€3B',chg:'~-4%',dir:'dn',src:'ZMP/AMI 2024'},
-      {label:'Functional Water',val:'~€2.8B',chg:'~+14%',dir:'up',src:'Euromonitor est. 2024'},
-      {label:'Energy Drinks',val:'~€1.9B',chg:'~+6%',dir:'up',src:'Statista DE 2024'},
-      {label:'Organic Beverage',val:'~€1.4B',chg:'~+9%',dir:'up',src:'BÖLW / AMI 2024'},
-    ],
-    stats_disclaimer:'Estimates from Statista DE, ZMP/AMI, BÖLW, Euromonitor (2024). Order-of-magnitude guidance only.',
-    regulatory:[
-      {flag:'🇪🇺',status:'ACTIVE',title:'EU PPWR Packaging Regulation — Key provisions Aug 12, 2026',
-       body:'PPWR effective Feb 2025. From Aug 12, 2026: PFAS ban in food-contact packaging. By 2030: all packaging must be recyclable, 30% PCR content in PET bottles. Deposit-return systems for beverage containers required across EU by 2029.',
-       date:'Feb 2025',url:'https://eur-lex.europa.eu/EN/legal-content/summary/packaging-and-packaging-waste-from-2026.html'},
-      {flag:'🇩🇪',status:'ACTIVE',title:'Nutri-Score v2: Stricter algorithm penalises sugar, salt, sweeteners',
-       body:'Updated Nutri-Score algorithm in force from Jan 2024 in Germany, Belgium, Netherlands and Switzerland. Penalises high sugar, salt and sweeteners more heavily. Promotes protein and healthy fats. High-sugar juices and sweetened drinks score D or E — impacting shelf placement decisions.',
-       date:'Jan 2024',url:'https://www.foodnavigator.com/Article/2025/03/04/has-the-european-commission-abandoned-nutriscore/'},
-      {flag:'🇪🇺',status:'WATCH',title:'EU proposed HFSS levy on high-sugar foods and alcopops — industry opposing',
-       body:'EU Cardiovascular Health Plan draft proposes EU-wide taxes on HFSS products and alcopops. FoodDrinkEurope: "Science-based policy is dead." If enacted, would raise cost on energy drinks and high-sugar juices across all EU markets including Germany.',
-       date:'Jan 27, 2026',url:'https://www.just-drinks.com/news/industry-hits-out-at-report-of-eu-mulling-food-alcopops-health-tax/'},
-    ],
-    news_query:'Germany beverage drink juice launch market regulation 2026 site:foodnavigator.com OR site:beveragedaily.com',
-    trends_text:'Sustainability, organic certification, reduced sugar, local provenance. German consumers most price-sensitive in Western Europe — premiumisation requires strong storytelling.',
-  },
-
-  france: {
-    name:'France', flag:'🇫🇷',
-    market_size:'~€22B', growth:'~+2%',
-    signal:'warm', signal_text:'Loading…',
-    insight:'French market rewards provenance and naturalness above all else. NFC juice and organic sparkling water growing. "Made in France" claims command a price premium. France operates a tiered sugar tax on beverages. Nutri-Score remains voluntary (mandatory EU labelling was abandoned). Bioéquitable and organic certifications increasingly required by Carrefour and Leclerc.',
-    market_stats:[
-      {label:'Total Beverages (est.)',val:'~€22B',chg:'~+2%',dir:'up',src:'FranceAgriMer 2024'},
-      {label:'Soft Drinks',val:'~€7B',chg:'~+2%',dir:'up',src:'Statista FR 2024'},
-      {label:'Fruit Juice/Nectar',val:'~€2.6B',chg:'~-1%',dir:'dn',src:'FranceAgriMer 2024'},
-      {label:'Premium NFC Juice',val:'~€0.9B',chg:'~+7%',dir:'up',src:'Industry est. 2024'},
-      {label:'Sparkling Water',val:'~€3B',chg:'~+5%',dir:'up',src:'Statista FR 2024'},
-      {label:'Organic Beverages',val:'~€1.8B',chg:'~+11%',dir:'up',src:'Agence Bio 2024'},
-    ],
-    stats_disclaimer:'Estimates from FranceAgriMer, Statista FR, Agence Bio (2024). Order-of-magnitude guidance only.',
-    regulatory:[
-      {flag:'🇫🇷',status:'ACTIVE',title:'France tiered SSB sugar tax — rates stable through 2026',
-       body:'France applies a tiered tax on sugar-sweetened beverages. Beverages above sugar thresholds pay higher rates. Rates unchanged 2024–2026. Tax incentivises reformulation — many brands have reduced sugar content to fall below the taxable threshold. Applies to imported products sold in France.',
-       date:'2026',url:'https://www.eurotax.fr/en/sugar-taxes-in-the-european-union/'},
-      {flag:'🇫🇷',status:'ACTIVE',title:'Nutri-Score voluntary in France — EU mandatory labelling abandoned',
-       body:'EU Commission abandoned mandatory EU-wide Nutri-Score after political deadlock. France continues with voluntary Nutri-Score — one of 8 countries in the COEN group. Updated v2 algorithm (stricter on sugar, sweeteners) recommended. High-sugar juices typically score D or E and face retail de-listing pressure.',
-       date:'Mar 2025',url:'https://www.foodnavigator.com/Article/2025/03/04/has-the-european-commission-abandoned-nutriscore/'},
-      {flag:'🇪🇺',status:'WATCH',title:'EU HFSS levy proposal — double-taxation risk for France',
-       body:'EU-wide HFSS levy on high-sugar products and alcopops proposed in draft Cardiovascular Health Plan. If enacted, would add a second layer of cost on top of France\'s existing tiered sugar tax — double-taxation risk for brands that have not reformulated to low-sugar.',
-       date:'Jan 27, 2026',url:'https://www.just-drinks.com/news/industry-hits-out-at-report-of-eu-mulling-food-alcopops-health-tax/'},
-    ],
-    news_query:'France beverage juice drink launch market regulation 2026 site:foodnavigator.com OR site:beveragedaily.com',
-    trends_text:'Provenance, naturalness, organic, "Made in France". Premium NFC juice outperforming mass. French retailers (Carrefour, Leclerc) demanding organic and short ingredient lists.',
-  },
-
-  spain: {
-    name:'Spain', flag:'🇪🇸',
-    market_size:'~€12B', growth:'~+3%',
-    signal:'warm', signal_text:'Loading…',
-    insight:'Spain is recovering strongly post-COVID in Horeca. Energy drinks are the fastest growing segment. Valencia orange juice enjoys strong provenance premium. Catalonia operates a tiered sugar tax. Spanish consumers are highly price-sensitive in mass retail but pay premium for local provenance brands. On-trade (Horeca) is the key channel for premium beverages.',
-    market_stats:[
-      {label:'Total Beverages (est.)',val:'~€12B',chg:'~+3%',dir:'up',src:'Statista ES 2024'},
-      {label:'Soft Drinks',val:'~€5B',chg:'~+3%',dir:'up',src:'Statista ES 2024'},
-      {label:'Fruit Juice',val:'~€1.4B',chg:'~-2%',dir:'dn',src:'MAPA ES 2024'},
-      {label:'Energy Drinks',val:'~€0.8B',chg:'~+10%',dir:'up',src:'Statista ES 2024'},
-      {label:'Premium/Organic Juice',val:'~€0.38B',chg:'~+8%',dir:'up',src:'Industry est. 2024'},
-      {label:'Functional Water',val:'~€0.44B',chg:'~+22%',dir:'up',src:'Industry est. 2024'},
-    ],
-    stats_disclaimer:'Estimates from Statista ES, MAPA (Ministry of Agriculture Spain), industry sources (2024). Order-of-magnitude guidance only.',
-    regulatory:[
-      {flag:'🇪🇸',status:'ACTIVE',title:'Catalonia tiered sugar tax on packaged beverages — active enforcement',
-       body:'Catalonia imposes a tiered tax on packaged sugary drinks at distributor level. Concentrated syrups and powders taxed on the reconstituted final drink volume. Enforcement is active — directly relevant for concentrate and syrup importers supplying Catalan distributors.',
-       date:'2026',url:'https://www.eurotax.fr/en/sugar-taxes-in-the-european-union/'},
-      {flag:'🇪🇺',status:'ACTIVE',title:'EU PPWR: deposit-return systems required across Spain by 2029',
-       body:'EU Packaging and Packaging Waste Regulation requires 90% separate collection of single-use plastic and metal beverage containers via deposit-return systems by 2029. Spain must establish compliant DRS. By 2030, all packaging must be recyclable with 30% PCR content in PET bottles.',
-       date:'Feb 2025',url:'https://eur-lex.europa.eu/EN/legal-content/summary/packaging-and-packaging-waste-from-2026.html'},
-      {flag:'🇪🇺',status:'WATCH',title:'EU HFSS levy would compound Catalonia\'s existing sugar tax',
-       body:'Proposed EU-wide levy on HFSS products would layer on top of Catalonia\'s existing tiered sugar tax. Combined impact on high-sugar beverage margins significant. FoodDrinkEurope opposing — outcome expected H2 2026. Brands should model worst-case double-tax scenario.',
-       date:'Jan 27, 2026',url:'https://www.just-drinks.com/news/industry-hits-out-at-report-of-eu-mulling-food-alcopops-health-tax/'},
-    ],
-    news_query:'Spain beverage juice drink launch market regulation 2026 site:foodnavigator.com OR site:beveragedaily.com',
-    trends_text:'Horeca recovery, Valencia orange provenance, summer season dependency. Energy drinks fastest growing. Discounters dominate volume but premium on-trade is highest value channel.',
-  },
-
-  italy: {
-    name:'Italy', flag:'🇮🇹',
-    market_size:'~€18B', growth:'~+3%',
-    signal:'stable', signal_text:'Loading…',
-    insight:'Italy\'s beverage market is defined by the aperitivo culture — a major opportunity for premium juice and mixer formats. Campari, Aperol and Martini continue driving interest in high-quality fruit ingredients. Organic and Sicilian provenance claims are very strong in retail. Italy has a sugar tax approved but repeatedly delayed — now expected 2026, rates not yet confirmed.',
-    market_stats:[
-      {label:'Total Beverages (est.)',val:'~€18B',chg:'~+3%',dir:'up',src:'Statista IT 2024'},
-      {label:'Soft Drinks',val:'~€6B',chg:'~+3%',dir:'up',src:'Statista IT 2024'},
-      {label:'Fruit Juice/Nectar',val:'~€1.6B',chg:'~-1%',dir:'dn',src:'Assobibe / ANCIT 2024'},
-      {label:'Mixer/Aperitivo',val:'~€1.2B',chg:'~+14%',dir:'up',src:'Assobibe 2024'},
-      {label:'Sparkling Water',val:'~€2.9B',chg:'~+2%',dir:'up',src:'Statista IT 2024'},
-      {label:'Premium/Organic Juice',val:'~€0.48B',chg:'~+9%',dir:'up',src:'Industry est. 2024'},
-    ],
-    stats_disclaimer:'Estimates from Statista IT, Assobibe, ANCIT, industry sources (2024). Order-of-magnitude guidance only.',
-    regulatory:[
-      {flag:'🇮🇹',status:'WATCH',title:'Italy sugar tax: repeatedly delayed, now expected 2026 — rates TBD',
-       body:'Italy approved a sugar tax on sweetened beverages but enforcement has been delayed multiple times. Now expected to take effect during 2026, but tax rates are not yet confirmed. Monitor for official gazette publication. Energy drinks and high-sugar juices most exposed.',
-       date:'2026',url:'https://www.eurotax.fr/en/sugar-taxes-in-the-european-union/'},
-      {flag:'🇪🇺',status:'WATCH',title:'EU HFSS levy — would create double-tax risk on top of Italy\'s sugar tax',
-       body:'If EU-wide HFSS levy is enacted alongside Italy\'s pending domestic sugar tax, Italian market faces double cost pressure on energy drinks and high-sugar juices. FoodDrinkEurope strongly opposing the EU proposal. Decision expected H2 2026.',
-       date:'Jan 27, 2026',url:'https://www.just-drinks.com/news/industry-hits-out-at-report-of-eu-mulling-food-alcopops-health-tax/'},
-      {flag:'🇪🇺',status:'ACTIVE',title:'EU PPWR: PFAS ban in food-contact packaging from Aug 12, 2026',
-       body:'From Aug 12, 2026: PFAS ban in food-contact packaging applies across Italy and all EU markets. By 2030: all packaging recyclable, 30% PCR content required in PET bottles. Deposit-return systems required by 2029.',
-       date:'Feb 2025',url:'https://eur-lex.europa.eu/EN/legal-content/summary/packaging-and-packaging-waste-from-2026.html'},
-    ],
-    news_query:'Italy beverage juice drink launch market regulation 2026 site:foodnavigator.com OR site:beveragedaily.com',
-    trends_text:'Aperitivo culture, Sicilian provenance, organic, premium sparkling. Italian market rewards authenticity and origin stories more than almost any other EU market.',
-  },
-
-  austria: {
-    name:'Austria', flag:'🇦🇹',
-    market_size:'~€5B', growth:'~+2%',
-    signal:'stable', signal_text:'Loading…',
-    insight:'Austria punches well above its weight in beverage innovation — home of Red Bull. Organic penetration in juice is highest in the DACH region. Bio Supermarkt chains (Denn\'s, Alnatura) are key premium channels. Austria\'s Pfand deposit system for PET and cans is rolling out — packaging compliance required. Sugar tax is under political consideration but not yet enacted.',
-    market_stats:[
-      {label:'Total Beverages (est.)',val:'~€5B',chg:'~+2%',dir:'up',src:'WKO Austria 2024'},
-      {label:'Soft Drinks',val:'~€1.4B',chg:'~+3%',dir:'up',src:'Statista AT 2024'},
-      {label:'Energy Drinks',val:'~€0.7B',chg:'~+4%',dir:'up',src:'Statista AT 2024'},
-      {label:'Fruit Juice',val:'~€0.42B',chg:'~-2%',dir:'dn',src:'AMA / LKÖ 2024'},
-      {label:'Organic Juice',val:'~€0.14B',chg:'~+9%',dir:'up',src:'Bio Austria / AMA 2024'},
-      {label:'Functional Water',val:'~€0.29B',chg:'~+16%',dir:'up',src:'Industry est. 2024'},
-    ],
-    stats_disclaimer:'Estimates from WKO Austria, Statista AT, AMA, Bio Austria (2024). Order-of-magnitude guidance only.',
-    regulatory:[
-      {flag:'🇦🇹',status:'ACTIVE',title:'Austrian Pfand deposit system for PET bottles and cans — rolling out',
-       body:'Austria\'s deposit-return system for PET bottles and aluminium cans is rolling out. Compliance required for all beverage suppliers. EU PPWR additionally requires EU-wide DRS by 2029 — Austria is ahead of the curve. Packaging must be Pfand-compliant for Austrian retail.',
-       date:'2025',url:'https://eur-lex.europa.eu/EN/legal-content/summary/packaging-and-packaging-waste-from-2026.html'},
-      {flag:'🇦🇹',status:'WATCH',title:'Austria sugar tax under political consideration — no decision yet',
-       body:'Austria is actively considering a sugar tax on sweetened beverages, watching models from Lithuania (€7.4–€21/hl tiered, 2026) and Estonia (2026). No formal decision yet — H2 2026 is when political clarity is expected. Energy drinks and high-sugar juice most exposed if enacted.',
-       date:'2026',url:'https://www.eurotax.fr/en/sugar-taxes-in-the-european-union/'},
-      {flag:'🇪🇺',status:'WATCH',title:'EU HFSS levy — Red Bull and Austrian energy drink exports at risk',
-       body:'Proposed EU-wide levy on alcopops and HFSS drinks would directly impact Austria\'s Red Bull — the world\'s largest energy drink brand by volume. If enacted, would impose significant cost pressure on Austria\'s highest-value beverage export category.',
-       date:'Jan 27, 2026',url:'https://www.just-drinks.com/news/industry-hits-out-at-report-of-eu-mulling-food-alcopops-health-tax/'},
-    ],
-    news_query:'Austria DACH beverage juice drink launch market 2026 site:foodnavigator.com OR site:beveragedaily.com',
-    trends_text:'Organic leadership, health-conscious consumers, Red Bull culture of functional innovation. Small market but high-value — premium pricing achievable with right positioning.',
-  },
+const REGION_META = {
+  usa:     { name:'United States', flag:'🇺🇸' },
+  germany: { name:'Germany',       flag:'🇩🇪' },
+  france:  { name:'France',        flag:'🇫🇷' },
+  spain:   { name:'Spain',         flag:'🇪🇸' },
+  italy:   { name:'Italy',         flag:'🇮🇹' },
+  austria: { name:'Austria',       flag:'🇦🇹' },
 };
 
+const CAT_LABELS = {
+  all:'All', launch:'Launches', innovation:'Innovation', regulatory:'Regulatory',
+  pricing:'Pricing', competitor:'Competitor', supply_chain:'Supply Chain',
+  retail:'Retail', trend:'Trends', macro:'Macro',
+};
 
-// ══════════════════════════════════════════════════
-//  TAB SWITCHING
-// ══════════════════════════════════════════════════
+// ═══════════════════════════════════════════════
+// FETCH DATA
+// ═══════════════════════════════════════════════
+async function loadJSON(file) {
+  try {
+    const r = await fetch(file + '?_=' + Date.now(), { signal: AbortSignal.timeout(8000) });
+    if (!r.ok) throw new Error(`${r.status}`);
+    return await r.json();
+  } catch(e) { console.warn(`Failed: ${file}`, e); return null; }
+}
+
+async function loadAllData() {
+  [DATA.news, DATA.briefings, DATA.stats, DATA.health] = await Promise.all([
+    loadJSON('sales_news.json'),
+    loadJSON('sales_briefings.json'),
+    loadJSON('market_stats.json'),
+    loadJSON('data_health.json'),
+  ]);
+  renderDataBar();
+  renderTabs();
+  renderGlobal();
+}
+
+// ═══════════════════════════════════════════════
+// DATA STATUS BAR
+// ═══════════════════════════════════════════════
+function renderDataBar() {
+  const dot = document.getElementById('status-dot');
+  const status = document.getElementById('data-status');
+  const toggle = document.getElementById('errors-toggle');
+  const errPanel = document.getElementById('errors-panel');
+
+  if (!DATA.health) {
+    dot.className = 'status-dot error';
+    status.textContent = 'Pipeline data not available — run GitHub Actions workflow';
+    return;
+  }
+
+  const h = DATA.health;
+  const genAt = new Date(h.generated_at);
+  const ageH = ((Date.now() - genAt.getTime()) / 3600000).toFixed(1);
+  const allOk = Object.values(h.regions).every(r => r.status === 'ok');
+  const hasErr = Object.values(h.regions).some(r => r.status === 'error');
+
+  dot.className = `status-dot ${hasErr ? 'error' : allOk ? 'ok' : 'warning'}`;
+  status.textContent = `Data updated: ${genAt.toLocaleString()} (${ageH}h ago) · Window: ${DATA.news?.window_days || 28} days · Items: ${h.global.total_items} · Sources: ${h.global.total_sources_ok} OK / ${h.global.total_sources_failed} failed`;
+
+  // Show errors if any
+  const errs = DATA.news?.meta?.errors || [];
+  const regionNotes = Object.entries(h.regions).filter(([_,v]) => v.notes.length > 0);
+  if (errs.length > 0 || regionNotes.length > 0) {
+    toggle.style.display = 'inline';
+    let html = '';
+    regionNotes.forEach(([rid, v]) => {
+      v.notes.forEach(n => { html += `<div>${REGION_META[rid]?.flag||''} ${rid}: ${n}</div>`; });
+    });
+    errs.slice(0, 10).forEach(e => { html += `<div>⚠ ${e.source}: ${e.error.slice(0,80)}</div>`; });
+    errPanel.innerHTML = html;
+  }
+}
+
+// ═══════════════════════════════════════════════
+// TABS
+// ═══════════════════════════════════════════════
+let currentTab = 'global';
+
+function renderTabs() {
+  const nav = document.getElementById('region-nav');
+  const counts = DATA.news?.meta?.counts || {};
+  let html = `<div class="region-tab active" data-region="global" onclick="switchTab('global')">🌍 Global Overview</div>`;
+  for (const [rid, meta] of Object.entries(REGION_META)) {
+    const cnt = counts[rid] || 0;
+    html += `<div class="region-tab" data-region="${rid}" onclick="switchTab('${rid}')">
+      <span>${meta.flag}</span> ${meta.name}
+      <span class="count" id="cnt-${rid}">${cnt}</span>
+    </div>`;
+  }
+  nav.innerHTML = html;
+}
+
 function switchTab(regionId) {
-  document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
+  currentTab = regionId;
+  document.querySelectorAll('.region-tab').forEach(t => t.classList.toggle('active', t.dataset.region === regionId));
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  document.querySelector(`[data-region="${regionId}"]`).classList.add('active');
   const panel = document.getElementById(`panel-${regionId}`);
   panel.classList.add('active');
-  if (regionId !== 'global' && !panel.dataset.rendered) {
-    renderRegionPanel(regionId);
+  if (regionId === 'global') {
+    renderGlobal();
+  } else if (!panel.dataset.rendered) {
+    renderRegion(regionId);
     panel.dataset.rendered = '1';
   }
 }
 
-
-// ══════════════════════════════════════════════════
-//  ANTHROPIC API — LIVE NEWS FETCH
-//  Uses web_search tool to find real, current articles
-//  specific to each region/market.
-// ══════════════════════════════════════════════════
-async function fetchLiveNews(regionId) {
-  const r = REGIONS[regionId];
-  const today = new Date().toLocaleDateString('en-GB', {day:'numeric',month:'long',year:'numeric'});
-
-  const systemPrompt = `You are a beverage industry analyst assistant. Search for and return recent news articles (last 4 weeks) about the beverage market in ${r.name}. Return ONLY a JSON array — no markdown, no preamble, no backticks. Each item must have: headline (string), summary (string, 2 sentences max), url (string, real working URL), date (string, e.g. "Feb 14, 2026"), cat (one of: launch|trend|regulation|market|pricing), source (publication name). Return between 4 and 8 articles. Only include articles genuinely relevant to ${r.name} — not generic global articles or articles about other countries. Today is ${today}.`;
-
-  const userPrompt = `Search for: ${r.news_query}. Find 4-8 real, recent beverage industry articles specifically relevant to ${r.name}. Focus on: local launches, local regulatory changes, market moves, consumer trends IN ${r.name}. Return only JSON array.`;
-
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        system: systemPrompt,
-        tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-        messages: [{ role: 'user', content: userPrompt }]
-      })
-    });
-
-    if (!res.ok) throw new Error(`API ${res.status}`);
-    const data = await res.json();
-
-    // Extract text from content blocks (skip tool_use blocks)
-    const text = data.content
-      .filter(b => b.type === 'text')
-      .map(b => b.text)
-      .join('');
-
-    // Parse JSON — strip any markdown fences if present
-    const clean = text.replace(/```json|```/g, '').trim();
-    const articles = JSON.parse(clean);
-
-    if (!Array.isArray(articles)) throw new Error('Not array');
-    return articles;
-
-  } catch (err) {
-    console.error('Live news fetch failed:', err);
-    return null;  // caller handles fallback
-  }
+// ═══════════════════════════════════════════════
+// MARKET STAT POPOVER
+// ═══════════════════════════════════════════════
+function statPopover(stat) {
+  if (!stat) return '';
+  const srcs = (stat.sources || []).map(s => `<a href="${s.url}" target="_blank" style="color:var(--accent);">${s.name}</a>`).join(', ');
+  return `<span class="info-popover"><span class="rc-stat-info" title="Click for details">ℹ️</span>
+    <span class="pop-content">
+      Method: ${stat.method || '?'}<br>
+      Year: ${stat.year || '?'}<br>
+      Sources: ${srcs || 'n/a'}<br>
+      Verified: ${stat.last_verified || '?'}<br>
+      Confidence: ${stat.confidence || '?'}<br>
+      ${stat.notes || ''}
+    </span></span>`;
 }
 
-
-// ══════════════════════════════════════════════════
-//  RENDER REGION PANEL
-// ══════════════════════════════════════════════════
-function renderRegionPanel(regionId) {
-  const r = REGIONS[regionId];
-  const panel = document.getElementById(`panel-${regionId}`);
-
-  // Market stats — with source annotations
-  const statsHtml = r.market_stats.map(s => `
-    <div class="trend-stat">
-      <div class="trend-stat-val">${s.val}</div>
-      <div class="trend-stat-lbl">${s.label}</div>
-      <div class="trend-stat-chg ${s.dir}">${s.chg} YoY</div>
-      <div style="font-family:var(--font-mono);font-size:0.48rem;color:var(--text-light);margin-top:3px;">${s.src}</div>
-    </div>`).join('');
-
-  // Regulatory items — with clickable source links
-  const regHtml = r.regulatory.map(reg => `
-    <div class="reg-item">
-      <div class="reg-header">
-        <span class="reg-flag">${reg.flag}</span>
-        <span class="reg-title">${reg.title}</span>
-        <span class="reg-status status-${reg.status}">${reg.status.toUpperCase()}</span>
-      </div>
-      <div class="reg-body">${reg.body}</div>
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px;">
-        <div class="reg-date">📅 ${reg.date}</div>
-        ${reg.url ? `<a href="${reg.url}" target="_blank" rel="noopener" class="news-link" style="font-size:0.65rem;">Source →</a>` : ''}
-      </div>
-    </div>`).join('');
-
-  // Skeleton while news loads
-  const skeletonHtml = `
-    <div class="loading"><div class="spinner"></div>Fetching live ${r.name} market intelligence…</div>`;
-
-  panel.innerHTML = `
-    <div class="insight-box">
-      <div class="insight-label">${r.flag} ${r.name} Market Intelligence</div>
-      <div class="insight-text">${r.insight}</div>
-      <div class="insight-source">⚠️ Market figures are order-of-magnitude estimates for sales context only. ${r.stats_disclaimer}</div>
-    </div>
-
-    <div class="intel-grid">
-      <!-- Market size panel -->
-      <div class="panel">
-        <div class="panel-hd">
-          <div class="panel-title">📊 Market Size Estimates</div>
-          <span class="panel-badge badge-trends">Indicative — see sources</span>
-        </div>
-        <div class="panel-body">
-          <div style="display:flex;gap:16px;margin-bottom:16px;padding:14px;background:var(--offwhite);border-radius:8px;">
-            <div style="text-align:center;flex:1;">
-              <div style="font-family:var(--font-display);font-size:1.8rem;color:var(--navy)">${r.market_size}</div>
-              <div style="font-family:var(--font-mono);font-size:0.58rem;color:var(--text-light);text-transform:uppercase;margin-top:3px">Total Market (est.)</div>
-            </div>
-            <div style="text-align:center;flex:1;">
-              <div style="font-family:var(--font-display);font-size:1.8rem;color:var(--green)">${r.growth}</div>
-              <div style="font-family:var(--font-mono);font-size:0.58rem;color:var(--text-light);text-transform:uppercase;margin-top:3px">Growth (est.)</div>
-            </div>
-          </div>
-          <div class="trend-stat-row">${statsHtml}</div>
-          <div style="margin-top:14px;padding:10px 12px;background:#F0FDF4;border-radius:6px;border-left:3px solid var(--green);font-size:0.73rem;color:var(--text-mid);line-height:1.5;">
-            <strong>Key trend:</strong> ${r.trends_text}
-          </div>
-        </div>
-      </div>
-
-      <!-- Regulatory panel -->
-      <div class="panel">
-        <div class="panel-hd">
-          <div class="panel-title">⚖️ Regulatory Updates</div>
-          <span class="panel-badge badge-regulatory">Active + Watch · Sourced</span>
-        </div>
-        <div class="panel-body">${regHtml}</div>
-      </div>
-
-      <!-- Live News panel -->
-      <div class="panel" style="grid-column:1/-1;">
-        <div class="panel-hd">
-          <div class="panel-title">📰 Live Market Intelligence — ${r.name}</div>
-          <span class="panel-badge badge-launches">AI-fetched · Last 4 weeks</span>
-        </div>
-        <div class="panel-body">
-          <div class="news-list" id="news-${regionId}">${skeletonHtml}</div>
-        </div>
-      </div>
-    </div>`;
-
-  // Now fetch live news asynchronously and inject when ready
-  fetchLiveNews(regionId).then(articles => {
-    const container = document.getElementById(`news-${regionId}`);
-    if (!container) return;
-
-    if (!articles || articles.length === 0) {
-      container.innerHTML = `<div style="padding:20px;text-align:center;color:var(--text-light);font-size:0.8rem;">
-        Could not fetch live news. Check network connection and try refreshing.<br>
-        <button onclick="refetchNews('${regionId}')" style="margin-top:12px;padding:6px 16px;background:var(--accent);border:none;border-radius:4px;cursor:pointer;font-size:0.75rem;color:var(--navy);font-weight:700;">Retry</button>
-      </div>`;
-      return;
-    }
-
-    // Update tab count
-    const countEl = document.getElementById(`cnt-${regionId}`);
-    if (countEl) countEl.textContent = articles.length;
-
-    container.innerHTML = articles.map(n => {
-      const catClass = {launch:'cat-launch',trend:'cat-trend',pricing:'cat-pricing',regulation:'cat-regulation',market:'cat-market'}[n.cat] || 'cat-market';
-      return `<div class="news-item high" data-cat="${n.cat}">
-        <div class="news-meta">
-          <span class="news-cat ${catClass}">${n.cat || 'news'}</span>
-          <span class="news-source">${n.source || ''}</span>
-          <span class="news-date">${n.date || ''}</span>
-        </div>
-        <div class="news-headline">${n.headline}</div>
-        <div class="news-summary">${n.summary}</div>
-        ${n.url ? `<a href="${n.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>` : ''}
-      </div>`;
-    }).join('');
-  });
+function formatMarketSize(stat) {
+  if (!stat) return '—';
+  const sym = stat.unit === 'USD_B' ? '$' : '€';
+  return `~${sym}${stat.value}B`;
 }
 
-// Refetch news (for retry button)
-function refetchNews(regionId) {
-  const container = document.getElementById(`news-${regionId}`);
-  if (container) container.innerHTML = `<div class="loading"><div class="spinner"></div>Retrying live fetch…</div>`;
-  fetchLiveNews(regionId).then(articles => {
-    if (!articles || articles.length === 0) {
-      container.innerHTML = `<div style="padding:20px;text-align:center;color:var(--text-light);">Still unable to fetch news. Please check your connection.</div>`;
-      return;
-    }
-    const countEl = document.getElementById(`cnt-${regionId}`);
-    if (countEl) countEl.textContent = articles.length;
-    container.innerHTML = articles.map(n => {
-      const catClass = {launch:'cat-launch',trend:'cat-trend',pricing:'cat-pricing',regulation:'cat-regulation',market:'cat-market'}[n.cat] || 'cat-market';
-      return `<div class="news-item high" data-cat="${n.cat}">
-        <div class="news-meta">
-          <span class="news-cat ${catClass}">${n.cat || 'news'}</span>
-          <span class="news-source">${n.source || ''}</span>
-          <span class="news-date">${n.date || ''}</span>
-        </div>
-        <div class="news-headline">${n.headline}</div>
-        <div class="news-summary">${n.summary}</div>
-        ${n.url ? `<a href="${n.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>` : ''}
-      </div>`;
-    }).join('');
-  });
+function formatGrowth(stat) {
+  if (!stat) return '—';
+  return `~+${stat.value}%`;
 }
 
-
-// ══════════════════════════════════════════════════
-//  NEWS ITEM HTML (for global overview)
-// ══════════════════════════════════════════════════
-function newsItemHtml(n, regionTags='') {
-  const catClass = {launch:'cat-launch',trend:'cat-trend',pricing:'cat-pricing',regulation:'cat-regulation',market:'cat-market'}[n.cat] || 'cat-market';
-  return `<div class="news-item high" data-cat="${n.cat}">
+// ═══════════════════════════════════════════════
+// NEWS ITEM HTML
+// ═══════════════════════════════════════════════
+function newsHtml(n) {
+  const catCls = `cat-${n.category || 'trend'}`;
+  const confCls = `conf-${n.confidence || 'medium'}`;
+  const date = n.published ? new Date(n.published).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}) : '';
+  const tags = (n.product_tags || []).map(t => `<span class="news-tag">${t}</span>`).join('');
+  return `<div class="news-item" data-cat="${n.category}">
     <div class="news-meta">
-      <span class="news-cat ${catClass}">${n.cat}</span>
-      ${regionTags}
-      <span class="news-source">${n.source}</span>
-      <span class="news-date">${n.date}</span>
+      <span class="news-cat ${catCls}">${n.category || 'news'}</span>
+      <span class="news-conf ${confCls}">${n.confidence || ''}</span>
+      <span class="news-source">${n.source || ''}</span>
+      <span class="news-date">${date}</span>
     </div>
-    <div class="news-headline">${n.headline}</div>
-    <div class="news-summary">${n.summary}</div>
-    <a href="${n.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>
+    <div class="news-headline">${n.title || ''}</div>
+    <div class="news-summary">${n.summary || ''}</div>
+    ${n.why_it_matters ? `<div class="news-why">💡 ${n.why_it_matters}</div>` : ''}
+    ${tags ? `<div class="news-tags">${tags}</div>` : ''}
+    ${n.url ? `<a href="${n.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>` : ''}
   </div>`;
 }
 
+// ═══════════════════════════════════════════════
+// GLOBAL OVERVIEW
+// ═══════════════════════════════════════════════
+function renderGlobal() {
+  const panel = document.getElementById('panel-global');
 
-// ══════════════════════════════════════════════════
-//  GLOBAL OVERVIEW
-// ══════════════════════════════════════════════════
+  // Morning briefing
+  const briefingText = DATA.briefings
+    ? `Tracked intelligence across ${Object.keys(DATA.briefings.regions).length} regions. ${Object.entries(DATA.briefings.regions).map(([rid, b]) => {
+        const s = b.signals?.[0];
+        return s ? `${REGION_META[rid]?.name || rid}: ${s.signal.toLowerCase()}` : '';
+      }).filter(Boolean).slice(0,3).join('. ')}.`
+    : 'Briefing data not yet available — run the pipeline.';
 
-// Master curated article list for global tab only
-// These are real verified articles from the last 4 weeks
-const GLOBAL_ARTICLES = [
-  {priority:'high',cat:'trend',source:'FoodNavigator',date:'Feb 17, 2026',
-   headline:'Functional beverages: 61% of consumers have never tried one — price is #1 barrier',
-   summary:'Mainstream breakthrough remains elusive despite strong brand awareness. 32% say functional drinks are too expensive. Sleep and gut health are the most desired benefits.',
-   url:'https://www.foodnavigator.com/Article/2026/02/17/functional-beverages-how-big-is-mainstream-potential/',
-   regions:['germany','france','spain','italy','austria']},
-  {priority:'high',cat:'launch',source:'BeverageDaily',date:'Feb 13, 2026',
-   headline:'Tenzing debuts Lion\'s Mane energy in 700 Tesco stores; Bolle launches alcohol-free Burgundy Chardonnay',
-   summary:'Tenzing\'s first functional cognitive energy SKU at £2.99/500ml rolling across Tesco. Bolle\'s twice-fermented AOP Burgundy Chardonnay positions alcohol-free wine as a premium category step-change.',
-   url:'https://www.beveragedaily.com/Article/2026/02/13/new-drinks-launches-spotlight-functionality-and-flavour/',
-   regions:['germany','france','austria']},
-  {priority:'high',cat:'launch',source:'BeverageDaily',date:'Feb 6, 2026',
-   headline:'Coca-Cola Cherry Float launches US, Canada and UK; Rockstar Punched Blackberry hits West Coast',
-   summary:'Cherry Float (cherry + vanilla, soda fountain inspired) is Coca-Cola\'s Cherry portfolio expansion rolling from February. Rockstar Blackberry: 160mg caffeine, dark berry fruit-forward targeting rising demand.',
-   url:'https://www.beveragedaily.com/Article/2026/02/06/new-drinks-launches-cocacola-cherry-float/',
-   regions:['usa']},
-  {priority:'medium',cat:'market',source:'FoodNavigator',date:'Feb 2, 2026',
-   headline:'Big Food M&A 2026: Carlsberg-Britvic $4.2bn, Arla-DMK €22bn — premium beverages commanding highest deal premiums',
-   summary:'Carlsberg acquired Britvic strengthening European soft drink distribution. Arla merged with Germany\'s DMK creating Europe\'s largest dairy cooperative. Private equity targeting premium RTD and better-for-you brands.',
-   url:'https://www.foodnavigator.com/Article/2026/02/02/ma-drivers-shaping-big-food-in-2026/',
-   regions:['germany','france','spain','italy','austria']},
-  {priority:'high',cat:'regulation',source:'Just-Drinks',date:'Jan 27, 2026',
-   headline:'EU Cardiovascular Health Plan proposes EU-wide HFSS levy and alcopops tax — FoodDrinkEurope pushes back',
-   summary:'Draft EU plan proposes EU-wide taxes on HFSS foods and alcopops. FoodDrinkEurope condemned the proposal. EU Commission already abandoned mandatory Nutri-Score after years of political deadlock.',
-   url:'https://www.just-drinks.com/news/industry-hits-out-at-report-of-eu-mulling-food-alcopops-health-tax/',
-   regions:['germany','france','spain','italy','austria']},
-  {priority:'medium',cat:'launch',source:'BeverageDaily',date:'Jan 30, 2026',
-   headline:'Absolut x Tabasco spicy vodka launches across 50+ markets in February 2026',
-   summary:'Absolut Tabasco at £23/70cl taps rising heat-driven flavour trend — rolling out February across 50+ markets including US, UK and EU. Spicy vodka segment forecast to grow 27% by 2029.',
-   url:'https://www.beveragedaily.com/Article/2026/01/30/new-drinks-launches-tap-flavour-function-and-heat-trends/',
-   regions:['usa','germany','france','spain','italy','austria']},
-  {priority:'medium',cat:'trend',source:'FoodNavigator',date:'Jan 12, 2026',
-   headline:'Premium beverages thrive in tough economy — lipstick effect driving affordable luxury in 2026',
-   summary:'Premium hot chocolate, celebrity-backed spirits and luxury RTDs growing despite cost-of-living pressures. Consumers savouring the story and the artisanship. Shift away from caffeine noted — hot chocolate competing with premium coffee.',
-   url:'https://www.foodnavigator.com/Article/2026/01/12/premium-beverages-bring-affordable-luxury-in-2026/',
-   regions:['usa','france','italy','spain']},
-  {priority:'medium',cat:'regulation',source:'BeverageDaily',date:'Jan 8, 2026',
-   headline:'US 2025-2030 Dietary Guidelines drop specific alcohol limits — "less is better" now the message',
-   summary:'New US Dietary Guidelines removed the specific 2 drinks/day limit for men and 1 for women. Now simply: "consume less alcohol for better health." Non-alc opportunity widening in the US market.',
-   url:'https://www.beveragedaily.com/Article/2026/01/08/us-drinking-guidelines-promote-moderation/',
-   regions:['usa']},
-  {priority:'high',cat:'trend',source:'BeverageDaily',date:'Jan 5, 2026',
-   headline:'Top beverage trends 2026: functional stacking, GLP-1 drinks, no-low alcohol and retailer sustainability mandates',
-   summary:'Consumers want multiple functions per drink. GLP-1 drug users (1 in 10 Americans) reshaping nutrition needs. 71% of European consumers drinking less. Retailers now requiring sustainability credentials as a listing condition.',
-   url:'https://www.beveragedaily.com/Article/2026/01/05/top-beverage-trends-for-2026/',
-   regions:['usa','germany','france','spain','italy','austria']},
-];
+  const genAt = DATA.news?.generated_at ? new Date(DATA.news.generated_at).toLocaleString() : 'unknown';
 
-// ══════════════════════════════════════════════════
-//  MORNING BRIEFING + REGION SIGNALS
-//  Loads pre-generated briefing.json (built by news_fetcher.py
-//  from RSS analysis during GitHub Actions — no API needed)
-// ══════════════════════════════════════════════════
-async function fetchMorningBriefing() {
-  try {
-    const jsonRes = await fetch('briefing.json?_=' + Date.now(), {signal: AbortSignal.timeout(8000)});
-    if (!jsonRes.ok) throw new Error(`HTTP ${jsonRes.status}`);
-    const data = await jsonRes.json();
+  // Region cards
+  let cardsHtml = '';
+  for (const [rid, meta] of Object.entries(REGION_META)) {
+    const mctx = DATA.stats?.regions?.[rid]?.market_context;
+    const ms = mctx?.market_size;
+    const gr = mctx?.growth;
+    const cnt = DATA.news?.meta?.counts?.[rid] || 0;
+    const signal = DATA.briefings?.regions?.[rid]?.signals?.[0]?.signal || 'Monitoring…';
+    const hStatus = DATA.health?.regions?.[rid]?.status || 'ok';
 
-    if (!data.briefing) throw new Error('No briefing text in response');
-
-    // Inject briefing text
-    const briefEl = document.getElementById('brief-text');
-    if (briefEl) briefEl.textContent = data.briefing;
-
-    // Inject source line with timestamp
-    const srcEl = document.getElementById('brief-source');
-    if (srcEl) {
-      const genAt = new Date(data.generated_at);
-      const genTime = genAt.toLocaleTimeString('en-GB', {hour:'2-digit', minute:'2-digit'});
-      const method = data.meta?.method === 'rss-analysis' ? 'RSS analysis' : 'AI-generated';
-      const articleCount = data.meta?.total_articles_analyzed || '?';
-      srcEl.textContent = `Generated via ${method} of ${articleCount} articles · Updated ${data.generated_date} at ${genTime} UTC`;
-    }
-
-    // Apply region signals to cards
-    if (data.signals) {
-      Object.entries(data.signals).forEach(([regionId, signalText]) => {
-        if (REGIONS[regionId]) {
-          REGIONS[regionId].signal_text = signalText;
-        }
-        const cardSignalEl = document.querySelector(`[data-signal-region="${regionId}"]`);
-        if (cardSignalEl) cardSignalEl.textContent = signalText;
-      });
-      renderRegionCards();
-    }
-
-    console.log('Morning briefing loaded from briefing.json');
-
-  } catch (err) {
-    console.error('Morning briefing load failed:', err);
-    const briefEl = document.getElementById('brief-text');
-    if (briefEl) briefEl.textContent = 'Briefing not yet available — waiting for GitHub Actions to generate briefing.json. Run the workflow manually or wait for the next scheduled run.';
-    const srcEl = document.getElementById('brief-source');
-    if (srcEl) srcEl.textContent = 'briefing.json not found · Trigger GitHub Actions workflow to generate';
-
-    // Set fallback signal texts
-    Object.keys(REGIONS).forEach(regionId => {
-      if (REGIONS[regionId].signal_text === 'Loading…') {
-        REGIONS[regionId].signal_text = 'Awaiting first briefing run.';
-      }
-    });
-    renderRegionCards();
-  }
-}
-
-function renderRegionCards() {
-  const cards = Object.entries(REGIONS).map(([id, r]) => `
-    <div class="region-card" onclick="switchTab('${id}')">
+    cardsHtml += `
+    <div class="region-card" onclick="switchTab('${rid}')">
       <div class="region-card-hd">
-        <span class="region-card-flag">${r.flag}</span>
-        <span class="region-card-name">${r.name}</span>
+        <span class="region-card-flag">${meta.flag}</span>
+        <span class="region-card-name">${meta.name}</span>
       </div>
       <div class="region-card-stats">
         <div class="rc-stat">
-          <div class="rc-stat-val">${r.market_size}</div>
+          <div class="rc-stat-val">${formatMarketSize(ms)} ${statPopover(ms)}</div>
           <div class="rc-stat-lbl">Market (est.)</div>
         </div>
         <div class="rc-stat">
-          <div class="rc-stat-val" style="color:${r.growth.includes('+') ? 'var(--green)' : 'var(--red)'}">${r.growth}</div>
+          <div class="rc-stat-val" style="color:var(--green)">${formatGrowth(gr)} ${statPopover(gr)}</div>
           <div class="rc-stat-lbl">Growth (est.)</div>
         </div>
       </div>
-      <div class="region-card-signal signal-${r.signal}">
-        ${r.signal === 'hot' ? '🔥' : r.signal === 'warm' ? '⚡' : '✅'}
-        <span data-signal-region="${id}">${r.signal_text}</span>
+      <div class="region-card-signal" style="background:${hStatus==='error'?'#FFEBEE':hStatus==='warning'?'#FFF8E1':'#E8F5E9'};color:${hStatus==='error'?'#C62828':hStatus==='warning'?'#F57F17':'#2E7D32'}">
+        ${signal} · ${cnt} items
       </div>
-    </div>`).join('');
-  const el = document.getElementById('global-region-cards');
-  if (el) el.innerHTML = cards;
+    </div>`;
+  }
+
+  // Global news (all regions combined, sorted by score)
+  let allNews = [];
+  if (DATA.news?.regions) {
+    for (const [rid, arts] of Object.entries(DATA.news.regions)) {
+      allNews.push(...arts);
+    }
+  }
+  allNews.sort((a,b) => (b.score||0) - (a.score||0));
+  const topNews = allNews.slice(0, 30);
+
+  // Filter buttons
+  const catSet = new Set(topNews.map(n => n.category));
+  let filterHtml = `<button class="cat-btn active" onclick="filterNews('all',this)">All</button>`;
+  for (const cat of Object.keys(CAT_LABELS)) {
+    if (cat !== 'all' && catSet.has(cat)) {
+      filterHtml += `<button class="cat-btn" onclick="filterNews('${cat}',this)">${CAT_LABELS[cat]}</button>`;
+    }
+  }
+
+  panel.innerHTML = `
+    <div class="insight-box">
+      <div class="insight-label">📡 Morning Briefing · ${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</div>
+      <div class="insight-text">${briefingText}</div>
+      <div class="insight-source">Generated via RSS analysis · Updated ${genAt} · No paid APIs</div>
+    </div>
+
+    <div class="global-grid">${cardsHtml}</div>
+
+    <div class="filter-bar">
+      <div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy);">All Markets — Latest Intelligence</div>
+      <div class="cat-filters">${filterHtml}</div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-body">
+        <div class="news-list" id="global-news-list">
+          ${topNews.length ? topNews.map(newsHtml).join('') : '<div style="padding:20px;text-align:center;color:var(--text-light);">No articles yet. Run the pipeline to fetch data.</div>'}
+        </div>
+      </div>
+    </div>`;
 }
 
-function renderGlobalOverview() {
-  // Region cards (also called by fetchMorningBriefing after signals update)
-  renderRegionCards();
-
-  // Global news: deduplicated, sorted newest first, with region tags
-  const regionMeta = Object.fromEntries(
-    Object.entries(REGIONS).map(([id, r]) => [id, {flag: r.flag, name: r.name}])
-  );
-  const sorted = [...GLOBAL_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
-
-  document.getElementById('global-news-list').innerHTML = sorted.map(n => {
-    const regionTags = n.regions.length > 0
-      ? n.regions.map(r => {
-          const meta = regionMeta[r];
-          return meta ? `<span style="font-family:var(--font-mono);font-size:0.55rem;background:var(--offwhite);padding:2px 7px;border-radius:8px;">${meta.flag} ${meta.name}</span>` : '';
-        }).join(' ')
-      : `<span style="font-family:var(--font-mono);font-size:0.55rem;background:var(--offwhite);padding:2px 7px;border-radius:8px;">🌍 Global</span>`;
-    return newsItemHtml(n, regionTags);
-  }).join('');
-
-  // Tab counts from GLOBAL_ARTICLES (approximate — live fetch will update)
-  Object.entries(REGIONS).forEach(([id]) => {
-    const el = document.getElementById(`cnt-${id}`);
-    if (el) el.textContent = '…';
-  });
-}
-
-
-// ══════════════════════════════════════════════════
-//  GLOBAL FILTER
-// ══════════════════════════════════════════════════
-function filterGlobal(cat, btn) {
+function filterNews(cat, btn) {
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  document.querySelectorAll('#global-news-list .news-item').forEach(el => {
+  document.querySelectorAll('#global-news-list .news-item, .region-news-list .news-item').forEach(el => {
     el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
   });
 }
 
+// ═══════════════════════════════════════════════
+// REGION VIEW
+// ═══════════════════════════════════════════════
+function renderRegion(rid) {
+  const panel = document.getElementById(`panel-${rid}`);
+  const meta = REGION_META[rid];
+  const mctx = DATA.stats?.regions?.[rid]?.market_context;
+  const brief = DATA.briefings?.regions?.[rid];
+  const articles = DATA.news?.regions?.[rid] || [];
+  const h = DATA.health?.regions?.[rid];
 
-// ══════════════════════════════════════════════════
-//  LIVE TICKER — Yahoo Finance
-// ══════════════════════════════════════════════════
-async function fetchTicker(symbol) {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d`;
-  const src = `https://corsproxy.io/?${encodeURIComponent(url)}`;
-  const res = await fetch(src, {signal: AbortSignal.timeout(6000)});
-  if (!res.ok) throw new Error();
-  const d = await res.json();
-  const m = d?.chart?.result?.[0]?.meta;
-  if (!m?.regularMarketPrice) throw new Error();
-  const price = m.regularMarketPrice;
-  const prev = m.chartPreviousClose || m.previousClose;
-  const chg = prev ? ((price - prev) / prev * 100) : 0;
-  return {price, chg};
+  // Executive summary
+  const execHtml = (brief?.executive_summary || []).map(s => `
+    <div class="briefing-item">
+      <div class="bi-headline">${s.headline}</div>
+      <div class="bi-detail">${s.detail}</div>
+      <div class="bi-meta"><span class="news-conf conf-${s.confidence}">${s.confidence}</span>
+        ${(s.evidence_urls||[]).map(u => `<a href="${u}" target="_blank" class="bi-link">source</a>`).join(' ')}
+      </div>
+    </div>`).join('') || '<div style="color:var(--text-light);font-size:0.78rem;">No executive summary available yet.</div>';
+
+  // Signals
+  const signalsHtml = (brief?.signals || []).map(s => `
+    <div class="briefing-item">
+      <div class="bi-headline">${s.signal}</div>
+      <div class="bi-detail">${s.explanation}</div>
+      <div class="bi-meta"><span class="news-conf conf-${s.confidence}">${s.confidence}</span> · ${s.support_count} supporting articles</div>
+    </div>`).join('') || '';
+
+  // Talking points
+  const tpHtml = (brief?.talking_points || []).map(tp => `
+    <div class="briefing-item">
+      <div class="bi-headline" style="color:var(--accent);">🎯 ${tp.customer_type.toUpperCase()}</div>
+      <div class="bi-detail">${tp.pitch}</div>
+      <div class="bi-meta">${(tp.supporting_evidence_urls||[]).map(u => `<a href="${u}" target="_blank" class="bi-link">evidence</a>`).join(' ')}</div>
+    </div>`).join('') || '';
+
+  // Actions
+  const actHtml = (brief?.recommended_actions || []).map(a => `
+    <div class="briefing-item" style="border-left:3px solid var(--accent2);">
+      <div class="bi-headline">⚡ ${a.action}</div>
+      <div class="bi-detail">${a.why_now}</div>
+      <div class="bi-meta">${(a.evidence_urls||[]).map(u => `<a href="${u}" target="_blank" class="bi-link">evidence</a>`).join(' ')}</div>
+    </div>`).join('') || '';
+
+  // Key launches
+  const launchHtml = (brief?.key_launches || []).map(l => `
+    <div class="briefing-item">
+      <div class="bi-headline">${l.title}</div>
+      <div class="bi-detail">${l.company} · ${l.product}</div>
+      <div class="bi-meta"><a href="${l.evidence_url}" target="_blank" class="bi-link">source</a> · ${l.date ? new Date(l.date).toLocaleDateString('en-GB',{day:'numeric',month:'short'}) : ''}</div>
+    </div>`).join('') || '<div style="color:var(--text-light);font-size:0.78rem;">No launches tracked yet.</div>';
+
+  // Regulatory
+  const regHtml = (brief?.regulatory_watch || []).map(r => `
+    <div class="briefing-item" style="border-left:3px solid #6A1B9A;">
+      <div class="bi-headline">⚖️ ${r.title}</div>
+      <div class="bi-detail">${r.impact_on_sales}</div>
+      <div class="bi-meta"><a href="${r.evidence_url}" target="_blank" class="bi-link">source</a></div>
+    </div>`).join('') || '<div style="color:var(--text-light);font-size:0.78rem;">No regulatory items tracked.</div>';
+
+  // News filter
+  const catSet = new Set(articles.map(n => n.category));
+  let filterHtml = `<button class="cat-btn active" onclick="filterRegionNews('${rid}','all',this)">All</button>`;
+  for (const cat of Object.keys(CAT_LABELS)) {
+    if (cat !== 'all' && catSet.has(cat)) {
+      filterHtml += `<button class="cat-btn" onclick="filterRegionNews('${rid}','${cat}',this)">${CAT_LABELS[cat]}</button>`;
+    }
+  }
+
+  // Health warning
+  const healthNote = h?.notes?.length ? `<div style="background:#FFF8E1;border-radius:8px;padding:8px 14px;margin-bottom:12px;font-family:var(--font-mono);font-size:0.6rem;color:#F57F17;">⚠ ${h.notes.join(' · ')}</div>` : '';
+
+  panel.innerHTML = `
+    ${healthNote}
+    <div class="insight-box">
+      <div class="insight-label">${meta.flag} ${meta.name} — Sales Intelligence</div>
+      <div class="insight-text">${execHtml}</div>
+      <div class="insight-source">
+        Market: ${formatMarketSize(mctx?.market_size)} ${statPopover(mctx?.market_size)} · Growth: ${formatGrowth(mctx?.growth)} ${statPopover(mctx?.growth)}
+      </div>
+    </div>
+
+    <div style="display:flex;gap:8px;margin-bottom:16px;">
+      <button class="copy-btn" onclick="copyBriefing('${rid}')">📋 Copy Briefing</button>
+    </div>
+
+    <div class="intel-grid">
+      <div>
+        ${signalsHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">📡 Market Signals</div></div><div class="panel-body">${signalsHtml}</div></div>` : ''}
+        <div class="panel"><div class="panel-hd"><div class="panel-title">🚀 Key Launches</div><span class="panel-badge badge-launch">Tracked</span></div><div class="panel-body">${launchHtml}</div></div>
+        <div class="panel"><div class="panel-hd"><div class="panel-title">⚖️ Regulatory Watch</div><span class="panel-badge badge-regulatory">Monitor</span></div><div class="panel-body">${regHtml}</div></div>
+      </div>
+      <div>
+        ${tpHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">🎯 Talking Points</div></div><div class="panel-body">${tpHtml}</div></div>` : ''}
+        ${actHtml ? `<div class="panel"><div class="panel-hd"><div class="panel-title">⚡ Recommended Actions</div><span class="panel-badge badge-action">Sales</span></div><div class="panel-body">${actHtml}</div></div>` : ''}
+      </div>
+    </div>
+
+    <div class="filter-bar" style="margin-top:20px;">
+      <div style="font-family:var(--font-display);font-size:1rem;color:var(--navy);">📰 All ${meta.name} Intelligence (${articles.length})</div>
+      <div class="cat-filters">${filterHtml}</div>
+    </div>
+    <div class="panel">
+      <div class="panel-body">
+        <div class="news-list region-news-list" id="news-${rid}">
+          ${articles.length ? articles.map(newsHtml).join('') : '<div style="padding:20px;text-align:center;color:var(--text-light);">No articles available. Run pipeline.</div>'}
+        </div>
+      </div>
+    </div>`;
 }
 
-function setTicker(valId, chgId, price, chg, decimals=2) {
-  const vEl = document.getElementById(valId);
-  const cEl = document.getElementById(chgId);
-  if (!vEl || !cEl) return;
-  vEl.textContent = price.toFixed(decimals);
-  cEl.textContent = `${chg >= 0 ? '▲' : '▼'} ${Math.abs(chg).toFixed(2)}%`;
-  cEl.className = `ticker-chg ${chg >= 0 ? 'up' : 'dn'}`;
+function filterRegionNews(rid, cat, btn) {
+  btn.parentElement.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll(`#news-${rid} .news-item`).forEach(el => {
+    el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
+  });
 }
 
-async function loadTickers() {
-  const pairs = [
-    {sym:'OJ=F', valId:'t-oj', chgId:'t-oj-c', dec:2},
-    {sym:'SB=F', valId:'t-sb', chgId:'t-sb-c', dec:2},
-    {sym:'EURUSD=X', valId:'t-eur', chgId:'t-eur-c', dec:4},
-    {sym:'GBPEUR=X', valId:'t-gbp', chgId:'t-gbp-c', dec:4},
-    {sym:'ALI=F', valId:'t-al', chgId:'t-al-c', dec:0},
-  ];
-  await Promise.all(pairs.map(async p => {
-    try {
-      const {price, chg} = await fetchTicker(p.sym);
-      setTicker(p.valId, p.chgId, price, chg, p.dec);
-    } catch { /* silent fail */ }
-  }));
+// ═══════════════════════════════════════════════
+// COPY BRIEFING
+// ═══════════════════════════════════════════════
+function copyBriefing(rid) {
+  const b = DATA.briefings?.regions?.[rid];
+  if (!b) { alert('No briefing data available.'); return; }
+  const meta = REGION_META[rid];
+  let text = `📊 ${meta.name} SALES BRIEFING\n${'='.repeat(40)}\n\n`;
+
+  text += `EXECUTIVE SUMMARY\n`;
+  (b.executive_summary || []).forEach(s => { text += `• ${s.headline}\n  ${s.detail}\n\n`; });
+
+  text += `\nTALKING POINTS\n`;
+  (b.talking_points || []).forEach(tp => { text += `🎯 [${tp.customer_type.toUpperCase()}] ${tp.pitch}\n`; });
+
+  text += `\nRECOMMENDED ACTIONS\n`;
+  (b.recommended_actions || []).forEach(a => { text += `⚡ ${a.action} — ${a.why_now}\n`; });
+
+  text += `\n---\nGenerated: ${DATA.briefings.generated_at || 'unknown'}\nSource: Sales Intelligence Pipeline (RSS analysis)\n`;
+
+  navigator.clipboard.writeText(text).then(
+    () => { alert('Briefing copied to clipboard!'); },
+    () => { prompt('Copy this briefing:', text); }
+  );
 }
 
-
-// ══════════════════════════════════════════════════
-//  CLOCK
-// ══════════════════════════════════════════════════
+// ═══════════════════════════════════════════════
+// CLOCK
+// ═══════════════════════════════════════════════
 function updateClock() {
   const now = new Date();
-  document.getElementById('clock').textContent =
-    now.toLocaleDateString('en-DE', {weekday:'short',day:'numeric',month:'short'}) + ' · ' +
-    now.toLocaleTimeString('de-DE');
-  document.getElementById('brief-date').textContent =
-    now.toLocaleDateString('en-GB', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  const el = document.getElementById('clock');
+  if (el) el.textContent = now.toLocaleDateString('en-DE',{weekday:'short',day:'numeric',month:'short'}) + ' · ' + now.toLocaleTimeString('de-DE');
 }
 
-
-// ══════════════════════════════════════════════════
-//  INIT
-// ══════════════════════════════════════════════════
-renderGlobalOverview();
-fetchMorningBriefing();  // async — updates briefing + region signals when ready
+// ═══════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════
 updateClock();
 setInterval(updateClock, 1000);
-loadTickers();
-setInterval(loadTickers, 5 * 60 * 1000);
+loadAllData();
 </script>
 </body>
 </html>
