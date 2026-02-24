@@ -805,6 +805,71 @@ def generate_briefing(sales_articles: list, fruit_articles: list):
 # =============================================================
 # MAIN
 # =============================================================
+def save_sales_grouped_json(articles: list, path: Path):
+    """
+    Writes sales_news.json in the structure sales.html expects:
+    {
+      generated_at, window_days,
+      regions: { usa:[...], germany:[...], ... },
+      meta: { counts, sources, errors }
+    }
+    """
+    region_ids = ["usa", "germany", "france", "spain", "italy", "austria"]
+    grouped = {rid: [] for rid in region_ids}
+
+    # Group by region, normalize fields the UI expects
+    for a in articles:
+        cat = a.get("cat") or a.get("category") or "trend"
+
+        item = {
+            "id": a.get("id"),
+            "title": a.get("title"),
+            "summary": a.get("summary", ""),
+            "url": a.get("url"),
+            "source": a.get("source", ""),
+            "published": a.get("published"),
+            "category": cat,                 # <-- IMPORTANT for the UI
+            "confidence": a.get("confidence", "medium"),
+            "score": a.get("score", 1),
+            "product_tags": a.get("product_tags", []),
+            "why_it_matters": a.get("why_it_matters", ""),
+        }
+
+        regions = a.get("regions", [])
+        if not isinstance(regions, list):
+            regions = ["global"]
+
+        # If "global" only → spread to all regions (so each tab isn't empty)
+        if regions == ["global"] or regions == []:
+            for rid in region_ids:
+                grouped[rid].append(item)
+        else:
+            for rid in regions:
+                if rid in grouped:
+                    grouped[rid].append(item)
+
+    # Sort newest first per region
+    for rid in grouped:
+        grouped[rid].sort(key=lambda x: x.get("published", ""), reverse=True)
+
+    counts = {rid: len(grouped[rid]) for rid in region_ids}
+    sources = sorted({a.get("source", "") for a in articles if a.get("source")})
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "window_days": ARTICLE_TTL_DAYS,
+        "regions": grouped,
+        "meta": {
+            "counts": counts,
+            "sources": sources,
+            "errors": [],
+        },
+    }
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    print(f"  Saved SALES grouped JSON -> {path.name} (regions filled)")
 
 def run():
     print("=" * 60)
@@ -860,7 +925,8 @@ def run():
         all_sales_new.extend(fetched)
 
     merged_sales, added_sales = merge_articles(existing_sales, all_sales_new, MAX_SALES_ARTICLES)
-    save_json(merged_sales, SALES_NEWS_FILE, "sales intelligence")
+    save_sales_grouped_json(merged_sales, SALES_NEWS_FILE)
+    print(f"  Saved {len(merged_sales)} sales articles (grouped for dashboard).")
     print(f"  Added {added_sales} new sales articles. Total: {len(merged_sales)}")
 
     # ── Part 3: Morning Briefing + Region Signals (from RSS data) ──
