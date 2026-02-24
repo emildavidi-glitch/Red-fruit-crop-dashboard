@@ -154,20 +154,43 @@ FEEDS = [
 ]
 
 # ═══════════════════════════════════════════════════════════════
-# RELEVANCE FILTER — TIGHT (exclude wine/spirits/cocktails)
+# RELEVANCE FILTER
+# Strategy: HARD_EXCLUDE always applies (removes wine/spirits junk)
+# For Tier 1-3 feeds: also require MUST_MATCH (confirm beverage relevance)
+# For Tier 4 (Google News): trust the search query — only exclude junk
 # ═══════════════════════════════════════════════════════════════
 MUST_MATCH = [
+    # Core beverage terms
     "beverage", "drink", "juice", "soft drink", "energy drink", "smoothie",
-    "water", "tea", "coffee", "rtd", "ready to drink", "functional",
+    "water", "tea ", " tea,", "coffee", "rtd", "ready to drink", "functional",
     "carbonat", "sparkling", "soda", "seltzer", "tonic",
-    "boisson", "bebida", "getraenk", "getrank", "succo", "saft", "jus", "zumo",
+    # Non-English beverage terms
+    "boisson", "bebida", "getraenk", "getrank", "succo", "saft", "jus ", "zumo",
+    # Functional/health
     "probiotic", "prebiotic", "adaptogen", "nootropic",
-    "protein drink", "collagen drink", "electrolyte",
-    "non-alcoholic", "alcohol-free", "zero alcohol", "low alcohol",
+    "protein drink", "collagen", "electrolyte", "hydration",
+    # Low/no alcohol
+    "non-alcoholic", "alcohol-free", "zero alcohol", "low alcohol", "mocktail",
     "kombucha", "kefir", "fermented",
+    # Regulatory (beverage-adjacent)
     "sugar tax", "nutri-score", "ppwr", "fda", "efsa",
     "packaging regulation", "deposit return", "pfand",
+    # Industry activity
     "launch", "new product", "innovation", "reformulat",
+    "food and drink", "food & drink", "food and beverage", "food & beverage",
+    # Major beverage companies (if they appear, it's likely relevant)
+    "coca-cola", "pepsi", "pepsico", "nestle", "danone", "red bull",
+    "monster energy", "celsius", "keurig", "dr pepper", "britvic",
+    "tropicana", "innocent drinks", "oatly", "fever-tree",
+    "san pellegrino", "perrier", "rauch", "eckes-granini",
+    "campari", "aperol",
+    # Retail (beverage context)
+    "shelf space", "private label", "store brand",
+    # Packaging (beverage context)
+    "pet bottle", "aluminum can", "glass bottle", "tetra pak",
+    # Market terms
+    "market share", "market size", "market growth", "market trend",
+    "consumer trend", "retail trend",
 ]
 
 HARD_EXCLUDE = [
@@ -189,10 +212,15 @@ HARD_EXCLUDE = [
     "cosmetic", "skincare", "shampoo",
 ]
 
-def is_relevant(text):
+def is_relevant(text, tier=1):
     t = text.lower()
+    # Always apply hard exclusions
     if any(ex in t for ex in HARD_EXCLUDE):
         return False
+    # For Google News (tier 4): trust the search query, only exclude junk
+    if tier == 4:
+        return True
+    # For industry feeds (tier 1-3): require at least one beverage keyword
     return any(kw in t for kw in MUST_MATCH)
 
 # ═══════════════════════════════════════════════════════════════
@@ -448,7 +476,7 @@ def run():
 
     # ── 2. FILTER ──
     print("\n  [2/6] FILTERING...")
-    relevant = [a for a in raw if is_relevant(f"{a['title']} {a['summary']}")]
+    relevant = [a for a in raw if is_relevant(f"{a['title']} {a['summary']}", a.get("tier", 1))]
     print(f"  Relevant: {len(relevant)} / {len(raw)} (dropped {len(raw)-len(relevant)})")
 
     # ── 3. ENRICH ──
