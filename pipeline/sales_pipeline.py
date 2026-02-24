@@ -95,15 +95,19 @@ def gnews(q, hl="en", gl="US"):
     return f"https://news.google.com/rss/search?q={quote(q)}&hl={hl}&gl={gl}&ceid={gl}:{hl}"
 
 FEEDS = [
-    # Tier 1: Industry RSS
-    {"n": "BeverageDaily",         "url": "https://www.beveragedaily.com/rss/editorial.rss",     "t": 1, "r": ["global"]},
-    {"n": "FoodNavigator",         "url": "https://www.foodnavigator.com/rss/editorial.rss",     "t": 1, "r": ["global"]},
-    {"n": "FoodNavigator-USA",     "url": "https://www.foodnavigator-usa.com/rss/editorial.rss", "t": 1, "r": ["usa"]},
-    {"n": "Just-Drinks",           "url": "https://www.just-drinks.com/feed/",                   "t": 1, "r": ["global"]},
-    {"n": "BevIndustry",           "url": "https://www.bevindustry.com/rss/all",                 "t": 1, "r": ["usa"]},
+    # Tier 1: Industry RSS — VERIFIED WORKING FEEDS
+    {"n": "FoodDive",              "url": "https://www.fooddive.com/feeds/news/",                "t": 1, "r": ["global"]},
+    {"n": "Just-Food",             "url": "https://www.just-food.com/feed/",                     "t": 1, "r": ["global"]},
+    {"n": "Food Safety News",      "url": "https://www.foodsafetynews.com/feed/",                "t": 1, "r": ["global"]},
+    {"n": "Prepared Foods",        "url": "https://www.preparedfoods.com/rss/articles",          "t": 1, "r": ["usa"]},
+    {"n": "Italian Food Net",      "url": "https://news.italianfood.net/feed/",                  "t": 1, "r": ["italy"]},
+    {"n": "FD Business EU",        "url": "https://www.fdbusiness.com/feed/",                    "t": 1, "r": ["global"]},
+    {"n": "FoodBev Media",         "url": "https://www.foodbev.com/feed/",                       "t": 1, "r": ["global"]},
+    {"n": "Food Business News",    "url": "https://www.foodbusinessnews.net/rss/articles",       "t": 1, "r": ["usa"]},
+    {"n": "Food Ind Executive",    "url": "https://foodindustryexecutive.com/feed/",             "t": 1, "r": ["usa"]},
 
     # Tier 2: Government/Regulatory
-    {"n": "FDA Recalls",           "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/food-safety-recalls/rss.xml", "t": 2, "r": ["usa"]},
+    {"n": "FDA Press",             "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml", "t": 2, "r": ["usa"]},
 
     # Tier 4: Google News — region-specific beverage queries
     # USA
