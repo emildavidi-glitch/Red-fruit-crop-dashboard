@@ -1,50 +1,206 @@
 {
-  "generated_at": "2026-02-24T16:17:36.689298+00:00",
+  "generated_at": "2026-02-24T16:29:11.617065+00:00",
   "window_days": 28,
   "regions": {
-    "usa": [],
-    "germany": [],
-    "france": [],
-    "spain": [],
-    "italy": [],
-    "austria": []
+    "usa": [
+      {
+        "title": "",
+        "url": "",
+        "source": "GN:USA:soft-drink",
+        "published": "2026-02-24T16:29:11.617065+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "",
+        "why_it_matters": "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "low",
+        "score": 0.7
+      }
+    ],
+    "germany": [
+      {
+        "title": "",
+        "url": "",
+        "source": "GN:DE:bev",
+        "published": "2026-02-24T16:29:11.617065+00:00",
+        "country_region": "germany",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "",
+        "why_it_matters": "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "low",
+        "score": 0.7
+      }
+    ],
+    "france": [
+      {
+        "title": "",
+        "url": "",
+        "source": "GN:FR:bev",
+        "published": "2026-02-24T16:29:11.617065+00:00",
+        "country_region": "france",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "",
+        "why_it_matters": "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "low",
+        "score": 0.7
+      }
+    ],
+    "spain": [
+      {
+        "title": "",
+        "url": "",
+        "source": "GN:ES:bev",
+        "published": "2026-02-24T16:29:11.617065+00:00",
+        "country_region": "spain",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "",
+        "why_it_matters": "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "low",
+        "score": 0.7
+      }
+    ],
+    "italy": [
+      {
+        "title": "",
+        "url": "",
+        "source": "GN:IT:bev",
+        "published": "2026-02-24T16:29:11.617065+00:00",
+        "country_region": "italy",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "",
+        "why_it_matters": "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "low",
+        "score": 0.7
+      }
+    ],
+    "austria": [
+      {
+        "title": "",
+        "url": "",
+        "source": "GN:AT:bev",
+        "published": "2026-02-24T16:29:11.617065+00:00",
+        "country_region": "austria",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "",
+        "why_it_matters": "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "low",
+        "score": 0.7
+      }
+    ]
   },
   "meta": {
     "sources_used": {
-      "usa": [],
-      "germany": [],
-      "france": [],
-      "spain": [],
-      "italy": [],
-      "austria": []
+      "usa": [
+        "GN:USA:soft-drink"
+      ],
+      "germany": [
+        "GN:DE:bev"
+      ],
+      "france": [
+        "GN:FR:bev"
+      ],
+      "spain": [
+        "GN:ES:bev"
+      ],
+      "italy": [
+        "GN:IT:bev"
+      ],
+      "austria": [
+        "GN:AT:bev"
+      ]
     },
     "errors": [
       {
         "region": "global",
         "source": "FoodBev Media",
         "error": "404 Client Error: Not Found for url: https://www.foodbev.com/feed",
-        "time": "2026-02-24T16:17:36.689298+00:00"
+        "time": "2026-02-24T16:29:11.617065+00:00"
       },
       {
         "region": "usa",
         "source": "Food Business News",
         "error": "403 Client Error: Forbidden for url: https://www.foodbusinessnews.net/rss/articles",
-        "time": "2026-02-24T16:17:36.689298+00:00"
+        "time": "2026-02-24T16:29:11.617065+00:00"
       },
       {
         "region": "usa",
         "source": "FDA Press",
         "error": "404 Client Error: Not Found for url: https://www.fda.gov/apology_objects/abuse-detection-apology.htm",
-        "time": "2026-02-24T16:17:36.689298+00:00"
+        "time": "2026-02-24T16:29:11.617065+00:00"
       }
     ],
     "counts": {
-      "usa": 0,
-      "germany": 0,
-      "france": 0,
-      "spain": 0,
-      "italy": 0,
-      "austria": 0
+      "usa": 1,
+      "germany": 1,
+      "france": 1,
+      "spain": 1,
+      "italy": 1,
+      "austria": 1
     }
   }
 }

@@ -1,66 +1,282 @@
 {
-  "generated_at": "2026-02-24T16:17:36.689298+00:00",
+  "generated_at": "2026-02-24T16:29:11.617065+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
-      "executive_summary": [],
+      "executive_summary": [
+        {
+          "headline": "",
+          "detail": "",
+          "evidence_urls": [
+            ""
+          ],
+          "confidence": "low"
+        }
+      ],
       "key_launches": [],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "signals": [
+        {
+          "signal": "Trend activity in United States",
+          "explanation": "1 trend articles tracked",
+          "support_count": 1,
+          "top_keywords": [
+            "trend"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "key_account",
+          "pitch": "1 market developments tracked in United States - use in next review meeting",
+          "supporting_evidence_urls": [
+            ""
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 1 intelligence items for United States",
+          "why_now": "Keep competitive awareness current",
+          "evidence_urls": [
+            ""
+          ]
+        }
+      ]
     },
     "germany": {
-      "executive_summary": [],
+      "executive_summary": [
+        {
+          "headline": "",
+          "detail": "",
+          "evidence_urls": [
+            ""
+          ],
+          "confidence": "low"
+        }
+      ],
       "key_launches": [],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "signals": [
+        {
+          "signal": "Trend activity in Germany",
+          "explanation": "1 trend articles tracked",
+          "support_count": 1,
+          "top_keywords": [
+            "trend"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "key_account",
+          "pitch": "1 market developments tracked in Germany - use in next review meeting",
+          "supporting_evidence_urls": [
+            ""
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 1 intelligence items for Germany",
+          "why_now": "Keep competitive awareness current",
+          "evidence_urls": [
+            ""
+          ]
+        }
+      ]
     },
     "france": {
-      "executive_summary": [],
+      "executive_summary": [
+        {
+          "headline": "",
+          "detail": "",
+          "evidence_urls": [
+            ""
+          ],
+          "confidence": "low"
+        }
+      ],
       "key_launches": [],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "signals": [
+        {
+          "signal": "Trend activity in France",
+          "explanation": "1 trend articles tracked",
+          "support_count": 1,
+          "top_keywords": [
+            "trend"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "key_account",
+          "pitch": "1 market developments tracked in France - use in next review meeting",
+          "supporting_evidence_urls": [
+            ""
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 1 intelligence items for France",
+          "why_now": "Keep competitive awareness current",
+          "evidence_urls": [
+            ""
+          ]
+        }
+      ]
     },
     "spain": {
-      "executive_summary": [],
+      "executive_summary": [
+        {
+          "headline": "",
+          "detail": "",
+          "evidence_urls": [
+            ""
+          ],
+          "confidence": "low"
+        }
+      ],
       "key_launches": [],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "signals": [
+        {
+          "signal": "Trend activity in Spain",
+          "explanation": "1 trend articles tracked",
+          "support_count": 1,
+          "top_keywords": [
+            "trend"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "key_account",
+          "pitch": "1 market developments tracked in Spain - use in next review meeting",
+          "supporting_evidence_urls": [
+            ""
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 1 intelligence items for Spain",
+          "why_now": "Keep competitive awareness current",
+          "evidence_urls": [
+            ""
+          ]
+        }
+      ]
     },
     "italy": {
-      "executive_summary": [],
+      "executive_summary": [
+        {
+          "headline": "",
+          "detail": "",
+          "evidence_urls": [
+            ""
+          ],
+          "confidence": "low"
+        }
+      ],
       "key_launches": [],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "signals": [
+        {
+          "signal": "Trend activity in Italy",
+          "explanation": "1 trend articles tracked",
+          "support_count": 1,
+          "top_keywords": [
+            "trend"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "key_account",
+          "pitch": "1 market developments tracked in Italy - use in next review meeting",
+          "supporting_evidence_urls": [
+            ""
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 1 intelligence items for Italy",
+          "why_now": "Keep competitive awareness current",
+          "evidence_urls": [
+            ""
+          ]
+        }
+      ]
     },
     "austria": {
-      "executive_summary": [],
+      "executive_summary": [
+        {
+          "headline": "",
+          "detail": "",
+          "evidence_urls": [
+            ""
+          ],
+          "confidence": "low"
+        }
+      ],
       "key_launches": [],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "signals": [
+        {
+          "signal": "Trend activity in Austria",
+          "explanation": "1 trend articles tracked",
+          "support_count": 1,
+          "top_keywords": [
+            "trend"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "key_account",
+          "pitch": "1 market developments tracked in Austria - use in next review meeting",
+          "supporting_evidence_urls": [
+            ""
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 1 intelligence items for Austria",
+          "why_now": "Keep competitive awareness current",
+          "evidence_urls": [
+            ""
+          ]
+        }
+      ]
     }
   }
 }
