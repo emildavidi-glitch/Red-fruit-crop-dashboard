@@ -1,18 +1,27 @@
 {
-  "generated_at": "2026-02-25T08:17:03.988275+00:00",
+  "generated_at": "2026-02-25T08:39:32.864372+00:00",
   "generated_date": "Wednesday, 25 February 2026",
-  "briefing": "Tracking 1 beverage intelligence items across 6 regions. Top themes: consumer trends. Notable: .",
+  "briefing": "Tracking 131 beverage intelligence items across 6 regions. Top themes: consumer trends, market developments, product launches. Latest: Brewdog workers protest on sale citing ‘years of catastrophic mismanagement’.",
   "signals": {
-    "usa": "Trend activity dominant. 1 items.",
-    "germany": "Trend activity dominant. 1 items.",
-    "france": "Trend activity dominant. 1 items.",
-    "spain": "Trend activity dominant. 1 items.",
-    "italy": "Trend activity dominant. 1 items.",
-    "austria": "Trend activity dominant. 1 items."
+    "usa": "Energy leading. 50 items tracked.",
+    "germany": "Rtd leading. 50 items tracked.",
+    "france": "Rtd leading. 50 items tracked.",
+    "spain": "Rtd leading. 50 items tracked.",
+    "italy": "Rtd leading. 50 items tracked.",
+    "austria": "Energy leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 1,
+    "total_articles_analyzed": 131,
     "method": "rss-analysis",
-    "top_topics": {}
+    "top_topics": {
+      "energy": 14,
+      "rtd": 14,
+      "coffee_tea": 11,
+      "juice": 11,
+      "functional": 7,
+      "water": 3,
+      "carbonated": 3,
+      "alcohol_free": 1
+    }
   }
 }
