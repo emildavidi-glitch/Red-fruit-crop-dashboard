@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T16:29:11.617065+00:00",
+  "generated_at": "2026-02-25T07:59:33.603834+00:00",
   "window_days": 28,
   "regions": {
     "usa": [
@@ -7,7 +7,7 @@
         "title": "",
         "url": "",
         "source": "GN:USA:soft-drink",
-        "published": "2026-02-24T16:29:11.617065+00:00",
+        "published": "2026-02-25T07:59:33.603834+00:00",
         "country_region": "usa",
         "category": "trend",
         "entities": {
@@ -32,7 +32,7 @@
         "title": "",
         "url": "",
         "source": "GN:DE:bev",
-        "published": "2026-02-24T16:29:11.617065+00:00",
+        "published": "2026-02-25T07:59:33.603834+00:00",
         "country_region": "germany",
         "category": "trend",
         "entities": {
@@ -57,7 +57,7 @@
         "title": "",
         "url": "",
         "source": "GN:FR:bev",
-        "published": "2026-02-24T16:29:11.617065+00:00",
+        "published": "2026-02-25T07:59:33.603834+00:00",
         "country_region": "france",
         "category": "trend",
         "entities": {
@@ -82,7 +82,7 @@
         "title": "",
         "url": "",
         "source": "GN:ES:bev",
-        "published": "2026-02-24T16:29:11.617065+00:00",
+        "published": "2026-02-25T07:59:33.603834+00:00",
         "country_region": "spain",
         "category": "trend",
         "entities": {
@@ -107,7 +107,7 @@
         "title": "",
         "url": "",
         "source": "GN:IT:bev",
-        "published": "2026-02-24T16:29:11.617065+00:00",
+        "published": "2026-02-25T07:59:33.603834+00:00",
         "country_region": "italy",
         "category": "trend",
         "entities": {
@@ -132,7 +132,7 @@
         "title": "",
         "url": "",
         "source": "GN:AT:bev",
-        "published": "2026-02-24T16:29:11.617065+00:00",
+        "published": "2026-02-25T07:59:33.603834+00:00",
         "country_region": "austria",
         "category": "trend",
         "entities": {
@@ -179,19 +179,19 @@
         "region": "global",
         "source": "FoodBev Media",
         "error": "404 Client Error: Not Found for url: https://www.foodbev.com/feed",
-        "time": "2026-02-24T16:29:11.617065+00:00"
+        "time": "2026-02-25T07:59:33.603834+00:00"
       },
       {
         "region": "usa",
         "source": "Food Business News",
         "error": "403 Client Error: Forbidden for url: https://www.foodbusinessnews.net/rss/articles",
-        "time": "2026-02-24T16:29:11.617065+00:00"
+        "time": "2026-02-25T07:59:33.603834+00:00"
       },
       {
         "region": "usa",
         "source": "FDA Press",
         "error": "404 Client Error: Not Found for url: https://www.fda.gov/apology_objects/abuse-detection-apology.htm",
-        "time": "2026-02-24T16:29:11.617065+00:00"
+        "time": "2026-02-25T07:59:33.603834+00:00"
       }
     ],
     "counts": {
