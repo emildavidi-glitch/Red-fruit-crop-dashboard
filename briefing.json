@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-25T08:39:32.864372+00:00",
+  "generated_at": "2026-02-25T16:50:31.891599+00:00",
   "generated_date": "Wednesday, 25 February 2026",
-  "briefing": "Tracking 131 beverage intelligence items across 6 regions. Top themes: consumer trends, market developments, product launches. Latest: Brewdog workers protest on sale citing ‘years of catastrophic mismanagement’.",
+  "briefing": "Tracking 129 beverage intelligence items across 6 regions. Top themes: consumer trends, product launches, market developments. Latest: Barefoot wine owner to close winery, lay off 93 workers across business.",
   "signals": {
-    "usa": "Energy leading. 50 items tracked.",
+    "usa": "Rtd leading. 50 items tracked.",
     "germany": "Rtd leading. 50 items tracked.",
     "france": "Rtd leading. 50 items tracked.",
     "spain": "Rtd leading. 50 items tracked.",
@@ -11,17 +11,16 @@
     "austria": "Energy leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 131,
+    "total_articles_analyzed": 129,
     "method": "rss-analysis",
     "top_topics": {
-      "energy": 14,
+      "energy": 15,
       "rtd": 14,
-      "coffee_tea": 11,
+      "coffee_tea": 12,
       "juice": 11,
-      "functional": 7,
-      "water": 3,
-      "carbonated": 3,
-      "alcohol_free": 1
+      "functional": 8,
+      "water": 2,
+      "carbonated": 1
     }
   }
 }
