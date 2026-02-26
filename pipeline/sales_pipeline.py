@@ -68,21 +68,37 @@ SALES_SOURCES = [
     # CURATED SOURCES ONLY — quality over quantity
     # Strategy: use Google News site: queries for publications
     # whose direct RSS feeds are dead. No broad keyword queries.
+    #
+    # NOTE: Google News site: queries return ~10-20 results each.
+    # To get broad coverage from key sites, we split into multiple
+    # queries by topic so we pull launches, trends, regulation etc.
     # ═══════════════════════════════════════════════════════════
 
-    # ── CORE PUBLICATIONS (via Google News site: queries) ─────
-    # These are the trusted industry sources you follow.
-
-    {"name": "BeverageDaily",
-     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com&hl=en&gl=US&ceid=US:en",
+    # ── BEVERAGEDAILY (split by topic for max coverage) ───────
+    {"name": "BeverageDaily: Launches",
+     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+launch+OR+launches+OR+new+OR+debut&hl=en&gl=US&ceid=US:en",
      "regions": ["global"], "cat": "launch"},
-
-    {"name": "FoodNavigator",
-     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+beverage+OR+drink+OR+juice+OR+launch+OR+regulation&hl=en&gl=US&ceid=US:en",
+    {"name": "BeverageDaily: Trends",
+     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+trend+OR+market+OR+consumer+OR+growth&hl=en&gl=US&ceid=US:en",
      "regions": ["global"], "cat": "trend"},
+    {"name": "BeverageDaily: Regulation",
+     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+regulation+OR+tax+OR+sugar+OR+label+OR+PPWR&hl=en&gl=US&ceid=US:en",
+     "regions": ["global"], "cat": "regulation"},
+    {"name": "BeverageDaily: Sectors",
+     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+energy+OR+functional+OR+soda+OR+RTD+OR+juice+OR+water&hl=en&gl=US&ceid=US:en",
+     "regions": ["global"], "cat": "market"},
 
+    # ── FOODNAVIGATOR (split for coverage) ────────────────────
+    {"name": "FoodNavigator: Beverage",
+     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+beverage+OR+drink+OR+juice+OR+soda&hl=en&gl=US&ceid=US:en",
+     "regions": ["global"], "cat": "trend"},
+    {"name": "FoodNavigator: Regulation",
+     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+regulation+OR+Nutri-Score+OR+PPWR+OR+sugar+tax&hl=en&gl=US&ceid=US:en",
+     "regions": ["global"], "cat": "regulation"},
+
+    # ── FOODNAVIGATOR-USA ─────────────────────────────────────
     {"name": "FoodNavigator-USA",
-     "url": "https://news.google.com/rss/search?q=site:foodnavigator-usa.com&hl=en&gl=US&ceid=US:en",
+     "url": "https://news.google.com/rss/search?q=site:foodnavigator-usa.com+beverage+OR+drink+OR+launch&hl=en&gl=US&ceid=US:en",
      "regions": ["usa"], "cat": "trend"},
 
     {"name": "BevNET",
