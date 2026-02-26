@@ -65,15 +65,24 @@ REGION_KEYWORDS = {
 # ═══════════════════════════════════════════════════════════════
 SALES_SOURCES = [
     # ── GLOBAL industry trade press ──
-    {"name": "FoodNavigator",
-     "url": "https://www.foodnavigator.com/rss/editorial.rss",
-     "regions": ["global"], "cat": "trend"},
-    {"name": "BeverageDaily",
-     "url": "https://www.beveragedaily.com/rss/editorial.rss",
+    # BeverageDaily & FoodNavigator RSS feeds are dead (404).
+    # Instead: pull their content via Google News site: queries
+    {"name": "GNews: BeverageDaily",
+     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com&hl=en&gl=US&ceid=US:en",
      "regions": ["global"], "cat": "launch"},
-    {"name": "Just-Drinks",
-     "url": "https://www.just-drinks.com/feed/",
+    {"name": "GNews: FoodNavigator",
+     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+beverage+OR+drink+OR+juice&hl=en&gl=US&ceid=US:en",
+     "regions": ["global"], "cat": "trend"},
+    {"name": "GNews: FoodNavigator-USA",
+     "url": "https://news.google.com/rss/search?q=site:foodnavigator-usa.com+beverage+OR+drink&hl=en&gl=US&ceid=US:en",
+     "regions": ["usa"], "cat": "trend"},
+    {"name": "GNews: Just-Drinks",
+     "url": "https://news.google.com/rss/search?q=site:just-drinks.com&hl=en&gl=US&ceid=US:en",
      "regions": ["global"], "cat": "market"},
+    # Working direct RSS feeds
+    {"name": "FoodDive",
+     "url": "https://www.fooddive.com/feeds/news/",
+     "regions": ["usa"], "cat": "trend"},
     {"name": "Drinks Business",
      "url": "https://www.thedrinksbusiness.com/feed/",
      "regions": ["global"], "cat": "market"},
@@ -82,13 +91,7 @@ SALES_SOURCES = [
      "regions": ["global"], "cat": "launch"},
 
     # ── USA ──
-    {"name": "FoodNavigator-USA",
-     "url": "https://www.foodnavigator-usa.com/rss/editorial.rss",
-     "regions": ["usa"], "cat": "trend"},
-    {"name": "Beverage Industry Magazine",
-     "url": "https://www.bevindustry.com/rss/all",
-     "regions": ["usa"], "cat": "market"},
-    {"name": "FoodDive",
+    {"name": "FoodDive USA",
      "url": "https://www.fooddive.com/feeds/news/",
      "regions": ["usa"], "cat": "trend"},
     {"name": "GNews: US Beverage Launches",
@@ -102,10 +105,9 @@ SALES_SOURCES = [
      "regions": ["usa"], "cat": "regulation"},
 
     # ── GERMANY / DACH ──
-    {"name": "FoodNavigator (Germany)",
-     "url": "https://www.foodnavigator.com/rss/editorial.rss",
-     "regions": ["germany", "austria"], "cat": "trend",
-     "filter_keywords": ["germany", "german", "deutschland", "dach", "austria", "swiss"]},
+    {"name": "GNews: FoodNavigator Germany",
+     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+(germany+OR+german+OR+deutschland+OR+DACH+OR+austria)&hl=en&gl=DE&ceid=DE:en",
+     "regions": ["germany", "austria"], "cat": "trend"},
     {"name": "GNews: Germany Beverage Market",
      "url": "https://news.google.com/rss/search?q=(Getraenk+OR+Getraenke+OR+Saft+OR+beverage+OR+drink)+(Markt+OR+market+OR+launch+OR+trend)+Deutschland&hl=de&gl=DE&ceid=DE:de",
      "regions": ["germany"], "cat": "market"},
