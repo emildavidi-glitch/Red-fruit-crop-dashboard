@@ -86,14 +86,8 @@ SALES_SOURCES = [
     {"name": "Drinks Business",
      "url": "https://www.thedrinksbusiness.com/feed/",
      "regions": ["global"], "cat": "market"},
-    {"name": "Food & Drink Technology",
-     "url": "https://www.foodanddrink-technology.com/feed/",
-     "regions": ["global"], "cat": "launch"},
 
     # ── USA ──
-    {"name": "FoodDive USA",
-     "url": "https://www.fooddive.com/feeds/news/",
-     "regions": ["usa"], "cat": "trend"},
     {"name": "GNews: US Beverage Launches",
      "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(launch+OR+%22new+product%22+OR+%22new+range%22)+USA&hl=en&gl=US&ceid=US:en",
      "regions": ["usa"], "cat": "launch"},
