@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-02-26T07:56:47.550326+00:00",
+  "generated_at": "2026-02-26T16:08:16.734789+00:00",
   "generated_date": "Thursday, 26 February 2026",
-  "briefing": "Tracking 130 beverage intelligence items across 6 regions. Top themes: consumer trends, product launches, market developments. Latest: Max Verstappen labelled ‘absolute team leader’ at Red Bull - Motorsport Week.",
+  "briefing": "Tracking 140 beverage intelligence items across 6 regions. Top themes: consumer trends, market developments, product launches. Latest: Monster Beverage Aktie: Was der Rücksetzer für DACH-Anleger jetzt bedeutet - AD HOC NEWS.",
   "signals": {
-    "usa": "Rtd leading. 50 items tracked.",
+    "usa": "Carbonated leading. 50 items tracked.",
     "germany": "Rtd leading. 50 items tracked.",
     "france": "Rtd leading. 50 items tracked.",
-    "spain": "Rtd leading. 50 items tracked.",
+    "spain": "Energy leading. 50 items tracked.",
     "italy": "Rtd leading. 50 items tracked.",
     "austria": "Energy leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 130,
+    "total_articles_analyzed": 140,
     "method": "rss-analysis",
     "top_topics": {
-      "energy": 15,
-      "rtd": 14,
-      "juice": 11,
-      "coffee_tea": 11,
-      "functional": 7,
+      "energy": 18,
+      "rtd": 15,
+      "coffee_tea": 12,
+      "juice": 10,
+      "functional": 9,
+      "carbonated": 4,
       "water": 3,
-      "carbonated": 1
+      "alcohol_free": 3
     }
   }
 }
