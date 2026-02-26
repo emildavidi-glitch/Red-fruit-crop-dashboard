@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-02-26T17:44:36.954212+00:00",
+  "generated_at": "2026-02-26T17:57:19.613146+00:00",
   "generated_date": "Thursday, 26 February 2026",
-  "briefing": "Tracking 159 beverage intelligence items across 6 regions. Top themes: consumer trends, market developments, product launches. Latest: SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks.",
+  "briefing": "Tracking 170 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks.",
   "signals": {
     "usa": "Coffee Tea leading. 50 items tracked.",
-    "germany": "Rtd leading. 50 items tracked.",
-    "france": "Rtd leading. 50 items tracked.",
-    "spain": "Rtd leading. 50 items tracked.",
-    "italy": "Rtd leading. 50 items tracked.",
-    "austria": "Rtd leading. 50 items tracked."
+    "germany": "Water leading. 50 items tracked.",
+    "france": "Juice leading. 50 items tracked.",
+    "spain": "Juice leading. 50 items tracked.",
+    "italy": "Juice leading. 50 items tracked.",
+    "austria": "Juice leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 159,
+    "total_articles_analyzed": 170,
     "method": "rss-analysis",
     "top_topics": {
-      "rtd": 17,
-      "coffee_tea": 14,
-      "functional": 10,
-      "juice": 10,
-      "energy": 8,
-      "carbonated": 3,
-      "water": 3,
+      "coffee_tea": 8,
+      "rtd": 6,
+      "carbonated": 6,
+      "water": 5,
+      "functional": 4,
       "alcohol_free": 3,
-      "organic": 1
+      "organic": 3,
+      "energy": 3,
+      "juice": 2,
+      "sugar_free": 1
     }
   }
 }
