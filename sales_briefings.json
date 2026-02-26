@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-02-26T17:40:19.049286+00:00",
+  "generated_at": "2026-02-26T17:44:36.954212+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "detail": "SPC Global rejigs manufacturing as juice plant to close in August Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon - BevNET.com",
           "detail": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon BevNET.com",
@@ -35,14 +43,6 @@
             "https://www.fooddive.com/news/jm-smucker-adds-2-board-members-in-deal-with-activist/813198/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Edna’s Non-Alcoholic Cocktail Co. Expands to All 526 Whole Foods Market Stores Nationwide, Secures March Endcap Feature - Business Wire",
-          "detail": "Edna’s Non-Alcoholic Cocktail Co. Expands to All 526 Whole Foods Market Stores Nationwide, Secures March Endcap Feature Business Wire",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLVQtMi1DdGJXenVNY3F4dnhDbklQeVQyRVVma3pGdjJQQlVXS0xSemlHam1NcHM0azZMc1dvdUVhZm8tZGh3b2lzZ1M2RklnZ2NubTN5UGhLSm5oSkQtVTJKTjh1WGdjblRJQXZsUVMtaTZEbXh4UDVnTVZldVhSRzl1NVo3WjdHQXluNGtNZ3IwbkFTSXg5NWE4X2FTRzQyT0paUVczNmdzVzZ1R0R4TWVIay1INHZHNjVCdVlkcDRPajlKbm50cm9XbmhiSW1MWEJEeHRwS3piRVFHdlNtc1FEbF96OEZ2c2tHeTViaTBrU3hvbHBKaXMwM3FXcm01Wl9XSQ?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -64,6 +64,14 @@
         }
       ],
       "competitor_moves": [
+        {
+          "title": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "company": "-",
+          "move_type": "market",
+          "impact": "Market development may create opportunities or threats. Brief key accounts.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5",
+          "date": "2026-02-26T17:44:15+00:00"
+        },
         {
           "title": "Molson Coors to close Sharp’s Brewery in UK - Just Drinks",
           "company": "-",
@@ -95,14 +103,6 @@
           "impact": "Market development may create opportunities or threats. Brief key accounts.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/jackson-family-wines-closes-carneros-facility-with-13-redundancies/",
           "date": "2026-02-26T10:30:51+00:00"
-        },
-        {
-          "title": "Beer Hour: Russell Bisset",
-          "company": "-",
-          "move_type": "market",
-          "impact": "Market development may create opportunities or threats. Brief key accounts.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/beer-hour-russell-bisset/",
-          "date": "2026-02-26T10:25:22+00:00"
         }
       ],
       "regulatory_watch": [
@@ -164,6 +164,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Juice trending in United States",
+          "explanation": "2 articles mention juice",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in United States",
           "explanation": "2 articles mention functional",
           "support_count": 2,
@@ -178,15 +187,6 @@
           "support_count": 2,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "2 articles mention alcohol free",
-          "support_count": 2,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "medium"
         }
@@ -241,6 +241,14 @@
     "germany": {
       "executive_summary": [
         {
+          "headline": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "detail": "SPC Global rejigs manufacturing as juice plant to close in August Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon - BevNET.com",
           "detail": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon BevNET.com",
           "evidence_urls": [
@@ -269,14 +277,6 @@
           "detail": "MGP Ingredients forecasts lower sales, earnings in 2026 Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV29sWWl1UXpPeTFEZFVMMDRhbnJUeWtqMVJkSUd0Wmh6R1k0SlVPSExBc0F1T0hIZ0lNQi1ORGxnU0l5QnlEZmJXeVdxOUJ6VnM0Wk80SjJoR2hfQ3pXdHlIVFF1azltLWZ2MXRReERKREs1QVdfMFNGTGFwekxSczV1S1ZUb2E3dWdlWk5fMTZSZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand - openPR.com",
-          "detail": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand openPR.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFRvaXNLeFBFODdVaUNJbGJTS20xUFhOYkZRWkRQMUgxaW9SMnROLV94eFNVa1h4Q1ZLRUYxZmpISE9WWWZseHlvdUY4bzlibnRiLVBBWElMUmVBdDFDcnpsUFkxRDA2SV8ybU0xaXJULW9JdmJyVkdjSklRa2c3bFZqbmJ3b3pCSzVLQTdVZm9kMWRFWl9j?oc=5"
           ],
           "confidence": "medium"
         }
@@ -325,6 +325,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "company": "-",
+          "move_type": "market",
+          "impact": "Market development may create opportunities or threats. Brief key accounts.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5",
+          "date": "2026-02-26T17:44:15+00:00"
+        },
+        {
           "title": "Molson Coors to close Sharp’s Brewery in UK - Just Drinks",
           "company": "-",
           "move_type": "market",
@@ -355,14 +363,6 @@
           "impact": "Market development may create opportunities or threats. Brief key accounts.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/jackson-family-wines-closes-carneros-facility-with-13-redundancies/",
           "date": "2026-02-26T10:30:51+00:00"
-        },
-        {
-          "title": "Beer Hour: Russell Bisset",
-          "company": "-",
-          "move_type": "market",
-          "impact": "Market development may create opportunities or threats. Brief key accounts.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/beer-hour-russell-bisset/",
-          "date": "2026-02-26T10:25:22+00:00"
         }
       ],
       "regulatory_watch": [
@@ -417,6 +417,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Juice trending in Germany",
+          "explanation": "2 articles mention juice",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in Germany",
           "explanation": "2 articles mention functional",
           "support_count": 2,
@@ -431,15 +440,6 @@
           "support_count": 2,
           "top_keywords": [
             "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in Germany",
-          "explanation": "2 articles mention energy",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "medium"
         }
@@ -496,6 +496,14 @@
     "france": {
       "executive_summary": [
         {
+          "headline": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "detail": "SPC Global rejigs manufacturing as juice plant to close in August Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon - BevNET.com",
           "detail": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon BevNET.com",
           "evidence_urls": [
@@ -524,14 +532,6 @@
           "detail": "MGP Ingredients forecasts lower sales, earnings in 2026 Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV29sWWl1UXpPeTFEZFVMMDRhbnJUeWtqMVJkSUd0Wmh6R1k0SlVPSExBc0F1T0hIZ0lNQi1ORGxnU0l5QnlEZmJXeVdxOUJ6VnM0Wk80SjJoR2hfQ3pXdHlIVFF1azltLWZ2MXRReERKREs1QVdfMFNGTGFwekxSczV1S1ZUb2E3dWdlWk5fMTZSZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand - openPR.com",
-          "detail": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand openPR.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFRvaXNLeFBFODdVaUNJbGJTS20xUFhOYkZRWkRQMUgxaW9SMnROLV94eFNVa1h4Q1ZLRUYxZmpISE9WWWZseHlvdUY4bzlibnRiLVBBWElMUmVBdDFDcnpsUFkxRDA2SV8ybU0xaXJULW9JdmJyVkdjSklRa2c3bFZqbmJ3b3pCSzVLQTdVZm9kMWRFWl9j?oc=5"
           ],
           "confidence": "medium"
         }
@@ -572,6 +572,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "company": "-",
+          "move_type": "market",
+          "impact": "Market development may create opportunities or threats. Brief key accounts.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5",
+          "date": "2026-02-26T17:44:15+00:00"
+        },
+        {
           "title": "Molson Coors to close Sharp’s Brewery in UK - Just Drinks",
           "company": "-",
           "move_type": "market",
@@ -602,14 +610,6 @@
           "impact": "Market development may create opportunities or threats. Brief key accounts.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/jackson-family-wines-closes-carneros-facility-with-13-redundancies/",
           "date": "2026-02-26T10:30:51+00:00"
-        },
-        {
-          "title": "Beer Hour: Russell Bisset",
-          "company": "-",
-          "move_type": "market",
-          "impact": "Market development may create opportunities or threats. Brief key accounts.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/beer-hour-russell-bisset/",
-          "date": "2026-02-26T10:25:22+00:00"
         }
       ],
       "regulatory_watch": [
@@ -647,19 +647,28 @@
       "signals": [
         {
           "signal": "Rtd trending in France",
-          "explanation": "5 articles mention rtd",
-          "support_count": 5,
+          "explanation": "4 articles mention rtd",
+          "support_count": 4,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Coffee Tea trending in France",
-          "explanation": "4 articles mention coffee tea",
-          "support_count": 4,
+          "explanation": "3 articles mention coffee tea",
+          "support_count": 3,
           "top_keywords": [
             "coffee_tea"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in France",
+          "explanation": "2 articles mention juice",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -680,15 +689,6 @@
             "alcohol_free"
           ],
           "confidence": "medium"
-        },
-        {
-          "signal": "Organic trending in France",
-          "explanation": "1 articles mention organic",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -743,6 +743,14 @@
     "spain": {
       "executive_summary": [
         {
+          "headline": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "detail": "SPC Global rejigs manufacturing as juice plant to close in August Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon - BevNET.com",
           "detail": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon BevNET.com",
           "evidence_urls": [
@@ -771,14 +779,6 @@
           "detail": "MGP Ingredients forecasts lower sales, earnings in 2026 Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV29sWWl1UXpPeTFEZFVMMDRhbnJUeWtqMVJkSUd0Wmh6R1k0SlVPSExBc0F1T0hIZ0lNQi1ORGxnU0l5QnlEZmJXeVdxOUJ6VnM0Wk80SjJoR2hfQ3pXdHlIVFF1azltLWZ2MXRReERKREs1QVdfMFNGTGFwekxSczV1S1ZUb2E3dWdlWk5fMTZSZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand - openPR.com",
-          "detail": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand openPR.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFRvaXNLeFBFODdVaUNJbGJTS20xUFhOYkZRWkRQMUgxaW9SMnROLV94eFNVa1h4Q1ZLRUYxZmpISE9WWWZseHlvdUY4bzlibnRiLVBBWElMUmVBdDFDcnpsUFkxRDA2SV8ybU0xaXJULW9JdmJyVkdjSklRa2c3bFZqbmJ3b3pCSzVLQTdVZm9kMWRFWl9j?oc=5"
           ],
           "confidence": "medium"
         }
@@ -819,6 +819,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "company": "-",
+          "move_type": "market",
+          "impact": "Market development may create opportunities or threats. Brief key accounts.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5",
+          "date": "2026-02-26T17:44:15+00:00"
+        },
+        {
           "title": "Molson Coors to close Sharp’s Brewery in UK - Just Drinks",
           "company": "-",
           "move_type": "market",
@@ -849,14 +857,6 @@
           "impact": "Market development may create opportunities or threats. Brief key accounts.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/jackson-family-wines-closes-carneros-facility-with-13-redundancies/",
           "date": "2026-02-26T10:30:51+00:00"
-        },
-        {
-          "title": "Beer Hour: Russell Bisset",
-          "company": "-",
-          "move_type": "market",
-          "impact": "Market development may create opportunities or threats. Brief key accounts.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/beer-hour-russell-bisset/",
-          "date": "2026-02-26T10:25:22+00:00"
         }
       ],
       "regulatory_watch": [
@@ -901,19 +901,28 @@
       "signals": [
         {
           "signal": "Rtd trending in Spain",
-          "explanation": "5 articles mention rtd",
-          "support_count": 5,
+          "explanation": "4 articles mention rtd",
+          "support_count": 4,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Coffee Tea trending in Spain",
-          "explanation": "4 articles mention coffee tea",
-          "support_count": 4,
+          "explanation": "3 articles mention coffee tea",
+          "support_count": 3,
           "top_keywords": [
             "coffee_tea"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Spain",
+          "explanation": "2 articles mention juice",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -932,15 +941,6 @@
           "support_count": 2,
           "top_keywords": [
             "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in Spain",
-          "explanation": "2 articles mention energy",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "medium"
         }
@@ -999,6 +999,14 @@
     "italy": {
       "executive_summary": [
         {
+          "headline": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "detail": "SPC Global rejigs manufacturing as juice plant to close in August Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon - BevNET.com",
           "detail": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon BevNET.com",
           "evidence_urls": [
@@ -1027,14 +1035,6 @@
           "detail": "MGP Ingredients forecasts lower sales, earnings in 2026 Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV29sWWl1UXpPeTFEZFVMMDRhbnJUeWtqMVJkSUd0Wmh6R1k0SlVPSExBc0F1T0hIZ0lNQi1ORGxnU0l5QnlEZmJXeVdxOUJ6VnM0Wk80SjJoR2hfQ3pXdHlIVFF1azltLWZ2MXRReERKREs1QVdfMFNGTGFwekxSczV1S1ZUb2E3dWdlWk5fMTZSZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand - openPR.com",
-          "detail": "Non-Alcoholic Concentrated Syrup Market Set to Hit 147.3 billion USD by 2035 on Rising Health Beverage Demand openPR.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFRvaXNLeFBFODdVaUNJbGJTS20xUFhOYkZRWkRQMUgxaW9SMnROLV94eFNVa1h4Q1ZLRUYxZmpISE9WWWZseHlvdUY4bzlibnRiLVBBWElMUmVBdDFDcnpsUFkxRDA2SV8ybU0xaXJULW9JdmJyVkdjSklRa2c3bFZqbmJ3b3pCSzVLQTdVZm9kMWRFWl9j?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1075,6 +1075,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "company": "-",
+          "move_type": "market",
+          "impact": "Market development may create opportunities or threats. Brief key accounts.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5",
+          "date": "2026-02-26T17:44:15+00:00"
+        },
+        {
           "title": "Molson Coors to close Sharp’s Brewery in UK - Just Drinks",
           "company": "-",
           "move_type": "market",
@@ -1105,14 +1113,6 @@
           "impact": "Market development may create opportunities or threats. Brief key accounts.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/jackson-family-wines-closes-carneros-facility-with-13-redundancies/",
           "date": "2026-02-26T10:30:51+00:00"
-        },
-        {
-          "title": "Beer Hour: Russell Bisset",
-          "company": "-",
-          "move_type": "market",
-          "impact": "Market development may create opportunities or threats. Brief key accounts.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/beer-hour-russell-bisset/",
-          "date": "2026-02-26T10:25:22+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1150,19 +1150,28 @@
       "signals": [
         {
           "signal": "Rtd trending in Italy",
-          "explanation": "5 articles mention rtd",
-          "support_count": 5,
+          "explanation": "4 articles mention rtd",
+          "support_count": 4,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Coffee Tea trending in Italy",
-          "explanation": "4 articles mention coffee tea",
-          "support_count": 4,
+          "explanation": "3 articles mention coffee tea",
+          "support_count": 3,
           "top_keywords": [
             "coffee_tea"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Italy",
+          "explanation": "2 articles mention juice",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -1183,15 +1192,6 @@
             "alcohol_free"
           ],
           "confidence": "medium"
-        },
-        {
-          "signal": "Organic trending in Italy",
-          "explanation": "1 articles mention organic",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1246,6 +1246,14 @@
     "austria": {
       "executive_summary": [
         {
+          "headline": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "detail": "SPC Global rejigs manufacturing as juice plant to close in August Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon - BevNET.com",
           "detail": "Chameleon Coffee Launches USDA Organic Functional Flash Brew Ready-to-Drink Cans With Erewhon BevNET.com",
           "evidence_urls": [
@@ -1262,26 +1270,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Hadjar Poised To Thrive At Red Bull As Albon And Perez Back 2026 Regulation Changes - myKhel",
-          "detail": "Hadjar Poised To Thrive At Red Bull As Albon And Perez Back 2026 Regulation Changes myKhel",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ3NqX19ZcGdOcVROdS1ETWs2dzlIMGhFN3ZabjAzemhSaFdlbXd0UWdUdHpwNnhRN20yanNCeUhjUXZRY1JRMURpcEkxZnFZMkoyWGNhaC1YQW9od29TdTJ4WEVqWS1OS1RaWnZpRGg5RkdNUkdsT29yVGJEbElNamEzT0VBYnlFUm9iRWhReXhPdkZVaTN6WQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Verstappen’s criticism of new F1 rules gets cut through by ex-team boss - GPblog",
-          "detail": "Verstappen’s criticism of new F1 rules gets cut through by ex-team boss GPblog",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRXZ6NGMtT1RDNjlLT0xXdlQzMU9VTXZxeXBXSEdCVkE1Y0tSQUNZbDRJcXlHNnBHYnNoNUVuM0Q3NjNtQVlZUGtDUHZDNFdzYzdDUG84MDZtd1lub3ZGYVBqeW9TODN6eDlYX19yLVJPZXZsTjM3LUZvMFNYd0syM0FVa3FWTHRqZ2pMUmxoN2tJdW5hNGJaSlZHYk1KbU9BZVo0?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Edna’s Non-Alcoholic Cocktail Co. Expands to All 526 Whole Foods Market Stores Nationwide, Secures March Endcap Feature - Business Wire",
           "detail": "Edna’s Non-Alcoholic Cocktail Co. Expands to All 526 Whole Foods Market Stores Nationwide, Secures March Endcap Feature Business Wire",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLVQtMi1DdGJXenVNY3F4dnhDbklQeVQyRVVma3pGdjJQQlVXS0xSemlHam1NcHM0azZMc1dvdUVhZm8tZGh3b2lzZ1M2RklnZ2NubTN5UGhLSm5oSkQtVTJKTjh1WGdjblRJQXZsUVMtaTZEbXh4UDVnTVZldVhSRzl1NVo3WjdHQXluNGtNZ3IwbkFTSXg5NWE4X2FTRzQyT0paUVczNmdzVzZ1R0R4TWVIay1INHZHNjVCdVlkcDRPajlKbm50cm9XbmhiSW1MWEJEeHRwS3piRVFHdlNtc1FEbF96OEZ2c2tHeTViaTBrU3hvbHBKaXMwM3FXcm01Wl9XSQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Molson Coors to close Sharp’s Brewery in UK - Just Drinks",
+          "detail": "Molson Coors to close Sharp’s Brewery in UK Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcmlJbWUta05aekJSQlJ3d05zcFNtUVlRbmt2d3pHLW1ZeDdMX0VCZ3JteDJwX2Z2eldZbk9tX3QtTVZZTTh5SEZRdWpDOUcyNzVySTZrZHVPdGY1X0pVbkNVOGo3THZGemsweXRBdm9IX2lhaldTNUtOWlpiTWpUNWRR?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1296,39 +1296,39 @@
           "date": "2026-02-26T17:15:00+00:00"
         },
         {
-          "title": "Verstappen’s criticism of new F1 rules gets cut through by ex-team boss - GPblog",
-          "company": "-",
-          "product": "beverage",
-          "angle": "Map against portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRXZ6NGMtT1RDNjlLT0xXdlQzMU9VTXZxeXBXSEdCVkE1Y0tSQUNZbDRJcXlHNnBHYnNoNUVuM0Q3NjNtQVlZUGtDUHZDNFdzYzdDUG84MDZtd1lub3ZGYVBqeW9TODN6eDlYX19yLVJPZXZsTjM3LUZvMFNYd0syM0FVa3FWTHRqZ2pMUmxoN2tJdW5hNGJaSlZHYk1KbU9BZVo0?oc=5",
-          "date": "2026-02-26T14:00:00+00:00"
-        },
-        {
-          "title": "Red Bull Racing and Oracle extend partnership ahead of 2026 Formula 1 season - grandprix247",
-          "company": "Red Bull",
-          "product": "energy",
-          "angle": "Map against portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXBxTzQ3U1NnXy1HM2hYS0VQLW13UHNLazFQNDFzRTc3SVhxTVo5ejZzanVrZ3pIZzFHR0pSbHAycnRUVWJ4eEdOd1VoTEp6ZUViOS0waGY2WWVoWTN3bkhGSlJ2N3dwV09fZk14TFVEekxxdmhfQzYxclpqSkJRenEwaE1obVE3WHVrNUFCVVpER0hwOFpPSlZhN3dVY254dGxmR2xfWUhiRHBCRXBVY0Jab3dJTUpxLVdETQ?oc=5",
-          "date": "2026-02-26T13:25:59+00:00"
-        },
-        {
-          "title": "New beverage launches: Red Bull cherry, Moth, Athletic Brewing and more… - BeverageDaily.com",
-          "company": "Red Bull",
-          "product": "energy",
-          "angle": "Map against portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzhCeW91Uk41MnVmVGdYVVh1OTF0V3BzclVzaFNfM0p3Y1I2TzVLOUZSZ1BRei1CMVF0MF9FOUJxdVZkaC1oUjYweW1tRjRNZElvV1licmhpMHVhNDhyRDl3el81ZEVtYTZRVmtyX29LTGpQUUw3VElmcnBYOGZtbFduVFQtQTJDQTJ1ZnJlN09HU3Q0TVF4ZUtuTDYyeDUzclF2TU9n?oc=5",
-          "date": "2026-02-25T11:15:07+00:00"
-        },
-        {
           "title": "MIKO Mei Fair to launch in Mayfair this April",
           "company": "-",
           "product": "beverage",
           "angle": "Map against portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/miko-mei-fair-to-launch-in-mayfair-this-april/",
           "date": "2026-02-25T10:48:44+00:00"
+        },
+        {
+          "title": "Tarsier has relaunched in Southeast Asia",
+          "company": "-",
+          "product": "beverage",
+          "angle": "Map against portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/tarsier-has-relaunched-in-southeast-asia/",
+          "date": "2026-02-24T10:50:16+00:00"
+        },
+        {
+          "title": "MO BAR Singapore unveils art-led Modern Localism menu",
+          "company": "-",
+          "product": "beverage",
+          "angle": "Map against portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/mo-bar-singapore-unveils-art-led-modern-localism-menu/",
+          "date": "2026-02-24T10:22:44+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "SPC Global rejigs manufacturing as juice plant to close in August - Just Drinks",
+          "company": "-",
+          "move_type": "market",
+          "impact": "Market development may create opportunities or threats. Brief key accounts.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGpSTUdvQnZfWGVVRTlyd2N6Y3ZvQU1hMzM5eFJiQWNfZWZ0X3VRX014RFE5eWdEV3o4UW54dTZPWVhZQndVbDZsNDRVR0VWdHZNVjRqeWRHNkdhb0hSbERDMm1BbUJOS0ZudkI4TzhXeTd0NVdtcDhyNEZqWlNjWHZOYUJOTVByc0ZUX2pDQ3hLWkE?oc=5",
+          "date": "2026-02-26T17:44:15+00:00"
+        },
         {
           "title": "Monster Beverage Aktie: Was der Rücksetzer für DACH-Anleger jetzt bedeutet - AD HOC NEWS",
           "company": "Monster",
@@ -1360,31 +1360,9 @@
           "impact": "Market development may create opportunities or threats. Brief key accounts.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/02/the-uks-definitive-champagne-tasting-returns-to-london-in-april/",
           "date": "2026-02-26T11:18:12+00:00"
-        },
-        {
-          "title": "Jackson Family Wines closes Carneros facility with 13 redundancies",
-          "company": "-",
-          "move_type": "market",
-          "impact": "Market development may create opportunities or threats. Brief key accounts.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/jackson-family-wines-closes-carneros-facility-with-13-redundancies/",
-          "date": "2026-02-26T10:30:51+00:00"
         }
       ],
       "regulatory_watch": [
-        {
-          "title": "Hadjar Poised To Thrive At Red Bull As Albon And Perez Back 2026 Regulation Changes - myKhel",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require reformulation or relabeling. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ3NqX19ZcGdOcVROdS1ETWs2dzlIMGhFN3ZabjAzemhSaFdlbXd0UWdUdHpwNnhRN20yanNCeUhjUXZRY1JRMURpcEkxZnFZMkoyWGNhaC1YQW9od29TdTJ4WEVqWS1OS1RaWnZpRGg5RkdNUkdsT29yVGJEbElNamEzT0VBYnlFUm9iRWhReXhPdkZVaTN6WQ?oc=5",
-          "date": "2026-02-26T15:45:00+00:00"
-        },
-        {
-          "title": "Max Verstappen labelled ‘absolute team leader’ at Red Bull - Motorsport Week",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require reformulation or relabeling. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNWJqWEpsa2hjREdfR1FKd21nWkFJMG9fbmVrdDNNNTBqS1Jpb1hWRU9tOWo0UkNSZUdzeVZGOFFUbmMxMzU4LUtudGFqb0lmSWtNdVpUZXVJTnVFVkFEbEpRZG9heEw1bHp4Um4teVJUUTNPTS0xZUNIQWdhUkU4SDNjeUY0bWF6ZE45bS0tS0I5OWZ0d2pXemtzS3loWHIz?oc=5",
-          "date": "2026-02-26T07:04:36+00:00"
-        },
         {
           "title": "WSET beer courses now regulated by Ofqual",
           "topic": "regulation",
@@ -1418,18 +1396,9 @@
       ],
       "signals": [
         {
-          "signal": "Energy trending in Austria",
-          "explanation": "8 articles mention energy",
-          "support_count": 8,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "high"
-        },
-        {
           "signal": "Rtd trending in Austria",
-          "explanation": "3 articles mention rtd",
-          "support_count": 3,
+          "explanation": "4 articles mention rtd",
+          "support_count": 4,
           "top_keywords": [
             "rtd"
           ],
@@ -1445,6 +1414,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Juice trending in Austria",
+          "explanation": "2 articles mention juice",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in Austria",
           "explanation": "2 articles mention functional",
           "support_count": 2,
@@ -1454,11 +1432,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "2 articles mention alcohol free",
+          "signal": "Energy trending in Austria",
+          "explanation": "2 articles mention energy",
           "support_count": 2,
           "top_keywords": [
-            "alcohol_free"
+            "energy"
           ],
           "confidence": "medium"
         }
@@ -1466,20 +1444,19 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new launches in Austria - discuss shelf space",
+          "pitch": "4 new launches in Austria - discuss shelf space",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkQ1MTRBYjlCSmdheG5NcTRfQWdENXloWEdsNTU2Snh4ajVOTnNuOFhDWXVnU1VPaFVVTEU5OWowWnQ4RGdHa2YxSE56R3hsR1g5VWxrek5OVWxwaklIeUQ2bmhEVkpvV0JUb0ZMbXJ0LVgxWi1aZHY1bk50akpxNXYxRWRqbkc5OW4zeVlucXcxcTVBZldwbUYtM2xObFBPMnhCS3psVHBETUZWbnNqbnowWFNsSXlZRzI3bmRIOXB6U096RXZz?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRXZ6NGMtT1RDNjlLT0xXdlQzMU9VTXZxeXBXSEdCVkE1Y0tSQUNZbDRJcXlHNnBHYnNoNUVuM0Q3NjNtQVlZUGtDUHZDNFdzYzdDUG84MDZtd1lub3ZGYVBqeW9TODN6eDlYX19yLVJPZXZsTjM3LUZvMFNYd0syM0FVa3FWTHRqZ2pMUmxoN2tJdW5hNGJaSlZHYk1KbU9BZVo0?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXBxTzQ3U1NnXy1HM2hYS0VQLW13UHNLazFQNDFzRTc3SVhxTVo5ejZzanVrZ3pIZzFHR0pSbHAycnRUVWJ4eEdOd1VoTEp6ZUViOS0waGY2WWVoWTN3bkhGSlJ2N3dwV09fZk14TFVEekxxdmhfQzYxclpqSkJRenEwaE1obVE3WHVrNUFCVVpER0hwOFpPSlZhN3dVY254dGxmR2xfWUhiRHBCRXBVY0Jab3dJTUpxLVdETQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/02/miko-mei-fair-to-launch-in-mayfair-this-april/",
+            "https://www.thedrinksbusiness.com/2026/02/tarsier-has-relaunched-in-southeast-asia/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria - position as compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ3NqX19ZcGdOcVROdS1ETWs2dzlIMGhFN3ZabjAzemhSaFdlbXd0UWdUdHpwNnhRN20yanNCeUhjUXZRY1JRMURpcEkxZnFZMkoyWGNhaC1YQW9od29TdTJ4WEVqWS1OS1RaWnZpRGg5RkdNUkdsT29yVGJEbElNamEzT0VBYnlFUm9iRWhReXhPdkZVaTN6WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNWJqWEpsa2hjREdfR1FKd21nWkFJMG9fbmVrdDNNNTBqS1Jpb1hWRU9tOWo0UkNSZUdzeVZGOFFUbmMxMzU4LUtudGFqb0lmSWtNdVpUZXVJTnVFVkFEbEpRZG9heEw1bHp4Um4teVJUUTNPTS0xZUNIQWdhUkU4SDNjeUY0bWF6ZE45bS0tS0I5OWZ0d2pXemtzS3loWHIz?oc=5",
-            "https://www.thedrinksbusiness.com/2026/02/wset-beer-courses-now-regulated-by-ofqual/"
+            "https://www.thedrinksbusiness.com/2026/02/wset-beer-courses-now-regulated-by-ofqual/",
+            "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmJkRjRqNUh3dDBWNmotSW1lZ3dyNUFqbDgzclhvUHpBM1Q5V21xN1JzX2E0RUVjTFNyWGhtSVh5bURrTlAzY0ZWNllya1pVYWdiRktYRzdRemhYOUxSQlBtX1ZoOXpSUW9kdDhGZ2lQRm83aGZ0OXRubUExbE9TMl9vanA2YzNSRmU4U2N1WGxUQy14YmRfUlphTFZ3RmxtV0pTSkNBcl9ITEhYNUtLQ1hUa3BVQVNLbzhOUHIzVHE4QQ?oc=5"
           ]
         },
         {
@@ -1494,12 +1471,12 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 launches for overlap",
+          "action": "Review 4 launches for overlap",
           "why_now": "Competitive response needed",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkQ1MTRBYjlCSmdheG5NcTRfQWdENXloWEdsNTU2Snh4ajVOTnNuOFhDWXVnU1VPaFVVTEU5OWowWnQ4RGdHa2YxSE56R3hsR1g5VWxrek5OVWxwaklIeUQ2bmhEVkpvV0JUb0ZMbXJ0LVgxWi1aZHY1bk50akpxNXYxRWRqbkc5OW4zeVlucXcxcTVBZldwbUYtM2xObFBPMnhCS3psVHBETUZWbnNqbnowWFNsSXlZRzI3bmRIOXB6U096RXZz?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRXZ6NGMtT1RDNjlLT0xXdlQzMU9VTXZxeXBXSEdCVkE1Y0tSQUNZbDRJcXlHNnBHYnNoNUVuM0Q3NjNtQVlZUGtDUHZDNFdzYzdDUG84MDZtd1lub3ZGYVBqeW9TODN6eDlYX19yLVJPZXZsTjM3LUZvMFNYd0syM0FVa3FWTHRqZ2pMUmxoN2tJdW5hNGJaSlZHYk1KbU9BZVo0?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXBxTzQ3U1NnXy1HM2hYS0VQLW13UHNLazFQNDFzRTc3SVhxTVo5ejZzanVrZ3pIZzFHR0pSbHAycnRUVWJ4eEdOd1VoTEp6ZUViOS0waGY2WWVoWTN3bkhGSlJ2N3dwV09fZk14TFVEekxxdmhfQzYxclpqSkJRenEwaE1obVE3WHVrNUFCVVpER0hwOFpPSlZhN3dVY254dGxmR2xfWUhiRHBCRXBVY0Jab3dJTUpxLVdETQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/02/miko-mei-fair-to-launch-in-mayfair-this-april/",
+            "https://www.thedrinksbusiness.com/2026/02/tarsier-has-relaunched-in-southeast-asia/"
           ]
         },
         {
@@ -1507,9 +1484,8 @@
           "action": "Brief quality team on regulatory changes",
           "why_now": "Compliance deadlines approaching",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ3NqX19ZcGdOcVROdS1ETWs2dzlIMGhFN3ZabjAzemhSaFdlbXd0UWdUdHpwNnhRN20yanNCeUhjUXZRY1JRMURpcEkxZnFZMkoyWGNhaC1YQW9od29TdTJ4WEVqWS1OS1RaWnZpRGg5RkdNUkdsT29yVGJEbElNamEzT0VBYnlFUm9iRWhReXhPdkZVaTN6WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNWJqWEpsa2hjREdfR1FKd21nWkFJMG9fbmVrdDNNNTBqS1Jpb1hWRU9tOWo0UkNSZUdzeVZGOFFUbmMxMzU4LUtudGFqb0lmSWtNdVpUZXVJTnVFVkFEbEpRZG9heEw1bHp4Um4teVJUUTNPTS0xZUNIQWdhUkU4SDNjeUY0bWF6ZE45bS0tS0I5OWZ0d2pXemtzS3loWHIz?oc=5",
-            "https://www.thedrinksbusiness.com/2026/02/wset-beer-courses-now-regulated-by-ofqual/"
+            "https://www.thedrinksbusiness.com/2026/02/wset-beer-courses-now-regulated-by-ofqual/",
+            "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmJkRjRqNUh3dDBWNmotSW1lZ3dyNUFqbDgzclhvUHpBM1Q5V21xN1JzX2E0RUVjTFNyWGhtSVh5bURrTlAzY0ZWNllya1pVYWdiRktYRzdRemhYOUxSQlBtX1ZoOXpSUW9kdDhGZ2lQRm83aGZ0OXRubUExbE9TMl9vanA2YzNSRmU4U2N1WGxUQy14YmRfUlphTFZ3RmxtV0pTSkNBcl9ITEhYNUtLQ1hUa3BVQVNLbzhOUHIzVHE4QQ?oc=5"
           ]
         }
       ]
