@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-02-27T07:36:27.857635+00:00",
+  "generated_at": "2026-02-27T15:05:32.188657+00:00",
   "generated_date": "Friday, 27 February 2026",
-  "briefing": "Tracking 177 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: SakéOne Launches Shogun, a Premium Junmai Ginjo Genshu Ready to Do Battle with the World's Best Saké.",
+  "briefing": "Tracking 179 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: O'kra Sparkling Okra Water Set to Turn Heads During Debut at Natural Products Expo West 2026 (Booth .",
   "signals": {
     "usa": "Carbonated leading. 50 items tracked.",
-    "germany": "Water leading. 50 items tracked.",
+    "germany": "Coffee Tea leading. 50 items tracked.",
     "france": "Juice leading. 50 items tracked.",
     "spain": "Energy leading. 50 items tracked.",
     "italy": "Juice leading. 50 items tracked.",
     "austria": "Juice leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 177,
+    "total_articles_analyzed": 179,
     "method": "rss-analysis",
     "top_topics": {
+      "carbonated": 9,
       "coffee_tea": 8,
-      "functional": 7,
-      "carbonated": 7,
+      "energy": 6,
       "water": 6,
       "rtd": 6,
-      "energy": 5,
+      "functional": 4,
       "organic": 4,
       "juice": 3,
-      "alcohol_free": 2,
+      "alcohol_free": 1,
       "sugar_free": 1
     }
   }
