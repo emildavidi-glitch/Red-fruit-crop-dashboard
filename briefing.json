@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-26T19:14:05.904886+00:00",
-  "generated_date": "Thursday, 26 February 2026",
-  "briefing": "Tracking 183 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: Icelandic Glacial Introduces New 750 mL Sports Cap Bottle and Debuts Updated Sparkling Glass Label A.",
+  "generated_at": "2026-02-27T07:36:27.857635+00:00",
+  "generated_date": "Friday, 27 February 2026",
+  "briefing": "Tracking 177 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: SakéOne Launches Shogun, a Premium Junmai Ginjo Genshu Ready to Do Battle with the World's Best Saké.",
   "signals": {
     "usa": "Carbonated leading. 50 items tracked.",
     "germany": "Water leading. 50 items tracked.",
@@ -11,18 +11,18 @@
     "austria": "Juice leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 183,
+    "total_articles_analyzed": 177,
     "method": "rss-analysis",
     "top_topics": {
       "coffee_tea": 8,
       "functional": 7,
-      "rtd": 7,
       "carbonated": 7,
       "water": 6,
-      "energy": 4,
-      "organic": 3,
+      "rtd": 6,
+      "energy": 5,
+      "organic": 4,
+      "juice": 3,
       "alcohol_free": 2,
-      "juice": 2,
       "sugar_free": 1
     }
   }
