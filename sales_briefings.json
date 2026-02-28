@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T05:59:13.843319+00:00",
+  "generated_at": "2026-02-28T13:56:08.239460+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -9,14 +9,6 @@
           "detail": "Ysidro Sake Spritz Transitions Distribution to Breakthru Beverage Group to Support Statewide Expansion BevNET.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ25ublF2WjlTeF91dDJIODI1NWF1TDFlOUhxTTlZQ3ZMTDlsdHUtZTh6Y1V5aUpkUFAwYzRlWDdxbGtDUVdnRC1XN3Z1RmFGdFR1Rl90SjlCTjhZQUpkOVVELXBfZ1EtVkUtc3JvRy1MSkFfQ3BvOVFWR0ltWldnMGJxcHp4TGZVQWY1VDh3bG05di0tTndhWmxYSXZWWU53cWI0dWsySDRLTW05WVJGOVNSbDV0WF9XWWtGLXp2czVjNmI3NXdkTjB1NFFKUjczM0x6M0xn?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Barrel & Bloom Agency - Brand Growth Partner - BevNET.com Beverage Industry Job Listing - BevNET.com",
-          "detail": "Barrel & Bloom Agency - Brand Growth Partner - BevNET.com Beverage Industry Job Listing BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUk43Y0xjWEFSQ0pjcmVMRGkzc0EzU3VMUkRJVWVjUUwycElpN2ZVUlk0UEI5QWFTSV9EUEwtendpZjRkSFRZTUZfX2x0UUJTZWxXTjZYWGFIWkR6TVNaWlFjZHV6NmFNc2hDX0Nray1YZDBLY2RHNng3bTNPOHc?oc=5"
           ],
           "confidence": "medium"
         },
@@ -43,6 +35,14 @@
             "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcU1FcVgzWnFWUTlwU3lGejNYNU50UXBTdW5iOS1tR2d3WllDTjlyTFZZOUxfS2dlSUZBY1hHdEE5RW4yb1ljTWtmYTdXYlZiQVpOVXlXMFJwS0k2S1dRLWM4RHF2SXcyS0pTZ3l4NmtDQUJUSTNIcXFZV0hqUGdJZllNT1I2WnBkMmVLV09RcER1Rm82eF84S2pOS2U2ZkN4TGxrYTFxcGo4MTVjNWp0Mnp2ZktiVUp2M3d5UnhwRHhiTnE4UWt2LWU0Sjd1cTFmMlpxaXBxUHRqeHRC?oc=5"
           ],
           "confidence": "medium"
+        },
+        {
+          "headline": "Barrel & Bloom Agency - Brand Growth Partner - BevNET.com Beverage Industry Job Listing - BevNET.com",
+          "detail": "Barrel & Bloom Agency - Brand Growth Partner - BevNET.com Beverage Industry Job Listing BevNET.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUk43Y0xjWEFSQ0pjcmVMRGkzc0EzU3VMUkRJVWVjUUwycElpN2ZVUlk0UEI5QWFTSV9EUEwtendpZjRkSFRZTUZfX2x0UUJTZWxXTjZYWGFIWkR6TVNaWlFjZHV6NmFNc2hDX0Nray1YZDBLY2RHNng3bTNPOHc?oc=5"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -52,7 +52,7 @@
           "product": "beverage",
           "angle": "Map against portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ25ublF2WjlTeF91dDJIODI1NWF1TDFlOUhxTTlZQ3ZMTDlsdHUtZTh6Y1V5aUpkUFAwYzRlWDdxbGtDUVdnRC1XN3Z1RmFGdFR1Rl90SjlCTjhZQUpkOVVELXBfZ1EtVkUtc3JvRy1MSkFfQ3BvOVFWR0ltWldnMGJxcHp4TGZVQWY1VDh3bG05di0tTndhWmxYSXZWWU53cWI0dWsySDRLTW05WVJGOVNSbDV0WF9XWWtGLXp2czVjNmI3NXdkTjB1NFFKUjczM0x6M0xn?oc=5",
-          "date": "2026-02-28T05:26:15+00:00"
+          "date": "2026-02-28T05:31:34+00:00"
         },
         {
           "title": "Scuttlebutt Brewing Company - Production Brewer - BevNET.com Beverage Industry Job Listing - BevNET.com",
@@ -157,8 +157,8 @@
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "4 articles mention carbonated",
-          "support_count": 4,
+          "explanation": "3 articles mention carbonated",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
@@ -184,21 +184,21 @@
         },
         {
           "signal": "Energy trending in United States",
-          "explanation": "2 articles mention energy",
-          "support_count": 2,
+          "explanation": "1 articles mention energy",
+          "support_count": 1,
           "top_keywords": [
             "energy"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Coffee Tea trending in United States",
-          "explanation": "2 articles mention coffee tea",
-          "support_count": 2,
+          "explanation": "1 articles mention coffee tea",
+          "support_count": 1,
           "top_keywords": [
             "coffee_tea"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -403,20 +403,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Water trending in Germany",
-          "explanation": "1 articles mention water",
+          "signal": "Rtd trending in Germany",
+          "explanation": "1 articles mention rtd",
           "support_count": 1,
           "top_keywords": [
-            "water"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Germany",
-          "explanation": "1 articles mention energy",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
+            "rtd"
           ],
           "confidence": "low"
         }
@@ -609,20 +600,20 @@
       ],
       "signals": [
         {
-          "signal": "Water trending in France",
-          "explanation": "1 articles mention water",
-          "support_count": 1,
-          "top_keywords": [
-            "water"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Energy trending in France",
           "explanation": "1 articles mention energy",
           "support_count": 1,
           "top_keywords": [
             "energy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Coffee Tea trending in France",
+          "explanation": "1 articles mention coffee tea",
+          "support_count": 1,
+          "top_keywords": [
+            "coffee_tea"
           ],
           "confidence": "low"
         }
@@ -829,11 +820,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Water trending in Spain",
-          "explanation": "1 articles mention water",
+          "signal": "Coffee Tea trending in Spain",
+          "explanation": "1 articles mention coffee tea",
           "support_count": 1,
           "top_keywords": [
-            "water"
+            "coffee_tea"
           ],
           "confidence": "low"
         }
@@ -1025,15 +1016,6 @@
         }
       ],
       "signals": [
-        {
-          "signal": "Water trending in Italy",
-          "explanation": "1 articles mention water",
-          "support_count": 1,
-          "top_keywords": [
-            "water"
-          ],
-          "confidence": "low"
-        },
         {
           "signal": "Energy trending in Italy",
           "explanation": "1 articles mention energy",
@@ -1238,15 +1220,6 @@
         }
       ],
       "signals": [
-        {
-          "signal": "Water trending in Austria",
-          "explanation": "1 articles mention water",
-          "support_count": 1,
-          "top_keywords": [
-            "water"
-          ],
-          "confidence": "low"
-        },
         {
           "signal": "Energy trending in Austria",
           "explanation": "1 articles mention energy",

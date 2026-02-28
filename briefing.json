@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-02-28T05:59:13.843319+00:00",
+  "generated_at": "2026-02-28T13:56:08.239460+00:00",
   "generated_date": "Saturday, 28 February 2026",
-  "briefing": "Tracking 174 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: Ysidro Sake Spritz Transitions Distribution to Breakthru Beverage Group to Support Statewide Expansi.",
+  "briefing": "Tracking 169 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: Ysidro Sake Spritz Transitions Distribution to Breakthru Beverage Group to Support Statewide Expansi.",
   "signals": {
     "usa": "Carbonated leading. 50 items tracked.",
     "germany": "Coffee Tea leading. 50 items tracked.",
-    "france": "Water leading. 50 items tracked.",
+    "france": "Energy leading. 50 items tracked.",
     "spain": "Energy leading. 50 items tracked.",
-    "italy": "Water leading. 50 items tracked.",
-    "austria": "Water leading. 50 items tracked."
+    "italy": "Energy leading. 50 items tracked.",
+    "austria": "Energy leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 174,
+    "total_articles_analyzed": 169,
     "method": "rss-analysis",
     "top_topics": {
-      "energy": 9,
-      "coffee_tea": 8,
       "carbonated": 7,
-      "water": 5,
-      "rtd": 5,
-      "functional": 4,
-      "organic": 2,
+      "energy": 6,
+      "coffee_tea": 6,
+      "rtd": 6,
+      "functional": 3,
+      "water": 2,
       "juice": 1,
-      "sugar_free": 1
+      "organic": 1
     }
   }
 }
