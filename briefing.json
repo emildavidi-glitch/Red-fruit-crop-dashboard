@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-02-27T15:05:32.188657+00:00",
-  "generated_date": "Friday, 27 February 2026",
-  "briefing": "Tracking 179 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: O'kra Sparkling Okra Water Set to Turn Heads During Debut at Natural Products Expo West 2026 (Booth .",
+  "generated_at": "2026-02-28T05:59:13.843319+00:00",
+  "generated_date": "Saturday, 28 February 2026",
+  "briefing": "Tracking 174 beverage intelligence items across 6 regions. Top themes: product launches, market developments, consumer trends. Latest: Ysidro Sake Spritz Transitions Distribution to Breakthru Beverage Group to Support Statewide Expansi.",
   "signals": {
     "usa": "Carbonated leading. 50 items tracked.",
     "germany": "Coffee Tea leading. 50 items tracked.",
-    "france": "Juice leading. 50 items tracked.",
+    "france": "Water leading. 50 items tracked.",
     "spain": "Energy leading. 50 items tracked.",
-    "italy": "Juice leading. 50 items tracked.",
-    "austria": "Juice leading. 50 items tracked."
+    "italy": "Water leading. 50 items tracked.",
+    "austria": "Water leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 179,
+    "total_articles_analyzed": 174,
     "method": "rss-analysis",
     "top_topics": {
-      "carbonated": 9,
+      "energy": 9,
       "coffee_tea": 8,
-      "energy": 6,
-      "water": 6,
-      "rtd": 6,
+      "carbonated": 7,
+      "water": 5,
+      "rtd": 5,
       "functional": 4,
-      "organic": 4,
-      "juice": 3,
-      "alcohol_free": 1,
+      "organic": 2,
+      "juice": 1,
       "sugar_free": 1
     }
   }
