@@ -1,27 +1,26 @@
 {
-  "generated_at": "2026-03-01T07:10:30.349505+00:00",
+  "generated_at": "2026-03-01T13:59:00.134518+00:00",
   "generated_date": "Sunday, 01 March 2026",
-  "briefing": "Tracking 151 beverage intelligence items across 6 regions. Top themes: market developments, product launches, consumer trends. Latest: Carlsberg und Liverpool FC: „You’ll Never Walk Alone“ in Gebärdensprache - about-drinks.com.",
+  "briefing": "Tracking 143 beverage intelligence items across 6 regions. Top themes: market developments, product launches, consumer trends. Latest: Carlsberg und Liverpool FC: „You’ll Never Walk Alone“ in Gebärdensprache - about-drinks.com.",
   "signals": {
     "usa": "Carbonated leading. 50 items tracked.",
-    "germany": "Rtd leading. 50 items tracked.",
+    "germany": "Water leading. 50 items tracked.",
     "france": "Water leading. 50 items tracked.",
     "spain": "Water leading. 50 items tracked.",
     "italy": "Water leading. 50 items tracked.",
     "austria": "Water leading. 50 items tracked."
   },
   "meta": {
-    "total_articles_analyzed": 151,
+    "total_articles_analyzed": 143,
     "method": "rss-analysis",
     "top_topics": {
-      "rtd": 7,
-      "carbonated": 7,
+      "rtd": 6,
       "functional": 5,
-      "energy": 3,
-      "coffee_tea": 3,
+      "coffee_tea": 4,
+      "carbonated": 4,
+      "energy": 2,
       "water": 2,
-      "organic": 1,
-      "juice": 1
+      "organic": 1
     }
   }
 }
