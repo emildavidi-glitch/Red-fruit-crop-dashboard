@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T07:53:00.322458+00:00",
+  "generated_at": "2026-03-02T10:00:45.353013+00:00",
   "regions": {
     "usa": {
       "market_context": {
@@ -11,13 +11,13 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – US Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/united-states"
             }
           ],
           "last_verified": "2025-01-15",
           "confidence": "medium",
-          "notes": "Order-of-magnitude estimate."
+          "notes": "Order-of-magnitude estimate from Statista public preview. Includes soft drinks, juice, water, energy, RTD coffee/tea."
         },
         "growth": {
           "value": 3.0,
@@ -26,17 +26,17 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – US Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/united-states"
             }
           ],
           "last_verified": "2025-01-15",
           "confidence": "medium",
-          "notes": "Approximate growth rate."
+          "notes": "Approximate YoY growth rate from public market summaries."
         }
       },
       "sales_relevance_notes": [
-        "50 items tracked."
+        "0 intelligence items tracked in last 28 days."
       ]
     },
     "germany": {
@@ -49,13 +49,13 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – DE Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/germany"
             }
           ],
           "last_verified": "2025-01-15",
           "confidence": "medium",
-          "notes": "Order-of-magnitude estimate."
+          "notes": "Order-of-magnitude estimate. DACH region context."
         },
         "growth": {
           "value": 2.0,
@@ -64,7 +64,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista DE",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/germany"
             }
           ],
@@ -74,7 +74,7 @@
         }
       },
       "sales_relevance_notes": [
-        "50 items tracked."
+        "0 intelligence items tracked in last 28 days."
       ]
     },
     "france": {
@@ -87,7 +87,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – FR Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/france"
             }
           ],
@@ -102,7 +102,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista FR",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/france"
             }
           ],
@@ -112,7 +112,7 @@
         }
       },
       "sales_relevance_notes": [
-        "50 items tracked."
+        "0 intelligence items tracked in last 28 days."
       ]
     },
     "spain": {
@@ -125,7 +125,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – ES Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/spain"
             }
           ],
@@ -140,7 +140,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista ES",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/spain"
             }
           ],
@@ -150,7 +150,7 @@
         }
       },
       "sales_relevance_notes": [
-        "50 items tracked."
+        "0 intelligence items tracked in last 28 days."
       ]
     },
     "italy": {
@@ -163,7 +163,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – IT Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/italy"
             }
           ],
@@ -178,7 +178,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista IT",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/italy"
             }
           ],
@@ -188,7 +188,7 @@
         }
       },
       "sales_relevance_notes": [
-        "50 items tracked."
+        "0 intelligence items tracked in last 28 days."
       ]
     },
     "austria": {
@@ -201,13 +201,13 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista – AT Non-Alcoholic Beverages",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/austria"
             }
           ],
           "last_verified": "2025-01-15",
           "confidence": "medium",
-          "notes": "Order-of-magnitude estimate."
+          "notes": "Order-of-magnitude estimate. Red Bull home market."
         },
         "growth": {
           "value": 2.0,
@@ -216,7 +216,7 @@
           "method": "manual_estimate",
           "sources": [
             {
-              "name": "Statista",
+              "name": "Statista AT",
               "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/austria"
             }
           ],
@@ -226,7 +226,7 @@
         }
       },
       "sales_relevance_notes": [
-        "50 items tracked."
+        "0 intelligence items tracked in last 28 days."
       ]
     }
   }

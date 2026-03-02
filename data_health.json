@@ -1,57 +1,75 @@
 {
-  "generated_at": "2026-03-02T07:53:00.322458+00:00",
+  "generated_at": "2026-03-02T10:00:45.353013+00:00",
   "regions": {
     "usa": {
-      "status": "ok",
-      "items": 50,
+      "status": "error",
+      "items": 0,
       "sources_ok": 15,
       "sources_failed": 0,
-      "last_item_date": "2026-03-02T00:18:25+00:00",
-      "notes": []
+      "last_item_date": null,
+      "notes": [
+        "Expanded to 42-day window (only 0 items in 28d)",
+        "Below 10-item threshold: 0 items"
+      ]
     },
     "germany": {
-      "status": "ok",
-      "items": 50,
+      "status": "error",
+      "items": 0,
       "sources_ok": 15,
       "sources_failed": 0,
-      "last_item_date": "2026-03-02T07:36:31+00:00",
-      "notes": []
+      "last_item_date": null,
+      "notes": [
+        "Expanded to 42-day window (only 0 items in 28d)",
+        "Below 10-item threshold: 0 items"
+      ]
     },
     "france": {
-      "status": "ok",
-      "items": 50,
+      "status": "error",
+      "items": 0,
       "sources_ok": 15,
       "sources_failed": 0,
-      "last_item_date": "2026-02-28T10:02:30+00:00",
-      "notes": []
+      "last_item_date": null,
+      "notes": [
+        "Expanded to 42-day window (only 0 items in 28d)",
+        "Below 10-item threshold: 0 items"
+      ]
     },
     "spain": {
-      "status": "ok",
-      "items": 50,
+      "status": "error",
+      "items": 0,
       "sources_ok": 15,
       "sources_failed": 0,
-      "last_item_date": "2026-02-28T10:02:30+00:00",
-      "notes": []
+      "last_item_date": null,
+      "notes": [
+        "Expanded to 42-day window (only 0 items in 28d)",
+        "Below 10-item threshold: 0 items"
+      ]
     },
     "italy": {
-      "status": "ok",
-      "items": 50,
+      "status": "error",
+      "items": 0,
       "sources_ok": 15,
       "sources_failed": 0,
-      "last_item_date": "2026-02-28T10:02:30+00:00",
-      "notes": []
+      "last_item_date": null,
+      "notes": [
+        "Expanded to 42-day window (only 0 items in 28d)",
+        "Below 10-item threshold: 0 items"
+      ]
     },
     "austria": {
-      "status": "ok",
-      "items": 50,
+      "status": "error",
+      "items": 0,
       "sources_ok": 15,
       "sources_failed": 0,
-      "last_item_date": "2026-02-28T10:02:30+00:00",
-      "notes": []
+      "last_item_date": null,
+      "notes": [
+        "Expanded to 42-day window (only 0 items in 28d)",
+        "Below 10-item threshold: 0 items"
+      ]
     }
   },
   "global": {
-    "total_items": 300,
+    "total_items": 0,
     "total_sources_ok": 15,
     "total_sources_failed": 0
   }
