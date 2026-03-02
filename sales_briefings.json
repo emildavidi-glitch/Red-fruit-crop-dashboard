@@ -1,66 +1,1178 @@
 {
-  "generated_at": "2026-03-02T15:06:32.373092+00:00",
+  "generated_at": "2026-03-02T18:59:28.538286+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
-      "executive_summary": [],
-      "key_launches": [],
-      "competitor_moves": [],
-      "regulatory_watch": [],
-      "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "executive_summary": [
+        {
+          "headline": "Becle profits slide 12.8% as Jose Cuervo owner hit by weaker US Tequila sales",
+          "detail": "Fourth-quarter earnings at Becle, parent of Jose Cuervo, have missed forecasts as North American demand falters and tax pressures continue to increase. The Mexican drinks giant also faces mounting unc",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/becle-profits-slide-12-8-as-jose-cuervo-owner-hit-by-weaker-us-tequila-sales/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "detail": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025. This prestigious blind tasting will assess wines ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "detail": "Kirin launches RTD brand Hyoketsu in US Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "detail": "The US brewer and cannabis group Tilray Brands is readying to acquire parts of the Brewdog business in a deal understood to be in the region of £33m. The post Brewdog to be bought by Tilray Brands in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "‘We are here for the long run’: Pompeii plants vines once more",
+          "detail": "A partnership between Pompeii Archaeological Park and Tenute Capaldo Group has begun its international tour in London, setting out an ambitious plan to root viticulture once more in the ancient city. ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "company": "Kirin",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+          "date": "2026-03-02T12:55:57+00:00"
+        },
+        {
+          "title": "O'kra Sparkling Okra Water Set to Turn Heads During Debut at Natural Products Expo West 2026 (Booth N1529) - BevNET.com",
+          "company": "Unknown",
+          "product": "carbonated",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa0w2YUk4WlBFUDZiQWVvSmktRHE0akQ2STgtWnV1UmRvNnJIbHBUZElUYlkyWmh6NDBMRjZnZlF0NDR1Q3BQTHR1X1RkQ1dlOGlLUE9VQTRpYWs5NFBTS1otajl3WTNZQjFRQ1pzZ2RVdl9BT2pHVGJvUUZWZE1rWEJCa0tjLWxEZjdUcmNBWFEzbGRJRkRuRWlVVVBidXdSSDd4X1FDclFvQ2RKbmRDdUZVWUlsQVN5dlJ5a25zNWZ2bF8zSjBNRGN5S1d5Y2FzSF9DcVFBcw?oc=5",
+          "date": "2026-02-27T17:46:16+00:00"
+        },
+        {
+          "title": "Beyond Meat expands protein drinks after promising test launch",
+          "company": "Unknown",
+          "product": "protein, dairy_alt",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.fooddive.com/news/beyond-meat-expands-protein-beverage-line/813367/",
+          "date": "2026-02-27T10:39:00-05:00"
+        },
+        {
+          "title": "Veuve Clicquot reveals 2026 Bold Woman Award shortlist",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+          "date": "2026-02-27T11:06:07+00:00"
+        },
+        {
+          "title": "Siren’s International Women’s Day beer goes on sale next week",
+          "company": "Rewe",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/",
+          "date": "2026-02-27T07:00:55+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "company": "Rewe",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/",
+          "date": "2026-03-02T14:52:17+00:00"
+        },
+        {
+          "title": "‘We are here for the long run’: Pompeii plants vines once more",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/",
+          "date": "2026-03-02T10:53:19+00:00"
+        }
+      ],
+      "regulatory_watch": [
+        {
+          "title": "Becle profits slide 12.8% as Jose Cuervo owner hit by weaker US Tequila sales",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/becle-profits-slide-12-8-as-jose-cuervo-owner-hit-by-weaker-us-tequila-sales/",
+          "date": "2026-03-02T11:05:00+00:00"
+        }
+      ],
+      "pricing_promotions": [
+        {
+          "title": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "what_changed": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/",
+          "date": "2026-03-02T11:20:22+00:00"
+        },
+        {
+          "title": "JM Smucker adds 2 board members in deal with activist investor",
+          "what_changed": "Elliott Investment Management said the agreement comes after “constructive engagement” with the Uncrustables maker, which has faced higher coffee pric",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.fooddive.com/news/jm-smucker-adds-2-board-members-in-deal-with-activist/813198/",
+          "date": "2026-02-26T09:11:05-05:00"
+        },
+        {
+          "title": "Molson Coors to close Sharp’s, Brewery putting 50 jobs at risk",
+          "what_changed": "Carling brewer Molson Coors plans to shut its Cornish brewery and Cardiff contact centre by the end of 2026. Around 200 roles are under consultation a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/molson-coors-to-close-sharps-brewery-putting-50-jobs-at-risk/",
+          "date": "2026-02-26T10:42:45+00:00"
+        },
+        {
+          "title": "KDP Updates Prices Structuring for JDE Peet’s Deal, Gamgort to Leave Board - BevNET.com",
+          "what_changed": "KDP Updates Prices Structuring for JDE Peet’s Deal, Gamgort to Leave Board BevNET.com",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb054UkFxVnd1Tll6blpfRm4waWdqeGJCekY4M2hqMDZHOERWMHo0UVg3UU40R2V1cW52SVZjR05IYk80LVBMQlVKQkd2c3Jkb0F0VEgwQ1lfZmdnNEpMajBKejRvMERnRHJtOENiNDIyblNTUWUzcjdiX0ZwTHVLYVJ5U2Z0bnRTZmNSWnV2b2FrQTNQYnM2SmxLQVpvMldfNGF3X0lWbE50UQ?oc=5",
+          "date": "2026-02-24T17:04:34+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in United States",
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in United States",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in United States",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in United States — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa0w2YUk4WlBFUDZiQWVvSmktRHE0akQ2STgtWnV1UmRvNnJIbHBUZElUYlkyWmh6NDBMRjZnZlF0NDR1Q3BQTHR1X1RkQ1dlOGlLUE9VQTRpYWs5NFBTS1otajl3WTNZQjFRQ1pzZ2RVdl9BT2pHVGJvUUZWZE1rWEJCa0tjLWxEZjdUcmNBWFEzbGRJRkRuRWlVVVBidXdSSDd4X1FDclFvQ2RKbmRDdUZVWUlsQVN5dlJ5a25zNWZ2bF8zSjBNRGN5S1d5Y2FzSF9DcVFBcw?oc=5",
+            "https://www.fooddive.com/news/beyond-meat-expands-protein-beverage-line/813367/"
+          ]
+        },
+        {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/becle-profits-slide-12-8-as-jose-cuervo-owner-hit-by-weaker-us-tequila-sales/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa0w2YUk4WlBFUDZiQWVvSmktRHE0akQ2STgtWnV1UmRvNnJIbHBUZElUYlkyWmh6NDBMRjZnZlF0NDR1Q3BQTHR1X1RkQ1dlOGlLUE9VQTRpYWs5NFBTS1otajl3WTNZQjFRQ1pzZ2RVdl9BT2pHVGJvUUZWZE1rWEJCa0tjLWxEZjdUcmNBWFEzbGRJRkRuRWlVVVBidXdSSDd4X1FDclFvQ2RKbmRDdUZVWUlsQVN5dlJ5a25zNWZ2bF8zSjBNRGN5S1d5Y2FzSF9DcVFBcw?oc=5",
+            "https://www.fooddive.com/news/beyond-meat-expands-protein-beverage-line/813367/"
+          ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/becle-profits-slide-12-8-as-jose-cuervo-owner-hit-by-weaker-us-tequila-sales/"
+          ]
+        }
+      ]
     },
     "germany": {
-      "executive_summary": [],
-      "key_launches": [],
-      "competitor_moves": [],
+      "executive_summary": [
+        {
+          "headline": "Getränke: Edeka bringt Drink von Influencerin Julia Beautx in die Regale - Lebensmittel Zeitung",
+          "detail": "Getränke: Edeka bringt Drink von Influencerin Julia Beautx in die Regale Lebensmittel Zeitung",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdEEyNHBsQ2IxNktLdDRMeEthX1pncU1QLWZGMC1OVG14MjVSVWp4OEs4NllVQlI3ZkpOc2NYbGo3aXlhOUFyOFdHXzdRU09JTW4tbTlNX3RwTmxJQVJWb3hCOVZPbm40VzdsRk56aUVzYzNqV05vOXE1TS1vMzh4R0VkRjF3dk5fdFp1WDYyT1MyMHd1T1JBcTl6Q205MjVXd25LcEJpYmd6MEh5QWZsby1BWmFKT056aUo4TWtMVzd3MHlKUkpUSmxkdG8yZm8?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "detail": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025. This prestigious blind tasting will assess wines ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "detail": "Kirin launches RTD brand Hyoketsu in US Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Three Sixty launcht ersten „Vodka & Energy Drink Zero Sugar“ in der RTD-Dose - about-drinks.com",
+          "detail": "Three Sixty launcht ersten „Vodka & Energy Drink Zero Sugar“ in der RTD-Dose about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "detail": "The US brewer and cannabis group Tilray Brands is readying to acquire parts of the Brewdog business in a deal understood to be in the region of £33m. The post Brewdog to be bought by Tilray Brands in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "company": "Kirin",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+          "date": "2026-03-02T12:55:57+00:00"
+        },
+        {
+          "title": "Three Sixty launcht ersten „Vodka & Energy Drink Zero Sugar“ in der RTD-Dose - about-drinks.com",
+          "company": "Unknown",
+          "product": "energy, sugar_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5",
+          "date": "2026-03-02T09:52:01+00:00"
+        },
+        {
+          "title": "Veuve Clicquot reveals 2026 Bold Woman Award shortlist",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+          "date": "2026-02-27T11:06:07+00:00"
+        },
+        {
+          "title": "Siren’s International Women’s Day beer goes on sale next week",
+          "company": "Rewe",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/",
+          "date": "2026-02-27T07:00:55+00:00"
+        },
+        {
+          "title": "Poppi launches in the UK - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMDdkcC1NbFl6UTR2Y0FYN19xUEVMQ2ZrUWZpcHMxR0VQcnRYenZka045UGFsanFvb3BJbUVBMldJU01pNFJZVWhPQWQyYnMzRVpHVktrdzVLR1hBMGUwcTgzenRBZXA5LXZIT1lqWTdSU0hyNzZHR19MY1AwZV83bUpHYXN3OGcxdmlleFV5eUg0SmU0?oc=5",
+          "date": "2026-02-26T11:10:09+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "company": "Rewe",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/",
+          "date": "2026-03-02T14:52:17+00:00"
+        },
+        {
+          "title": "‘We are here for the long run’: Pompeii plants vines once more",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/",
+          "date": "2026-03-02T10:53:19+00:00"
+        }
+      ],
       "regulatory_watch": [],
-      "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "pricing_promotions": [
+        {
+          "title": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "what_changed": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/",
+          "date": "2026-03-02T11:20:22+00:00"
+        },
+        {
+          "title": "Molson Coors to close Sharp’s, Brewery putting 50 jobs at risk",
+          "what_changed": "Carling brewer Molson Coors plans to shut its Cornish brewery and Cardiff contact centre by the end of 2026. Around 200 roles are under consultation a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/molson-coors-to-close-sharps-brewery-putting-50-jobs-at-risk/",
+          "date": "2026-02-26T10:42:45+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Rtd trending in Germany",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in Germany",
+          "explanation": "3 articles mention sugar free in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in Germany",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/"
+          ]
+        }
+      ]
     },
     "france": {
-      "executive_summary": [],
-      "key_launches": [],
-      "competitor_moves": [],
+      "executive_summary": [
+        {
+          "headline": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "detail": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025. This prestigious blind tasting will assess wines ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "detail": "Kirin launches RTD brand Hyoketsu in US Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "detail": "The US brewer and cannabis group Tilray Brands is readying to acquire parts of the Brewdog business in a deal understood to be in the region of £33m. The post Brewdog to be bought by Tilray Brands in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "‘We are here for the long run’: Pompeii plants vines once more",
+          "detail": "A partnership between Pompeii Archaeological Park and Tenute Capaldo Group has begun its international tour in London, setting out an ambitious plan to root viticulture once more in the ancient city. ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "How St. Tropez’s local rosé captures Provence terroir",
+          "detail": "Les Vignerons de Grimaud's Les Aumarets Rosé aims to capture the essence of the French Riviera in a glass The post How St. Tropez’s local rosé captures Provence terroir appeared first on The Drinks Bu",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/02/how-st-tropezs-local-rose-captures-provence-terroir/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "company": "Kirin",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+          "date": "2026-03-02T12:55:57+00:00"
+        },
+        {
+          "title": "Veuve Clicquot reveals 2026 Bold Woman Award shortlist",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+          "date": "2026-02-27T11:06:07+00:00"
+        },
+        {
+          "title": "Siren’s International Women’s Day beer goes on sale next week",
+          "company": "Rewe",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/",
+          "date": "2026-02-27T07:00:55+00:00"
+        },
+        {
+          "title": "Poppi launches in the UK - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMDdkcC1NbFl6UTR2Y0FYN19xUEVMQ2ZrUWZpcHMxR0VQcnRYenZka045UGFsanFvb3BJbUVBMldJU01pNFJZVWhPQWQyYnMzRVpHVktrdzVLR1hBMGUwcTgzenRBZXA5LXZIT1lqWTdSU0hyNzZHR19MY1AwZV83bUpHYXN3OGcxdmlleFV5eUg0SmU0?oc=5",
+          "date": "2026-02-26T11:10:09+00:00"
+        },
+        {
+          "title": "New beverage launches: Red Bull cherry, Moth, Athletic Brewing and more… - BeverageDaily.com",
+          "company": "Red Bull, Athletic Brewing",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzhCeW91Uk41MnVmVGdYVVh1OTF0V3BzclVzaFNfM0p3Y1I2TzVLOUZSZ1BRei1CMVF0MF9FOUJxdVZkaC1oUjYweW1tRjRNZElvV1licmhpMHVhNDhyRDl3el81ZEVtYTZRVmtyX29LTGpQUUw3VElmcnBYOGZtbFduVFQtQTJDQTJ1ZnJlN09HU3Q0TVF4ZUtuTDYyeDUzclF2TU9n?oc=5",
+          "date": "2026-02-25T11:15:07+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "company": "Rewe",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/",
+          "date": "2026-03-02T14:52:17+00:00"
+        },
+        {
+          "title": "‘We are here for the long run’: Pompeii plants vines once more",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/",
+          "date": "2026-03-02T10:53:19+00:00"
+        }
+      ],
       "regulatory_watch": [],
-      "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "pricing_promotions": [
+        {
+          "title": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "what_changed": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/",
+          "date": "2026-03-02T11:20:22+00:00"
+        },
+        {
+          "title": "Molson Coors to close Sharp’s, Brewery putting 50 jobs at risk",
+          "what_changed": "Carling brewer Molson Coors plans to shut its Cornish brewery and Cardiff contact centre by the end of 2026. Around 200 roles are under consultation a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/molson-coors-to-close-sharps-brewery-putting-50-jobs-at-risk/",
+          "date": "2026-02-26T10:42:45+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in France",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in France",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in France",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in France",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in France — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+            "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+            "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/"
+          ]
+        }
+      ]
     },
     "spain": {
-      "executive_summary": [],
-      "key_launches": [],
-      "competitor_moves": [],
+      "executive_summary": [
+        {
+          "headline": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "detail": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025. This prestigious blind tasting will assess wines ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "detail": "Kirin launches RTD brand Hyoketsu in US Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "detail": "The US brewer and cannabis group Tilray Brands is readying to acquire parts of the Brewdog business in a deal understood to be in the region of £33m. The post Brewdog to be bought by Tilray Brands in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "‘We are here for the long run’: Pompeii plants vines once more",
+          "detail": "A partnership between Pompeii Archaeological Park and Tenute Capaldo Group has begun its international tour in London, setting out an ambitious plan to root viticulture once more in the ancient city. ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Golf club sinkhole reveals century-old wine cellar",
+          "detail": "The shock of a sinkhole appearing on a popular Manchester golf course was tempered by the elation of finding an underground cellar containing the remnants of historic wine and Port bottles. Sarah Neis",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/golf-club-sinkhole-reveals-century-old-wine-cellar/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "company": "Kirin",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+          "date": "2026-03-02T12:55:57+00:00"
+        },
+        {
+          "title": "Veuve Clicquot reveals 2026 Bold Woman Award shortlist",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+          "date": "2026-02-27T11:06:07+00:00"
+        },
+        {
+          "title": "Siren’s International Women’s Day beer goes on sale next week",
+          "company": "Rewe",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/",
+          "date": "2026-02-27T07:00:55+00:00"
+        },
+        {
+          "title": "Poppi launches in the UK - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMDdkcC1NbFl6UTR2Y0FYN19xUEVMQ2ZrUWZpcHMxR0VQcnRYenZka045UGFsanFvb3BJbUVBMldJU01pNFJZVWhPQWQyYnMzRVpHVktrdzVLR1hBMGUwcTgzenRBZXA5LXZIT1lqWTdSU0hyNzZHR19MY1AwZV83bUpHYXN3OGcxdmlleFV5eUg0SmU0?oc=5",
+          "date": "2026-02-26T11:10:09+00:00"
+        },
+        {
+          "title": "New beverage launches: Red Bull cherry, Moth, Athletic Brewing and more… - BeverageDaily.com",
+          "company": "Red Bull, Athletic Brewing",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzhCeW91Uk41MnVmVGdYVVh1OTF0V3BzclVzaFNfM0p3Y1I2TzVLOUZSZ1BRei1CMVF0MF9FOUJxdVZkaC1oUjYweW1tRjRNZElvV1licmhpMHVhNDhyRDl3el81ZEVtYTZRVmtyX29LTGpQUUw3VElmcnBYOGZtbFduVFQtQTJDQTJ1ZnJlN09HU3Q0TVF4ZUtuTDYyeDUzclF2TU9n?oc=5",
+          "date": "2026-02-25T11:15:07+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "company": "Rewe",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/",
+          "date": "2026-03-02T14:52:17+00:00"
+        },
+        {
+          "title": "‘We are here for the long run’: Pompeii plants vines once more",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/",
+          "date": "2026-03-02T10:53:19+00:00"
+        },
+        {
+          "title": "Morgan Stanley, Houlihan Lokey top consumer M&A advisor ranks - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0RUWmVyRGpYc0VKUEFPUDhwYmdscXVEMktXaTk1R2pxWFFJTlVoUHpBTFBTNmx5Ym53WTRHTmpYUTRiU0pPMTVPMTY2ZDJodW4wYjAxT2I0cWJHNERRcDc3STZDZ2ZockZfSUFLNkt5cEpNdExDT0dXRXN6YXZHNDdOamU0T19nejFHTGFCd1lyRmtMNWdsUWFDVzQ2aGRXZy1Qd3RaYk0?oc=5",
+          "date": "2026-02-16T18:27:24+00:00"
+        }
+      ],
       "regulatory_watch": [],
-      "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "pricing_promotions": [
+        {
+          "title": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "what_changed": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/",
+          "date": "2026-03-02T11:20:22+00:00"
+        },
+        {
+          "title": "Molson Coors to close Sharp’s, Brewery putting 50 jobs at risk",
+          "what_changed": "Carling brewer Molson Coors plans to shut its Cornish brewery and Cardiff contact centre by the end of 2026. Around 200 roles are under consultation a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/molson-coors-to-close-sharps-brewery-putting-50-jobs-at-risk/",
+          "date": "2026-02-26T10:42:45+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in Spain",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Spain",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in Spain",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+            "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+            "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/"
+          ]
+        }
+      ]
     },
     "italy": {
-      "executive_summary": [],
-      "key_launches": [],
-      "competitor_moves": [],
+      "executive_summary": [
+        {
+          "headline": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "detail": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025. This prestigious blind tasting will assess wines ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "detail": "Kirin launches RTD brand Hyoketsu in US Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "detail": "The US brewer and cannabis group Tilray Brands is readying to acquire parts of the Brewdog business in a deal understood to be in the region of £33m. The post Brewdog to be bought by Tilray Brands in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "‘We are here for the long run’: Pompeii plants vines once more",
+          "detail": "A partnership between Pompeii Archaeological Park and Tenute Capaldo Group has begun its international tour in London, setting out an ambitious plan to root viticulture once more in the ancient city. ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Golf club sinkhole reveals century-old wine cellar",
+          "detail": "The shock of a sinkhole appearing on a popular Manchester golf course was tempered by the elation of finding an underground cellar containing the remnants of historic wine and Port bottles. Sarah Neis",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/golf-club-sinkhole-reveals-century-old-wine-cellar/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "company": "Kirin",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+          "date": "2026-03-02T12:55:57+00:00"
+        },
+        {
+          "title": "Veuve Clicquot reveals 2026 Bold Woman Award shortlist",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+          "date": "2026-02-27T11:06:07+00:00"
+        },
+        {
+          "title": "Siren’s International Women’s Day beer goes on sale next week",
+          "company": "Rewe",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/",
+          "date": "2026-02-27T07:00:55+00:00"
+        },
+        {
+          "title": "Poppi launches in the UK - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMDdkcC1NbFl6UTR2Y0FYN19xUEVMQ2ZrUWZpcHMxR0VQcnRYenZka045UGFsanFvb3BJbUVBMldJU01pNFJZVWhPQWQyYnMzRVpHVktrdzVLR1hBMGUwcTgzenRBZXA5LXZIT1lqWTdSU0hyNzZHR19MY1AwZV83bUpHYXN3OGcxdmlleFV5eUg0SmU0?oc=5",
+          "date": "2026-02-26T11:10:09+00:00"
+        },
+        {
+          "title": "New beverage launches: Red Bull cherry, Moth, Athletic Brewing and more… - BeverageDaily.com",
+          "company": "Red Bull, Athletic Brewing",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzhCeW91Uk41MnVmVGdYVVh1OTF0V3BzclVzaFNfM0p3Y1I2TzVLOUZSZ1BRei1CMVF0MF9FOUJxdVZkaC1oUjYweW1tRjRNZElvV1licmhpMHVhNDhyRDl3el81ZEVtYTZRVmtyX29LTGpQUUw3VElmcnBYOGZtbFduVFQtQTJDQTJ1ZnJlN09HU3Q0TVF4ZUtuTDYyeDUzclF2TU9n?oc=5",
+          "date": "2026-02-25T11:15:07+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "company": "Rewe",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/",
+          "date": "2026-03-02T14:52:17+00:00"
+        },
+        {
+          "title": "‘We are here for the long run’: Pompeii plants vines once more",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/",
+          "date": "2026-03-02T10:53:19+00:00"
+        },
+        {
+          "title": "Morgan Stanley, Houlihan Lokey top consumer M&A advisor ranks - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0RUWmVyRGpYc0VKUEFPUDhwYmdscXVEMktXaTk1R2pxWFFJTlVoUHpBTFBTNmx5Ym53WTRHTmpYUTRiU0pPMTVPMTY2ZDJodW4wYjAxT2I0cWJHNERRcDc3STZDZ2ZockZfSUFLNkt5cEpNdExDT0dXRXN6YXZHNDdOamU0T19nejFHTGFCd1lyRmtMNWdsUWFDVzQ2aGRXZy1Qd3RaYk0?oc=5",
+          "date": "2026-02-16T18:27:24+00:00"
+        }
+      ],
       "regulatory_watch": [],
-      "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "pricing_promotions": [
+        {
+          "title": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "what_changed": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/",
+          "date": "2026-03-02T11:20:22+00:00"
+        },
+        {
+          "title": "Molson Coors to close Sharp’s, Brewery putting 50 jobs at risk",
+          "what_changed": "Carling brewer Molson Coors plans to shut its Cornish brewery and Cardiff contact centre by the end of 2026. Around 200 roles are under consultation a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/molson-coors-to-close-sharps-brewery-putting-50-jobs-at-risk/",
+          "date": "2026-02-26T10:42:45+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in Italy",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Italy",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in Italy",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+            "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+            "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/"
+          ]
+        }
+      ]
     },
     "austria": {
-      "executive_summary": [],
-      "key_launches": [],
-      "competitor_moves": [],
+      "executive_summary": [
+        {
+          "headline": "Thai food meets Austrian wine at AngloThai",
+          "detail": "At Michelin-starred AngloThai, an Austrian wine pairing rooted in long-standing grower relationships is shaping a distinctive approach to pairing Thai flavours with cool-climate wines. The post Thai f",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/thai-food-meets-austrian-wine-at-anglothai/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "detail": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025. This prestigious blind tasting will assess wines ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "detail": "Kirin launches RTD brand Hyoketsu in US Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Three Sixty launcht ersten „Vodka & Energy Drink Zero Sugar“ in der RTD-Dose - about-drinks.com",
+          "detail": "Three Sixty launcht ersten „Vodka & Energy Drink Zero Sugar“ in der RTD-Dose about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "detail": "The US brewer and cannabis group Tilray Brands is readying to acquire parts of the Brewdog business in a deal understood to be in the region of £33m. The post Brewdog to be bought by Tilray Brands in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Kirin launches RTD brand Hyoketsu in US - Just Drinks",
+          "company": "Kirin",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+          "date": "2026-03-02T12:55:57+00:00"
+        },
+        {
+          "title": "Three Sixty launcht ersten „Vodka & Energy Drink Zero Sugar“ in der RTD-Dose - about-drinks.com",
+          "company": "Unknown",
+          "product": "energy, sugar_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5",
+          "date": "2026-03-02T09:52:01+00:00"
+        },
+        {
+          "title": "Veuve Clicquot reveals 2026 Bold Woman Award shortlist",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/",
+          "date": "2026-02-27T11:06:07+00:00"
+        },
+        {
+          "title": "Siren’s International Women’s Day beer goes on sale next week",
+          "company": "Rewe",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/sirens-international-womens-day-beer-goes-on-sale-next-week/",
+          "date": "2026-02-27T07:00:55+00:00"
+        },
+        {
+          "title": "Poppi launches in the UK - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMDdkcC1NbFl6UTR2Y0FYN19xUEVMQ2ZrUWZpcHMxR0VQcnRYenZka045UGFsanFvb3BJbUVBMldJU01pNFJZVWhPQWQyYnMzRVpHVktrdzVLR1hBMGUwcTgzenRBZXA5LXZIT1lqWTdSU0hyNzZHR19MY1AwZV83bUpHYXN3OGcxdmlleFV5eUg0SmU0?oc=5",
+          "date": "2026-02-26T11:10:09+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Brewdog to be bought by Tilray Brands in £33 million deal",
+          "company": "Rewe",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/brewdog-to-be-bought-by-tilray-brands-in-40-million-deal/",
+          "date": "2026-03-02T14:52:17+00:00"
+        },
+        {
+          "title": "‘We are here for the long run’: Pompeii plants vines once more",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/we-are-here-for-the-long-run-pompeii-plants-vines-once-more/",
+          "date": "2026-03-02T10:53:19+00:00"
+        }
+      ],
       "regulatory_watch": [],
-      "pricing_promotions": [],
-      "signals": [],
-      "talking_points": [],
-      "recommended_actions": []
+      "pricing_promotions": [
+        {
+          "title": "Raise a glass to Cabernet excellence: enter The Global Cabernet Sauvignon Masters 2026",
+          "what_changed": "the drinks business is calling all Cabernet Sauvignon producers to put their wines to the ultimate test in The Global Cabernet Sauvignon Masters 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/raise-a-glass-to-cabernet-excellence-enter-the-global-cabernet-sauvignon-masters-2025/",
+          "date": "2026-03-02T11:20:22+00:00"
+        },
+        {
+          "title": "Molson Coors to close Sharp’s, Brewery putting 50 jobs at risk",
+          "what_changed": "Carling brewer Molson Coors plans to shut its Cornish brewery and Cardiff contact centre by the end of 2026. Around 200 roles are under consultation a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/02/molson-coors-to-close-sharps-brewery-putting-50-jobs-at-risk/",
+          "date": "2026-02-26T10:42:45+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Rtd trending in Austria",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in Austria",
+          "explanation": "3 articles mention sugar free in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in Austria",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xbDFiT2duNTFwakw3amdDOE9aeWw1UHFBS0NpaEQxRzAtOVdJd3dkVEN0eTloRFJlQjUyN241TDRXM3p1bml1MkxaWUlDelo3cU5fbkh2QXVnYk5Mb0pDTGJjYTU1aWdkaG1uS2l5M1FjcldPSjd6WXhZUlBIdw?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczFndGFnSjctYWxOcEFkVzdhMHRTbHRyWWo1cWQyMjRhVG9VMkc1RDFrcDJrTV9aeVRtMWU1NzMzZFNVTHlzUVk4RWttVzdpVGpGd1JsaEh5dkhBQkxWaHpnRWVZRmVfcVdVUWRNaGZSOXRzUjllejFSTzdrcXZJWmpoYmJaV3ZuN0RWRlJVaGNtMWxydE1SbzQ0dGxTMDQ5SDVQUw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/02/veuve-clicquot-reveals-2026-bold-woman-award-shortlist/"
+          ]
+        }
+      ]
     }
   }
 }
