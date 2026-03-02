@@ -402,7 +402,13 @@ def fetch_rss(url: str, source_name: str) -> list[dict]:
     for item in items:
         def get(tag):
             el = item.find(tag)
-            return el.text.strip() if el is not None and el.text else ""
+            if el is not None:
+                # Google News RSS uses self-closing <link/> where URL is in .tail
+                if el.text and el.text.strip():
+                    return el.text.strip()
+                if el.tail and el.tail.strip():
+                    return el.tail.strip()
+            return ""
 
         title   = get("title")
         url_    = get("link") or get("guid")
