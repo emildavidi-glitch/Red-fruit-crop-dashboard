@@ -34,7 +34,6 @@ except ImportError:
 
 NEWS_FILE        = Path(__file__).parent / "news.json"
 SALES_NEWS_FILE  = Path(__file__).parent / "sales_news.json"
-BRIEFING_FILE    = Path(__file__).parent / "briefing.json"
 ARTICLE_TTL_DAYS = 14
 MAX_ARTICLES     = 60
 MAX_SALES_ARTICLES = 120   # more capacity — 6 regions × ~20 each
@@ -87,88 +86,229 @@ RSS_SOURCES = [
 ]
 
 # =============================================================
-# FINAL PRO SALES INTELLIGENCE SOURCES
-# Ingredient + Beverage Industry Intelligence
+# ── SECTION 2: SALES INTELLIGENCE RSS SOURCES ───────────────
 # =============================================================
+# Each source has:
+#   regions: list of region IDs this source applies to
+#             (or ["global"] for all regions)
+#   cat:     category tag — launch / trend / pricing / regulation / market
 
 SALES_RSS_SOURCES = [
 
-# ---------- TRADE PRESS (BEST SIGNAL) ----------
+    # ── GLOBAL industry trade press (all regions) ────────────
+    {
+        "name": "FoodNavigator",
+        "url": "https://www.foodnavigator.com/rss/editorial.rss",
+        "regions": ["global"],
+        "cat": "trend",
+    },
+    {
+        "name": "BeverageDaily",
+        "url": "https://www.beveragedaily.com/rss/editorial.rss",
+        "regions": ["global"],
+        "cat": "launch",
+    },
+    {
+        "name": "Just-Drinks",
+        "url": "https://www.just-drinks.com/feed/",
+        "regions": ["global"],
+        "cat": "market",
+    },
+    {
+        "name": "Drinks Business",
+        "url": "https://www.thedrinksbusiness.com/feed/",
+        "regions": ["global"],
+        "cat": "market",
+    },
+    {
+        "name": "Food & Drink Technology",
+        "url": "https://www.foodanddrink-technology.com/feed/",
+        "regions": ["global"],
+        "cat": "launch",
+    },
 
-{
-"name":"BeverageDaily",
-"url":"https://www.beveragedaily.com/arc/outboundfeeds/rss/",
-"regions":["global"],
-"cat":"launch"
-},
+    # ── USA ─────────────────────────────────────────────────
+    {
+        "name": "FoodNavigator-USA",
+        "url": "https://www.foodnavigator-usa.com/rss/editorial.rss",
+        "regions": ["usa"],
+        "cat": "trend",
+    },
+    {
+        "name": "Beverage Industry Magazine",
+        "url": "https://www.bevindustry.com/rss/all",
+        "regions": ["usa"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: US Beverage Launches",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(launch+OR+%22new+product%22+OR+%22new+range%22)+USA&hl=en&gl=US&ceid=US:en",
+        "regions": ["usa"],
+        "cat": "launch",
+    },
+    {
+        "name": "GNews: US Beverage Trends",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(trend+OR+consumer+OR+demand+OR+market)+%22United+States%22&hl=en&gl=US&ceid=US:en",
+        "regions": ["usa"],
+        "cat": "trend",
+    },
+    {
+        "name": "GNews: FDA Beverage Regulation",
+        "url": "https://news.google.com/rss/search?q=FDA+(beverage+OR+drink+OR+juice)+(regulation+OR+labelling+OR+rule+OR+ban)&hl=en&gl=US&ceid=US:en",
+        "regions": ["usa"],
+        "cat": "regulation",
+    },
 
-{
-"name":"FoodNavigator",
-"url":"https://www.foodnavigator.com/arc/outboundfeeds/rss/",
-"regions":["global"],
-"cat":"trend"
-},
+    # ── GERMANY / DACH ───────────────────────────────────────
+    {
+        "name": "FoodNavigator (Germany)",
+        "url": "https://www.foodnavigator.com/rss/editorial.rss",
+        "regions": ["germany", "austria"],
+        "cat": "trend",
+        "filter_keywords": ["germany", "german", "deutschland", "dach", "austria", "swiss"],
+    },
+    {
+        "name": "GNews: Germany Beverage Market",
+        "url": "https://news.google.com/rss/search?q=(Getraenk+OR+Getraenke+OR+Saft+OR+beverage+OR+drink)+(Markt+OR+market+OR+launch+OR+trend)+Deutschland&hl=de&gl=DE&ceid=DE:de",
+        "regions": ["germany"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: Germany Juice/Beverage Launches",
+        "url": "https://news.google.com/rss/search?q=(juice+OR+beverage+OR+energy+drink+OR+functional+drink)+(launch+OR+new+OR+trend)+(Germany+OR+DACH)&hl=en&gl=DE&ceid=DE:en",
+        "regions": ["germany"],
+        "cat": "launch",
+    },
+    {
+        "name": "GNews: EU Beverage Regulation",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(regulation+OR+Nutri-Score+OR+PPWR+OR+packaging+OR+sugar+tax)+%22European+Union%22+OR+EU&hl=en&gl=DE&ceid=DE:en",
+        "regions": ["germany", "france", "spain", "italy", "austria"],
+        "cat": "regulation",
+    },
 
-{
-"name":"FoodBev",
-"url":"https://www.foodbev.com/feed/",
-"regions":["global"],
-"cat":"launch"
-},
+    # ── FRANCE ───────────────────────────────────────────────
+    {
+        "name": "GNews: France Beverage Market",
+        "url": "https://news.google.com/rss/search?q=(boisson+OR+jus+OR+beverage+OR+drink)+(marche+OR+lancement+OR+tendance+OR+market+OR+launch+OR+trend)+France&hl=fr&gl=FR&ceid=FR:fr",
+        "regions": ["france"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: France Food Launches",
+        "url": "https://news.google.com/rss/search?q=(juice+OR+beverage+OR+boisson)+(launch+OR+nouveau+OR+new+OR+trend)+France&hl=en&gl=FR&ceid=FR:en",
+        "regions": ["france"],
+        "cat": "launch",
+    },
+    {
+        "name": "GNews: France EGAlim / Regulation",
+        "url": "https://news.google.com/rss/search?q=(EGAlim+OR+Nutri-Score+OR+Eco-Score+OR+%22sugar+tax%22+OR+taxe+sucre)+(boisson+OR+jus+OR+beverage)&hl=fr&gl=FR&ceid=FR:fr",
+        "regions": ["france"],
+        "cat": "regulation",
+    },
 
-{
-"name":"Drinks Business",
-"url":"https://www.thedrinksbusiness.com/feed/",
-"regions":["global"],
-"cat":"market"
-},
+    # ── SPAIN ────────────────────────────────────────────────
+    {
+        "name": "GNews: Spain Beverage Market",
+        "url": "https://news.google.com/rss/search?q=(bebida+OR+zumo+OR+juice+OR+beverage)+(mercado+OR+market+OR+lanzamiento+OR+launch+OR+tendencia)+Spain+OR+Espana&hl=es&gl=ES&ceid=ES:es",
+        "regions": ["spain"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: Spain Horeca Drinks",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(Horeca+OR+bar+OR+restaurant+OR+hotel)+Spain&hl=en&gl=ES&ceid=ES:en",
+        "regions": ["spain"],
+        "cat": "trend",
+    },
+    {
+        "name": "GNews: Spain Food Regulation",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+bebida+OR+zumo)+(impuesto+OR+tax+OR+regulation+OR+etiquetado+OR+labelling)+Spain&hl=en&gl=ES&ceid=ES:en",
+        "regions": ["spain"],
+        "cat": "regulation",
+    },
 
-# ---------- USA ----------
+    # ── ITALY ────────────────────────────────────────────────
+    {
+        "name": "GNews: Italy Beverage Market",
+        "url": "https://news.google.com/rss/search?q=(bevanda+OR+succo+OR+beverage+OR+drink)+(mercato+OR+market+OR+lancio+OR+launch+OR+tendenza)+Italy+OR+Italia&hl=it&gl=IT&ceid=IT:it",
+        "regions": ["italy"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: Italy Aperitivo Drinks",
+        "url": "https://news.google.com/rss/search?q=(aperitivo+OR+aperitif+OR+spritz+OR+mixer)+(beverage+OR+drink+OR+juice+OR+succo)+Italy&hl=en&gl=IT&ceid=IT:en",
+        "regions": ["italy"],
+        "cat": "trend",
+    },
+    {
+        "name": "GNews: Italy Food Launch",
+        "url": "https://news.google.com/rss/search?q=(juice+OR+beverage+OR+functional+drink)+(launch+OR+nuovo+OR+new+OR+organic+OR+bio)+Italy&hl=en&gl=IT&ceid=IT:en",
+        "regions": ["italy"],
+        "cat": "launch",
+    },
 
-{
-"name":"FoodDive",
-"url":"https://www.fooddive.com/feeds/news/",
-"regions":["usa"],
-"cat":"trend"
-},
+    # ── AUSTRIA ─────────────────────────────────────────────
+    {
+        "name": "GNews: Austria Beverage",
+        "url": "https://news.google.com/rss/search?q=(Getraenk+OR+Saft+OR+beverage+OR+drink+OR+juice)+(Markt+OR+market+OR+launch+OR+Bio+OR+organic)+Austria+OR+Oesterreich&hl=de&gl=AT&ceid=AT:de",
+        "regions": ["austria"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: Red Bull / Austria Innovation",
+        "url": "https://news.google.com/rss/search?q=(%22Red+Bull%22+OR+%22Rauch%22+OR+%22Voelkel%22)+(launch+OR+new+OR+organic+OR+innovation)&hl=en&gl=AT&ceid=AT:en",
+        "regions": ["austria"],
+        "cat": "launch",
+    },
 
-{
-"name":"Food Business News",
-"url":"https://www.foodbusinessnews.net/rss",
-"regions":["usa"],
-"cat":"market"
-},
-
-# ---------- GOOGLE NEWS SUPPORT ----------
-
-{
-"name":"Global Beverage Launches",
-"url":"https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(launch+OR+innovation)&hl=en&gl=US&ceid=US:en",
-"regions":["global"],
-"cat":"launch"
-},
-
-{
-"name":"Ingredient Innovation",
-"url":"https://news.google.com/rss/search?q=ingredient+innovation+OR+flavour+innovation&hl=en&gl=US&ceid=US:en",
-"regions":["global"],
-"cat":"innovation"
-},
-
-{
-"name":"FDA Beverage",
-"url":"https://news.google.com/rss/search?q=FDA+beverage+regulation&hl=en&gl=US&ceid=US:en",
-"regions":["usa"],
-"cat":"regulation"
-},
-
-{
-"name":"EU Regulation",
-"url":"https://news.google.com/rss/search?q=EFSA+food+regulation+additives&hl=en&gl=DE&ceid=DE:en",
-"regions":["germany","france","spain","italy","austria"],
-"cat":"regulation"
-},
-
+    # ── GLOBAL beverage trends & pricing ────────────────────
+    {
+        "name": "GNews: Global Beverage Trends",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(trend+OR+%22consumer+trend%22+OR+%22market+trend%22+OR+innovation)+(2025+OR+2026)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "trend",
+    },
+    {
+        "name": "GNews: Functional Beverages",
+        "url": "https://news.google.com/rss/search?q=%22functional+beverage%22+OR+%22functional+drink%22+OR+%22adaptogen+drink%22+(launch+OR+market+OR+trend)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "trend",
+    },
+    {
+        "name": "GNews: Energy Drinks Market",
+        "url": "https://news.google.com/rss/search?q=%22energy+drink%22+(market+OR+launch+OR+regulation+OR+trend)+(Europe+OR+USA+OR+global)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "market",
+    },
+    {
+        "name": "GNews: Sugar Tax Beverage",
+        "url": "https://news.google.com/rss/search?q=%22sugar+tax%22+OR+%22sugar+levy%22+(beverage+OR+drink+OR+juice)+(Europe+OR+EU+OR+UK+OR+Germany+OR+France+OR+Spain)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "regulation",
+    },
+    {
+        "name": "GNews: Beverage Pricing / Commodities",
+        "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(price+OR+pricing+OR+cost+OR+inflation+OR+commodity)+(2025+OR+2026)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "pricing",
+    },
+    {
+        "name": "GNews: RTD / Ready-to-Drink",
+        "url": "https://news.google.com/rss/search?q=%22ready+to+drink%22+OR+%22RTD%22+(juice+OR+beverage+OR+coffee+OR+tea)+(launch+OR+market+OR+trend)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "launch",
+    },
+    {
+        "name": "GNews: No-Low Alcohol Beverages",
+        "url": "https://news.google.com/rss/search?q=(%22no-alcohol%22+OR+%22non-alcoholic%22+OR+%22low-alcohol%22+OR+%22alcohol-free%22)+(beverage+OR+drink)+(market+OR+launch+OR+trend)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "trend",
+    },
+    {
+        "name": "GNews: EU Food Law / Packaging",
+        "url": "https://news.google.com/rss/search?q=(PPWR+OR+%22EU+packaging%22+OR+%22Nutri-Score%22+OR+%22Farm+to+Fork%22)+(beverage+OR+drink+OR+food)&hl=en&gl=US&ceid=US:en",
+        "regions": ["global"],
+        "cat": "regulation",
+    },
 ]
 
 # =============================================================
@@ -194,21 +334,6 @@ BEVERAGE_KEYWORDS = [
     "launch", "new product", "innovation", "market", "trend", "consumer",
     "sugar tax", "nutri-score", "packaging", "regulation", "labelling",
     "prix", "price", "pricing", "commodity", "ingredient cost",
-    "ingredient", "ingredient",
-"flavour",
-"flavor",
-"aroma",
-"extract",
-"colour",
-"color",
-"additive",
-"stabilizer",
-"emulsifier",
-"natural extract",
-"botanical",
-"fortified",
-"protein drink",
-
 ]
 
 # Hard exclusions for sales news (less strict than fruit — just filter obvious junk)
@@ -256,12 +381,11 @@ def clean_html(raw: str) -> str:
     return re.sub(r"<[^>]+>", " ", raw).strip()
 
 def fetch_rss(url: str, source_name: str) -> list[dict]:
-    """Fetch & parse RSS2 OR ATOM feeds. Returns: title,url,summary,pub_dt"""
+    """Fetch and parse an RSS feed, return raw items."""
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; SalesIntelBot/1.0)",
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "User-Agent": "BeverageSalesIntelligence/1.0 (market research)",
+        "Accept": "application/rss+xml, application/xml, text/xml",
     }
-
     try:
         resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
@@ -271,80 +395,34 @@ def fetch_rss(url: str, source_name: str) -> list[dict]:
         return []
 
     ns = {"atom": "http://www.w3.org/2005/Atom"}
-    cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
+    items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+    age_cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_TTL_DAYS)
+    raw_items = []
 
-    # RSS2
-    rss_items = root.findall(".//item")
-    if rss_items:
-        items = [("rss", it) for it in rss_items]
-    else:
-        # ATOM
-        atom_entries = root.findall(".//atom:entry", ns)
-        items = [("atom", it) for it in atom_entries]
-
-    print(f"    {source_name}: parsed {len(items)} raw entries")
-
-    def _text(el):
-        return el.text.strip() if (el is not None and el.text) else ""
-
-    def _rss_get(item, tag_names):
-        for tag in tag_names:
+    for item in items:
+        def get(tag):
             el = item.find(tag)
-            t = _text(el)
-            if t:
-                return t
-        return ""
+            return el.text.strip() if el is not None and el.text else ""
 
-    def _atom_get(item, tag_names):
-        # tag_names are local names: "title", "summary", "published", ...
-        for tag in tag_names:
-            el = item.find(f"atom:{tag}", ns)
-            t = _text(el)
-            if t:
-                return t
-        return ""
+        title   = get("title")
+        url_    = get("link") or get("guid")
+        summary = clean_html(get("description") or get("summary") or "")
+        pub_dt  = parse_date(get("pubDate") or get("published") or get("updated"))
 
-    out = []
-
-    for kind, item in items:
-        if kind == "rss":
-            title = _rss_get(item, ["title"])
-            link = _rss_get(item, ["link"]) or _rss_get(item, ["guid"])
-            summary = _rss_get(item, ["description"]) or _rss_get(item, ["summary"])
-            pub_s = _rss_get(item, ["pubDate"]) or _rss_get(item, ["published"]) or _rss_get(item, ["updated"])
-        else:
-            title = _atom_get(item, ["title"])
-            # ATOM link is usually href attribute
-            link_el = item.find("atom:link", ns)
-            link = ""
-            if link_el is not None:
-                link = (link_el.attrib.get("href") or "").strip()
-            if not link:
-                link = _atom_get(item, ["id"])  # fallback: often a URL
-            summary = _atom_get(item, ["summary"]) or _atom_get(item, ["content"])
-            pub_s = _atom_get(item, ["published"]) or _atom_get(item, ["updated"])
-
-        pub_dt = parse_date(pub_s)
-
-        if not title or not link:
+        if not title or not url_:
             continue
         if pub_dt.tzinfo is None:
             pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-        if pub_dt < cutoff:
+        if pub_dt < age_cutoff:
             continue
-
-        if summary and len(summary) > 400:
+        if len(summary) > 400:
             summary = summary[:397].rsplit(" ", 1)[0] + "..."
 
-        out.append({
-            "title": title,
-            "url": link,
-            "summary": clean_html(summary),
-            "pub_dt": pub_dt,
+        raw_items.append({
+            "title": title, "url": url_, "summary": summary, "pub_dt": pub_dt,
         })
 
-    print(f"    {source_name}: kept {len(out)} after cutoff")
-    return out
+    return raw_items
 
 # =============================================================
 # ── RED FRUIT LOGIC (unchanged from original) ───────────────
@@ -460,24 +538,9 @@ def is_sales_excluded(text: str) -> bool:
     t = text.lower()
     return any(kw in t for kw in SALES_EXCLUSIONS)
 
-def is_beverage_relevant(text: str):
-
-    t=text.lower()
-
-    KEYWORDS=[
-    "beverage",
-    "drink",
-    "juice",
-    "launch",
-    "innovation",
-    "ingredient",
-    "flavour",
-    "flavor",
-    "functional",
-    "market"
-    ]
-
-    return any(k in t for k in KEYWORDS)
+def is_beverage_relevant(text: str) -> bool:
+    t = text.lower()
+    return any(kw in t for kw in BEVERAGE_KEYWORDS)
 
 def detect_sales_category(text: str, default_cat: str) -> str:
     t = text.lower()
@@ -520,7 +583,8 @@ def fetch_sales_feed(source: dict) -> list[dict]:
         if is_sales_excluded(full_text):
             continue
 
-
+        if not is_beverage_relevant(full_text):
+            continue
 
         regions = assign_regions(full_text, source["regions"])
         cat     = detect_sales_category(full_text, source.get("cat", "market"))
@@ -600,280 +664,17 @@ def save_json(articles: list, path: Path, label: str):
     print(f"  Saved {len(articles)} {label} articles -> {path.name}")
 
 # =============================================================
-# BRIEFING GENERATION (from fetched RSS articles — no API needed)
-# =============================================================
-
-# Topic keywords for detecting what each article is about
-TOPIC_DETECTORS = {
-    "energy drinks":    ["energy drink", "red bull", "monster", "celsius", "rockstar", "caffeine"],
-    "functional":       ["functional", "probiotic", "prebiotic", "adaptogen", "nootropic", "gut health", "immunity"],
-    "juice decline":    ["juice decline", "juice falling", "juice down", "juice drop", "nfc decline"],
-    "juice growth":     ["premium juice", "nfc juice", "cold pressed", "juice growth", "juice up"],
-    "sugar tax":        ["sugar tax", "sugar levy", "soda tax", "hfss", "sweetened beverage tax"],
-    "packaging":        ["ppwr", "packaging", "deposit", "pfand", "recycl", "pcr content", "pet bottle"],
-    "organic":          ["organic", "bio ", "biologique", "ökologisch", "bio-"],
-    "launches":         ["launch", "debut", "unveil", "introduces", "new product", "new range", "rolls out"],
-    "pricing":          ["price", "inflation", "cost", "commodity", "margin", "tariff"],
-    "regulation":       ["regulation", "fda", "efsa", "nutri-score", "labelling", "ban", "directive"],
-    "rtd":              ["rtd", "ready to drink", "ready-to-drink", "canned cocktail"],
-    "no-low alcohol":   ["non-alcoholic", "no-alcohol", "alcohol-free", "low-alcohol", "0%", "zero alcohol"],
-    "sparkling water":  ["sparkling water", "mineral water", "seltzer", "carbonated water"],
-    "m&a":              ["acquisition", "acquire", "merger", "m&a", "takeover", "buyout"],
-}
-
-def detect_topics(text: str) -> list[str]:
-    """Detect which topics an article covers."""
-    t = text.lower()
-    return [topic for topic, keywords in TOPIC_DETECTORS.items()
-            if any(kw in t for kw in keywords)]
-
-
-def generate_briefing(sales_articles: list, fruit_articles: list):
-    """
-    Generate morning briefing + region signals from fetched RSS articles.
-    No API needed — pure keyword/frequency analysis of recent articles.
-    """
-    today = datetime.now(timezone.utc).strftime("%A, %d %B %Y")
-    now_iso = datetime.now(timezone.utc).isoformat()
-
-    # Combine all articles for analysis
-    all_articles = sales_articles + fruit_articles
-
-    if not all_articles:
-        print("  ⚠ No articles available — cannot generate briefing.")
-        return
-
-    # ── Analyze global topics ──
-    topic_counts = {}
-    region_topics = {r: {} for r in REGION_KEYWORDS}
-    region_articles = {r: [] for r in REGION_KEYWORDS}
-    global_articles = []
-
-    for a in all_articles:
-        text = f"{a.get('title', '')} {a.get('summary', '')}"
-        topics = detect_topics(text)
-        regions = a.get("regions", ["global"])
-
-        for topic in topics:
-            topic_counts[topic] = topic_counts.get(topic, 0) + 1
-
-        if isinstance(regions, list):
-            for r in regions:
-                if r in region_topics:
-                    region_articles[r].append(a)
-                    for topic in topics:
-                        region_topics[r][topic] = region_topics[r].get(topic, 0) + 1
-                elif r == "global":
-                    global_articles.append(a)
-        else:
-            global_articles.append(a)
-
-    # ── Build briefing from top topics ──
-    sorted_topics = sorted(topic_counts.items(), key=lambda x: -x[1])
-    top_topics = [t[0] for t in sorted_topics[:5]]
-
-    # Count articles by category
-    cat_counts = {}
-    for a in sales_articles:
-        cat = a.get("cat", "market")
-        cat_counts[cat] = cat_counts.get(cat, 0) + 1
-
-    # Get most recent headlines for context
-    recent = sorted(all_articles, key=lambda a: a.get("published", ""), reverse=True)[:5]
-    recent_titles = [a.get("title", "")[:80] for a in recent]
-
-    # Build briefing sentences
-    sentences = []
-
-    # Sentence 1: Overall market activity
-    total = len(sales_articles)
-    launch_count = cat_counts.get("launch", 0)
-    reg_count = cat_counts.get("regulation", 0)
-    trend_count = cat_counts.get("trend", 0)
-    if total > 0:
-        parts = []
-        if launch_count > 0:
-            parts.append(f"{launch_count} product launches")
-        if reg_count > 0:
-            parts.append(f"{reg_count} regulatory updates")
-        if trend_count > 0:
-            parts.append(f"{trend_count} market trends")
-        activity = ", ".join(parts[:3]) if parts else f"{total} articles"
-        sentences.append(
-            f"Beverage market intelligence tracked {activity} across {len([r for r in region_articles if region_articles[r]])} active regions in the past 2 weeks."
-        )
-
-    # Sentence 2: Dominant themes
-    if len(top_topics) >= 2:
-        theme_map = {
-            "energy drinks": "energy drinks continue to dominate headlines",
-            "functional": "functional and wellness beverages gaining momentum",
-            "sugar tax": "sugar tax developments reshaping pricing strategies",
-            "packaging": "EU packaging regulation (PPWR) driving compliance activity",
-            "organic": "organic and clean-label demand accelerating",
-            "launches": "new product launches intensifying across markets",
-            "pricing": "pricing pressures and commodity costs in focus",
-            "regulation": "regulatory changes impacting product strategies",
-            "no-low alcohol": "no/low alcohol category expanding rapidly",
-            "juice decline": "traditional juice volumes under pressure",
-            "juice growth": "premium NFC and cold-pressed juice segments growing",
-            "rtd": "RTD formats gaining share across categories",
-            "sparkling water": "sparkling and functional water demand rising",
-            "m&a": "M&A activity consolidating the beverage landscape",
-        }
-        themes = [theme_map.get(t, t.replace("_", " ") + " trending") for t in top_topics[:3]]
-        sentences.append(f"Key themes: {'; '.join(themes)}.")
-
-    # Sentence 3: Most notable recent headline
-    if recent_titles:
-        sentences.append(f"Latest: {recent_titles[0]}.")
-
-    briefing_text = " ".join(sentences) if sentences else "Market intelligence is being collected. Check back after the next scheduled update."
-
-    # ── Build region signals ──
-    def make_signal(region_id: str) -> str:
-        """Generate a short signal for a region based on its articles."""
-        rt = region_topics.get(region_id, {})
-        ra = region_articles.get(region_id, [])
-
-        if not rt and not ra:
-            # No region-specific articles — use a sensible default based on known market characteristics
-            defaults = {
-                "usa":     "Energy drinks & functional RTD surging.",
-                "germany": "Functional water growing. Juice declining.",
-                "france":  "Premium juice & organic sparkling growing.",
-                "spain":   "Energy drinks and Horeca recovery strong.",
-                "italy":   "Aperitivo culture driving premium mixers.",
-                "austria": "Red Bull home market. Organic above EU avg.",
-            }
-            return defaults.get(region_id, "Monitoring — limited recent data.")
-
-        # Pick top topic for this region
-        top = sorted(rt.items(), key=lambda x: -x[1])
-        top_topic = top[0][0] if top else "market"
-
-        signal_map = {
-            "energy drinks":    "Energy drink segment leading growth.",
-            "functional":       "Functional beverage demand accelerating.",
-            "sugar tax":        "Sugar tax impacting pricing strategy.",
-            "packaging":        "Packaging regulation compliance in focus.",
-            "organic":          "Organic & clean-label demand rising.",
-            "launches":         f"{len(ra)} new launches tracked recently.",
-            "pricing":          "Commodity costs pressuring margins.",
-            "regulation":       "Regulatory changes reshaping market.",
-            "no-low alcohol":   "No/low alcohol segment expanding fast.",
-            "juice decline":    "Traditional juice volumes declining.",
-            "juice growth":     "Premium juice segment outperforming.",
-            "rtd":              "RTD formats gaining shelf space.",
-            "sparkling water":  "Sparkling water demand accelerating.",
-            "m&a":              "M&A activity consolidating players.",
-        }
-
-        signal = signal_map.get(top_topic, f"{top_topic.title()} trending.")
-
-        # Add article count context if we have enough
-        if len(ra) >= 3:
-            signal = f"{signal} ({len(ra)} articles)"
-
-        return signal
-
-    signals = {region: make_signal(region) for region in REGION_KEYWORDS}
-
-    # ── Save briefing.json ──
-    briefing_data = {
-        "generated_at": now_iso,
-        "generated_date": today,
-        "briefing": briefing_text,
-        "signals": signals,
-        "meta": {
-            "total_articles_analyzed": len(all_articles),
-            "sales_articles": len(sales_articles),
-            "fruit_articles": len(fruit_articles),
-            "top_topics": dict(sorted_topics[:8]),
-            "method": "rss-analysis",
-        }
-    }
-    with open(BRIEFING_FILE, "w", encoding="utf-8") as f:
-        json.dump(briefing_data, f, ensure_ascii=False, indent=2)
-
-    print(f"  ✓ Briefing generated from {len(all_articles)} articles → {BRIEFING_FILE.name}")
-    print(f"    Briefing: {briefing_text[:150]}...")
-    for region, signal in signals.items():
-        print(f"    {region}: {signal}")
-
-
-# =============================================================
 # MAIN
 # =============================================================
-def save_sales_grouped_json(articles: list, path: Path):
-    """
-    Writes sales_news.json in the structure sales.html expects:
-    {
-      generated_at, window_days,
-      regions: { usa:[...], germany:[...], ... },
-      meta: { counts, sources, errors }
-    }
-    """
-    region_ids = ["usa", "germany", "france", "spain", "italy", "austria"]
-    grouped = {rid: [] for rid in region_ids}
-
-    # Group by region, normalize fields the UI expects
-    for a in articles:
-        cat = a.get("cat") or a.get("category") or "trend"
-
-        item = {
-            "id": a.get("id"),
-            "title": a.get("title"),
-            "summary": a.get("summary", ""),
-            "url": a.get("url"),
-            "source": a.get("source", ""),
-            "published": a.get("published"),
-            "category": cat,                 # <-- IMPORTANT for the UI
-            "confidence": a.get("confidence", "medium"),
-            "score": a.get("score", 1),
-            "product_tags": a.get("product_tags", []),
-            "why_it_matters": a.get("why_it_matters", ""),
-        }
-
-        regions = a.get("regions", [])
-        if not isinstance(regions, list):
-            regions = ["global"]
-
-        # If "global" only → spread to all regions (so each tab isn't empty)
-        if regions == ["global"] or regions == []:
-            for rid in region_ids:
-                grouped[rid].append(item)
-        else:
-            for rid in regions:
-                if rid in grouped:
-                    grouped[rid].append(item)
-
-    # Sort newest first per region
-    for rid in grouped:
-        grouped[rid].sort(key=lambda x: x.get("published", ""), reverse=True)
-
-    counts = {rid: len(grouped[rid]) for rid in region_ids}
-    sources = sorted({a.get("source", "") for a in articles if a.get("source")})
-
-    payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "window_days": ARTICLE_TTL_DAYS,
-        "regions": grouped,
-        "meta": {
-            "counts": counts,
-            "sources": sources,
-            "errors": [],
-        },
-    }
-
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
-
-    print(f"  Saved SALES grouped JSON -> {path.name} (regions filled)")
 
 def run():
+    import sys
+    red_fruit_only = "--red-fruit-only" in sys.argv
+
     print("=" * 60)
     print(f"  News Fetcher — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    if red_fruit_only:
+        print("  Mode: RED FRUIT ONLY (sales handled by sales_pipeline.py)")
     print("=" * 60)
 
     # ── Part 1: Red Fruit News ───────────────────────────────
@@ -913,39 +714,39 @@ def run():
     print(f"  Added {added_fruit} new red fruit articles. Total: {len(merged_fruit)}")
 
     # ── Part 2: Sales Intelligence News ─────────────────────
-    print("\n  [2/2] SALES INTELLIGENCE NEWS")
-    existing_sales = remove_expired(load_json(SALES_NEWS_FILE))
-    all_sales_new  = []
+    # SKIP if --red-fruit-only flag is set (sales now handled by sales_pipeline.py)
+    if red_fruit_only:
+        print("\n  [2/2] SALES INTELLIGENCE NEWS — SKIPPED (handled by sales_pipeline.py)")
+    else:
+        print("\n  [2/2] SALES INTELLIGENCE NEWS")
+        existing_sales = remove_expired(load_json(SALES_NEWS_FILE))
+        all_sales_new  = []
 
-    for source in SALES_RSS_SOURCES:
-        regions_str = ", ".join(source["regions"])
-        print(f"    {source['name']} [{regions_str}]...")
-        fetched = fetch_sales_feed(source)
-        print(f"      -> {len(fetched)} relevant articles")
-        all_sales_new.extend(fetched)
+        for source in SALES_RSS_SOURCES:
+            regions_str = ", ".join(source["regions"])
+            print(f"    {source['name']} [{regions_str}]...")
+            fetched = fetch_sales_feed(source)
+            print(f"      -> {len(fetched)} relevant articles")
+            all_sales_new.extend(fetched)
 
-    merged_sales, added_sales = merge_articles(existing_sales, all_sales_new, MAX_SALES_ARTICLES)
-    save_sales_grouped_json(merged_sales, SALES_NEWS_FILE)
-    print(f"  Saved {len(merged_sales)} sales articles (grouped for dashboard).")
-    print(f"  Added {added_sales} new sales articles. Total: {len(merged_sales)}")
-
-    # ── Part 3: Morning Briefing + Region Signals (from RSS data) ──
-    print("\n  [3/3] MORNING BRIEFING (from RSS analysis — no API needed)")
-    generate_briefing(merged_sales, merged_fruit)
+        merged_sales, added_sales = merge_articles(existing_sales, all_sales_new, MAX_SALES_ARTICLES)
+        save_json(merged_sales, SALES_NEWS_FILE, "sales intelligence")
+        print(f"  Added {added_sales} new sales articles. Total: {len(merged_sales)}")
 
     # ── Summary ──────────────────────────────────────────────
     print("\n  SUMMARY:")
     print(f"    Red fruit:         {len(merged_fruit)} articles")
-    print(f"    Sales intelligence:{len(merged_sales)} articles")
 
-    from collections import Counter
-    region_counts = Counter()
-    for a in merged_sales:
-        for r in a.get("regions", ["global"]):
-            region_counts[r] += 1
-    print("    Sales by region:")
-    for region, count in sorted(region_counts.items(), key=lambda x: -x[1]):
-        print(f"      {region}: {count}")
+    if not red_fruit_only:
+        print(f"    Sales intelligence:{len(merged_sales)} articles")
+        from collections import Counter
+        region_counts = Counter()
+        for a in merged_sales:
+            for r in a.get("regions", ["global"]):
+                region_counts[r] += 1
+        print("    Sales by region:")
+        for region, count in sorted(region_counts.items(), key=lambda x: -x[1]):
+            print(f"      {region}: {count}")
 
     print("\n  Done.\n")
 
