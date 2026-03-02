@@ -2,24 +2,25 @@
 """
 pipeline/sales_pipeline.py — Beverage Sales Intelligence Pipeline
 
-Based on the PROVEN news_fetcher.py that successfully fetched 132+ articles.
-Same RSS feeds, same filtering logic, reformatted outputs for sales.html.
-
 Produces:
-  sales_news.json       — articles per region
-  sales_briefings.json  — briefings per region  
-  market_stats.json     — market context
-  data_health.json      — pipeline health
-  briefing.json         — morning briefing + signals
+  sales_news.json       — region news (last 28 days)
+  market_stats.json     — transparent market context
+  sales_briefings.json  — sales-ready briefings per region
+  data_health.json      — pipeline health + transparency
+
+Free sources only. No paid APIs. No AI calls.
+Runs daily via GitHub Actions.
 """
 
 import json
 import hashlib
 import re
 import xml.etree.ElementTree as ET
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from difflib import SequenceMatcher
+from urllib.parse import urlparse, urlunparse
 
 try:
     import requests
@@ -33,188 +34,296 @@ except ImportError:
     BS4 = False
 
 # ═══════════════════════════════════════════════════════════════
-# CONFIG
+# CONFIGURATION
 # ═══════════════════════════════════════════════════════════════
+
 OUT_DIR          = Path(__file__).parent.parent  # repo root
-ARTICLE_TTL_DAYS = 28
-MAX_PER_REGION   = 50
-REQUEST_TIMEOUT  = 15
+WINDOW_DAYS      = 28
+FALLBACK_DAYS    = 42
+MIN_ITEMS        = 10
+REQUEST_TIMEOUT  = 12
 NOW              = datetime.now(timezone.utc)
-AGE_CUTOFF       = NOW - timedelta(days=ARTICLE_TTL_DAYS)
+CUTOFF           = NOW - timedelta(days=WINDOW_DAYS)
+FALLBACK_CUTOFF  = NOW - timedelta(days=FALLBACK_DAYS)
+
+# ═══════════════════════════════════════════════════════════════
+# REGION DEFINITIONS
+# ═══════════════════════════════════════════════════════════════
 
 REGIONS = {
-    "usa":     {"name": "United States", "currency": "USD"},
-    "germany": {"name": "Germany",       "currency": "EUR"},
-    "france":  {"name": "France",        "currency": "EUR"},
-    "spain":   {"name": "Spain",         "currency": "EUR"},
-    "italy":   {"name": "Italy",         "currency": "EUR"},
-    "austria": {"name": "Austria",       "currency": "EUR"},
-}
-
-REGION_KEYWORDS = {
-    "usa":     ["usa", "united states", "american", "fda", "us market", "north america"],
-    "germany": ["germany", "german", "deutschland", "dach", "bundesrat", "lebensmittel"],
-    "france":  ["france", "french", "paris", "francais", "egalim", "leclerc", "carrefour"],
-    "spain":   ["spain", "spanish", "espana", "madrid", "barcelona", "mercadona", "horeca spain"],
-    "italy":   ["italy", "italian", "italia", "milan", "rome", "aperitivo", "esselunga"],
-    "austria": ["austria", "austrian", "wien", "vienna", "spar austria", "hofer", "alnatura"],
+    "usa": {
+        "name": "United States", "flag": "🇺🇸", "currency": "USD",
+        "keywords": ["usa", "united states", "u.s.", "american", "fda",
+                     "north america", "us market"],
+        "negative": ["australian", "austria"],
+    },
+    "germany": {
+        "name": "Germany", "flag": "🇩🇪", "currency": "EUR",
+        "keywords": ["germany", "german", "deutschland", "dach",
+                     "bundesrat", "lebensmittel"],
+        "negative": [],
+    },
+    "france": {
+        "name": "France", "flag": "🇫🇷", "currency": "EUR",
+        "keywords": ["france", "french", "francais", "egalim",
+                     "leclerc", "carrefour"],
+        "negative": [],
+    },
+    "spain": {
+        "name": "Spain", "flag": "🇪🇸", "currency": "EUR",
+        "keywords": ["spain", "spanish", "espana", "madrid",
+                     "barcelona", "mercadona", "catalonia"],
+        "negative": [],
+    },
+    "italy": {
+        "name": "Italy", "flag": "🇮🇹", "currency": "EUR",
+        "keywords": ["italy", "italian", "italia", "milan",
+                     "rome", "aperitivo", "esselunga"],
+        "negative": [],
+    },
+    "austria": {
+        "name": "Austria", "flag": "🇦🇹", "currency": "EUR",
+        "keywords": ["austria", "austrian", "wien", "vienna",
+                     "spar austria", "hofer", "alnatura", "pfand"],
+        "negative": ["australia"],
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════
-# RSS SOURCES — EXACTLY the ones that worked in news_fetcher.py
+# SOURCE FEEDS — CURATED PUBLICATIONS ONLY
 # ═══════════════════════════════════════════════════════════════
-SALES_SOURCES = [
-    # ═══════════════════════════════════════════════════════════
-    # CURATED SOURCES ONLY — quality over quantity
-    # Strategy: use Google News site: queries for publications
-    # whose direct RSS feeds are dead. No broad keyword queries.
-    #
-    # NOTE: Google News site: queries return ~10-20 results each.
-    # To get broad coverage from key sites, we split into multiple
-    # queries by topic so we pull launches, trends, regulation etc.
-    # ═══════════════════════════════════════════════════════════
+# Strategy: quality over quantity. Only trusted industry publications.
+# Google News site: queries for sites whose RSS feeds are dead.
+# No broad keyword queries — those bring in too much noise.
 
+def gnews_url(q, hl="en", gl="US"):
+    from urllib.parse import quote
+    return f"https://news.google.com/rss/search?q={quote(q)}&hl={hl}&gl={gl}&ceid={gl}:{hl}"
+
+ALL_FEEDS = [
     # ── BEVERAGEDAILY (split by topic for max coverage) ───────
     {"name": "BeverageDaily: Launches",
-     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+launch+OR+launches+OR+new+OR+debut&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "launch"},
+     "url": gnews_url("site:beveragedaily.com launch OR launches OR new OR debut"),
+     "tier": 1, "regions": ["global"]},
     {"name": "BeverageDaily: Trends",
-     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+trend+OR+market+OR+consumer+OR+growth&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "trend"},
+     "url": gnews_url("site:beveragedaily.com trend OR market OR consumer OR growth"),
+     "tier": 1, "regions": ["global"]},
     {"name": "BeverageDaily: Regulation",
-     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+regulation+OR+tax+OR+sugar+OR+label+OR+PPWR&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "regulation"},
+     "url": gnews_url("site:beveragedaily.com regulation OR tax OR sugar OR label OR PPWR"),
+     "tier": 1, "regions": ["global"]},
     {"name": "BeverageDaily: Sectors",
-     "url": "https://news.google.com/rss/search?q=site:beveragedaily.com+energy+OR+functional+OR+soda+OR+RTD+OR+juice+OR+water&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "market"},
+     "url": gnews_url("site:beveragedaily.com energy OR functional OR soda OR RTD OR juice OR water"),
+     "tier": 1, "regions": ["global"]},
 
     # ── FOODNAVIGATOR (split for coverage) ────────────────────
     {"name": "FoodNavigator: Beverage",
-     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+beverage+OR+drink+OR+juice+OR+soda&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "trend"},
+     "url": gnews_url("site:foodnavigator.com beverage OR drink OR juice OR soda"),
+     "tier": 1, "regions": ["global"]},
     {"name": "FoodNavigator: Regulation",
-     "url": "https://news.google.com/rss/search?q=site:foodnavigator.com+regulation+OR+Nutri-Score+OR+PPWR+OR+sugar+tax&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "regulation"},
+     "url": gnews_url("site:foodnavigator.com regulation OR Nutri-Score OR PPWR OR sugar tax"),
+     "tier": 1, "regions": ["global"]},
 
     # ── FOODNAVIGATOR-USA ─────────────────────────────────────
     {"name": "FoodNavigator-USA",
-     "url": "https://news.google.com/rss/search?q=site:foodnavigator-usa.com+beverage+OR+drink+OR+launch&hl=en&gl=US&ceid=US:en",
-     "regions": ["usa"], "cat": "trend"},
+     "url": gnews_url("site:foodnavigator-usa.com beverage OR drink OR launch"),
+     "tier": 1, "regions": ["usa"]},
 
+    # ── BEVNET ────────────────────────────────────────────────
     {"name": "BevNET",
-     "url": "https://news.google.com/rss/search?q=site:bevnet.com&hl=en&gl=US&ceid=US:en",
-     "regions": ["usa"], "cat": "launch"},
+     "url": gnews_url("site:bevnet.com"),
+     "tier": 1, "regions": ["usa"]},
 
+    # ── BEVERAGE DIGEST ───────────────────────────────────────
     {"name": "Beverage Digest",
-     "url": "https://news.google.com/rss/search?q=site:beverage-digest.com&hl=en&gl=US&ceid=US:en",
-     "regions": ["usa"], "cat": "market"},
+     "url": gnews_url("site:beverage-digest.com"),
+     "tier": 1, "regions": ["usa"]},
 
+    # ── FOODDIVE (direct RSS — works) ─────────────────────────
     {"name": "FoodDive",
      "url": "https://www.fooddive.com/feeds/news/",
-     "regions": ["usa"], "cat": "trend"},
+     "tier": 1, "regions": ["usa"]},
 
+    # ── DRINKS BUSINESS (direct RSS — works) ──────────────────
     {"name": "Drinks Business",
      "url": "https://www.thedrinksbusiness.com/feed/",
-     "regions": ["global"], "cat": "market"},
+     "tier": 1, "regions": ["global"]},
 
+    # ── JUST-DRINKS ───────────────────────────────────────────
     {"name": "Just-Drinks",
-     "url": "https://news.google.com/rss/search?q=site:just-drinks.com&hl=en&gl=US&ceid=US:en",
-     "regions": ["global"], "cat": "market"},
+     "url": gnews_url("site:just-drinks.com"),
+     "tier": 1, "regions": ["global"]},
 
-    # ── GERMANY: Lebensmittel Zeitung + Getränke News ─────────
+    # ── GERMAN SOURCES ────────────────────────────────────────
     {"name": "Lebensmittel Zeitung",
-     "url": "https://news.google.com/rss/search?q=site:lebensmittelzeitung.net+Getraenk+OR+beverage+OR+Saft+OR+drink&hl=de&gl=DE&ceid=DE:de",
-     "regions": ["germany"], "cat": "market"},
-
+     "url": gnews_url("site:lebensmittelzeitung.net Getränk OR beverage OR Saft OR drink", hl="de", gl="DE"),
+     "tier": 1, "regions": ["germany", "austria"]},
     {"name": "About Drinks / Getränke News",
-     "url": "https://news.google.com/rss/search?q=site:about-drinks.com+OR+site:getraenke-news.de&hl=de&gl=DE&ceid=DE:de",
-     "regions": ["germany"], "cat": "launch"},
+     "url": gnews_url("site:about-drinks.com OR site:getraenke-news.de", hl="de", gl="DE"),
+     "tier": 1, "regions": ["germany", "austria"]},
 
     # ── EU REGULATION (shared across European regions) ────────
     {"name": "EU Beverage Regulation",
-     "url": "https://news.google.com/rss/search?q=(beverage+OR+drink+OR+juice)+(regulation+OR+Nutri-Score+OR+PPWR+OR+%22sugar+tax%22)+EU&hl=en&gl=DE&ceid=DE:en",
-     "regions": ["germany", "france", "spain", "italy", "austria"], "cat": "regulation"},
+     "url": gnews_url("Nutri-Score OR PPWR OR sugar tax OR EU beverage regulation 2026"),
+     "tier": 2, "regions": ["germany", "france", "spain", "italy", "austria"]},
 ]
 
 # ═══════════════════════════════════════════════════════════════
-# KEYWORDS — EXACTLY from working news_fetcher.py
+# BEVERAGE RELEVANCE + EXCLUSIONS
 # ═══════════════════════════════════════════════════════════════
+
 BEVERAGE_KEYWORDS = [
     "beverage", "drink", "juice", "soft drink", "energy drink", "smoothie",
     "water", "tea", "coffee", "rtd", "ready to drink", "functional",
+    "carbonat", "sparkling", "soda", "seltzer", "tonic",
     "boisson", "bebida", "getraenk", "succo", "saft", "jus",
-    "carbonat", "sparkling", "still water", "flavour", "flavor",
-    "launch", "new product", "innovation", "market", "trend", "consumer",
+    "launch", "new product", "innovation",
     "sugar tax", "nutri-score", "packaging", "regulation", "labelling",
-    "prix", "price", "pricing", "commodity", "ingredient cost",
+    "price", "pricing", "commodity", "concentrate",
+    "probiotic", "prebiotic", "adaptogen", "nootropic",
+    "protein drink", "collagen", "electrolyte",
+    "non-alcoholic", "alcohol-free", "zero alcohol", "low alcohol",
+    "kombucha", "kefir", "fermented",
 ]
 
-SALES_EXCLUSIONS = [
+EXCLUSIONS = [
     "cryptocurrency", "bitcoin", "stock market", "nasdaq", "nyse",
     "real estate", "mortgage", "auto loan", "car insurance",
-    "celebrity", "gossip", "sports score", "football result",
-    "recipe", "cooking tip", "how to make", "diy",
+    "celebrity gossip", "sports score", "football result",
+    "recipe ", "cooking tip", "how to make", "diy ",
+    "raspberry pi", "python programming", "javascript",
 ]
 
-CATEGORY_KEYWORDS = {
-    "launch":     ["launch", "new product", "new range", "introduces", "unveil", "debut", "release"],
-    "trend":      ["trend", "consumer", "demand", "growth", "market", "insight", "report", "forecast"],
-    "pricing":    ["price", "cost", "inflation", "commodity", "margin", "tariff", "import cost"],
-    "regulation": ["regulation", "regulat", "law", "directive", "tax", "ban", "label", "nutri", "ppwr", "egalim"],
-    "market":     ["market", "share", "volume", "revenue", "sales", "retail", "channel"],
-}
+def is_beverage_relevant(text):
+    t = text.lower()
+    if any(ex in t for ex in EXCLUSIONS):
+        return False
+    return any(kw in t for kw in BEVERAGE_KEYWORDS)
 
-# Product tag detection
-TAG_MAP = {
-    "energy":       ["energy drink", "energy shot", "caffeine", "taurine", "guarana", "celsius", "monster", "red bull"],
+# ═══════════════════════════════════════════════════════════════
+# CATEGORY DETECTION (deterministic, priority-ordered)
+# ═══════════════════════════════════════════════════════════════
+
+CATEGORY_RULES = [
+    ("regulatory",    ["regulation", "regulat", "law", "directive", "tax", "ban", "label",
+                       "nutri-score", "ppwr", "egalim", "fda", "efsa", "recall", "compliance"]),
+    ("pricing",       ["price", "cost", "inflation", "commodity", "margin", "tariff",
+                       "import cost", "promotion", "discount", "cheaper", "expensive"]),
+    ("launch",        ["launch", "new product", "new range", "introduces", "unveil", "debut",
+                       "release", "rolls out", "enters market", "expands"]),
+    ("competitor",    ["acquisition", "acquire", "merger", "m&a", "takeover", "partnership",
+                       "joint venture", "restructur", "layoff", "appoint"]),
+    ("supply_chain",  ["supply chain", "shortage", "logistics", "packaging", "aluminum",
+                       "pet resin", "glass", "can ", "bottle", "recycl", "pcr"]),
+    ("retail",        ["retail", "supermarket", "hypermarket", "convenience", "shelf space",
+                       "private label", "store brand", "e-commerce", "online retail"]),
+    ("innovation",    ["innovation", "patent", "r&d", "research", "technology", "formula",
+                       "ingredient", "functional", "probiotic", "adaptogen"]),
+    ("trend",         ["trend", "consumer", "demand", "growth", "market", "insight",
+                       "report", "forecast", "wellness", "health"]),
+    ("macro",         ["gdp", "economy", "inflation", "interest rate", "consumer spending",
+                       "market size", "industry"]),
+]
+
+def detect_category(text):
+    t = text.lower()
+    for cat, keywords in CATEGORY_RULES:
+        if any(kw in t for kw in keywords):
+            return cat
+    return "trend"
+
+# ═══════════════════════════════════════════════════════════════
+# ENTITY EXTRACTION (dictionaries + regex)
+# ═══════════════════════════════════════════════════════════════
+
+ENTITY_COMPANIES = [
+    "Coca-Cola", "PepsiCo", "Nestlé", "Danone", "Red Bull", "Monster",
+    "Celsius", "Keurig Dr Pepper", "Britvic", "Campari", "Diageo",
+    "AB InBev", "Heineken", "Starbucks", "Nespresso", "Innocent",
+    "Oatly", "Chobani", "Huel", "Athletic Brewing", "Fever-Tree",
+    "San Pellegrino", "Rauch", "Voelkel", "Eckes-Granini", "Tropicana",
+    "Suntory", "Asahi", "Kirin", "Lactalis", "Fonterra",
+    "Aldi", "Lidl", "Tesco", "Carrefour", "Leclerc", "Mercadona",
+    "Walmart", "Costco", "Target", "Kroger", "Rewe", "Edeka",
+]
+
+ENTITY_INGREDIENTS = [
+    "protein", "collagen", "electrolyte", "caffeine", "taurine",
+    "guarana", "ginseng", "ashwagandha", "lion's mane", "adaptogens",
+    "probiotic", "prebiotic", "fiber", "vitamin", "mineral",
+    "stevia", "erythritol", "monk fruit", "aspartame", "sucralose",
+    "cbd", "thc", "hemp",
+]
+
+ENTITY_PACKAGING = ["PET", "can", "glass", "tetra pak", "carton", "pouch", "aluminum"]
+ENTITY_CHANNELS  = ["retail", "e-commerce", "online", "on-premise", "horeca", "foodservice", "convenience", "supermarket"]
+
+PRODUCT_TAG_MAP = {
+    "energy":       ["energy drink", "energy shot", "caffeine", "taurine", "guarana"],
+    "hydration":    ["electrolyte", "sports drink", "hydration", "isotonic"],
+    "protein":      ["protein drink", "protein shake", "protein water", "collagen"],
     "functional":   ["functional", "adaptogen", "nootropic", "probiotic", "prebiotic", "gut health", "immunity"],
-    "sugar_free":   ["sugar free", "zero sugar", "no sugar", "diet ", "low calorie", "stevia"],
-    "juice":        ["juice", "nfc", "cold pressed", "smoothie", "nectar", "concentrate"],
-    "rtd":          ["rtd", "ready to drink", "ready-to-drink"],
-    "carbonated":   ["carbonated", "sparkling", "soda", "seltzer"],
-    "alcohol_free": ["non-alcoholic", "alcohol-free", "zero alcohol", "alcohol free", "mocktail"],
-    "organic":      ["organic", " bio "],
-    "coffee_tea":   ["coffee", "tea ", "matcha", "cold brew", "iced tea"],
-    "water":        ["water", "mineral water", "sparkling water"],
+    "sugar_free":   ["sugar free", "zero sugar", "no sugar", "diet", "light"],
+    "juice":        ["juice", "nfc", "cold pressed", "smoothie", "nectar"],
+    "rtd":          ["rtd", "ready to drink", "ready-to-drink", "canned cocktail"],
+    "carbonated":   ["carbonated", "sparkling", "soda", "fizzy", "tonic", "seltzer"],
+    "alcohol_free": ["non-alcoholic", "alcohol-free", "zero alcohol", "0%", "alcohol free", "no-alcohol", "low-alcohol"],
+    "organic":      ["organic", "bio ", "biologique"],
+    "premium":      ["premium", "luxury", "artisan", "craft"],
+    "dairy_alt":    ["oat milk", "almond milk", "soy milk", "plant-based", "dairy alternative"],
 }
 
-# Entity detection
-COMPANIES = [
-    "Coca-Cola", "PepsiCo", "Nestle", "Danone", "Red Bull", "Monster",
-    "Celsius", "Keurig Dr Pepper", "Britvic", "Starbucks", "Oatly",
-    "Fever-Tree", "San Pellegrino", "Rauch", "Eckes-Granini", "Tropicana",
-    "Aldi", "Lidl", "Carrefour", "Leclerc", "Mercadona", "Walmart",
-    "Campari", "Aperol", "Innocent",
-]
+def extract_entities(text):
+    t = text.lower()
+    return {
+        "companies":   [c for c in ENTITY_COMPANIES if c.lower() in t],
+        "brands":      [],  # brands overlap with companies; extend as needed
+        "ingredients": [i for i in ENTITY_INGREDIENTS if i.lower() in t],
+        "packaging":   [p for p in ENTITY_PACKAGING if p.lower() in t],
+        "channels":    [c for c in ENTITY_CHANNELS if c.lower() in t],
+    }
 
-# Why it matters templates
+def extract_product_tags(text):
+    t = text.lower()
+    return [tag for tag, keywords in PRODUCT_TAG_MAP.items() if any(kw in t for kw in keywords)]
+
+# ═══════════════════════════════════════════════════════════════
+# WHY IT MATTERS — rule-based templates
+# ═══════════════════════════════════════════════════════════════
+
 WHY_TEMPLATES = {
-    "launch":     "New product launch signals competitive activity. Assess portfolio overlap and positioning.",
-    "trend":      "Consumer trend shift. Consider portfolio alignment and marketing messaging.",
-    "pricing":    "Pricing shift affects margins and positioning. Review contract and shelf price impact.",
-    "regulation": "Regulatory change may require reformulation or relabeling. Monitor compliance timelines.",
-    "market":     "Market development may create opportunities or threats. Brief key accounts.",
+    "regulatory":   "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+    "pricing":      "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+    "launch":       "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+    "competitor":   "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+    "supply_chain": "Supply chain development could affect input costs, lead times, or packaging availability. Review procurement exposure.",
+    "retail":       "Retail landscape shift may create new listing opportunities or threaten existing placements. Brief key account teams.",
+    "innovation":   "Innovation trend signals emerging consumer demand. Evaluate R&D alignment and potential first-mover advantage.",
+    "trend":        "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+    "macro":        "Macroeconomic factor may influence consumer spending patterns and distributor purchasing behavior.",
 }
 
-SALES_ANGLES = {
-    "launch":     ["Map against portfolio for overlap", "Brief sales team on positioning"],
-    "trend":      ["Include in next customer presentation", "Align marketing messaging"],
-    "pricing":    ["Review pricing vs competitors", "Prepare margin impact analysis"],
-    "regulation": ["Check compliance timeline", "Brief customers on regulatory impact"],
-    "market":     ["Brief key account managers", "Review listing strategy"],
+SALES_ANGLE_TEMPLATES = {
+    "regulatory":   ["Check compliance timeline with quality team", "Brief customers on regulatory impact"],
+    "pricing":      ["Review pricing vs competitors", "Prepare margin impact analysis"],
+    "launch":       ["Map against our portfolio for overlap", "Brief sales team on competitive positioning"],
+    "competitor":   ["Update competitive intelligence file", "Prepare defensive talking points for key accounts"],
+    "supply_chain": ["Check with procurement on exposure", "Prepare customer communication if delays expected"],
+    "retail":       ["Brief key account managers", "Review listing strategy for affected channels"],
+    "innovation":   ["Share with R&D/innovation team", "Assess consumer relevance for our markets"],
+    "trend":        ["Include in next customer presentation", "Align marketing messaging"],
+    "macro":        ["Factor into demand planning", "Adjust forecasts if needed"],
 }
 
 # ═══════════════════════════════════════════════════════════════
-# RSS FETCHING — EXACTLY from working news_fetcher.py
+# RSS FETCHING
 # ═══════════════════════════════════════════════════════════════
-def article_id(url):
-    return hashlib.md5(url.encode()).hexdigest()[:12]
 
 def parse_date(date_str):
     if not date_str:
         return NOW
     for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
-                "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ"]:
+                "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ",
+                "%Y-%m-%dT%H:%M:%S.%f%z", "%d %b %Y %H:%M:%S %z"]:
         try:
             dt = datetime.strptime(date_str.strip(), fmt)
             return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
@@ -229,446 +338,604 @@ def clean_html(raw):
         return BeautifulSoup(raw, "html.parser").get_text(separator=" ", strip=True)
     return re.sub(r"<[^>]+>", " ", raw).strip()
 
-def fetch_rss(url, source_name):
+def normalize_url(url):
+    try:
+        p = urlparse(url)
+        return urlunparse((p.scheme, p.netloc, p.path.rstrip("/"), "", "", ""))
+    except Exception:
+        return url
+
+def fetch_feed(feed):
+    """Fetch a single RSS feed, return list of raw items."""
     headers = {
-        "User-Agent": "BeverageSalesIntelligence/1.0 (market research)",
+        "User-Agent": "BeverageSalesIntel/2.0 (market-research)",
         "Accept": "application/rss+xml, application/xml, text/xml",
     }
     try:
-        resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+        resp = requests.get(feed["url"], headers=headers, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
     except Exception as e:
-        return [], str(e)[:80]
+        return [], str(e)
 
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     items = root.findall(".//item") or root.findall(".//atom:entry", ns)
-    out = []
+    results = []
 
     for item in items:
-        def g(tag):
-            el = item.find(tag)
-            if el is None:
-                el = item.find(f"atom:{tag}", ns)
+        def get(tag):
+            el = item.find(tag) or item.find(f"atom:{tag}", ns)
             return el.text.strip() if el is not None and el.text else ""
 
-        title = g("title")
-        link = g("link") or g("guid")
+        link = get("link")
         if not link:
-            le = item.find("atom:link", ns)
-            link = le.get("href", "") if le is not None else ""
-        summary = clean_html(g("description") or g("summary") or g("content") or "")
-        pub = parse_date(g("pubDate") or g("published") or g("updated"))
+            link_el = item.find("atom:link", ns)
+            link = link_el.get("href", "") if link_el is not None else ""
 
-        if not title or not link:
-            continue
-        if pub.tzinfo is None:
-            pub = pub.replace(tzinfo=timezone.utc)
-        if pub < AGE_CUTOFF:
-            continue
-        if len(summary) > 400:
-            summary = summary[:397].rsplit(" ", 1)[0] + "..."
+        pub = parse_date(get("pubDate") or get("published") or get("updated"))
+        title = get("title")
+        desc = clean_html(get("description") or get("content") or get("summary"))
+        if len(desc) > 400:
+            desc = desc[:397].rsplit(" ", 1)[0] + "…"
 
-        out.append({"title": title, "url": link, "summary": summary, "pub_dt": pub})
+        results.append({
+            "title": title,
+            "url": link,
+            "summary": desc,
+            "published": pub,
+            "source": feed["name"],
+            "tier": feed["tier"],
+            "feed_regions": feed["regions"],
+        })
 
-    return out, None
+    return results, None
 
 # ═══════════════════════════════════════════════════════════════
-# FILTERING — EXACTLY from working news_fetcher.py
+# REGION ASSIGNMENT
 # ═══════════════════════════════════════════════════════════════
-def is_excluded(text):
-    t = text.lower()
-    return any(kw in t for kw in SALES_EXCLUSIONS)
 
-def is_beverage_relevant(text):
-    t = text.lower()
-    return any(kw in t for kw in BEVERAGE_KEYWORDS)
-
-def detect_category(text, default_cat):
-    t = text.lower()
-    for cat, keywords in CATEGORY_KEYWORDS.items():
-        if any(kw in t for kw in keywords):
-            return cat
-    return default_cat
-
-def assign_regions(text, source_regions):
-    """EXACTLY from working news_fetcher.py:
-    - Region-specific source -> always assign to those regions
-    - Global source -> check text for region keywords
-    - Global with no match -> assign to ALL regions (key fix!)
-    """
-    if source_regions != ["global"]:
-        return source_regions
-
+def assign_region(text, feed_regions):
+    """Assign article to specific regions based on keyword matching."""
     t = text.lower()
     matched = []
-    for region, keywords in REGION_KEYWORDS.items():
-        if any(kw in t for kw in keywords):
-            matched.append(region)
+    for rid, rdef in REGIONS.items():
+        # Check negative keywords first
+        if any(neg in t for neg in rdef["negative"]):
+            continue
+        if any(kw in t for kw in rdef["keywords"]):
+            matched.append(rid)
 
-    # KEY: if global and no region match, assign to ALL regions
-    return matched if matched else list(REGIONS.keys())
+    # If feed is region-specific and no match found, trust feed assignment
+    if not matched and feed_regions != ["global"]:
+        matched = [r for r in feed_regions if r in REGIONS]
 
-def tag_product(text):
-    t = text.lower()
-    return [tag for tag, kws in TAG_MAP.items() if any(kw in t for kw in kws)]
+    return matched if matched else ["global"]
 
-def extract_entities(text):
-    t = text.lower()
-    return {
-        "companies": [c for c in COMPANIES if c.lower() in t],
-        "ingredients": [],
-        "packaging": [],
-        "channels": [c for c in ["retail", "e-commerce", "online", "horeca", "foodservice"] if c in t],
-    }
+# ═══════════════════════════════════════════════════════════════
+# DEDUPLICATION
+# ═══════════════════════════════════════════════════════════════
+
+def deduplicate(articles):
+    """Remove exact URL dupes and near-duplicate titles."""
+    seen_urls = {}
+    seen_titles = []
+    unique = []
+
+    for a in articles:
+        nurl = normalize_url(a["url"])
+        if nurl in seen_urls:
+            continue
+        seen_urls[nurl] = True
+
+        # Title similarity check
+        title_lower = a["title"].lower().strip()
+        is_dupe = False
+        for prev_title in seen_titles:
+            if SequenceMatcher(None, title_lower, prev_title).ratio() > 0.8:
+                is_dupe = True
+                break
+        if is_dupe:
+            continue
+
+        seen_titles.append(title_lower)
+        unique.append(a)
+
+    return unique
+
+# ═══════════════════════════════════════════════════════════════
+# SCORING
+# ═══════════════════════════════════════════════════════════════
+
+CATEGORY_PRIORITY = {
+    "regulatory": 1.0, "pricing": 0.9, "launch": 0.85, "competitor": 0.8,
+    "supply_chain": 0.7, "retail": 0.65, "innovation": 0.6, "trend": 0.5, "macro": 0.4,
+}
+
+SOURCE_RELIABILITY = {1: 1.0, 2: 0.95, 3: 0.7, 4: 0.5}
+
+def score_article(article, region_match_strength):
+    pub = article["published"]
+    age_days = max(0, (NOW - pub).total_seconds() / 86400)
+
+    # Recency: exponential decay, 14-day half-life
+    import math
+    recency = math.exp(-0.05 * age_days)
+
+    cat_priority = CATEGORY_PRIORITY.get(article.get("category", "trend"), 0.5)
+    source_rel = SOURCE_RELIABILITY.get(article.get("tier", 4), 0.5)
+    region_score = {"high": 1.0, "medium": 0.6, "low": 0.3}.get(region_match_strength, 0.3)
+
+    return round(0.50 * recency + 0.25 * region_score + 0.15 * cat_priority + 0.10 * source_rel, 4)
 
 # ═══════════════════════════════════════════════════════════════
 # MAIN PIPELINE
 # ═══════════════════════════════════════════════════════════════
-def run():
+
+def run_pipeline():
     print("=" * 60)
     print(f"  Sales Intelligence Pipeline — {NOW.strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 60)
 
     errors = []
-    stats = {"ok": 0, "fail": 0}
-    all_articles = []  # flat list, each article has "regions" field
+    source_stats = {"ok": 0, "failed": 0}
+    all_raw = []
 
-    # ── FETCH ALL FEEDS ──
-    print(f"\n  [1/5] FETCHING {len(SALES_SOURCES)} feeds...")
-    for src in SALES_SOURCES:
-        regions_str = ", ".join(src["regions"])
-        items, err = fetch_rss(src["url"], src["name"])
+    # ── Step 1: Fetch all feeds ──
+    print(f"\n  [1/6] FETCHING {len(ALL_FEEDS)} feeds...")
+    for feed in ALL_FEEDS:
+        items, err = fetch_feed(feed)
         if err:
-            errors.append({"source": src["name"], "error": err, "time": NOW.isoformat()})
-            stats["fail"] += 1
-            print(f"    x {src['name']} [{regions_str}]: {err[:50]}")
-            continue
-        stats["ok"] += 1
+            errors.append({"region": ",".join(feed["regions"]), "source": feed["name"], "error": err, "time": NOW.isoformat()})
+            source_stats["failed"] += 1
+        else:
+            source_stats["ok"] += 1
+        all_raw.extend(items)
+        if items:
+            print(f"    ✓ {feed['name']}: {len(items)} items")
+        elif err:
+            print(f"    ✗ {feed['name']}: {err[:60]}")
 
-        filter_kws = [k.lower() for k in src.get("filter_keywords", [])]
-        accepted = 0
+    print(f"  Total raw items: {len(all_raw)}")
 
-        for item in items:
-            full_text = f"{item['title']} {item['summary']}"
+    # ── Step 2: Filter for beverage relevance ──
+    print("\n  [2/6] FILTERING for relevance...")
+    relevant = [a for a in all_raw if is_beverage_relevant(f"{a['title']} {a['summary']}")]
+    print(f"  Relevant: {len(relevant)} / {len(all_raw)}")
 
-            # Apply source-specific keyword filter
-            if filter_kws and not any(kw in full_text.lower() for kw in filter_kws):
-                continue
+    # ── Step 3: Enrich (category, entities, tags, regions) ──
+    print("\n  [3/6] ENRICHING articles...")
+    for a in relevant:
+        text = f"{a['title']} {a['summary']}"
+        a["category"] = detect_category(text)
+        a["entities"] = extract_entities(text)
+        a["product_tags"] = extract_product_tags(text)
+        a["assigned_regions"] = assign_region(text, a["feed_regions"])
 
-            if is_excluded(full_text):
-                continue
-
-            if not is_beverage_relevant(full_text):
-                continue
-
-            regions = assign_regions(full_text, src["regions"])
-            cat = detect_category(full_text, src.get("cat", "market"))
-
-            all_articles.append({
-                "id":        article_id(item["url"]),
-                "title":     item["title"],
-                "summary":   item["summary"],
-                "url":       item["url"],
-                "source":    src["name"],
-                "regions":   regions,
-                "category":  cat,
-                "published": item["pub_dt"],
-                "product_tags": tag_product(full_text),
-                "entities":  extract_entities(full_text),
-                "why_it_matters": WHY_TEMPLATES.get(cat, ""),
-                "sales_angles": SALES_ANGLES.get(cat, []),
-            })
-            accepted += 1
-
-        if accepted > 0:
-            print(f"    + {src['name']} [{regions_str}]: {accepted} articles")
-
-    print(f"\n  Total articles: {len(all_articles)}")
-
-    # ── DEDUP ──
-    print("\n  [2/5] DEDUPLICATING...")
-    seen_ids = set()
-    unique = []
-    for a in all_articles:
-        if a["id"] not in seen_ids:
-            seen_ids.add(a["id"])
-            unique.append(a)
-    print(f"  Unique: {len(unique)} (removed {len(all_articles) - len(unique)} dupes)")
-    all_articles = unique
-
-    # ── BUCKET INTO REGIONS ──
-    print("\n  [3/5] BUCKETING into regions...")
+    # ── Step 4: Assign to regions, dedupe, score, window ──
+    print("\n  [4/6] BUILDING region buckets...")
     region_articles = {r: [] for r in REGIONS}
+    global_articles = []
 
-    for a in all_articles:
-        for r in a["regions"]:
+    for a in relevant:
+        for r in a["assigned_regions"]:
             if r in region_articles:
                 region_articles[r].append(a)
+            else:
+                global_articles.append(a)
 
-    for r in REGIONS:
-        # Sort by date (newest first)
-        region_articles[r].sort(key=lambda x: x["published"], reverse=True)
-        # Cap
-        region_articles[r] = region_articles[r][:MAX_PER_REGION]
-        print(f"    {r}: {len(region_articles[r])} articles")
-
-    # ── FORMAT OUTPUTS ──
-    print("\n  [4/5] FORMATTING outputs...")
-
-    # 1. sales_news.json
+    # Dedupe per region and apply time window
     region_news = {}
-    for rid, arts in region_articles.items():
-        region_news[rid] = [{
-            "id": a["id"],
-            "title": a["title"],
-            "summary": a["summary"],
-            "url": a["url"],
-            "source": a["source"],
-            "published": a["published"].isoformat(),
-            "country_region": rid,
-            "category": a["category"],
-            "entities": a["entities"],
-            "product_tags": a["product_tags"],
-            "why_it_matters": a["why_it_matters"],
-            "sales_angles": a["sales_angles"],
-            "confidence": "high" if rid in a["regions"] and a["regions"] != list(REGIONS.keys()) else "medium",
-            "score": 1,
-        } for a in arts]
-
-    # 2. data_health.json
     health = {}
+
     for rid in REGIONS:
-        n = len(region_news[rid])
+        articles = region_articles[rid]
+        articles = deduplicate(articles)
+
+        # Apply window
+        in_window = [a for a in articles if a["published"] >= CUTOFF]
+        used_fallback = False
+
+        if len(in_window) < MIN_ITEMS:
+            # Expand to fallback window
+            in_window = [a for a in articles if a["published"] >= FALLBACK_CUTOFF]
+            used_fallback = True
+
+        # Score
+        for a in in_window:
+            text = f"{a['title']} {a['summary']}"
+            t = text.lower()
+            # Region match strength
+            rdef = REGIONS[rid]
+            strong = sum(1 for kw in rdef["keywords"] if kw in t)
+            strength = "high" if strong >= 2 else "medium" if strong >= 1 else "low"
+            a["region_match"] = strength
+            a["confidence"] = "high" if a["published"] >= CUTOFF and strength in ("high", "medium") else "low" if used_fallback else "medium"
+            a["score"] = score_article(a, strength)
+            a["why_it_matters"] = WHY_TEMPLATES.get(a["category"], "")
+            a["sales_angles"] = SALES_ANGLE_TEMPLATES.get(a["category"], [])
+
+        in_window.sort(key=lambda x: x["score"], reverse=True)
+
+        # Format for output
+        formatted = []
+        for a in in_window[:50]:  # cap at 50 per region
+            formatted.append({
+                "title": a["title"],
+                "url": a["url"],
+                "source": a["source"],
+                "published": a["published"].isoformat(),
+                "country_region": rid,
+                "category": a["category"],
+                "entities": a["entities"],
+                "product_tags": a["product_tags"],
+                "summary": a["summary"],
+                "why_it_matters": a["why_it_matters"],
+                "sales_angles": a["sales_angles"],
+                "confidence": a["confidence"],
+                "score": a["score"],
+            })
+
+        region_news[rid] = formatted
+
+        # Health
+        notes = []
+        if used_fallback:
+            notes.append(f"Expanded to {FALLBACK_DAYS}-day window (only {len([a for a in articles if a['published'] >= CUTOFF])} items in {WINDOW_DAYS}d)")
+        if len(formatted) < MIN_ITEMS:
+            notes.append(f"Below {MIN_ITEMS}-item threshold: {len(formatted)} items")
+
+        last_date = max((a["published"] for a in in_window), default=None)
         health[rid] = {
-            "status": "ok" if n >= 10 else "warning" if n >= 3 else "error",
-            "items": n,
-            "sources_ok": stats["ok"],
-            "sources_failed": stats["fail"],
-            "last_item_date": region_news[rid][0]["published"] if region_news[rid] else None,
-            "notes": [] if n >= 10 else [f"Below 10 threshold: {n}"],
+            "status": "error" if len(formatted) == 0 else "warning" if len(formatted) < MIN_ITEMS or used_fallback else "ok",
+            "items": len(formatted),
+            "sources_ok": source_stats["ok"],
+            "sources_failed": source_stats["failed"],
+            "last_item_date": last_date.isoformat() if last_date else None,
+            "notes": notes,
         }
 
-    # 3. sales_briefings.json
+        print(f"    {rid}: {len(formatted)} items | {health[rid]['status']}")
+
+    # ── Step 5: Generate briefings ──
+    print("\n  [5/6] GENERATING briefings...")
     briefings = {}
-    for rid, arts in region_articles.items():
+
+    for rid, articles in region_news.items():
         rname = REGIONS[rid]["name"]
 
-        exec_summary = [{"headline": a["title"], "detail": a["summary"][:200],
-                         "evidence_urls": [a["url"]], "confidence": "medium"}
-                        for a in arts[:5]]
+        # Executive summary from top-scored articles
+        exec_summary = []
+        for a in articles[:5]:
+            exec_summary.append({
+                "headline": a["title"],
+                "detail": a["summary"][:200] if a["summary"] else "",
+                "evidence_urls": [a["url"]],
+                "confidence": a["confidence"],
+            })
 
-        launches = [a for a in arts if a["category"] == "launch"][:5]
-        key_launches = [{"title": a["title"],
-                         "company": ", ".join(a["entities"]["companies"][:2]) or "-",
-                         "product": ", ".join(a["product_tags"][:3]) or "beverage",
-                         "angle": a["sales_angles"][0] if a["sales_angles"] else "",
-                         "evidence_url": a["url"],
-                         "date": a["published"].isoformat()} for a in launches]
+        # Key launches
+        launches = [a for a in articles if a["category"] == "launch"][:5]
+        key_launches = [{
+            "title": a["title"],
+            "company": ", ".join(a["entities"]["companies"][:2]) or "Unknown",
+            "product": ", ".join(a["product_tags"][:2]) or "beverage",
+            "angle": a["sales_angles"][0] if a["sales_angles"] else "",
+            "evidence_url": a["url"],
+            "date": a["published"],
+        } for a in launches]
 
-        comp = [a for a in arts if a["category"] == "market"][:5]
-        comp_moves = [{"title": a["title"],
-                       "company": ", ".join(a["entities"]["companies"][:2]) or "-",
-                       "move_type": "market", "impact": a["why_it_matters"],
-                       "evidence_url": a["url"],
-                       "date": a["published"].isoformat()} for a in comp]
+        # Competitor moves
+        comp_moves = [a for a in articles if a["category"] == "competitor"][:5]
+        competitor_moves = [{
+            "title": a["title"],
+            "company": ", ".join(a["entities"]["companies"][:2]) or "Unknown",
+            "move_type": a["category"],
+            "impact": a["why_it_matters"],
+            "evidence_url": a["url"],
+            "date": a["published"],
+        } for a in comp_moves]
 
-        regs = [a for a in arts if a["category"] == "regulation"][:5]
-        reg_watch = [{"title": a["title"],
-                      "topic": ", ".join(a["product_tags"][:2]) or "regulation",
-                      "impact_on_sales": a["why_it_matters"],
-                      "evidence_url": a["url"],
-                      "date": a["published"].isoformat()} for a in regs]
+        # Regulatory watch
+        reg_items = [a for a in articles if a["category"] == "regulatory"][:5]
+        regulatory_watch = [{
+            "title": a["title"],
+            "topic": ", ".join(a["product_tags"][:2]) or "regulation",
+            "impact_on_sales": a["why_it_matters"],
+            "evidence_url": a["url"],
+            "date": a["published"],
+        } for a in reg_items]
 
-        price = [a for a in arts if a["category"] == "pricing"][:5]
-        pricing = [{"title": a["title"],
-                    "what_changed": a["summary"][:150],
-                    "sales_risk_or_opportunity": a["why_it_matters"],
-                    "evidence_url": a["url"],
-                    "date": a["published"].isoformat()} for a in price]
+        # Pricing
+        price_items = [a for a in articles if a["category"] == "pricing"][:5]
+        pricing_promos = [{
+            "title": a["title"],
+            "what_changed": a["summary"][:150],
+            "sales_risk_or_opportunity": a["why_it_matters"],
+            "evidence_url": a["url"],
+            "date": a["published"],
+        } for a in price_items]
 
-        # Signals from tags
-        tc = Counter(tag for a in arts for tag in a["product_tags"])
-        cc = Counter(a["category"] for a in arts)
-        sigs = [{"signal": f"{t.replace('_', ' ').title()} trending in {rname}",
-                 "explanation": f"{c} articles mention {t.replace('_', ' ')}",
-                 "support_count": c, "top_keywords": [t],
-                 "confidence": "high" if c >= 5 else "medium" if c >= 2 else "low"}
-                for t, c in tc.most_common(5)]
-        if not sigs:
-            sigs = [{"signal": f"{cat.replace('_', ' ').title()} activity in {rname}",
-                     "explanation": f"{cnt} articles tracked",
-                     "support_count": cnt, "top_keywords": [cat], "confidence": "medium"}
-                    for cat, cnt in cc.most_common(3)]
+        # Signals: topic frequency analysis
+        all_text = " ".join(f"{a['title']} {a['summary']}" for a in articles).lower()
+        cat_counter = Counter(a["category"] for a in articles)
+        tag_counter = Counter(tag for a in articles for tag in a["product_tags"])
+
+        signals = []
+        for tag, count in tag_counter.most_common(5):
+            signals.append({
+                "signal": f"{tag.replace('_', ' ').title()} trending in {rname}",
+                "explanation": f"{count} articles mention {tag.replace('_', ' ')} in the last {WINDOW_DAYS} days",
+                "support_count": count,
+                "top_keywords": [tag],
+                "confidence": "high" if count >= 5 else "medium" if count >= 2 else "low",
+            })
 
         # Talking points
-        tp = []
+        talking_points = []
         if launches:
-            tp.append({"customer_type": "retail",
-                        "pitch": f"{len(launches)} new launches in {rname} - discuss shelf space",
-                        "supporting_evidence_urls": [a["url"] for a in launches[:3]]})
-        if regs:
-            tp.append({"customer_type": "key_account",
-                        "pitch": f"Regulatory changes in {rname} - position as compliance partner",
-                        "supporting_evidence_urls": [a["url"] for a in regs[:3]]})
-        if tc.get("functional", 0) >= 1:
-            tp.append({"customer_type": "distributor",
-                        "pitch": f"Functional beverage demand rising in {rname}",
-                        "supporting_evidence_urls": [a["url"] for a in arts if "functional" in a.get("product_tags", [])][:3]})
-        if not tp and arts:
-            tp.append({"customer_type": "key_account",
-                        "pitch": f"{len(arts)} developments tracked in {rname}",
-                        "supporting_evidence_urls": [a["url"] for a in arts[:3]]})
+            talking_points.append({
+                "customer_type": "retail",
+                "pitch": f"{len(launches)} new product launches in {rname} — ask about shelf space for new formats",
+                "supporting_evidence_urls": [a["url"] for a in launches[:3]],
+            })
+        if reg_items:
+            talking_points.append({
+                "customer_type": "key_account",
+                "pitch": f"Regulatory changes in {rname} may affect product specs — position as proactive compliance partner",
+                "supporting_evidence_urls": [a["url"] for a in reg_items[:3]],
+            })
+        if tag_counter.get("functional", 0) >= 2:
+            talking_points.append({
+                "customer_type": "distributor",
+                "pitch": f"Functional beverage demand rising in {rname} — expand functional SKU range in next order",
+                "supporting_evidence_urls": [a["url"] for a in articles if "functional" in a.get("product_tags", [])][:3],
+            })
 
-        # Actions
-        act = []
+        # Recommended actions
+        actions = []
         if launches:
-            act.append({"owner": "sales", "action": f"Review {len(launches)} launches for overlap",
-                        "why_now": "Competitive response needed",
-                        "evidence_urls": [a["url"] for a in launches[:3]]})
-        if regs:
-            act.append({"owner": "sales", "action": "Brief quality team on regulatory changes",
-                        "why_now": "Compliance deadlines approaching",
-                        "evidence_urls": [a["url"] for a in regs[:3]]})
-        if not act and arts:
-            act.append({"owner": "sales", "action": f"Review {len(arts)} items for {rname}",
-                        "why_now": "Keep competitive awareness current",
-                        "evidence_urls": [a["url"] for a in arts[:3]]})
+            actions.append({
+                "owner": "sales",
+                "action": f"Review {len(launches)} new launches for competitive overlap",
+                "why_now": "New products entering market require positioning response",
+                "evidence_urls": [a["url"] for a in launches[:3]],
+            })
+        if reg_items:
+            actions.append({
+                "owner": "sales",
+                "action": "Brief quality team on regulatory developments",
+                "why_now": "Compliance deadlines may affect product specifications",
+                "evidence_urls": [a["url"] for a in reg_items[:3]],
+            })
 
         briefings[rid] = {
             "executive_summary": exec_summary,
             "key_launches": key_launches,
-            "competitor_moves": comp_moves,
-            "regulatory_watch": reg_watch,
-            "pricing_promotions": pricing,
-            "signals": sigs,
-            "talking_points": tp,
-            "recommended_actions": act,
+            "competitor_moves": competitor_moves,
+            "regulatory_watch": regulatory_watch,
+            "pricing_promotions": pricing_promos,
+            "signals": signals,
+            "talking_points": talking_points,
+            "recommended_actions": actions,
         }
 
-    # 4. market_stats.json
-    MDATA = {
-        "usa":     {"sz": 265, "u": "USD_B", "gr": 3.0},
-        "germany": {"sz": 29,  "u": "EUR_B", "gr": 2.0},
-        "france":  {"sz": 22,  "u": "EUR_B", "gr": 2.0},
-        "spain":   {"sz": 12,  "u": "EUR_B", "gr": 3.0},
-        "italy":   {"sz": 18,  "u": "EUR_B", "gr": 3.0},
-        "austria": {"sz": 5,   "u": "EUR_B", "gr": 2.0},
-    }
+    # ── Step 6: Build market_stats.json ──
+    print("\n  [6/6] BUILDING market stats...")
     market_stats = {"generated_at": NOW.isoformat(), "regions": {}}
-    for rid, m in MDATA.items():
-        src_url = f"https://www.statista.com/outlook/cmo/non-alcoholic-drinks/{rid.replace('usa', 'united-states')}"
+
+    # Static market context with full transparency
+    MARKET_DATA = {
+        "usa": {
+            "market_size": {"value": 265, "unit": "USD_B", "year": 2024,
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – US Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/united-states"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Order-of-magnitude estimate from Statista public preview. Includes soft drinks, juice, water, energy, RTD coffee/tea."},
+            "growth": {"value": 3.0, "unit": "pct", "period": "YoY",
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – US Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/united-states"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Approximate YoY growth rate from public market summaries."},
+        },
+        "germany": {
+            "market_size": {"value": 29, "unit": "EUR_B", "year": 2024,
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – DE Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/germany"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Order-of-magnitude estimate. DACH region context."},
+            "growth": {"value": 2.0, "unit": "pct", "period": "YoY",
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista DE", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/germany"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Approximate growth rate."},
+        },
+        "france": {
+            "market_size": {"value": 22, "unit": "EUR_B", "year": 2024,
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – FR Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/france"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Order-of-magnitude estimate."},
+            "growth": {"value": 2.0, "unit": "pct", "period": "YoY",
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista FR", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/france"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Approximate growth rate."},
+        },
+        "spain": {
+            "market_size": {"value": 12, "unit": "EUR_B", "year": 2024,
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – ES Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/spain"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Order-of-magnitude estimate."},
+            "growth": {"value": 3.0, "unit": "pct", "period": "YoY",
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista ES", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/spain"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Approximate growth rate."},
+        },
+        "italy": {
+            "market_size": {"value": 18, "unit": "EUR_B", "year": 2024,
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – IT Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/italy"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Order-of-magnitude estimate."},
+            "growth": {"value": 3.0, "unit": "pct", "period": "YoY",
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista IT", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/italy"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Approximate growth rate."},
+        },
+        "austria": {
+            "market_size": {"value": 5, "unit": "EUR_B", "year": 2024,
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista – AT Non-Alcoholic Beverages", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/austria"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Order-of-magnitude estimate. Red Bull home market."},
+            "growth": {"value": 2.0, "unit": "pct", "period": "YoY",
+                "method": "manual_estimate",
+                "sources": [{"name": "Statista AT", "url": "https://www.statista.com/outlook/cmo/non-alcoholic-drinks/austria"}],
+                "last_verified": "2025-01-15", "confidence": "medium",
+                "notes": "Approximate growth rate."},
+        },
+    }
+
+    for rid, mdata in MARKET_DATA.items():
         market_stats["regions"][rid] = {
             "market_context": {
                 "currency": REGIONS[rid]["currency"],
-                "market_size": {"value": m["sz"], "unit": m["u"], "year": 2024,
-                    "method": "manual_estimate",
-                    "sources": [{"name": "Statista", "url": src_url}],
-                    "last_verified": "2025-01-15", "confidence": "medium",
-                    "notes": "Order-of-magnitude estimate."},
-                "growth": {"value": m["gr"], "unit": "pct", "period": "YoY",
-                    "method": "manual_estimate",
-                    "sources": [{"name": "Statista", "url": src_url}],
-                    "last_verified": "2025-01-15", "confidence": "medium",
-                    "notes": "Approximate growth rate."},
+                "market_size": mdata["market_size"],
+                "growth": mdata["growth"],
             },
-            "sales_relevance_notes": [f"{len(region_news.get(rid, []))} items tracked."],
+            "sales_relevance_notes": [
+                f"{len(region_news.get(rid, []))} intelligence items tracked in last {WINDOW_DAYS} days.",
+            ],
         }
 
-    # 5. briefing.json
-    all_unique = list({a["id"]: a for a in all_articles}.values())
-    total = len(all_unique)
-    active = sum(1 for r in region_articles.values() if r)
+    # ── SAVE ALL OUTPUTS ──
+    print("\n  SAVING outputs...")
 
-    top_cats = Counter(a["category"] for a in all_unique).most_common(3)
-    cat_phrases = {"launch": "product launches", "regulation": "regulatory developments",
-                   "pricing": "pricing shifts", "trend": "consumer trends",
-                   "market": "market developments"}
-    themes = [cat_phrases.get(c, c) for c, _ in top_cats]
-
-    btext = f"Tracking {total} beverage intelligence items across {active} regions."
-    if themes:
-        btext += f" Top themes: {', '.join(themes)}."
-    if all_unique:
-        newest = max(all_unique, key=lambda a: a["published"])
-        btext += f" Latest: {newest['title'][:100]}."
-
-    def mk_signal(rid):
-        arts = region_articles.get(rid, [])
-        if not arts:
-            return f"Expanding sources for {REGIONS[rid]['name']}."
-        tc = Counter(tag for a in arts for tag in a.get("product_tags", []))
-        cc = Counter(a["category"] for a in arts)
-        n = len(arts)
-        if tc:
-            top = tc.most_common(1)[0][0].replace("_", " ").title()
-            return f"{top} leading. {n} items tracked."
-        if cc:
-            top = cc.most_common(1)[0][0].replace("_", " ").title()
-            return f"{top} activity. {n} items tracked."
-        return f"{n} items tracked."
-
-    # ── SAVE ALL ──
-    print("\n  [5/5] SAVING...")
-
-    def save(name, data):
-        path = OUT_DIR / name
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"    + {name}")
-
-    save("sales_news.json", {
-        "generated_at": NOW.isoformat(), "window_days": ARTICLE_TTL_DAYS,
+    # sales_news.json
+    sources_used = {rid: list({a["source"] for a in arts}) for rid, arts in region_news.items()}
+    sales_news_out = {
+        "generated_at": NOW.isoformat(),
+        "window_days": WINDOW_DAYS,
         "regions": region_news,
         "meta": {
-            "sources_used": {r: list({a["source"] for a in arts}) for r, arts in region_articles.items()},
+            "sources_used": sources_used,
             "errors": errors,
-            "counts": {r: len(arts) for r, arts in region_news.items()},
+            "counts": {rid: len(arts) for rid, arts in region_news.items()},
         },
-    })
+    }
+    with open(OUT_DIR / "sales_news.json", "w", encoding="utf-8") as f:
+        json.dump(sales_news_out, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ sales_news.json ({sum(len(a) for a in region_news.values())} items)")
 
-    save("sales_briefings.json", {
-        "generated_at": NOW.isoformat(), "window_days": ARTICLE_TTL_DAYS,
+    # sales_briefings.json
+    briefings_out = {
+        "generated_at": NOW.isoformat(),
+        "window_days": WINDOW_DAYS,
         "regions": briefings,
-    })
+    }
+    with open(OUT_DIR / "sales_briefings.json", "w", encoding="utf-8") as f:
+        json.dump(briefings_out, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ sales_briefings.json")
 
-    save("market_stats.json", market_stats)
+    # market_stats.json
+    with open(OUT_DIR / "market_stats.json", "w", encoding="utf-8") as f:
+        json.dump(market_stats, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ market_stats.json")
 
-    save("data_health.json", {
+    # data_health.json
+    health_out = {
         "generated_at": NOW.isoformat(),
         "regions": health,
         "global": {
             "total_items": sum(len(a) for a in region_news.values()),
-            "total_sources_ok": stats["ok"],
-            "total_sources_failed": stats["fail"],
+            "total_sources_ok": source_stats["ok"],
+            "total_sources_failed": source_stats["failed"],
         },
-    })
+    }
+    with open(OUT_DIR / "data_health.json", "w", encoding="utf-8") as f:
+        json.dump(health_out, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ data_health.json")
 
-    save("briefing.json", {
+    # Also generate briefing.json for backward compatibility with existing sales.html
+    # (morning briefing + region signals)
+    top_topics = Counter()
+    for arts in region_news.values():
+        for a in arts:
+            for tag in a.get("product_tags", []):
+                top_topics[tag] += 1
+            top_topics[a["category"]] += 1
+
+    top3 = [t[0] for t in top_topics.most_common(3)]
+    theme_phrases = {
+        "energy": "energy drinks leading growth",
+        "functional": "functional beverages gaining momentum",
+        "launch": "new product launches intensifying",
+        "regulatory": "regulatory changes reshaping strategies",
+        "pricing": "pricing pressures in focus",
+        "organic": "organic demand accelerating",
+        "sugar_free": "sugar-free reformulation trending",
+        "rtd": "RTD formats expanding",
+        "alcohol_free": "no/low alcohol segment growing",
+        "juice": "juice market under transformation",
+        "trend": "consumer trends shifting",
+    }
+
+    briefing_sentences = []
+    total_items = sum(len(a) for a in region_news.values())
+    active_regions = sum(1 for a in region_news.values() if a)
+    briefing_sentences.append(f"Sales intelligence tracked {total_items} items across {active_regions} regions in the past {WINDOW_DAYS} days.")
+    if top3:
+        themes = [theme_phrases.get(t, f"{t} trending") for t in top3]
+        briefing_sentences.append(f"Key themes: {'; '.join(themes)}.")
+    # Latest headline
+    all_sorted = sorted(
+        [a for arts in region_news.values() for a in arts],
+        key=lambda x: x.get("published", ""), reverse=True,
+    )
+    if all_sorted:
+        briefing_sentences.append(f"Latest: {all_sorted[0]['title'][:100]}.")
+
+    def make_signal(rid):
+        arts = region_news.get(rid, [])
+        if not arts:
+            return "No recent data — monitoring."
+        tags = Counter(tag for a in arts for tag in a.get("product_tags", []))
+        cats = Counter(a["category"] for a in arts)
+        top_tag = tags.most_common(1)[0][0] if tags else None
+        top_cat = cats.most_common(1)[0][0] if cats else "market"
+
+        if top_tag:
+            return f"{top_tag.replace('_',' ').title()} trending. ({len(arts)} items)"
+        return f"{top_cat.title()} activity dominant. ({len(arts)} items)"
+
+    briefing_json = {
         "generated_at": NOW.isoformat(),
         "generated_date": NOW.strftime("%A, %d %B %Y"),
-        "briefing": btext,
-        "signals": {r: mk_signal(r) for r in REGIONS},
+        "briefing": " ".join(briefing_sentences),
+        "signals": {rid: make_signal(rid) for rid in REGIONS},
         "meta": {
-            "total_articles_analyzed": total,
+            "total_articles_analyzed": total_items,
             "method": "rss-analysis",
-            "top_topics": dict(Counter(
-                tag for a in all_unique for tag in a.get("product_tags", [])
-            ).most_common(10)),
+            "top_topics": dict(top_topics.most_common(10)),
         },
-    })
+    }
+    with open(OUT_DIR / "briefing.json", "w", encoding="utf-8") as f:
+        json.dump(briefing_json, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ briefing.json (backward compat)")
 
-    # ── SUMMARY ──
-    total_items = sum(len(a) for a in region_news.values())
-    print(f"\n  {'=' * 50}")
+    # ── Summary ──
+    print(f"\n  {'='*50}")
     print(f"  PIPELINE COMPLETE")
-    print(f"  Total region items: {total_items}")
-    print(f"  Sources: {stats['ok']} OK / {stats['fail']} failed")
+    print(f"  Total items: {total_items}")
+    print(f"  Sources OK: {source_stats['ok']} / Failed: {source_stats['failed']}")
     for rid in REGIONS:
         h = health[rid]
         print(f"    {rid}: {h['items']} items [{h['status']}]")
-    print(f"  {'=' * 50}\n")
+    print(f"  {'='*50}\n")
 
 
 if __name__ == "__main__":
-    run()
+    run_pipeline()
