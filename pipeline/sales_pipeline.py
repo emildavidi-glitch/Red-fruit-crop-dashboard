@@ -365,9 +365,15 @@ def fetch_feed(feed):
     for item in items:
         def get(tag):
             el = item.find(tag) or item.find(f"atom:{tag}", ns)
-            return el.text.strip() if el is not None and el.text else ""
+            if el is not None:
+                # Google News RSS uses self-closing <link/> where URL is in .tail
+                if el.text and el.text.strip():
+                    return el.text.strip()
+                if el.tail and el.tail.strip():
+                    return el.tail.strip()
+            return ""
 
-        link = get("link")
+        link = get("link") or get("guid")
         if not link:
             link_el = item.find("atom:link", ns)
             link = link_el.get("href", "") if link_el is not None else ""
