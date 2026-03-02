@@ -523,6 +523,19 @@ def run_pipeline():
             else:
                 global_articles.append(a)
 
+    # Distribute global articles to ALL regions
+    # (curated sources are mostly global publications — their articles
+    #  should appear in every region, not vanish into a black hole)
+    seen_global = set()
+    for a in global_articles:
+        key = a.get("url", a.get("title", ""))
+        if key in seen_global:
+            continue
+        seen_global.add(key)
+        for rid in REGIONS:
+            region_articles[rid].append(a)
+    print(f"  Distributed {len(seen_global)} global articles to all {len(REGIONS)} regions")
+
     # Dedupe per region and apply time window
     region_news = {}
     health = {}
