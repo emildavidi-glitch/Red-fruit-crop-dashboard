@@ -1,0 +1,30 @@
+{
+  "season": "2025/26",
+  "forecasts": [
+    { "date": "May 2025",    "boxes": 314.60, "pctChange": null,  "css": "forecast-fill-may" },
+    { "date": "Sep 2025",    "boxes": 306.74, "pctChange": -2.5,  "css": "forecast-fill-sep" },
+    { "date": "Dec 2025",    "boxes": 294.81, "pctChange": -6.3,  "css": "forecast-fill-dec" },
+    { "date": "Feb 2026 ★",  "boxes": 286,    "pctChange": -9.1,  "css": "forecast-fill-feb" }
+  ],
+  "latestNote": "★ Feb 10, 2026 update: Drop rate maintained at 23% -- highest in 11 harvests. Rainfall 10% below historical average. Fruit weight 1g below projection. Final estimate due April 10, 2026.",
+  "kpis": [
+    { "val": "23%",  "label": "Fruit Drop Rate", "color": "var(--red)" },
+    { "val": "−10%", "label": "Rainfall vs Avg",  "color": "var(--orange)" },
+    { "val": "153g", "label": "Avg Fruit Weight",  "color": "var(--ink)" }
+  ],
+  "greening": [
+    { "year": "2023 incidence",  "pct": 38.1, "color": "var(--orange-light)" },
+    { "year": "2024 incidence",  "pct": 44.4, "color": "var(--orange)" },
+    { "year": "2025 incidence",  "pct": 47.6, "color": "var(--red)" },
+    { "year": "Severity (2025)", "pct": 22.7, "color": "var(--red)" }
+  ],
+  "greeningNote": "26.5% of infected trees show symptoms in >75% of canopy. Greening + drought together reduce productive potential by approximately <strong>35%</strong>. Most affected areas: Limeira, Porto Ferreira, Avaré (>60% incidence).",
+  "greeningKpis": [
+    { "val": "47.6%",  "label": "Trees Infected",  "color": "var(--red)" },
+    { "val": "−35%",   "label": "Yield Reduction",  "color": "var(--orange)" },
+    { "val": "Apr 10", "label": "Final Forecast",   "color": "var(--ink)" }
+  ],
+  "brazilSummary": "Brazil 2025/26: forecast cut 4 times. Greening affects 47.6% of trees. Drop rate 23% -- worst in 11 years.",
+  "floridaSummary": "Florida: January cold may have caused tree damage. Frozen fruit going to processors. Harvest wrapping up.",
+  "demandSummary": "Demand remains weak -- consumers adjusted to high prices. Market expects demand suppression to continue near-term."
+}
