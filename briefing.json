@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-04T07:27:10.458949+00:00",
+  "generated_at": "2026-03-04T10:59:39.200166+00:00",
   "generated_date": "Wednesday, 04 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Château Sainte Marguerite unveils 2025 rosé collection.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Treasury Wine Estates CFO to step down.",
   "signals": {
-    "usa": "Sugar Free trending. (50 items)",
+    "usa": "Premium trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 72,
-      "competitor": 31,
-      "sugar_free": 26,
+      "trend": 152,
+      "launch": 74,
+      "competitor": 26,
+      "sugar_free": 24,
+      "regulatory": 18,
       "premium": 18,
-      "pricing": 14,
-      "rtd": 12,
-      "supply_chain": 9,
-      "alcohol_free": 8,
-      "retail": 7
+      "rtd": 14,
+      "innovation": 13,
+      "functional": 12,
+      "alcohol_free": 9
     }
   }
 }
