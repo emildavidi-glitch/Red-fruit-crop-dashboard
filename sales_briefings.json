@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T10:59:39.200166+00:00",
+  "generated_at": "2026-03-04T15:02:07.859676+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -21,8 +21,16 @@
           "confidence": "high"
         },
         {
+          "headline": "A ‘catalyst for change’: How Waiākea is pioneering sustainable packaging in bottled water",
+          "detail": "The Hawai'i-based brand said it is the first company in the world to print labels with algae-based inks, adding its climate values help it stand out in a field dominated by a few big players.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/waiakea-hawaiian-volcanic-beverages-sustainability-algae-based-ink/813560/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Treasury Wine Estates CFO to step down",
-          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates from September, as the company strives to claw back more than AU$10",
+          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates (TWE) from September, as the company strives to claw back more than",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/"
           ],
@@ -33,14 +41,6 @@
           "detail": "Former Napa Valley winemaker Jeffry Hill has apologised after being sentenced in a federal case involving the mislabelling of wine and grape juice worth millions of dollars. The scheme, first detailed",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/jeffry-hill-apologises-after-sentencing-in-2-5m-napa-wine-fraud-case/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Thornbridge teams up with musician Martyn Ware",
-          "detail": "Derbyshire’s Thornbridge Brewery has partnered with Martyn Ware, a founding member of the bands The Human League and Heaven 17, to create a pump clip for its Jaipur beer brand for Sheffield Beer Week.",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/thornbridge-teams-up-with-musician-martyn-ware/"
           ],
           "confidence": "medium"
         }
@@ -79,12 +79,12 @@
           "date": "2026-03-04T02:14:33+00:00"
         },
         {
-          "title": "Report: Q Mixers Launches Q Refreshers With Electrolytes - BevNET.com",
+          "title": "Q Mixers Launches Q Refreshers With Electrolytes - BevNET.com",
           "company": "Unknown",
           "product": "hydration",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbDM1OWVNWWlidk45QkhOQVJoWHhqa2hhUXotSXZ5cjFWUF9GaDRGc1JRck45MVNPcDU4YWp2MEtJTlduaHg2T2RHRUl1bHp6d05UemtFTS1RaElPYmlTaUZ2N2pPOXZBT0R5eGlDa21veWRidVRTV1NVT242b1dWczlGdFlaQTN0eDZfbUY5OE84R2RQN0NB?oc=5",
-          "date": "2026-03-03T22:22:50+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ2pyN0dBZ3BzNWc4di13aEljS3Z5SF80WW1mR1B4RHRMZDJiVDU2bllHUml2OWJJa0twSnJlZ25GM0VTajJWM0xQNDRiQjByNno5ODVWcV8tenVZeUFMYk9iblRvYnJXbHpJaEFYNUE2SDQ1T1M4a2xfd0Z4RnB5QURSc1h0TkRCclBON0NR?oc=5",
+          "date": "2026-03-04T02:14:33+00:00"
         }
       ],
       "competitor_moves": [
@@ -130,6 +130,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "A ‘catalyst for change’: How Waiākea is pioneering sustainable packaging in bottled water",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.fooddive.com/news/waiakea-hawaiian-volcanic-beverages-sustainability-algae-based-ink/813560/",
+          "date": "2026-03-04T09:37:00-05:00"
+        },
         {
           "title": "Treasury Wine Estates CFO to step down",
           "topic": "regulation",
@@ -181,6 +188,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Carbonated trending in United States",
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Hydration trending in United States",
           "explanation": "2 articles mention hydration in the last 28 days",
           "support_count": 2,
@@ -195,15 +211,6 @@
           "support_count": 2,
           "top_keywords": [
             "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Rtd trending in United States",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
           ],
           "confidence": "medium"
         }
@@ -222,9 +229,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.fooddive.com/news/waiakea-hawaiian-volcanic-beverages-sustainability-algae-based-ink/813560/",
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/",
-            "https://www.thedrinksbusiness.com/2026/03/jeffry-hill-apologises-after-sentencing-in-2-5m-napa-wine-fraud-case/",
-            "https://www.thedrinksbusiness.com/2026/03/thornbridge-teams-up-with-musician-martyn-ware/"
+            "https://www.thedrinksbusiness.com/2026/03/jeffry-hill-apologises-after-sentencing-in-2-5m-napa-wine-fraud-case/"
           ]
         },
         {
@@ -252,9 +259,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.fooddive.com/news/waiakea-hawaiian-volcanic-beverages-sustainability-algae-based-ink/813560/",
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/",
-            "https://www.thedrinksbusiness.com/2026/03/jeffry-hill-apologises-after-sentencing-in-2-5m-napa-wine-fraud-case/",
-            "https://www.thedrinksbusiness.com/2026/03/thornbridge-teams-up-with-musician-martyn-ware/"
+            "https://www.thedrinksbusiness.com/2026/03/jeffry-hill-apologises-after-sentencing-in-2-5m-napa-wine-fraud-case/"
           ]
         }
       ]
@@ -262,8 +269,16 @@
     "germany": {
       "executive_summary": [
         {
+          "headline": "Brown-Forman Deutschland bringt JACK DANIEL’S Southern Cocktails auf den Markt - about-drinks.com",
+          "detail": "Brown-Forman Deutschland bringt JACK DANIEL’S Southern Cocktails auf den Markt about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeUNnVFRpMVdaOHNMd3g5ekNfVHZPb0ZDUThGdGYxSjRUVldicGNULXhhMU1mMHVTTXVIM1VpenRva1dCb3BvSXFOYThLY2k4VTk5bTdCUHVkMW45VEtQdks2VXZHcktMNjJ6OWcxZ3ZWdTVPajVPLWxuRUVQb0V3enR2X1NOaHBqeXFlSGUyUEs5Nmw4QzNfOG9fNGtqdGRfLUtjbVBsTWJlMUE?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "Treasury Wine Estates CFO to step down",
-          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates from September, as the company strives to claw back more than AU$10",
+          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates (TWE) from September, as the company strives to claw back more than",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/"
           ],
@@ -292,14 +307,6 @@
             "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR1V6UHFRb2wyc1BrRXd1LXVrRFdRUE10OW0wVTF5WGlxVnZYNHNGMkJ6QjRLWEUyVG16TGNSX0ZnSTFhcDNiWGRsZ3kwZUdTX2xoTHhBeU5xOFliNGE1akcyMWwyTzQzUjBGTjlOZmtTc2dxbXdMcUl6NHNQaU1FVmw4VDkzck03TS1nZHQzOGUwc0tMWlBqV3ZqNE1sekkyVnF3Rg?oc=5"
           ],
           "confidence": "high"
-        },
-        {
-          "headline": "Thornbridge teams up with musician Martyn Ware",
-          "detail": "Derbyshire’s Thornbridge Brewery has partnered with Martyn Ware, a founding member of the bands The Human League and Heaven 17, to create a pump clip for its Jaipur beer brand for Sheffield Beer Week.",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/thornbridge-teams-up-with-musician-martyn-ware/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -419,29 +426,20 @@
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in Germany",
-          "explanation": "5 articles mention sugar free in the last 28 days",
-          "support_count": 5,
+          "signal": "Premium trending in Germany",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "high"
-        },
-        {
-          "signal": "Rtd trending in Germany",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Germany",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
+          "signal": "Rtd trending in Germany",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "premium"
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -451,6 +449,15 @@
           "support_count": 2,
           "top_keywords": [
             "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in Germany",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
           ],
           "confidence": "medium"
         },
@@ -527,7 +534,7 @@
         },
         {
           "headline": "Treasury Wine Estates CFO to step down",
-          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates from September, as the company strives to claw back more than AU$10",
+          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates (TWE) from September, as the company strives to claw back more than",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/"
           ],
@@ -668,20 +675,20 @@
       ],
       "signals": [
         {
+          "signal": "Premium trending in France",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in France",
           "explanation": "4 articles mention sugar free in the last 28 days",
           "support_count": 4,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in France",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "premium"
           ],
           "confidence": "medium"
         },
@@ -695,20 +702,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in France",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Juice trending in France",
           "explanation": "1 articles mention juice in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "juice"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in France",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -768,7 +775,7 @@
       "executive_summary": [
         {
           "headline": "Henkell Freixenet takes on full control of Freixenet",
-          "detail": "Henkell Freixenet has acquired 100% ownership of Spanish sparkling wine giant Freixenet, after the founding Ferrer family and long-time chairman José Luis Bonet agreed to sell their remaining shares. ",
+          "detail": "Henkell Freixenet has acquired 100% ownership of Spanish sparkling wine giant Freixenet, after the founding Ferrer family and José Luis Bonet agreed to sell their remaining shares. The post Henkell Fr",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/henkell-freixenet-takes-on-full-control-of-freixenet/"
           ],
@@ -792,7 +799,7 @@
         },
         {
           "headline": "Treasury Wine Estates CFO to step down",
-          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates from September, as the company strives to claw back more than AU$10",
+          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates (TWE) from September, as the company strives to claw back more than",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/"
           ],
@@ -925,20 +932,20 @@
       ],
       "signals": [
         {
+          "signal": "Premium trending in Spain",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in Spain",
           "explanation": "4 articles mention sugar free in the last 28 days",
           "support_count": 4,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in Spain",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "premium"
           ],
           "confidence": "medium"
         },
@@ -961,13 +968,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "signal": "Carbonated trending in Spain",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "rtd"
+            "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1033,7 +1040,7 @@
         },
         {
           "headline": "Treasury Wine Estates CFO to step down",
-          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates from September, as the company strives to claw back more than AU$10",
+          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates (TWE) from September, as the company strives to claw back more than",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/"
           ],
@@ -1174,20 +1181,20 @@
       ],
       "signals": [
         {
+          "signal": "Premium trending in Italy",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in Italy",
           "explanation": "4 articles mention sugar free in the last 28 days",
           "support_count": 4,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in Italy",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "premium"
           ],
           "confidence": "medium"
         },
@@ -1201,20 +1208,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Italy",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Juice trending in Italy",
           "explanation": "1 articles mention juice in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "juice"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1274,7 +1281,7 @@
       "executive_summary": [
         {
           "headline": "Treasury Wine Estates CFO to step down",
-          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates from September, as the company strives to claw back more than AU$10",
+          "detail": "Stuart Boxer has announced he will retire from the role of chief financial and strategy officer of Australia's Treasury Wine Estates (TWE) from September, as the company strives to claw back more than",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/treasury-wine-estates-cfo-to-step-down/"
           ],
@@ -1430,29 +1437,29 @@
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in Austria",
-          "explanation": "5 articles mention sugar free in the last 28 days",
-          "support_count": 5,
+          "signal": "Premium trending in Austria",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "high"
-        },
-        {
-          "signal": "Rtd trending in Austria",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Austria",
-          "explanation": "3 articles mention premium in the last 28 days",
+          "signal": "Sugar Free trending in Austria",
+          "explanation": "3 articles mention sugar free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "premium"
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Austria",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
