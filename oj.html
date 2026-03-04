@@ -352,21 +352,26 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
       <div class="section-hd" style="border:none;margin-bottom:8px;padding-bottom:0;font-size:1rem">
         <span>🎯</span> Technical Levels · Today
       </div>
-      <div class="tech-grid">
+      <div class="tech-grid" id="tech-grid">
         <div class="tech-item resistance">
           <div class="tech-label">Resistance 3</div>
-          <div class="tech-val">228.00¢</div>
-          <div class="tech-note">Strong upper level</div>
+          <div class="tech-val" id="tech-r3">--¢</div>
+          <div class="tech-note" id="tech-r3-note">Loading...</div>
         </div>
         <div class="tech-item resistance">
           <div class="tech-label">Resistance 2</div>
-          <div class="tech-val">220.00¢</div>
-          <div class="tech-note">Near-term cap</div>
+          <div class="tech-val" id="tech-r2">--¢</div>
+          <div class="tech-note" id="tech-r2-note">Loading...</div>
         </div>
         <div class="tech-item resistance">
           <div class="tech-label">Resistance 1</div>
-          <div class="tech-val">211.00¢</div>
-          <div class="tech-note">First hurdle</div>
+          <div class="tech-val" id="tech-r1">--¢</div>
+          <div class="tech-note" id="tech-r1-note">Loading...</div>
+        </div>
+        <div class="tech-item signal">
+          <div class="tech-label">Pivot Point</div>
+          <div class="tech-val" style="color:var(--orange)" id="tech-pivot">--¢</div>
+          <div class="tech-note" id="tech-pivot-note">Loading...</div>
         </div>
         <div class="tech-item signal">
           <div class="tech-label">Current Price</div>
@@ -375,33 +380,32 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
         </div>
         <div class="tech-item support">
           <div class="tech-label">Support 1</div>
-          <div class="tech-val">186.00¢</div>
-          <div class="tech-note">Strong floor</div>
+          <div class="tech-val" id="tech-s1">--¢</div>
+          <div class="tech-note" id="tech-s1-note">Loading...</div>
         </div>
         <div class="tech-item support">
           <div class="tech-label">Support 2</div>
-          <div class="tech-val">163.00¢</div>
-          <div class="tech-note">Major support</div>
+          <div class="tech-val" id="tech-s2">--¢</div>
+          <div class="tech-note" id="tech-s2-note">Loading...</div>
         </div>
         <div class="tech-item support">
           <div class="tech-label">Support 3</div>
-          <div class="tech-val">151.00¢</div>
-          <div class="tech-note">Deep support</div>
+          <div class="tech-val" id="tech-s3">--¢</div>
+          <div class="tech-note" id="tech-s3-note">Loading...</div>
         </div>
         <div class="tech-item signal">
           <div class="tech-label">Trend (daily)</div>
-          <div class="tech-val">Mixed/↑</div>
-          <div class="tech-note">Short-term up</div>
+          <div class="tech-val" id="tech-trend">--</div>
+          <div class="tech-note" id="tech-trend-note">Loading...</div>
         </div>
         <div class="tech-item signal">
           <div class="tech-label">Signal</div>
-          <div class="tech-val" style="color:var(--green)">BUY</div>
-          <div class="tech-note">Investing.com</div>
+          <div class="tech-val" id="tech-signal">--</div>
+          <div class="tech-note" id="tech-signal-note">Loading...</div>
         </div>
       </div>
-      <div style="margin-top:14px;padding:10px 12px;background:var(--parchment);border-radius:8px;font-size:0.68rem;color:var(--mid);line-height:1.5;">
-        <strong style="color:var(--warm)">Today's Market Commentary (Jack Scoville, Feb 19):</strong><br>
-        Florida harvest active, wrapping up. Cold January/early February may have caused some tree damage -- frozen fruit being sent to processors. Brazil weather good. Trends mixed to up on daily charts. Market feels demand remains weak after last year's high prices.
+      <div id="tech-commentary" style="margin-top:14px;padding:10px 12px;background:var(--parchment);border-radius:8px;font-size:0.68rem;color:var(--mid);line-height:1.5;">
+        Loading market commentary...
       </div>
     </div>
   </div>
@@ -415,97 +419,10 @@ footer{background:var(--warm);color:var(--light);padding:18px 40px;font-family:v
   </div>
 
   <!-- ═══════ BRAZIL SUPPLY ═══════ -->
-  <div class="section-hd"><span>🇧🇷</span> Brazil Supply Intelligence · Fundecitrus 2025/26 Season</div>
-  <div class="brazil-grid">
-    <div class="fundecitrus-card">
-      <div style="font-family:var(--font-mono);font-size:0.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:12px;">Crop Forecast Revisions -- São Paulo Citrus Belt</div>
-      <div class="forecast-timeline">
-        <div class="forecast-row">
-          <div class="forecast-date">May 2025</div>
-          <div class="forecast-bar-wrap"><div class="forecast-bar-fill forecast-fill-may" style="width:100%"></div></div>
-          <div class="forecast-val">314.60M boxes</div>
-          <div class="forecast-delta">baseline</div>
-        </div>
-        <div class="forecast-row">
-          <div class="forecast-date">Sep 2025</div>
-          <div class="forecast-bar-wrap"><div class="forecast-bar-fill forecast-fill-sep" style="width:97.5%"></div></div>
-          <div class="forecast-val">306.74M boxes</div>
-          <div class="forecast-delta">−2.5%</div>
-        </div>
-        <div class="forecast-row">
-          <div class="forecast-date">Dec 2025</div>
-          <div class="forecast-bar-wrap"><div class="forecast-bar-fill forecast-fill-dec" style="width:93.7%"></div></div>
-          <div class="forecast-val">294.81M boxes</div>
-          <div class="forecast-delta">−6.3%</div>
-        </div>
-        <div class="forecast-row">
-          <div class="forecast-date">Feb 2026 ★</div>
-          <div class="forecast-bar-wrap"><div class="forecast-bar-fill forecast-fill-feb" style="width:91%"></div></div>
-          <div class="forecast-val">~286M est.</div>
-          <div class="forecast-delta">~−9%</div>
-        </div>
-      </div>
-      <div style="font-size:0.65rem;color:var(--mid);margin-top:12px;padding:8px 10px;background:var(--parchment);border-radius:6px;line-height:1.5;">
-        ★ Feb 10, 2026 update: Drop rate maintained at 23% -- highest in 11 harvests. Rainfall 10% below historical average. Fruit weight 1g below projection. Final estimate due April 10, 2026.
-      </div>
-      <div class="kpi-row">
-        <div class="kpi">
-          <div class="kpi-val" style="color:var(--red)">23%</div>
-          <div class="kpi-label">Fruit Drop Rate</div>
-        </div>
-        <div class="kpi">
-          <div class="kpi-val" style="color:var(--orange)">−10%</div>
-          <div class="kpi-label">Rainfall vs Avg</div>
-        </div>
-        <div class="kpi">
-          <div class="kpi-val">153g</div>
-          <div class="kpi-label">Avg Fruit Weight</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="fundecitrus-card">
-      <div style="font-family:var(--font-mono);font-size:0.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:14px;">Citrus Greening Disease (HLB) Progression</div>
-      <div class="greening-meter">
-        <div class="meter-row">
-          <div class="meter-label">2023 incidence</div>
-          <div class="meter-val" style="color:var(--orange-light)">38.1%</div>
-        </div>
-        <div class="meter-bar"><div class="meter-fill" style="width:38.1%"></div></div>
-        <div class="meter-row">
-          <div class="meter-label">2024 incidence</div>
-          <div class="meter-val" style="color:var(--orange)">44.4%</div>
-        </div>
-        <div class="meter-bar"><div class="meter-fill" style="width:44.4%"></div></div>
-        <div class="meter-row">
-          <div class="meter-label">2025 incidence</div>
-          <div class="meter-val" style="color:var(--red)">47.6%</div>
-        </div>
-        <div class="meter-bar"><div class="meter-fill" style="width:47.6%"></div></div>
-        <div class="meter-row">
-          <div class="meter-label">Severity (2025)</div>
-          <div class="meter-val" style="color:var(--red)">22.7%</div>
-        </div>
-        <div class="meter-bar"><div class="meter-fill" style="width:22.7%"></div></div>
-      </div>
-      <div style="font-size:0.67rem;color:var(--mid);margin-top:12px;line-height:1.5;padding:8px 10px;background:#FFF3E0;border-radius:6px;border-left:3px solid var(--orange);">
-        <strong>Productivity impact:</strong> 26.5% of infected trees show symptoms in &gt;75% of canopy. Greening + drought together reduce productive potential by approximately <strong>35%</strong>. Most affected areas: Limeira, Porto Ferreira, Avaré (&gt;60% incidence).
-      </div>
-      <div class="kpi-row" style="margin-top:12px;">
-        <div class="kpi">
-          <div class="kpi-val" style="color:var(--red)">47.6%</div>
-          <div class="kpi-label">Trees Infected</div>
-        </div>
-        <div class="kpi">
-          <div class="kpi-val" style="color:var(--orange)">−35%</div>
-          <div class="kpi-label">Yield Reduction</div>
-        </div>
-        <div class="kpi">
-          <div class="kpi-val">Apr 10</div>
-          <div class="kpi-label">Final Forecast</div>
-        </div>
-      </div>
-    </div>
+  <div class="section-hd"><span>🇧🇷</span> Brazil Supply Intelligence · Fundecitrus <span id="supply-season">2025/26</span> Season</div>
+  <div class="brazil-grid" id="brazil-supply-grid">
+    <!-- Rendered dynamically by renderSupplyIntel() -->
+    <div class="loading-spinner"><div class="spin"></div>Loading supply data...</div>
   </div>
 
   <!-- ═══════ WEATHER ═══════ -->
@@ -631,54 +548,284 @@ async function loadWeather() {
     </div>`;
   }).join('');
 
-  buildOutlook(results);
+  buildOutlook(results, lastKnownPrice, null, null, null);
 }
 
 // ══════════════════════════════════════════════════════
-//  PRICE OUTLOOK SIGNAL
+//  SUPPLY DATA — loaded from supply_data.json (editable)
+//  Fallback to built-in defaults if file missing
 // ══════════════════════════════════════════════════════
-function buildOutlook(wxResults, livePrice, priceChange, priceChangePct) {
+
+const DEFAULT_SUPPLY = {
+  season: "2025/26",
+  forecasts: [
+    { date: "May 2025", boxes: 314.60, pctChange: null, css: "forecast-fill-may" },
+    { date: "Sep 2025", boxes: 306.74, pctChange: -2.5,  css: "forecast-fill-sep" },
+    { date: "Dec 2025", boxes: 294.81, pctChange: -6.3,  css: "forecast-fill-dec" },
+    { date: "Feb 2026 ★", boxes: 286, pctChange: -9.1, css: "forecast-fill-feb" },
+  ],
+  latestNote: "★ Feb 10, 2026 update: Drop rate maintained at 23% -- highest in 11 harvests. Rainfall 10% below historical average. Fruit weight 1g below projection. Final estimate due April 10, 2026.",
+  kpis: [
+    { val: "23%", label: "Fruit Drop Rate", color: "var(--red)" },
+    { val: "−10%", label: "Rainfall vs Avg", color: "var(--orange)" },
+    { val: "153g", label: "Avg Fruit Weight", color: "var(--ink)" },
+  ],
+  greening: [
+    { year: "2023 incidence", pct: 38.1, color: "var(--orange-light)" },
+    { year: "2024 incidence", pct: 44.4, color: "var(--orange)" },
+    { year: "2025 incidence", pct: 47.6, color: "var(--red)" },
+    { year: "Severity (2025)", pct: 22.7, color: "var(--red)" },
+  ],
+  greeningNote: "26.5% of infected trees show symptoms in >75% of canopy. Greening + drought together reduce productive potential by approximately <strong>35%</strong>. Most affected areas: Limeira, Porto Ferreira, Avaré (>60% incidence).",
+  greeningKpis: [
+    { val: "47.6%", label: "Trees Infected", color: "var(--red)" },
+    { val: "−35%", label: "Yield Reduction", color: "var(--orange)" },
+    { val: "Apr 10", label: "Final Forecast", color: "var(--ink)" },
+  ],
+  // Outlook context pulled from supply data
+  brazilSummary: "Brazil 2025/26: forecast cut 4 times. Greening affects 47.6% of trees. Drop rate 23% -- worst in 11 years.",
+  floridaSummary: "Florida: January cold may have caused tree damage. Frozen fruit going to processors. Harvest wrapping up.",
+  demandSummary: "Demand remains weak -- consumers adjusted to high prices. Market expects demand suppression to continue near-term.",
+};
+
+let supplyData = DEFAULT_SUPPLY;
+
+async function fetchSupplyData() {
+  try {
+    const controller = new AbortController();
+    setTimeout(() => controller.abort(), 5000);
+    const res = await fetch('supply_data.json', { signal: controller.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    // Merge with defaults so missing fields fall back
+    supplyData = { ...DEFAULT_SUPPLY, ...data };
+    console.log('Loaded supply_data.json');
+  } catch(e) {
+    console.log('supply_data.json not found, using defaults:', e.message);
+    supplyData = DEFAULT_SUPPLY;
+  }
+  renderSupplyIntel();
+}
+
+function renderSupplyIntel() {
+  const s = supplyData;
+  const maxBoxes = Math.max(...s.forecasts.map(f => f.boxes));
+
+  document.getElementById('supply-season').textContent = s.season;
+
+  const forecastRows = s.forecasts.map(f => {
+    const pct = (f.boxes / maxBoxes * 100).toFixed(1);
+    const delta = f.pctChange != null ? `${f.pctChange > 0 ? '+' : ''}${f.pctChange}%` : 'baseline';
+    const valStr = f.boxes % 1 === 0 ? `~${f.boxes}M est.` : `${f.boxes.toFixed(2)}M boxes`;
+    return `<div class="forecast-row">
+      <div class="forecast-date">${f.date}</div>
+      <div class="forecast-bar-wrap"><div class="forecast-bar-fill ${f.css||''}" style="width:${pct}%"></div></div>
+      <div class="forecast-val">${valStr}</div>
+      <div class="forecast-delta">${delta}</div>
+    </div>`;
+  }).join('');
+
+  const kpiHtml = s.kpis.map(k =>
+    `<div class="kpi"><div class="kpi-val" style="color:${k.color}">${k.val}</div><div class="kpi-label">${k.label}</div></div>`
+  ).join('');
+
+  const greeningBars = s.greening.map(g =>
+    `<div class="meter-row"><div class="meter-label">${g.year}</div><div class="meter-val" style="color:${g.color}">${g.pct}%</div></div>
+     <div class="meter-bar"><div class="meter-fill" style="width:${g.pct}%"></div></div>`
+  ).join('');
+
+  const gKpis = s.greeningKpis.map(k =>
+    `<div class="kpi"><div class="kpi-val" style="color:${k.color}">${k.val}</div><div class="kpi-label">${k.label}</div></div>`
+  ).join('');
+
+  document.getElementById('brazil-supply-grid').innerHTML = `
+    <div class="fundecitrus-card">
+      <div style="font-family:var(--font-mono);font-size:0.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:12px;">Crop Forecast Revisions -- São Paulo Citrus Belt</div>
+      <div class="forecast-timeline">${forecastRows}</div>
+      <div style="font-size:0.65rem;color:var(--mid);margin-top:12px;padding:8px 10px;background:var(--parchment);border-radius:6px;line-height:1.5;">${s.latestNote}</div>
+      <div class="kpi-row">${kpiHtml}</div>
+    </div>
+    <div class="fundecitrus-card">
+      <div style="font-family:var(--font-mono);font-size:0.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:14px;">Citrus Greening Disease (HLB) Progression</div>
+      <div class="greening-meter">${greeningBars}</div>
+      <div style="font-size:0.67rem;color:var(--mid);margin-top:12px;line-height:1.5;padding:8px 10px;background:#FFF3E0;border-radius:6px;border-left:3px solid var(--orange);">
+        <strong>Productivity impact:</strong> ${s.greeningNote}
+      </div>
+      <div class="kpi-row" style="margin-top:12px;">${gKpis}</div>
+    </div>`;
+}
+
+// ══════════════════════════════════════════════════════
+//  TECHNICAL LEVELS — computed from Yahoo Finance data
+//  Uses Classic Pivot Points: Pivot = (H+L+C)/3
+// ══════════════════════════════════════════════════════
+
+function computeTechLevels(high, low, close) {
+  const pivot = (high + low + close) / 3;
+  return {
+    pivot: pivot,
+    r1: 2 * pivot - low,
+    r2: pivot + (high - low),
+    r3: high + 2 * (pivot - low),
+    s1: 2 * pivot - high,
+    s2: pivot - (high - low),
+    s3: low - 2 * (high - pivot),
+  };
+}
+
+function renderTechLevels(price, prevClose, dayHigh, dayLow, weekHigh, weekLow) {
+  const fmt = v => v != null ? v.toFixed(2) : '--';
+
+  // Compute pivot points from previous day's data
+  const h = dayHigh || weekHigh || price;
+  const l = dayLow || weekLow || price;
+  const c = prevClose || price;
+  const levels = computeTechLevels(h, l, c);
+
+  // Populate levels
+  document.getElementById('tech-r3').textContent = fmt(levels.r3) + '¢';
+  document.getElementById('tech-r3-note').textContent = price > levels.r3 ? 'Broken ▲' : 'Strong upper level';
+  document.getElementById('tech-r2').textContent = fmt(levels.r2) + '¢';
+  document.getElementById('tech-r2-note').textContent = price > levels.r2 ? 'Broken ▲' : 'Near-term cap';
+  document.getElementById('tech-r1').textContent = fmt(levels.r1) + '¢';
+  document.getElementById('tech-r1-note').textContent = price > levels.r1 ? 'Broken ▲' : 'First hurdle';
+
+  document.getElementById('tech-pivot').textContent = fmt(levels.pivot) + '¢';
+  document.getElementById('tech-pivot-note').textContent = price > levels.pivot ? 'Price above pivot ▲' : 'Price below pivot ▼';
+
+  document.getElementById('tech-current-price').textContent = fmt(price) + '¢';
+  const change = prevClose ? price - prevClose : 0;
+  document.getElementById('tech-price-note').textContent = change >= 0 ? '▲ Rising' : '▼ Falling';
+
+  document.getElementById('tech-s1').textContent = fmt(levels.s1) + '¢';
+  document.getElementById('tech-s1-note').textContent = price < levels.s1 ? 'Broken ▼' : 'First floor';
+  document.getElementById('tech-s2').textContent = fmt(levels.s2) + '¢';
+  document.getElementById('tech-s2-note').textContent = price < levels.s2 ? 'Broken ▼' : 'Major support';
+  document.getElementById('tech-s3').textContent = fmt(levels.s3) + '¢';
+  document.getElementById('tech-s3-note').textContent = price < levels.s3 ? 'Broken ▼' : 'Deep support';
+
+  // Trend: based on price vs pivot and movement direction
+  const trendEl = document.getElementById('tech-trend');
+  const trendNote = document.getElementById('tech-trend-note');
+  if (price > levels.r1) {
+    trendEl.textContent = '↑ Up'; trendNote.textContent = 'Above R1 -- bullish';
+  } else if (price > levels.pivot && change >= 0) {
+    trendEl.textContent = '↑ Up'; trendNote.textContent = 'Above pivot, rising';
+  } else if (price > levels.pivot && change < 0) {
+    trendEl.textContent = '→ Mixed/↑'; trendNote.textContent = 'Above pivot, pulling back';
+  } else if (price < levels.s1) {
+    trendEl.textContent = '↓ Down'; trendNote.textContent = 'Below S1 -- bearish';
+  } else if (price < levels.pivot && change < 0) {
+    trendEl.textContent = '↓ Down'; trendNote.textContent = 'Below pivot, falling';
+  } else {
+    trendEl.textContent = '→ Mixed'; trendNote.textContent = 'Near pivot -- consolidating';
+  }
+
+  // Signal: composite of price position + momentum
+  const sigEl = document.getElementById('tech-signal');
+  const sigNote = document.getElementById('tech-signal-note');
+  let signalScore = 0;
+  if (price > levels.pivot) signalScore++;
+  if (price > levels.r1) signalScore++;
+  if (change > 0) signalScore++;
+  if (price < levels.pivot) signalScore--;
+  if (price < levels.s1) signalScore--;
+  if (change < 0) signalScore--;
+
+  if (signalScore >= 2) {
+    sigEl.textContent = 'BUY'; sigEl.style.color = 'var(--green)'; sigNote.textContent = 'Strong bullish';
+  } else if (signalScore === 1) {
+    sigEl.textContent = 'BUY'; sigEl.style.color = 'var(--green)'; sigNote.textContent = 'Mildly bullish';
+  } else if (signalScore === 0) {
+    sigEl.textContent = 'NEUTRAL'; sigEl.style.color = 'var(--orange)'; sigNote.textContent = 'No clear direction';
+  } else if (signalScore === -1) {
+    sigEl.textContent = 'SELL'; sigEl.style.color = 'var(--red)'; sigNote.textContent = 'Mildly bearish';
+  } else {
+    sigEl.textContent = 'SELL'; sigEl.style.color = 'var(--red)'; sigNote.textContent = 'Strong bearish';
+  }
+
+  // Commentary: generated from live data + supply context
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('en-US', { month:'short', day:'numeric' });
+  const pctFromHigh = weekHigh ? ((1 - price/weekHigh) * 100).toFixed(1) : '?';
+  const pctFromLow = weekLow ? ((price/weekLow - 1) * 100).toFixed(1) : '?';
+  const pivotRelation = price > levels.pivot ? 'above' : 'below';
+  const techCommentary = `<strong style="color:var(--warm)">Auto-generated · ${dateStr}:</strong><br>`
+    + `FCOJ at ${fmt(price)}¢ -- trading ${pivotRelation} pivot (${fmt(levels.pivot)}¢). `
+    + `${pctFromHigh}% below 52-week high, ${pctFromLow}% above 52-week low. `
+    + (price > levels.r1
+      ? `Price above R1 (${fmt(levels.r1)}¢) -- bullish momentum. Next resistance R2 at ${fmt(levels.r2)}¢.`
+      : price < levels.s1
+      ? `Price below S1 (${fmt(levels.s1)}¢) -- bearish pressure. Next support S2 at ${fmt(levels.s2)}¢.`
+      : `Range-bound between S1 (${fmt(levels.s1)}¢) and R1 (${fmt(levels.r1)}¢). Watch for breakout direction.`);
+
+  document.getElementById('tech-commentary').innerHTML = techCommentary;
+
+  return { levels, signalScore };
+}
+
+// ══════════════════════════════════════════════════════
+//  PRICE OUTLOOK SIGNAL — now fully dynamic
+// ══════════════════════════════════════════════════════
+function buildOutlook(wxResults, livePrice, priceChange, priceChangePct, techData) {
   const factors = [];
   let score = 0;
+  const s = supplyData;
 
-  // Price trend -- use live data if available, else static context
+  // Price trend -- use live data if available
   if (livePrice != null && priceChange != null) {
     const p = livePrice.toFixed(2);
     const c = priceChange.toFixed(2);
     const pct = priceChangePct ? priceChangePct.toFixed(2) : '?';
     if (priceChange >= 0) {
-      factors.push({ icon:'📈', text:`Live price ${p}¢ (+${c}, +${pct}% today). Positive session -- watch resistance at 211¢.`, bullish:true });
+      factors.push({ icon:'📈', text:`Live price ${p}¢ (+${c}, +${pct}% today). Positive session.`, bullish:true });
       score += 1;
     } else {
-      factors.push({ icon:'📉', text:`Live price ${p}¢ (${c}, ${pct}% today). Negative session -- demand weakness continuing.`, bullish:false });
+      factors.push({ icon:'📉', text:`Live price ${p}¢ (${c}, ${pct}% today). Negative session.`, bullish:false });
       score -= 1;
     }
-    if (livePrice < 186) {
-      factors.push({ icon:'⚠️', text:`Price ${p}¢ has broken below key support 186¢ -- bearish signal, next support 163¢.`, bullish:false });
-      score -= 2;
-    } else if (livePrice > 211) {
-      factors.push({ icon:'🚀', text:`Price ${p}¢ has broken above resistance 211¢ -- bullish breakout signal.`, bullish:true });
-      score += 2;
+    // Tech levels context
+    if (techData?.levels) {
+      const lv = techData.levels;
+      if (livePrice < lv.s1) {
+        factors.push({ icon:'⚠️', text:`Price below S1 (${lv.s1.toFixed(0)}¢) -- bearish signal, next support at ${lv.s2.toFixed(0)}¢.`, bullish:false });
+        score -= 2;
+      } else if (livePrice > lv.r1) {
+        factors.push({ icon:'🚀', text:`Price above R1 (${lv.r1.toFixed(0)}¢) -- bullish breakout, next resistance ${lv.r2.toFixed(0)}¢.`, bullish:true });
+        score += 2;
+      }
     }
   } else {
-    factors.push({ icon:'📉', text:'Price down ~42% YoY: demand destruction after 2024 highs is dominant force.', bullish:false });
-    score -= 2;
+    factors.push({ icon:'📊', text:'Price data loading -- outlook will update when live price arrives.', bullish:null });
   }
 
-  // Brazil supply: greening + drought = structural decline
-  factors.push({ icon:'🍊', text:'Brazil 2025/26: forecast cut 4 times, now ~286M boxes est. Greening affects 47.6% of trees. Drop rate 23% -- worst in 11 years.', bullish:false });
+  // Brazil supply -- from supply_data.json
+  const latestForecast = s.forecasts[s.forecasts.length - 1];
+  const forecastBoxes = latestForecast ? `~${Math.round(latestForecast.boxes)}M boxes` : '';
+  factors.push({ icon:'🍊', text:`${s.brazilSummary} Current est: ${forecastBoxes}.`, bullish:false });
   score -= 1;
 
   // Florida
-  factors.push({ icon:'❄️', text:'Florida: January cold may have caused tree damage. Frozen fruit going to processors. Harvest wrapping up. Next crop at risk.', bullish:false });
+  factors.push({ icon:'❄️', text:s.floridaSummary, bullish:false });
   score -= 1;
 
   // Demand
-  factors.push({ icon:'📦', text:'Demand remains weak -- consumers adjusted to high prices. Market expects demand suppression to continue near-term.', bullish:false });
+  factors.push({ icon:'📦', text:s.demandSummary, bullish:false });
   score -= 1;
 
-  // Technical
-  factors.push({ icon:'🎯', text:'Technical: Support 186¢ holding. Resistance at 211¢. A break above 211 would be bullish signal.', bullish:null });
+  // Technical summary
+  if (techData) {
+    const sig = techData.signalScore;
+    if (sig >= 2) {
+      factors.push({ icon:'🎯', text:'Technical: Strong bullish -- price above key resistance levels.', bullish:true });
+      score += 1;
+    } else if (sig <= -2) {
+      factors.push({ icon:'🎯', text:'Technical: Strong bearish -- price below key support levels.', bullish:false });
+      score -= 1;
+    } else {
+      factors.push({ icon:'🎯', text:'Technical: Neutral/mixed -- price consolidating near pivot.', bullish:null });
+    }
+  }
 
   // Weather stress in Brazil
   const brazilWX = wxResults ? wxResults.find(d => d.r.id === 'brazil-saopaulo') : null;
@@ -687,6 +834,9 @@ function buildOutlook(wxResults, livePrice, priceChange, priceChangePct) {
     if (risk.badge === 'heat' || risk.badge === 'drought') {
       factors.push({ icon:'🌡', text:`Brazil citrus belt showing ${risk.label} conditions -- additional supply pressure possible.`, bullish:false });
       score -= 1;
+    } else if (risk.badge === 'freeze') {
+      factors.push({ icon:'🥶', text:`Brazil citrus belt showing freeze risk -- potential crop damage.`, bullish:false });
+      score -= 2;
     } else if (risk.badge === 'good') {
       factors.push({ icon:'🌧', text:'Brazil weather currently favourable for crop development.', bullish:true });
       score += 1;
@@ -697,7 +847,7 @@ function buildOutlook(wxResults, livePrice, priceChange, priceChangePct) {
   if (score <= -3) {
     direction = 'bearish';
     title = 'Outlook: Bearish -- Demand Destruction Dominant';
-    text = 'Despite historically tight supply from Brazil and Florida, weak consumer demand after 2024 record highs is keeping prices suppressed. The structural supply problem (greening, drought) supports a long-term floor, but near-term price direction is down or sideways until demand recovers.';
+    text = 'Despite historically tight supply from Brazil and Florida, weak consumer demand after record highs is keeping prices suppressed. The structural supply problem (greening, drought) supports a long-term floor, but near-term price direction is down or sideways until demand recovers.';
   } else if (score >= 1) {
     direction = 'bullish';
     title = 'Outlook: Bullish -- Supply Constraints Taking Hold';
@@ -705,7 +855,7 @@ function buildOutlook(wxResults, livePrice, priceChange, priceChangePct) {
   } else {
     direction = 'neutral';
     title = 'Outlook: Neutral -- Supply vs Demand in Balance';
-    text = 'Tight supply from Brazil (greening, drought) is offset by weak global demand after 2024 record prices. Watch for Brazil rainfall data and US demand indicators as key catalysts.';
+    text = 'Tight supply from Brazil (greening, drought) is offset by weak global demand after record prices. Watch for Brazil rainfall data and US demand indicators as key catalysts.';
   }
 
   const card = document.getElementById('outlook-card');
@@ -733,9 +883,9 @@ function buildOutlook(wxResults, livePrice, priceChange, priceChangePct) {
   bar.className = direction;
   dot.className = `signal-dot ${direction}`;
   const msgs = {
-    bullish:'📈 MARKET SIGNAL: BULLISH -- Supply constraints outweighing demand weakness. Watch for breakout above 211¢.',
-    bearish:'📉 MARKET SIGNAL: BEARISH -- Demand destruction dominant. Price likely range-bound 163--211¢ near-term.',
-    neutral:'⚖️ MARKET SIGNAL: NEUTRAL -- Supply tightness vs weak demand. Key levels: Support 186¢ / Resistance 211¢.',
+    bullish:'📈 MARKET SIGNAL: BULLISH -- Supply constraints outweighing demand weakness.',
+    bearish:'📉 MARKET SIGNAL: BEARISH -- Demand destruction dominant. Price likely range-bound near-term.',
+    neutral:'⚖️ MARKET SIGNAL: NEUTRAL -- Supply tightness vs weak demand. Watch pivot levels.',
   };
   txt.textContent = msgs[direction];
 }
@@ -863,13 +1013,11 @@ function renderLivePrice({ price, prevClose, dayHigh, dayLow, weekHigh, weekLow,
   document.getElementById('price-freshness').textContent = `Live · ${now}`;
   document.getElementById('price-label').textContent = `FCOJ Front Month (OJ=F) · ${now}`;
 
-  // Technical levels current price
-  document.getElementById('tech-current-price').textContent = `${fmt(price)}¢`;
-  const techNote = change >= 0 ? '▲ Rising' : '▼ Falling';
-  document.getElementById('tech-price-note').textContent = techNote;
+  // Compute and render dynamic technical levels
+  const techData = renderTechLevels(price, prevClose, dayHigh, dayLow, weekHigh, weekLow);
 
-  // Update outlook with live price
-  buildOutlook(null, price, change, changePct);
+  // Update outlook with live price + tech data
+  buildOutlook(null, price, change, changePct, techData);
 }
 
 function showPriceError() {
@@ -1034,8 +1182,9 @@ function updateClock() {
 //  INIT
 // ══════════════════════════════════════════════════════
 // Fire everything immediately
+fetchSupplyData();  // loads supply_data.json -> renders supply intel
 fetchOJNews();
-buildOutlook(null, null, null, null);
+buildOutlook(null, null, null, null, null);
 updateClock();
 setInterval(updateClock, 1000);
 
@@ -1049,6 +1198,9 @@ setInterval(loadWeather, 30 * 60 * 1000);
 
 // Refresh news every 30 minutes
 setInterval(fetchOJNews, 30 * 60 * 1000);
+
+// Refresh supply data every 60 minutes (in case file updated)
+setInterval(fetchSupplyData, 60 * 60 * 1000);
 
 // TradingView loaded via iframe -- no JS needed
 </script>
