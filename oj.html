@@ -882,22 +882,45 @@ function showPriceError() {
 }
 
 // ══════════════════════════════════════════════════════
-//  NEWS -- OJ-specific from news.json + static
+//  NEWS -- OJ-specific from news.json (live) + static fallback
 // ══════════════════════════════════════════════════════
+
+// Keywords to filter OJ-relevant articles from news.json
+const OJ_FILTER_KW = [
+  'orange juice', 'fcoj', 'oj price', 'citrus greening', 'hlb',
+  'fundecitrus', 'orange crop', 'orange harvest', 'orange production',
+  'florida citrus', 'brazil orange', 'citrus belt', 'orange forecast',
+  'citrus concentrate', 'orange concentrate', 'nfc orange',
+  'orange export', 'orange import', 'citrus industry',
+  'valencia orange', 'citrus canker', 'orange supply',
+];
+
+// Tag detection for OJ articles
+function ojTag(text) {
+  const t = text.toLowerCase();
+  if (/price|cost|\bcent|\$|futures|contract|trading|market value|¢/.test(t)) return 'Price';
+  if (/supply|crop|harvest|production|forecast|output|yield|greening|drought|frost/.test(t)) return 'Supply';
+  if (/export|import|shipment|trade|tariff/.test(t)) return 'Trade';
+  if (/regulation|fda|eu\b|policy|standard|label/.test(t)) return 'Regulation';
+  if (/demand|consumption|retail|consumer/.test(t)) return 'Demand';
+  return 'Market';
+}
+
+// Static fallback news (shown if news.json has no OJ articles)
 const OJ_STATIC_NEWS = [
   {
     title: `Brazil orange crop forecast cut again -- 294.81M boxes on greening and drought`,
-    summary: `Fundecitrus December 2025 revision: forecast down 6.3% from May 314.6M boxes. Greening severity rose to 22.7%, drop rate at 23% -- highest in 11 harvests. Rainfall 20% below average from May--November.`,
+    summary: `Fundecitrus December 2025 revision: forecast down 6.3% from May 314.6M boxes. Greening severity rose to 22.7%, drop rate at 23% -- highest in 11 harvests.`,
     url: 'https://www.freshfruitportal.com/news/2025/12/12/brazilian-orange/',
     source: 'FreshFruitPortal',
-    region: 'Brazil -- São Paulo Citrus Belt',
+    region: 'Brazil',
     published: '2025-12-12',
     tag: 'Supply',
     highImpact: true
   },
   {
     title: `February 2026 Fundecitrus update: Drop rate maintained at 23% -- worst in 11 years`,
-    summary: `The February 10, 2026 Fundecitrus update maintains fruit drop at 23%, the highest recorded across 11 harvests. Rainfall 10% below historical average. Average fruit weight 153g -- 1g below projection. Final estimate April 10.`,
+    summary: `The February 10, 2026 Fundecitrus update maintains fruit drop at 23%, the highest recorded across 11 harvests. Final estimate April 10.`,
     url: 'https://citrusindustry.net/2026/02/10/brazilian-orange-forecast-updated/',
     source: 'Citrus Industry Magazine',
     region: 'Brazil',
@@ -906,18 +929,8 @@ const OJ_STATIC_NEWS = [
     highImpact: true
   },
   {
-    title: `FCOJ Softs Report Feb 19, 2026: Trends mixed to up -- support 186¢, resistance 211¢`,
-    summary: `Florida harvest active but wrapping up. Cold January/February may have caused tree damage -- frozen fruit going to processors. Brazil weather good with scattered showers. Market feels weak demand will continue after last year's high prices.`,
-    url: 'https://blog.pricegroup.com/2026/02/19/softs-report-02-19-2026/',
-    source: 'Price Group (Jack Scoville)',
-    region: 'Global',
-    published: '2026-02-19',
-    tag: 'Price',
-    highImpact: false
-  },
-  {
-    title: `FCOJ price −42.94% year-over-year despite structural supply deficit -- demand destruction dominant`,
-    summary: `After hitting 357¢/lb in 2024, FCOJ has fallen sharply to 200¢ despite Brazil greening affecting 47.6% of trees and Florida at historic lows. Consumers and manufacturers adjusted to high prices, reducing OJ consumption across EU and US.`,
+    title: `FCOJ price down year-over-year despite structural supply deficit -- demand destruction dominant`,
+    summary: `After hitting 357¢/lb in 2024, FCOJ has fallen sharply despite Brazil greening affecting 47.6% of trees and Florida at historic lows. Consumers and manufacturers adjusted to high prices.`,
     url: 'https://www.tradingview.com/symbols/ICEUS-OJ1!/',
     source: 'TradingView / ICE',
     region: 'Global',
@@ -925,30 +938,19 @@ const OJ_STATIC_NEWS = [
     tag: 'Price',
     highImpact: true
   },
-  {
-    title: `Brazil orange crop forecast: 40% affected by greening -- season output up YoY but below potential`,
-    summary: `Fundecitrus reports ~40% of 2025-26 crop affected by citrus greening (HLB). Despite a projected 28% increase vs the poor 2024/25 season, output is still constrained by disease and drought. Greening now reducing productive potential by approximately 35%.`,
-    url: 'https://www.freshplaza.com/north-america/article/9789039/brazil-orange-crop-forecast-cut-to-306-7-million-boxes/',
-    source: 'FreshPlaza',
-    region: 'Brazil',
-    published: '2025-11-27',
-    tag: 'Supply',
-    highImpact: false
-  },
-  {
-    title: `Brazil orange juice exports fell 19.7% in first half of 2024/25 crop`,
-    summary: `Brazil OJ exports dropped significantly in H1 2024/25, driven by lower production from 230.87M box season (lowest in years). EU remained primary destination. High prices suppressed buyer demand while supply was scarce.`,
-    url: 'https://www.investing.com/commodities/orange-juice',
-    source: 'Reuters / Investing.com',
-    region: 'Brazil',
-    published: '2025-09-01',
-    tag: 'Trade',
-    highImpact: false
-  },
 ];
 
-function renderOJNews() {
-  document.getElementById('oj-news').innerHTML = OJ_STATIC_NEWS.map(a => `
+function isOJRelevant(article) {
+  const text = `${article.title} ${article.summary || ''}`.toLowerCase();
+  return OJ_FILTER_KW.some(kw => text.includes(kw));
+}
+
+function renderNewsCards(articles) {
+  if (!articles.length) {
+    document.getElementById('oj-news').innerHTML = '<p style="color:var(--light);text-align:center;padding:24px;">No OJ news available. Pipeline may not have run yet.</p>';
+    return;
+  }
+  document.getElementById('oj-news').innerHTML = articles.map(a => `
     <div class="news-card${a.highImpact?' high-impact':''}">
       <div class="news-card-hd">
         <span class="news-tag">${a.tag}</span>
@@ -959,10 +961,63 @@ function renderOJNews() {
         <div class="news-summary">${a.summary}</div>
       </div>
       <div class="news-ft">
-        <span class="news-date">📍 ${a.region} · ${a.published}</span>
+        <span class="news-date">📍 ${a.region || 'Global'} · ${(a.published||'').slice(0,10)}</span>
         <a href="${a.url}" target="_blank" rel="noopener" class="news-link">Read more →</a>
       </div>
     </div>`).join('');
+}
+
+async function fetchOJNews() {
+  try {
+    const controller = new AbortController();
+    setTimeout(() => controller.abort(), 8000);
+    const res = await fetch('news.json', { signal: controller.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const articles = (data.articles || []);
+
+    // Filter for OJ-relevant articles
+    const ojArticles = articles.filter(isOJRelevant);
+
+    if (ojArticles.length === 0) {
+      console.log('No OJ articles in news.json, using static fallback');
+      renderNewsCards(OJ_STATIC_NEWS);
+      return;
+    }
+
+    // Sort newest first
+    ojArticles.sort((a, b) => (b.published || '').localeCompare(a.published || ''));
+
+    // Map to display format
+    const display = ojArticles.slice(0, 20).map(a => {
+      const text = `${a.title} ${a.summary || ''}`;
+      const tag = ojTag(text);
+      // High impact if supply shock or major price move
+      const hiKw = /greening|frost|freeze|record|shortage|crisis|drop rate|cut|slash/i;
+      return {
+        title:      a.title,
+        summary:    a.summary || '',
+        url:        a.url,
+        source:     a.source,
+        region:     a.region || 'Global',
+        published:  (a.published || '').slice(0, 10),
+        tag:        tag,
+        highImpact: hiKw.test(text),
+      };
+    });
+
+    // Merge: live articles first, then static that aren't duplicated
+    const liveUrls = new Set(display.map(a => a.url));
+    const staticExtra = OJ_STATIC_NEWS.filter(s => !liveUrls.has(s.url));
+    const combined = [...display, ...staticExtra];
+
+    console.log(`OJ News: ${display.length} live + ${staticExtra.length} static = ${combined.length} total`);
+    renderNewsCards(combined);
+
+  } catch (e) {
+    console.warn('Could not fetch news.json, using static fallback:', e.message);
+    renderNewsCards(OJ_STATIC_NEWS);
+  }
 }
 
 // ══════════════════════════════════════════════════════
@@ -979,7 +1034,7 @@ function updateClock() {
 //  INIT
 // ══════════════════════════════════════════════════════
 // Fire everything immediately
-renderOJNews();
+fetchOJNews();
 buildOutlook(null, null, null, null);
 updateClock();
 setInterval(updateClock, 1000);
@@ -991,6 +1046,9 @@ setInterval(fetchLivePrice, 5 * 60 * 1000);
 // Weather -- every 30 minutes
 loadWeather();
 setInterval(loadWeather, 30 * 60 * 1000);
+
+// Refresh news every 30 minutes
+setInterval(fetchOJNews, 30 * 60 * 1000);
 
 // TradingView loaded via iframe -- no JS needed
 </script>
