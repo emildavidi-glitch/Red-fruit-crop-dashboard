@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-05T15:36:37.669900+00:00",
-  "generated_date": "Thursday, 05 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Radeberger Gruppe: Hövels Hausbrauerei stellt Braubetrieb ein - about-drinks.com.",
+  "generated_at": "2026-03-06T07:28:05.174845+00:00",
+  "generated_date": "Friday, 06 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Champagne outlook: collectible cuvées and entry-level delights set to outperform.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
     "italy": "Sugar Free trending. (50 items)",
-    "austria": "Rtd trending. (50 items)"
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 154,
-      "launch": 48,
-      "regulatory": 33,
-      "pricing": 16,
-      "premium": 16,
-      "sugar_free": 16,
-      "innovation": 16,
-      "competitor": 15,
-      "functional": 15,
-      "rtd": 13
+      "trend": 165,
+      "launch": 30,
+      "regulatory": 28,
+      "innovation": 20,
+      "sugar_free": 19,
+      "supply_chain": 18,
+      "functional": 16,
+      "competitor": 14,
+      "pricing": 12,
+      "retail": 12
     }
   }
 }
