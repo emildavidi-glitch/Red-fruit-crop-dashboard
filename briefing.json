@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-10T07:28:48.063432+00:00",
+  "generated_at": "2026-03-10T16:17:40.238900+00:00",
   "generated_date": "Tuesday, 10 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Geschützt: Neue erwachsene Drink-Momente von Fever-Tree: Warum „pur“ genauso wichtig ist wie „gemixt.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: CEO Stefan Blaschak verlässt OeTTINGER GETRÄNKE früher als geplant - about-drinks.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Sugar Free trending. (50 items)",
-    "spain": "Sugar Free trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Alcohol Free trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
+    "italy": "Alcohol Free trending. (50 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 156,
-      "launch": 39,
-      "pricing": 31,
-      "regulatory": 26,
-      "premium": 21,
-      "supply_chain": 20,
-      "sugar_free": 18,
-      "innovation": 14,
+      "trend": 146,
+      "launch": 34,
+      "regulatory": 31,
+      "pricing": 27,
+      "supply_chain": 25,
+      "innovation": 24,
+      "alcohol_free": 21,
+      "premium": 19,
       "competitor": 13,
-      "functional": 11
+      "sugar_free": 12
     }
   }
 }
