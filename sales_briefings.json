@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T07:36:47.947151+00:00",
+  "generated_at": "2026-03-12T16:39:04.007570+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -13,6 +13,22 @@
           "confidence": "high"
         },
         {
+          "headline": "3 ways Asia’s bar scene is different from Europe",
+          "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Premium organic Cava rises in popularity in the US",
+          "detail": "The US market has become increasingly interested in premium Spanish sparkling wine, specifically premium organic Cava, according to Miami-based fine wine importer Vinamericas. db finds out more about ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/premium-organic-cava-rises-in-popularity-in-the-us/"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "Nestlé USA enters at-home condiments space with new sauce brand",
           "detail": "Minor’s Kitchen is the food giant’s first brand to launch in America in two years and builds on growing demand for home cooking.",
           "evidence_urls": [
@@ -21,26 +37,10 @@
           "confidence": "high"
         },
         {
-          "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
-          "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
+          "headline": "Senate Democrats push to ‘break up’ the meat industry",
+          "detail": "A proposal aimed at lowering consumer grocery prices would force companies like Tyson and Cargill to choose between beef, poultry and pork production.",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "New documentary exposes dangers of Cambodia’s unregulated beer industry",
-          "detail": "A new documentary from Laurits Nansen follows activist Kim Eng as he challenges Cambodia’s powerful beer sector and the rise of “neo-colonial alcohol capitalism” in a country where weak regulation and",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Master Winemaker 100: Fabrice Bandiera",
-          "detail": "The technical director at Bordeaux's Château des Laurets tells db about revelling in the unexpected, dispelling preconceptions about Bordeaux and the extreme region he'd relocate to if he couldn't mak",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.fooddive.com/news/meat-industry-breakup-bill-senate-democrats-grocery-inflation/814565/"
           ],
           "confidence": "medium"
         }
@@ -63,31 +63,39 @@
           "date": "2026-03-09T17:45:00-04:00"
         },
         {
+          "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+          "date": "2026-03-12T10:30:51+00:00"
+        },
+        {
+          "title": "Ramón Bilbao’s Finca Lalinde rosé is defined by provenance",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+          "date": "2026-03-12T09:21:08+00:00"
+        },
+        {
           "title": "Beer and fishing collaboration to catch angler demographic",
           "company": "AB InBev",
           "product": "sugar_free",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
           "date": "2026-03-12T07:00:19+00:00"
-        },
-        {
-          "title": "VIK releases rare vertical of its iconic wines",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-          "date": "2026-03-11T13:55:10+00:00"
-        },
-        {
-          "title": "Diageo launches \"more accessible\" Johnnie Walker Scotch - Just Drinks",
-          "company": "Diageo",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
-          "date": "2026-03-11T12:42:29+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/wines-of-georgia-appoints-glodow-nead-communications-as-us-pr-partner/",
+          "date": "2026-03-12T10:40:42+00:00"
+        },
         {
           "title": "Reyes looks to acquire five more markets from RNDC - Just Drinks",
           "company": "Unknown",
@@ -115,6 +123,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "3 ways Asia’s bar scene is different from Europe",
+          "topic": "premium",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+          "date": "2026-03-12T11:35:20+00:00"
+        },
+        {
           "title": "Canadian MP moves to scrap law banning inter-province wine sales",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -134,23 +149,30 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/",
           "date": "2026-03-11T11:33:48+00:00"
-        },
-        {
-          "title": "Urban Remedy Expands Best-Selling Protein Collagen Meal Shake Line - BevNET.com",
-          "topic": "protein",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPckc5aFh2UE1JbHgwOFVTNlFLb3FrWTNmYVFpSGd2a2lXNzdjRng5N0Rzckc0a3RSMzhRTmRMNWxIcDkxZ2xVS2RGOFpzWXgwRFJhS0VGV1RXeGgxd1hCVWh2NGRRbXo2N3p5RjItUnBKTFdteXAzT3ZxTGRGb016cWJESFBCM1pXdHZiV1phYlZWZFBxblJEYmE5Rmh0LXUySFBOUA?oc=5",
-          "date": "2026-03-10T19:09:49+00:00"
-        },
-        {
-          "title": "Berry Bros chair warns inheritance tax changes threaten family firms",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/berry-bros-chair-warns-inheritance-tax-changes-threaten-family-firms/",
-          "date": "2026-03-10T10:32:19+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Senate Democrats push to ‘break up’ the meat industry",
+          "what_changed": "A proposal aimed at lowering consumer grocery prices would force companies like Tyson and Cargill to choose between beef, poultry and pork production.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.fooddive.com/news/meat-industry-breakup-bill-senate-democrats-grocery-inflation/814565/",
+          "date": "2026-03-12T11:27:52-04:00"
+        },
+        {
+          "title": "Mondelēz rethinks chocolate innovation as high cocoa prices linger",
+          "what_changed": "The Toblerone maker is selling more bars with fillings like caramel and nougat while expanding its premium lineup even as commodity costs have come do",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.fooddive.com/news/mondelez-rethinks-chocolate-innovation-as-high-cocoa-prices-linger/813511/",
+          "date": "2026-03-12T08:00:00-04:00"
+        },
+        {
+          "title": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "what_changed": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operator",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/",
+          "date": "2026-03-12T10:46:09+00:00"
+        },
         {
           "title": "Hormel Foods faces transportation cost pressures",
           "what_changed": "Tighter freight capacity in fiscal Q1 led to higher logistics expenses as the company continues to deal with elevated beef and pork prices.",
@@ -164,31 +186,17 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/",
           "date": "2026-03-11T11:37:04+00:00"
-        },
-        {
-          "title": "‘Very strong’ demand for fine wine in Singapore’s secondary market",
-          "what_changed": "The appetite for fine wine bidding on Singapore's secondary market is “very strong,” with prices competitive, collectors up for discovering something ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/very-strong-demand-for-fine-wine-in-singapores-secondary-market/",
-          "date": "2026-03-10T18:04:20+00:00"
-        },
-        {
-          "title": "Shoppers willing to pay nearly 10% more for sustainable products",
-          "what_changed": "A global survey from PwC shows shoppers remain committed to sustainability, even as rising grocery bills and inflation reshape spending habits. The po",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/shoppers-will-pay-nearly-10-more-for-sustainable-products/",
-          "date": "2026-03-10T10:22:03+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "4 articles mention alcohol free in the last 28 days",
-          "support_count": 4,
+          "signal": "Premium trending in United States",
+          "explanation": "6 articles mention premium in the last 28 days",
+          "support_count": 6,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Carbonated trending in United States",
@@ -200,29 +208,29 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in United States",
+          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Organic trending in United States",
+          "explanation": "2 articles mention organic in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "organic"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in United States",
           "explanation": "2 articles mention sugar free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Protein trending in United States",
-          "explanation": "2 articles mention protein in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "protein"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Functional trending in United States",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
           ],
           "confidence": "medium"
         }
@@ -234,16 +242,16 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0hvbncwZUptSnJYYWFJY2plVDAtM2xUbVVyYU9rNFlKTUZGRkJNVzdTbXB0aUZaeU5YT2lZV0ZQRjZWRzVOM3NzMUR2TzdQWHkwOGU2ZzBfd0dXcVlYdHQxd212UlhpUHpxakhNWGpVcUtlNHJJYUVWUkJRYVlFaFJCVE90Z2IxSy1oNDNqRnlwTm8xbUdJTWgxZ21XNzg1b21oc3g1VHdDa2RfLWJZ?oc=5",
             "https://www.fooddive.com/news/embargoed-until-6-pm-nestle-usa-launches-new-sauce-condiment-offering/814082/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         },
         {
@@ -263,7 +271,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0hvbncwZUptSnJYYWFJY2plVDAtM2xUbVVyYU9rNFlKTUZGRkJNVzdTbXB0aUZaeU5YT2lZV0ZQRjZWRzVOM3NzMUR2TzdQWHkwOGU2ZzBfd0dXcVlYdHQxd212UlhpUHpxakhNWGpVcUtlNHJJYUVWUkJRYVlFaFJCVE90Z2IxSy1oNDNqRnlwTm8xbUdJTWgxZ21XNzg1b21oc3g1VHdDa2RfLWJZ?oc=5",
             "https://www.fooddive.com/news/embargoed-until-6-pm-nestle-usa-launches-new-sauce-condiment-offering/814082/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
         {
@@ -271,15 +279,39 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         }
       ]
     },
     "germany": {
       "executive_summary": [
+        {
+          "headline": "3 ways Asia’s bar scene is different from Europe",
+          "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Versammlung und Jubiläum: Verband der Hessischen Apfelwein- und Fruchtsaft-Keltereien - about-drinks.com",
+          "detail": "Versammlung und Jubiläum: Verband der Hessischen Apfelwein- und Fruchtsaft-Keltereien about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Edeka übernimmt Tegut – GMZ zieht sich aus Deutschland zurück - about-drinks.com",
           "detail": "Edeka übernimmt Tegut – GMZ zieht sich aus Deutschland zurück about-drinks.com",
@@ -289,39 +321,39 @@
           "confidence": "high"
         },
         {
-          "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
-          "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
+          "headline": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
+          "detail": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ about-drinks.com",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "New documentary exposes dangers of Cambodia’s unregulated beer industry",
-          "detail": "A new documentary from Laurits Nansen follows activist Kim Eng as he challenges Cambodia’s powerful beer sector and the rise of “neo-colonial alcohol capitalism” in a country where weak regulation and",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Master Winemaker 100: Fabrice Bandiera",
-          "detail": "The technical director at Bordeaux's Château des Laurets tells db about revelling in the unexpected, dispelling preconceptions about Bordeaux and the extreme region he'd relocate to if he couldn't mak",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Beer and fishing collaboration to catch angler demographic",
-          "detail": "AB InBev-owned beer brand Busch Light has collaborated with Bass Pro Shops and also launched a contest to further solidify its position as the beer for every angler. The post Beer and fishing collabor",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
+          "date": "2026-03-12T13:24:55+00:00"
+        },
+        {
+          "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+          "date": "2026-03-12T10:30:51+00:00"
+        },
+        {
+          "title": "Ramón Bilbao’s Finca Lalinde rosé is defined by provenance",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+          "date": "2026-03-12T09:21:08+00:00"
+        },
         {
           "title": "Beer and fishing collaboration to catch angler demographic",
           "company": "AB InBev",
@@ -337,33 +369,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
           "date": "2026-03-11T13:55:10+00:00"
-        },
-        {
-          "title": "Diageo launches \"more accessible\" Johnnie Walker Scotch - Just Drinks",
-          "company": "Diageo",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
-          "date": "2026-03-11T12:42:29+00:00"
-        },
-        {
-          "title": "Top 10 drinks launches from March",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/top-10-drinks-launches-from-march/",
-          "date": "2026-03-11T09:44:53+00:00"
-        },
-        {
-          "title": "Global Brands rolls out two liqueurs in UK - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHIteVMwSUtkNjN0R3FydzNpZVBveGtLMkdhUktEVGFMc0RKWmF1aUQ3WFczdUZYNEVxQlJja3FTbGdWVDQ2d1JNY0x3V1NCdV91VlBnNUdzNlhLcm1OZk9TNUhxN3hTczNBOXM4OF9tUDNQb25DMWFBTzBjZjdMa3F3?oc=5",
-          "date": "2026-03-10T14:40:08+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/wines-of-georgia-appoints-glodow-nead-communications-as-us-pr-partner/",
+          "date": "2026-03-12T10:40:42+00:00"
+        },
         {
           "title": "Reyes looks to acquire five more markets from RNDC - Just Drinks",
           "company": "Unknown",
@@ -371,17 +387,23 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hMFNCazRqRG9CMUJiV1FrSzlHV1hLUlhjc29wU2E1ZVJRRzg3Mjg2M2U5eG15NEEwZHRKQUtNSVhaV2NBSnlOZ2Y1RGNFODR2MlJGNF9zRXVPeTNHTjY2T3Z0SXdiX3V0ekJkYWk0SU1Kdw?oc=5",
           "date": "2026-03-10T15:40:46+00:00"
-        },
-        {
-          "title": "Tilray Brands acquires BrewDog’s Australia assets - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHMxdnJQTjVaUGM0UUV3eUhJanR1bU9uZzhBS2RUVGRKak5LTjZqWE1KSDNmREp4cGM5Qm5Qck9jWTV6cWxJV2pJM2V4NU5iV0FSM1N0RXB2R0h4ZkJGVUdHQlVWeVZEcDd3aTR0MGhTVVhwVWpuZHhhZEo0VVZoYS1Va2ZOSDZ3ZVE?oc=5",
-          "date": "2026-03-09T13:02:07+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "3 ways Asia’s bar scene is different from Europe",
+          "topic": "premium",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+          "date": "2026-03-12T11:35:20+00:00"
+        },
+        {
+          "title": "Versammlung und Jubiläum: Verband der Hessischen Apfelwein- und Fruchtsaft-Keltereien - about-drinks.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5",
+          "date": "2026-03-12T10:06:54+00:00"
+        },
         {
           "title": "Canadian MP moves to scrap law banning inter-province wine sales",
           "topic": "regulation",
@@ -402,45 +424,31 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/",
           "date": "2026-03-11T11:33:48+00:00"
-        },
-        {
-          "title": "Berry Bros chair warns inheritance tax changes threaten family firms",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/berry-bros-chair-warns-inheritance-tax-changes-threaten-family-firms/",
-          "date": "2026-03-10T10:32:19+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "what_changed": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operator",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/",
+          "date": "2026-03-12T10:46:09+00:00"
+        },
         {
           "title": "Champagne sales unlikely to rebound in 2026",
           "what_changed": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with product",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/",
           "date": "2026-03-11T11:37:04+00:00"
-        },
-        {
-          "title": "‘Very strong’ demand for fine wine in Singapore’s secondary market",
-          "what_changed": "The appetite for fine wine bidding on Singapore's secondary market is “very strong,” with prices competitive, collectors up for discovering something ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/very-strong-demand-for-fine-wine-in-singapores-secondary-market/",
-          "date": "2026-03-10T18:04:20+00:00"
-        },
-        {
-          "title": "Shoppers willing to pay nearly 10% more for sustainable products",
-          "what_changed": "A global survey from PwC shows shoppers remain committed to sustainability, even as rising grocery bills and inflation reshape spending habits. The po",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/shoppers-will-pay-nearly-10-more-for-sustainable-products/",
-          "date": "2026-03-10T10:22:03+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Germany",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in Germany",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -454,20 +462,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Germany",
-          "explanation": "2 articles mention carbonated in the last 28 days",
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "carbonated"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Germany",
-          "explanation": "1 articles mention rtd in the last 28 days",
+          "signal": "Carbonated trending in Germany",
+          "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "rtd"
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -477,18 +485,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ]
         }
       ],
@@ -498,9 +506,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -508,15 +516,39 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ]
         }
       ]
     },
     "france": {
       "executive_summary": [
+        {
+          "headline": "3 ways Asia’s bar scene is different from Europe",
+          "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "detail": "Australian wine brand launches a special Bin 389 gift box designed by the Grammy-nominated singer, debuting during Paris Fashion Week and arriving exclusively at Selfridges in the UK. The post Penfold",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
           "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
@@ -532,33 +564,25 @@
             "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Master Winemaker 100: Fabrice Bandiera",
-          "detail": "The technical director at Bordeaux's Château des Laurets tells db about revelling in the unexpected, dispelling preconceptions about Bordeaux and the extreme region he'd relocate to if he couldn't mak",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Beer and fishing collaboration to catch angler demographic",
-          "detail": "AB InBev-owned beer brand Busch Light has collaborated with Bass Pro Shops and also launched a contest to further solidify its position as the beer for every angler. The post Beer and fishing collabor",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Champagne sales unlikely to rebound in 2026",
-          "detail": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with production costs, exchange rates and market conditions as",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+          "date": "2026-03-12T10:30:51+00:00"
+        },
+        {
+          "title": "Ramón Bilbao’s Finca Lalinde rosé is defined by provenance",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+          "date": "2026-03-12T09:21:08+00:00"
+        },
         {
           "title": "Beer and fishing collaboration to catch angler demographic",
           "company": "AB InBev",
@@ -582,25 +606,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
           "date": "2026-03-11T12:42:29+00:00"
-        },
-        {
-          "title": "Top 10 drinks launches from March",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/top-10-drinks-launches-from-march/",
-          "date": "2026-03-11T09:44:53+00:00"
-        },
-        {
-          "title": "Global Brands rolls out two liqueurs in UK - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHIteVMwSUtkNjN0R3FydzNpZVBveGtLMkdhUktEVGFMc0RKWmF1aUQ3WFczdUZYNEVxQlJja3FTbGdWVDQ2d1JNY0x3V1NCdV91VlBnNUdzNlhLcm1OZk9TNUhxN3hTczNBOXM4OF9tUDNQb25DMWFBTzBjZjdMa3F3?oc=5",
-          "date": "2026-03-10T14:40:08+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/wines-of-georgia-appoints-glodow-nead-communications-as-us-pr-partner/",
+          "date": "2026-03-12T10:40:42+00:00"
+        },
         {
           "title": "Reyes looks to acquire five more markets from RNDC - Just Drinks",
           "company": "Unknown",
@@ -619,6 +635,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "3 ways Asia’s bar scene is different from Europe",
+          "topic": "premium",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+          "date": "2026-03-12T11:35:20+00:00"
+        },
         {
           "title": "Canadian MP moves to scrap law banning inter-province wine sales",
           "topic": "regulation",
@@ -639,36 +662,22 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/",
           "date": "2026-03-11T11:33:48+00:00"
-        },
-        {
-          "title": "Berry Bros chair warns inheritance tax changes threaten family firms",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/berry-bros-chair-warns-inheritance-tax-changes-threaten-family-firms/",
-          "date": "2026-03-10T10:32:19+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "what_changed": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operator",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/",
+          "date": "2026-03-12T10:46:09+00:00"
+        },
         {
           "title": "Champagne sales unlikely to rebound in 2026",
           "what_changed": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with product",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/",
           "date": "2026-03-11T11:37:04+00:00"
-        },
-        {
-          "title": "‘Very strong’ demand for fine wine in Singapore’s secondary market",
-          "what_changed": "The appetite for fine wine bidding on Singapore's secondary market is “very strong,” with prices competitive, collectors up for discovering something ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/very-strong-demand-for-fine-wine-in-singapores-secondary-market/",
-          "date": "2026-03-10T18:04:20+00:00"
-        },
-        {
-          "title": "Shoppers willing to pay nearly 10% more for sustainable products",
-          "what_changed": "A global survey from PwC shows shoppers remain committed to sustainability, even as rising grocery bills and inflation reshape spending habits. The po",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/shoppers-will-pay-nearly-10-more-for-sustainable-products/",
-          "date": "2026-03-10T10:22:03+00:00"
         },
         {
           "title": "Iran crisis: energy prices focus industry minds as volatility returns - Just Drinks",
@@ -680,11 +689,11 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in France",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "signal": "Premium trending in France",
+          "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -707,20 +716,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in France",
-          "explanation": "2 articles mention carbonated in the last 28 days",
+          "signal": "Alcohol Free trending in France",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "carbonated"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in France",
-          "explanation": "1 articles mention premium in the last 28 days",
+          "signal": "Carbonated trending in France",
+          "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "premium"
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -730,18 +739,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         },
         {
@@ -760,9 +769,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
           ]
         },
         {
@@ -770,9 +779,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         }
       ]
@@ -780,47 +789,63 @@
     "spain": {
       "executive_summary": [
         {
+          "headline": "3 ways Asia’s bar scene is different from Europe",
+          "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Premium organic Cava rises in popularity in the US",
+          "detail": "The US market has become increasingly interested in premium Spanish sparkling wine, specifically premium organic Cava, according to Miami-based fine wine importer Vinamericas. db finds out more about ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/premium-organic-cava-rises-in-popularity-in-the-us/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "detail": "Australian wine brand launches a special Bin 389 gift box designed by the Grammy-nominated singer, debuting during Paris Fashion Week and arriving exclusively at Selfridges in the UK. The post Penfold",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
           "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "New documentary exposes dangers of Cambodia’s unregulated beer industry",
-          "detail": "A new documentary from Laurits Nansen follows activist Kim Eng as he challenges Cambodia’s powerful beer sector and the rise of “neo-colonial alcohol capitalism” in a country where weak regulation and",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Master Winemaker 100: Fabrice Bandiera",
-          "detail": "The technical director at Bordeaux's Château des Laurets tells db about revelling in the unexpected, dispelling preconceptions about Bordeaux and the extreme region he'd relocate to if he couldn't mak",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Beer and fishing collaboration to catch angler demographic",
-          "detail": "AB InBev-owned beer brand Busch Light has collaborated with Bass Pro Shops and also launched a contest to further solidify its position as the beer for every angler. The post Beer and fishing collabor",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Champagne sales unlikely to rebound in 2026",
-          "detail": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with production costs, exchange rates and market conditions as",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+          "date": "2026-03-12T10:30:51+00:00"
+        },
+        {
+          "title": "Ramón Bilbao’s Finca Lalinde rosé is defined by provenance",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+          "date": "2026-03-12T09:21:08+00:00"
+        },
         {
           "title": "Beer and fishing collaboration to catch angler demographic",
           "company": "AB InBev",
@@ -844,25 +869,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
           "date": "2026-03-11T12:42:29+00:00"
-        },
-        {
-          "title": "Top 10 drinks launches from March",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/top-10-drinks-launches-from-march/",
-          "date": "2026-03-11T09:44:53+00:00"
-        },
-        {
-          "title": "Global Brands rolls out two liqueurs in UK - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHIteVMwSUtkNjN0R3FydzNpZVBveGtLMkdhUktEVGFMc0RKWmF1aUQ3WFczdUZYNEVxQlJja3FTbGdWVDQ2d1JNY0x3V1NCdV91VlBnNUdzNlhLcm1OZk9TNUhxN3hTczNBOXM4OF9tUDNQb25DMWFBTzBjZjdMa3F3?oc=5",
-          "date": "2026-03-10T14:40:08+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/wines-of-georgia-appoints-glodow-nead-communications-as-us-pr-partner/",
+          "date": "2026-03-12T10:40:42+00:00"
+        },
         {
           "title": "Reyes looks to acquire five more markets from RNDC - Just Drinks",
           "company": "Unknown",
@@ -881,6 +898,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "3 ways Asia’s bar scene is different from Europe",
+          "topic": "premium",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+          "date": "2026-03-12T11:35:20+00:00"
+        },
         {
           "title": "Canadian MP moves to scrap law banning inter-province wine sales",
           "topic": "regulation",
@@ -901,36 +925,22 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/",
           "date": "2026-03-11T11:33:48+00:00"
-        },
-        {
-          "title": "Berry Bros chair warns inheritance tax changes threaten family firms",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/berry-bros-chair-warns-inheritance-tax-changes-threaten-family-firms/",
-          "date": "2026-03-10T10:32:19+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "what_changed": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operator",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/",
+          "date": "2026-03-12T10:46:09+00:00"
+        },
         {
           "title": "Champagne sales unlikely to rebound in 2026",
           "what_changed": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with product",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/",
           "date": "2026-03-11T11:37:04+00:00"
-        },
-        {
-          "title": "‘Very strong’ demand for fine wine in Singapore’s secondary market",
-          "what_changed": "The appetite for fine wine bidding on Singapore's secondary market is “very strong,” with prices competitive, collectors up for discovering something ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/very-strong-demand-for-fine-wine-in-singapores-secondary-market/",
-          "date": "2026-03-10T18:04:20+00:00"
-        },
-        {
-          "title": "Shoppers willing to pay nearly 10% more for sustainable products",
-          "what_changed": "A global survey from PwC shows shoppers remain committed to sustainability, even as rising grocery bills and inflation reshape spending habits. The po",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/shoppers-will-pay-nearly-10-more-for-sustainable-products/",
-          "date": "2026-03-10T10:22:03+00:00"
         },
         {
           "title": "Iran crisis: energy prices focus industry minds as volatility returns - Just Drinks",
@@ -942,29 +952,11 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Spain",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in Spain",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Functional trending in Spain",
-          "explanation": "3 articles mention functional in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Sugar Free trending in Spain",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "sugar_free"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -978,13 +970,31 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Spain",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
+          "signal": "Sugar Free trending in Spain",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "premium"
+            "sugar_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Functional trending in Spain",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
         }
       ],
       "talking_points": [
@@ -992,18 +1002,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         },
         {
@@ -1011,8 +1021,7 @@
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczNsd2FrUzNIdldiTFRYUzU3WVo4UFlpaUY3bWZxdkNST0dYb1d0VEl1aTc4bnAzbS00eUs2V2pTQjF4N3NHZW9wRkFHWnJ6M0pKTS1RaEJEMndweFZmWUx6Tm4tNjZCTzFHRU9sMlh4ZVZmd1J2YUR2YkM1U2FZY1dGNVNacjNnRXlKWDNnY3YtVkd5TVhrNFJQLWhsUHli?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1IN3Nmdkp4ejJvejNrZ193MEdKX3BObmc4dFRlVlFXY2dfVGF0d1d1OHJ1YzFHS1dBckZDUXdsVmkyOWMtYklnMWhSWkRMcHBFcXJZcWNwZzhObXFZWEN6Q25sZ25heUI2QTRnRWR6ODlVNm1qMGVRLVlJNnNTbmxSU3dqc19IOFF0TVR6cUxPUlVseEtRSGIycDVXa045SmxkZTM2R3dRaEk?oc=5",
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHRJS2c2Vi1FYWl4VFplSXFtTDc1bEZ6a1B4a3Ita3l5NHMzVVpLRHd1dW0taGZzUzJTMkRGbm1iM3lSMWxEdFdvMlRuQWFTNEN0eTEtaGRsWWZCNGRHTThraGRodTJnRzVKN3JPcW03VW9FX0xlUXpyWDN2eG9saG9FaHgxcTY4dlhvOFhrM0ZQdklNcTFINjdMRDlELWxJVmc?oc=5"
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1IN3Nmdkp4ejJvejNrZ193MEdKX3BObmc4dFRlVlFXY2dfVGF0d1d1OHJ1YzFHS1dBckZDUXdsVmkyOWMtYklnMWhSWkRMcHBFcXJZcWNwZzhObXFZWEN6Q25sZ25heUI2QTRnRWR6ODlVNm1qMGVRLVlJNnNTbmxSU3dqc19IOFF0TVR6cUxPUlVseEtRSGIycDVXa045SmxkZTM2R3dRaEk?oc=5"
           ]
         }
       ],
@@ -1022,9 +1031,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
           ]
         },
         {
@@ -1032,15 +1041,39 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         }
       ]
     },
     "italy": {
       "executive_summary": [
+        {
+          "headline": "3 ways Asia’s bar scene is different from Europe",
+          "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "detail": "Australian wine brand launches a special Bin 389 gift box designed by the Grammy-nominated singer, debuting during Paris Fashion Week and arriving exclusively at Selfridges in the UK. The post Penfold",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
           "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
@@ -1056,33 +1089,25 @@
             "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Master Winemaker 100: Fabrice Bandiera",
-          "detail": "The technical director at Bordeaux's Château des Laurets tells db about revelling in the unexpected, dispelling preconceptions about Bordeaux and the extreme region he'd relocate to if he couldn't mak",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Beer and fishing collaboration to catch angler demographic",
-          "detail": "AB InBev-owned beer brand Busch Light has collaborated with Bass Pro Shops and also launched a contest to further solidify its position as the beer for every angler. The post Beer and fishing collabor",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Champagne sales unlikely to rebound in 2026",
-          "detail": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with production costs, exchange rates and market conditions as",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+          "date": "2026-03-12T10:30:51+00:00"
+        },
+        {
+          "title": "Ramón Bilbao’s Finca Lalinde rosé is defined by provenance",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+          "date": "2026-03-12T09:21:08+00:00"
+        },
         {
           "title": "Beer and fishing collaboration to catch angler demographic",
           "company": "AB InBev",
@@ -1106,25 +1131,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
           "date": "2026-03-11T12:42:29+00:00"
-        },
-        {
-          "title": "Top 10 drinks launches from March",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/top-10-drinks-launches-from-march/",
-          "date": "2026-03-11T09:44:53+00:00"
-        },
-        {
-          "title": "Global Brands rolls out two liqueurs in UK - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHIteVMwSUtkNjN0R3FydzNpZVBveGtLMkdhUktEVGFMc0RKWmF1aUQ3WFczdUZYNEVxQlJja3FTbGdWVDQ2d1JNY0x3V1NCdV91VlBnNUdzNlhLcm1OZk9TNUhxN3hTczNBOXM4OF9tUDNQb25DMWFBTzBjZjdMa3F3?oc=5",
-          "date": "2026-03-10T14:40:08+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/wines-of-georgia-appoints-glodow-nead-communications-as-us-pr-partner/",
+          "date": "2026-03-12T10:40:42+00:00"
+        },
         {
           "title": "Reyes looks to acquire five more markets from RNDC - Just Drinks",
           "company": "Unknown",
@@ -1143,6 +1160,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "3 ways Asia’s bar scene is different from Europe",
+          "topic": "premium",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+          "date": "2026-03-12T11:35:20+00:00"
+        },
         {
           "title": "Canadian MP moves to scrap law banning inter-province wine sales",
           "topic": "regulation",
@@ -1163,36 +1187,22 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/",
           "date": "2026-03-11T11:33:48+00:00"
-        },
-        {
-          "title": "Berry Bros chair warns inheritance tax changes threaten family firms",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/berry-bros-chair-warns-inheritance-tax-changes-threaten-family-firms/",
-          "date": "2026-03-10T10:32:19+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "what_changed": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operator",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/",
+          "date": "2026-03-12T10:46:09+00:00"
+        },
         {
           "title": "Champagne sales unlikely to rebound in 2026",
           "what_changed": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with product",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/",
           "date": "2026-03-11T11:37:04+00:00"
-        },
-        {
-          "title": "‘Very strong’ demand for fine wine in Singapore’s secondary market",
-          "what_changed": "The appetite for fine wine bidding on Singapore's secondary market is “very strong,” with prices competitive, collectors up for discovering something ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/very-strong-demand-for-fine-wine-in-singapores-secondary-market/",
-          "date": "2026-03-10T18:04:20+00:00"
-        },
-        {
-          "title": "Shoppers willing to pay nearly 10% more for sustainable products",
-          "what_changed": "A global survey from PwC shows shoppers remain committed to sustainability, even as rising grocery bills and inflation reshape spending habits. The po",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/shoppers-will-pay-nearly-10-more-for-sustainable-products/",
-          "date": "2026-03-10T10:22:03+00:00"
         },
         {
           "title": "Iran crisis: energy prices focus industry minds as volatility returns - Just Drinks",
@@ -1204,11 +1214,11 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "signal": "Premium trending in Italy",
+          "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -1231,20 +1241,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Italy",
-          "explanation": "2 articles mention carbonated in the last 28 days",
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "carbonated"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Italy",
-          "explanation": "1 articles mention premium in the last 28 days",
+          "signal": "Carbonated trending in Italy",
+          "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "premium"
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -1254,18 +1264,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         },
         {
@@ -1284,9 +1294,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
           ]
         },
         {
@@ -1294,9 +1304,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
         }
       ]
@@ -1304,47 +1314,71 @@
     "austria": {
       "executive_summary": [
         {
-          "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
-          "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
+          "headline": "Zwischen Abmahnung und Gesetzesänderung: Windspiel zur Pfand-Debatte im No-/Low-Segment - about-drinks.com",
+          "detail": "Zwischen Abmahnung und Gesetzesänderung: Windspiel zur Pfand-Debatte im No-/Low-Segment about-drinks.com",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0U2Z1dlSHJPeHRnT2NhT0ZmM01KajhVRzhObm1UbHhMMDh6Uzd1cmRJX0Vpcm91UUJmQk9fS2Fpd19CWTlZSFI2amZSblJPV0NQUVlBZVg4dDhLMVllMHRVWkYzNm1WdkNjWTNMNnhZWHdaUlUteTNPR3VJdFdvWC13aTFOOWJFT2RnemtRODJ0dEJqYXU3Rnl0V3NiUXR5WkpMNkgwUTlUUllTNmlOTTl6QWpXSEE?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "3 ways Asia’s bar scene is different from Europe",
+          "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "New documentary exposes dangers of Cambodia’s unregulated beer industry",
-          "detail": "A new documentary from Laurits Nansen follows activist Kim Eng as he challenges Cambodia’s powerful beer sector and the rise of “neo-colonial alcohol capitalism” in a country where weak regulation and",
+          "headline": "Versammlung und Jubiläum: Verband der Hessischen Apfelwein- und Fruchtsaft-Keltereien - about-drinks.com",
+          "detail": "Versammlung und Jubiläum: Verband der Hessischen Apfelwein- und Fruchtsaft-Keltereien about-drinks.com",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Master Winemaker 100: Fabrice Bandiera",
-          "detail": "The technical director at Bordeaux's Château des Laurets tells db about revelling in the unexpected, dispelling preconceptions about Bordeaux and the extreme region he'd relocate to if he couldn't mak",
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Beer and fishing collaboration to catch angler demographic",
-          "detail": "AB InBev-owned beer brand Busch Light has collaborated with Bass Pro Shops and also launched a contest to further solidify its position as the beer for every angler. The post Beer and fishing collabor",
+          "headline": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
+          "detail": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ about-drinks.com",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Champagne sales unlikely to rebound in 2026",
-          "detail": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with production costs, exchange rates and market conditions as",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
+          "date": "2026-03-12T13:24:55+00:00"
+        },
+        {
+          "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+          "date": "2026-03-12T10:30:51+00:00"
+        },
+        {
+          "title": "Ramón Bilbao’s Finca Lalinde rosé is defined by provenance",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
+          "date": "2026-03-12T09:21:08+00:00"
+        },
         {
           "title": "Beer and fishing collaboration to catch angler demographic",
           "company": "AB InBev",
@@ -1360,33 +1394,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
           "date": "2026-03-11T13:55:10+00:00"
-        },
-        {
-          "title": "Diageo launches \"more accessible\" Johnnie Walker Scotch - Just Drinks",
-          "company": "Diageo",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
-          "date": "2026-03-11T12:42:29+00:00"
-        },
-        {
-          "title": "Top 10 drinks launches from March",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/top-10-drinks-launches-from-march/",
-          "date": "2026-03-11T09:44:53+00:00"
-        },
-        {
-          "title": "Global Brands rolls out two liqueurs in UK - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHIteVMwSUtkNjN0R3FydzNpZVBveGtLMkdhUktEVGFMc0RKWmF1aUQ3WFczdUZYNEVxQlJja3FTbGdWVDQ2d1JNY0x3V1NCdV91VlBnNUdzNlhLcm1OZk9TNUhxN3hTczNBOXM4OF9tUDNQb25DMWFBTzBjZjdMa3F3?oc=5",
-          "date": "2026-03-10T14:40:08+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/wines-of-georgia-appoints-glodow-nead-communications-as-us-pr-partner/",
+          "date": "2026-03-12T10:40:42+00:00"
+        },
         {
           "title": "Reyes looks to acquire five more markets from RNDC - Just Drinks",
           "company": "Unknown",
@@ -1394,17 +1412,23 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hMFNCazRqRG9CMUJiV1FrSzlHV1hLUlhjc29wU2E1ZVJRRzg3Mjg2M2U5eG15NEEwZHRKQUtNSVhaV2NBSnlOZ2Y1RGNFODR2MlJGNF9zRXVPeTNHTjY2T3Z0SXdiX3V0ekJkYWk0SU1Kdw?oc=5",
           "date": "2026-03-10T15:40:46+00:00"
-        },
-        {
-          "title": "Tilray Brands acquires BrewDog’s Australia assets - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHMxdnJQTjVaUGM0UUV3eUhJanR1bU9uZzhBS2RUVGRKak5LTjZqWE1KSDNmREp4cGM5Qm5Qck9jWTV6cWxJV2pJM2V4NU5iV0FSM1N0RXB2R0h4ZkJGVUdHQlVWeVZEcDd3aTR0MGhTVVhwVWpuZHhhZEo0VVZoYS1Va2ZOSDZ3ZVE?oc=5",
-          "date": "2026-03-09T13:02:07+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "3 ways Asia’s bar scene is different from Europe",
+          "topic": "premium",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+          "date": "2026-03-12T11:35:20+00:00"
+        },
+        {
+          "title": "Versammlung und Jubiläum: Verband der Hessischen Apfelwein- und Fruchtsaft-Keltereien - about-drinks.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5",
+          "date": "2026-03-12T10:06:54+00:00"
+        },
         {
           "title": "Canadian MP moves to scrap law banning inter-province wine sales",
           "topic": "regulation",
@@ -1425,45 +1449,31 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/",
           "date": "2026-03-11T11:33:48+00:00"
-        },
-        {
-          "title": "Berry Bros chair warns inheritance tax changes threaten family firms",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/berry-bros-chair-warns-inheritance-tax-changes-threaten-family-firms/",
-          "date": "2026-03-10T10:32:19+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "what_changed": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operator",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/",
+          "date": "2026-03-12T10:46:09+00:00"
+        },
         {
           "title": "Champagne sales unlikely to rebound in 2026",
           "what_changed": "Following three years of declining shipments of Champagne, it’s hoped that the region will see a turnaround in 2026 – but that’s unlikely with product",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/champagne-sales-unlikely-to-rebound-in-2026/",
           "date": "2026-03-11T11:37:04+00:00"
-        },
-        {
-          "title": "‘Very strong’ demand for fine wine in Singapore’s secondary market",
-          "what_changed": "The appetite for fine wine bidding on Singapore's secondary market is “very strong,” with prices competitive, collectors up for discovering something ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/very-strong-demand-for-fine-wine-in-singapores-secondary-market/",
-          "date": "2026-03-10T18:04:20+00:00"
-        },
-        {
-          "title": "Shoppers willing to pay nearly 10% more for sustainable products",
-          "what_changed": "A global survey from PwC shows shoppers remain committed to sustainability, even as rising grocery bills and inflation reshape spending habits. The po",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/shoppers-will-pay-nearly-10-more-for-sustainable-products/",
-          "date": "2026-03-10T10:22:03+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "4 articles mention alcohol free in the last 28 days",
+          "signal": "Premium trending in Austria",
+          "explanation": "4 articles mention premium in the last 28 days",
           "support_count": 4,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -1477,20 +1487,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Austria",
-          "explanation": "2 articles mention carbonated in the last 28 days",
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "carbonated"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Austria",
-          "explanation": "1 articles mention rtd in the last 28 days",
+          "signal": "Carbonated trending in Austria",
+          "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "rtd"
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -1500,18 +1510,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ]
         }
       ],
@@ -1521,9 +1531,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
-            "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -1531,9 +1541,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/",
-            "https://www.thedrinksbusiness.com/2026/03/master-winemaker-100-fabrice-bandiera/"
+            "https://www.thedrinksbusiness.com/2026/03/3-ways-asias-bar-scene-is-different-from-europe/",
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXdSeTRnODJ6YzFYYUdWSHh1VEhvRzhpZUNoRC00am5rTWg3TFpmcGNDNlRwQXprSEhzbFNjeWptaWRPNW42MzE4aDRBd2RMb0JHVGV5T2dqUjktVC1HeTlYYWhwNVRhTTZHdFdab3JTQk5jdVVFWHRjcjAyQ1N3TDdseTBQQUdsaVFYZzR5VGJaUVREQW5odF9ScGxsODdaMk56ano1UkVuZ0NkWEZZaUUwTE4?oc=5",
+            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ]
         }
       ]

@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-12T07:36:47.947151+00:00",
+  "generated_at": "2026-03-12T16:39:04.007570+00:00",
   "generated_date": "Thursday, 12 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Beer and fishing collaboration to catch angler demographic.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Von Radeberger zu Zötler: Daniel Feil neuer Vertriebsleiter für Gastronomie und Handel - about-drink.",
   "signals": {
-    "usa": "Alcohol Free trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 145,
-      "launch": 51,
-      "regulatory": 25,
-      "innovation": 24,
-      "pricing": 22,
-      "alcohol_free": 20,
-      "supply_chain": 19,
-      "carbonated": 13,
-      "competitor": 13,
-      "sugar_free": 12
+      "trend": 153,
+      "launch": 55,
+      "regulatory": 26,
+      "premium": 24,
+      "pricing": 18,
+      "competitor": 17,
+      "alcohol_free": 13,
+      "innovation": 13,
+      "sugar_free": 12,
+      "supply_chain": 12
     }
   }
 }
