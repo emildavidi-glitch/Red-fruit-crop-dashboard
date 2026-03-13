@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-13T07:35:28.671130+00:00",
+  "generated_at": "2026-03-13T15:28:39.743844+00:00",
   "generated_date": "Friday, 13 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: “Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: How Tilray is turbocharging growth with BrewDog acquisition: ‘We’re accelerating our strategy by yea.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 151,
-      "launch": 59,
-      "regulatory": 26,
+      "trend": 140,
+      "launch": 77,
+      "competitor": 33,
       "premium": 24,
-      "competitor": 21,
-      "alcohol_free": 19,
-      "pricing": 18,
-      "sugar_free": 12,
+      "carbonated": 19,
+      "regulatory": 15,
+      "supply_chain": 13,
+      "alcohol_free": 13,
       "innovation": 10,
-      "carbonated": 8
+      "pricing": 9
     }
   }
 }
