@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-03-12T16:39:04.007570+00:00",
+  "generated_at": "2026-03-13T07:35:28.671130+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
-        {
-          "headline": "Gabriel “Fluffy” Iglesias Launches Pocho Fino, a New Mexican-American Tequila - BevNET.com",
-          "detail": "Gabriel “Fluffy” Iglesias Launches Pocho Fino, a New Mexican-American Tequila BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0hvbncwZUptSnJYYWFJY2plVDAtM2xUbVVyYU9rNFlKTUZGRkJNVzdTbXB0aUZaeU5YT2lZV0ZQRjZWRzVOM3NzMUR2TzdQWHkwOGU2ZzBfd0dXcVlYdHQxd212UlhpUHpxakhNWGpVcUtlNHJJYUVWUkJRYVlFaFJCVE90Z2IxSy1oNDNqRnlwTm8xbUdJTWgxZ21XNzg1b21oc3g1VHdDa2RfLWJZ?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "3 ways Asia’s bar scene is different from Europe",
           "detail": "From Mumbai to Bangkok, Asia’s bar scene is booming, fired by a flurry of maestro bartenders and curious consumers bound in appreciation for the cocktail craft. At a recent London panel, leading voice",
@@ -29,12 +21,20 @@
           "confidence": "high"
         },
         {
-          "headline": "Nestlé USA enters at-home condiments space with new sauce brand",
-          "detail": "Minor’s Kitchen is the food giant’s first brand to launch in America in two years and builds on growing demand for home cooking.",
+          "headline": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "detail": "Ukrainian wine brand Bolgrad is strengthening its foothold in the UK after securing further Lidl listings and expanding its presence across retail, wholesale and the on-trade. The post “Consumers are ",
           "evidence_urls": [
-            "https://www.fooddive.com/news/embargoed-until-6-pm-nestle-usa-launches-new-sauce-condiment-offering/814082/"
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
+        },
+        {
+          "headline": "Vault City Brewing invests in flavour development",
+          "detail": "Edinburgh-based sour beer producer Vault City Brewing has appointed Madeline Spence as its first in-house food scientist, marking a strategic investment in flavour development. The post Vault City Bre",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Senate Democrats push to ‘break up’ the meat industry",
@@ -47,20 +47,20 @@
       ],
       "key_launches": [
         {
-          "title": "Gabriel “Fluffy” Iglesias Launches Pocho Fino, a New Mexican-American Tequila - BevNET.com",
-          "company": "Unknown",
+          "title": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "company": "Lidl",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0hvbncwZUptSnJYYWFJY2plVDAtM2xUbVVyYU9rNFlKTUZGRkJNVzdTbXB0aUZaeU5YT2lZV0ZQRjZWRzVOM3NzMUR2TzdQWHkwOGU2ZzBfd0dXcVlYdHQxd212UlhpUHpxakhNWGpVcUtlNHJJYUVWUkJRYVlFaFJCVE90Z2IxSy1oNDNqRnlwTm8xbUdJTWgxZ21XNzg1b21oc3g1VHdDa2RfLWJZ?oc=5",
-          "date": "2026-03-10T19:09:49+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+          "date": "2026-03-13T07:24:35+00:00"
         },
         {
-          "title": "Nestlé USA enters at-home condiments space with new sauce brand",
-          "company": "Nestlé",
-          "product": "beverage",
+          "title": "Rule #1 Beverages Announces Sea Sips, a New Vodka-Based Ready-to-Drink Set to Launch in Summer 2026 - BevNET.com",
+          "company": "Unknown",
+          "product": "rtd",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/embargoed-until-6-pm-nestle-usa-launches-new-sauce-condiment-offering/814082/",
-          "date": "2026-03-09T17:45:00-04:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVhzLVZ1Z2tPSGhYakRyVTAyS1pBeC1HWHJkMGw4d3ZJLXF6bWdwNE9VQ0lWYUkxUV9YOGNnQURmTng1VnN2NXVqNHhjcXEtV2JRcUJlQ3JGZ25VQU1ndU5CdmNlMS02SEF2QV94MHp3WHIyUzhEMHpHNHVINGpmaHJaWUk0RGY0cXZLQWVrTFBWYzZKWm91VjhPd2Z1UDFmbzU5czJxWnhnSXYzbDlFbTdHZXJaRDFUMjZmRGdXd1RRbUk0X05vc1d2VQ?oc=5",
+          "date": "2026-03-12T22:14:57+00:00"
         },
         {
           "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
@@ -89,6 +89,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vault City Brewing invests in flavour development",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/",
+          "date": "2026-03-13T07:00:41+00:00"
+        },
+        {
           "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
           "company": "Unknown",
           "move_type": "competitor",
@@ -103,22 +111,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hMFNCazRqRG9CMUJiV1FrSzlHV1hLUlhjc29wU2E1ZVJRRzg3Mjg2M2U5eG15NEEwZHRKQUtNSVhaV2NBSnlOZ2Y1RGNFODR2MlJGNF9zRXVPeTNHTjY2T3Z0SXdiX3V0ekJkYWk0SU1Kdw?oc=5",
           "date": "2026-03-10T15:40:46+00:00"
-        },
-        {
-          "title": "Luckin Coffee Closing on Blue Bottle Acquisition - BevNET.com",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORlVrczRnTFQ4VXlBd2lIVENDYTRHbUVUSFp3MGZPOWxQcXhMNk1MTXliZHRCZmRQdTEzTmhxZnZlNk9LcU1qMnBhR1RGdW9wbmNhZnNYYTJjQWl2RTFWQUJKN2ptamxWM2s2djBCTGJxaHlJRlkxei1HOXlUeU55NHdSSUxJVDl1Nmc?oc=5",
-          "date": "2026-03-09T16:26:32+00:00"
-        },
-        {
-          "title": "Tilray Brands acquires BrewDog’s Australia assets - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHMxdnJQTjVaUGM0UUV3eUhJanR1bU9uZzhBS2RUVGRKak5LTjZqWE1KSDNmREp4cGM5Qm5Qck9jWTV6cWxJV2pJM2V4NU5iV0FSM1N0RXB2R0h4ZkJGVUdHQlVWeVZEcDd3aTR0MGhTVVhwVWpuZHhhZEo0VVZoYS1Va2ZOSDZ3ZVE?oc=5",
-          "date": "2026-03-09T13:02:07+00:00"
         }
       ],
       "regulatory_watch": [
@@ -199,20 +191,20 @@
           "confidence": "high"
         },
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
+          "signal": "Alcohol Free trending in United States",
+          "explanation": "4 articles mention alcohol free in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "carbonated"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "alcohol_free"
+            "carbonated"
           ],
           "confidence": "medium"
         },
@@ -226,11 +218,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "2 articles mention sugar free in the last 28 days",
+          "signal": "Rtd trending in United States",
+          "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "sugar_free"
+            "rtd"
           ],
           "confidence": "medium"
         }
@@ -240,8 +232,8 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0hvbncwZUptSnJYYWFJY2plVDAtM2xUbVVyYU9rNFlKTUZGRkJNVzdTbXB0aUZaeU5YT2lZV0ZQRjZWRzVOM3NzMUR2TzdQWHkwOGU2ZzBfd0dXcVlYdHQxd212UlhpUHpxakhNWGpVcUtlNHJJYUVWUkJRYVlFaFJCVE90Z2IxSy1oNDNqRnlwTm8xbUdJTWgxZ21XNzg1b21oc3g1VHdDa2RfLWJZ?oc=5",
-            "https://www.fooddive.com/news/embargoed-until-6-pm-nestle-usa-launches-new-sauce-condiment-offering/814082/",
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+            "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVhzLVZ1Z2tPSGhYakRyVTAyS1pBeC1HWHJkMGw4d3ZJLXF6bWdwNE9VQ0lWYUkxUV9YOGNnQURmTng1VnN2NXVqNHhjcXEtV2JRcUJlQ3JGZ25VQU1ndU5CdmNlMS02SEF2QV94MHp3WHIyUzhEMHpHNHVINGpmaHJaWUk0RGY0cXZLQWVrTFBWYzZKWm91VjhPd2Z1UDFmbzU5czJxWnhnSXYzbDlFbTdHZXJaRDFUMjZmRGdXd1RRbUk0X05vc1d2VQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
@@ -269,8 +261,8 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0hvbncwZUptSnJYYWFJY2plVDAtM2xUbVVyYU9rNFlKTUZGRkJNVzdTbXB0aUZaeU5YT2lZV0ZQRjZWRzVOM3NzMUR2TzdQWHkwOGU2ZzBfd0dXcVlYdHQxd212UlhpUHpxakhNWGpVcUtlNHJJYUVWUkJRYVlFaFJCVE90Z2IxSy1oNDNqRnlwTm8xbUdJTWgxZ21XNzg1b21oc3g1VHdDa2RfLWJZ?oc=5",
-            "https://www.fooddive.com/news/embargoed-until-6-pm-nestle-usa-launches-new-sauce-condiment-offering/814082/",
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+            "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVhzLVZ1Z2tPSGhYakRyVTAyS1pBeC1HWHJkMGw4d3ZJLXF6bWdwNE9VQ0lWYUkxUV9YOGNnQURmTng1VnN2NXVqNHhjcXEtV2JRcUJlQ3JGZ25VQU1ndU5CdmNlMS02SEF2QV94MHp3WHIyUzhEMHpHNHVINGpmaHJaWUk0RGY0cXZLQWVrTFBWYzZKWm91VjhPd2Z1UDFmbzU5czJxWnhnSXYzbDlFbTdHZXJaRDFUMjZmRGdXd1RRbUk0X05vc1d2VQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
@@ -305,31 +297,39 @@
           "confidence": "medium"
         },
         {
+          "headline": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "detail": "Ukrainian wine brand Bolgrad is strengthening its foothold in the UK after securing further Lidl listings and expanding its presence across retail, wholesale and the on-trade. The post “Consumers are ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Vault City Brewing invests in flavour development",
+          "detail": "Edinburgh-based sour beer producer Vault City Brewing has appointed Madeline Spence as its first in-house food scientist, marking a strategic investment in flavour development. The post Vault City Bre",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
           "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Edeka übernimmt Tegut – GMZ zieht sich aus Deutschland zurück - about-drinks.com",
-          "detail": "Edeka übernimmt Tegut – GMZ zieht sich aus Deutschland zurück about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ193b3UwS21fclg2dG1OWS11Ql9PUkl1X3I3bXFvei1pNlo4bjh5VUFmeTRobXI3OXdJdmtMVWJkZm9kb0FOX3RTUVNNMXUxbnU2enhEVnRiNnFLUjd3TVZlTW4zSlZTeVgxQW5jamc1SXdOanBoLWNuRFd3a255TnVHblJvbzhuOTVzVW5qMGJocWcxdXc?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
-          "detail": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "company": "Lidl",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+          "date": "2026-03-13T07:24:35+00:00"
+        },
         {
           "title": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
           "company": "Unknown",
@@ -361,17 +361,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
           "date": "2026-03-12T07:00:19+00:00"
-        },
-        {
-          "title": "VIK releases rare vertical of its iconic wines",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-          "date": "2026-03-11T13:55:10+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vault City Brewing invests in flavour development",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/",
+          "date": "2026-03-13T07:00:41+00:00"
+        },
         {
           "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
           "company": "Unknown",
@@ -453,6 +453,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in Germany",
           "explanation": "2 articles mention sugar free in the last 28 days",
           "support_count": 2,
@@ -462,13 +471,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Germany",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in Germany",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Carbonated trending in Germany",
@@ -485,9 +494,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
         {
@@ -506,9 +515,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
         {
@@ -534,18 +543,26 @@
           "confidence": "medium"
         },
         {
-          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
-          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "headline": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "detail": "Ukrainian wine brand Bolgrad is strengthening its foothold in the UK after securing further Lidl listings and expanding its presence across retail, wholesale and the on-trade. The post “Consumers are ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
-          "detail": "Australian wine brand launches a special Bin 389 gift box designed by the Grammy-nominated singer, debuting during Paris Fashion Week and arriving exclusively at Selfridges in the UK. The post Penfold",
+          "headline": "Vault City Brewing invests in flavour development",
+          "detail": "Edinburgh-based sour beer producer Vault City Brewing has appointed Madeline Spence as its first in-house food scientist, marking a strategic investment in flavour development. The post Vault City Bre",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
+            "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
           ],
           "confidence": "medium"
         },
@@ -556,17 +573,17 @@
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "New documentary exposes dangers of Cambodia’s unregulated beer industry",
-          "detail": "A new documentary from Laurits Nansen follows activist Kim Eng as he challenges Cambodia’s powerful beer sector and the rise of “neo-colonial alcohol capitalism” in a country where weak regulation and",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "company": "Lidl",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+          "date": "2026-03-13T07:24:35+00:00"
+        },
         {
           "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
           "company": "Unknown",
@@ -598,17 +615,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
           "date": "2026-03-11T13:55:10+00:00"
-        },
-        {
-          "title": "Diageo launches \"more accessible\" Johnnie Walker Scotch - Just Drinks",
-          "company": "Diageo",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
-          "date": "2026-03-11T12:42:29+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vault City Brewing invests in flavour development",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/",
+          "date": "2026-03-13T07:00:41+00:00"
+        },
         {
           "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
           "company": "Unknown",
@@ -698,11 +715,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in France",
-          "explanation": "3 articles mention functional in the last 28 days",
+          "signal": "Alcohol Free trending in France",
+          "explanation": "3 articles mention alcohol free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "functional"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -716,13 +733,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in France",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in France",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Carbonated trending in France",
@@ -739,9 +756,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -752,15 +769,6 @@
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
             "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczNsd2FrUzNIdldiTFRYUzU3WVo4UFlpaUY3bWZxdkNST0dYb1d0VEl1aTc4bnAzbS00eUs2V2pTQjF4N3NHZW9wRkFHWnJ6M0pKTS1RaEJEMndweFZmWUx6Tm4tNjZCTzFHRU9sMlh4ZVZmd1J2YUR2YkM1U2FZY1dGNVNacjNnRXlKWDNnY3YtVkd5TVhrNFJQLWhsUHli?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1IN3Nmdkp4ejJvejNrZ193MEdKX3BObmc4dFRlVlFXY2dfVGF0d1d1OHJ1YzFHS1dBckZDUXdsVmkyOWMtYklnMWhSWkRMcHBFcXJZcWNwZzhObXFZWEN6Q25sZ25heUI2QTRnRWR6ODlVNm1qMGVRLVlJNnNTbmxSU3dqc19IOFF0TVR6cUxPUlVseEtRSGIycDVXa045SmxkZTM2R3dRaEk?oc=5",
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHRJS2c2Vi1FYWl4VFplSXFtTDc1bEZ6a1B4a3Ita3l5NHMzVVpLRHd1dW0taGZzUzJTMkRGbm1iM3lSMWxEdFdvMlRuQWFTNEN0eTEtaGRsWWZCNGRHTThraGRodTJnRzVKN3JPcW03VW9FX0xlUXpyWDN2eG9saG9FaHgxcTY4dlhvOFhrM0ZQdklNcTFINjdMRDlELWxJVmc?oc=5"
-          ]
         }
       ],
       "recommended_actions": [
@@ -769,9 +777,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -805,31 +813,39 @@
           "confidence": "high"
         },
         {
+          "headline": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "detail": "Ukrainian wine brand Bolgrad is strengthening its foothold in the UK after securing further Lidl listings and expanding its presence across retail, wholesale and the on-trade. The post “Consumers are ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Vault City Brewing invests in flavour development",
+          "detail": "Edinburgh-based sour beer producer Vault City Brewing has appointed Madeline Spence as its first in-house food scientist, marking a strategic investment in flavour development. The post Vault City Bre",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
           "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
-          "detail": "Australian wine brand launches a special Bin 389 gift box designed by the Grammy-nominated singer, debuting during Paris Fashion Week and arriving exclusively at Selfridges in the UK. The post Penfold",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Canadian MP moves to scrap law banning inter-province wine sales",
-          "detail": "An MP in Okanagan, Canada, has introduced a private member’s bill to amend the Canada Post Corporation Act in a bid to remove federal restrictions on DTC alcohol shipments between provinces. If succes",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "company": "Lidl",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+          "date": "2026-03-13T07:24:35+00:00"
+        },
         {
           "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
           "company": "Unknown",
@@ -861,17 +877,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
           "date": "2026-03-11T13:55:10+00:00"
-        },
-        {
-          "title": "Diageo launches \"more accessible\" Johnnie Walker Scotch - Just Drinks",
-          "company": "Diageo",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
-          "date": "2026-03-11T12:42:29+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vault City Brewing invests in flavour development",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/",
+          "date": "2026-03-13T07:00:41+00:00"
+        },
         {
           "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
           "company": "Unknown",
@@ -961,6 +977,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Carbonated trending in Spain",
           "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
@@ -979,22 +1004,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Spain",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Organic trending in Spain",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "organic"
           ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Functional trending in Spain",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1002,9 +1018,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -1015,14 +1031,6 @@
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
             "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczNsd2FrUzNIdldiTFRYUzU3WVo4UFlpaUY3bWZxdkNST0dYb1d0VEl1aTc4bnAzbS00eUs2V2pTQjF4N3NHZW9wRkFHWnJ6M0pKTS1RaEJEMndweFZmWUx6Tm4tNjZCTzFHRU9sMlh4ZVZmd1J2YUR2YkM1U2FZY1dGNVNacjNnRXlKWDNnY3YtVkd5TVhrNFJQLWhsUHli?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1IN3Nmdkp4ejJvejNrZ193MEdKX3BObmc4dFRlVlFXY2dfVGF0d1d1OHJ1YzFHS1dBckZDUXdsVmkyOWMtYklnMWhSWkRMcHBFcXJZcWNwZzhObXFZWEN6Q25sZ25heUI2QTRnRWR6ODlVNm1qMGVRLVlJNnNTbmxSU3dqc19IOFF0TVR6cUxPUlVseEtRSGIycDVXa045SmxkZTM2R3dRaEk?oc=5"
-          ]
         }
       ],
       "recommended_actions": [
@@ -1031,9 +1039,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -1059,18 +1067,26 @@
           "confidence": "medium"
         },
         {
-          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
-          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "headline": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "detail": "Ukrainian wine brand Bolgrad is strengthening its foothold in the UK after securing further Lidl listings and expanding its presence across retail, wholesale and the on-trade. The post “Consumers are ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
-          "detail": "Australian wine brand launches a special Bin 389 gift box designed by the Grammy-nominated singer, debuting during Paris Fashion Week and arriving exclusively at Selfridges in the UK. The post Penfold",
+          "headline": "Vault City Brewing invests in flavour development",
+          "detail": "Edinburgh-based sour beer producer Vault City Brewing has appointed Madeline Spence as its first in-house food scientist, marking a strategic investment in flavour development. The post Vault City Bre",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
+            "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
+          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
           ],
           "confidence": "medium"
         },
@@ -1081,17 +1097,17 @@
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "New documentary exposes dangers of Cambodia’s unregulated beer industry",
-          "detail": "A new documentary from Laurits Nansen follows activist Kim Eng as he challenges Cambodia’s powerful beer sector and the rise of “neo-colonial alcohol capitalism” in a country where weak regulation and",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "company": "Lidl",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+          "date": "2026-03-13T07:24:35+00:00"
+        },
         {
           "title": "Penfolds partners with Troye Sivan for limited-edition Bin 389 release",
           "company": "Unknown",
@@ -1123,17 +1139,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
           "date": "2026-03-11T13:55:10+00:00"
-        },
-        {
-          "title": "Diageo launches \"more accessible\" Johnnie Walker Scotch - Just Drinks",
-          "company": "Diageo",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2EwZm9jTml1YlFwUFRBd19BZmtuZmJRWnRLVzY4ZTFuZm9ZREtDX3I1VFFYNGtGOEhnZlJDSk51OUdHQzY0SEFEaXJPdlk2QU01WER4dFJkR21KU2MtTW54NFZ6d0xZMjN6eWdVTVA1TEEyXzA2SV9YRVZ6VndwWDcxVFpnYU5XMFdTbk1ua1A?oc=5",
-          "date": "2026-03-11T12:42:29+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vault City Brewing invests in flavour development",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/",
+          "date": "2026-03-13T07:00:41+00:00"
+        },
         {
           "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
           "company": "Unknown",
@@ -1223,11 +1239,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in Italy",
-          "explanation": "3 articles mention functional in the last 28 days",
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "3 articles mention alcohol free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "functional"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -1241,13 +1257,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in Italy",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Carbonated trending in Italy",
@@ -1264,9 +1280,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -1277,15 +1293,6 @@
             "https://www.thedrinksbusiness.com/2026/03/canadian-mp-moves-to-scrap-law-banning-inter-province-wine-sales/",
             "https://www.thedrinksbusiness.com/2026/03/new-documentary-exposes-dangers-of-cambodias-unregulated-beer-industry/"
           ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczNsd2FrUzNIdldiTFRYUzU3WVo4UFlpaUY3bWZxdkNST0dYb1d0VEl1aTc4bnAzbS00eUs2V2pTQjF4N3NHZW9wRkFHWnJ6M0pKTS1RaEJEMndweFZmWUx6Tm4tNjZCTzFHRU9sMlh4ZVZmd1J2YUR2YkM1U2FZY1dGNVNacjNnRXlKWDNnY3YtVkd5TVhrNFJQLWhsUHli?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1IN3Nmdkp4ejJvejNrZ193MEdKX3BObmc4dFRlVlFXY2dfVGF0d1d1OHJ1YzFHS1dBckZDUXdsVmkyOWMtYklnMWhSWkRMcHBFcXJZcWNwZzhObXFZWEN6Q25sZ25heUI2QTRnRWR6ODlVNm1qMGVRLVlJNnNTbmxSU3dqc19IOFF0TVR6cUxPUlVseEtRSGIycDVXa045SmxkZTM2R3dRaEk?oc=5",
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHRJS2c2Vi1FYWl4VFplSXFtTDc1bEZ6a1B4a3Ita3l5NHMzVVpLRHd1dW0taGZzUzJTMkRGbm1iM3lSMWxEdFdvMlRuQWFTNEN0eTEtaGRsWWZCNGRHTThraGRodTJnRzVKN3JPcW03VW9FX0xlUXpyWDN2eG9saG9FaHgxcTY4dlhvOFhrM0ZQdklNcTFINjdMRDlELWxJVmc?oc=5"
-          ]
         }
       ],
       "recommended_actions": [
@@ -1294,9 +1301,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/",
-            "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/"
+            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
           ]
         },
         {
@@ -1314,10 +1321,10 @@
     "austria": {
       "executive_summary": [
         {
-          "headline": "Zwischen Abmahnung und Gesetzesänderung: Windspiel zur Pfand-Debatte im No-/Low-Segment - about-drinks.com",
-          "detail": "Zwischen Abmahnung und Gesetzesänderung: Windspiel zur Pfand-Debatte im No-/Low-Segment about-drinks.com",
+          "headline": "Zwischen Abmahnung und Gesetzesänderung: Windspiel über Pfand im No-ABV-Segment - about-drinks.com",
+          "detail": "Zwischen Abmahnung und Gesetzesänderung: Windspiel über Pfand im No-ABV-Segment about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0U2Z1dlSHJPeHRnT2NhT0ZmM01KajhVRzhObm1UbHhMMDh6Uzd1cmRJX0Vpcm91UUJmQk9fS2Fpd19CWTlZSFI2amZSblJPV0NQUVlBZVg4dDhLMVllMHRVWkYzNm1WdkNjWTNMNnhZWHdaUlUteTNPR3VJdFdvWC13aTFOOWJFT2RnemtRODJ0dEJqYXU3Rnl0V3NiUXR5WkpMNkgwUTlUUllTNmlOTTl6QWpXSEE?oc=5"
+            "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdnFCdUNMY0N3MXZaVUJNczNsS3RyLW1CMnhOT1VybEVMekFsU0k2QkdidV9POFlEaTFRbHVDbFlBSnBoUlBGdHNSZGJhU0lSR0RaRmlwNUxwVHFzQS1rLTlQMndJaDEwLUY0ZmcwZ0dGNGF3Sm5UeXlUWWJHR1FYdGo0dmtlakx4VkFkNnVicFJoVnI4UFhuZnpBcmotOHFQV2c5NFRtck9BcVBM?oc=5"
           ],
           "confidence": "high"
         },
@@ -1338,23 +1345,31 @@
           "confidence": "medium"
         },
         {
-          "headline": "Guinness at £3.49 leads St Patrick’s Day pricing push in UK pubs",
-          "detail": "Major pub chains are leaning into St Patrick’s Day with sharp drink pricing and exclusive brews aimed at drawing customers through the doors. Operators are combining price points, product exclusivity ",
+          "headline": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "detail": "Ukrainian wine brand Bolgrad is strengthening its foothold in the UK after securing further Lidl listings and expanding its presence across retail, wholesale and the on-trade. The post “Consumers are ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/03/guinness-at-3-49-leads-st-patricks-day-pricing-push-in-uk-pubs/"
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
-          "detail": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ about-drinks.com",
+          "headline": "Vault City Brewing invests in flavour development",
+          "detail": "Edinburgh-based sour beer producer Vault City Brewing has appointed Madeline Spence as its first in-house food scientist, marking a strategic investment in flavour development. The post Vault City Bre",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "“Consumers are taking a leap into the unexpected”: Ukrainian wine brand Bolgrad expands UK listings",
+          "company": "Lidl",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
+          "date": "2026-03-13T07:24:35+00:00"
+        },
         {
           "title": "Magnus Mineralbrunnen launcht neue Schorlen- und Limonadenrange „Coasties“ - about-drinks.com",
           "company": "Unknown",
@@ -1386,17 +1401,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/beer-and-fishing-collaboration-to-catch-angler-demographic/",
           "date": "2026-03-12T07:00:19+00:00"
-        },
-        {
-          "title": "VIK releases rare vertical of its iconic wines",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vik-releases-rare-vertical-of-its-iconic-wine/",
-          "date": "2026-03-11T13:55:10+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vault City Brewing invests in flavour development",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/03/vault-city-brewing-invests-in-flavour-development/",
+          "date": "2026-03-13T07:00:41+00:00"
+        },
         {
           "title": "Wines of Georgia appoints Glodow Nead Communications as US PR partner",
           "company": "Unknown",
@@ -1478,6 +1493,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in Austria",
           "explanation": "2 articles mention sugar free in the last 28 days",
           "support_count": 2,
@@ -1487,13 +1511,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in Austria",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Carbonated trending in Austria",
@@ -1510,9 +1534,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
         {
@@ -1531,9 +1555,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/03/consumers-are-taking-a-leap-into-the-unexpected-ukrainian-wine-brand-bolgrad-expands-uk-listings/",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1FWNTJWTWlJbUJOUWNDVURUSDVmYUFtZEUxeEk2di1JM3Vzc2Z4LVBURmJYdWV4N2FkWmxxNG91M2JTWDU2T2psbGYxbDBVWVpkLW1sSVppYVVSOU1zdkVsZjJwMThnd1B2WVMyY2d5OXptMWdwTXB1RkNCLWdaYzZqdXIxTm9idVVFVUw2X3dhMkE4ODctdUVEazJMZGliUEcw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/",
-            "https://www.thedrinksbusiness.com/2026/03/ramon-bilbaos-finca-lalinde-rose-is-defined-by-provenance/"
+            "https://www.thedrinksbusiness.com/2026/03/penfolds-partners-with-troye-sivan-for-limited-edition-bin-389-release/"
           ]
         },
         {
