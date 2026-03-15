@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-14T14:05:10.485804+00:00",
-  "generated_date": "Saturday, 14 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: MADWOMAN Launches First-Ever Approved Collection of Espresso Martinis at 7% ABV, Including the First.",
+  "generated_at": "2026-03-15T07:35:40.238170+00:00",
+  "generated_date": "Sunday, 15 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Chlorophyll Water Awarded 2026 Top Trending Brand by Spate Market Research at Expo West - BevNET.com.",
   "signals": {
     "usa": "Premium trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 140,
+      "trend": 135,
       "launch": 81,
       "competitor": 32,
       "premium": 25,
-      "carbonated": 19,
-      "supply_chain": 19,
       "alcohol_free": 18,
+      "supply_chain": 18,
+      "carbonated": 16,
+      "regulatory": 11,
       "pricing": 9,
-      "sugar_free": 9,
-      "innovation": 8
+      "sugar_free": 9
     }
   }
 }
