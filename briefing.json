@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-17T08:00:32.060595+00:00",
+  "generated_at": "2026-03-17T16:44:45.423004+00:00",
   "generated_date": "Tuesday, 17 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Neue erwachsene Drink-Momente von Fever-Tree: Warum „pur“ genauso wichtig ist wie „gemixt“ - about-d.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Förstina startet umfassenden Markenrelaunch - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
+    "italy": "Alcohol Free trending. (50 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 145,
-      "launch": 60,
-      "pricing": 26,
-      "competitor": 24,
-      "supply_chain": 20,
-      "premium": 18,
-      "carbonated": 13,
-      "innovation": 12,
-      "alcohol_free": 12,
-      "functional": 10
+      "trend": 154,
+      "launch": 45,
+      "pricing": 25,
+      "competitor": 22,
+      "supply_chain": 19,
+      "innovation": 19,
+      "alcohol_free": 18,
+      "functional": 17,
+      "carbonated": 11,
+      "premium": 9
     }
   }
 }
