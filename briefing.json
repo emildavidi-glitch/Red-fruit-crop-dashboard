@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-18T07:59:06.792458+00:00",
+  "generated_at": "2026-03-18T16:40:05.931269+00:00",
   "generated_date": "Wednesday, 18 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: 40 Jahre Kölsch-Konvention: Wie ein Bier zum geschützten Kölsch wurde - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Neue Flaschen-Füllerei der Westerwald-Brauerei in Hachenburg eröffnet - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 44,
-      "pricing": 25,
-      "competitor": 22,
-      "alcohol_free": 19,
-      "innovation": 19,
-      "supply_chain": 18,
-      "functional": 18,
-      "carbonated": 15,
-      "macro": 13
+      "trend": 147,
+      "launch": 48,
+      "competitor": 38,
+      "supply_chain": 24,
+      "alcohol_free": 21,
+      "regulatory": 14,
+      "functional": 14,
+      "innovation": 12,
+      "pricing": 10,
+      "carbonated": 9
     }
   }
 }
