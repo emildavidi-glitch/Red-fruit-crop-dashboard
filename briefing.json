@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-17T16:44:45.423004+00:00",
-  "generated_date": "Tuesday, 17 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Förstina startet umfassenden Markenrelaunch - about-drinks.com.",
+  "generated_at": "2026-03-18T07:59:06.792458+00:00",
+  "generated_date": "Wednesday, 18 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: 40 Jahre Kölsch-Konvention: Wie ein Bier zum geschützten Kölsch wurde - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 154,
-      "launch": 45,
+      "trend": 152,
+      "launch": 44,
       "pricing": 25,
       "competitor": 22,
-      "supply_chain": 19,
+      "alcohol_free": 19,
       "innovation": 19,
-      "alcohol_free": 18,
-      "functional": 17,
-      "carbonated": 11,
-      "premium": 9
+      "supply_chain": 18,
+      "functional": 18,
+      "carbonated": 15,
+      "macro": 13
     }
   }
 }
