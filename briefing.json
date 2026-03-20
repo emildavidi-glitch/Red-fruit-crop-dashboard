@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-20T07:36:56.863324+00:00",
+  "generated_at": "2026-03-20T15:28:47.868506+00:00",
   "generated_date": "Friday, 20 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: UNBRIDLED SPIRIT Launches Kentucky Straight Bourbon Built for Celebration - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Mood Support Outpaces Protein, Gut Health in Functional Beverage Trends - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
     "france": "Alcohol Free trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "italy": "Alcohol Free trending. (50 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 113,
-      "launch": 52,
-      "competitor": 42,
-      "innovation": 29,
-      "pricing": 21,
-      "regulatory": 18,
-      "supply_chain": 16,
-      "functional": 14,
-      "carbonated": 12,
-      "alcohol_free": 11
+      "trend": 140,
+      "launch": 54,
+      "innovation": 31,
+      "pricing": 28,
+      "competitor": 18,
+      "functional": 16,
+      "regulatory": 15,
+      "rtd": 12,
+      "premium": 10,
+      "alcohol_free": 9
     }
   }
 }
