@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-22T13:42:55.995934+00:00",
-  "generated_date": "Sunday, 22 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: ERDINGER Alkoholfrei zeigt: „Driven by Passion – wie eine Vision den Sport prägte“ - about-drinks.co.",
+  "generated_at": "2026-03-23T06:08:00.077179+00:00",
+  "generated_date": "Monday, 23 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: ERDINGER Alkoholfrei zeigt: „Driven by Passion – wie eine Vision den Sport prägte“ - about-drinks.co.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
     "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
-      "launch": 38,
-      "innovation": 31,
+      "trend": 154,
+      "launch": 50,
       "pricing": 25,
-      "functional": 22,
-      "competitor": 19,
-      "regulatory": 18,
+      "innovation": 24,
+      "regulatory": 20,
+      "functional": 19,
       "alcohol_free": 18,
-      "rtd": 10,
+      "rtd": 14,
+      "competitor": 13,
       "premium": 7
     }
   }
