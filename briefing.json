@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-24T14:18:50.000985+00:00",
-  "generated_date": "Tuesday, 24 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Better-for-You Nutrition Arrives for Older Adults as Lucille Health Launches - BevNET.com.",
+  "generated_at": "2026-03-25T05:57:56.819367+00:00",
+  "generated_date": "Wednesday, 25 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Seasonal von Trapp Brewery Packaging Operator - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 150,
-      "launch": 46,
-      "pricing": 36,
-      "rtd": 20,
+      "trend": 137,
+      "launch": 48,
+      "pricing": 35,
+      "regulatory": 22,
       "competitor": 20,
-      "supply_chain": 16,
-      "regulatory": 15,
-      "alcohol_free": 13,
-      "premium": 12,
-      "carbonated": 12
+      "premium": 19,
+      "rtd": 18,
+      "carbonated": 15,
+      "supply_chain": 14,
+      "macro": 10
     }
   }
 }
