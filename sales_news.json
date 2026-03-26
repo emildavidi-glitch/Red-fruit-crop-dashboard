@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-03-25T14:17:47.410193+00:00",
+  "generated_at": "2026-03-26T06:09:47.442261+00:00",
   "window_days": 28,
   "regions": {
     "usa": [
+      {
+        "title": "Coke's CEO Transition: U.S. Bottlers Size Up Braun - Beverage-Digest",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQmRsTmtfYkZTX2lBUThzWnRLeG1rb2JlUG53RjVRN1lSVjFZdWNnbGhqTWNrUE9Za1VGYXNtYzRoaG1EVkhaNVRVQVExT19CRi1iZGgzSFo4QnlSZzFqa29qdTFCUVFTbTZ2Y1RFNHFlVlQ3YndpeUZWUGZmWWVMTVYyRTFOOVh0c2ZLUUtpZ09tVlluVG00dHZNWEJWSmM1ZmZNWGNB?oc=5",
+        "source": "Beverage Digest",
+        "published": "2026-03-25T14:00:56+00:00",
+        "country_region": "usa",
+        "category": "supply_chain",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Coke's CEO Transition: U.S. Bottlers Size Up Braun Beverage-Digest",
+        "why_it_matters": "Supply chain development could affect input costs, lead times, or packaging availability. Review procurement exposure.",
+        "sales_angles": [
+          "Check with procurement on exposure",
+          "Prepare customer communication if delays expected"
+        ],
+        "confidence": "high",
+        "score": 0.8385
+      },
       {
         "title": "Consumers are telling food brands to do less. Not enough are listening.",
         "url": "https://www.fooddive.com/spons/consumers-are-telling-food-brands-to-do-less-not-enough-are-listening/815239/",
@@ -28,7 +52,60 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "high",
-        "score": 0.8325
+        "score": 0.8179
+      },
+      {
+        "title": "Briefs: SNAP Soda Lawsuit. Latest 4-Week Category Results. CT Considers Soda Tax. Diet Coke on Social. New Coke, Sprite, Pibb Marketing. Beyond Meat Beverage Expansion. Mexico Wants More Sugar Coke. Coke Consolidated Plant Accident. - Beverage-Digest",
+        "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOb3Y5Ukp5N0YxMF9EelhwQkdjVEp1c3lyZGdyMTliSHV0WFN1b2NfaG54NmFEd3IwQVhZWEtzWGp6M25CNU5rMWVGb0gtV3RpY1JRXzZGZUN6ZXBWS0VkdzFqVXluel9fTlU3eFZZZEJXNGN0TGx4UVZOQjdGV0RmNnk0V1o1ZHFBM3JycFNhc05GQzJJV3FzeFhEbkx5anprZWRQQmpQbG1LcjR6VlhIRWdhZDlabnpIRWlpVlRCaWdmYmRWYTMzQ2pVX0NxZG9CVlJabUlkZVhoWnNQQjN2Uzg0OTliXzQtalhtTWxGZ3ZUR0Exc21tSjdIektWRzNqV2hIbTdYOGItdmZOcHMxRGRjTnNDZFNkUHFXNGFwOTRmUkpWc3RaZmNFTTlkdHI1SWNvWmlQMmthNWd6SmhiVHd1QWxvWXQzOWFNdmZOX1ZZandoMHlhdVFzTlBMS2tRLWtxWDdabDZUOHlRY0U4aGxiOGxLTmUzSDRCcjhRaGM?oc=5",
+        "source": "Beverage Digest",
+        "published": "2026-03-25T14:00:34+00:00",
+        "country_region": "usa",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [
+          "sugar_free",
+          "carbonated"
+        ],
+        "summary": "Briefs: SNAP Soda Lawsuit. Latest 4-Week Category Results. CT Considers Soda Tax. Diet Coke on Social. New Coke, Sprite, Pibb Marketing. Beyond Meat Beverage Expansion. Mexico Wants More Sugar Coke. Coke Consolidated Plant Accident. Beverage-Digest",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8085
+      },
+      {
+        "title": "Chobani's La Colombe, Coke's Fairlife to Add Capacity in Michigan [Green Sheets] - Beverage-Digest",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSExGWkFuV28zdVhscjhvZ05nQ3M5dXp5LUQwUkF0bDRlVGY5SnJfTWtablFIZnozcGhBVWIzc0ExTjFYR1BLMzJVbFl2d2hZX2pLZDRTN0xoUmxCN1NNYnlVN0NKN0pIakxqREU0VkdyVFNyc214QUJmTjdSODlFR2xEX21BNTJlRHZDQldFYUZ0RXVzSE4weUZ3VF9oaFFOVlgwWFpaUENoa1NwTlRqQlNJMDY?oc=5",
+        "source": "Beverage Digest",
+        "published": "2026-03-25T14:00:12+00:00",
+        "country_region": "usa",
+        "category": "regulatory",
+        "entities": {
+          "companies": [
+            "Chobani"
+          ],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Chobani's La Colombe, Coke's Fairlife to Add Capacity in Michigan [Green Sheets] Beverage-Digest",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8084
       },
       {
         "title": "Capri-Sun bringt exotischen Sirup-Genuss ohne Zuckerzusatz ins Regal - about-drinks.com",
@@ -52,7 +129,31 @@
           "Align marketing messaging"
         ],
         "confidence": "high",
-        "score": 0.824
+        "score": 0.8078
+      },
+      {
+        "title": "Bansk Group to acquire wellness shots brand So Good So You - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53N2RvbzEwbzRRbnZBY1dPQ1NWOWp6VFdQSFVRVS1hRlhDdE43czV5NWZ2S2F0R29lODNjcHFSaU8xNTdvM1Z2TG1VLUdBYmRCR0QySVJEdXR5M0pBb0JtMlRqcXp1R2RGQ0hCS2pEbHJTamh2MDFv?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T12:29:23+00:00",
+        "country_region": "usa",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Bansk Group to acquire wellness shots brand So Good So You Just Drinks",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8069
       },
       {
         "title": "Diageo sells Royal Challengers Bangalore stake for US$1.78bn",
@@ -78,7 +179,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8219
+        "score": 0.8057
       },
       {
         "title": "EU tariff removal ‘levels the competitive landscape’ for Australian wine",
@@ -104,13 +205,41 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8215
+        "score": 0.8054
       },
       {
-        "title": "Campbell’s $1B Rao’s brand wants to convince shoppers it’s worth the price",
-        "url": "https://www.fooddive.com/news/campbells-1b-raos-brand-wants-to-convince-shoppers-its-worth-the-price/814606/",
-        "source": "FoodDive",
-        "published": "2026-03-25T09:00:00-04:00",
+        "title": "Noteworthy Launches: Gatorade. Powerade. Costco Energy. Primo Saratoga. Path Sports. Elmhurst Protein. Dunkin'. Bubly Wine. Simply Spiked. Crooked Pop. Super Lyte. - Beverage-Digest",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOWHFfREd0YVRhR0ZDemFmOXlRTnU0ejk1NlNPYTFMMVlNTkk4dng3cDU4OTd4cU1PVEpLbEszR1dXNWlPaV9RLUxNNUw5cFh4REZMTmhFc0NmRXBHSUZNblhPTzhnbVo3VnJ1RkxNLW1mblFldDBKa3d2aVlKckZVbFJCYjYzUXgxdVF0bTlybllHZjFCT2VISGU4cG1LbmJaWjRWZjVDUWlCZkNLRjU0YXdYQlVNVTF3bjRIYzZSODNydkNaU0VDVEM0dW51TWc0MEFHSXRJYVZUVEZ3OTJ3b3RWQjhXRXM4NlUyYmc1dmNETHNJWGdUci1lbnhwYTBweTh3U28yLVlBekl0d0dIRTBFekRMbThuYTdod05zdFFFQQ?oc=5",
+        "source": "Beverage Digest",
+        "published": "2026-03-25T14:00:55+00:00",
+        "country_region": "usa",
+        "category": "pricing",
+        "entities": {
+          "companies": [
+            "Costco"
+          ],
+          "brands": [],
+          "ingredients": [
+            "protein"
+          ],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Noteworthy Launches: Gatorade. Powerade. Costco Energy. Primo Saratoga. Path Sports. Elmhurst Protein. Dunkin'. Bubly Wine. Simply Spiked. Crooked Pop. Super Lyte. Beverage-Digest",
+        "why_it_matters": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+        "sales_angles": [
+          "Review pricing vs competitors",
+          "Prepare margin impact analysis"
+        ],
+        "confidence": "medium",
+        "score": 0.7935
+      },
+      {
+        "title": "Coke, Pepsi, Dr Pepper Bottlers Could Face Higher Fuel Costs Spurred by Iran Conflict - Beverage-Digest",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM29EU1RVdXIxV3lkdTNLbFpNTGV2dmdCbnZYZFQxX0RzRWpOUS1zTmJVYTVXeUJsYmpZVUFSWjJtcWl0LWp4N2NQbndNZzFYZWZZYzViSlczRHQwUFI2NzlCRlNYdmVNbkp3Q2NlV2lhTHAtNllKa0dVT3l5dUxrMTVXS3hlMjA5UHpNekZua1l2eHh6SXlET3NQMmFQX2NheVBlaDNTczNOU0dMMkhhMTJhd3NSZHNTMGp5U2puM3F3Z1ljeUlKSA?oc=5",
+        "source": "Beverage Digest",
+        "published": "2026-03-25T14:00:10+00:00",
         "country_region": "usa",
         "category": "pricing",
         "entities": {
@@ -120,17 +249,41 @@
           "packaging": [],
           "channels": []
         },
-        "product_tags": [
-          "premium"
-        ],
-        "summary": "By touting its premium ingredients list and encouraging trial, the fast-growing sauce aims to build consumer awareness and household penetration.",
+        "product_tags": [],
+        "summary": "Coke, Pepsi, Dr Pepper Bottlers Could Face Higher Fuel Costs Spurred by Iran Conflict Beverage-Digest",
         "why_it_matters": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
         "sales_angles": [
           "Review pricing vs competitors",
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8087
+        "score": 0.7934
+      },
+      {
+        "title": "PourMe Beverages Launches Three New THC-Infused Beverages - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd0dCWGI0S3JLTXhPZVZWcTlCeDVUWExmWE9iZGZPR0tod0hhUDI3c3BGTGV0bEpzdm5ld2hpU3QzMzhfeDBZVnFzc1dPNjg0UmRCRmg5Z0Y4b2NXVGlBTW55N1FRVUhBdExCdTlRRHhOUnFSdUpmYnJwR1FQSEJxQVZQUWZYZFJ2eXZ4a2s4Y29WM3l2Q1hETw?oc=5",
+        "source": "BevNET",
+        "published": "2026-03-25T19:50:49+00:00",
+        "country_region": "usa",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [
+            "thc"
+          ],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "PourMe Beverages Launches Three New THC-Infused Beverages BevNET.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7919
       },
       {
         "title": "Indian brewers warn of beer shortages as US-Iran war hits supply",
@@ -156,10 +309,10 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8069
+        "score": 0.7907
       },
       {
-        "title": "Chobani invests $567M to expand La Colombe plant",
+        "title": "Chobani invests $567M in La Colombe plant expansion",
         "url": "https://www.fooddive.com/news/chobani-spending-567m-to-expand-michigan-la-colombe-plant/815543/",
         "source": "FoodDive",
         "published": "2026-03-24T14:00:00-04:00",
@@ -182,7 +335,55 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8043
+        "score": 0.7887
+      },
+      {
+        "title": "Tarte Cosmetics Founder Expands into Beverage with ‘Sippable Self-Care’ Brand - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaGQwMDN3Y2hOa3ZlWW1ZLVVObFpiSFBLeVRzRmhETDYwQVQzUkxadVluZ2pZZmFxakNmV1RNSG05Mk12QXQzeWdTc2x5dUZSOFpGanZSUGRwRUd5M2ZQWkFkRk9od3EzZXFWZnpWcmUwMm13YkljQmtGUGpZYkEwQmZ5QkhOcUwwdzRkZFlLWWxqdzlnMXZrTVd6N0RDdC1xNzAyNmFUY3FNb0Fl?oc=5",
+        "source": "BevNET",
+        "published": "2026-03-25T16:30:43+00:00",
+        "country_region": "usa",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Tarte Cosmetics Founder Expands into Beverage with ‘Sippable Self-Care’ Brand BevNET.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7885
+      },
+      {
+        "title": "FREE BIRD Water Expands United Distributors Partnership into Alabama, Accelerating Southeast Growth - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT2dnMHU4SlZIX2tLbGY0LU1nVEhOcl9wN2U0WmQ4ZV8wMEN6VHdwc0piWFU1Sk5mR1pJeUIxLWwyNXV6eEFfT1ctU0duQV81VmFzelNWODhLWkR2RXUwVkxPdmhqNVpRSnVHNnM0ZVZjZUVWaTlSRXIwVzFRS2M1UnduY3luRnR0czNoQUtrZi00cTNSS1g5YmJqLUhWa3gycmozMDE4NjZjcy1Ca1dRYXdHVjhvQ1F4MjYzZHZya0d3aGU1N1lMQS03OEFubXkt?oc=5",
+        "source": "BevNET",
+        "published": "2026-03-25T15:14:33+00:00",
+        "country_region": "usa",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "FREE BIRD Water Expands United Distributors Partnership into Alabama, Accelerating Southeast Growth BevNET.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7872
       },
       {
         "title": "All the medallists from The Global Merlot Masters 2026",
@@ -206,7 +407,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8025
+        "score": 0.7865
       },
       {
         "title": "Hundreds protest Damascus alcohol ban in Syria",
@@ -230,7 +431,33 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8015
+        "score": 0.786
+      },
+      {
+        "title": "AfroPop Soda Announces Distribution Partnership With RNDC, Expanding Path Toward National Growth - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNFhzQkhuRm1lLXNEWmZGOS1NOXRBWUUwVVZKRWVsQVdndVdIcGZxeGlVdDNHcDBDaXFlS1psUXNtOWtwNDZaaVp2NVBmMjZWLUtMNnVFU2xma3V4MkkyVmNicmpNUlBtVzV3bHdwRU5ESzZuRVVLeTQ4Q0hyb05WYjIxUkpFaXVmc3poWTloVnFpUmFlekdCSFJsS09fMjJjOFpsWmRLYk5fMkxtVV81WFp4V0F1eUE2S2Y5VGtRZG5pMVJJc3FZRkd6UTQ?oc=5",
+        "source": "BevNET",
+        "published": "2026-03-25T21:00:02+00:00",
+        "country_region": "usa",
+        "category": "competitor",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [
+          "carbonated"
+        ],
+        "summary": "AfroPop Soda Announces Distribution Partnership With RNDC, Expanding Path Toward National Growth BevNET.com",
+        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+        "sales_angles": [
+          "Update competitive intelligence file",
+          "Prepare defensive talking points for key accounts"
+        ],
+        "confidence": "medium",
+        "score": 0.7855
       },
       {
         "title": "Kavalan whisky distillery expands into Bahrain market",
@@ -254,7 +481,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7995
+        "score": 0.7833
       },
       {
         "title": "Diageo sets deadline for Royal Challengers Bangalore sale bids",
@@ -282,11 +509,11 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7965
+        "score": 0.7812
       },
       {
         "title": "Bai Founder Ben Weiss Expands Crooked Brand Into Hard Soda - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOExjV25Yd2hwRm9Ubl94X0xpUG10dkl2dGpVdGdQUTNNMUNFdnhvcE5Kb1FNN0djeFc5TFhzZXgtZkdqYzBLOWp1dG5EdHhnNE5HYjBaZ3JvTFliRWxNM3dTZEU4Y1hQSHpBWks3ay04aTJaWk9VU3NyOE9VY1dMbzdrNzZpWWxJM2w5S0ZLOFNaalBfa2c?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNazB3V09lQURwUHR4dEE4all2VlowTFM2NHBlYTA5UnVXaUFPUExDZnExVk1OVHF3MzhrOWo5MFFkcEItb0RIRWRNcTRJd2s2cnp1UVBFR0R2RUNkRnFOanZ6eE1JUjcwbmxZaVQ3cFRJbHJMemNPYmVsOW5QOFpTY0FlVzQ4MWZETnNlSGZULVBpTS04VXdN?oc=5",
         "source": "BevNET",
         "published": "2026-03-24T20:42:18+00:00",
         "country_region": "usa",
@@ -308,7 +535,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7845
+        "score": 0.7688
       },
       {
         "title": "Fever-Tree profits slide by 16%",
@@ -336,7 +563,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.783
+        "score": 0.7677
       },
       {
         "title": "Moscato d’Asti fizz soars 55% in China, bucking global slump",
@@ -360,7 +587,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7826
+        "score": 0.7672
       },
       {
         "title": "Blind Tiger Launches Classic Spirit-Free Manhattan as Limited-Time Release - BevNET.com",
@@ -384,7 +611,31 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7824
+        "score": 0.7668
+      },
+      {
+        "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
+        "url": "https://www.thedrinksbusiness.com/2026/03/uk-pubs-may-make-just-3p-profit-from-every-1-spent-on-a-pint/",
+        "source": "Drinks Business",
+        "published": "2026-03-24T09:58:32+00:00",
+        "country_region": "usa",
+        "category": "pricing",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "New analysis suggests the economics of a pint are becoming increasingly strained for British pubs. Rising operating costs mean only a few pennies of each pound spent at the bar may remain once expenses are covered. The post UK pubs may make just 3p profit from every £1 spent on a pint appeared first on The Drinks Business .",
+        "why_it_matters": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+        "sales_angles": [
+          "Review pricing vs competitors",
+          "Prepare margin impact analysis"
+        ],
+        "confidence": "medium",
+        "score": 0.766
       },
       {
         "title": "Josh Cellars Expands Portfolio with the Launch of Seaswept Sparkling - BevNET.com",
@@ -410,31 +661,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7814
-      },
-      {
-        "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
-        "url": "https://www.thedrinksbusiness.com/2026/03/uk-pubs-may-make-just-3p-profit-from-every-1-spent-on-a-pint/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T09:58:32+00:00",
-        "country_region": "usa",
-        "category": "pricing",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "New analysis suggests the economics of a pint are becoming increasingly strained for British pubs. Rising operating costs mean only a few pennies of each pound spent at the bar may remain once expenses are covered. The post UK pubs may make just 3p profit from every £1 spent on a pint appeared first on The Drinks Business .",
-        "why_it_matters": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-        "sales_angles": [
-          "Review pricing vs competitors",
-          "Prepare margin impact analysis"
-        ],
-        "confidence": "medium",
-        "score": 0.7814
+        "score": 0.7659
       },
       {
         "title": "MPs call for clearer drink price displays in pubs",
@@ -458,7 +685,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7812
+        "score": 0.7658
       },
       {
         "title": "‘Wind down, leave feeling great’: The rise of Hong Kong’s friendly neighbourhood bars",
@@ -484,7 +711,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7799
+        "score": 0.7643
       },
       {
         "title": "Real Coco Launches Nationwide at ALDI - BevNET.com",
@@ -510,7 +737,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.779
+        "score": 0.7635
       },
       {
         "title": "Better-for-You Nutrition Arrives for Older Adults as Lucille Health Launches - BevNET.com",
@@ -534,7 +761,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.779
+        "score": 0.7635
       },
       {
         "title": "Can one brand simplify Portugal for UK wine drinkers?",
@@ -560,7 +787,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7603
       },
       {
         "title": "Fernet-Branca taps March basketball frenzy with ‘Shot of Madness’ campaign",
@@ -586,61 +813,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7741
-      },
-      {
-        "title": "Super Seltzer Launches Across Seasons Corner Market Locations in New England - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUF96dEVOTEIyMV8zSFNzbUItc2p1QldKMWFOR3NjbzZsdkYyT1JGbm9KRVFEX1FHSFEza1g0ZlVWU2M5UDIwRGdWbEJyZEpRZV9DZW4tVTBCUHdYLTBiV2ZmeXU1Y2FaSldkb19vc3o1T2tWQjVkODU5RGRIV1dJQTB2bER6dldkeEROOU1ZMy1qVG1TdHRJR29XT2JGUjdTRWJQcUZXdndFbVZDTDIwRXJKcw?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-24T09:30:34+00:00",
-        "country_region": "usa",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [
-          "carbonated"
-        ],
-        "summary": "Super Seltzer Launches Across Seasons Corner Market Locations in New England BevNET.com",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.7734
-      },
-      {
-        "title": "Elmhurst 1925 Launches Clean Protein to Redefine Ready-to-Drink Nutrition - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGNSOE5FRXRKcnp5ZFZFc1VYUTNyQVpLU0I4OVdiZlVRVlVFQ0Z0VnNQREZJVDVPc2xPYTZLc0FrcHdtTXdnMG9CaFNhakdLTDNiNVZHdjk1RW9HNjMyYUxMMWNvZ3NfdkU5RURQTC1kMVZGM3UyZUdFRkZ6OHJMSi1uS3pUc25iSnNKdkFka0tnTDM2UkJYQkRjdEVVZnh4UkhkR2ZSNDlFUFVs?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-24T09:30:34+00:00",
-        "country_region": "usa",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [
-            "protein"
-          ],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [
-          "rtd"
-        ],
-        "summary": "Elmhurst 1925 Launches Clean Protein to Redefine Ready-to-Drink Nutrition BevNET.com",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.7734
+        "score": 0.7588
       },
       {
         "title": "Mushroom boom in food and beverage faces shakeout as growth collides with inflation, consolidation - FoodNavigator-USA.com",
@@ -664,7 +837,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "high",
-        "score": 0.7711
+        "score": 0.7586
       },
       {
         "title": "Molson Coors buys Monaco Cocktails owner in RTD expansion",
@@ -690,7 +863,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7704
+        "score": 0.755
       },
       {
         "title": "What’s happening to Chicago’s beer scene?",
@@ -718,7 +891,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.767
+        "score": 0.7517
       },
       {
         "title": "Court warns of lengthy process winding up Oenofuture’s liquidation",
@@ -742,13 +915,13 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7668
+        "score": 0.7514
       },
       {
         "title": "Seasonal von Trapp Brewery Packaging Operator - BevNET.com",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSFg0Tjd5MUtYREMxcEotalhTZ1J0Sm5OS1JxV2Q2enVCQzNma1NyQ1BPbzREYmlTVk5TZW9QWVFvV2s4aHJCckhQUmEtaHowdUpCaGFoQ2l2Q2R5NEhNRlc2UzdLd3l0Zk5KbXk2aDhwQVo1YWx5cy0zMGxDRWx4QkxiNVNra1hmVjY4VjdHNklfWHRzSENVZDhHNzE?oc=5",
         "source": "BevNET",
-        "published": "2026-03-24T23:58:54+00:00",
+        "published": "2026-03-24T19:40:37+00:00",
         "country_region": "usa",
         "category": "supply_chain",
         "entities": {
@@ -768,15 +941,15 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7653
+        "score": 0.7453
       },
       {
-        "title": "Dust Bowl Distillery Debuts First RTD: Blackberry Lemonade Moonshine Cocktail - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMG9Md0VJTVlxdENKX2Iyb0dSVV9hNmIxd2tMdEVmYzNWMTEyUWdEN0lPNnYyNFhfNXhxaUhtQXFCT0Y2cnZmbWl0eU1wa0pTTEhNZEFWeENCdnlfTTI5UUQ3QzNSWnYtSzJXTUEwRG9ZbmdERkwzT1RCOFhYcGx6a053UmZIbnJwcFhSQmV3T0lwOGwzUjIyM2VQWm5ES1p6TkpIVTlHZXZCd3U0a3lqU0JEQQ?oc=5",
+        "title": "Vanilla Draft Latte (2026) | La Colombe Coffee - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPejVITURwOG5wVkNPLTdVUmFsNzFiY0dvZGJkMUJUbWlmdXYyODdiSGNndnVraGwzdmduTF9vdmctcHFNbDFDOUxnSDVpVzJheDFpakx3c182SkFzNlNnUkRsQS0zbC1iQ3kxMmR3Vk44VmIzU2g4VVNSLWpCR0c0MmEwYw?oc=5",
         "source": "BevNET",
-        "published": "2026-03-23T19:51:45+00:00",
+        "published": "2026-03-25T22:15:29+00:00",
         "country_region": "usa",
-        "category": "launch",
+        "category": "trend",
         "entities": {
           "companies": [],
           "brands": [],
@@ -784,17 +957,15 @@
           "packaging": [],
           "channels": []
         },
-        "product_tags": [
-          "rtd"
-        ],
-        "summary": "Dust Bowl Distillery Debuts First RTD: Blackberry Lemonade Moonshine Cocktail BevNET.com",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "product_tags": [],
+        "summary": "Vanilla Draft Latte (2026) | La Colombe Coffee BevNET.com",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
         "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
+          "Include in next customer presentation",
+          "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7602
+        "score": 0.7418
       },
       {
         "title": "China’s leading wine regions showcase global ambitions at ProWein",
@@ -818,7 +989,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7527
+        "score": 0.7381
       },
       {
         "title": "Bordeaux estate turns to space tech to monitor vines in real time",
@@ -844,7 +1015,133 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7519
+        "score": 0.7366
+      },
+      {
+        "title": "Ohio Breweries Reach 10,000 Supporters in Push to Override Vote on THC Beverage Bill - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ3JvM01WWXJWUEZ3THpWcEQxaWVEMm9XYU4wbUp1aEJUNkZjZGN5cGZEaDJ4R0MtYmQwME9fMGY4LVVPOHRtN0xBckRNUkhHZ2lvTEZxMTZ3OU1CUXgxWXlyMGx3NnRFbTVJN0NuMzN1TWJHMU12MzNRcWNMbFNYZW9jaFVicEZxVHZiVUZyb05wN0ZlZWVTeE9GZURFczNZREZTVGdCczFMc0dwX3RCT3VFNGJqSi1WNmJ5Xw?oc=5",
+        "source": "BevNET",
+        "published": "2026-03-25T17:03:28+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [
+            "Rewe"
+          ],
+          "brands": [],
+          "ingredients": [
+            "thc"
+          ],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Ohio Breweries Reach 10,000 Supporters in Push to Override Vote on THC Beverage Bill BevNET.com",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7365
+      },
+      {
+        "title": "Reed’s CEO steps down, COO named interim chief - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbW9LY2NzZ3UxUGs1Ny1LLXdWNVp5WmVEejFTRktRZk9iSklIdnNmTmhJVXdETFhwZGlDRWZJa01UaVVIMm00VDBMazBPblR0bzM3MkNrMmpTMjZPREJLZXR2T0d4NmR0UmM1Nkx2UlEyV0tGT3phNGEwMUZsc2MwUUdJRlZ6QnExU0E?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:44:25+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Reed’s CEO steps down, COO named interim chief Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7362
+      },
+      {
+        "title": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLW1qMVhLakFDSmFidHZlY0NmWXFhd1ZXZmpfdDhBVE9yXzJzZHk4YjVLdllpNzdyYThORHpWUXVETW1vX0VFdHZmLTNMYkt4TF9qRHNNZ2liQ2p4LVpXRllDWHpVTVJ1c1BnQTRqRVBUM3Mtb0xobEJESGtOX0xtaUVjOXdJOXdrWGw3aQ?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:29:05+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.736
+      },
+      {
+        "title": "Swig on Pace for Record Growth As Dirty Soda Craze Continues - BevNET.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbl84M3RRX3ZwTkhvZURYVW5COGFnWkNNV1l2XzJ6OFZFRVJaUW10cjVZXzlWTFd1d2dIeDFBN0hrelF0NUNJWUJLR0l2eWdRVmpEdDJDUWEzVDNuT25qMVZ0clFHams0OVliZVBaWFZ3Q0VqbTFvQWVKVEVYb2hVelRuRUVIM2taSGlWaEZjbDc1U2hPWHZPSg?oc=5",
+        "source": "BevNET",
+        "published": "2026-03-25T14:11:02+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [
+          "carbonated"
+        ],
+        "summary": "Swig on Pace for Record Growth As Dirty Soda Craze Continues BevNET.com",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7336
+      },
+      {
+        "title": "People: Coke. Coke United. Ozarks Coke. Coke Içecek. Spindrift. - Beverage-Digest",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzNkM3ZkQUZkVWpOUkVEVzZlbU4tSXRuaVFLYmJrbWljNHpWeGxuZmlySFBhRWdXbXMwYWY2X1RHUy1LRnRGUGZSS05Cb3BmNDRCQjUxT2RoYmNIbkdKS0d1N01IbTdiRWozVU5OTFNPZDNwdGp6M2h4azB5QS1SMkpWWVN6YjItQVlzZVhpZG9GQk1WUUJQN0c4ODlKbm5KR3E2UTNB?oc=5",
+        "source": "Beverage Digest",
+        "published": "2026-03-25T14:00:58+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "People: Coke. Coke United. Ozarks Coke. Coke Içecek. Spindrift. Beverage-Digest",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7335
       },
       {
         "title": "Coca-Cola spends $650M to expand Fairlife production",
@@ -859,42 +1156,20 @@
           ],
           "brands": [],
           "ingredients": [],
-          "packaging": [],
+          "packaging": [
+            "can"
+          ],
           "channels": []
         },
         "product_tags": [],
-        "summary": "The beverage giant is adding to a Michigan manufacturing plant to increase production for the fast-growing dairy brand.",
+        "summary": "The beverage giant is adding to a Michigan manufacturing plant as the dairy brand sees “significant growth.”",
         "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
         "sales_angles": [
           "Include in next customer presentation",
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7496
-      },
-      {
-        "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXNyd2hkY0J3M0FPVVRzZm1QZ3p3S3pDZkFEc09XNnVwRUx2QjJCcmxtNlBILUNKUmJXaXhCckVFZmFnOHZzT05kd0NwS3R1RGxWWlpwRnRQWWZtLXZNVTZ6SDBleE1NZkU1Z2JadXFxUmJJX1pva1lPZXJmNnllWkVzVzNNYTltUXF1V2hVNkNBLWdBQ2hhUA?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-25T12:29:59+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Distil issues funding warning as revenues expected to slide Just Drinks",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7334
       },
       {
         "title": "Fireball owner buys canned cocktail brand Dirty Shirley",
@@ -922,7 +1197,31 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7471
+        "score": 0.7324
+      },
+      {
+        "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXNyd2hkY0J3M0FPVVRzZm1QZ3p3S3pDZkFEc09XNnVwRUx2QjJCcmxtNlBILUNKUmJXaXhCckVFZmFnOHZzT05kd0NwS3R1RGxWWlpwRnRQWWZtLXZNVTZ6SDBleE1NZkU1Z2JadXFxUmJJX1pva1lPZXJmNnllWkVzVzNNYTltUXF1V2hVNkNBLWdBQ2hhUA?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T12:29:59+00:00",
+        "country_region": "usa",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Distil issues funding warning as revenues expected to slide Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7319
       },
       {
         "title": "A journey through the world of modern rosé",
@@ -946,7 +1245,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.747
+        "score": 0.7309
       },
       {
         "title": "Master Winemaker 100: Sandrine Logette-Jardin",
@@ -970,315 +1269,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7464
-      },
-      {
-        "title": "Medieval grape seed reveals 600-year lineage of Pinot Noir",
-        "url": "https://www.thedrinksbusiness.com/2026/03/medieval-grape-seed-reveals-600-year-lineage-of-pinot-noir/",
-        "source": "Drinks Business",
-        "published": "2026-03-25T10:42:33+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "From a medieval hospital latrine to modern vineyards, a single grape seed is offering an extraordinary genetic link to 600 years of pinot noir cultivation. The post Medieval grape seed reveals 600-year lineage of Pinot Noir appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7463
-      },
-      {
-        "title": "Freshwater Aguas Frescas - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14QmdaNnZVTTFSU21XOWJhSURnazNmLTVuZWg1REdaaVF2Y0hOYTNIbWwzdlY3Q09aTEJMdnhkbHNHTm5MNDF2XzNHU1A3VG56ZlpXelRUTDYxaDJNakU1MG9udnFmS0dSOVoxM05ZZw?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-25T10:36:01+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Freshwater Aguas Frescas BevNET.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7462
-      },
-      {
-        "title": "Top DC bars team up at Silver Lyan to tap cherry blossom footfall",
-        "url": "https://www.thedrinksbusiness.com/2026/03/top-dc-bars-team-up-at-silver-lyan-to-tap-cherry-blossom-footfall/",
-        "source": "Drinks Business",
-        "published": "2026-03-25T10:37:00+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Washington DC’s peak tourism moment becomes the backdrop for a multi-venue drinks and food series running from today until 12 April. The post Top DC bars team up at Silver Lyan to tap cherry blossom footfall appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7462
-      },
-      {
-        "title": "Cheech and Chong’s Global Holding Company Partners with Breakthru Beverage Group to Expand Hemp-Derived THC Beverage Distribution - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOG93M0dwS0NDZDluRDVEeGQtenh3ckpOZjh5cUx6aXg4S0NrQnR5ZTV2RUNTYjBISm1hNlFCSG9hZUlPSkFGbl9zVUJ2M0xzSFV1WU11alRJSEYzOERXQklMRGhfQVd4UXVCSG82N2Z4WGt6WXRZeWxGU2RuNVlwVXdqYWFSaTRFZGxMSUs1d2NvLTNmbmhBLWpFMTZNY0N6RUk2RXBhY1hYSDdpNXBFcGdxVC1UVDhqeVNsR0ZrTW8yS1hGNXEyYnNxQktkTmpwNWlsUGhJRXVUU0p4X2xjTUZ6SnEtV29EYzQ1VXp1RUVfakljWENV?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-24T18:04:13+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [
-            "thc",
-            "hemp"
-          ],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Cheech and Chong’s Global Holding Company Partners with Breakthru Beverage Group to Expand Hemp-Derived THC Beverage Distribution BevNET.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7294
-      },
-      {
-        "title": "Ohio Breweries Urge Legislative Override Vote on THC Beverage Bill - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc2tfNmZHVXh1ODRFZzBzVWstYlhwWENWa09FekNwSUVMVVpHQ3lhN3JOX3RMNXhBTm5LVXF0M2daa21jMGV3YkdWeFhnY1hVTEY2a05tV2E3QmNsZ1NfRm9ndkY5Mk5iRHlJSE1NbkhMd1NXRnVEZ2ZpZzhzcE9NVHZ5bnZwcGZQLUdpeWZqbmdHZjBNeFVNS1psc19QNkRCNjV5UDRR?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-24T16:39:32+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [
-            "Rewe"
-          ],
-          "brands": [],
-          "ingredients": [
-            "thc"
-          ],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Ohio Breweries Urge Legislative Override Vote on THC Beverage Bill BevNET.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.728
-      },
-      {
-        "title": "Heineken shakes up Singapore beer supply - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03NWdjSFdFT0xLVzUycV9kY1BtenIxRWgtR0NNb19WUVlsS0pZV2FqZnd6QnNjRUphSVdlSXIzVzFCLUZINXFIa28tUWw2UWQ1ZE1nOUcwZURGSUpNWWhadmIwZTdFbnU2XzZ2MWxSSkFqUGlSamtCag?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-24T15:59:22+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [
-            "Heineken"
-          ],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Heineken shakes up Singapore beer supply Just Drinks",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7273
-      },
-      {
-        "title": "Hiyo Lands Major Expansion with Target, Bringing Refreshing Organic Social Tonics Nationwide - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTXV1NDlLc1NEVXo0RUJaZnh0ODRaOFNjS0dCcGQ1czBXZTEtMWdmU1dlejh4dFBBeFJlQUtnOGNZX0NYeVV5UFRvdVo3bHVLR0I3X2h2dHQ3WDVXaW80TzZHb2NHVWtQVGNHdlptdlhHYlNDbXJyekhPQjlEQTE3LWhnbi1fR1VIZGlPdW9nX1MzVE11a1JmY3lXM1VuWXFYTG41SkR4UWZMSmxkNXdKbGhNYjNEMzdmMjRyMFdRd01PU1R3azlR?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-24T15:19:51+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [
-            "Target"
-          ],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [
-          "carbonated",
-          "organic"
-        ],
-        "summary": "Hiyo Lands Major Expansion with Target, Bringing Refreshing Organic Social Tonics Nationwide BevNET.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7266
-      },
-      {
-        "title": "Coca-Cola invests again in Fairlife production - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2ltMjZXbUZySUVqUHlYRWxPaFJiYThVQ2RuYk80TWNqNUF3NmUwbGVLSE5Wd1ZQRmRsSmVHQ0RRWmpLMWVxOGYyTzJCRWFjV2pqb1lJamtHRGliQVhOa3UtNXlJQlBuQi0wd1lNTnBwNHBoZ1k1OTk0X0t2WkZwQktaaTdrcTQ?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-24T13:34:00+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [
-            "Coca-Cola"
-          ],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Coca-Cola invests again in Fairlife production Just Drinks",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7249
-      },
-      {
-        "title": "US spirits group buys Waterford Whisky Distillery “core assets” - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTjJuckZMa25CdW4xT3FxampzWnF0WDhqdnNIN0FNbDhRNkZrMVRmQnotd0s3Z0ZlM2xxR0lyNTF0TWNPd3oxdnp0MldXb0ZDQ3Z6dGM4MUZOV2hjZTk5ZFlSQ0l6dFNqMGRiMXN2U2ZZSHlVUXgtZkcyUDhMck83WjBvVkxoVWtnQUpYTXdFM0lBS09NRUZIZ1oyaw?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-24T13:13:39+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "US spirits group buys Waterford Whisky Distillery “core assets” Just Drinks",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7246
-      },
-      {
-        "title": "NA Beverages Remain “Healthy” in Early March - BevNET.com",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdDhBaEZHV2tPSU1zX3hCOEZqMmUwQnYyOF9Db0tUX0FxUmFoWWxhQ1RieEpIeGpIeU1jQklvZzkxNThxeHdrNmNnSWpMV196T3YtdFB2cnJudTluSnBDaWVpOWNQdDN5a0lEbm1MMjNoREprS0tmYXVkTUM1elViZzlB?oc=5",
-        "source": "BevNET",
-        "published": "2026-03-24T12:40:42+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "NA Beverages Remain “Healthy” in Early March BevNET.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.724
-      },
-      {
-        "title": "Cruise ship brews beer from desalinated seawater",
-        "url": "https://www.thedrinksbusiness.com/2026/03/cruise-ship-brews-beer-from-desalinated-seawater/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:32:43+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [
-            "Rewe"
-          ],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "A microbrewery onboard a cruise ship that uses treated seawater to brew has been described as a “world first” for the sector. The post Cruise ship brews beer from desalinated seawater appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7229
-      },
-      {
-        "title": "Henkell Freixenet taps into global sparkling trends",
-        "url": "https://www.thedrinksbusiness.com/2026/03/henkell-freixenet-taps-into-global-sparkling-trends/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:26:12+00:00",
-        "country_region": "usa",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [
-          "carbonated"
-        ],
-        "summary": "The world's largest producer of sparkling wines used a Wine Paris masterclass to survey the trends driving the category, with Prosecco, crémant and no and low options winning over consumers. The post Henkell Freixenet taps into global sparkling trends appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7228
+        "score": 0.7303
       }
     ],
     "germany": [
@@ -1306,13 +1297,37 @@
           "Review listing strategy for affected channels"
         ],
         "confidence": "high",
-        "score": 0.8424
+        "score": 0.8263
+      },
+      {
+        "title": "Bansk Group to acquire wellness shots brand So Good So You - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53N2RvbzEwbzRRbnZBY1dPQ1NWOWp6VFdQSFVRVS1hRlhDdE43czV5NWZ2S2F0R29lODNjcHFSaU8xNTdvM1Z2TG1VLUdBYmRCR0QySVJEdXR5M0pBb0JtMlRqcXp1R2RGQ0hCS2pEbHJTamh2MDFv?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T12:29:23+00:00",
+        "country_region": "germany",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Bansk Group to acquire wellness shots brand So Good So You Just Drinks",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8069
       },
       {
         "title": "Hopfenanbau in Deutschland ist Immaterielles Kulturerbe - about-drinks.com",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV2xOMTZjOUFUUUQ0M3pyZktlSVFRUmtFZkJMVTlLWlNqdFNfc3VmYWN1Zm8tYXc5X1d3ZGstbXpkZGtOaUk2RmRzM0VNRm9RU20tbW1uWEZfcmlYWUlReGtxU2Q1a0Y2NnZkRjVXZHE2ZzZid0ZYVjRmZ040VTJSSm1Sa1JTYl9leFc3bl9R?oc=5",
         "source": "About Drinks / Getränke News",
-        "published": "2026-03-25T11:29:53+00:00",
+        "published": "2026-03-25T11:30:56+00:00",
         "country_region": "germany",
         "category": "trend",
         "entities": {
@@ -1330,7 +1345,7 @@
           "Align marketing messaging"
         ],
         "confidence": "high",
-        "score": 0.8221
+        "score": 0.8059
       },
       {
         "title": "Diageo sells Royal Challengers Bangalore stake for US$1.78bn",
@@ -1356,7 +1371,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8219
+        "score": 0.8057
       },
       {
         "title": "EU tariff removal ‘levels the competitive landscape’ for Australian wine",
@@ -1382,7 +1397,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8215
+        "score": 0.8054
       },
       {
         "title": "BWSI tritt Zentralverband der deutschen Werbewirtschaft (ZAW) bei - about-drinks.com",
@@ -1406,7 +1421,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8204
+        "score": 0.8043
       },
       {
         "title": "Reh Kendermann ist „Beste Kellerei Deutschland“ - about-drinks.com",
@@ -1430,13 +1445,13 @@
           "Align marketing messaging"
         ],
         "confidence": "high",
-        "score": 0.8203
+        "score": 0.8042
       },
       {
         "title": "Alkoholfreier Aperitif im Trend: Südafrikas Marke Abstinence startet in Deutschland - about-drinks.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWnJ3amN6YzBlUmFEWmtDUE5XUF9DVUM0bTBfOHIxYXZlYjRKeTgzY1FRaGJHX3lxeVBwQkdURjNxQ0lVSEl0Mk5kOXR0aWtQWVRGS1N6R3hwbzVGMmJha0loX0pJQVR2T3VJSG02bXFTQ3k5QWRud1RwU3EyVmh4UWRoS3lORGFaVUhHM0FYcV82eFowWmZ5RGQtWnV6Ynk2eDVrS2c3RzJvT0FjTEp0S0ZIbw?oc=5",
         "source": "About Drinks / Getränke News",
-        "published": "2026-03-25T08:43:50+00:00",
+        "published": "2026-03-25T08:45:51+00:00",
         "country_region": "germany",
         "category": "trend",
         "entities": {
@@ -1454,7 +1469,7 @@
           "Align marketing messaging"
         ],
         "confidence": "high",
-        "score": 0.8192
+        "score": 0.8032
       },
       {
         "title": "Indian brewers warn of beer shortages as US-Iran war hits supply",
@@ -1480,7 +1495,31 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8069
+        "score": 0.7907
+      },
+      {
+        "title": "Eine Familie. Drei Biere. Eine Geschichte. – Waldhaus launcht Klein Fritzle - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHlUdFNjTGo5ZXFOS191RGRCQk8zUVRBb0RCdW9laFI0aGFxb3pMRFptTVo3UHMwdzNwRzJoZEM4RC1aRTlIMFhfYmUwS1dONDc1aTVkT29mYXZzXzg2SlVQdjdEelJzRW15dG9wbGx5dHFCek9MTERxaVRsdkhCeTlvQWhBTWU3cFFveE1oZDNMcll3UnBrR0FSeklPbXZfUHc?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-25T15:25:19+00:00",
+        "country_region": "germany",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Eine Familie. Drei Biere. Eine Geschichte. – Waldhaus launcht Klein Fritzle about-drinks.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7874
       },
       {
         "title": "All the medallists from The Global Merlot Masters 2026",
@@ -1504,7 +1543,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8025
+        "score": 0.7865
       },
       {
         "title": "Hundreds protest Damascus alcohol ban in Syria",
@@ -1528,7 +1567,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8015
+        "score": 0.786
       },
       {
         "title": "Kavalan whisky distillery expands into Bahrain market",
@@ -1552,7 +1591,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7995
+        "score": 0.7833
       },
       {
         "title": "Diageo sets deadline for Royal Challengers Bangalore sale bids",
@@ -1580,7 +1619,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7965
+        "score": 0.7812
       },
       {
         "title": "Fever-Tree profits slide by 16%",
@@ -1608,7 +1647,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.783
+        "score": 0.7677
       },
       {
         "title": "Moscato d’Asti fizz soars 55% in China, bucking global slump",
@@ -1632,7 +1671,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7826
+        "score": 0.7672
       },
       {
         "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
@@ -1656,7 +1695,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7814
+        "score": 0.766
       },
       {
         "title": "MPs call for clearer drink price displays in pubs",
@@ -1680,7 +1719,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7812
+        "score": 0.7658
       },
       {
         "title": "‘Wind down, leave feeling great’: The rise of Hong Kong’s friendly neighbourhood bars",
@@ -1706,7 +1745,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7799
+        "score": 0.7643
       },
       {
         "title": "Oatly launcht Matcha Strawberry Flavour - about-drinks.com",
@@ -1732,33 +1771,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7768
-      },
-      {
-        "title": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ - about-drinks.com",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmlOTG5iNHJKMERTeUdEckx1TDZfRTc0Tm13U3ZmZDdPdm0yWEM5SXg5eE53NzVzU3Zva19iZXp3bG0tenpyM2V2VVNQSFR2ZFgwWnVyNFpTZVNrcExxMHEwLVl3Q2hoWHliNTV3S1BMWFRLYlZkS3M3Tk5rZ3Z4YVVqMUptbTVnZ3pIU3NWeXg5QzQ?oc=5",
-        "source": "About Drinks / Getränke News",
-        "published": "2026-03-24T11:00:37+00:00",
-        "country_region": "germany",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [
-            "can"
-          ],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ about-drinks.com",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7614
       },
       {
         "title": "Can one brand simplify Portugal for UK wine drinkers?",
@@ -1784,7 +1797,33 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7603
+      },
+      {
+        "title": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmlOTG5iNHJKMERTeUdEckx1TDZfRTc0Tm13U3ZmZDdPdm0yWEM5SXg5eE53NzVzU3Zva19iZXp3bG0tenpyM2V2VVNQSFR2ZFgwWnVyNFpTZVNrcExxMHEwLVl3Q2hoWHliNTV3S1BMWFRLYlZkS3M3Tk5rZ3Z4YVVqMUptbTVnZ3pIU3NWeXg5QzQ?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-24T11:00:37+00:00",
+        "country_region": "germany",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [
+            "can"
+          ],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ about-drinks.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7595
       },
       {
         "title": "Fernet-Branca taps March basketball frenzy with ‘Shot of Madness’ campaign",
@@ -1810,7 +1849,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7741
+        "score": 0.7588
       },
       {
         "title": "What’s happening to Chicago’s beer scene?",
@@ -1838,7 +1877,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.767
+        "score": 0.7517
       },
       {
         "title": "Court warns of lengthy process winding up Oenofuture’s liquidation",
@@ -1862,7 +1901,33 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7668
+        "score": 0.7514
+      },
+      {
+        "title": "Jamasi: Privatbrennerei Boente launcht RTD-Range auf Ouzo-Basis - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOVlOZ3AtSFZ1TlNFZWlFT2xkM2RPaEQ0enlLWkFzdWRhZll4NkUtbXFDV0p4UmxGOHRHNHY0azhKaEEwWFY1M3pDRjFXb1NPYXRHWE9mMkc4ajJRVlNHR3gzYWNkSVNia0FaeWYyajBHYVphM29RdmxUODNvYTduN0l5NVNoc3ltcXBPbHp0UTljTzZKQnhJ?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-23T12:10:25+00:00",
+        "country_region": "germany",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [
+          "rtd"
+        ],
+        "summary": "Jamasi: Privatbrennerei Boente launcht RTD-Range auf Ouzo-Basis about-drinks.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7383
       },
       {
         "title": "China’s leading wine regions showcase global ambitions at ProWein",
@@ -1886,7 +1951,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7527
+        "score": 0.7381
       },
       {
         "title": "Bordeaux estate turns to space tech to monitor vines in real time",
@@ -1912,7 +1977,79 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7519
+        "score": 0.7366
+      },
+      {
+        "title": "Reed’s CEO steps down, COO named interim chief - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbW9LY2NzZ3UxUGs1Ny1LLXdWNVp5WmVEejFTRktRZk9iSklIdnNmTmhJVXdETFhwZGlDRWZJa01UaVVIMm00VDBMazBPblR0bzM3MkNrMmpTMjZPREJLZXR2T0d4NmR0UmM1Nkx2UlEyV0tGT3phNGEwMUZsc2MwUUdJRlZ6QnExU0E?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:44:25+00:00",
+        "country_region": "germany",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Reed’s CEO steps down, COO named interim chief Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7362
+      },
+      {
+        "title": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLW1qMVhLakFDSmFidHZlY0NmWXFhd1ZXZmpfdDhBVE9yXzJzZHk4YjVLdllpNzdyYThORHpWUXVETW1vX0VFdHZmLTNMYkt4TF9qRHNNZ2liQ2p4LVpXRllDWHpVTVJ1c1BnQTRqRVBUM3Mtb0xobEJESGtOX0xtaUVjOXdJOXdrWGw3aQ?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:29:05+00:00",
+        "country_region": "germany",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.736
+      },
+      {
+        "title": "Santé, Prost, Salud: Große weite Welt des Apfelweins wieder in Frankfurt zu Gast - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFpPd2VfY1FhMGJTS2VXTDE4aFRlWmRibXBDZWtJSVVzMUFVSldRcjZhaF9razFGZnBmcTJJbHM3TGIzSkVPX3o2My1lUVo5cTlpSURvUDhyNUVac0dncC1LMXVRMmxqU2I3VlM2NHlKUEdJQTNQZ1UzWnozdUFDN19TdnJkQXZEejJ6NXdCTVp5THZpdldMUjUtTHZ6M29GZUhXZkkwZW1aQ1hv?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-25T15:10:56+00:00",
+        "country_region": "germany",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Santé, Prost, Salud: Große weite Welt des Apfelweins wieder in Frankfurt zu Gast about-drinks.com",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7346
       },
       {
         "title": "Paulaner kooperiert mit Tsingtao: Münchner Hell künftig auch in China - about-drinks.com",
@@ -1936,7 +2073,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7492
+        "score": 0.7329
       },
       {
         "title": "Echter Nordhäuser erweitert „Meisterstück“-Linie um 10-jährigen Premium-Kornbrand - about-drinks.com",
@@ -1962,7 +2099,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
@@ -1986,7 +2123,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "A journey through the world of modern rosé",
@@ -2010,7 +2147,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.747
+        "score": 0.7309
       },
       {
         "title": "Gerolsteiner: Sven Hoffmann wird kaufmännischer Geschäftsführer - about-drinks.com",
@@ -2034,7 +2171,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7467
+        "score": 0.7306
       },
       {
         "title": "VITA COLA belohnt Markentreue mit sommerlichen Prämien - about-drinks.com",
@@ -2058,7 +2195,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7466
+        "score": 0.7304
       },
       {
         "title": "Master Winemaker 100: Sandrine Logette-Jardin",
@@ -2082,7 +2219,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7464
+        "score": 0.7303
       },
       {
         "title": "Medieval grape seed reveals 600-year lineage of Pinot Noir",
@@ -2106,7 +2243,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7463
+        "score": 0.7301
       },
       {
         "title": "Top DC bars team up at Silver Lyan to tap cherry blossom footfall",
@@ -2130,13 +2267,13 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7462
+        "score": 0.73
       },
       {
         "title": "Eiskalt. Klar. Aktivierend: Gorbatschow setzt neue Akzente am POS - about-drinks.com",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY0wtTnA5M1c5VnR6a1ZWSFM5SUxtcjBYM29kTDd1S2R4dmMzaGxRS2hnYWRBWTRlajhxQjEwRzRpQkpaUEVuU3BFOHNWWi0tdTRYYkQ4MFFYTXpnUm1BMHZvTW5GdXIxcjNOXzRLQkNmVkc1NndfNzluZWx5Nkdpam9rWlc3a3lXWFZJbDBzelNKSF9TamxR?oc=5",
         "source": "About Drinks / Getränke News",
-        "published": "2026-03-25T10:26:14+00:00",
+        "published": "2026-03-25T10:29:10+00:00",
         "country_region": "germany",
         "category": "trend",
         "entities": {
@@ -2154,7 +2291,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.746
+        "score": 0.7299
       },
       {
         "title": "EiszeitQuell: Feine Limo jetzt in der 0,75-Liter-Glasflasche - about-drinks.com",
@@ -2178,13 +2315,13 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7454
+        "score": 0.7293
       },
       {
         "title": "Lemonaid & ChariTea planen Öffnung für Beteiligung aus der Community - about-drinks.com",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeVZ2MDFKQ2pxalRRYW5zTTEtNnpqZGhpVTlXd0NzX1FJVWx5eGRYVXBTZHJ0UmpXMWhlVUlvektHcHRrMGJucEZkRkM0RU91Q1JwQ1Nzby05RXB1aVZFQ1ZGTGtXN3Z4RnBGS3g1ZkktNDJlT2daMV9NYnpGdi1WSi1yVmsyOWFjSFlPTkEyZEdCUTJtX3NDSDN0NHhtLTA?oc=5",
         "source": "About Drinks / Getränke News",
-        "published": "2026-03-25T08:45:58+00:00",
+        "published": "2026-03-25T08:48:43+00:00",
         "country_region": "germany",
         "category": "trend",
         "entities": {
@@ -2202,7 +2339,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7443
+        "score": 0.7282
       },
       {
         "title": "Eichbaum-Insolvenz: Investor soll Brauerei retten - about-drinks.com",
@@ -2226,7 +2363,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7438
+        "score": 0.7277
       },
       {
         "title": "Futsal Panthers Köln und Gaffel feiern Erfolge der Frauen und Herren - about-drinks.com",
@@ -2250,7 +2387,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7437
+        "score": 0.7276
       },
       {
         "title": "fesslermill1396: Single-Cask-Edition zum 630-jährigen Bestehen der Fessler Mühle - about-drinks.com",
@@ -2274,7 +2411,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7435
+        "score": 0.7274
       },
       {
         "title": "Stefan Kaswurm neuer Commercial Excellence Director bei Coca-Cola HBC Österreich - about-drinks.com",
@@ -2300,7 +2437,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7295
+        "score": 0.7139
       },
       {
         "title": "Heineken shakes up Singapore beer supply - Just Drinks",
@@ -2326,7 +2463,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7273
+        "score": 0.7118
       },
       {
         "title": "Coca-Cola invests again in Fairlife production - Just Drinks",
@@ -2352,7 +2489,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7249
+        "score": 0.7095
       },
       {
         "title": "HUUBERT bringt seine Bestseller im 24-Liter-PolyKeg auf den Markt - about-drinks.com",
@@ -2376,155 +2513,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7247
-      },
-      {
-        "title": "US spirits group buys Waterford Whisky Distillery “core assets” - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTjJuckZMa25CdW4xT3FxampzWnF0WDhqdnNIN0FNbDhRNkZrMVRmQnotd0s3Z0ZlM2xxR0lyNTF0TWNPd3oxdnp0MldXb0ZDQ3Z6dGM4MUZOV2hjZTk5ZFlSQ0l6dFNqMGRiMXN2U2ZZSHlVUXgtZkcyUDhMck83WjBvVkxoVWtnQUpYTXdFM0lBS09NRUZIZ1oyaw?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-24T13:13:39+00:00",
-        "country_region": "germany",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "US spirits group buys Waterford Whisky Distillery “core assets” Just Drinks",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7246
-      },
-      {
-        "title": "Wempe x Liquid Garden: Signature Drinks für ein neues Luxuserlebnis - about-drinks.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb1oyeEV1aGFGS0FBODlJM2pBU3ZvU3FCTkt2NFJDRHlwdlAtaURfREYzRC1RRm95T2FOOGpzMFVteUlFNzRzT2ktYXBRNjR5SU5NMzRfY2ZQTzY5WkxoeEV6ak5mME9sZXFkd1laZFBmY19nRmwtSk54OGduYVBPeWJQc1p3RDZTSnJyLXNyR1p1X2EwRlNud01ZcEpZQQ?oc=5",
-        "source": "About Drinks / Getränke News",
-        "published": "2026-03-24T12:57:45+00:00",
-        "country_region": "germany",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Wempe x Liquid Garden: Signature Drinks für ein neues Luxuserlebnis about-drinks.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7243
-      },
-      {
-        "title": "„Qualität hat Vorrang, strebe nach Exzellenz“ – Mathieu Roland-Billecart über Billecart-Salmon - about-drinks.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXkyNlkwVDZpeG5LV19HcGJLRkN6X0VVX0dPUjZFaVVaYm1jdlpxbkswaFJfVGpqczI1Nkppd3labDFENTZPQVg5TnlKV2Y0dlFfcElQdTh1TTBqcjZfMlc3Qnh3NnkxTUZqYjRsMGtRZWJjTWpvWnBNNHdZRGZkMUI0Z0pXcFpnaEx5ZHRyLWVRSUQ0UUdwa2hyQzF3V1ZGLVNpOGZCQ2dBY2lKTV9tNnE0SXYycVRjMWd4VHZ3?oc=5",
-        "source": "About Drinks / Getränke News",
-        "published": "2026-03-24T12:37:37+00:00",
-        "country_region": "germany",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "„Qualität hat Vorrang, strebe nach Exzellenz“ – Mathieu Roland-Billecart über Billecart-Salmon about-drinks.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.724
-      },
-      {
-        "title": "Cruise ship brews beer from desalinated seawater",
-        "url": "https://www.thedrinksbusiness.com/2026/03/cruise-ship-brews-beer-from-desalinated-seawater/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:32:43+00:00",
-        "country_region": "germany",
-        "category": "trend",
-        "entities": {
-          "companies": [
-            "Rewe"
-          ],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "A microbrewery onboard a cruise ship that uses treated seawater to brew has been described as a “world first” for the sector. The post Cruise ship brews beer from desalinated seawater appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7229
-      },
-      {
-        "title": "Henkell Freixenet taps into global sparkling trends",
-        "url": "https://www.thedrinksbusiness.com/2026/03/henkell-freixenet-taps-into-global-sparkling-trends/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:26:12+00:00",
-        "country_region": "germany",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [
-          "carbonated"
-        ],
-        "summary": "The world's largest producer of sparkling wines used a Wine Paris masterclass to survey the trends driving the category, with Prosecco, crémant and no and low options winning over consumers. The post Henkell Freixenet taps into global sparkling trends appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7228
-      },
-      {
-        "title": "New data reveals bumper 2025 harvest for UK vineyards",
-        "url": "https://www.thedrinksbusiness.com/2026/03/new-data-reveals-bumper-2025-harvest-for-uk-vineyards/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:01:35+00:00",
-        "country_region": "germany",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "WineGB has published its 2025 harvest report alongside the latest edition of its viticultural Green Book as the new growing season begins. Data from the Food Standards Agency confirms a sharp rise in UK wine production following what producers describe as an unusually favourable year. The post New data reveals bumper 2025 harvest for UK vineyards appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7224
+        "score": 0.7093
       }
     ],
     "france": [
@@ -2552,7 +2541,31 @@
           "Review listing strategy for affected channels"
         ],
         "confidence": "high",
-        "score": 0.8424
+        "score": 0.8263
+      },
+      {
+        "title": "Bansk Group to acquire wellness shots brand So Good So You - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53N2RvbzEwbzRRbnZBY1dPQ1NWOWp6VFdQSFVRVS1hRlhDdE43czV5NWZ2S2F0R29lODNjcHFSaU8xNTdvM1Z2TG1VLUdBYmRCR0QySVJEdXR5M0pBb0JtMlRqcXp1R2RGQ0hCS2pEbHJTamh2MDFv?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T12:29:23+00:00",
+        "country_region": "france",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Bansk Group to acquire wellness shots brand So Good So You Just Drinks",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8069
       },
       {
         "title": "Diageo sells Royal Challengers Bangalore stake for US$1.78bn",
@@ -2578,7 +2591,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8219
+        "score": 0.8057
       },
       {
         "title": "EU tariff removal ‘levels the competitive landscape’ for Australian wine",
@@ -2604,7 +2617,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8215
+        "score": 0.8054
       },
       {
         "title": "Indian brewers warn of beer shortages as US-Iran war hits supply",
@@ -2630,7 +2643,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8069
+        "score": 0.7907
       },
       {
         "title": "All the medallists from The Global Merlot Masters 2026",
@@ -2654,7 +2667,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8025
+        "score": 0.7865
       },
       {
         "title": "Hundreds protest Damascus alcohol ban in Syria",
@@ -2678,7 +2691,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8015
+        "score": 0.786
       },
       {
         "title": "Kavalan whisky distillery expands into Bahrain market",
@@ -2702,7 +2715,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7995
+        "score": 0.7833
       },
       {
         "title": "Diageo sets deadline for Royal Challengers Bangalore sale bids",
@@ -2730,7 +2743,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7965
+        "score": 0.7812
       },
       {
         "title": "Fever-Tree profits slide by 16%",
@@ -2758,7 +2771,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.783
+        "score": 0.7677
       },
       {
         "title": "Moscato d’Asti fizz soars 55% in China, bucking global slump",
@@ -2782,7 +2795,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7826
+        "score": 0.7672
       },
       {
         "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
@@ -2806,7 +2819,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7814
+        "score": 0.766
       },
       {
         "title": "MPs call for clearer drink price displays in pubs",
@@ -2830,7 +2843,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7812
+        "score": 0.7658
       },
       {
         "title": "‘Wind down, leave feeling great’: The rise of Hong Kong’s friendly neighbourhood bars",
@@ -2856,7 +2869,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7799
+        "score": 0.7643
       },
       {
         "title": "Can one brand simplify Portugal for UK wine drinkers?",
@@ -2882,7 +2895,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7603
       },
       {
         "title": "Fernet-Branca taps March basketball frenzy with ‘Shot of Madness’ campaign",
@@ -2908,7 +2921,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7741
+        "score": 0.7588
       },
       {
         "title": "What’s happening to Chicago’s beer scene?",
@@ -2936,7 +2949,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.767
+        "score": 0.7517
       },
       {
         "title": "Court warns of lengthy process winding up Oenofuture’s liquidation",
@@ -2960,7 +2973,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7668
+        "score": 0.7514
       },
       {
         "title": "China’s leading wine regions showcase global ambitions at ProWein",
@@ -2984,7 +2997,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7527
+        "score": 0.7381
       },
       {
         "title": "Bordeaux estate turns to space tech to monitor vines in real time",
@@ -3010,7 +3023,55 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7519
+        "score": 0.7366
+      },
+      {
+        "title": "Reed’s CEO steps down, COO named interim chief - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbW9LY2NzZ3UxUGs1Ny1LLXdWNVp5WmVEejFTRktRZk9iSklIdnNmTmhJVXdETFhwZGlDRWZJa01UaVVIMm00VDBMazBPblR0bzM3MkNrMmpTMjZPREJLZXR2T0d4NmR0UmM1Nkx2UlEyV0tGT3phNGEwMUZsc2MwUUdJRlZ6QnExU0E?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:44:25+00:00",
+        "country_region": "france",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Reed’s CEO steps down, COO named interim chief Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7362
+      },
+      {
+        "title": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLW1qMVhLakFDSmFidHZlY0NmWXFhd1ZXZmpfdDhBVE9yXzJzZHk4YjVLdllpNzdyYThORHpWUXVETW1vX0VFdHZmLTNMYkt4TF9qRHNNZ2liQ2p4LVpXRllDWHpVTVJ1c1BnQTRqRVBUM3Mtb0xobEJESGtOX0xtaUVjOXdJOXdrWGw3aQ?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:29:05+00:00",
+        "country_region": "france",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.736
       },
       {
         "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
@@ -3034,7 +3095,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "A journey through the world of modern rosé",
@@ -3058,7 +3119,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.747
+        "score": 0.7309
       },
       {
         "title": "Master Winemaker 100: Sandrine Logette-Jardin",
@@ -3082,7 +3143,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7464
+        "score": 0.7303
       },
       {
         "title": "Medieval grape seed reveals 600-year lineage of Pinot Noir",
@@ -3106,7 +3167,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7463
+        "score": 0.7301
       },
       {
         "title": "Top DC bars team up at Silver Lyan to tap cherry blossom footfall",
@@ -3130,7 +3191,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7462
+        "score": 0.73
       },
       {
         "title": "Heineken shakes up Singapore beer supply - Just Drinks",
@@ -3156,7 +3217,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7273
+        "score": 0.7118
       },
       {
         "title": "Coca-Cola invests again in Fairlife production - Just Drinks",
@@ -3182,7 +3243,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7249
+        "score": 0.7095
       },
       {
         "title": "US spirits group buys Waterford Whisky Distillery “core assets” - Just Drinks",
@@ -3206,7 +3267,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7246
+        "score": 0.7091
       },
       {
         "title": "Cruise ship brews beer from desalinated seawater",
@@ -3232,7 +3293,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7229
+        "score": 0.7075
       },
       {
         "title": "Henkell Freixenet taps into global sparkling trends",
@@ -3258,7 +3319,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7228
+        "score": 0.7074
       },
       {
         "title": "New data reveals bumper 2025 harvest for UK vineyards",
@@ -3282,7 +3343,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7224
+        "score": 0.707
       },
       {
         "title": "‘Generational shift’ likely to prompt ‘fundamental changes’ to the way fine wine is sold",
@@ -3306,10 +3367,10 @@
           "Adjust forecasts if needed"
         ],
         "confidence": "medium",
-        "score": 0.7128
+        "score": 0.6973
       },
       {
-        "title": "Pernod Ricard makes US distribution rejig - Just Drinks",
+        "title": "Pernod Ricard to shift distribution away from RNDC in US - Just Drinks",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SU3pzNFF0dXRmYUU5UGUtTFlMWmM5TUtpTnZuNVR0T1RKSk1EbkJYSWdzNEN6OHBGTGNTM19rZGo3MmFhY3FINjZQNWtfRlkxcDhsRXZhZWRNYm1YOWFfckI2TFZfMy1wcFM0UnFPdUliRlNUM1BYdg?oc=5",
         "source": "Just-Drinks",
         "published": "2026-03-23T18:52:54+00:00",
@@ -3323,14 +3384,14 @@
           "channels": []
         },
         "product_tags": [],
-        "summary": "Pernod Ricard makes US distribution rejig Just Drinks",
+        "summary": "Pernod Ricard to shift distribution away from RNDC in US Just Drinks",
         "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
         "sales_angles": [
           "Include in next customer presentation",
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7068
+        "score": 0.6919
       },
       {
         "title": "Australia’s Wirra Wirra to buy local Grenache vineyard - Just Drinks",
@@ -3354,7 +3415,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7062
+        "score": 0.6914
       },
       {
         "title": "Molson Coors to snap up RTD cocktails maker Atomic Brands - Just Drinks",
@@ -3380,7 +3441,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7013
+        "score": 0.6866
       },
       {
         "title": "Why Pol Roger has confidence in sales of Champagne in the UK",
@@ -3404,7 +3465,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7001
+        "score": 0.6855
       },
       {
         "title": "Wine world mourns Bordeaux legend Michel Rolland",
@@ -3428,7 +3489,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6999
+        "score": 0.6853
       },
       {
         "title": "Amber Beverage Group provides update on notes default - Just Drinks",
@@ -3452,7 +3513,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6993
+        "score": 0.6847
       },
       {
         "title": "Abundant coffee crops; consumer wobbles and the Iran conflict: Another shake-up for coffee prices? - BeverageDaily.com",
@@ -3476,7 +3537,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.6944
+        "score": 0.6819
       },
       {
         "title": "New beverage launches: Grey Goose Prada, Stoli RTD, Faccia and more… - BeverageDaily.com",
@@ -3502,31 +3563,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.6885
-      },
-      {
-        "title": "Henkell Freixenet eyes spritz demand with Mionetto launch - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUmQzNmJYdkVMWjRacTJJNjdza0NQdzJrR2w2SzAyVUFoLU9OMTNEUGFDTDVYOF82X2ZpUVhWNEZ0R2ZHenR1blZtUHR1SkRuMm5GZElmWGxiQ1Y2LUhmcmEtSUJXcHM4OWFKVFJISk02cGk4ck8yY2xNa1B4SUNrM0plaktGRUkzMHRPek5QUDNoemY1U2c?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-19T13:57:25+00:00",
-        "country_region": "france",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Henkell Freixenet eyes spritz demand with Mionetto launch Just Drinks",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.6726
+        "score": 0.6759
       },
       {
         "title": "Carving out the functional frontier of alcohol-free drinks - BeverageDaily.com",
@@ -3553,7 +3590,7 @@
           "Assess consumer relevance for our markets"
         ],
         "confidence": "medium",
-        "score": 0.66
+        "score": 0.6472
       },
       {
         "title": "Brewers’ global search for growth opportunities - BeverageDaily.com",
@@ -3579,31 +3616,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6452
-      },
-      {
-        "title": "Varun Beverages lines up another acquisition in South Africa - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBldENDY3EzdkV5X3RZZHUwVjJGOFFEd1NVNGRIN0ZYVk1VdzFSNmljaks0a3JmbExYb0JMc2VZZFZCalE4NFZ0Um9wZE1ibTl2WEV6TFhCXzdaemFUSmNQZWVrQXo2ZGpJZmZzTEpxNHItMTk3bUhCVmpUS1BYVms?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-18T11:01:10+00:00",
-        "country_region": "france",
-        "category": "competitor",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Varun Beverages lines up another acquisition in South Africa Just Drinks",
-        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-        "sales_angles": [
-          "Update competitive intelligence file",
-          "Prepare defensive talking points for key accounts"
-        ],
-        "confidence": "medium",
-        "score": 0.6449
+        "score": 0.6324
       },
       {
         "title": "Uncle Nearest Chapter 11 filing dismissed - Just Drinks",
@@ -3627,7 +3640,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6398
+        "score": 0.6271
       },
       {
         "title": "Cava sales hit again by drought in 2025 - Just Drinks",
@@ -3651,7 +3664,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6382
+        "score": 0.6255
       },
       {
         "title": "“We need to put stability in place” – Tilray Brands CEO on what lies ahead for BrewDog - Just Drinks",
@@ -3675,7 +3688,31 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6366
+        "score": 0.6241
+      },
+      {
+        "title": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon - Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMVdxRkxsOGRyMWZ2Qmsxd3lRaFlab2J1YzZ6TVFwVXU1YzVTQnFSVF9UZGdiRElqOGdJNkR1dkgyemRiVGFMbDJHNDlsTmQwS0t2REF5ejVKRGtReWpueXBtcUJDTlhtTjEyWnk3R2RLeHdkVU5DLWVKblRWOWwtUDhoTnhLajNQOHhSYUtDZ2s1UGRIaHU5WHhtUWRQd2Ria2ZPQnhsQllsdjFMNTUxVWUzZE84RWhHY3ZPVm1XZ1Z1cDRQOVZLdTRRVzVDdDJa?oc=5",
+        "source": "EU Beverage Regulation",
+        "published": "2026-03-16T07:00:00+00:00",
+        "country_region": "france",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon Euronews.com",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.6238
       },
       {
         "title": "Sazerac snaps up US RTD brand Dirty Shirley - Just Drinks",
@@ -3701,31 +3738,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.636
-      },
-      {
-        "title": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon - Euronews",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMVdxRkxsOGRyMWZ2Qmsxd3lRaFlab2J1YzZ6TVFwVXU1YzVTQnFSVF9UZGdiRElqOGdJNkR1dkgyemRiVGFMbDJHNDlsTmQwS0t2REF5ejVKRGtReWpueXBtcUJDTlhtTjEyWnk3R2RLeHdkVU5DLWVKblRWOWwtUDhoTnhLajNQOHhSYUtDZ2s1UGRIaHU5WHhtUWRQd2Ria2ZPQnhsQllsdjFMNTUxVWUzZE84RWhHY3ZPVm1XZ1Z1cDRQOVZLdTRRVzVDdDJa?oc=5",
-        "source": "EU Beverage Regulation",
-        "published": "2026-03-16T07:00:00+00:00",
-        "country_region": "france",
-        "category": "regulatory",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon Euronews",
-        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-        "sales_angles": [
-          "Check compliance timeline with quality team",
-          "Brief customers on regulatory impact"
-        ],
-        "confidence": "medium",
-        "score": 0.634
+        "score": 0.6234
       },
       {
         "title": "Olipop ramps up focus on flavour innovation as functional beverages boom - BeverageDaily.com",
@@ -3751,31 +3764,7 @@
           "Assess consumer relevance for our markets"
         ],
         "confidence": "medium",
-        "score": 0.6324
-      },
-      {
-        "title": "Blue Monkey eyes more M&A after Local Weather deal - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdERZODUzZWxXdW5uM2xiT3dKQ3V4WEpLZFFrdzNzRWJ1VElzWGkzVVJnZjZtejllS1JmSVU0R0tXTmY1dHR2VGc5ZnVlRlhYN3JlNzZVcTJuQnctdmhmd0x0eGVkZHpUN2NaNE1yYndxSjJwemkwUWtVY1dHcFZJaWpQUFUwMGlzaG1Z?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-17T11:15:38+00:00",
-        "country_region": "france",
-        "category": "competitor",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Blue Monkey eyes more M&A after Local Weather deal Just Drinks",
-        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-        "sales_angles": [
-          "Update competitive intelligence file",
-          "Prepare defensive talking points for key accounts"
-        ],
-        "confidence": "medium",
-        "score": 0.628
+        "score": 0.6204
       }
     ],
     "spain": [
@@ -3801,7 +3790,31 @@
           "Align marketing messaging"
         ],
         "confidence": "high",
-        "score": 0.9219
+        "score": 0.9058
+      },
+      {
+        "title": "Bansk Group to acquire wellness shots brand So Good So You - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53N2RvbzEwbzRRbnZBY1dPQ1NWOWp6VFdQSFVRVS1hRlhDdE43czV5NWZ2S2F0R29lODNjcHFSaU8xNTdvM1Z2TG1VLUdBYmRCR0QySVJEdXR5M0pBb0JtMlRqcXp1R2RGQ0hCS2pEbHJTamh2MDFv?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T12:29:23+00:00",
+        "country_region": "spain",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Bansk Group to acquire wellness shots brand So Good So You Just Drinks",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8069
       },
       {
         "title": "Diageo sells Royal Challengers Bangalore stake for US$1.78bn",
@@ -3827,7 +3840,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8219
+        "score": 0.8057
       },
       {
         "title": "EU tariff removal ‘levels the competitive landscape’ for Australian wine",
@@ -3853,7 +3866,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8215
+        "score": 0.8054
       },
       {
         "title": "Indian brewers warn of beer shortages as US-Iran war hits supply",
@@ -3879,7 +3892,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8069
+        "score": 0.7907
       },
       {
         "title": "All the medallists from The Global Merlot Masters 2026",
@@ -3903,7 +3916,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8025
+        "score": 0.7865
       },
       {
         "title": "Hundreds protest Damascus alcohol ban in Syria",
@@ -3927,7 +3940,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8015
+        "score": 0.786
       },
       {
         "title": "Kavalan whisky distillery expands into Bahrain market",
@@ -3951,7 +3964,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7995
+        "score": 0.7833
       },
       {
         "title": "Diageo sets deadline for Royal Challengers Bangalore sale bids",
@@ -3979,7 +3992,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7965
+        "score": 0.7812
       },
       {
         "title": "Fever-Tree profits slide by 16%",
@@ -4007,7 +4020,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.783
+        "score": 0.7677
       },
       {
         "title": "Moscato d’Asti fizz soars 55% in China, bucking global slump",
@@ -4031,7 +4044,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7826
+        "score": 0.7672
       },
       {
         "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
@@ -4055,7 +4068,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7814
+        "score": 0.766
       },
       {
         "title": "MPs call for clearer drink price displays in pubs",
@@ -4079,7 +4092,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7812
+        "score": 0.7658
       },
       {
         "title": "‘Wind down, leave feeling great’: The rise of Hong Kong’s friendly neighbourhood bars",
@@ -4105,7 +4118,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7799
+        "score": 0.7643
       },
       {
         "title": "Can one brand simplify Portugal for UK wine drinkers?",
@@ -4131,7 +4144,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7603
       },
       {
         "title": "Fernet-Branca taps March basketball frenzy with ‘Shot of Madness’ campaign",
@@ -4157,7 +4170,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7741
+        "score": 0.7588
       },
       {
         "title": "What’s happening to Chicago’s beer scene?",
@@ -4185,7 +4198,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.767
+        "score": 0.7517
       },
       {
         "title": "Court warns of lengthy process winding up Oenofuture’s liquidation",
@@ -4209,7 +4222,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7668
+        "score": 0.7514
       },
       {
         "title": "China’s leading wine regions showcase global ambitions at ProWein",
@@ -4233,7 +4246,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7527
+        "score": 0.7381
       },
       {
         "title": "Bordeaux estate turns to space tech to monitor vines in real time",
@@ -4259,7 +4272,55 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7519
+        "score": 0.7366
+      },
+      {
+        "title": "Reed’s CEO steps down, COO named interim chief - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbW9LY2NzZ3UxUGs1Ny1LLXdWNVp5WmVEejFTRktRZk9iSklIdnNmTmhJVXdETFhwZGlDRWZJa01UaVVIMm00VDBMazBPblR0bzM3MkNrMmpTMjZPREJLZXR2T0d4NmR0UmM1Nkx2UlEyV0tGT3phNGEwMUZsc2MwUUdJRlZ6QnExU0E?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:44:25+00:00",
+        "country_region": "spain",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Reed’s CEO steps down, COO named interim chief Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7362
+      },
+      {
+        "title": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLW1qMVhLakFDSmFidHZlY0NmWXFhd1ZXZmpfdDhBVE9yXzJzZHk4YjVLdllpNzdyYThORHpWUXVETW1vX0VFdHZmLTNMYkt4TF9qRHNNZ2liQ2p4LVpXRllDWHpVTVJ1c1BnQTRqRVBUM3Mtb0xobEJESGtOX0xtaUVjOXdJOXdrWGw3aQ?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:29:05+00:00",
+        "country_region": "spain",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.736
       },
       {
         "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
@@ -4283,7 +4344,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "A journey through the world of modern rosé",
@@ -4307,7 +4368,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.747
+        "score": 0.7309
       },
       {
         "title": "Master Winemaker 100: Sandrine Logette-Jardin",
@@ -4331,7 +4392,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7464
+        "score": 0.7303
       },
       {
         "title": "Medieval grape seed reveals 600-year lineage of Pinot Noir",
@@ -4355,7 +4416,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7463
+        "score": 0.7301
       },
       {
         "title": "Top DC bars team up at Silver Lyan to tap cherry blossom footfall",
@@ -4379,7 +4440,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7462
+        "score": 0.73
       },
       {
         "title": "Heineken shakes up Singapore beer supply - Just Drinks",
@@ -4405,7 +4466,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7273
+        "score": 0.7118
       },
       {
         "title": "Coca-Cola invests again in Fairlife production - Just Drinks",
@@ -4431,7 +4492,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7249
+        "score": 0.7095
       },
       {
         "title": "US spirits group buys Waterford Whisky Distillery “core assets” - Just Drinks",
@@ -4455,7 +4516,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7246
+        "score": 0.7091
       },
       {
         "title": "Cruise ship brews beer from desalinated seawater",
@@ -4481,7 +4542,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7229
+        "score": 0.7075
       },
       {
         "title": "Henkell Freixenet taps into global sparkling trends",
@@ -4507,7 +4568,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7228
+        "score": 0.7074
       },
       {
         "title": "New data reveals bumper 2025 harvest for UK vineyards",
@@ -4531,7 +4592,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7224
+        "score": 0.707
       },
       {
         "title": "‘Generational shift’ likely to prompt ‘fundamental changes’ to the way fine wine is sold",
@@ -4555,10 +4616,10 @@
           "Adjust forecasts if needed"
         ],
         "confidence": "medium",
-        "score": 0.7128
+        "score": 0.6973
       },
       {
-        "title": "Pernod Ricard makes US distribution rejig - Just Drinks",
+        "title": "Pernod Ricard to shift distribution away from RNDC in US - Just Drinks",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SU3pzNFF0dXRmYUU5UGUtTFlMWmM5TUtpTnZuNVR0T1RKSk1EbkJYSWdzNEN6OHBGTGNTM19rZGo3MmFhY3FINjZQNWtfRlkxcDhsRXZhZWRNYm1YOWFfckI2TFZfMy1wcFM0UnFPdUliRlNUM1BYdg?oc=5",
         "source": "Just-Drinks",
         "published": "2026-03-23T18:52:54+00:00",
@@ -4572,14 +4633,14 @@
           "channels": []
         },
         "product_tags": [],
-        "summary": "Pernod Ricard makes US distribution rejig Just Drinks",
+        "summary": "Pernod Ricard to shift distribution away from RNDC in US Just Drinks",
         "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
         "sales_angles": [
           "Include in next customer presentation",
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7068
+        "score": 0.6919
       },
       {
         "title": "Australia’s Wirra Wirra to buy local Grenache vineyard - Just Drinks",
@@ -4603,7 +4664,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7062
+        "score": 0.6914
       },
       {
         "title": "Molson Coors to snap up RTD cocktails maker Atomic Brands - Just Drinks",
@@ -4629,7 +4690,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7013
+        "score": 0.6866
       },
       {
         "title": "Why Pol Roger has confidence in sales of Champagne in the UK",
@@ -4653,7 +4714,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7001
+        "score": 0.6855
       },
       {
         "title": "Wine world mourns Bordeaux legend Michel Rolland",
@@ -4677,7 +4738,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6999
+        "score": 0.6853
       },
       {
         "title": "Amber Beverage Group provides update on notes default - Just Drinks",
@@ -4701,7 +4762,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6993
+        "score": 0.6847
       },
       {
         "title": "Abundant coffee crops; consumer wobbles and the Iran conflict: Another shake-up for coffee prices? - BeverageDaily.com",
@@ -4725,7 +4786,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.6944
+        "score": 0.6819
       },
       {
         "title": "New beverage launches: Grey Goose Prada, Stoli RTD, Faccia and more… - BeverageDaily.com",
@@ -4751,31 +4812,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.6885
-      },
-      {
-        "title": "Henkell Freixenet eyes spritz demand with Mionetto launch - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUmQzNmJYdkVMWjRacTJJNjdza0NQdzJrR2w2SzAyVUFoLU9OMTNEUGFDTDVYOF82X2ZpUVhWNEZ0R2ZHenR1blZtUHR1SkRuMm5GZElmWGxiQ1Y2LUhmcmEtSUJXcHM4OWFKVFJISk02cGk4ck8yY2xNa1B4SUNrM0plaktGRUkzMHRPek5QUDNoemY1U2c?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-19T13:57:25+00:00",
-        "country_region": "spain",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Henkell Freixenet eyes spritz demand with Mionetto launch Just Drinks",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.6726
+        "score": 0.6759
       },
       {
         "title": "Carving out the functional frontier of alcohol-free drinks - BeverageDaily.com",
@@ -4802,7 +4839,7 @@
           "Assess consumer relevance for our markets"
         ],
         "confidence": "medium",
-        "score": 0.66
+        "score": 0.6472
       },
       {
         "title": "Brewers’ global search for growth opportunities - BeverageDaily.com",
@@ -4828,31 +4865,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6452
-      },
-      {
-        "title": "Varun Beverages lines up another acquisition in South Africa - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBldENDY3EzdkV5X3RZZHUwVjJGOFFEd1NVNGRIN0ZYVk1VdzFSNmljaks0a3JmbExYb0JMc2VZZFZCalE4NFZ0Um9wZE1ibTl2WEV6TFhCXzdaemFUSmNQZWVrQXo2ZGpJZmZzTEpxNHItMTk3bUhCVmpUS1BYVms?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-18T11:01:10+00:00",
-        "country_region": "spain",
-        "category": "competitor",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Varun Beverages lines up another acquisition in South Africa Just Drinks",
-        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-        "sales_angles": [
-          "Update competitive intelligence file",
-          "Prepare defensive talking points for key accounts"
-        ],
-        "confidence": "medium",
-        "score": 0.6449
+        "score": 0.6324
       },
       {
         "title": "Uncle Nearest Chapter 11 filing dismissed - Just Drinks",
@@ -4876,7 +4889,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6398
+        "score": 0.6271
       },
       {
         "title": "Cava sales hit again by drought in 2025 - Just Drinks",
@@ -4900,7 +4913,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6382
+        "score": 0.6255
       },
       {
         "title": "“We need to put stability in place” – Tilray Brands CEO on what lies ahead for BrewDog - Just Drinks",
@@ -4924,7 +4937,31 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6366
+        "score": 0.6241
+      },
+      {
+        "title": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon - Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMVdxRkxsOGRyMWZ2Qmsxd3lRaFlab2J1YzZ6TVFwVXU1YzVTQnFSVF9UZGdiRElqOGdJNkR1dkgyemRiVGFMbDJHNDlsTmQwS0t2REF5ejVKRGtReWpueXBtcUJDTlhtTjEyWnk3R2RLeHdkVU5DLWVKblRWOWwtUDhoTnhLajNQOHhSYUtDZ2s1UGRIaHU5WHhtUWRQd2Ria2ZPQnhsQllsdjFMNTUxVWUzZE84RWhHY3ZPVm1XZ1Z1cDRQOVZLdTRRVzVDdDJa?oc=5",
+        "source": "EU Beverage Regulation",
+        "published": "2026-03-16T07:00:00+00:00",
+        "country_region": "spain",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon Euronews.com",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.6238
       },
       {
         "title": "Sazerac snaps up US RTD brand Dirty Shirley - Just Drinks",
@@ -4950,31 +4987,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.636
-      },
-      {
-        "title": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon - Euronews",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMVdxRkxsOGRyMWZ2Qmsxd3lRaFlab2J1YzZ6TVFwVXU1YzVTQnFSVF9UZGdiRElqOGdJNkR1dkgyemRiVGFMbDJHNDlsTmQwS0t2REF5ejVKRGtReWpueXBtcUJDTlhtTjEyWnk3R2RLeHdkVU5DLWVKblRWOWwtUDhoTnhLajNQOHhSYUtDZ2s1UGRIaHU5WHhtUWRQd2Ria2ZPQnhsQllsdjFMNTUxVWUzZE84RWhHY3ZPVm1XZ1Z1cDRQOVZLdTRRVzVDdDJa?oc=5",
-        "source": "EU Beverage Regulation",
-        "published": "2026-03-16T07:00:00+00:00",
-        "country_region": "spain",
-        "category": "regulatory",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon Euronews",
-        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-        "sales_angles": [
-          "Check compliance timeline with quality team",
-          "Brief customers on regulatory impact"
-        ],
-        "confidence": "medium",
-        "score": 0.634
+        "score": 0.6234
       },
       {
         "title": "Olipop ramps up focus on flavour innovation as functional beverages boom - BeverageDaily.com",
@@ -5000,31 +5013,7 @@
           "Assess consumer relevance for our markets"
         ],
         "confidence": "medium",
-        "score": 0.6324
-      },
-      {
-        "title": "Blue Monkey eyes more M&A after Local Weather deal - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdERZODUzZWxXdW5uM2xiT3dKQ3V4WEpLZFFrdzNzRWJ1VElzWGkzVVJnZjZtejllS1JmSVU0R0tXTmY1dHR2VGc5ZnVlRlhYN3JlNzZVcTJuQnctdmhmd0x0eGVkZHpUN2NaNE1yYndxSjJwemkwUWtVY1dHcFZJaWpQUFUwMGlzaG1Z?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-17T11:15:38+00:00",
-        "country_region": "spain",
-        "category": "competitor",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Blue Monkey eyes more M&A after Local Weather deal Just Drinks",
-        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-        "sales_angles": [
-          "Update competitive intelligence file",
-          "Prepare defensive talking points for key accounts"
-        ],
-        "confidence": "medium",
-        "score": 0.628
+        "score": 0.6204
       }
     ],
     "italy": [
@@ -5052,7 +5041,31 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "high",
-        "score": 0.8278
+        "score": 0.8124
+      },
+      {
+        "title": "Bansk Group to acquire wellness shots brand So Good So You - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53N2RvbzEwbzRRbnZBY1dPQ1NWOWp6VFdQSFVRVS1hRlhDdE43czV5NWZ2S2F0R29lODNjcHFSaU8xNTdvM1Z2TG1VLUdBYmRCR0QySVJEdXR5M0pBb0JtMlRqcXp1R2RGQ0hCS2pEbHJTamh2MDFv?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T12:29:23+00:00",
+        "country_region": "italy",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Bansk Group to acquire wellness shots brand So Good So You Just Drinks",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.8069
       },
       {
         "title": "Diageo sells Royal Challengers Bangalore stake for US$1.78bn",
@@ -5078,7 +5091,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8219
+        "score": 0.8057
       },
       {
         "title": "EU tariff removal ‘levels the competitive landscape’ for Australian wine",
@@ -5104,7 +5117,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8215
+        "score": 0.8054
       },
       {
         "title": "Indian brewers warn of beer shortages as US-Iran war hits supply",
@@ -5130,7 +5143,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8069
+        "score": 0.7907
       },
       {
         "title": "All the medallists from The Global Merlot Masters 2026",
@@ -5154,7 +5167,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8025
+        "score": 0.7865
       },
       {
         "title": "Hundreds protest Damascus alcohol ban in Syria",
@@ -5178,7 +5191,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8015
+        "score": 0.786
       },
       {
         "title": "Kavalan whisky distillery expands into Bahrain market",
@@ -5202,7 +5215,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7995
+        "score": 0.7833
       },
       {
         "title": "Diageo sets deadline for Royal Challengers Bangalore sale bids",
@@ -5230,7 +5243,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7965
+        "score": 0.7812
       },
       {
         "title": "Fever-Tree profits slide by 16%",
@@ -5258,7 +5271,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.783
+        "score": 0.7677
       },
       {
         "title": "Moscato d’Asti fizz soars 55% in China, bucking global slump",
@@ -5282,7 +5295,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7826
+        "score": 0.7672
       },
       {
         "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
@@ -5306,7 +5319,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7814
+        "score": 0.766
       },
       {
         "title": "MPs call for clearer drink price displays in pubs",
@@ -5330,7 +5343,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7812
+        "score": 0.7658
       },
       {
         "title": "‘Wind down, leave feeling great’: The rise of Hong Kong’s friendly neighbourhood bars",
@@ -5356,7 +5369,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7799
+        "score": 0.7643
       },
       {
         "title": "Can one brand simplify Portugal for UK wine drinkers?",
@@ -5382,7 +5395,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7603
       },
       {
         "title": "Fernet-Branca taps March basketball frenzy with ‘Shot of Madness’ campaign",
@@ -5408,7 +5421,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7741
+        "score": 0.7588
       },
       {
         "title": "What’s happening to Chicago’s beer scene?",
@@ -5436,7 +5449,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.767
+        "score": 0.7517
       },
       {
         "title": "Court warns of lengthy process winding up Oenofuture’s liquidation",
@@ -5460,7 +5473,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7668
+        "score": 0.7514
       },
       {
         "title": "China’s leading wine regions showcase global ambitions at ProWein",
@@ -5484,7 +5497,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7527
+        "score": 0.7381
       },
       {
         "title": "Bordeaux estate turns to space tech to monitor vines in real time",
@@ -5510,7 +5523,55 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7519
+        "score": 0.7366
+      },
+      {
+        "title": "Reed’s CEO steps down, COO named interim chief - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbW9LY2NzZ3UxUGs1Ny1LLXdWNVp5WmVEejFTRktRZk9iSklIdnNmTmhJVXdETFhwZGlDRWZJa01UaVVIMm00VDBMazBPblR0bzM3MkNrMmpTMjZPREJLZXR2T0d4NmR0UmM1Nkx2UlEyV0tGT3phNGEwMUZsc2MwUUdJRlZ6QnExU0E?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:44:25+00:00",
+        "country_region": "italy",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Reed’s CEO steps down, COO named interim chief Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7362
+      },
+      {
+        "title": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLW1qMVhLakFDSmFidHZlY0NmWXFhd1ZXZmpfdDhBVE9yXzJzZHk4YjVLdllpNzdyYThORHpWUXVETW1vX0VFdHZmLTNMYkt4TF9qRHNNZ2liQ2p4LVpXRllDWHpVTVJ1c1BnQTRqRVBUM3Mtb0xobEJESGtOX0xtaUVjOXdJOXdrWGw3aQ?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:29:05+00:00",
+        "country_region": "italy",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.736
       },
       {
         "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
@@ -5534,7 +5595,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "A journey through the world of modern rosé",
@@ -5558,7 +5619,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.747
+        "score": 0.7309
       },
       {
         "title": "Master Winemaker 100: Sandrine Logette-Jardin",
@@ -5582,7 +5643,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7464
+        "score": 0.7303
       },
       {
         "title": "Medieval grape seed reveals 600-year lineage of Pinot Noir",
@@ -5606,7 +5667,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7463
+        "score": 0.7301
       },
       {
         "title": "Top DC bars team up at Silver Lyan to tap cherry blossom footfall",
@@ -5630,7 +5691,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7462
+        "score": 0.73
       },
       {
         "title": "Heineken shakes up Singapore beer supply - Just Drinks",
@@ -5656,7 +5717,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7273
+        "score": 0.7118
       },
       {
         "title": "Coca-Cola invests again in Fairlife production - Just Drinks",
@@ -5682,7 +5743,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7249
+        "score": 0.7095
       },
       {
         "title": "US spirits group buys Waterford Whisky Distillery “core assets” - Just Drinks",
@@ -5706,7 +5767,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7246
+        "score": 0.7091
       },
       {
         "title": "Cruise ship brews beer from desalinated seawater",
@@ -5732,7 +5793,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7229
+        "score": 0.7075
       },
       {
         "title": "Henkell Freixenet taps into global sparkling trends",
@@ -5758,7 +5819,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7228
+        "score": 0.7074
       },
       {
         "title": "New data reveals bumper 2025 harvest for UK vineyards",
@@ -5782,7 +5843,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7224
+        "score": 0.707
       },
       {
         "title": "‘Generational shift’ likely to prompt ‘fundamental changes’ to the way fine wine is sold",
@@ -5806,10 +5867,10 @@
           "Adjust forecasts if needed"
         ],
         "confidence": "medium",
-        "score": 0.7128
+        "score": 0.6973
       },
       {
-        "title": "Pernod Ricard makes US distribution rejig - Just Drinks",
+        "title": "Pernod Ricard to shift distribution away from RNDC in US - Just Drinks",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SU3pzNFF0dXRmYUU5UGUtTFlMWmM5TUtpTnZuNVR0T1RKSk1EbkJYSWdzNEN6OHBGTGNTM19rZGo3MmFhY3FINjZQNWtfRlkxcDhsRXZhZWRNYm1YOWFfckI2TFZfMy1wcFM0UnFPdUliRlNUM1BYdg?oc=5",
         "source": "Just-Drinks",
         "published": "2026-03-23T18:52:54+00:00",
@@ -5823,14 +5884,14 @@
           "channels": []
         },
         "product_tags": [],
-        "summary": "Pernod Ricard makes US distribution rejig Just Drinks",
+        "summary": "Pernod Ricard to shift distribution away from RNDC in US Just Drinks",
         "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
         "sales_angles": [
           "Include in next customer presentation",
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7068
+        "score": 0.6919
       },
       {
         "title": "Australia’s Wirra Wirra to buy local Grenache vineyard - Just Drinks",
@@ -5854,7 +5915,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7062
+        "score": 0.6914
       },
       {
         "title": "Molson Coors to snap up RTD cocktails maker Atomic Brands - Just Drinks",
@@ -5880,7 +5941,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7013
+        "score": 0.6866
       },
       {
         "title": "Why Pol Roger has confidence in sales of Champagne in the UK",
@@ -5904,7 +5965,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7001
+        "score": 0.6855
       },
       {
         "title": "Wine world mourns Bordeaux legend Michel Rolland",
@@ -5928,7 +5989,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6999
+        "score": 0.6853
       },
       {
         "title": "Amber Beverage Group provides update on notes default - Just Drinks",
@@ -5952,7 +6013,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6993
+        "score": 0.6847
       },
       {
         "title": "Abundant coffee crops; consumer wobbles and the Iran conflict: Another shake-up for coffee prices? - BeverageDaily.com",
@@ -5976,7 +6037,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.6944
+        "score": 0.6819
       },
       {
         "title": "New beverage launches: Grey Goose Prada, Stoli RTD, Faccia and more… - BeverageDaily.com",
@@ -6002,31 +6063,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.6885
-      },
-      {
-        "title": "Henkell Freixenet eyes spritz demand with Mionetto launch - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUmQzNmJYdkVMWjRacTJJNjdza0NQdzJrR2w2SzAyVUFoLU9OMTNEUGFDTDVYOF82X2ZpUVhWNEZ0R2ZHenR1blZtUHR1SkRuMm5GZElmWGxiQ1Y2LUhmcmEtSUJXcHM4OWFKVFJISk02cGk4ck8yY2xNa1B4SUNrM0plaktGRUkzMHRPek5QUDNoemY1U2c?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-19T13:57:25+00:00",
-        "country_region": "italy",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Henkell Freixenet eyes spritz demand with Mionetto launch Just Drinks",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.6726
+        "score": 0.6759
       },
       {
         "title": "Carving out the functional frontier of alcohol-free drinks - BeverageDaily.com",
@@ -6053,7 +6090,7 @@
           "Assess consumer relevance for our markets"
         ],
         "confidence": "medium",
-        "score": 0.66
+        "score": 0.6472
       },
       {
         "title": "Brewers’ global search for growth opportunities - BeverageDaily.com",
@@ -6079,31 +6116,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6452
-      },
-      {
-        "title": "Varun Beverages lines up another acquisition in South Africa - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBldENDY3EzdkV5X3RZZHUwVjJGOFFEd1NVNGRIN0ZYVk1VdzFSNmljaks0a3JmbExYb0JMc2VZZFZCalE4NFZ0Um9wZE1ibTl2WEV6TFhCXzdaemFUSmNQZWVrQXo2ZGpJZmZzTEpxNHItMTk3bUhCVmpUS1BYVms?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-18T11:01:10+00:00",
-        "country_region": "italy",
-        "category": "competitor",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Varun Beverages lines up another acquisition in South Africa Just Drinks",
-        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-        "sales_angles": [
-          "Update competitive intelligence file",
-          "Prepare defensive talking points for key accounts"
-        ],
-        "confidence": "medium",
-        "score": 0.6449
+        "score": 0.6324
       },
       {
         "title": "Uncle Nearest Chapter 11 filing dismissed - Just Drinks",
@@ -6127,7 +6140,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6398
+        "score": 0.6271
       },
       {
         "title": "Cava sales hit again by drought in 2025 - Just Drinks",
@@ -6151,7 +6164,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6382
+        "score": 0.6255
       },
       {
         "title": "“We need to put stability in place” – Tilray Brands CEO on what lies ahead for BrewDog - Just Drinks",
@@ -6175,7 +6188,31 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.6366
+        "score": 0.6241
+      },
+      {
+        "title": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon - Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMVdxRkxsOGRyMWZ2Qmsxd3lRaFlab2J1YzZ6TVFwVXU1YzVTQnFSVF9UZGdiRElqOGdJNkR1dkgyemRiVGFMbDJHNDlsTmQwS0t2REF5ejVKRGtReWpueXBtcUJDTlhtTjEyWnk3R2RLeHdkVU5DLWVKblRWOWwtUDhoTnhLajNQOHhSYUtDZ2s1UGRIaHU5WHhtUWRQd2Ria2ZPQnhsQllsdjFMNTUxVWUzZE84RWhHY3ZPVm1XZ1Z1cDRQOVZLdTRRVzVDdDJa?oc=5",
+        "source": "EU Beverage Regulation",
+        "published": "2026-03-16T07:00:00+00:00",
+        "country_region": "italy",
+        "category": "regulatory",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon Euronews.com",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+        "sales_angles": [
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
+        ],
+        "confidence": "medium",
+        "score": 0.6238
       },
       {
         "title": "Sazerac snaps up US RTD brand Dirty Shirley - Just Drinks",
@@ -6201,31 +6238,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.636
-      },
-      {
-        "title": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon - Euronews",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMVdxRkxsOGRyMWZ2Qmsxd3lRaFlab2J1YzZ6TVFwVXU1YzVTQnFSVF9UZGdiRElqOGdJNkR1dkgyemRiVGFMbDJHNDlsTmQwS0t2REF5ejVKRGtReWpueXBtcUJDTlhtTjEyWnk3R2RLeHdkVU5DLWVKblRWOWwtUDhoTnhLajNQOHhSYUtDZ2s1UGRIaHU5WHhtUWRQd2Ria2ZPQnhsQllsdjFMNTUxVWUzZE84RWhHY3ZPVm1XZ1Z1cDRQOVZLdTRRVzVDdDJa?oc=5",
-        "source": "EU Beverage Regulation",
-        "published": "2026-03-16T07:00:00+00:00",
-        "country_region": "italy",
-        "category": "regulatory",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "No more waiting: Businesses push for clarity from EU institutions as packaging law applies soon Euronews",
-        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-        "sales_angles": [
-          "Check compliance timeline with quality team",
-          "Brief customers on regulatory impact"
-        ],
-        "confidence": "medium",
-        "score": 0.634
+        "score": 0.6234
       },
       {
         "title": "Olipop ramps up focus on flavour innovation as functional beverages boom - BeverageDaily.com",
@@ -6251,15 +6264,17 @@
           "Assess consumer relevance for our markets"
         ],
         "confidence": "medium",
-        "score": 0.6324
-      },
+        "score": 0.6204
+      }
+    ],
+    "austria": [
       {
-        "title": "Blue Monkey eyes more M&A after Local Weather deal - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdERZODUzZWxXdW5uM2xiT3dKQ3V4WEpLZFFrdzNzRWJ1VElzWGkzVVJnZjZtejllS1JmSVU0R0tXTmY1dHR2VGc5ZnVlRlhYN3JlNzZVcTJuQnctdmhmd0x0eGVkZHpUN2NaNE1yYndxSjJwemkwUWtVY1dHcFZJaWpQUFUwMGlzaG1Z?oc=5",
+        "title": "Bansk Group to acquire wellness shots brand So Good So You - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53N2RvbzEwbzRRbnZBY1dPQ1NWOWp6VFdQSFVRVS1hRlhDdE43czV5NWZ2S2F0R29lODNjcHFSaU8xNTdvM1Z2TG1VLUdBYmRCR0QySVJEdXR5M0pBb0JtMlRqcXp1R2RGQ0hCS2pEbHJTamh2MDFv?oc=5",
         "source": "Just-Drinks",
-        "published": "2026-03-17T11:15:38+00:00",
-        "country_region": "italy",
-        "category": "competitor",
+        "published": "2026-03-25T12:29:23+00:00",
+        "country_region": "austria",
+        "category": "regulatory",
         "entities": {
           "companies": [],
           "brands": [],
@@ -6268,17 +6283,15 @@
           "channels": []
         },
         "product_tags": [],
-        "summary": "Blue Monkey eyes more M&A after Local Weather deal Just Drinks",
-        "why_it_matters": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+        "summary": "Bansk Group to acquire wellness shots brand So Good So You Just Drinks",
+        "why_it_matters": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
         "sales_angles": [
-          "Update competitive intelligence file",
-          "Prepare defensive talking points for key accounts"
+          "Check compliance timeline with quality team",
+          "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.628
-      }
-    ],
-    "austria": [
+        "score": 0.8069
+      },
       {
         "title": "Diageo sells Royal Challengers Bangalore stake for US$1.78bn",
         "url": "https://www.thedrinksbusiness.com/2026/03/diageo-sells-royal-challengers-bangalore-stake-for-us1-78bn/",
@@ -6303,7 +6316,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8219
+        "score": 0.8057
       },
       {
         "title": "EU tariff removal ‘levels the competitive landscape’ for Australian wine",
@@ -6329,7 +6342,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8215
+        "score": 0.8054
       },
       {
         "title": "BWSI tritt Zentralverband der deutschen Werbewirtschaft (ZAW) bei - about-drinks.com",
@@ -6353,7 +6366,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8204
+        "score": 0.8043
       },
       {
         "title": "Indian brewers warn of beer shortages as US-Iran war hits supply",
@@ -6379,7 +6392,31 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8069
+        "score": 0.7907
+      },
+      {
+        "title": "Eine Familie. Drei Biere. Eine Geschichte. – Waldhaus launcht Klein Fritzle - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHlUdFNjTGo5ZXFOS191RGRCQk8zUVRBb0RCdW9laFI0aGFxb3pMRFptTVo3UHMwdzNwRzJoZEM4RC1aRTlIMFhfYmUwS1dONDc1aTVkT29mYXZzXzg2SlVQdjdEelJzRW15dG9wbGx5dHFCek9MTERxaVRsdkhCeTlvQWhBTWU3cFFveE1oZDNMcll3UnBrR0FSeklPbXZfUHc?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-25T15:25:19+00:00",
+        "country_region": "austria",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Eine Familie. Drei Biere. Eine Geschichte. – Waldhaus launcht Klein Fritzle about-drinks.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7874
       },
       {
         "title": "All the medallists from The Global Merlot Masters 2026",
@@ -6403,7 +6440,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.8025
+        "score": 0.7865
       },
       {
         "title": "Hundreds protest Damascus alcohol ban in Syria",
@@ -6427,7 +6464,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.8015
+        "score": 0.786
       },
       {
         "title": "Kavalan whisky distillery expands into Bahrain market",
@@ -6451,7 +6488,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7995
+        "score": 0.7833
       },
       {
         "title": "Diageo sets deadline for Royal Challengers Bangalore sale bids",
@@ -6479,7 +6516,7 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7965
+        "score": 0.7812
       },
       {
         "title": "Fever-Tree profits slide by 16%",
@@ -6507,7 +6544,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.783
+        "score": 0.7677
       },
       {
         "title": "Moscato d’Asti fizz soars 55% in China, bucking global slump",
@@ -6531,7 +6568,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7826
+        "score": 0.7672
       },
       {
         "title": "UK pubs may make just 3p profit from every £1 spent on a pint",
@@ -6555,7 +6592,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7814
+        "score": 0.766
       },
       {
         "title": "MPs call for clearer drink price displays in pubs",
@@ -6579,7 +6616,7 @@
           "Prepare margin impact analysis"
         ],
         "confidence": "medium",
-        "score": 0.7812
+        "score": 0.7658
       },
       {
         "title": "‘Wind down, leave feeling great’: The rise of Hong Kong’s friendly neighbourhood bars",
@@ -6605,7 +6642,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7799
+        "score": 0.7643
       },
       {
         "title": "Oatly launcht Matcha Strawberry Flavour - about-drinks.com",
@@ -6631,33 +6668,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7768
-      },
-      {
-        "title": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ - about-drinks.com",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmlOTG5iNHJKMERTeUdEckx1TDZfRTc0Tm13U3ZmZDdPdm0yWEM5SXg5eE53NzVzU3Zva19iZXp3bG0tenpyM2V2VVNQSFR2ZFgwWnVyNFpTZVNrcExxMHEwLVl3Q2hoWHliNTV3S1BMWFRLYlZkS3M3Tk5rZ3Z4YVVqMUptbTVnZ3pIU3NWeXg5QzQ?oc=5",
-        "source": "About Drinks / Getränke News",
-        "published": "2026-03-24T11:00:37+00:00",
-        "country_region": "austria",
-        "category": "launch",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [
-            "can"
-          ],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ about-drinks.com",
-        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
-        "sales_angles": [
-          "Map against our portfolio for overlap",
-          "Brief sales team on competitive positioning"
-        ],
-        "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7614
       },
       {
         "title": "Can one brand simplify Portugal for UK wine drinkers?",
@@ -6683,7 +6694,33 @@
           "Brief customers on regulatory impact"
         ],
         "confidence": "medium",
-        "score": 0.7749
+        "score": 0.7603
+      },
+      {
+        "title": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmlOTG5iNHJKMERTeUdEckx1TDZfRTc0Tm13U3ZmZDdPdm0yWEM5SXg5eE53NzVzU3Zva19iZXp3bG0tenpyM2V2VVNQSFR2ZFgwWnVyNFpTZVNrcExxMHEwLVl3Q2hoWHliNTV3S1BMWFRLYlZkS3M3Tk5rZ3Z4YVVqMUptbTVnZ3pIU3NWeXg5QzQ?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-24T11:00:37+00:00",
+        "country_region": "austria",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [
+            "can"
+          ],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Veltins launcht Biermix V+ Saure Zungen Cherry im „Candy-Look“ about-drinks.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7595
       },
       {
         "title": "Fernet-Branca taps March basketball frenzy with ‘Shot of Madness’ campaign",
@@ -6709,7 +6746,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7741
+        "score": 0.7588
       },
       {
         "title": "What’s happening to Chicago’s beer scene?",
@@ -6737,7 +6774,7 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.767
+        "score": 0.7517
       },
       {
         "title": "Court warns of lengthy process winding up Oenofuture’s liquidation",
@@ -6761,7 +6798,33 @@
           "Prepare defensive talking points for key accounts"
         ],
         "confidence": "medium",
-        "score": 0.7668
+        "score": 0.7514
+      },
+      {
+        "title": "Jamasi: Privatbrennerei Boente launcht RTD-Range auf Ouzo-Basis - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOVlOZ3AtSFZ1TlNFZWlFT2xkM2RPaEQ0enlLWkFzdWRhZll4NkUtbXFDV0p4UmxGOHRHNHY0azhKaEEwWFY1M3pDRjFXb1NPYXRHWE9mMkc4ajJRVlNHR3gzYWNkSVNia0FaeWYyajBHYVphM29RdmxUODNvYTduN0l5NVNoc3ltcXBPbHp0UTljTzZKQnhJ?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-23T12:10:25+00:00",
+        "country_region": "austria",
+        "category": "launch",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [
+          "rtd"
+        ],
+        "summary": "Jamasi: Privatbrennerei Boente launcht RTD-Range auf Ouzo-Basis about-drinks.com",
+        "why_it_matters": "New product launch signals competitive activity. Assess overlap with our portfolio and potential customer interest.",
+        "sales_angles": [
+          "Map against our portfolio for overlap",
+          "Brief sales team on competitive positioning"
+        ],
+        "confidence": "medium",
+        "score": 0.7383
       },
       {
         "title": "China’s leading wine regions showcase global ambitions at ProWein",
@@ -6785,7 +6848,7 @@
           "Brief sales team on competitive positioning"
         ],
         "confidence": "medium",
-        "score": 0.7527
+        "score": 0.7381
       },
       {
         "title": "Bordeaux estate turns to space tech to monitor vines in real time",
@@ -6811,7 +6874,79 @@
           "Prepare customer communication if delays expected"
         ],
         "confidence": "medium",
-        "score": 0.7519
+        "score": 0.7366
+      },
+      {
+        "title": "Reed’s CEO steps down, COO named interim chief - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbW9LY2NzZ3UxUGs1Ny1LLXdWNVp5WmVEejFTRktRZk9iSklIdnNmTmhJVXdETFhwZGlDRWZJa01UaVVIMm00VDBMazBPblR0bzM3MkNrMmpTMjZPREJLZXR2T0d4NmR0UmM1Nkx2UlEyV0tGT3phNGEwMUZsc2MwUUdJRlZ6QnExU0E?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:44:25+00:00",
+        "country_region": "austria",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Reed’s CEO steps down, COO named interim chief Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7362
+      },
+      {
+        "title": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” - Just Drinks",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLW1qMVhLakFDSmFidHZlY0NmWXFhd1ZXZmpfdDhBVE9yXzJzZHk4YjVLdllpNzdyYThORHpWUXVETW1vX0VFdHZmLTNMYkt4TF9qRHNNZ2liQ2p4LVpXRllDWHpVTVJ1c1BnQTRqRVBUM3Mtb0xobEJESGtOX0xtaUVjOXdJOXdrWGw3aQ?oc=5",
+        "source": "Just-Drinks",
+        "published": "2026-03-25T16:29:05+00:00",
+        "country_region": "austria",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "“We are not investing in a trend” – Liquid Ventures eyes “structural shift in global beverage consumption” Just Drinks",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.736
+      },
+      {
+        "title": "Santé, Prost, Salud: Große weite Welt des Apfelweins wieder in Frankfurt zu Gast - about-drinks.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFpPd2VfY1FhMGJTS2VXTDE4aFRlWmRibXBDZWtJSVVzMUFVSldRcjZhaF9razFGZnBmcTJJbHM3TGIzSkVPX3o2My1lUVo5cTlpSURvUDhyNUVac0dncC1LMXVRMmxqU2I3VlM2NHlKUEdJQTNQZ1UzWnozdUFDN19TdnJkQXZEejJ6NXdCTVp5THZpdldMUjUtTHZ6M29GZUhXZkkwZW1aQ1hv?oc=5",
+        "source": "About Drinks / Getränke News",
+        "published": "2026-03-25T15:10:56+00:00",
+        "country_region": "austria",
+        "category": "trend",
+        "entities": {
+          "companies": [],
+          "brands": [],
+          "ingredients": [],
+          "packaging": [],
+          "channels": []
+        },
+        "product_tags": [],
+        "summary": "Santé, Prost, Salud: Große weite Welt des Apfelweins wieder in Frankfurt zu Gast about-drinks.com",
+        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
+        "sales_angles": [
+          "Include in next customer presentation",
+          "Align marketing messaging"
+        ],
+        "confidence": "medium",
+        "score": 0.7346
       },
       {
         "title": "Paulaner kooperiert mit Tsingtao: Münchner Hell künftig auch in China - about-drinks.com",
@@ -6835,7 +6970,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7492
+        "score": 0.7329
       },
       {
         "title": "Echter Nordhäuser erweitert „Meisterstück“-Linie um 10-jährigen Premium-Kornbrand - about-drinks.com",
@@ -6861,7 +6996,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "Distil issues funding warning as revenues expected to slide - Just Drinks",
@@ -6885,7 +7020,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7481
+        "score": 0.7319
       },
       {
         "title": "A journey through the world of modern rosé",
@@ -6909,7 +7044,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.747
+        "score": 0.7309
       },
       {
         "title": "Gerolsteiner: Sven Hoffmann wird kaufmännischer Geschäftsführer - about-drinks.com",
@@ -6933,7 +7068,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7467
+        "score": 0.7306
       },
       {
         "title": "VITA COLA belohnt Markentreue mit sommerlichen Prämien - about-drinks.com",
@@ -6957,7 +7092,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7466
+        "score": 0.7304
       },
       {
         "title": "Master Winemaker 100: Sandrine Logette-Jardin",
@@ -6981,7 +7116,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7464
+        "score": 0.7303
       },
       {
         "title": "Medieval grape seed reveals 600-year lineage of Pinot Noir",
@@ -7005,7 +7140,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7463
+        "score": 0.7301
       },
       {
         "title": "Top DC bars team up at Silver Lyan to tap cherry blossom footfall",
@@ -7029,13 +7164,13 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7462
+        "score": 0.73
       },
       {
         "title": "Eiskalt. Klar. Aktivierend: Gorbatschow setzt neue Akzente am POS - about-drinks.com",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY0wtTnA5M1c5VnR6a1ZWSFM5SUxtcjBYM29kTDd1S2R4dmMzaGxRS2hnYWRBWTRlajhxQjEwRzRpQkpaUEVuU3BFOHNWWi0tdTRYYkQ4MFFYTXpnUm1BMHZvTW5GdXIxcjNOXzRLQkNmVkc1NndfNzluZWx5Nkdpam9rWlc3a3lXWFZJbDBzelNKSF9TamxR?oc=5",
         "source": "About Drinks / Getränke News",
-        "published": "2026-03-25T10:26:14+00:00",
+        "published": "2026-03-25T10:29:10+00:00",
         "country_region": "austria",
         "category": "trend",
         "entities": {
@@ -7053,7 +7188,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.746
+        "score": 0.7299
       },
       {
         "title": "EiszeitQuell: Feine Limo jetzt in der 0,75-Liter-Glasflasche - about-drinks.com",
@@ -7077,13 +7212,13 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7454
+        "score": 0.7293
       },
       {
         "title": "Lemonaid & ChariTea planen Öffnung für Beteiligung aus der Community - about-drinks.com",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeVZ2MDFKQ2pxalRRYW5zTTEtNnpqZGhpVTlXd0NzX1FJVWx5eGRYVXBTZHJ0UmpXMWhlVUlvektHcHRrMGJucEZkRkM0RU91Q1JwQ1Nzby05RXB1aVZFQ1ZGTGtXN3Z4RnBGS3g1ZkktNDJlT2daMV9NYnpGdi1WSi1yVmsyOWFjSFlPTkEyZEdCUTJtX3NDSDN0NHhtLTA?oc=5",
         "source": "About Drinks / Getränke News",
-        "published": "2026-03-25T08:45:58+00:00",
+        "published": "2026-03-25T08:48:43+00:00",
         "country_region": "austria",
         "category": "trend",
         "entities": {
@@ -7101,7 +7236,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7443
+        "score": 0.7282
       },
       {
         "title": "Eichbaum-Insolvenz: Investor soll Brauerei retten - about-drinks.com",
@@ -7125,7 +7260,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7438
+        "score": 0.7277
       },
       {
         "title": "Futsal Panthers Köln und Gaffel feiern Erfolge der Frauen und Herren - about-drinks.com",
@@ -7149,7 +7284,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7437
+        "score": 0.7276
       },
       {
         "title": "fesslermill1396: Single-Cask-Edition zum 630-jährigen Bestehen der Fessler Mühle - about-drinks.com",
@@ -7173,7 +7308,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7435
+        "score": 0.7274
       },
       {
         "title": "Stefan Kaswurm neuer Commercial Excellence Director bei Coca-Cola HBC Österreich - about-drinks.com",
@@ -7199,7 +7334,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7295
+        "score": 0.7139
       },
       {
         "title": "Heineken shakes up Singapore beer supply - Just Drinks",
@@ -7225,7 +7360,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7273
+        "score": 0.7118
       },
       {
         "title": "Coca-Cola invests again in Fairlife production - Just Drinks",
@@ -7251,7 +7386,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7249
+        "score": 0.7095
       },
       {
         "title": "HUUBERT bringt seine Bestseller im 24-Liter-PolyKeg auf den Markt - about-drinks.com",
@@ -7275,7 +7410,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7247
+        "score": 0.7093
       },
       {
         "title": "US spirits group buys Waterford Whisky Distillery “core assets” - Just Drinks",
@@ -7299,7 +7434,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7246
+        "score": 0.7091
       },
       {
         "title": "Wempe x Liquid Garden: Signature Drinks für ein neues Luxuserlebnis - about-drinks.com",
@@ -7323,7 +7458,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7243
+        "score": 0.7089
       },
       {
         "title": "„Qualität hat Vorrang, strebe nach Exzellenz“ – Mathieu Roland-Billecart über Billecart-Salmon - about-drinks.com",
@@ -7347,7 +7482,7 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.724
+        "score": 0.7086
       },
       {
         "title": "Cruise ship brews beer from desalinated seawater",
@@ -7373,199 +7508,54 @@
           "Align marketing messaging"
         ],
         "confidence": "medium",
-        "score": 0.7229
-      },
-      {
-        "title": "Henkell Freixenet taps into global sparkling trends",
-        "url": "https://www.thedrinksbusiness.com/2026/03/henkell-freixenet-taps-into-global-sparkling-trends/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:26:12+00:00",
-        "country_region": "austria",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [
-          "carbonated"
-        ],
-        "summary": "The world's largest producer of sparkling wines used a Wine Paris masterclass to survey the trends driving the category, with Prosecco, crémant and no and low options winning over consumers. The post Henkell Freixenet taps into global sparkling trends appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7228
-      },
-      {
-        "title": "New data reveals bumper 2025 harvest for UK vineyards",
-        "url": "https://www.thedrinksbusiness.com/2026/03/new-data-reveals-bumper-2025-harvest-for-uk-vineyards/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T11:01:35+00:00",
-        "country_region": "austria",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "WineGB has published its 2025 harvest report alongside the latest edition of its viticultural Green Book as the new growing season begins. Data from the Food Standards Agency confirms a sharp rise in UK wine production following what producers describe as an unusually favourable year. The post New data reveals bumper 2025 harvest for UK vineyards appeared first on The Drinks Business .",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7224
-      },
-      {
-        "title": "Schloss Quelle bringt mit Pop-Art Künstler DekLart die „Limoted Edition“ auf den Markt - about-drinks.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZVR2dUlnQjNoWlVnNUVTOW9TaFNoZXBNXzh5dFBEazMtdUJqTFpfVEJnWExKR2Vjb2tEcEFqT3c4Q2hUaklYRWFybVJEaVVIaWNkalI0R3k4WDI4QXI1c1JhRm9CZmdBWGZYVWxRdW9QTlBtQVNCQUdta1F2UDhPYV9QTmRyd3pKa3JGV2w1c2ZxLVFBSzYzNHN0MUFObnY2MFVtTldNNjNLYmVpT1laeFJIc1RnUQ?oc=5",
-        "source": "About Drinks / Getränke News",
-        "published": "2026-03-24T09:00:35+00:00",
-        "country_region": "austria",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Schloss Quelle bringt mit Pop-Art Künstler DekLart die „Limoted Edition“ auf den Markt about-drinks.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7204
-      },
-      {
-        "title": "SPRITHÖKER übernimmt Vertrieb für Table Whisky und Lind & Lime Gin - about-drinks.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVFJLVE5VZmxmeGhuQTNMTDYtVUVMSFI5ZFJhYUxUQmg3LV9EVkRZRURZV2tmcEs1X3lyS1FLSk5XckF2aWNqc3pBMk51MEJlODVGVXpnSW9pVlhHdzJFUDdjaTU0bXlGVEpLRXNBbzVZZG02MTg4d1c3cVhtNTZHQUxuUWRuRHp4Rk9VQ1NrbHg2V0tkV0ZLX01rdGtHQQ?oc=5",
-        "source": "About Drinks / Getränke News",
-        "published": "2026-03-24T07:40:34+00:00",
-        "country_region": "austria",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "SPRITHÖKER übernimmt Vertrieb für Table Whisky und Lind & Lime Gin about-drinks.com",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7191
-      },
-      {
-        "title": "‘Generational shift’ likely to prompt ‘fundamental changes’ to the way fine wine is sold",
-        "url": "https://www.thedrinksbusiness.com/2026/03/generational-shift-likely-to-prompt-fundamental-changes-to-the-way-fine-wine-is-sold/",
-        "source": "Drinks Business",
-        "published": "2026-03-24T16:30:03+00:00",
-        "country_region": "austria",
-        "category": "macro",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "There needs to be a fundamental change in the way that fine wine is sold in future as the industry faces a \"generational shift\", according to a panel of industry experts. The post ‘Generational shift’ likely to prompt ‘fundamental changes’ to the way fine wine is sold appeared first on The Drinks Business .",
-        "why_it_matters": "Macroeconomic factor may influence consumer spending patterns and distributor purchasing behavior.",
-        "sales_angles": [
-          "Factor into demand planning",
-          "Adjust forecasts if needed"
-        ],
-        "confidence": "medium",
-        "score": 0.7128
-      },
-      {
-        "title": "Pernod Ricard makes US distribution rejig - Just Drinks",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SU3pzNFF0dXRmYUU5UGUtTFlMWmM5TUtpTnZuNVR0T1RKSk1EbkJYSWdzNEN6OHBGTGNTM19rZGo3MmFhY3FINjZQNWtfRlkxcDhsRXZhZWRNYm1YOWFfckI2TFZfMy1wcFM0UnFPdUliRlNUM1BYdg?oc=5",
-        "source": "Just-Drinks",
-        "published": "2026-03-23T18:52:54+00:00",
-        "country_region": "austria",
-        "category": "trend",
-        "entities": {
-          "companies": [],
-          "brands": [],
-          "ingredients": [],
-          "packaging": [],
-          "channels": []
-        },
-        "product_tags": [],
-        "summary": "Pernod Ricard makes US distribution rejig Just Drinks",
-        "why_it_matters": "Market trend indicates shifting consumer preferences. Consider portfolio alignment and marketing messaging.",
-        "sales_angles": [
-          "Include in next customer presentation",
-          "Align marketing messaging"
-        ],
-        "confidence": "medium",
-        "score": 0.7068
+        "score": 0.7075
       }
     ]
   },
   "meta": {
     "sources_used": {
       "usa": [
-        "Drinks Business",
-        "Just-Drinks",
-        "FoodDive",
+        "FoodNavigator-USA",
         "About Drinks / Getränke News",
+        "FoodDive",
         "BevNET",
-        "FoodNavigator-USA"
+        "Just-Drinks",
+        "Beverage Digest",
+        "Drinks Business"
       ],
       "germany": [
+        "Drinks Business",
         "About Drinks / Getränke News",
+        "Just-Drinks"
+      ],
+      "france": [
+        "BeverageDaily: Sectors",
+        "BeverageDaily: Trends",
+        "EU Beverage Regulation",
+        "BeverageDaily: Launches",
         "Just-Drinks",
         "Drinks Business"
       ],
-      "france": [
-        "Drinks Business",
-        "Just-Drinks",
-        "BeverageDaily: Launches",
-        "EU Beverage Regulation",
-        "BeverageDaily: Trends",
-        "BeverageDaily: Sectors"
-      ],
       "spain": [
-        "Drinks Business",
-        "Just-Drinks",
-        "BeverageDaily: Launches",
-        "EU Beverage Regulation",
+        "BeverageDaily: Sectors",
         "BeverageDaily: Trends",
-        "BeverageDaily: Sectors"
+        "EU Beverage Regulation",
+        "BeverageDaily: Launches",
+        "Just-Drinks",
+        "Drinks Business"
       ],
       "italy": [
-        "Drinks Business",
-        "Just-Drinks",
-        "BeverageDaily: Launches",
-        "EU Beverage Regulation",
+        "BeverageDaily: Sectors",
         "BeverageDaily: Trends",
-        "BeverageDaily: Sectors"
+        "EU Beverage Regulation",
+        "BeverageDaily: Launches",
+        "Just-Drinks",
+        "Drinks Business"
       ],
       "austria": [
         "Drinks Business",
-        "Just-Drinks",
-        "About Drinks / Getränke News"
+        "About Drinks / Getränke News",
+        "Just-Drinks"
       ]
     },
     "errors": [],
