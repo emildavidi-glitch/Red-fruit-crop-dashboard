@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-28T05:53:44.002493+00:00",
+  "generated_at": "2026-03-28T13:51:05.967709+00:00",
   "generated_date": "Saturday, 28 March 2026",
   "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Fort Myers Brewing Co - Sales Representative - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Rtd trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 130,
-      "launch": 51,
+      "trend": 128,
+      "launch": 54,
       "regulatory": 35,
       "pricing": 28,
       "supply_chain": 22,
-      "competitor": 19,
+      "competitor": 18,
       "alcohol_free": 13,
-      "rtd": 10,
       "functional": 9,
-      "innovation": 8
+      "innovation": 8,
+      "premium": 6
     }
   }
 }
