@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-27T14:11:22.670354+00:00",
-  "generated_date": "Friday, 27 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: UK supermarkets spark Champagne price war before Easter.",
+  "generated_at": "2026-03-28T05:53:44.002493+00:00",
+  "generated_date": "Saturday, 28 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Fort Myers Brewing Co - Sales Representative - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
+    "france": "Rtd trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 132,
-      "launch": 57,
-      "regulatory": 41,
-      "pricing": 29,
-      "competitor": 14,
-      "innovation": 11,
-      "supply_chain": 10,
-      "alcohol_free": 9,
-      "rtd": 8,
-      "premium": 6
+      "trend": 130,
+      "launch": 51,
+      "regulatory": 35,
+      "pricing": 28,
+      "supply_chain": 22,
+      "competitor": 19,
+      "alcohol_free": 13,
+      "rtd": 10,
+      "functional": 9,
+      "innovation": 8
     }
   }
 }
