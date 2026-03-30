@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-30T06:28:19.188102+00:00",
+  "generated_at": "2026-03-30T14:26:16.553523+00:00",
   "generated_date": "Monday, 30 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Stiller's Soda - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Functional Nutrition: Danone übernimmt Huel - about-drinks.com.",
   "signals": {
-    "usa": "Sugar Free trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 147,
-      "launch": 49,
-      "pricing": 28,
-      "regulatory": 22,
-      "supply_chain": 20,
-      "competitor": 18,
-      "alcohol_free": 14,
-      "functional": 9,
-      "innovation": 9,
-      "rtd": 7
+      "trend": 145,
+      "launch": 51,
+      "competitor": 30,
+      "supply_chain": 26,
+      "premium": 24,
+      "pricing": 22,
+      "alcohol_free": 15,
+      "regulatory": 13,
+      "innovation": 13,
+      "functional": 12
     }
   }
 }
