@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-29T13:53:08.977838+00:00",
-  "generated_date": "Sunday, 29 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Roundhead Brewing Company - General Manager - BevNET.com Beverage Industry Job Listing - bevnet.com.",
+  "generated_at": "2026-03-30T06:28:19.188102+00:00",
+  "generated_date": "Monday, 30 March 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Stiller's Soda - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Sugar Free trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Rtd trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 142,
-      "launch": 48,
-      "pricing": 29,
-      "regulatory": 27,
-      "supply_chain": 22,
+      "trend": 147,
+      "launch": 49,
+      "pricing": 28,
+      "regulatory": 22,
+      "supply_chain": 20,
       "competitor": 18,
-      "alcohol_free": 12,
-      "rtd": 11,
-      "functional": 7,
-      "innovation": 7
+      "alcohol_free": 14,
+      "functional": 9,
+      "innovation": 9,
+      "rtd": 7
     }
   }
 }
