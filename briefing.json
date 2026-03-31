@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-31T06:14:19.286384+00:00",
+  "generated_at": "2026-03-31T14:26:02.062701+00:00",
   "generated_date": "Tuesday, 31 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: KinderLyte®: Electrolyte Solution + Immune Support Tropical Punch - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Bonham’s eyes up final sales in Hostellerie Jérôme cellar series.",
   "signals": {
     "usa": "Hydration trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
+    "spain": "Sugar Free trending. (50 items)",
     "italy": "Premium trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 143,
-      "launch": 50,
-      "competitor": 31,
-      "supply_chain": 27,
-      "premium": 24,
-      "pricing": 22,
-      "alcohol_free": 15,
-      "regulatory": 13,
-      "innovation": 12,
-      "functional": 12
+      "trend": 171,
+      "launch": 42,
+      "supply_chain": 32,
+      "competitor": 23,
+      "regulatory": 18,
+      "premium": 12,
+      "hydration": 11,
+      "carbonated": 10,
+      "alcohol_free": 9,
+      "sugar_free": 7
     }
   }
 }
