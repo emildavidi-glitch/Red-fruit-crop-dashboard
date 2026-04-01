@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-31T14:26:02.062701+00:00",
-  "generated_date": "Tuesday, 31 March 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Bonham’s eyes up final sales in Hostellerie Jérôme cellar series.",
+  "generated_at": "2026-04-01T06:25:06.640245+00:00",
+  "generated_date": "Wednesday, 01 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Consorzio Asti DOCG Unveils New Rosé Sparkling Wine - BevNET.com.",
   "signals": {
-    "usa": "Hydration trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
     "france": "Premium trending. (50 items)",
-    "spain": "Sugar Free trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
     "italy": "Premium trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 171,
-      "launch": 42,
+      "trend": 165,
+      "launch": 49,
       "supply_chain": 32,
-      "competitor": 23,
-      "regulatory": 18,
+      "regulatory": 22,
+      "competitor": 21,
+      "carbonated": 17,
       "premium": 12,
-      "hydration": 11,
-      "carbonated": 10,
       "alcohol_free": 9,
-      "sugar_free": 7
+      "functional": 7,
+      "hydration": 7
     }
   }
 }
