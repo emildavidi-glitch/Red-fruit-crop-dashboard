@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-01T14:27:32.077886+00:00",
-  "generated_date": "Wednesday, 01 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: What do GLP-1 drugs mean for alcohol industry? - Just Drinks.",
+  "generated_at": "2026-04-02T06:09:38.239821+00:00",
+  "generated_date": "Thursday, 02 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: US wine drinkers turn to value bottles as consumption softens.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 151,
-      "launch": 53,
-      "supply_chain": 36,
-      "regulatory": 27,
+      "trend": 146,
+      "launch": 54,
+      "supply_chain": 37,
+      "regulatory": 21,
+      "pricing": 20,
       "competitor": 15,
-      "pricing": 12,
-      "carbonated": 11,
-      "alcohol_free": 10,
-      "macro": 6,
-      "functional": 5
+      "carbonated": 10,
+      "alcohol_free": 9,
+      "functional": 6,
+      "macro": 6
     }
   }
 }
