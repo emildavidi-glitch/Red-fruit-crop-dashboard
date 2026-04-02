@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-02T06:09:38.239821+00:00",
+  "generated_at": "2026-04-02T14:21:22.583190+00:00",
   "generated_date": "Thursday, 02 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: US wine drinkers turn to value bottles as consumption softens.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Germany’s Next Topmodel: Alpro lud zum großen Casting ein - about-drinks.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "usa": "Functional trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (50 items)",
+    "spain": "Carbonated trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 146,
-      "launch": 54,
-      "supply_chain": 37,
+      "trend": 128,
+      "launch": 63,
+      "pricing": 32,
+      "supply_chain": 28,
       "regulatory": 21,
-      "pricing": 20,
       "competitor": 15,
-      "carbonated": 10,
-      "alcohol_free": 9,
-      "functional": 6,
-      "macro": 6
+      "functional": 12,
+      "macro": 12,
+      "carbonated": 8,
+      "alcohol_free": 7
     }
   }
 }
