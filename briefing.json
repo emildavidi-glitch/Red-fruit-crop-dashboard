@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-03T14:01:38.342650+00:00",
-  "generated_date": "Friday, 03 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Nestlé inks partnership to support labor rights in coffee supply chains.",
+  "generated_at": "2026-04-04T05:53:32.203895+00:00",
+  "generated_date": "Saturday, 04 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Able Baker Brewing Company - Warehouse and Packaging Assistant - BevNET.com Beverage Industry Job Li.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
+      "trend": 156,
       "launch": 55,
-      "supply_chain": 22,
-      "regulatory": 21,
-      "pricing": 19,
+      "pricing": 22,
+      "supply_chain": 20,
+      "regulatory": 18,
       "competitor": 16,
-      "macro": 12,
-      "alcohol_free": 10,
-      "functional": 9,
-      "carbonated": 9
+      "macro": 13,
+      "functional": 10,
+      "carbonated": 9,
+      "hydration": 6
     }
   }
 }
