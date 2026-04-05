@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T13:52:51.286904+00:00",
+  "generated_at": "2026-04-05T06:13:17.707711+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -52,7 +52,7 @@
           "product": "functional",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYUdmSHNZMEJZQTRYZHRQSDZIZVAwNXFnajZvQVh3NURLSHpSbGg1NXh6WVlDaERhOC1HVHF1UTZTTDJHUkQ2WDhNWXA3LXBXbGNOcjJTMElDMlFpT2ZEd0ZvVW5wSVI3SnRZaG12aWc2MmFwYmlIUGJKM2xLSHBMNUg3bkpaU25jUFd3U0hWT2xsZENFZ0pVa0dGUW5KS0d6YUM1ZHFIdFBlVm42MGVDb2NUM0hndTNIMkRrRW5RcDRiM0FyWGc?oc=5",
-          "date": "2026-04-03T21:19:56+00:00"
+          "date": "2026-04-03T21:04:24+00:00"
         },
         {
           "title": "New Products: Fairlife Gets A Makeover, Lucky Gets Slushy, Swoon Gets Functional - BevNET.com",
@@ -71,20 +71,20 @@
           "date": "2026-04-03T10:30:00-04:00"
         },
         {
+          "title": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "company": "Coca-Cola",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+          "date": "2026-04-02T18:51:25+00:00"
+        },
+        {
           "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
           "company": "Nestlé",
           "product": "functional",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
           "date": "2026-04-02T11:16:43+00:00"
-        },
-        {
-          "title": "Top 10 drinks launches from April",
-          "company": "Unknown",
-          "product": "sugar_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/",
-          "date": "2026-04-02T09:47:36+00:00"
         }
       ],
       "competitor_moves": [
@@ -152,6 +152,13 @@
           "date": "2026-04-02T10:44:38+00:00"
         },
         {
+          "title": "Jones Soda Increases Revenue In Q4 On Path To A More Cost-Efficient Business - BevNET.com",
+          "what_changed": "Jones Soda Increases Revenue In Q4 On Path To A More Cost-Efficient Business BevNET.com",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGJyZkFYNXhPSUFFVnVBS2VCNVNRWFh0N2J3aHBkYUdCR0dGRWdyeTFQZS03ZFVkRktNZHhTeE52aWRnTER0ckc5aTZqT3JzdTFyLXhLRWMtRzJrb0xpMVNWSWdlWjliOHZxRWNQcTFPeFBBWFFrZ2NueGN6c19PZEdJLW5kcnd0T3c5a2xjZjJjYWJsVjA2bkRZUndFRWRGeThfcWlWV25UWm5rWk1R?oc=5",
+          "date": "2026-04-01T16:14:11+00:00"
+        },
+        {
           "title": "Ways the Iran war is continuing to impact India’s beer supply",
           "what_changed": "India is facing continued supply disruptions and higher beer prices due to a surge in costs for producers following the conflict in the Middle East. T",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -170,22 +177,22 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in United States",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Carbonated trending in United States",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "low"
         },
         {
           "signal": "Sugar Free trending in United States",
@@ -197,11 +204,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Juice trending in United States",
-          "explanation": "1 articles mention juice in the last 28 days",
+          "signal": "Protein trending in United States",
+          "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "juice"
+            "protein"
           ],
           "confidence": "low"
         }
@@ -293,15 +300,23 @@
           "confidence": "medium"
         },
         {
-          "headline": "Treasury Wine Estates rejects bankruptcy speculation",
-          "detail": "Australia’s largest wine producer has dismissed claims that rising debt could push the company towards bankruptcy. Treasury Wine Estates says it has sufficient liquidity despite heavy short selling an",
+          "headline": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "detail": "Coca-Cola HBC launches Three Cents mixers in China Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "company": "Coca-Cola",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+          "date": "2026-04-02T18:51:25+00:00"
+        },
         {
           "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
           "company": "Nestlé",
@@ -309,14 +324,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
           "date": "2026-04-02T11:16:43+00:00"
-        },
-        {
-          "title": "V-SINNE launcht offiziell lizenzierten Star Trek™ „Scotty“ Whisky - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1ZlY2YxOGxNb3ZsMkRDdk5HYzJ0TU16dm94aWR0eGI1emt0a1dKM09rUWgxc01kdklkc1Q2SFV1QU9tR3lQUWJEZDV4dmt2Vld2bWFPZy11NWFSTE01SHdGOFQwc3hXTjM3QjVrMkt4YjNGampuVVZtZ2lqZEpvZVpSZUxnVWhDNWRsTUZLVTNqcndWb2Jn?oc=5",
-          "date": "2026-04-02T10:39:09+00:00"
         },
         {
           "title": "Top 10 drinks launches from April",
@@ -375,6 +382,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
           "date": "2026-04-01T13:51:33+00:00"
+        },
+        {
+          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
+          "date": "2026-03-31T16:52:46+00:00"
         }
       ],
       "pricing_promotions": [
@@ -436,15 +450,6 @@
             "carbonated"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Hydration trending in Germany",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -452,8 +457,8 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1ZlY2YxOGxNb3ZsMkRDdk5HYzJ0TU16dm94aWR0eGI1emt0a1dKM09rUWgxc01kdklkc1Q2SFV1QU9tR3lQUWJEZDV4dmt2Vld2bWFPZy11NWFSTE01SHdGOFQwc3hXTjM3QjVrMkt4YjNGampuVVZtZ2lqZEpvZVpSZUxnVWhDNWRsTUZLVTNqcndWb2Jn?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
@@ -462,7 +467,8 @@
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         }
       ],
@@ -472,8 +478,8 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1ZlY2YxOGxNb3ZsMkRDdk5HYzJ0TU16dm94aWR0eGI1emt0a1dKM09rUWgxc01kdklkc1Q2SFV1QU9tR3lQUWJEZDV4dmt2Vld2bWFPZy11NWFSTE01SHdGOFQwc3hXTjM3QjVrMkt4YjNGampuVVZtZ2lqZEpvZVpSZUxnVWhDNWRsTUZLVTNqcndWb2Jn?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
@@ -483,7 +489,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         }
       ]
@@ -523,10 +530,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Treasury Wine Estates rejects bankruptcy speculation",
-          "detail": "Australia’s largest wine producer has dismissed claims that rising debt could push the company towards bankruptcy. Treasury Wine Estates says it has sufficient liquidity despite heavy short selling an",
+          "headline": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "detail": "Coca-Cola HBC launches Three Cents mixers in China Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -539,6 +546,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/bonhams-eyes-up-final-sales-in-hostellerie-jerome-cellar-series/",
           "date": "2026-03-31T14:15:45+00:00"
+        },
+        {
+          "title": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "company": "Coca-Cola",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+          "date": "2026-04-02T18:51:25+00:00"
         },
         {
           "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
@@ -563,14 +578,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/will-the-recent-disciplined-pricing-reinvigorate-buyer-appetite/",
           "date": "2026-04-01T13:53:03+00:00"
-        },
-        {
-          "title": "The Fat Duck Group alumni to launch Berkshire gastropub",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/the-fat-duck-group-alumni-to-launch-berkshire-gastropub/",
-          "date": "2026-04-01T10:41:19+00:00"
         }
       ],
       "competitor_moves": [
@@ -589,14 +596,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/fladgate-ceo-asia-presents-many-opportunities/",
           "date": "2026-03-31T14:11:28+00:00"
-        },
-        {
-          "title": "The promise – and pitfalls – of Pernod/Brown-Forman “merger” - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY1h5WkVIc1hRNHFaQlg4YmJfa0ZwSXZ6MEdnTDhxUGNoNFVtLXprSUVNUUNUMGJHd3Z5Sm1yekVvbXI0dzBwLXFxZzFVQ05uVkpnNXJuOE1BLXZNcGlWS19CR3VCT0cwRmE3N1ZBYTVIUnRkM0gxczNaMjRDdkxxUVlkOEFpLVI2RzdRNDctakFzVEgzT3dR?oc=5",
-          "date": "2026-03-27T13:14:11+00:00"
         }
       ],
       "regulatory_watch": [
@@ -613,6 +612,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
           "date": "2026-04-01T13:51:33+00:00"
+        },
+        {
+          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
+          "date": "2026-03-31T16:52:46+00:00"
         }
       ],
       "pricing_promotions": [
@@ -683,11 +689,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Hydration trending in France",
-          "explanation": "1 articles mention hydration in the last 28 days",
+          "signal": "Alcohol Free trending in France",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "hydration"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -698,8 +704,8 @@
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/bonhams-eyes-up-final-sales-in-hostellerie-jerome-cellar-series/",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5"
           ]
         },
         {
@@ -707,7 +713,8 @@
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         },
         {
@@ -726,8 +733,8 @@
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/03/bonhams-eyes-up-final-sales-in-hostellerie-jerome-cellar-series/",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5"
           ]
         },
         {
@@ -736,7 +743,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         }
       ]
@@ -776,15 +784,23 @@
           "confidence": "medium"
         },
         {
-          "headline": "Treasury Wine Estates rejects bankruptcy speculation",
-          "detail": "Australia’s largest wine producer has dismissed claims that rising debt could push the company towards bankruptcy. Treasury Wine Estates says it has sufficient liquidity despite heavy short selling an",
+          "headline": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "detail": "Coca-Cola HBC launches Three Cents mixers in China Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "company": "Coca-Cola",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+          "date": "2026-04-02T18:51:25+00:00"
+        },
         {
           "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
           "company": "Nestlé",
@@ -816,14 +832,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/the-fat-duck-group-alumni-to-launch-berkshire-gastropub/",
           "date": "2026-04-01T10:41:19+00:00"
-        },
-        {
-          "title": "Coravin launches global ‘Curiosity By-the-Glass’ campaign",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/coravin-launches-global-curiosity-by-the-glass-campaign/",
-          "date": "2026-04-01T06:59:30+00:00"
         }
       ],
       "competitor_moves": [
@@ -842,14 +850,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/fladgate-ceo-asia-presents-many-opportunities/",
           "date": "2026-03-31T14:11:28+00:00"
-        },
-        {
-          "title": "The promise – and pitfalls – of Pernod/Brown-Forman “merger” - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY1h5WkVIc1hRNHFaQlg4YmJfa0ZwSXZ6MEdnTDhxUGNoNFVtLXprSUVNUUNUMGJHd3Z5Sm1yekVvbXI0dzBwLXFxZzFVQ05uVkpnNXJuOE1BLXZNcGlWS19CR3VCT0cwRmE3N1ZBYTVIUnRkM0gxczNaMjRDdkxxUVlkOEFpLVI2RzdRNDctakFzVEgzT3dR?oc=5",
-          "date": "2026-03-27T13:14:11+00:00"
         }
       ],
       "regulatory_watch": [
@@ -866,6 +866,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
           "date": "2026-04-01T13:51:33+00:00"
+        },
+        {
+          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
+          "date": "2026-03-31T16:52:46+00:00"
         }
       ],
       "pricing_promotions": [
@@ -936,11 +943,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Hydration trending in Spain",
-          "explanation": "1 articles mention hydration in the last 28 days",
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "hydration"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -950,9 +957,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/",
-            "https://www.thedrinksbusiness.com/2026/04/will-the-recent-disciplined-pricing-reinvigorate-buyer-appetite/"
+            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
         {
@@ -960,7 +967,8 @@
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         },
         {
@@ -978,9 +986,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/",
-            "https://www.thedrinksbusiness.com/2026/04/will-the-recent-disciplined-pricing-reinvigorate-buyer-appetite/"
+            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
         {
@@ -989,7 +997,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         }
       ]
@@ -1029,15 +1038,23 @@
           "confidence": "medium"
         },
         {
-          "headline": "Treasury Wine Estates rejects bankruptcy speculation",
-          "detail": "Australia’s largest wine producer has dismissed claims that rising debt could push the company towards bankruptcy. Treasury Wine Estates says it has sufficient liquidity despite heavy short selling an",
+          "headline": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "detail": "Coca-Cola HBC launches Three Cents mixers in China Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "company": "Coca-Cola",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+          "date": "2026-04-02T18:51:25+00:00"
+        },
         {
           "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
           "company": "Nestlé",
@@ -1069,14 +1086,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/the-fat-duck-group-alumni-to-launch-berkshire-gastropub/",
           "date": "2026-04-01T10:41:19+00:00"
-        },
-        {
-          "title": "Coravin launches global ‘Curiosity By-the-Glass’ campaign",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/coravin-launches-global-curiosity-by-the-glass-campaign/",
-          "date": "2026-04-01T06:59:30+00:00"
         }
       ],
       "competitor_moves": [
@@ -1095,14 +1104,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/03/fladgate-ceo-asia-presents-many-opportunities/",
           "date": "2026-03-31T14:11:28+00:00"
-        },
-        {
-          "title": "The promise – and pitfalls – of Pernod/Brown-Forman “merger” - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY1h5WkVIc1hRNHFaQlg4YmJfa0ZwSXZ6MEdnTDhxUGNoNFVtLXprSUVNUUNUMGJHd3Z5Sm1yekVvbXI0dzBwLXFxZzFVQ05uVkpnNXJuOE1BLXZNcGlWS19CR3VCT0cwRmE3N1ZBYTVIUnRkM0gxczNaMjRDdkxxUVlkOEFpLVI2RzdRNDctakFzVEgzT3dR?oc=5",
-          "date": "2026-03-27T13:14:11+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1119,6 +1120,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
           "date": "2026-04-01T13:51:33+00:00"
+        },
+        {
+          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
+          "date": "2026-03-31T16:52:46+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1189,11 +1197,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Hydration trending in Italy",
-          "explanation": "1 articles mention hydration in the last 28 days",
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "hydration"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1203,9 +1211,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/",
-            "https://www.thedrinksbusiness.com/2026/04/will-the-recent-disciplined-pricing-reinvigorate-buyer-appetite/"
+            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
         {
@@ -1213,7 +1221,8 @@
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         },
         {
@@ -1231,9 +1240,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/",
-            "https://www.thedrinksbusiness.com/2026/04/will-the-recent-disciplined-pricing-reinvigorate-buyer-appetite/"
+            "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
         {
@@ -1242,7 +1251,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         }
       ]
@@ -1274,23 +1284,31 @@
           "confidence": "medium"
         },
         {
+          "headline": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "detail": "Coca-Cola HBC launches Three Cents mixers in China Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Treasury Wine Estates rejects bankruptcy speculation",
           "detail": "Australia’s largest wine producer has dismissed claims that rising debt could push the company towards bankruptcy. Treasury Wine Estates says it has sufficient liquidity despite heavy short selling an",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
-          "detail": "New beverage launches: Nestlé functional, MOMO and more… BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Coca-Cola HBC launches Three Cents mixers in China - Just Drinks",
+          "company": "Coca-Cola",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
+          "date": "2026-04-02T18:51:25+00:00"
+        },
         {
           "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
           "company": "Nestlé",
@@ -1298,14 +1316,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
           "date": "2026-04-02T11:16:43+00:00"
-        },
-        {
-          "title": "V-SINNE launcht offiziell lizenzierten Star Trek™ „Scotty“ Whisky - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1ZlY2YxOGxNb3ZsMkRDdk5HYzJ0TU16dm94aWR0eGI1emt0a1dKM09rUWgxc01kdklkc1Q2SFV1QU9tR3lQUWJEZDV4dmt2Vld2bWFPZy11NWFSTE01SHdGOFQwc3hXTjM3QjVrMkt4YjNGampuVVZtZ2lqZEpvZVpSZUxnVWhDNWRsTUZLVTNqcndWb2Jn?oc=5",
-          "date": "2026-04-02T10:39:09+00:00"
         },
         {
           "title": "Top 10 drinks launches from April",
@@ -1364,6 +1374,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
           "date": "2026-04-01T13:51:33+00:00"
+        },
+        {
+          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
+          "date": "2026-03-31T16:52:46+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1392,12 +1409,12 @@
       "signals": [
         {
           "signal": "Functional trending in Austria",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in Austria",
@@ -1427,11 +1444,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Hydration trending in Austria",
-          "explanation": "1 articles mention hydration in the last 28 days",
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "hydration"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1441,8 +1458,8 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1ZlY2YxOGxNb3ZsMkRDdk5HYzJ0TU16dm94aWR0eGI1emt0a1dKM09rUWgxc01kdklkc1Q2SFV1QU9tR3lQUWJEZDV4dmt2Vld2bWFPZy11NWFSTE01SHdGOFQwc3hXTjM3QjVrMkt4YjNGampuVVZtZ2lqZEpvZVpSZUxnVWhDNWRsTUZLVTNqcndWb2Jn?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
@@ -1451,7 +1468,16 @@
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
+            "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMDUwbGFYaFpXQ2twZ0Y0MlVyUUh0UGNsYi05cHlEbjNNR3EwSEpRMlo2aGZFQjk3MWdTZllobzh3dnhiRXVfY19LRFVwdTg3Y0ZGVFBjcjRZZTYxaWJTMm56RHdkdk5UNjQ1bkZqYk9mZ0JnVnNLRlNGVjhwcVZyWnJ6cElkOUFldXhPVDVlcThEZWp5d3FwQy16VmxDRUZmR0ZrVGtWXzFuLUVt?oc=5"
           ]
         }
       ],
@@ -1461,8 +1487,8 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTkNqVk5MZlEzYVpTcmE0MG9HX0xBQVc1STBHNlFTNldVTXpaNHVNSnRDZG5XV0xsNDhnUkZwSFAzdVotNnhqU0Nqb25KSEYtQS01UzRFSmRLRTVKZVhnWWFtT3JlSHhVcGc?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1ZlY2YxOGxNb3ZsMkRDdk5HYzJ0TU16dm94aWR0eGI1emt0a1dKM09rUWgxc01kdklkc1Q2SFV1QU9tR3lQUWJEZDV4dmt2Vld2bWFPZy11NWFSTE01SHdGOFQwc3hXTjM3QjVrMkt4YjNGampuVVZtZ2lqZEpvZVpSZUxnVWhDNWRsTUZLVTNqcndWb2Jn?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/top-10-drinks-launches-from-april-2/"
           ]
         },
@@ -1472,7 +1498,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/"
+            "https://www.thedrinksbusiness.com/2026/04/treasury-wine-estates-rejects-bankruptcy-speculation/",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5"
           ]
         }
       ]
