@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-06T06:28:45.498659+00:00",
+  "generated_at": "2026-04-06T14:10:07.910154+00:00",
   "generated_date": "Monday, 06 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: View Media | 47741 | Photo of Pomegranate 2022 - Vibal Energy Tea (uploaded by company) - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: La Colombe reformulates canned lattes to better recreate coffeehouse experience.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 151,
-      "launch": 50,
-      "supply_chain": 27,
-      "pricing": 23,
-      "regulatory": 21,
-      "competitor": 16,
-      "macro": 12,
+      "trend": 153,
+      "launch": 54,
+      "supply_chain": 25,
+      "pricing": 22,
+      "regulatory": 19,
+      "competitor": 19,
       "functional": 11,
-      "carbonated": 9,
-      "sugar_free": 6
+      "carbonated": 7,
+      "sugar_free": 6,
+      "protein": 6
     }
   }
 }
