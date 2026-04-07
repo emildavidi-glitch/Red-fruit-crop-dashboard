@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-07T06:17:18.802931+00:00",
+  "generated_at": "2026-04-07T14:44:13.870239+00:00",
   "generated_date": "Tuesday, 07 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Alcohol-Free Platform Boisson Is the First to Introduce Gut Feeling by Gut Oggau - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: db Asia: March in pictures.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Sugar Free trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "italy": "Sugar Free trending. (50 items)",
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 149,
-      "launch": 53,
-      "supply_chain": 23,
-      "pricing": 22,
-      "regulatory": 19,
-      "competitor": 19,
-      "functional": 13,
-      "macro": 12,
-      "carbonated": 8,
-      "protein": 7
+      "trend": 139,
+      "launch": 60,
+      "supply_chain": 28,
+      "regulatory": 24,
+      "competitor": 16,
+      "pricing": 15,
+      "sugar_free": 14,
+      "carbonated": 12,
+      "functional": 12,
+      "macro": 10
     }
   }
 }
