@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-06T14:10:07.910154+00:00",
-  "generated_date": "Monday, 06 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: La Colombe reformulates canned lattes to better recreate coffeehouse experience.",
+  "generated_at": "2026-04-07T06:17:18.802931+00:00",
+  "generated_date": "Tuesday, 07 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Alcohol-Free Platform Boisson Is the First to Introduce Gut Feeling by Gut Oggau - BevNET.com.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Functional trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 153,
-      "launch": 54,
-      "supply_chain": 25,
+      "trend": 149,
+      "launch": 53,
+      "supply_chain": 23,
       "pricing": 22,
       "regulatory": 19,
       "competitor": 19,
-      "functional": 11,
-      "carbonated": 7,
-      "sugar_free": 6,
-      "protein": 6
+      "functional": 13,
+      "macro": 12,
+      "carbonated": 8,
+      "protein": 7
     }
   }
 }
