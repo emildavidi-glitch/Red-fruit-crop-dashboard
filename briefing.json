@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-04-08T06:19:21.099928+00:00",
+  "generated_at": "2026-04-08T14:44:58.480806+00:00",
   "generated_date": "Wednesday, 08 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: ‘Everyone has their opinion’ says Robert Pattinson while promoting 1664.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Joseph Phelps: ‘We’re always looking to the future’.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
-    "france": "Sugar Free trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
     "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 144,
-      "launch": 57,
-      "regulatory": 24,
-      "supply_chain": 23,
-      "competitor": 20,
-      "carbonated": 13,
-      "sugar_free": 13,
-      "functional": 12,
-      "pricing": 12,
+      "trend": 158,
+      "launch": 44,
+      "competitor": 22,
+      "supply_chain": 21,
+      "regulatory": 21,
+      "carbonated": 18,
+      "sugar_free": 14,
+      "retail": 13,
+      "pricing": 10,
       "macro": 9
     }
   }

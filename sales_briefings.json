@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-04-08T06:19:21.099928+00:00",
+  "generated_at": "2026-04-08T14:44:58.480806+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
         {
           "headline": "American whiskey sales fall 19% year-on-year",
-          "detail": "In a year when Beam Suntory mothballed distilling, the depth of the depression affecting America’s whiskey and Bourbon producers has been spelt out in a new report detailing 2025 sales. The post Ameri",
+          "detail": "In a year when Suntory has “paused” distilling at one of its Jim Beam facilities and as Jack Daniel’s owner Brown Forman discusses getting together with Pernod Ricard, the depth of the depression affe",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/american-whiskey-sales-fall-19-year-on-year/"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Independent pubs could vanish by 2041",
+          "detail": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habits are reshaping the pub landscape. The post Indepe",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Chef Q&A: Pichaya ‘Pam’ Soontornyanakij",
@@ -29,18 +37,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Bimble Turns It Up: Launches First 10 mg ‘Experimental’ Cucumber Melon Lime - BevNET.com",
-          "detail": "Bimble Turns It Up: Launches First 10 mg ‘Experimental’ Cucumber Melon Lime BevNET.com",
+          "headline": "Wines of South Africa restructures UK office",
+          "detail": "Wines of South Africa (WoSA) has announced a restructure of its UK operation, resulting in the redundancy of its two current London-based roles. The post Wines of South Africa restructures UK office a",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSzd5Tm9xMjVyQjhhODVhMWE5ZGRaZFc5Yy1DakZPVkY3Z0tRczhlek41ekppdDA3ZkFhT0ZnYTctcHNxSTFybTY2bHcwN21HN2dkSG9oeHZMZEFZek8zeUZhTE1KaGptWlp1N2pkZVBWTUZTekVFM2J1QzNOdnktRW55ZVRfZDUwY3lCdlc5MkNBQjVOM3VXdkttZXVkREFtQWxtUDVwa0dnODZLMnc?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "The Gambrinus Company and Margaritaville Alcohol Beverage Trust to Launch LandShark Vodka Seltzer - BevNET.com",
-          "detail": "The Gambrinus Company and Margaritaville Alcohol Beverage Trust to Launch LandShark Vodka Seltzer BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQTNVVUpoODhYVTNXZC1DMVlZQUhBZUdzLXhDZ2ZiMWt0ZDFVaEN3dlBHcUxBS3ViWlV6TS0xVkFsajlTY3VJMWY1YjBnR3R2Z29tWm5RR2poQS1WVThPUGJ1aVFOMHJFZ05MWWpiNlN1dXdVNUJZTmdlSDVkRG81amlIUEZYRnV2eVBBbVZTS2JIOWhxdUNXQ0loTGQ4U1IyVjVxQjBYRDJYWFktYS0yS1Q0NmNMM0tydmdWeGVteFotaW5yejBjWklTbzBPNGc?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/"
           ],
           "confidence": "medium"
         }
@@ -89,6 +89,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Wines of South Africa restructures UK office",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/",
+          "date": "2026-04-08T10:46:08+00:00"
+        },
+        {
           "title": "Brakspear snaps up three more pubs to boost its estate",
           "company": "Unknown",
           "move_type": "competitor",
@@ -126,76 +134,62 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.fooddive.com/news/la-colombe-ready-to-drink-lattes-new-recipe/816692/",
           "date": "2026-04-06T09:54:00-04:00"
-        },
-        {
-          "title": "Right Bank château extends with acquisition of its neighbour",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-          "date": "2026-04-02T09:37:55+00:00"
         }
       ],
       "pricing_promotions": [
         {
-          "title": "Drinks margins set to improve, Tilray says - Just Drinks",
-          "what_changed": "Drinks margins set to improve, Tilray says Just Drinks",
+          "title": "Independent pubs could vanish by 2041",
+          "what_changed": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habit",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeER3OXlIcExtV216a3lmR0R2UDFaYkZCWk1LcGRULUFhb3prUzNxa1N5cnVKYm1lTTA2ZTFBQW9OY0txQVhzbmgycHI0Y0pLQ3pMNWQyUEgxLUlRTXBTWjRfSUhnZk1JaUZOemxZblRCMWd2MXBNenVaLXRnN0J0Ng?oc=5",
-          "date": "2026-04-02T13:20:41+00:00"
-        },
-        {
-          "title": "Beverage alcohol suffers global downturn in 2025",
-          "what_changed": "Thwarted by a mix of political instability, soaring costs and drop in consumer confidence, it’s no secret that the alcohol market is suffering. But th",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/beverage-alcohol-suffers-global-downturn-in-2025/",
-          "date": "2026-04-02T10:44:38+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/",
+          "date": "2026-04-08T09:08:25+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "4 articles mention carbonated in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Sugar Free trending in United States",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Functional trending in United States",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "functional"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in United States",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "signal": "Hydration trending in United States",
+          "explanation": "1 articles mention hydration in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "rtd"
+            "hydration"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "signal": "Protein trending in United States",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "premium"
+            "protein"
           ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Juice trending in United States",
-          "explanation": "2 articles mention juice in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -222,8 +216,7 @@
           "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcFNmZ2Q0RHFxT2tVdDRoMThTRXVoYk05UDY2QWg3TDJPdnlkRThQVkgwTmprTS1fdGhBYVFVeUxDaF9mcjEtRHNkWWZEdW84VEhXRm1QbzFYZ3dmUk5mc3NfNWc0dnVsMnZDQTJ2QmkxaDRUQVJJN2YyTDJiaTNxZWViMFFqa1lwUUdqZE9ad2UzM3NtTzJFdmNwdWlBcDdqa1BnUlNEcmxXdG9PcnpzRk5vZmZtNjB6d2U2WUZianRpU1JIUzdfbHZ3QVlKNjAzX3V2b3FrNkljQUZFaXJOZg?oc=5",
-            "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUkZJbExwT2g5YmxIOE9NOVdIR2VtUHBuRGlaMjlkdFc5QklycnZ0RjRmRmlPZ0ZRZ1hDWHplVENKcF9MM09rbFNBMjhmQlRPVGVOUTlEUlBYRzlZM3FBWjc2dE9sQXR0b2V6UTM2WE5maGFiRjJWejlRZTNxZ3lhdmpGWWhFZmxjLWpfS1hnMFQzT3NCYzRmZmpweWd6YmwzZUpvT09n?oc=5",
-            "https://news.google.com/rss/articles/CBMi4AFBVV95cUxON1Njc1k3LUozY0hab3d6ODc3MFlDTWxpRXFCd05HWEllaFRvWFB1VjM4SFRGZlhGMHctVnJjZGdtLUwyRGF5ei1mdGJPbU9fY3BvUGdIaWNFbTJ4SDRJbDFIUW9wWWFOdWw5SEZxaUlFTVktZFBwSmtuUHROamQxY3NnZVV2QWM3NC1sWVdTTkxNTFBXVmlrUVBEZ2xCQlNtOWpUaS1uYlRjSlo5NUFiakZrR21NNTY5UGxMTDBxTEJveV9uSmo5MmkxQnhwN01JZGozUjUzYk9DRTVqOFlFdA?oc=5"
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUkZJbExwT2g5YmxIOE9NOVdIR2VtUHBuRGlaMjlkdFc5QklycnZ0RjRmRmlPZ0ZRZ1hDWHplVENKcF9MM09rbFNBMjhmQlRPVGVOUTlEUlBYRzlZM3FBWjc2dE9sQXR0b2V6UTM2WE5maGFiRjJWejlRZTNxZ3lhdmpGWWhFZmxjLWpfS1hnMFQzT3NCYzRmZmpweWd6YmwzZUpvT09n?oc=5"
           ]
         }
       ],
@@ -253,10 +246,26 @@
     "germany": {
       "executive_summary": [
         {
+          "headline": "Independent pubs could vanish by 2041",
+          "detail": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habits are reshaping the pub landscape. The post Indepe",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chef Q&A: Pichaya ‘Pam’ Soontornyanakij",
           "detail": "Pichaya ‘Pam’ Soontornyanakij, the chef-owner of Potong in Bangkok, discusses global acclaim, culinary progression and the prospects for Thai wine. In conversation with Amelie Maurice-Jones. The post ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Egger Bier launcht Limited Edition mit Fußballer Marko Arnautović - about-drinks.com",
+          "detail": "Egger Bier launcht Limited Edition mit Fußballer Marko Arnautović about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5"
           ],
           "confidence": "medium"
         },
@@ -275,25 +284,17 @@
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Brakspear snaps up three more pubs to boost its estate",
-          "detail": "Brakspear has expanded its leased and tenanted estate with the acquisition of three pubs in Surrey which it has acquired from Grosvenor Pubs and Inns. db reports. The post Brakspear snaps up three mor",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/brakspear-snaps-up-three-more-pubs-to-boost-its-estate/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Modelo Especial UK launch set to shake up the sector",
-          "detail": "The Mexican lager brand Modelo Especial has just been introduced into the UK by its owner AB InBev via its UK distribution arm Budweiser Brewing Group (BBG). But how will its appearance in shops and i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Egger Bier launcht Limited Edition mit Fußballer Marko Arnautović - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5",
+          "date": "2026-04-08T08:47:02+00:00"
+        },
         {
           "title": "Modelo Especial UK launch set to shake up the sector",
           "company": "AB InBev",
@@ -325,17 +326,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/drappier-unveils-eclose-2012-the-oak-egg-reshaping-champagne-in-the-cote-des-bar/",
           "date": "2026-04-07T09:13:01+00:00"
-        },
-        {
-          "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
-          "company": "Nestlé",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-          "date": "2026-04-02T11:16:43+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of South Africa restructures UK office",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/",
+          "date": "2026-04-08T10:46:08+00:00"
+        },
         {
           "title": "Brakspear snaps up three more pubs to boost its estate",
           "company": "Unknown",
@@ -351,14 +352,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/leading-european-bartender-joins-advocatuur/",
           "date": "2026-04-07T09:41:48+00:00"
-        },
-        {
-          "title": "Keurig Dr Pepper appoints Rafael Oliveira as CEO of new coffee giant - BeverageDaily.com",
-          "company": "Keurig Dr Pepper",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdXBocVpwV0Z6NU45X2pYdU1PWFhpQkhnVzZMYWFxdDdGanZ0eW1CZXM1eEtjZFI4ckpZSURSVDBSRnl3T1UzRFFnaU1pNzQ2RldKYVpEZ1BlaVE0aEdxM3RIeExOSUhFOURQZEtuTnpJdXdsUkozaDd0TGQ4QUlfQzR2VVNkRDBGdUtRR2FpODN0OEF4eWF3Vl91dUdXeFRKSGV4Mw?oc=5",
-          "date": "2026-04-02T07:43:45+00:00"
         }
       ],
       "regulatory_watch": [
@@ -377,34 +370,20 @@
           "date": "2026-04-07T06:26:46+00:00"
         },
         {
-          "title": "Right Bank château extends with acquisition of its neighbour",
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray LLP",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-          "date": "2026-04-02T09:37:55+00:00"
-        },
-        {
-          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
-          "date": "2026-03-31T16:52:46+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         }
       ],
       "pricing_promotions": [
         {
-          "title": "Drinks margins set to improve, Tilray says - Just Drinks",
-          "what_changed": "Drinks margins set to improve, Tilray says Just Drinks",
+          "title": "Independent pubs could vanish by 2041",
+          "what_changed": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habit",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeER3OXlIcExtV216a3lmR0R2UDFaYkZCWk1LcGRULUFhb3prUzNxa1N5cnVKYm1lTTA2ZTFBQW9OY0txQVhzbmgycHI0Y0pLQ3pMNWQyUEgxLUlRTXBTWjRfSUhnZk1JaUZOemxZblRCMWd2MXBNenVaLXRnN0J0Ng?oc=5",
-          "date": "2026-04-02T13:20:41+00:00"
-        },
-        {
-          "title": "Beverage alcohol suffers global downturn in 2025",
-          "what_changed": "Thwarted by a mix of political instability, soaring costs and drop in consumer confidence, it’s no secret that the alcohol market is suffering. But th",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/beverage-alcohol-suffers-global-downturn-in-2025/",
-          "date": "2026-04-02T10:44:38+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/",
+          "date": "2026-04-08T09:08:25+00:00"
         }
       ],
       "signals": [
@@ -419,10 +398,19 @@
         },
         {
           "signal": "Carbonated trending in Germany",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Organic trending in Germany",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
           ],
           "confidence": "low"
         },
@@ -434,24 +422,6 @@
             "premium"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Germany",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Protein trending in Germany",
-          "explanation": "1 articles mention protein in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "protein"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -459,9 +429,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/",
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/",
-            "https://www.thedrinksbusiness.com/2026/04/highlights-of-the-new-releases-from-brunello-di-montalcino/"
+            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
           ]
         },
         {
@@ -470,7 +440,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ],
@@ -480,9 +450,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/",
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/",
-            "https://www.thedrinksbusiness.com/2026/04/highlights-of-the-new-releases-from-brunello-di-montalcino/"
+            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
           ]
         },
         {
@@ -492,13 +462,29 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ]
     },
     "france": {
       "executive_summary": [
+        {
+          "headline": "Rémy Cointreau launches three-year plan to revive growth",
+          "detail": "French spirits group Rémy Cointreau has unveiled a new strategy aimed at restoring profitability after a difficult period for its Cognac business. The three-year transformation programme focuses on im",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/remy-cointreau-launches-three-year-plan-to-revive-growth/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Independent pubs could vanish by 2041",
+          "detail": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habits are reshaping the pub landscape. The post Indepe",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Chef Q&A: Pichaya ‘Pam’ Soontornyanakij",
           "detail": "Pichaya ‘Pam’ Soontornyanakij, the chef-owner of Potong in Bangkok, discusses global acclaim, culinary progression and the prospects for Thai wine. In conversation with Amelie Maurice-Jones. The post ",
@@ -516,26 +502,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Brakspear snaps up three more pubs to boost its estate",
-          "detail": "Brakspear has expanded its leased and tenanted estate with the acquisition of three pubs in Surrey which it has acquired from Grosvenor Pubs and Inns. db reports. The post Brakspear snaps up three mor",
+          "headline": "Wines of South Africa restructures UK office",
+          "detail": "Wines of South Africa (WoSA) has announced a restructure of its UK operation, resulting in the redundancy of its two current London-based roles. The post Wines of South Africa restructures UK office a",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/brakspear-snaps-up-three-more-pubs-to-boost-its-estate/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Modelo Especial UK launch set to shake up the sector",
-          "detail": "The Mexican lager brand Modelo Especial has just been introduced into the UK by its owner AB InBev via its UK distribution arm Budweiser Brewing Group (BBG). But how will its appearance in shops and i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Inside Koan’s £2,000 wine pairing with rare Krug by the glass",
-          "detail": "Copenhagen’s two Michelin-starred Koan has recently launched a £2,000 prestige wine pairing, featuring rare vintages, becoming the only restaurant in Denmark to pour Krug Clos du Mesnil by the glass. ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
+            "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/"
           ],
           "confidence": "medium"
         }
@@ -584,6 +554,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Wines of South Africa restructures UK office",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/",
+          "date": "2026-04-08T10:46:08+00:00"
+        },
+        {
           "title": "Brakspear snaps up three more pubs to boost its estate",
           "company": "Unknown",
           "move_type": "competitor",
@@ -606,14 +584,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdXBocVpwV0Z6NU45X2pYdU1PWFhpQkhnVzZMYWFxdDdGanZ0eW1CZXM1eEtjZFI4ckpZSURSVDBSRnl3T1UzRFFnaU1pNzQ2RldKYVpEZ1BlaVE0aEdxM3RIeExOSUhFOURQZEtuTnpJdXdsUkozaDd0TGQ4QUlfQzR2VVNkRDBGdUtRR2FpODN0OEF4eWF3Vl91dUdXeFRKSGV4Mw?oc=5",
           "date": "2026-04-02T07:43:45+00:00"
-        },
-        {
-          "title": "The promise – and pitfalls – of Pernod/Brown-Forman “merger” - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY1h5WkVIc1hRNHFaQlg4YmJfa0ZwSXZ6MEdnTDhxUGNoNFVtLXprSUVNUUNUMGJHd3Z5Sm1yekVvbXI0dzBwLXFxZzFVQ05uVkpnNXJuOE1BLXZNcGlWS19CR3VCT0cwRmE3N1ZBYTVIUnRkM0gxczNaMjRDdkxxUVlkOEFpLVI2RzdRNDctakFzVEgzT3dR?oc=5",
-          "date": "2026-03-27T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -632,11 +602,11 @@
           "date": "2026-04-07T06:26:46+00:00"
         },
         {
-          "title": "Right Bank château extends with acquisition of its neighbour",
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray LLP",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-          "date": "2026-04-02T09:37:55+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         },
         {
           "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
@@ -648,21 +618,46 @@
       ],
       "pricing_promotions": [
         {
+          "title": "Rémy Cointreau launches three-year plan to revive growth",
+          "what_changed": "French spirits group Rémy Cointreau has unveiled a new strategy aimed at restoring profitability after a difficult period for its Cognac business. The",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/remy-cointreau-launches-three-year-plan-to-revive-growth/",
+          "date": "2026-04-08T09:15:04+00:00"
+        },
+        {
+          "title": "Independent pubs could vanish by 2041",
+          "what_changed": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habit",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/",
+          "date": "2026-04-08T09:08:25+00:00"
+        },
+        {
           "title": "Drinks margins set to improve, Tilray says - Just Drinks",
           "what_changed": "Drinks margins set to improve, Tilray says Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeER3OXlIcExtV216a3lmR0R2UDFaYkZCWk1LcGRULUFhb3prUzNxa1N5cnVKYm1lTTA2ZTFBQW9OY0txQVhzbmgycHI0Y0pLQ3pMNWQyUEgxLUlRTXBTWjRfSUhnZk1JaUZOemxZblRCMWd2MXBNenVaLXRnN0J0Ng?oc=5",
           "date": "2026-04-02T13:20:41+00:00"
-        },
-        {
-          "title": "Beverage alcohol suffers global downturn in 2025",
-          "what_changed": "Thwarted by a mix of political instability, soaring costs and drop in consumer confidence, it’s no secret that the alcohol market is suffering. But th",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/beverage-alcohol-suffers-global-downturn-in-2025/",
-          "date": "2026-04-02T10:44:38+00:00"
         }
       ],
       "signals": [
+        {
+          "signal": "Carbonated trending in France",
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in France",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Sugar Free trending in France",
           "explanation": "2 articles mention sugar free in the last 28 days",
@@ -673,29 +668,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in France",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Functional trending in France",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in France",
-          "explanation": "1 articles mention premium in the last 28 days",
+          "explanation": "1 articles mention functional in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "premium"
+            "functional"
           ],
           "confidence": "low"
         },
@@ -725,15 +702,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMDUwbGFYaFpXQ2twZ0Y0MlVyUUh0UGNsYi05cHlEbjNNR3EwSEpRMlo2aGZFQjk3MWdTZllobzh3dnhiRXVfY19LRFVwdTg3Y0ZGVFBjcjRZZTYxaWJTMm56RHdkdk5UNjQ1bkZqYk9mZ0JnVnNLRlNGVjhwcVZyWnJ6cElkOUFldXhPVDVlcThEZWp5d3FwQy16VmxDRUZmR0ZrVGtWXzFuLUVt?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ],
@@ -755,13 +724,21 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ]
     },
     "spain": {
       "executive_summary": [
+        {
+          "headline": "Independent pubs could vanish by 2041",
+          "detail": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habits are reshaping the pub landscape. The post Indepe",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Chef Q&A: Pichaya ‘Pam’ Soontornyanakij",
           "detail": "Pichaya ‘Pam’ Soontornyanakij, the chef-owner of Potong in Bangkok, discusses global acclaim, culinary progression and the prospects for Thai wine. In conversation with Amelie Maurice-Jones. The post ",
@@ -779,26 +756,18 @@
           "confidence": "medium"
         },
         {
+          "headline": "Wines of South Africa restructures UK office",
+          "detail": "Wines of South Africa (WoSA) has announced a restructure of its UK operation, resulting in the redundancy of its two current London-based roles. The post Wines of South Africa restructures UK office a",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Brakspear snaps up three more pubs to boost its estate",
-          "detail": "Brakspear has expanded its leased and tenanted estate with the acquisition of three pubs in Surrey which it has acquired from Grosvenor Pubs and Inns. db reports. The post Brakspear snaps up three mor",
+          "detail": "Brakspear has expanded its leased and tenanted estate with the addition of three pubs in Surrey which it has acquired from Grosvenor Pubs and Inns. db reports. The post Brakspear snaps up three more p",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/brakspear-snaps-up-three-more-pubs-to-boost-its-estate/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Modelo Especial UK launch set to shake up the sector",
-          "detail": "The Mexican lager brand Modelo Especial has just been introduced into the UK by its owner AB InBev via its UK distribution arm Budweiser Brewing Group (BBG). But how will its appearance in shops and i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Inside Koan’s £2,000 wine pairing with rare Krug by the glass",
-          "detail": "Copenhagen’s two Michelin-starred Koan has recently launched a £2,000 prestige wine pairing, featuring rare vintages, becoming the only restaurant in Denmark to pour Krug Clos du Mesnil by the glass. ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
           ],
           "confidence": "medium"
         }
@@ -846,6 +815,14 @@
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of South Africa restructures UK office",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/",
+          "date": "2026-04-08T10:46:08+00:00"
+        },
         {
           "title": "Brakspear snaps up three more pubs to boost its estate",
           "company": "Unknown",
@@ -895,11 +872,11 @@
           "date": "2026-04-07T06:26:46+00:00"
         },
         {
-          "title": "Right Bank château extends with acquisition of its neighbour",
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray LLP",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-          "date": "2026-04-02T09:37:55+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         },
         {
           "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
@@ -911,18 +888,18 @@
       ],
       "pricing_promotions": [
         {
+          "title": "Independent pubs could vanish by 2041",
+          "what_changed": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habit",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/",
+          "date": "2026-04-08T09:08:25+00:00"
+        },
+        {
           "title": "Drinks margins set to improve, Tilray says - Just Drinks",
           "what_changed": "Drinks margins set to improve, Tilray says Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeER3OXlIcExtV216a3lmR0R2UDFaYkZCWk1LcGRULUFhb3prUzNxa1N5cnVKYm1lTTA2ZTFBQW9OY0txQVhzbmgycHI0Y0pLQ3pMNWQyUEgxLUlRTXBTWjRfSUhnZk1JaUZOemxZblRCMWd2MXBNenVaLXRnN0J0Ng?oc=5",
           "date": "2026-04-02T13:20:41+00:00"
-        },
-        {
-          "title": "Beverage alcohol suffers global downturn in 2025",
-          "what_changed": "Thwarted by a mix of political instability, soaring costs and drop in consumer confidence, it’s no secret that the alcohol market is suffering. But th",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/beverage-alcohol-suffers-global-downturn-in-2025/",
-          "date": "2026-04-02T10:44:38+00:00"
         }
       ],
       "signals": [
@@ -945,20 +922,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in Spain",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Spain",
           "explanation": "1 articles mention premium in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Functional trending in Spain",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
           ],
           "confidence": "low"
         },
@@ -988,15 +965,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMDUwbGFYaFpXQ2twZ0Y0MlVyUUh0UGNsYi05cHlEbjNNR3EwSEpRMlo2aGZFQjk3MWdTZllobzh3dnhiRXVfY19LRFVwdTg3Y0ZGVFBjcjRZZTYxaWJTMm56RHdkdk5UNjQ1bkZqYk9mZ0JnVnNLRlNGVjhwcVZyWnJ6cElkOUFldXhPVDVlcThEZWp5d3FwQy16VmxDRUZmR0ZrVGtWXzFuLUVt?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ],
@@ -1018,7 +987,7 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ]
@@ -1034,12 +1003,20 @@
           "confidence": "high"
         },
         {
-          "headline": "What makes a great site for Trentino Pinot Grigio?",
-          "detail": "Even in Italy, Pinot Grigio is far from homogenous. In the best sites of Trentino, producers like Mezzacorona are showing how the variety can match easy-drinking charm with \"elegant sapidity\". The pos",
+          "headline": "Italy’s Angelini Wines buys control of local peer Arnaldo Caprai - Just Drinks",
+          "detail": "Italy’s Angelini Wines buys control of local peer Arnaldo Caprai Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/what-makes-a-great-site-for-trentino-pinot-grigio/"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxQVzJtUTR5b1A1d1Q3YWRxOVpZb3NWc1JGdzRfTlc5NWY4bkhTQWp3SHRaSjVpM3BadmJBcF9PVTR1Y2hSQ1ozWTJBM2VDMnpPNFBid0dTSDBVejdyZXhNajNhZlFnWWFDRy04bUdMZDc0SF8tcjdWNEhYdWEzQ3BLSWFQaDZkdVZJbW0wQk4td1VyRXpDRFZEdVNKQzFpZw?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Independent pubs could vanish by 2041",
+          "detail": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habits are reshaping the pub landscape. The post Indepe",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Chef Q&A: Pichaya ‘Pam’ Soontornyanakij",
@@ -1056,14 +1033,6 @@
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "‘Langhe-Yoichi’ wine pact looks to boost viticulture, tourism and trade",
-          "detail": "The Langhe, Piedmont, and Hokkaido’s Yoichi district have come together to sign a ‘wine pact’, with the aim of facilitating a cultural exchange of expertise between the iconic Italian and Japanese win",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/langhe-yoichi-wine-pact-looks-to-boost-viticulture-tourism-and-trade/"
-          ],
-          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -1110,6 +1079,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Wines of South Africa restructures UK office",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/",
+          "date": "2026-04-08T10:46:08+00:00"
+        },
+        {
           "title": "Brakspear snaps up three more pubs to boost its estate",
           "company": "Unknown",
           "move_type": "competitor",
@@ -1132,14 +1109,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdXBocVpwV0Z6NU45X2pYdU1PWFhpQkhnVzZMYWFxdDdGanZ0eW1CZXM1eEtjZFI4ckpZSURSVDBSRnl3T1UzRFFnaU1pNzQ2RldKYVpEZ1BlaVE0aEdxM3RIeExOSUhFOURQZEtuTnpJdXdsUkozaDd0TGQ4QUlfQzR2VVNkRDBGdUtRR2FpODN0OEF4eWF3Vl91dUdXeFRKSGV4Mw?oc=5",
           "date": "2026-04-02T07:43:45+00:00"
-        },
-        {
-          "title": "The promise – and pitfalls – of Pernod/Brown-Forman “merger” - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY1h5WkVIc1hRNHFaQlg4YmJfa0ZwSXZ6MEdnTDhxUGNoNFVtLXprSUVNUUNUMGJHd3Z5Sm1yekVvbXI0dzBwLXFxZzFVQ05uVkpnNXJuOE1BLXZNcGlWS19CR3VCT0cwRmE3N1ZBYTVIUnRkM0gxczNaMjRDdkxxUVlkOEFpLVI2RzdRNDctakFzVEgzT3dR?oc=5",
-          "date": "2026-03-27T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1158,11 +1127,11 @@
           "date": "2026-04-07T06:26:46+00:00"
         },
         {
-          "title": "Right Bank château extends with acquisition of its neighbour",
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray LLP",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-          "date": "2026-04-02T09:37:55+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         },
         {
           "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
@@ -1174,21 +1143,30 @@
       ],
       "pricing_promotions": [
         {
+          "title": "Independent pubs could vanish by 2041",
+          "what_changed": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habit",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/",
+          "date": "2026-04-08T09:08:25+00:00"
+        },
+        {
           "title": "Drinks margins set to improve, Tilray says - Just Drinks",
           "what_changed": "Drinks margins set to improve, Tilray says Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeER3OXlIcExtV216a3lmR0R2UDFaYkZCWk1LcGRULUFhb3prUzNxa1N5cnVKYm1lTTA2ZTFBQW9OY0txQVhzbmgycHI0Y0pLQ3pMNWQyUEgxLUlRTXBTWjRfSUhnZk1JaUZOemxZblRCMWd2MXBNenVaLXRnN0J0Ng?oc=5",
           "date": "2026-04-02T13:20:41+00:00"
-        },
-        {
-          "title": "Beverage alcohol suffers global downturn in 2025",
-          "what_changed": "Thwarted by a mix of political instability, soaring costs and drop in consumer confidence, it’s no secret that the alcohol market is suffering. But th",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/beverage-alcohol-suffers-global-downturn-in-2025/",
-          "date": "2026-04-02T10:44:38+00:00"
         }
       ],
       "signals": [
+        {
+          "signal": "Carbonated trending in Italy",
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Sugar Free trending in Italy",
           "explanation": "2 articles mention sugar free in the last 28 days",
@@ -1199,29 +1177,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Italy",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Functional trending in Italy",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Italy",
           "explanation": "1 articles mention premium in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Functional trending in Italy",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
           ],
           "confidence": "low"
         },
@@ -1251,15 +1220,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMDUwbGFYaFpXQ2twZ0Y0MlVyUUh0UGNsYi05cHlEbjNNR3EwSEpRMlo2aGZFQjk3MWdTZllobzh3dnhiRXVfY19LRFVwdTg3Y0ZGVFBjcjRZZTYxaWJTMm56RHdkdk5UNjQ1bkZqYk9mZ0JnVnNLRlNGVjhwcVZyWnJ6cElkOUFldXhPVDVlcThEZWp5d3FwQy16VmxDRUZmR0ZrVGtWXzFuLUVt?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ],
@@ -1281,7 +1242,7 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ]
@@ -1289,10 +1250,26 @@
     "austria": {
       "executive_summary": [
         {
+          "headline": "Independent pubs could vanish by 2041",
+          "detail": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habits are reshaping the pub landscape. The post Indepe",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chef Q&A: Pichaya ‘Pam’ Soontornyanakij",
           "detail": "Pichaya ‘Pam’ Soontornyanakij, the chef-owner of Potong in Bangkok, discusses global acclaim, culinary progression and the prospects for Thai wine. In conversation with Amelie Maurice-Jones. The post ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Egger Bier launcht Limited Edition mit Fußballer Marko Arnautović - about-drinks.com",
+          "detail": "Egger Bier launcht Limited Edition mit Fußballer Marko Arnautović about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5"
           ],
           "confidence": "medium"
         },
@@ -1305,31 +1282,23 @@
           "confidence": "medium"
         },
         {
-          "headline": "Brakspear snaps up three more pubs to boost its estate",
-          "detail": "Brakspear has expanded its leased and tenanted estate with the acquisition of three pubs in Surrey which it has acquired from Grosvenor Pubs and Inns. db reports. The post Brakspear snaps up three mor",
+          "headline": "Wines of South Africa restructures UK office",
+          "detail": "Wines of South Africa (WoSA) has announced a restructure of its UK operation, resulting in the redundancy of its two current London-based roles. The post Wines of South Africa restructures UK office a",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/brakspear-snaps-up-three-more-pubs-to-boost-its-estate/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Modelo Especial UK launch set to shake up the sector",
-          "detail": "The Mexican lager brand Modelo Especial has just been introduced into the UK by its owner AB InBev via its UK distribution arm Budweiser Brewing Group (BBG). But how will its appearance in shops and i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Inside Koan’s £2,000 wine pairing with rare Krug by the glass",
-          "detail": "Copenhagen’s two Michelin-starred Koan has recently launched a £2,000 prestige wine pairing, featuring rare vintages, becoming the only restaurant in Denmark to pour Krug Clos du Mesnil by the glass. ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
+            "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Egger Bier launcht Limited Edition mit Fußballer Marko Arnautović - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5",
+          "date": "2026-04-08T08:47:02+00:00"
+        },
         {
           "title": "Modelo Especial UK launch set to shake up the sector",
           "company": "AB InBev",
@@ -1361,17 +1330,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/drappier-unveils-eclose-2012-the-oak-egg-reshaping-champagne-in-the-cote-des-bar/",
           "date": "2026-04-07T09:13:01+00:00"
-        },
-        {
-          "title": "New beverage launches: Nestlé functional, MOMO and more… - BeverageDaily.com",
-          "company": "Nestlé",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnM3Wm5ILXEyMVk4TGQ5bG5xLXlnZk4wWjFHUlB2amNmWkF5NFJZOTUxWkZSVDZLMXgzcUJlYUtiWVA1Z2xUQk5qSlpFbXhjSnJoN19yS2p6Z0Y1b0p3YmNyWmpSWldSbksxa2l6OW1oWGhmVF83eGxEX0trbTQ0MHZYWURURXBvQ1B0Yms2MWY4WDY0NHlSckRhcV9TbkgzaFJKTGdOYw?oc=5",
-          "date": "2026-04-02T11:16:43+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Wines of South Africa restructures UK office",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/wines-of-south-africa-restructures-uk-office/",
+          "date": "2026-04-08T10:46:08+00:00"
+        },
         {
           "title": "Brakspear snaps up three more pubs to boost its estate",
           "company": "Unknown",
@@ -1387,14 +1356,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/leading-european-bartender-joins-advocatuur/",
           "date": "2026-04-07T09:41:48+00:00"
-        },
-        {
-          "title": "Keurig Dr Pepper appoints Rafael Oliveira as CEO of new coffee giant - BeverageDaily.com",
-          "company": "Keurig Dr Pepper",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdXBocVpwV0Z6NU45X2pYdU1PWFhpQkhnVzZMYWFxdDdGanZ0eW1CZXM1eEtjZFI4ckpZSURSVDBSRnl3T1UzRFFnaU1pNzQ2RldKYVpEZ1BlaVE0aEdxM3RIeExOSUhFOURQZEtuTnpJdXdsUkozaDd0TGQ4QUlfQzR2VVNkRDBGdUtRR2FpODN0OEF4eWF3Vl91dUdXeFRKSGV4Mw?oc=5",
-          "date": "2026-04-02T07:43:45+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1413,34 +1374,20 @@
           "date": "2026-04-07T06:26:46+00:00"
         },
         {
-          "title": "Right Bank château extends with acquisition of its neighbour",
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray LLP",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/",
-          "date": "2026-04-02T09:37:55+00:00"
-        },
-        {
-          "title": "Commission guidance on implementing EU Packaging and Packaging Waste Regulation published - EUWID Recycling and Waste Management",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQWtwRVZja0hkUGpVaUhfdWMyemxuaExYMHVwS3Q0amdRdmFUS0VYU1BPMUd2b2tYYXJWX3lYSktJVHU0dUtmQ2h2WTd5bS1Bd1Z4UnVBQVZhbFZZRUtKa0QyLVJPSkd3Yy1POFpfdEtCV2RDTC1KZG1TbVhuU3pxNWdwUzdyUmMwTW1RcmczWXJLNXBqMjFzbDE4QzNoNS15VUtPdlVDOHRXelAtcHBF?oc=5",
-          "date": "2026-03-31T16:52:46+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         }
       ],
       "pricing_promotions": [
         {
-          "title": "Drinks margins set to improve, Tilray says - Just Drinks",
-          "what_changed": "Drinks margins set to improve, Tilray says Just Drinks",
+          "title": "Independent pubs could vanish by 2041",
+          "what_changed": "New research suggests Britain’s independent pubs and bars could disappear by 2041 if current trends continue. Rising costs and shifting consumer habit",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeER3OXlIcExtV216a3lmR0R2UDFaYkZCWk1LcGRULUFhb3prUzNxa1N5cnVKYm1lTTA2ZTFBQW9OY0txQVhzbmgycHI0Y0pLQ3pMNWQyUEgxLUlRTXBTWjRfSUhnZk1JaUZOemxZblRCMWd2MXBNenVaLXRnN0J0Ng?oc=5",
-          "date": "2026-04-02T13:20:41+00:00"
-        },
-        {
-          "title": "Beverage alcohol suffers global downturn in 2025",
-          "what_changed": "Thwarted by a mix of political instability, soaring costs and drop in consumer confidence, it’s no secret that the alcohol market is suffering. But th",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/beverage-alcohol-suffers-global-downturn-in-2025/",
-          "date": "2026-04-02T10:44:38+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/independent-pubs-could-vanish-by-2041/",
+          "date": "2026-04-08T09:08:25+00:00"
         }
       ],
       "signals": [
@@ -1455,10 +1402,19 @@
         },
         {
           "signal": "Carbonated trending in Austria",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Organic trending in Austria",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
           ],
           "confidence": "low"
         },
@@ -1470,24 +1426,6 @@
             "premium"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Austria",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Protein trending in Austria",
-          "explanation": "1 articles mention protein in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "protein"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1495,9 +1433,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/",
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/",
-            "https://www.thedrinksbusiness.com/2026/04/highlights-of-the-new-releases-from-brunello-di-montalcino/"
+            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
           ]
         },
         {
@@ -1506,7 +1444,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ],
@@ -1516,9 +1454,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdllEeXFlb182U1F1VHZYVXRHbGJQZFdmdDViV1NNSUk4Nnc1YlQ2LUZ0YkZaN0ZRd19aTnR0WFdrQ1FyX3VYdXc5bDVqc3FjRC05MFNxZmNMcFR0TDg3dUpEVGpJeGJkWkRyZHU3NTQyUi1vWDRsUG85c2I0ZzA3dXdONFpiYXVKZnVhb29sVmx3LTkzQ2RENGRsT3Y?oc=5",
             "https://www.thedrinksbusiness.com/2026/04/modelo-especial-uk-launch-set-to-shake-up-the-sector/",
-            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/",
-            "https://www.thedrinksbusiness.com/2026/04/highlights-of-the-new-releases-from-brunello-di-montalcino/"
+            "https://www.thedrinksbusiness.com/2026/04/inside-koans-2000-wine-pairing-with-rare-krug-by-the-glass/"
           ]
         },
         {
@@ -1528,7 +1466,7 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/chef-qa-pichaya-pam-soontornyanakij/",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/right-bank-chateau-extends-with-acquisition-of-its-neighbour/"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5"
           ]
         }
       ]
