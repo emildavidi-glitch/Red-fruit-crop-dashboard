@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-08T14:44:58.480806+00:00",
-  "generated_date": "Wednesday, 08 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Joseph Phelps: ‘We’re always looking to the future’.",
+  "generated_at": "2026-04-09T06:18:12.217961+00:00",
+  "generated_date": "Thursday, 09 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Indiana Small Batch - Warehouse Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 44,
-      "competitor": 22,
+      "trend": 149,
+      "launch": 45,
       "supply_chain": 21,
       "regulatory": 21,
+      "competitor": 21,
       "carbonated": 18,
-      "sugar_free": 14,
+      "sugar_free": 13,
       "retail": 13,
-      "pricing": 10,
-      "macro": 9
+      "pricing": 11,
+      "macro": 10
     }
   }
 }
