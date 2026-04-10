@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-09T14:53:27.414517+00:00",
-  "generated_date": "Thursday, 09 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Constellation lowers outlook for new fiscal year amid \"dynamic\" conditions - Just Drinks.",
+  "generated_at": "2026-04-10T06:51:35.418528+00:00",
+  "generated_date": "Friday, 10 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Entries now open: The Global Sangiovese Masters 2026.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Premium trending. (50 items)",
     "germany": "Hydration trending. (50 items)",
     "france": "Premium trending. (50 items)",
-    "spain": "Carbonated trending. (50 items)",
+    "spain": "Sugar Free trending. (50 items)",
     "italy": "Sugar Free trending. (50 items)",
     "austria": "Hydration trending. (50 items)"
   },
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 169,
-      "launch": 40,
-      "competitor": 22,
-      "regulatory": 20,
+      "trend": 175,
+      "launch": 49,
       "pricing": 17,
-      "carbonated": 12,
-      "macro": 11,
-      "premium": 8,
-      "innovation": 8,
-      "supply_chain": 7
+      "competitor": 13,
+      "innovation": 13,
+      "functional": 11,
+      "regulatory": 11,
+      "carbonated": 10,
+      "premium": 9,
+      "macro": 9
     }
   }
 }
