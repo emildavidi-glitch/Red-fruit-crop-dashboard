@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-10T06:51:35.418528+00:00",
+  "generated_at": "2026-04-10T14:15:51.234829+00:00",
   "generated_date": "Friday, 10 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Entries now open: The Global Sangiovese Masters 2026.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Bottega goes for gold.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Hydration trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Sugar Free trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
-    "austria": "Hydration trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 175,
-      "launch": 49,
-      "pricing": 17,
+      "trend": 155,
+      "launch": 66,
+      "regulatory": 24,
+      "alcohol_free": 20,
+      "carbonated": 16,
+      "pricing": 16,
       "competitor": 13,
-      "innovation": 13,
-      "functional": 11,
-      "regulatory": 11,
-      "carbonated": 10,
-      "premium": 9,
-      "macro": 9
+      "supply_chain": 12,
+      "innovation": 11,
+      "functional": 10
     }
   }
 }
