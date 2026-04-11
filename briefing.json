@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-10T14:15:51.234829+00:00",
-  "generated_date": "Friday, 10 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Bottega goes for gold.",
+  "generated_at": "2026-04-11T05:57:40.861671+00:00",
+  "generated_date": "Saturday, 11 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Protein soda: Why the new craze is going from strength to strength - BeverageDaily.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
-      "launch": 66,
+      "trend": 161,
+      "launch": 60,
       "regulatory": 24,
-      "alcohol_free": 20,
-      "carbonated": 16,
+      "carbonated": 22,
+      "alcohol_free": 18,
       "pricing": 16,
       "competitor": 13,
+      "functional": 13,
       "supply_chain": 12,
-      "innovation": 11,
-      "functional": 10
+      "innovation": 11
     }
   }
 }
