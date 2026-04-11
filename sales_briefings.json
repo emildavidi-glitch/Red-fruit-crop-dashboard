@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T05:57:40.861671+00:00",
+  "generated_at": "2026-04-11T13:55:49.178111+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -154,8 +154,8 @@
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "6 articles mention carbonated in the last 28 days",
-          "support_count": 6,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
           ],
@@ -428,20 +428,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Hydration trending in Germany",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Sugar Free trending in Germany",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
@@ -1452,20 +1452,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Hydration trending in Austria",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Sugar Free trending in Austria",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
