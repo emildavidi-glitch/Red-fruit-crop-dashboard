@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-12T06:22:11.099112+00:00",
+  "generated_at": "2026-04-12T13:59:25.299205+00:00",
   "generated_date": "Sunday, 12 April 2026",
-  "briefing": "Sales intelligence tracked 299 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Nantucket Crisps - Business Development Specialist - BevNET.com Beverage Industry Job Listing - BevN.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Nantucket Crisps - Business Development Specialist - BevNET.com Beverage Industry Job Listing - BevN.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (49 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 299,
+    "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 192,
-      "launch": 43,
-      "innovation": 20,
-      "functional": 19,
-      "pricing": 17,
-      "regulatory": 14,
-      "carbonated": 9,
-      "protein": 7,
-      "supply_chain": 7,
-      "energy": 6
+      "trend": 162,
+      "launch": 53,
+      "regulatory": 24,
+      "carbonated": 21,
+      "alcohol_free": 18,
+      "pricing": 16,
+      "innovation": 14,
+      "competitor": 13,
+      "supply_chain": 12,
+      "functional": 9
     }
   }
 }
