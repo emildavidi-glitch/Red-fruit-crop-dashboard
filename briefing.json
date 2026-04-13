@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-13T07:11:45.223976+00:00",
+  "generated_at": "2026-04-13T14:47:20.169872+00:00",
   "generated_date": "Monday, 13 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Knabe Malz jetzt auch in der Mehrweg-Glasflasche - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Lagg Distillery: Limitierte Edition mit Manzanilla Sherry Finish - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
+    "spain": "Carbonated trending. (50 items)",
     "italy": "Carbonated trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 161,
-      "launch": 49,
-      "regulatory": 29,
-      "carbonated": 22,
+      "trend": 162,
+      "launch": 41,
+      "regulatory": 34,
+      "supply_chain": 24,
+      "carbonated": 18,
+      "competitor": 18,
       "alcohol_free": 18,
-      "pricing": 17,
-      "innovation": 14,
-      "competitor": 13,
-      "supply_chain": 12,
-      "functional": 10
+      "pricing": 13,
+      "innovation": 8,
+      "juice": 7
     }
   }
 }
