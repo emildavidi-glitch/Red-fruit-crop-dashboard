@@ -1,51 +1,59 @@
 {
-  "generated_at": "2026-04-14T06:28:51.031887+00:00",
+  "generated_at": "2026-04-14T14:50:06.237327+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
         {
-          "headline": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
-          "detail": "US jury finds against Boston Beer in packaging lawsuit Just Drinks",
+          "headline": "White Claw owner buys celebrity-backed Finnish Long Drink",
+          "detail": "The acquisition is the first for Mark Anthony Group's new CEO Phil Rosse as he looks to double the company's global presence in alcohol.",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
+            "https://www.fooddive.com/news/mark-anthony-group-white-claw-buys-finnish-long-drink/817411/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Vinarchy UK hit with £8million packaging tax",
-          "detail": "The UK arm of Vinarchy, the company formed when Accolade merged with Pernod Ricard Winemakers, would have turned a profit last year were it not for the Extended Producer Responsibility (EPR) levy, its",
+          "headline": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "detail": "Cult Wine’s CEO Tom Gearing said steps taken to stabilise the business were already showing signs of success, with the first quarter of this year seeing consecutive growth. The post Cult Wine stabilis",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
-          "detail": "Molson Coors has leapt on the growing fruit beer trend with the launch of its new flavoured lager Madrí Excepcional Limón. db finds out more. The post Why Molson Coors’ launch of Madrí Excepcional Lim",
+          "headline": "Grocery price growth cools as overall inflation surges",
+          "detail": "Prices for meat, produce and coffee continued to accelerate, but overall food-at-home inflation was below 2% for the first time since November 2025.",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/"
+            "https://www.fooddive.com/news/grocery-inflation-march-2026-produce-coffee-meat-eggs/817416/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Southside Craft Soda Launches SouthTex Beverage Company to Scale Production and Distribution - BevNET.com",
-          "detail": "Southside Craft Soda Launches SouthTex Beverage Company to Scale Production and Distribution BevNET.com",
+          "headline": "Lidl starts building first ever pub",
+          "detail": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regarding the pub’s construction. The post Lidl starts bui",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFd4eDJVYk9YTmJiVXQwRmh5a3ZxRTlXbmYxdzM1Q1JyNEVQNjRKb0VNZkhBb3dPUnBKaTFZbVlXeVZGNjhIRGpISGcyZXM1MjNkTlVVVHo5Sjczc2V0a0MtOTVDWmZvdlFvYk1Fa09fUWFqYkU5WVh1VWxDYURNMHdhTnF0YXBpTlBZWmdVR1Q5azdzaldzcDlKWVNqR2toRlAtWVZVZ3FyUVFlUm1uMGE0M2U3OWo3YWE3NWhHSGlaOFFveVlsUA?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Leftovers: Liquid IV turns Grillo’s pickle flavor prank into reality | Mike’s Hard Lemonade gives dirty soda a shot",
-          "detail": "The Unilever-owned hydration brand is launching a briny new variety, while PBR teams with Smithfield on a brat-infused sausage for grilling season.",
+          "headline": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "detail": "Freixenet is expanding its alcohol-free range with the launch of Diamond 0.0% – its first 'super-premium' non-alcoholic sparkling wine, according to the world’s biggest Cava brand. The post Freixenet ",
           "evidence_urls": [
-            "https://www.fooddive.com/news/liquid-iv-pickles-mikes-hard-lemonade-dirty-soda-smithfield-beer-brats-pbr/817187/"
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "company": "Unknown",
+          "product": "carbonated, alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
+          "date": "2026-04-14T10:25:25+00:00"
+        },
         {
           "title": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
           "company": "Unknown",
@@ -61,14 +69,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFd4eDJVYk9YTmJiVXQwRmh5a3ZxRTlXbmYxdzM1Q1JyNEVQNjRKb0VNZkhBb3dPUnBKaTFZbVlXeVZGNjhIRGpISGcyZXM1MjNkTlVVVHo5Sjczc2V0a0MtOTVDWmZvdlFvYk1Fa09fUWFqYkU5WVh1VWxDYURNMHdhTnF0YXBpTlBZWmdVR1Q5azdzaldzcDlKWVNqR2toRlAtWVZVZ3FyUVFlUm1uMGE0M2U3OWo3YWE3NWhHSGlaOFFveVlsUA?oc=5",
           "date": "2026-04-13T22:14:09+00:00"
-        },
-        {
-          "title": "Leftovers: Liquid IV turns Grillo’s pickle flavor prank into reality | Mike’s Hard Lemonade gives dirty soda a shot",
-          "company": "Unknown",
-          "product": "hydration, carbonated",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/liquid-iv-pickles-mikes-hard-lemonade-dirty-soda-smithfield-beer-brats-pbr/817187/",
-          "date": "2026-04-10T09:24:40-04:00"
         },
         {
           "title": "Former NFL Safety Micah Hyde Expands Hyde’s Hail Mary with Two New Flavor Launches: Orange Shandy and Ginger Shandy - BevNET.com",
@@ -119,17 +119,23 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/louis-roederer-enters-talks-for-burgundy-estate/",
           "date": "2026-04-13T10:08:53+00:00"
-        },
-        {
-          "title": "Bidding battle looms for Brown-Forman ownership",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bidding-battle-looms-for-brown-forman-ownership/",
-          "date": "2026-04-10T09:10:22+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "White Claw owner buys celebrity-backed Finnish Long Drink",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.fooddive.com/news/mark-anthony-group-white-claw-buys-finnish-long-drink/817411/",
+          "date": "2026-04-14T09:22:00-04:00"
+        },
+        {
+          "title": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+          "date": "2026-04-14T10:56:48+00:00"
+        },
         {
           "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "topic": "regulation",
@@ -143,50 +149,36 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
           "date": "2026-04-13T10:27:46+00:00"
-        },
-        {
-          "title": "Bangkok Songkran 2026 to be alcohol-free",
-          "topic": "alcohol_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/",
-          "date": "2026-04-10T10:15:18+00:00"
-        },
-        {
-          "title": "Why global business leaders should meet over a beer",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/why-global-business-leaders-should-meet-over-a-beer/",
-          "date": "2026-04-10T08:30:45+00:00"
-        },
-        {
-          "title": "Private label beverages pour on growth as innovation accelerates - BeverageDaily.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-          "date": "2026-04-07T06:26:46+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Grocery price growth cools as overall inflation surges",
+          "what_changed": "Prices for meat, produce and coffee continued to accelerate, but overall food-at-home inflation was below 2% for the first time since November 2025.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.fooddive.com/news/grocery-inflation-march-2026-produce-coffee-meat-eggs/817416/",
+          "date": "2026-04-14T09:27:35-04:00"
+        },
+        {
+          "title": "Lidl starts building first ever pub",
+          "what_changed": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regardin",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/",
+          "date": "2026-04-14T10:10:42+00:00"
+        },
         {
           "title": "Cost of dating climbs, US consumers cut back",
           "what_changed": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective ",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/",
           "date": "2026-04-13T09:19:37+00:00"
-        },
-        {
-          "title": "Constellation confident on improving wine-and-spirits EBIT margins - Just Drinks",
-          "what_changed": "Constellation confident on improving wine-and-spirits EBIT margins Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjlaZVRtYTc5cm9NRzNfRkNOdTQyaGtMbmxJWWt5UUJSVHp6bm8tN2d4ZDZNN3hoTldqYW9rS3ZTX2Q2cmxQZGt1b1BINlN0ai04Z3pnUDJLOTFYMGhpMW53a3U4YVdRYXNEeFFZaEhHMXZJODZVMkVOWXVWZ1dZUTVjR0tmOTB5eWJkVWhMTGs5T21RczNBWllMZlh5NWFpOGc?oc=5",
-          "date": "2026-04-10T11:26:44+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
+          "explanation": "6 articles mention carbonated in the last 28 days",
+          "support_count": 6,
           "top_keywords": [
             "carbonated"
           ],
@@ -194,8 +186,8 @@
         },
         {
           "signal": "Premium trending in United States",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "premium"
           ],
@@ -212,19 +204,19 @@
         },
         {
           "signal": "Alcohol Free trending in United States",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
-          "signal": "Hydration trending in United States",
-          "explanation": "1 articles mention hydration in the last 28 days",
+          "signal": "Sugar Free trending in United States",
+          "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "hydration"
+            "sugar_free"
           ],
           "confidence": "low"
         }
@@ -234,18 +226,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFd4eDJVYk9YTmJiVXQwRmh5a3ZxRTlXbmYxdzM1Q1JyNEVQNjRKb0VNZkhBb3dPUnBKaTFZbVlXeVZGNjhIRGpISGcyZXM1MjNkTlVVVHo5Sjczc2V0a0MtOTVDWmZvdlFvYk1Fa09fUWFqYkU5WVh1VWxDYURNMHdhTnF0YXBpTlBZWmdVR1Q5azdzaldzcDlKWVNqR2toRlAtWVZVZ3FyUVFlUm1uMGE0M2U3OWo3YWE3NWhHSGlaOFFveVlsUA?oc=5",
-            "https://www.fooddive.com/news/liquid-iv-pickles-mikes-hard-lemonade-dirty-soda-smithfield-beer-brats-pbr/817187/"
+            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFd4eDJVYk9YTmJiVXQwRmh5a3ZxRTlXbmYxdzM1Q1JyNEVQNjRKb0VNZkhBb3dPUnBKaTFZbVlXeVZGNjhIRGpISGcyZXM1MjNkTlVVVHo5Sjczc2V0a0MtOTVDWmZvdlFvYk1Fa09fUWFqYkU5WVh1VWxDYURNMHdhTnF0YXBpTlBZWmdVR1Q5azdzaldzcDlKWVNqR2toRlAtWVZVZ3FyUVFlUm1uMGE0M2U3OWo3YWE3NWhHSGlaOFFveVlsUA?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.fooddive.com/news/mark-anthony-group-white-claw-buys-finnish-long-drink/817411/",
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
           ]
         }
       ],
@@ -255,9 +247,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFd4eDJVYk9YTmJiVXQwRmh5a3ZxRTlXbmYxdzM1Q1JyNEVQNjRKb0VNZkhBb3dPUnBKaTFZbVlXeVZGNjhIRGpISGcyZXM1MjNkTlVVVHo5Sjczc2V0a0MtOTVDWmZvdlFvYk1Fa09fUWFqYkU5WVh1VWxDYURNMHdhTnF0YXBpTlBZWmdVR1Q5azdzaldzcDlKWVNqR2toRlAtWVZVZ3FyUVFlUm1uMGE0M2U3OWo3YWE3NWhHSGlaOFFveVlsUA?oc=5",
-            "https://www.fooddive.com/news/liquid-iv-pickles-mikes-hard-lemonade-dirty-soda-smithfield-beer-brats-pbr/817187/"
+            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFd4eDJVYk9YTmJiVXQwRmh5a3ZxRTlXbmYxdzM1Q1JyNEVQNjRKb0VNZkhBb3dPUnBKaTFZbVlXeVZGNjhIRGpISGcyZXM1MjNkTlVVVHo5Sjczc2V0a0MtOTVDWmZvdlFvYk1Fa09fUWFqYkU5WVh1VWxDYURNMHdhTnF0YXBpTlBZWmdVR1Q5azdzaldzcDlKWVNqR2toRlAtWVZVZ3FyUVFlUm1uMGE0M2U3OWo3YWE3NWhHSGlaOFFveVlsUA?oc=5"
           ]
         },
         {
@@ -265,15 +257,39 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.fooddive.com/news/mark-anthony-group-white-claw-buys-finnish-long-drink/817411/",
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
           ]
         }
       ]
     },
     "germany": {
       "executive_summary": [
+        {
+          "headline": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "detail": "Cult Wine’s CEO Tom Gearing said steps taken to stabilise the business were already showing signs of success, with the first quarter of this year seeing consecutive growth. The post Cult Wine stabilis",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Lidl starts building first ever pub",
+          "detail": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regarding the pub’s construction. The post Lidl starts bui",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "detail": "Freixenet is expanding its alcohol-free range with the launch of Diamond 0.0% – its first 'super-premium' non-alcoholic sparkling wine, according to the world’s biggest Cava brand. The post Freixenet ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "detail": "US jury finds against Boston Beer in packaging lawsuit Just Drinks",
@@ -289,33 +305,17 @@
             "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
-          "detail": "Molson Coors has leapt on the growing fruit beer trend with the launch of its new flavoured lager Madrí Excepcional Limón. db finds out more. The post Why Molson Coors’ launch of Madrí Excepcional Lim",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Cost of dating climbs, US consumers cut back",
-          "detail": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective about how they spend on wine. The post Cost of dat",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Chapel Down launches ‘Taste of England’ chef competition",
-          "detail": "Chapel Down has launched ‘Taste of England’, a new nationwide competition inviting chefs to create menus paired with its sparkling wines. The initiative aims to spotlight emerging culinary talent whil",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "company": "Unknown",
+          "product": "carbonated, alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
+          "date": "2026-04-14T10:25:25+00:00"
+        },
         {
           "title": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
           "company": "Unknown",
@@ -339,22 +339,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWVOQy1NSzJMWnFnRzVZYWo2LTA2S0dwX3F2RlBTLUhCRndVSmNTSUVVM3Z3NDlUVzZYci1HSldLc3Jyc0V2OExaakdRUnoyNUZmLWZBLXhuVnp6czl4b0E0R3dTU283NXNsaVJEOEpIMVRRUG5MRmNwSVhOVVlhM0w4T2taaGJ3a3BLbVRjQnA?oc=5",
           "date": "2026-04-13T10:07:43+00:00"
-        },
-        {
-          "title": "Last chance saloon: don’t miss out on entering the DB Awards",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/",
-          "date": "2026-04-13T08:35:35+00:00"
-        },
-        {
-          "title": "Pub thief jailed after Fabergé whiskey set stolen in Soho",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/pub-thief-jailed-after-faberge-whiskey-set-stolen-in-soho/",
-          "date": "2026-04-10T09:22:57+00:00"
         }
       ],
       "competitor_moves": [
@@ -373,17 +357,16 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/louis-roederer-enters-talks-for-burgundy-estate/",
           "date": "2026-04-13T10:08:53+00:00"
-        },
-        {
-          "title": "Bidding battle looms for Brown-Forman ownership",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bidding-battle-looms-for-brown-forman-ownership/",
-          "date": "2026-04-10T09:10:22+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+          "date": "2026-04-14T10:56:48+00:00"
+        },
         {
           "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "topic": "regulation",
@@ -397,61 +380,58 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
           "date": "2026-04-13T10:27:46+00:00"
-        },
-        {
-          "title": "Bangkok Songkran 2026 to be alcohol-free",
-          "topic": "alcohol_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/",
-          "date": "2026-04-10T10:15:18+00:00"
-        },
-        {
-          "title": "Why global business leaders should meet over a beer",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/why-global-business-leaders-should-meet-over-a-beer/",
-          "date": "2026-04-10T08:30:45+00:00"
-        },
-        {
-          "title": "Private label beverages pour on growth as innovation accelerates - BeverageDaily.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-          "date": "2026-04-07T06:26:46+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Lidl starts building first ever pub",
+          "what_changed": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regardin",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/",
+          "date": "2026-04-14T10:10:42+00:00"
+        },
         {
           "title": "Cost of dating climbs, US consumers cut back",
           "what_changed": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective ",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/",
           "date": "2026-04-13T09:19:37+00:00"
-        },
-        {
-          "title": "Constellation confident on improving wine-and-spirits EBIT margins - Just Drinks",
-          "what_changed": "Constellation confident on improving wine-and-spirits EBIT margins Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjlaZVRtYTc5cm9NRzNfRkNOdTQyaGtMbmxJWWt5UUJSVHp6bm8tN2d4ZDZNN3hoTldqYW9rS3ZTX2Q2cmxQZGt1b1BINlN0ai04Z3pnUDJLOTFYMGhpMW53a3U4YVdRYXNEeFFZaEhHMXZJODZVMkVOWXVWZ1dZUTVjR0tmOTB5eWJkVWhMTGs5T21RczNBWllMZlh5NWFpOGc?oc=5",
-          "date": "2026-04-10T11:26:44+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Carbonated trending in Germany",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in Germany",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Germany",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -463,55 +443,37 @@
             "sugar_free"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in Germany",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Juice trending in Germany",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWVOQy1NSzJMWnFnRzVZYWo2LTA2S0dwX3F2RlBTLUhCRndVSmNTSUVVM3Z3NDlUVzZYci1HSldLc3Jyc0V2OExaakdRUnoyNUZmLWZBLXhuVnp6czl4b0E0R3dTU283NXNsaVJEOEpIMVRRUG5MRmNwSVhOVVlhM0w4T2taaGJ3a3BLbVRjQnA?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWVOQy1NSzJMWnFnRzVZYWo2LTA2S0dwX3F2RlBTLUhCRndVSmNTSUVVM3Z3NDlUVzZYci1HSldLc3Jyc0V2OExaakdRUnoyNUZmLWZBLXhuVnp6czl4b0E0R3dTU283NXNsaVJEOEpIMVRRUG5MRmNwSVhOVVlhM0w4T2taaGJ3a3BLbVRjQnA?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
@@ -519,9 +481,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ]
@@ -529,47 +491,55 @@
     "france": {
       "executive_summary": [
         {
+          "headline": "Chanel-owned St. Supéry acquires Rudd Estate",
+          "detail": "Napa Valley producer St. Supéry, owned by French fashion house Chanel, has acquired Rudd Estate in Oakville, saying it's \"exactly the kind of place we feel called to nurture\". The post Chanel-owned St",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/chanel-owned-st-supery-acquires-rudd-estate/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "detail": "Cult Wine’s CEO Tom Gearing said steps taken to stabilise the business were already showing signs of success, with the first quarter of this year seeing consecutive growth. The post Cult Wine stabilis",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Lidl starts building first ever pub",
+          "detail": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regarding the pub’s construction. The post Lidl starts bui",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "detail": "Freixenet is expanding its alcohol-free range with the launch of Diamond 0.0% – its first 'super-premium' non-alcoholic sparkling wine, according to the world’s biggest Cava brand. The post Freixenet ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "detail": "US jury finds against Boston Beer in packaging lawsuit Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Vinarchy UK hit with £8million packaging tax",
-          "detail": "The UK arm of Vinarchy, the company formed when Accolade merged with Pernod Ricard Winemakers, would have turned a profit last year were it not for the Extended Producer Responsibility (EPR) levy, its",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
-          "detail": "Molson Coors has leapt on the growing fruit beer trend with the launch of its new flavoured lager Madrí Excepcional Limón. db finds out more. The post Why Molson Coors’ launch of Madrí Excepcional Lim",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lamb Weston warns of supply chain pressures amid Iran war",
-          "detail": "The french fry maker anticipates a rise in commodity volatility, including for packaging and fuel, if the conflict persists.",
-          "evidence_urls": [
-            "https://www.fooddive.com/news/lamb-weston-iran-war-risks/817146/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Cost of dating climbs, US consumers cut back",
-          "detail": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective about how they spend on wine. The post Cost of dat",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "company": "Unknown",
+          "product": "carbonated, alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
+          "date": "2026-04-14T10:25:25+00:00"
+        },
         {
           "title": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
           "company": "Unknown",
@@ -587,31 +557,31 @@
           "date": "2026-04-13T16:18:41+00:00"
         },
         {
-          "title": "Last chance saloon: don’t miss out on entering the DB Awards",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/",
-          "date": "2026-04-13T08:35:35+00:00"
-        },
-        {
-          "title": "Pub thief jailed after Fabergé whiskey set stolen in Soho",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/pub-thief-jailed-after-faberge-whiskey-set-stolen-in-soho/",
-          "date": "2026-04-10T09:22:57+00:00"
-        },
-        {
           "title": "New beverage launches: English wine, high-ABV beer and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXdEWXhkc1B1dWw1VDU5MU5TTnYteFUwZWNiVllsOW13bERGLVNNWkNVcWJMUU5iMG5md3JSQlhqOTl2N2ZlTURRcHlQbzBiT2lxVHBjQzhVd2VOeHFBNGVwTGVkWlVQWGt0MEpFNk54M2d3UkFkNklvNWJqZi15UldBWWp5QUtRMF9jYkRCT0NvQVpPNWNGNW9BUkNkUU0tSkRkOFR6cUdfUQ?oc=5",
           "date": "2026-04-10T08:57:41+00:00"
+        },
+        {
+          "title": "Mezcal brand Dos Hombres expands into Tequila - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TbjZ4MXFiMFZRTlhsc0ZFMFBhWkJlV0wxMk1CUU1hUjZ0MFBua2MtMWdIWGJWX0FnMUpQc2tidG82bkl1TW1WdHY5UEdMaXc4UTZldVNrR3pOQUJqSzlRWjhrSXNIYmZlUHBiTw?oc=5",
+          "date": "2026-04-09T17:01:19+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Chanel-owned St. Supéry acquires Rudd Estate",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/chanel-owned-st-supery-acquires-rudd-estate/",
+          "date": "2026-04-14T10:31:33+00:00"
+        },
         {
           "title": "Project Paradise: Inside Sula’s acquisition of Chandon India",
           "company": "Unknown",
@@ -627,17 +597,16 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/louis-roederer-enters-talks-for-burgundy-estate/",
           "date": "2026-04-13T10:08:53+00:00"
-        },
-        {
-          "title": "Bidding battle looms for Brown-Forman ownership",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bidding-battle-looms-for-brown-forman-ownership/",
-          "date": "2026-04-10T09:10:22+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+          "date": "2026-04-14T10:56:48+00:00"
+        },
         {
           "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "topic": "regulation",
@@ -653,28 +622,28 @@
           "date": "2026-04-13T10:27:46+00:00"
         },
         {
-          "title": "Bangkok Songkran 2026 to be alcohol-free",
-          "topic": "alcohol_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/",
-          "date": "2026-04-10T10:15:18+00:00"
-        },
-        {
-          "title": "Why global business leaders should meet over a beer",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/why-global-business-leaders-should-meet-over-a-beer/",
-          "date": "2026-04-10T08:30:45+00:00"
-        },
-        {
           "title": "Private label beverages pour on growth as innovation accelerates - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
           "date": "2026-04-07T06:26:46+00:00"
+        },
+        {
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Lidl starts building first ever pub",
+          "what_changed": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regardin",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/",
+          "date": "2026-04-14T10:10:42+00:00"
+        },
         {
           "title": "Lamb Weston warns of supply chain pressures amid Iran war",
           "what_changed": "The french fry maker anticipates a rise in commodity volatility, including for packaging and fuel, if the conflict persists.",
@@ -700,19 +669,28 @@
       "signals": [
         {
           "signal": "Carbonated trending in France",
-          "explanation": "4 articles mention carbonated in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Premium trending in France",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in France",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "signal": "Juice trending in France",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "alcohol_free"
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -726,20 +704,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in France",
-          "explanation": "1 articles mention sugar free in the last 28 days",
+          "signal": "Alcohol Free trending in France",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in France",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -749,18 +718,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         },
         {
@@ -778,9 +747,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
@@ -788,9 +757,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ]
@@ -798,47 +767,55 @@
     "spain": {
       "executive_summary": [
         {
+          "headline": "JGC: ‘We want to be one of Spain’s forward-looking groups’",
+          "detail": "J García Carrión’s transformation into a Spanish wine colossus is the result of a multi-stranded strategy – and, with plans firmly focused on modern consumption, there’s still more to come. The post J",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/jgc-we-want-to-be-one-of-spains-forward-looking-groups/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "detail": "Cult Wine’s CEO Tom Gearing said steps taken to stabilise the business were already showing signs of success, with the first quarter of this year seeing consecutive growth. The post Cult Wine stabilis",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Lidl starts building first ever pub",
+          "detail": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regarding the pub’s construction. The post Lidl starts bui",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "detail": "Freixenet is expanding its alcohol-free range with the launch of Diamond 0.0% – its first 'super-premium' non-alcoholic sparkling wine, according to the world’s biggest Cava brand. The post Freixenet ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "detail": "US jury finds against Boston Beer in packaging lawsuit Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Vinarchy UK hit with £8million packaging tax",
-          "detail": "The UK arm of Vinarchy, the company formed when Accolade merged with Pernod Ricard Winemakers, would have turned a profit last year were it not for the Extended Producer Responsibility (EPR) levy, its",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
-          "detail": "Molson Coors has leapt on the growing fruit beer trend with the launch of its new flavoured lager Madrí Excepcional Limón. db finds out more. The post Why Molson Coors’ launch of Madrí Excepcional Lim",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Cost of dating climbs, US consumers cut back",
-          "detail": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective about how they spend on wine. The post Cost of dat",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Chapel Down launches ‘Taste of England’ chef competition",
-          "detail": "Chapel Down has launched ‘Taste of England’, a new nationwide competition inviting chefs to create menus paired with its sparkling wines. The initiative aims to spotlight emerging culinary talent whil",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "company": "Unknown",
+          "product": "carbonated, alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
+          "date": "2026-04-14T10:25:25+00:00"
+        },
         {
           "title": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
           "company": "Unknown",
@@ -856,28 +833,20 @@
           "date": "2026-04-13T16:18:41+00:00"
         },
         {
-          "title": "Last chance saloon: don’t miss out on entering the DB Awards",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/",
-          "date": "2026-04-13T08:35:35+00:00"
-        },
-        {
-          "title": "Pub thief jailed after Fabergé whiskey set stolen in Soho",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/pub-thief-jailed-after-faberge-whiskey-set-stolen-in-soho/",
-          "date": "2026-04-10T09:22:57+00:00"
-        },
-        {
           "title": "New beverage launches: English wine, high-ABV beer and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXdEWXhkc1B1dWw1VDU5MU5TTnYteFUwZWNiVllsOW13bERGLVNNWkNVcWJMUU5iMG5md3JSQlhqOTl2N2ZlTURRcHlQbzBiT2lxVHBjQzhVd2VOeHFBNGVwTGVkWlVQWGt0MEpFNk54M2d3UkFkNklvNWJqZi15UldBWWp5QUtRMF9jYkRCT0NvQVpPNWNGNW9BUkNkUU0tSkRkOFR6cUdfUQ?oc=5",
           "date": "2026-04-10T08:57:41+00:00"
+        },
+        {
+          "title": "Mezcal brand Dos Hombres expands into Tequila - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TbjZ4MXFiMFZRTlhsc0ZFMFBhWkJlV0wxMk1CUU1hUjZ0MFBua2MtMWdIWGJWX0FnMUpQc2tidG82bkl1TW1WdHY5UEdMaXc4UTZldVNrR3pOQUJqSzlRWjhrSXNIYmZlUHBiTw?oc=5",
+          "date": "2026-04-09T17:01:19+00:00"
         }
       ],
       "competitor_moves": [
@@ -896,17 +865,16 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/louis-roederer-enters-talks-for-burgundy-estate/",
           "date": "2026-04-13T10:08:53+00:00"
-        },
-        {
-          "title": "Bidding battle looms for Brown-Forman ownership",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bidding-battle-looms-for-brown-forman-ownership/",
-          "date": "2026-04-10T09:10:22+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+          "date": "2026-04-14T10:56:48+00:00"
+        },
         {
           "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "topic": "regulation",
@@ -922,28 +890,28 @@
           "date": "2026-04-13T10:27:46+00:00"
         },
         {
-          "title": "Bangkok Songkran 2026 to be alcohol-free",
-          "topic": "alcohol_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/",
-          "date": "2026-04-10T10:15:18+00:00"
-        },
-        {
-          "title": "Why global business leaders should meet over a beer",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/why-global-business-leaders-should-meet-over-a-beer/",
-          "date": "2026-04-10T08:30:45+00:00"
-        },
-        {
           "title": "Private label beverages pour on growth as innovation accelerates - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
           "date": "2026-04-07T06:26:46+00:00"
+        },
+        {
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Lidl starts building first ever pub",
+          "what_changed": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regardin",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/",
+          "date": "2026-04-14T10:10:42+00:00"
+        },
         {
           "title": "Cost of dating climbs, US consumers cut back",
           "what_changed": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective ",
@@ -962,19 +930,28 @@
       "signals": [
         {
           "signal": "Carbonated trending in Spain",
-          "explanation": "4 articles mention carbonated in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Premium trending in Spain",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Spain",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "signal": "Juice trending in Spain",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "alcohol_free"
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -988,20 +965,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in Spain",
-          "explanation": "1 articles mention sugar free in the last 28 days",
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in Spain",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1011,18 +979,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         },
         {
@@ -1040,9 +1008,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
@@ -1050,15 +1018,23 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ]
     },
     "italy": {
       "executive_summary": [
+        {
+          "headline": "Veeno Bars go into administration",
+          "detail": "Italian aperitivo-style wine chain and restaurant Veeno has gone into administration for the second time, it has been reported. The post Veeno Bars go into administration appeared first on The Drinks ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/veeno-bars-go-into-administration-again/"
+          ],
+          "confidence": "high"
+        },
         {
           "headline": "Tuscany’s share of the fine wine market grows, as its index stabilises",
           "detail": "The top 100 Italian wines have shown “resilience” amid the declining fine wine market, according to Liv-ex, bolstered by stability in Tuscany’s “heavy hitters”. The post Tuscany’s share of the fine wi",
@@ -1068,39 +1044,39 @@
           "confidence": "high"
         },
         {
-          "headline": "Drinks trade marathon runners to receive record-breaking tiramisù",
-          "detail": "How would you celebrate completing the London Marathon? If your answer is ‘sparkling wine and 2kg of tiramisù’, then Italian wine producer Zonin1821 has you covered. The post Drinks trade marathon run",
+          "headline": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "detail": "Cult Wine’s CEO Tom Gearing said steps taken to stabilise the business were already showing signs of success, with the first quarter of this year seeing consecutive growth. The post Cult Wine stabilis",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/drinks-trade-marathon-runners-to-receive-record-breaking-tiramisu/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
-          "detail": "US jury finds against Boston Beer in packaging lawsuit Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Vinarchy UK hit with £8million packaging tax",
-          "detail": "The UK arm of Vinarchy, the company formed when Accolade merged with Pernod Ricard Winemakers, would have turned a profit last year were it not for the Extended Producer Responsibility (EPR) levy, its",
+          "headline": "Lidl starts building first ever pub",
+          "detail": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regarding the pub’s construction. The post Lidl starts bui",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
+            "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
-          "detail": "Molson Coors has leapt on the growing fruit beer trend with the launch of its new flavoured lager Madrí Excepcional Limón. db finds out more. The post Why Molson Coors’ launch of Madrí Excepcional Lim",
+          "headline": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "detail": "Freixenet is expanding its alcohol-free range with the launch of Diamond 0.0% – its first 'super-premium' non-alcoholic sparkling wine, according to the world’s biggest Cava brand. The post Freixenet ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/"
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "company": "Unknown",
+          "product": "carbonated, alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
+          "date": "2026-04-14T10:25:25+00:00"
+        },
         {
           "title": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
           "company": "Unknown",
@@ -1118,28 +1094,20 @@
           "date": "2026-04-13T16:18:41+00:00"
         },
         {
-          "title": "Last chance saloon: don’t miss out on entering the DB Awards",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/",
-          "date": "2026-04-13T08:35:35+00:00"
-        },
-        {
-          "title": "Pub thief jailed after Fabergé whiskey set stolen in Soho",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/pub-thief-jailed-after-faberge-whiskey-set-stolen-in-soho/",
-          "date": "2026-04-10T09:22:57+00:00"
-        },
-        {
           "title": "New beverage launches: English wine, high-ABV beer and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXdEWXhkc1B1dWw1VDU5MU5TTnYteFUwZWNiVllsOW13bERGLVNNWkNVcWJMUU5iMG5md3JSQlhqOTl2N2ZlTURRcHlQbzBiT2lxVHBjQzhVd2VOeHFBNGVwTGVkWlVQWGt0MEpFNk54M2d3UkFkNklvNWJqZi15UldBWWp5QUtRMF9jYkRCT0NvQVpPNWNGNW9BUkNkUU0tSkRkOFR6cUdfUQ?oc=5",
           "date": "2026-04-10T08:57:41+00:00"
+        },
+        {
+          "title": "Mezcal brand Dos Hombres expands into Tequila - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TbjZ4MXFiMFZRTlhsc0ZFMFBhWkJlV0wxMk1CUU1hUjZ0MFBua2MtMWdIWGJWX0FnMUpQc2tidG82bkl1TW1WdHY5UEdMaXc4UTZldVNrR3pOQUJqSzlRWjhrSXNIYmZlUHBiTw?oc=5",
+          "date": "2026-04-09T17:01:19+00:00"
         }
       ],
       "competitor_moves": [
@@ -1158,17 +1126,16 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/louis-roederer-enters-talks-for-burgundy-estate/",
           "date": "2026-04-13T10:08:53+00:00"
-        },
-        {
-          "title": "Bidding battle looms for Brown-Forman ownership",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bidding-battle-looms-for-brown-forman-ownership/",
-          "date": "2026-04-10T09:10:22+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+          "date": "2026-04-14T10:56:48+00:00"
+        },
         {
           "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "topic": "regulation",
@@ -1184,28 +1151,28 @@
           "date": "2026-04-13T10:27:46+00:00"
         },
         {
-          "title": "Bangkok Songkran 2026 to be alcohol-free",
-          "topic": "alcohol_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/",
-          "date": "2026-04-10T10:15:18+00:00"
-        },
-        {
-          "title": "Why global business leaders should meet over a beer",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/why-global-business-leaders-should-meet-over-a-beer/",
-          "date": "2026-04-10T08:30:45+00:00"
-        },
-        {
           "title": "Private label beverages pour on growth as innovation accelerates - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
           "date": "2026-04-07T06:26:46+00:00"
+        },
+        {
+          "title": "European Commission Publishes Guidance and FAQs on the EU Packaging and Packaging Waste Regulation - Ropes & Gray",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnZPRy05b09YRkpWdUc4SjJqM1Fsc2ItclJ1U053ZC10UVZsaE1idUczOTZnb2FvVzJCUEEzb2x0Zm5oWC1teGFRTUlDQ01yaXQ4eVQ0WkljdlE1anlocm0taDktTnRhYnI5MVhnYW5ZVV9wR1BIN0lkT1JwUUp1ZUl5ZllVTk00OUJIZm81RGwxODhVS01iMnlHVDlHbXNHZl94SWEzNEVxZi12aXNYUnI3UnRWSDk4UnA5azh0Mm5VQzgyVXUyOGcxOElvQy1iVTFwNA?oc=5",
+          "date": "2026-04-06T08:38:40+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Lidl starts building first ever pub",
+          "what_changed": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regardin",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/",
+          "date": "2026-04-14T10:10:42+00:00"
+        },
         {
           "title": "Cost of dating climbs, US consumers cut back",
           "what_changed": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective ",
@@ -1232,11 +1199,20 @@
           "confidence": "high"
         },
         {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
+          "signal": "Premium trending in Italy",
+          "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Italy",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -1250,20 +1226,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in Italy",
-          "explanation": "1 articles mention sugar free in the last 28 days",
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in Italy",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1273,18 +1240,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         },
         {
@@ -1302,9 +1269,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
@@ -1312,15 +1279,39 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ]
     },
     "austria": {
       "executive_summary": [
+        {
+          "headline": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "detail": "Cult Wine’s CEO Tom Gearing said steps taken to stabilise the business were already showing signs of success, with the first quarter of this year seeing consecutive growth. The post Cult Wine stabilis",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Lidl starts building first ever pub",
+          "detail": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regarding the pub’s construction. The post Lidl starts bui",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "detail": "Freixenet is expanding its alcohol-free range with the launch of Diamond 0.0% – its first 'super-premium' non-alcoholic sparkling wine, according to the world’s biggest Cava brand. The post Freixenet ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "detail": "US jury finds against Boston Beer in packaging lawsuit Just Drinks",
@@ -1336,33 +1327,17 @@
             "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
-          "detail": "Molson Coors has leapt on the growing fruit beer trend with the launch of its new flavoured lager Madrí Excepcional Limón. db finds out more. The post Why Molson Coors’ launch of Madrí Excepcional Lim",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Cost of dating climbs, US consumers cut back",
-          "detail": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective about how they spend on wine. The post Cost of dat",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Chapel Down launches ‘Taste of England’ chef competition",
-          "detail": "Chapel Down has launched ‘Taste of England’, a new nationwide competition inviting chefs to create menus paired with its sparkling wines. The initiative aims to spotlight emerging culinary talent whil",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Freixenet launches ‘super-premium’ alcohol-free sparkling wine",
+          "company": "Unknown",
+          "product": "carbonated, alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
+          "date": "2026-04-14T10:25:25+00:00"
+        },
         {
           "title": "Why Molson Coors’ launch of Madrí Excepcional Limón is so well-timed",
           "company": "Unknown",
@@ -1386,22 +1361,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWVOQy1NSzJMWnFnRzVZYWo2LTA2S0dwX3F2RlBTLUhCRndVSmNTSUVVM3Z3NDlUVzZYci1HSldLc3Jyc0V2OExaakdRUnoyNUZmLWZBLXhuVnp6czl4b0E0R3dTU283NXNsaVJEOEpIMVRRUG5MRmNwSVhOVVlhM0w4T2taaGJ3a3BLbVRjQnA?oc=5",
           "date": "2026-04-13T10:07:43+00:00"
-        },
-        {
-          "title": "Last chance saloon: don’t miss out on entering the DB Awards",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/last-chance-saloon-dont-miss-out-on-entering-the-db-awards/",
-          "date": "2026-04-13T08:35:35+00:00"
-        },
-        {
-          "title": "Pub thief jailed after Fabergé whiskey set stolen in Soho",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/pub-thief-jailed-after-faberge-whiskey-set-stolen-in-soho/",
-          "date": "2026-04-10T09:22:57+00:00"
         }
       ],
       "competitor_moves": [
@@ -1420,17 +1379,16 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/louis-roederer-enters-talks-for-burgundy-estate/",
           "date": "2026-04-13T10:08:53+00:00"
-        },
-        {
-          "title": "Bidding battle looms for Brown-Forman ownership",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bidding-battle-looms-for-brown-forman-ownership/",
-          "date": "2026-04-10T09:10:22+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Cult Wine stabilisation ‘genuinely encouraging’ following pre-tax losses of £5 million",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
+          "date": "2026-04-14T10:56:48+00:00"
+        },
         {
           "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
           "topic": "regulation",
@@ -1444,61 +1402,58 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
           "date": "2026-04-13T10:27:46+00:00"
-        },
-        {
-          "title": "Bangkok Songkran 2026 to be alcohol-free",
-          "topic": "alcohol_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/",
-          "date": "2026-04-10T10:15:18+00:00"
-        },
-        {
-          "title": "Why global business leaders should meet over a beer",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/why-global-business-leaders-should-meet-over-a-beer/",
-          "date": "2026-04-10T08:30:45+00:00"
-        },
-        {
-          "title": "Private label beverages pour on growth as innovation accelerates - BeverageDaily.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEdLVDZpTENVZi1NOFJyVEtDMXpZMUF0ZVZ0eXVmcFNEYlhxcUdQWU92VkhPbGRqMC16YjYxa2dMX1JuX0c5NkZNYkhNd3RLSlhqWVlkdEhoTXJNUmlWMUZwb1pWandIVWp5UzYwMVBqZ1h5eUlHUnJSS3pOdktRbWxqc29weFZHcGd6b09HZ2xsU2RwblhENFJLQQ?oc=5",
-          "date": "2026-04-07T06:26:46+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Lidl starts building first ever pub",
+          "what_changed": "Discount supermarket chain Lidl has begun to build its first ever boozer in east Belfast – a year after winning a long-running licensing spat regardin",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/lidl-starts-building-first-ever-pub/",
+          "date": "2026-04-14T10:10:42+00:00"
+        },
         {
           "title": "Cost of dating climbs, US consumers cut back",
           "what_changed": "Dating is on the decline in the US as costs rise, according to a new study commissioned by Maison Louis Jadot, with consumers becoming more selective ",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/cost-of-dating-climbs-us-consumers-cut-back/",
           "date": "2026-04-13T09:19:37+00:00"
-        },
-        {
-          "title": "Constellation confident on improving wine-and-spirits EBIT margins - Just Drinks",
-          "what_changed": "Constellation confident on improving wine-and-spirits EBIT margins Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjlaZVRtYTc5cm9NRzNfRkNOdTQyaGtMbmxJWWt5UUJSVHp6bm8tN2d4ZDZNN3hoTldqYW9rS3ZTX2Q2cmxQZGt1b1BINlN0ai04Z3pnUDJLOTFYMGhpMW53a3U4YVdRYXNEeFFZaEhHMXZJODZVMkVOWXVWZ1dZUTVjR0tmOTB5eWJkVWhMTGs5T21RczNBWllMZlh5NWFpOGc?oc=5",
-          "date": "2026-04-10T11:26:44+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Carbonated trending in Austria",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in Austria",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Austria",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -1510,55 +1465,37 @@
             "sugar_free"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in Austria",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Juice trending in Austria",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWVOQy1NSzJMWnFnRzVZYWo2LTA2S0dwX3F2RlBTLUhCRndVSmNTSUVVM3Z3NDlUVzZYci1HSldLc3Jyc0V2OExaakdRUnoyNUZmLWZBLXhuVnp6czl4b0E0R3dTU283NXNsaVJEOEpIMVRRUG5MRmNwSVhOVVlhM0w4T2taaGJ3a3BLbVRjQnA?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/freixenet-launches-super-premium-alcohol-free-sparkling-wine/",
             "https://www.thedrinksbusiness.com/2026/04/why-molson-coors-launch-of-madri-excepcional-limon-is-so-well-timed/",
-            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/",
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWVOQy1NSzJMWnFnRzVZYWo2LTA2S0dwX3F2RlBTLUhCRndVSmNTSUVVM3Z3NDlUVzZYci1HSldLc3Jyc0V2OExaakdRUnoyNUZmLWZBLXhuVnp6czl4b0E0R3dTU283NXNsaVJEOEpIMVRRUG5MRmNwSVhOVVlhM0w4T2taaGJ3a3BLbVRjQnA?oc=5"
+            "https://www.thedrinksbusiness.com/2026/04/chapel-down-launches-taste-of-england-chef-competition/"
           ]
         },
         {
@@ -1566,9 +1503,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/cult-wine-stabilisation-genuinely-encouraging-following-pre-tax-losses-of-5-million/",
             "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/",
-            "https://www.thedrinksbusiness.com/2026/04/bangkok-songkran-2026-to-be-alcohol-free/"
+            "https://www.thedrinksbusiness.com/2026/04/vinarchy-uk-hit-with-8million-packaging-tax/"
           ]
         }
       ]
