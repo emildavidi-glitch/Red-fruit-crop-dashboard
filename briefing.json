@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-14T14:50:06.237327+00:00",
-  "generated_date": "Tuesday, 14 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; carbonated trending. Latest: Daily’s Cocktails Turns Up the Chill with New Frozen Spiked Strawberry Lemonade and Spiked Iced Tea .",
+  "generated_at": "2026-04-15T06:52:19.300290+00:00",
+  "generated_date": "Wednesday, 15 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; carbonated trending; new product launches intensifying. Latest: CTO und Head Master Distiller Mario Rudolf verlässt St. Kilian - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 193,
-      "launch": 32,
-      "carbonated": 31,
-      "regulatory": 25,
-      "premium": 19,
-      "pricing": 17,
-      "competitor": 15,
+      "trend": 186,
+      "carbonated": 35,
+      "launch": 31,
+      "regulatory": 29,
+      "competitor": 21,
+      "premium": 21,
+      "pricing": 14,
       "juice": 13,
-      "innovation": 11,
-      "alcohol_free": 8
+      "innovation": 12,
+      "functional": 10
     }
   }
 }
