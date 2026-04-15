@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-15T06:52:19.300290+00:00",
+  "generated_at": "2026-04-15T14:44:14.758298+00:00",
   "generated_date": "Wednesday, 15 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; carbonated trending; new product launches intensifying. Latest: CTO und Head Master Distiller Mario Rudolf verlässt St. Kilian - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; carbonated trending. Latest: Brown-Forman takes El Jimador into UK RTD market - Just Drinks.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 186,
-      "carbonated": 35,
-      "launch": 31,
-      "regulatory": 29,
-      "competitor": 21,
-      "premium": 21,
-      "pricing": 14,
-      "juice": 13,
-      "innovation": 12,
-      "functional": 10
+      "trend": 180,
+      "launch": 45,
+      "carbonated": 24,
+      "regulatory": 20,
+      "pricing": 17,
+      "competitor": 15,
+      "innovation": 15,
+      "sugar_free": 13,
+      "alcohol_free": 13,
+      "premium": 12
     }
   }
 }
