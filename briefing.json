@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-16T14:55:04.331747+00:00",
-  "generated_date": "Thursday, 16 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Pernod Ricard expects full-year sales to decline amid Middle East turmoil - Just Drinks.",
+  "generated_at": "2026-04-17T06:55:38.954055+00:00",
+  "generated_date": "Friday, 17 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: New beverage launches: Patrón, Nestlé, Starbucks, prebiotic soda and more… - BeverageDaily.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
-    "france": "Sugar Free trending. (50 items)",
-    "spain": "Sugar Free trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
+    "spain": "Carbonated trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
     "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 192,
-      "launch": 23,
+      "trend": 186,
+      "launch": 31,
       "supply_chain": 21,
-      "regulatory": 20,
-      "sugar_free": 13,
-      "competitor": 13,
+      "competitor": 19,
+      "regulatory": 14,
+      "carbonated": 12,
       "pricing": 12,
+      "sugar_free": 12,
       "retail": 12,
-      "premium": 12,
-      "rtd": 8
+      "premium": 11
     }
   }
 }
