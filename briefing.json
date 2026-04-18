@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-18T06:10:30.332131+00:00",
+  "generated_at": "2026-04-18T14:00:40.844090+00:00",
   "generated_date": "Saturday, 18 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Bones Coffee Company Launches Galactic Coffee Collection Inspired by the Enduring Popularity of STAR.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; supply_chain trending; new product launches intensifying. Latest: Bones Coffee Company Launches Galactic Coffee Collection Inspired by the Enduring Popularity of STAR.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,13 +14,13 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 165,
-      "launch": 28,
+      "trend": 173,
       "supply_chain": 27,
-      "pricing": 22,
-      "regulatory": 18,
+      "launch": 26,
+      "pricing": 19,
       "competitor": 18,
       "premium": 16,
+      "regulatory": 15,
       "functional": 12,
       "retail": 12,
       "sugar_free": 11
