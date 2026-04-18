@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-17T14:20:06.341637+00:00",
-  "generated_date": "Friday, 17 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Robert Mondavi unveils Napa estate following three-year transformation.",
+  "generated_at": "2026-04-18T06:10:30.332131+00:00",
+  "generated_date": "Saturday, 18 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Bones Coffee Company Launches Galactic Coffee Collection Inspired by the Enduring Popularity of STAR.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 165,
-      "launch": 27,
-      "supply_chain": 26,
-      "regulatory": 21,
-      "pricing": 21,
+      "launch": 28,
+      "supply_chain": 27,
+      "pricing": 22,
+      "regulatory": 18,
       "competitor": 18,
-      "functional": 13,
+      "premium": 16,
+      "functional": 12,
       "retail": 12,
-      "sugar_free": 12,
-      "premium": 9
+      "sugar_free": 11
     }
   }
 }
