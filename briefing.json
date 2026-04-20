@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-20T07:13:38.420349+00:00",
+  "generated_at": "2026-04-20T14:49:35.895117+00:00",
   "generated_date": "Monday, 20 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: BSI: Steuererhöhung für Spirituosen ist unverhältnismäßig und kontraproduktiv - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
+    "spain": "Carbonated trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 162,
-      "launch": 30,
-      "pricing": 25,
-      "regulatory": 20,
-      "competitor": 20,
+      "trend": 164,
+      "launch": 36,
+      "pricing": 31,
+      "regulatory": 19,
       "supply_chain": 19,
-      "premium": 18,
-      "functional": 15,
-      "innovation": 12,
-      "retail": 12
+      "carbonated": 18,
+      "competitor": 18,
+      "functional": 12,
+      "premium": 9,
+      "innovation": 7
     }
   }
 }
