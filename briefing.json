@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-21T14:46:27.167131+00:00",
-  "generated_date": "Tuesday, 21 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; carbonated trending. Latest: Regional Key Account Manager (w/m/d) - about-drinks.com.",
+  "generated_at": "2026-04-22T06:55:58.779056+00:00",
+  "generated_date": "Wednesday, 22 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Rally Launches a Pickle Juice Shot to Challenge the Sports Hydration Category - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 190,
-      "launch": 37,
+      "trend": 184,
+      "launch": 40,
+      "pricing": 26,
       "carbonated": 24,
-      "pricing": 23,
-      "premium": 16,
       "regulatory": 16,
+      "premium": 15,
       "functional": 12,
-      "supply_chain": 9,
       "innovation": 9,
-      "macro": 7
+      "macro": 9,
+      "supply_chain": 7
     }
   }
 }
