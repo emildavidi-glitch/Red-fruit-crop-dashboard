@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-23T06:59:20.904154+00:00",
+  "generated_at": "2026-04-23T15:11:40.724107+00:00",
   "generated_date": "Thursday, 23 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Monster Energy Returns to Stagecoach 2026 as Official Energy Drink Partner - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Menagerie Wines: ‘Rob wants the company to be profitable before the next century’.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 156,
-      "launch": 53,
-      "functional": 21,
-      "regulatory": 21,
-      "innovation": 21,
-      "pricing": 18,
+      "trend": 135,
+      "launch": 84,
+      "pricing": 24,
+      "premium": 20,
+      "regulatory": 19,
       "competitor": 18,
-      "carbonated": 17,
-      "premium": 10,
-      "macro": 10
+      "functional": 13,
+      "innovation": 13,
+      "carbonated": 8,
+      "organic": 6
     }
   }
 }
