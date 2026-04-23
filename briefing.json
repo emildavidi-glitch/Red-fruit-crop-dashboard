@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22T14:45:59.877930+00:00",
-  "generated_date": "Wednesday, 22 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Treasury Wine Estates moves to \"regional operating model\" - Just Drinks.",
+  "generated_at": "2026-04-23T06:59:20.904154+00:00",
+  "generated_date": "Thursday, 23 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Monster Energy Returns to Stagecoach 2026 as Official Energy Drink Partner - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 177,
-      "launch": 37,
+      "trend": 156,
+      "launch": 53,
+      "functional": 21,
+      "regulatory": 21,
       "innovation": 21,
-      "functional": 19,
-      "regulatory": 18,
+      "pricing": 18,
       "competitor": 18,
-      "pricing": 16,
-      "carbonated": 16,
-      "premium": 11,
-      "macro": 9
+      "carbonated": 17,
+      "premium": 10,
+      "macro": 10
     }
   }
 }
