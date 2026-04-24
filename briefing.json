@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-23T15:11:40.724107+00:00",
-  "generated_date": "Thursday, 23 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Menagerie Wines: ‘Rob wants the company to be profitable before the next century’.",
+  "generated_at": "2026-04-24T07:02:46.202251+00:00",
+  "generated_date": "Friday, 24 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Josie Beverages Announces Launch of New Adaptogen Energy Drinks - BevNET.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
+    "usa": "Hydration trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
@@ -15,15 +15,15 @@
     "method": "rss-analysis",
     "top_topics": {
       "trend": 135,
-      "launch": 84,
+      "launch": 79,
       "pricing": 24,
-      "premium": 20,
-      "regulatory": 19,
+      "premium": 19,
+      "innovation": 19,
       "competitor": 18,
-      "functional": 13,
-      "innovation": 13,
-      "carbonated": 8,
-      "organic": 6
+      "functional": 15,
+      "regulatory": 13,
+      "supply_chain": 8,
+      "carbonated": 6
     }
   }
 }
