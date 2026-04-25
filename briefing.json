@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-25T06:18:37.673033+00:00",
+  "generated_at": "2026-04-25T14:02:13.867432+00:00",
   "generated_date": "Saturday, 25 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Distribution: Pure Genius Launches Retail with Target - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Fort George Brewery - Cellar/Shift Brewer - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
-    "france": "Functional trending. (50 items)",
+    "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
     "italy": "Functional trending. (50 items)",
     "austria": "Premium trending. (50 items)"
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 120,
-      "launch": 86,
-      "regulatory": 19,
-      "pricing": 19,
+      "trend": 127,
+      "launch": 79,
+      "pricing": 25,
+      "functional": 19,
       "competitor": 19,
       "innovation": 19,
-      "functional": 18,
-      "premium": 17,
-      "supply_chain": 16,
-      "carbonated": 13
+      "premium": 18,
+      "supply_chain": 17,
+      "carbonated": 12,
+      "regulatory": 11
     }
   }
 }

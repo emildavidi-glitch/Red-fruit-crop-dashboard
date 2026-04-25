@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T06:18:37.673033+00:00",
+  "generated_at": "2026-04-25T14:02:13.867432+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -21,14 +21,6 @@
           "confidence": "high"
         },
         {
-          "headline": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "detail": "UK food inflation could hit 7% – Bank of England survey Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Distribution: Pure Genius Launches Retail with Target - BevNET.com",
           "detail": "Distribution: Pure Genius Launches Retail with Target BevNET.com",
           "evidence_urls": [
@@ -41,6 +33,14 @@
           "detail": "The candy maker is relying on diversified sourcing and long-term farmer programs to offset higher commodity costs.",
           "evidence_urls": [
             "https://www.fooddive.com/news/hershey-cocoa-sourcing-resilience-price-shock/817959/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Super Seltzer Partners with Sysco for New England Launch and National Expansion - BevNET.com",
+          "detail": "Super Seltzer Partners with Sysco for New England Launch and National Expansion BevNET.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaUFJZVNEd01GTnZCMjFna2p2TFlmYjRtZS1CWmM5STZuV3l0VlJ2ZkM3RmpWNEcwd2pCSHRvei02Ylp4ZzN3SVpKX1E2eE0yZ0kzZE9LemZNQWtjUGVtN0VQZGVhSkFTZTVhWDZZdlJzSmpZbDFTVTRGUUFlV0k5ODJvb0ZIWkZ6S3h3Ym0xeTN0VEN6UnBYN1FKNDBmZlp1YkNvN0F1TzVKSlRDV0NRbkRHTlFCRFE?oc=5"
           ],
           "confidence": "medium"
         }
@@ -123,13 +123,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-          "date": "2026-04-24T12:55:44+00:00"
-        },
-        {
           "title": "Briefs: Keurig Dr Pepper. PepsiCo Q1 results. C-Store Traffic. Energy Shelf Gains. Japan Vending. Aluminum Tariffs. EPS Targets Microplastics. Fever-Tree Campaign. Guru-PepsiCo Lawsuits. RFK Jr Pod. Trump Trolls Oz - Beverage-Digest",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -172,17 +165,24 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
           "date": "2026-04-23T09:40:53+00:00"
+        },
+        {
+          "title": "Jobs to go as Simply Good Foods tackles costs - Just Drinks",
+          "what_changed": "Jobs to go as Simply Good Foods tackles costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGNSRjYzZlhVeDliTnJVMC1hSlEwRW5yS1B2ejI2dTd6UF81eTZHMFV3NVdtOG5qX3cwVm5WQ0dHMThDMlZCdzZDdXNMYy1IdmxSSVpjcko5OFNwaDhxUHV6Zk53NE91em1DTjJUcXRCR3BSYU03YXJYUTI2and5T1R4ajhyZw?oc=5",
+          "date": "2026-04-22T09:35:48+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Functional trending in United States",
@@ -212,11 +212,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Organic trending in United States",
-          "explanation": "1 articles mention organic in the last 28 days",
+          "signal": "Rtd trending in United States",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "organic"
+            "rtd"
           ],
           "confidence": "low"
         }
@@ -235,7 +235,6 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
             "https://news.google.com/rss/articles/CBMi6AJBVV95cUxON1E1Y2hJSVl0UFpqVnNDSTZBeFFCekR5THVGVDk4Q2Vxb0JqSzgxd1RnUl9PbTJ5RVVnY2gyQmpDN2s1M19CZ1BlcnY3VU1HQ01xZHdlOTdYelZHNUtuWEl3WU5xY29ncTNQQlVrT2ZWNWVnd1UwNWNRaW56VHJwcXBpRTR3ajF2SDVzVlFuMTlrckdDQlVfRE9VZ3hHdjkwTURuQXo2aGtuSHFkM00tOU0xd2VHWmx4VmpSNFJ4UUFrXzBWZ2VNN0tEaUFUWFJJUENNZnI1VkpkNEF6VXkwdldlNnJYb0xUY3Y4QkRQZWhaYnMzYVpQTTZpUnhUYV9Ca05sWjZRZkhFcHFKeXI4VWlFd1ZrOHdCTzlEeVRMSTllME1KbDFMTFhfV1oweVJfZ3hJMjc0V2NCNDJhZVdQOGN6UldyNE5YMlBZY0lRSUZ1aUNBSGMxSkxLOGpTODFBSFNNM3NXTXo?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMmY3bVE2aEFyRE0yeTN2TURyMk5lWTRvNUMyWXNLRzFfVEY4LUp4X1NCLW4tN09DMFE0QzVMY0JYY1pDYi1xSFkwNlA1RHVmdnZjV1prZk14YlVaWXhLcDF6VFJ0S0NCZkxyVVJUOEZjaEVHN0RtUS1ra2E5MFd1MDR0YjVESmdFazVGTEdtcGVJckpvamtjMTVHZTZGRDNZblE?oc=5"
           ]
@@ -266,7 +265,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
             "https://news.google.com/rss/articles/CBMi6AJBVV95cUxON1E1Y2hJSVl0UFpqVnNDSTZBeFFCekR5THVGVDk4Q2Vxb0JqSzgxd1RnUl9PbTJ5RVVnY2gyQmpDN2s1M19CZ1BlcnY3VU1HQ01xZHdlOTdYelZHNUtuWEl3WU5xY29ncTNQQlVrT2ZWNWVnd1UwNWNRaW56VHJwcXBpRTR3ajF2SDVzVlFuMTlrckdDQlVfRE9VZ3hHdjkwTURuQXo2aGtuSHFkM00tOU0xd2VHWmx4VmpSNFJ4UUFrXzBWZ2VNN0tEaUFUWFJJUENNZnI1VkpkNEF6VXkwdldlNnJYb0xUY3Y4QkRQZWhaYnMzYVpQTTZpUnhUYV9Ca05sWjZRZkhFcHFKeXI4VWlFd1ZrOHdCTzlEeVRMSTllME1KbDFMTFhfV1oweVJfZ3hJMjc0V2NCNDJhZVdQOGN6UldyNE5YMlBZY0lRSUZ1aUNBSGMxSkxLOGpTODFBSFNNM3NXTXo?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMmY3bVE2aEFyRE0yeTN2TURyMk5lWTRvNUMyWXNLRzFfVEY4LUp4X1NCLW4tN09DMFE0QzVMY0JYY1pDYi1xSFkwNlA1RHVmdnZjV1prZk14YlVaWXhLcDF6VFJ0S0NCZkxyVVJUOEZjaEVHN0RtUS1ra2E5MFd1MDR0YjVESmdFazVGTEdtcGVJckpvamtjMTVHZTZGRDNZblE?oc=5"
           ]
@@ -284,12 +282,12 @@
           "confidence": "high"
         },
         {
-          "headline": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "detail": "UK food inflation could hit 7% – Bank of England survey Just Drinks",
+          "headline": "Glenglassaugh Single Malts: Küsten-Scotch neu gedacht - about-drinks.com",
+          "detail": "Glenglassaugh Single Malts: Küsten-Scotch neu gedacht about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5"
+            "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGFjNGwwTWxCTHZ5Mzh4V004YlUyYlNxS240amJRclBMcmlTX1FqTHowQzNSVUZFRDhESTNFY1QxWUplMjd1TEpWS3V4OU0xVEpLUzlFUU53c3JQRFlnTDdHRGpHOUhYS29EZGdtWUpVOGt5XzF2TG1JRjRrS1FOVFV5eUNsTnFYbi1N?oc=5"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "headline": "Ardbeg Day 2026 in Deutschland: Ticketverkauf gestartet - about-drinks.com",
@@ -386,20 +384,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-          "date": "2026-04-24T12:55:44+00:00"
-        },
-        {
-          "title": "Maisel & Friends relauncht alkoholfreies IPA als Urban IPA Alkoholfrei - about-drinks.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHlmTGZ4Y1kzZjMxTXZhbDRmcTRERU91ZmFzZEJ2U2NGQU9YOTR0aFN4ZUczWWF5Ym82WEpvT3hJMHVYSWpWYkRDLXYzcnhfS0psci0xSGJNaXZFcENReUVfNXRKZ19mZE9rdEV2ZF9IS0xOU05PT1p3MTh5RmVLV1RFVWswdTlNOEN0dFRRM2NhQWJSSTNVSlBEalRFb0E?oc=5",
-          "date": "2026-04-22T11:32:37+00:00"
-        },
-        {
           "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -428,6 +412,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
           "date": "2026-04-23T09:40:53+00:00"
+        },
+        {
+          "title": "Jobs to go as Simply Good Foods tackles costs - Just Drinks",
+          "what_changed": "Jobs to go as Simply Good Foods tackles costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGNSRjYzZlhVeDliTnJVMC1hSlEwRW5yS1B2ejI2dTd6UF81eTZHMFV3NVdtOG5qX3cwVm5WQ0dHMThDMlZCdzZDdXNMYy1IdmxSSVpjcko5OFNwaDhxUHV6Zk53NE91em1DTjJUcXRCR3BSYU03YXJYUTI2and5T1R4ajhyZw?oc=5",
+          "date": "2026-04-22T09:35:48+00:00"
         }
       ],
       "signals": [
@@ -441,20 +432,20 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in Germany",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in Germany",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Germany",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
           ],
           "confidence": "low"
         },
@@ -491,9 +482,15 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHlmTGZ4Y1kzZjMxTXZhbDRmcTRERU91ZmFzZEJ2U2NGQU9YOTR0aFN4ZUczWWF5Ym82WEpvT3hJMHVYSWpWYkRDLXYzcnhfS0psci0xSGJNaXZFcENReUVfNXRKZ19mZE9rdEV2ZF9IS0xOU05PT1p3MTh5RmVLV1RFVWswdTlNOEN0dFRRM2NhQWJSSTNVSlBEalRFb0E?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmFwSC1DMkMtaTdnLWJEaXduTHZJMDlzbmxJeVJib2tDbzd2RjVEUGRZekhoelh0WmlzZUhJaHpZMUJ1Y0hDdk1GVTg1SXJzSEtheU16WHNnX25Kd2RIMS0zZl9Bekd2bGJ1ZmZqOFpKbW5Cc3FEcHRkd2FwMmwxYV9jLURlYWI1Vmxyb2NBcFBNZUJVd0lWdmlnUGpsWXRkTGwzeTQtM2UwdDRVbUdJ?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVW0wTDJsOTdtVV83NmEtR0RzYnJnNkN1ZFN1ZndlSlNweDBnSmNaMFJGeHBnWW41SnRHWnNWSGIzbDktcGEyc0JGa2ZkOGxsMlZVWDd4S2xJT056SlFheWxrUUE5d0F3aE95MXo0UGJYNUk1dG1ab29ZaHQ3MXptNFBxcEozVTVRMmZuWlR6RXJyT0xNUEtMN281ckJHbF84UE5LMg?oc=5"
           ]
         }
       ],
@@ -513,8 +510,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHlmTGZ4Y1kzZjMxTXZhbDRmcTRERU91ZmFzZEJ2U2NGQU9YOTR0aFN4ZUczWWF5Ym82WEpvT3hJMHVYSWpWYkRDLXYzcnhfS0psci0xSGJNaXZFcENReUVfNXRKZ19mZE9rdEV2ZF9IS0xOU05PT1p3MTh5RmVLV1RFVWswdTlNOEN0dFRRM2NhQWJSSTNVSlBEalRFb0E?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         }
@@ -522,14 +517,6 @@
     },
     "france": {
       "executive_summary": [
-        {
-          "headline": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "detail": "UK food inflation could hit 7% – Bank of England survey Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
         {
           "headline": "‘Show the price of a pint’: transparency push gains traction in Westminster",
           "detail": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the cost of a pint and the uneven way prices are display",
@@ -539,12 +526,283 @@
           "confidence": "medium"
         },
         {
-          "headline": "Pioneering Organic and Biodynamic French Wine Estate Château Maris Names M.S. Walker Brands U.S. Importer - BevNET.com",
-          "detail": "Pioneering Organic and Biodynamic French Wine Estate Château Maris Names M.S. Walker Brands U.S. Importer BevNET.com",
+          "headline": "Nowadays launches low-THC drinks line - Just Drinks",
+          "detail": "Nowadays launches low-THC drinks line Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWUtKcHdidTV3dDZPdDlwMVZxQ3ZzM0NyRlZ2bFpHTFdKems5SW1Wa0gxVUsxZng4UURxXzJYSmlEUm9SUURQanVDR2kzdm5oRzhKRUVBaGJ3cDZSSWdwTmgtdV9WV3E3WWs5ajFUQXpuOGR1bHVJRnhPMkItSXduQVJMaDA2UG1WRXRoQ1FucVVUZUFEb0hLODBSX1A2eTlCLTVpaS1EUXF2UDVic0pVcjNnbFFhRUQ0ZUhqWGotYUJmMDNLZ1hqelNiMkZDYWJJamg2TEpmRzhqV1k?oc=5"
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Fibre shots, Capri Sun, Captain Morgan and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Fibre shots, Capri Sun, Captain Morgan and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "#WeekInPictures: Champagne in London and Malbec in focus",
+          "detail": "From prestige cuvées poured in Kensington Palace to a new Provence rosé launched in Covent Garden, the week moved between heritage, design and a touch of music. The post #WeekInPictures: Champagne in ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Queen drummer Roger Taylor breaks into wine business with rosé",
+          "detail": "At an event in London on Wednesday, a new celebrity-backed wine was unveiled – this time from Queen drummer Roger Taylor. Called Cuvée Rock n’ Roll rosé, it hails from Provence. Patrick Schmitt MW fin",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/queen-drummer-roger-taylor-breaks-into-wine-business-with-cuvee-rock-n-roll-rose/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Nowadays launches low-THC drinks line - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5",
+          "date": "2026-04-24T12:55:31+00:00"
+        },
+        {
+          "title": "New beverage launches: Fibre shots, Capri Sun, Captain Morgan and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
+          "date": "2026-04-24T10:56:06+00:00"
+        },
+        {
+          "title": "#WeekInPictures: Champagne in London and Malbec in focus",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/",
+          "date": "2026-04-24T10:31:38+00:00"
+        },
+        {
+          "title": "Queen drummer Roger Taylor breaks into wine business with rosé",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/queen-drummer-roger-taylor-breaks-into-wine-business-with-cuvee-rock-n-roll-rose/",
+          "date": "2026-04-24T10:24:59+00:00"
+        },
+        {
+          "title": "Menagerie Wines: ‘Rob wants the company to be profitable before the next century’",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/menagerie-wines-rob-wants-the-company-to-be-profitable-before-the-next-century/",
+          "date": "2026-04-23T14:36:48+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Undurraga Wine Group makes management changes",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/undurraga-wine-group-makes-management-changes/",
+          "date": "2026-04-24T08:13:08+00:00"
+        },
+        {
+          "title": "UK bars unite for month-long Paloma celebration",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/uk-bars-unite-for-month-long-paloma-celebration/",
+          "date": "2026-04-24T07:59:48+00:00"
+        },
+        {
+          "title": "Bourbon brand breaks US$1m barrier with latest parks pledge",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bourbon-brand-breaks-us1m-barrier-with-latest-parks-pledge/",
+          "date": "2026-04-23T07:58:47+00:00"
+        }
+      ],
+      "regulatory_watch": [
+        {
+          "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
+          "date": "2026-04-20T14:07:44+00:00"
+        },
+        {
+          "title": "No more waiting: Businesses push for clarity from the European institutions as EU packaging law applies soon - Euractiv",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5",
+          "date": "2026-04-15T07:00:00+00:00"
+        },
+        {
+          "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
+          "date": "2026-04-13T07:00:00+00:00"
+        }
+      ],
+      "pricing_promotions": [
+        {
+          "title": "‘Show the price of a pint’: transparency push gains traction in Westminster",
+          "what_changed": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the co",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/show-the-price-of-a-pint-transparency-push-gains-traction-in-westminster/",
+          "date": "2026-04-24T09:24:22+00:00"
+        },
+        {
+          "title": "Map reveals cheapest pints of Guinness in the UK",
+          "what_changed": "Around 6,500 venues have had their costs assessed and collated into a map showing how much visitors will need to pay for a pint of Guinness in pubs in",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/map-reveals-cheapest-pints-of-guinness-in-the-uk/",
+          "date": "2026-04-23T10:44:19+00:00"
+        },
+        {
+          "title": "Heineken reports revenue growth as premium beers drive performance",
+          "what_changed": "The world’s most international brewer, Heineken, has reported modest gains in revenue and volume despite uneven regional performance. Premium brands a",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
+          "date": "2026-04-23T09:40:53+00:00"
+        },
+        {
+          "title": "Jobs to go as Simply Good Foods tackles costs - Just Drinks",
+          "what_changed": "Jobs to go as Simply Good Foods tackles costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGNSRjYzZlhVeDliTnJVMC1hSlEwRW5yS1B2ejI2dTd6UF81eTZHMFV3NVdtOG5qX3cwVm5WQ0dHMThDMlZCdzZDdXNMYy1IdmxSSVpjcko5OFNwaDhxUHV6Zk53NE91em1DTjJUcXRCR3BSYU03YXJYUTI2and5T1R4ajhyZw?oc=5",
+          "date": "2026-04-22T09:35:48+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in France",
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Functional trending in France",
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in France",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in France",
+          "explanation": "1 articles mention sugar free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in France",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in France — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
+            "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
+          ]
+        },
+        {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
+            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmFwSC1DMkMtaTdnLWJEaXduTHZJMDlzbmxJeVJib2tDbzd2RjVEUGRZekhoelh0WmlzZUhJaHpZMUJ1Y0hDdk1GVTg1SXJzSEtheU16WHNnX25Kd2RIMS0zZl9Bekd2bGJ1ZmZqOFpKbW5Cc3FEcHRkd2FwMmwxYV9jLURlYWI1Vmxyb2NBcFBNZUJVd0lWdmlnUGpsWXRkTGwzeTQtM2UwdDRVbUdJ?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVW0wTDJsOTdtVV83NmEtR0RzYnJnNkN1ZFN1ZndlSlNweDBnSmNaMFJGeHBnWW41SnRHWnNWSGIzbDktcGEyc0JGa2ZkOGxsMlZVWDd4S2xJT056SlFheWxrUUE5d0F3aE95MXo0UGJYNUk1dG1ab29ZaHQ3MXptNFBxcEozVTVRMmZuWlR6RXJyT0xNUEtMN281ckJHbF84UE5LMg?oc=5",
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFltT1I2ZkxhanpLRmVFSnpKb2l3dUJVVXI1U0Frd0Q4bXJVZ0Z2U05HMUsxTWlyR0xrTDFKRnpRbmozclNHMXlJUDBIVjhITDIyaVFpazdOdHZSR0lwNXRaQ3pRLWlLbHJuLXNaZ0p5WXVVS1VaZGpTdWdTZXZXTlIyOXFiTnJKa3hNS1lHd2RPRm55cVVpQU82Vkx4blkwN3ZpcDRJeGNIdw?oc=5"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
+            "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
+          ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
+            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
+          ]
+        }
+      ]
+    },
+    "spain": {
+      "executive_summary": [
+        {
+          "headline": "Hijos de Rivera invests in Spanish craft brewer BdeGust - Just Drinks",
+          "detail": "Hijos de Rivera invests in Spanish craft brewer BdeGust Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRjAzdm5LaGRUOV82XzIxaDljMHpSVlU4bTdXMDVuemhxeDM4a3JyTV9XZG0zd3VQVDJ2TzNVelFTektiT1JDWWFrZXNJUjdEdUZHaDRrWkZyTmVtMUJCRjBTOUtUZUtKaWJVRmU4S082bFhfSTEweHZGWnZuZ0ZzN2UzR2U3SGRKVDNjWm1HNnc5QnM?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Emperador brings Spain distribution in-house - Just Drinks",
+          "detail": "Emperador brings Spain distribution in-house Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTG9ESDNiSEN1TzgyYjFjSk9tdy1RblBaU3Nic1hHVUl1dXMwalQwQTZ5RUJJVGl5clJsV2dHUm16aVplaVpJSHRsR0pHYTRfN1M3M3VMMXJ5VGN4cmNVaGFDd251aEdvbGtFbXc0NW85clBSYmRSXzRmMU5jVEhyZQ?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "‘Show the price of a pint’: transparency push gains traction in Westminster",
+          "detail": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the cost of a pint and the uneven way prices are display",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/show-the-price-of-a-pint-transparency-push-gains-traction-in-westminster/"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Nowadays launches low-THC drinks line - Just Drinks",
@@ -633,276 +891,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-          "date": "2026-04-24T12:55:44+00:00"
-        },
-        {
-          "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
-          "date": "2026-04-20T14:07:44+00:00"
-        },
-        {
-          "title": "No more waiting: Businesses push for clarity from the European institutions as EU packaging law applies soon - Euractiv",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5",
-          "date": "2026-04-15T07:00:00+00:00"
-        },
-        {
-          "title": "US jury finds against Boston Beer in packaging lawsuit - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5",
-          "date": "2026-04-13T07:00:00+00:00"
-        }
-      ],
-      "pricing_promotions": [
-        {
-          "title": "‘Show the price of a pint’: transparency push gains traction in Westminster",
-          "what_changed": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the co",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/show-the-price-of-a-pint-transparency-push-gains-traction-in-westminster/",
-          "date": "2026-04-24T09:24:22+00:00"
-        },
-        {
-          "title": "Map reveals cheapest pints of Guinness in the UK",
-          "what_changed": "Around 6,500 venues have had their costs assessed and collated into a map showing how much visitors will need to pay for a pint of Guinness in pubs in",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/map-reveals-cheapest-pints-of-guinness-in-the-uk/",
-          "date": "2026-04-23T10:44:19+00:00"
-        },
-        {
-          "title": "Heineken reports revenue growth as premium beers drive performance",
-          "what_changed": "The world’s most international brewer, Heineken, has reported modest gains in revenue and volume despite uneven regional performance. Premium brands a",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
-          "date": "2026-04-23T09:40:53+00:00"
-        }
-      ],
-      "signals": [
-        {
-          "signal": "Functional trending in France",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in France",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Carbonated trending in France",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Organic trending in France",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Sugar Free trending in France",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
-        }
-      ],
-      "talking_points": [
-        {
-          "customer_type": "retail",
-          "pitch": "5 new product launches in France — ask about shelf space for new formats",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
-          ]
-        },
-        {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
-            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmFwSC1DMkMtaTdnLWJEaXduTHZJMDlzbmxJeVJib2tDbzd2RjVEUGRZekhoelh0WmlzZUhJaHpZMUJ1Y0hDdk1GVTg1SXJzSEtheU16WHNnX25Kd2RIMS0zZl9Bekd2bGJ1ZmZqOFpKbW5Cc3FEcHRkd2FwMmwxYV9jLURlYWI1Vmxyb2NBcFBNZUJVd0lWdmlnUGpsWXRkTGwzeTQtM2UwdDRVbUdJ?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVW0wTDJsOTdtVV83NmEtR0RzYnJnNkN1ZFN1ZndlSlNweDBnSmNaMFJGeHBnWW41SnRHWnNWSGIzbDktcGEyc0JGa2ZkOGxsMlZVWDd4S2xJT056SlFheWxrUUE5d0F3aE95MXo0UGJYNUk1dG1ab29ZaHQ3MXptNFBxcEozVTVRMmZuWlR6RXJyT0xNUEtMN281ckJHbF84UE5LMg?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFltT1I2ZkxhanpLRmVFSnpKb2l3dUJVVXI1U0Frd0Q4bXJVZ0Z2U05HMUsxTWlyR0xrTDFKRnpRbmozclNHMXlJUDBIVjhITDIyaVFpazdOdHZSR0lwNXRaQ3pRLWlLbHJuLXNaZ0p5WXVVS1VaZGpTdWdTZXZXTlIyOXFiTnJKa3hNS1lHd2RPRm55cVVpQU82Vkx4blkwN3ZpcDRJeGNIdw?oc=5"
-          ]
-        }
-      ],
-      "recommended_actions": [
-        {
-          "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
-          "why_now": "New products entering market require positioning response",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
-            "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
-            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5"
-          ]
-        }
-      ]
-    },
-    "spain": {
-      "executive_summary": [
-        {
-          "headline": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "detail": "UK food inflation could hit 7% – Bank of England survey Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Hijos de Rivera invests in Spanish craft brewer BdeGust - Just Drinks",
-          "detail": "Hijos de Rivera invests in Spanish craft brewer BdeGust Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRjAzdm5LaGRUOV82XzIxaDljMHpSVlU4bTdXMDVuemhxeDM4a3JyTV9XZG0zd3VQVDJ2TzNVelFTektiT1JDWWFrZXNJUjdEdUZHaDRrWkZyTmVtMUJCRjBTOUtUZUtKaWJVRmU4S082bFhfSTEweHZGWnZuZ0ZzN2UzR2U3SGRKVDNjWm1HNnc5QnM?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Emperador brings Spain distribution in-house - Just Drinks",
-          "detail": "Emperador brings Spain distribution in-house Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTG9ESDNiSEN1TzgyYjFjSk9tdy1RblBaU3Nic1hHVUl1dXMwalQwQTZ5RUJJVGl5clJsV2dHUm16aVplaVpJSHRsR0pHYTRfN1M3M3VMMXJ5VGN4cmNVaGFDd251aEdvbGtFbXc0NW85clBSYmRSXzRmMU5jVEhyZQ?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "‘Show the price of a pint’: transparency push gains traction in Westminster",
-          "detail": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the cost of a pint and the uneven way prices are display",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/04/show-the-price-of-a-pint-transparency-push-gains-traction-in-westminster/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Nowadays launches low-THC drinks line - Just Drinks",
-          "detail": "Nowadays launches low-THC drinks line Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5"
-          ],
-          "confidence": "medium"
-        }
-      ],
-      "key_launches": [
-        {
-          "title": "Nowadays launches low-THC drinks line - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Qd2g0bmhKOUhLNExHRkhCS0xJQ0h5dWJwdjBqUkY0QzlPTEVyTTZjdG5OQUhiU3VwSXVHNG84dzlrcFBpWUNENmU2bUF6NkhtYnpPZHowS05wX3JpY2NLRjZ6WVBrWUdoVUJCejh1NzMwWHNiTThsUTY1UQ?oc=5",
-          "date": "2026-04-24T12:55:31+00:00"
-        },
-        {
-          "title": "New beverage launches: Fibre shots, Capri Sun, Captain Morgan and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
-          "date": "2026-04-24T10:56:06+00:00"
-        },
-        {
-          "title": "#WeekInPictures: Champagne in London and Malbec in focus",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/",
-          "date": "2026-04-24T10:31:38+00:00"
-        },
-        {
-          "title": "Queen drummer Roger Taylor breaks into wine business with rosé",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/queen-drummer-roger-taylor-breaks-into-wine-business-with-cuvee-rock-n-roll-rose/",
-          "date": "2026-04-24T10:24:59+00:00"
-        },
-        {
-          "title": "Menagerie Wines: ‘Rob wants the company to be profitable before the next century’",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/menagerie-wines-rob-wants-the-company-to-be-profitable-before-the-next-century/",
-          "date": "2026-04-23T14:36:48+00:00"
-        }
-      ],
-      "competitor_moves": [
-        {
-          "title": "Undurraga Wine Group makes management changes",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/undurraga-wine-group-makes-management-changes/",
-          "date": "2026-04-24T08:13:08+00:00"
-        },
-        {
-          "title": "UK bars unite for month-long Paloma celebration",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/uk-bars-unite-for-month-long-paloma-celebration/",
-          "date": "2026-04-24T07:59:48+00:00"
-        },
-        {
-          "title": "Bourbon brand breaks US$1m barrier with latest parks pledge",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/04/bourbon-brand-breaks-us1m-barrier-with-latest-parks-pledge/",
-          "date": "2026-04-23T07:58:47+00:00"
-        }
-      ],
-      "regulatory_watch": [
-        {
-          "title": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-          "date": "2026-04-24T12:55:44+00:00"
-        },
-        {
           "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -931,6 +919,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
           "date": "2026-04-23T09:40:53+00:00"
+        },
+        {
+          "title": "Jobs to go as Simply Good Foods tackles costs - Just Drinks",
+          "what_changed": "Jobs to go as Simply Good Foods tackles costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGNSRjYzZlhVeDliTnJVMC1hSlEwRW5yS1B2ejI2dTd6UF81eTZHMFV3NVdtOG5qX3cwVm5WQ0dHMThDMlZCdzZDdXNMYy1IdmxSSVpjcko5OFNwaDhxUHV6Zk53NE91em1DTjJUcXRCR3BSYU03YXJYUTI2and5T1R4ajhyZw?oc=5",
+          "date": "2026-04-22T09:35:48+00:00"
         }
       ],
       "signals": [
@@ -994,7 +989,6 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         },
@@ -1024,7 +1018,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         }
@@ -1032,14 +1025,6 @@
     },
     "italy": {
       "executive_summary": [
-        {
-          "headline": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "detail": "UK food inflation could hit 7% – Bank of England survey Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
         {
           "headline": "‘Show the price of a pint’: transparency push gains traction in Westminster",
           "detail": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the cost of a pint and the uneven way prices are display",
@@ -1069,6 +1054,14 @@
           "detail": "From prestige cuvées poured in Kensington Palace to a new Provence rosé launched in Covent Garden, the week moved between heritage, design and a touch of music. The post #WeekInPictures: Champagne in ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Queen drummer Roger Taylor breaks into wine business with rosé",
+          "detail": "At an event in London on Wednesday, a new celebrity-backed wine was unveiled – this time from Queen drummer Roger Taylor. Called Cuvée Rock n’ Roll rosé, it hails from Provence. Patrick Schmitt MW fin",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/queen-drummer-roger-taylor-breaks-into-wine-business-with-cuvee-rock-n-roll-rose/"
           ],
           "confidence": "medium"
         }
@@ -1143,13 +1136,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-          "date": "2026-04-24T12:55:44+00:00"
-        },
-        {
           "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1192,6 +1178,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
           "date": "2026-04-23T09:40:53+00:00"
+        },
+        {
+          "title": "Jobs to go as Simply Good Foods tackles costs - Just Drinks",
+          "what_changed": "Jobs to go as Simply Good Foods tackles costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGNSRjYzZlhVeDliTnJVMC1hSlEwRW5yS1B2ejI2dTd6UF81eTZHMFV3NVdtOG5qX3cwVm5WQ0dHMThDMlZCdzZDdXNMYy1IdmxSSVpjcko5OFNwaDhxUHV6Zk53NE91em1DTjJUcXRCR3BSYU03YXJYUTI2and5T1R4ajhyZw?oc=5",
+          "date": "2026-04-22T09:35:48+00:00"
         }
       ],
       "signals": [
@@ -1255,9 +1248,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
-            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5"
+            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
           ]
         },
         {
@@ -1286,23 +1279,15 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
-            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5"
+            "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhGc2VJWlNHenduQ2E5TC1fZmVHN1laalhsaTVmUk9sU2dqS0NHNFgzYVJHYWJtZjhjOHIxRmRCTEVQU2F0X21jamtXUVZadGFFUjUteWxsY2lPZjJaZEdTeEJORzlmbVh4UE90NFZlU3R0X2lzNzRQelQ1TnZhdTFydzFyQ2dmd1FwQ05nNEwxRnpFb2VDbC1CWlBTZHRfanVNMWlHTXdzaDZ5d3hXNV9FbndrSXBVSXFGTncwcThQWGp1Mk9QVUttNmlnd3ROWGctVkNJbWE?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0Jwa2otSXpPaXVqMnkybVNZYUVENFFXQXpfaDFUY2dYLVdUc3JoWEJ5RFhkUGctMmR5N21VRVAxQjhGaklFeE96TDVMYUZUNlk4Mk9nWEJTNC12dlZOMUZEdWZXUWhsZDhtWUN1Yy1IYmozS1dMYUZDQ1V6NnJPVmpjelMyX3NNbVZnMS1BSC12Zw?oc=5"
           ]
         }
       ]
     },
     "austria": {
       "executive_summary": [
-        {
-          "headline": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "detail": "UK food inflation could hit 7% – Bank of England survey Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
         {
           "headline": "‘Show the price of a pint’: transparency push gains traction in Westminster",
           "detail": "An early day motion in Parliament has called for more visible pricing in pubs and bars across the UK. The proposal reflects rising concern over the cost of a pint and the uneven way prices are display",
@@ -1332,6 +1317,14 @@
           "detail": "From prestige cuvées poured in Kensington Palace to a new Provence rosé launched in Covent Garden, the week moved between heritage, design and a touch of music. The post #WeekInPictures: Champagne in ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/04/weekinpictures-champagne-in-london-and-malbec-in-focus/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Queen drummer Roger Taylor breaks into wine business with rosé",
+          "detail": "At an event in London on Wednesday, a new celebrity-backed wine was unveiled – this time from Queen drummer Roger Taylor. Called Cuvée Rock n’ Roll rosé, it hails from Provence. Patrick Schmitt MW fin",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/04/queen-drummer-roger-taylor-breaks-into-wine-business-with-cuvee-rock-n-roll-rose/"
           ],
           "confidence": "medium"
         }
@@ -1406,20 +1399,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "UK food inflation could hit 7% – Bank of England survey - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-          "date": "2026-04-24T12:55:44+00:00"
-        },
-        {
-          "title": "Maisel & Friends relauncht alkoholfreies IPA als Urban IPA Alkoholfrei - about-drinks.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHlmTGZ4Y1kzZjMxTXZhbDRmcTRERU91ZmFzZEJ2U2NGQU9YOTR0aFN4ZUczWWF5Ym82WEpvT3hJMHVYSWpWYkRDLXYzcnhfS0psci0xSGJNaXZFcENReUVfNXRKZ19mZE9rdEV2ZF9IS0xOU05PT1p3MTh5RmVLV1RFVWswdTlNOEN0dFRRM2NhQWJSSTNVSlBEalRFb0E?oc=5",
-          "date": "2026-04-22T11:32:37+00:00"
-        },
-        {
           "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1448,6 +1427,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/heineken-reports-revenue-growth-as-premium-beers-drive-performance/",
           "date": "2026-04-23T09:40:53+00:00"
+        },
+        {
+          "title": "Jobs to go as Simply Good Foods tackles costs - Just Drinks",
+          "what_changed": "Jobs to go as Simply Good Foods tackles costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGNSRjYzZlhVeDliTnJVMC1hSlEwRW5yS1B2ejI2dTd6UF81eTZHMFV3NVdtOG5qX3cwVm5WQ0dHMThDMlZCdzZDdXNMYy1IdmxSSVpjcko5OFNwaDhxUHV6Zk53NE91em1DTjJUcXRCR3BSYU03YXJYUTI2and5T1R4ajhyZw?oc=5",
+          "date": "2026-04-22T09:35:48+00:00"
         }
       ],
       "signals": [
@@ -1470,6 +1456,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Sugar Free trending in Austria",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
@@ -1484,15 +1479,6 @@
           "support_count": 1,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1511,8 +1497,6 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHlmTGZ4Y1kzZjMxTXZhbDRmcTRERU91ZmFzZEJ2U2NGQU9YOTR0aFN4ZUczWWF5Ym82WEpvT3hJMHVYSWpWYkRDLXYzcnhfS0psci0xSGJNaXZFcENReUVfNXRKZ19mZE9rdEV2ZF9IS0xOU05PT1p3MTh5RmVLV1RFVWswdTlNOEN0dFRRM2NhQWJSSTNVSlBEalRFb0E?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         },
@@ -1541,8 +1525,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXBlbHVEOVRZM09tWjE5WmxhTGJzSTZpTHpLZW9BZl9US2tBc0VDSVBvNXp5WExZaHdEQjFLNWJHcTktQnpkSk9tUEx2MjU5RXVuUDFGMkNudUNudWYyd1ZyOFhZZ1RZTFlESjJ4ZzVxMlNfWnBybVphZ0hTM1VEc2ZsSktWY1JJQ0pzSGpyRQ?oc=5",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHlmTGZ4Y1kzZjMxTXZhbDRmcTRERU91ZmFzZEJ2U2NGQU9YOTR0aFN4ZUczWWF5Ym82WEpvT3hJMHVYSWpWYkRDLXYzcnhfS0psci0xSGJNaXZFcENReUVfNXRKZ19mZE9rdEV2ZF9IS0xOU05PT1p3MTh5RmVLV1RFVWswdTlNOEN0dFRRM2NhQWJSSTNVSlBEalRFb0E?oc=5",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         }
