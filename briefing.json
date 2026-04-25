@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-24T14:44:26.157670+00:00",
-  "generated_date": "Friday, 24 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Liv-ex: Buying en primeur must become a pleasure again.",
+  "generated_at": "2026-04-25T06:18:37.673033+00:00",
+  "generated_date": "Saturday, 25 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Distribution: Pure Genius Launches Retail with Target - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
-    "france": "Premium trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Functional trending. (50 items)",
     "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 128,
-      "launch": 88,
+      "trend": 120,
+      "launch": 86,
+      "regulatory": 19,
       "pricing": 19,
       "competitor": 19,
+      "innovation": 19,
+      "functional": 18,
       "premium": 17,
-      "regulatory": 15,
-      "innovation": 15,
-      "supply_chain": 14,
-      "carbonated": 9,
-      "functional": 8
+      "supply_chain": 16,
+      "carbonated": 13
     }
   }
 }
