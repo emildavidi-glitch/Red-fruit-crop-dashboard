@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-25T14:02:13.867432+00:00",
-  "generated_date": "Saturday, 25 April 2026",
+  "generated_at": "2026-04-26T06:56:53.076465+00:00",
+  "generated_date": "Sunday, 26 April 2026",
   "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Fort George Brewery - Cellar/Shift Brewer - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 127,
-      "launch": 79,
+      "trend": 132,
+      "launch": 75,
       "pricing": 25,
-      "functional": 19,
+      "premium": 21,
+      "innovation": 20,
       "competitor": 19,
-      "innovation": 19,
-      "premium": 18,
-      "supply_chain": 17,
-      "carbonated": 12,
-      "regulatory": 11
+      "functional": 18,
+      "supply_chain": 15,
+      "regulatory": 12,
+      "carbonated": 11
     }
   }
 }
