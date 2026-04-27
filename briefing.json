@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-27T07:31:50.364966+00:00",
+  "generated_at": "2026-04-27T15:06:33.476556+00:00",
   "generated_date": "Monday, 27 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Dallmayr ist offizieller Partner der Landesgartenschau - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: This week: Barcelona-bound for Just Drinks’ annual beer conference - Just Drinks.",
   "signals": {
-    "usa": "Sugar Free trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Functional trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
     "spain": "Premium trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 122,
-      "launch": 76,
-      "pricing": 26,
-      "innovation": 25,
-      "competitor": 19,
-      "functional": 17,
-      "premium": 17,
-      "regulatory": 16,
-      "supply_chain": 15,
-      "carbonated": 10
+      "trend": 123,
+      "launch": 72,
+      "pricing": 37,
+      "innovation": 27,
+      "supply_chain": 17,
+      "carbonated": 16,
+      "functional": 13,
+      "competitor": 13,
+      "premium": 11,
+      "regulatory": 10
     }
   }
 }
