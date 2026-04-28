@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-27T15:06:33.476556+00:00",
-  "generated_date": "Monday, 27 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: This week: Barcelona-bound for Just Drinks’ annual beer conference - Just Drinks.",
+  "generated_at": "2026-04-28T07:29:14.304212+00:00",
+  "generated_date": "Tuesday, 28 April 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Krombacher’s Fassbrause launcht limitierte Aktionssorte Pfirsich - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Premium trending. (50 items)",
-    "italy": "Carbonated trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
     "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 123,
-      "launch": 72,
+      "trend": 129,
+      "launch": 76,
       "pricing": 37,
-      "innovation": 27,
-      "supply_chain": 17,
+      "innovation": 21,
       "carbonated": 16,
-      "functional": 13,
-      "competitor": 13,
-      "premium": 11,
-      "regulatory": 10
+      "competitor": 14,
+      "functional": 14,
+      "regulatory": 11,
+      "premium": 10,
+      "supply_chain": 9
     }
   }
 }
