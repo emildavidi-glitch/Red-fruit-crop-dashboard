@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-30T07:25:16.191466+00:00",
+  "generated_at": "2026-04-30T15:09:00.450084+00:00",
   "generated_date": "Thursday, 30 April 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Gingerbug®: Spicy Prebiotic Organic Ginger Beer - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; carbonated trending. Latest: Easy Does It Introduces Original Gold, a Mexican-Style Non-Alcoholic Lager - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 140,
-      "launch": 52,
-      "competitor": 32,
-      "carbonated": 31,
+      "trend": 162,
+      "launch": 47,
+      "carbonated": 33,
+      "competitor": 30,
       "innovation": 21,
       "pricing": 20,
-      "alcohol_free": 15,
-      "supply_chain": 15,
-      "regulatory": 12,
-      "functional": 11
+      "regulatory": 13,
+      "functional": 11,
+      "sugar_free": 9,
+      "alcohol_free": 8
     }
   }
 }
