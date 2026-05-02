@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T06:59:15.227563+00:00",
+  "generated_at": "2026-05-02T14:09:39.276433+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -388,14 +388,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/grupo-penaflor-owner-acquires-off-piste-wines/",
           "date": "2026-04-29T14:00:58+00:00"
-        },
-        {
-          "title": "Nestlé confirms Blue Bottle Coffee sale as restructuring accelerates - FoodNavigator.com",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0Y3dWtiVGZUTk55Sm5tdjZHZHdEQWRQSVdHNFp1UThxcHNYVXRfZG5pd3hzU2xsT2J0d3U5b3ZIVVJMWnZjeHV3Z3QyNG5vdDh1V0stTThlV2JWcU1HX2ZVMDE2ODFJNWloeFl1RThPMjVGU2Zhc1RIVFRpakhONHlTbV85WDEzVGRwZkJYNFhJY0pmNTM0dkdNS3YzVV9UbmtyRnh1MkNSV0EzcldWN0ZoeUdSZXczelpScENjclVvbWxfeUZiVQ?oc=5",
-          "date": "2026-04-27T09:34:27+00:00"
         }
       ],
       "regulatory_watch": [
@@ -460,20 +452,20 @@
       ],
       "signals": [
         {
-          "signal": "Carbonated trending in Germany",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Sugar Free trending in Germany",
           "explanation": "2 articles mention sugar free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in Germany",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "carbonated"
           ],
           "confidence": "medium"
         },
@@ -657,14 +649,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/grupo-penaflor-owner-acquires-off-piste-wines/",
           "date": "2026-04-29T14:00:58+00:00"
-        },
-        {
-          "title": "Nestlé confirms Blue Bottle Coffee sale as restructuring accelerates - FoodNavigator.com",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0Y3dWtiVGZUTk55Sm5tdjZHZHdEQWRQSVdHNFp1UThxcHNYVXRfZG5pd3hzU2xsT2J0d3U5b3ZIVVJMWnZjeHV3Z3QyNG5vdDh1V0stTThlV2JWcU1HX2ZVMDE2ODFJNWloeFl1RThPMjVGU2Zhc1RIVFRpakhONHlTbV85WDEzVGRwZkJYNFhJY0pmNTM0dkdNS3YzVV9UbmtyRnh1MkNSV0EzcldWN0ZoeUdSZXczelpScENjclVvbWxfeUZiVQ?oc=5",
-          "date": "2026-04-27T09:34:27+00:00"
         }
       ],
       "regulatory_watch": [
@@ -681,6 +665,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/pub-boss-jailed-for-stealing-100k-from-takings/",
           "date": "2026-04-30T10:28:21+00:00"
+        },
+        {
+          "title": "Lidl to open its first ever pub, as private label readies to shake up alcohol - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5",
+          "date": "2026-04-20T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -723,12 +714,12 @@
       "signals": [
         {
           "signal": "Carbonated trending in France",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in France",
@@ -782,7 +773,8 @@
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/joan-collins-fronts-ms-rose-push/",
-            "https://www.thedrinksbusiness.com/2026/04/pub-boss-jailed-for-stealing-100k-from-takings/"
+            "https://www.thedrinksbusiness.com/2026/04/pub-boss-jailed-for-stealing-100k-from-takings/",
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         },
         {
@@ -811,7 +803,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/joan-collins-fronts-ms-rose-push/",
-            "https://www.thedrinksbusiness.com/2026/04/pub-boss-jailed-for-stealing-100k-from-takings/"
+            "https://www.thedrinksbusiness.com/2026/04/pub-boss-jailed-for-stealing-100k-from-takings/",
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnhLNk9PNXRrWHFxMHhBcU9GTkp5NW5LOUFXUmlHUUs5RUNPMVVkbk9uT3l0VU1PX3RQZ1BWRTJXRzRJODVlMVlTakRpVW1yUFluMXVYLUcwOWxWVUE2aHBGazRMb2RQYUo2RXVPaHhJRHVWTnRDcGs2allUbTRDV2Vwd1BnZTV1cnQtMF9uaF8zRVRhZkhmcHBDQXliaEpW?oc=5"
           ]
         }
       ]
@@ -898,7 +891,7 @@
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
-          "date": "2026-04-24T10:56:06+00:00"
+          "date": "2026-04-24T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -925,14 +918,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/grupo-penaflor-owner-acquires-off-piste-wines/",
           "date": "2026-04-29T14:00:58+00:00"
-        },
-        {
-          "title": "Nestlé confirms Blue Bottle Coffee sale as restructuring accelerates - FoodNavigator.com",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0Y3dWtiVGZUTk55Sm5tdjZHZHdEQWRQSVdHNFp1UThxcHNYVXRfZG5pd3hzU2xsT2J0d3U5b3ZIVVJMWnZjeHV3Z3QyNG5vdDh1V0stTThlV2JWcU1HX2ZVMDE2ODFJNWloeFl1RThPMjVGU2Zhc1RIVFRpakhONHlTbV85WDEzVGRwZkJYNFhJY0pmNTM0dkdNS3YzVV9UbmtyRnh1MkNSV0EzcldWN0ZoeUdSZXczelpScENjclVvbWxfeUZiVQ?oc=5",
-          "date": "2026-04-27T09:34:27+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1017,20 +1002,20 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in Spain",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Alcohol Free trending in Spain",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "alcohol_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Organic trending in Spain",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
           ],
           "confidence": "low"
         }
@@ -1051,6 +1036,14 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/joan-collins-fronts-ms-rose-push/",
             "https://www.thedrinksbusiness.com/2026/04/pub-boss-jailed-for-stealing-100k-from-takings/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEFxaFpBZEloOGJ2OWhWNUF4WXpUSlJUak85VHkxYTJNYzZ6ZVFQemJFZ3E0VTJUVW5rX2xDZ1BMWm9sY29uWFVqa3p4dG9weGhQeEFMRFRPLUdPRVlXTW9QSk5iWERfbkRxMFVVeGR1aEI1b3psUWJwSmtxOVdBbHhIMjF5WS1ScXlWMXpUcWFrdnhLRlo3QUVJekR5c19FUy1hMlJkU19fYTRFVGtDc0JXaw?oc=5",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmFwSC1DMkMtaTdnLWJEaXduTHZJMDlzbmxJeVJib2tDbzd2RjVEUGRZekhoelh0WmlzZUhJaHpZMUJ1Y0hDdk1GVTg1SXJzSEtheU16WHNnX25Kd2RIMS0zZl9Bekd2bGJ1ZmZqOFpKbW5Cc3FEcHRkd2FwMmwxYV9jLURlYWI1Vmxyb2NBcFBNZUJVd0lWdmlnUGpsWXRkTGwzeTQtM2UwdDRVbUdJ?oc=5"
           ]
         }
       ],
@@ -1158,7 +1151,7 @@
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JCNkJ0UU9FUHZQZWhmZGdDdG1MdU5LNXBNUUhiTk9MdnZuTTZ2REJuekl2dzgtZGVhSFR0OGpzR3p6SHNqaUJUc2k2cXNCbXNoaWJyVG1tRk9Yd1MyZHlZbUlWdUFiMFFRMmJDRUFzREgwcEtRZnViaS1WNWpVNThvdlBhVl9NdklfV09jVERFZEtZYlkxNEV0eldKYk9YVmJla1dHVXo?oc=5",
-          "date": "2026-04-24T10:56:06+00:00"
+          "date": "2026-04-24T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -1185,14 +1178,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/grupo-penaflor-owner-acquires-off-piste-wines/",
           "date": "2026-04-29T14:00:58+00:00"
-        },
-        {
-          "title": "Nestlé confirms Blue Bottle Coffee sale as restructuring accelerates - FoodNavigator.com",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0Y3dWtiVGZUTk55Sm5tdjZHZHdEQWRQSVdHNFp1UThxcHNYVXRfZG5pd3hzU2xsT2J0d3U5b3ZIVVJMWnZjeHV3Z3QyNG5vdDh1V0stTThlV2JWcU1HX2ZVMDE2ODFJNWloeFl1RThPMjVGU2Zhc1RIVFRpakhONHlTbV85WDEzVGRwZkJYNFhJY0pmNTM0dkdNS3YzVV9UbmtyRnh1MkNSV0EzcldWN0ZoeUdSZXczelpScENjclVvbWxfeUZiVQ?oc=5",
-          "date": "2026-04-27T09:34:27+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1258,12 +1243,21 @@
       "signals": [
         {
           "signal": "Carbonated trending in Italy",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "high"
+          "confidence": "medium"
+        },
+        {
+          "signal": "Functional trending in Italy",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in Italy",
@@ -1271,15 +1265,6 @@
           "support_count": 2,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Functional trending in Italy",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
           ],
           "confidence": "medium"
         },
@@ -1326,7 +1311,8 @@
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEFxaFpBZEloOGJ2OWhWNUF4WXpUSlJUak85VHkxYTJNYzZ6ZVFQemJFZ3E0VTJUVW5rX2xDZ1BMWm9sY29uWFVqa3p4dG9weGhQeEFMRFRPLUdPRVlXTW9QSk5iWERfbkRxMFVVeGR1aEI1b3psUWJwSmtxOVdBbHhIMjF5WS1ScXlWMXpUcWFrdnhLRlo3QUVJekR5c19FUy1hMlJkU19fYTRFVGtDc0JXaw?oc=5",
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmFwSC1DMkMtaTdnLWJEaXduTHZJMDlzbmxJeVJib2tDbzd2RjVEUGRZekhoelh0WmlzZUhJaHpZMUJ1Y0hDdk1GVTg1SXJzSEtheU16WHNnX25Kd2RIMS0zZl9Bekd2bGJ1ZmZqOFpKbW5Cc3FEcHRkd2FwMmwxYV9jLURlYWI1Vmxyb2NBcFBNZUJVd0lWdmlnUGpsWXRkTGwzeTQtM2UwdDRVbUdJ?oc=5"
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmFwSC1DMkMtaTdnLWJEaXduTHZJMDlzbmxJeVJib2tDbzd2RjVEUGRZekhoelh0WmlzZUhJaHpZMUJ1Y0hDdk1GVTg1SXJzSEtheU16WHNnX25Kd2RIMS0zZl9Bekd2bGJ1ZmZqOFpKbW5Cc3FEcHRkd2FwMmwxYV9jLURlYWI1Vmxyb2NBcFBNZUJVd0lWdmlnUGpsWXRkTGwzeTQtM2UwdDRVbUdJ?oc=5",
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVW0wTDJsOTdtVV83NmEtR0RzYnJnNkN1ZFN1ZndlSlNweDBnSmNaMFJGeHBnWW41SnRHWnNWSGIzbDktcGEyc0JGa2ZkOGxsMlZVWDd4S2xJT056SlFheWxrUUE5d0F3aE95MXo0UGJYNUk1dG1ab29ZaHQ3MXptNFBxcEozVTVRMmZuWlR6RXJyT0xNUEtMN281ckJHbF84UE5LMg?oc=5"
           ]
         }
       ],
@@ -1428,14 +1414,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/high-abv-fruit-flavoured-modelo-launches-in-the-us/",
           "date": "2026-04-29T12:00:49+00:00"
-        },
-        {
-          "title": "„Die Nacht gehört euch“: Jägermeister launcht neue Plattform - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcThiNDRuNEZIVzhNUzhjeF9wQjlBelFpMFVlSzBhVDR4VWhZX0xjZHoxbUxLSDBzUjVpWEExVklHUFlpa3VycHVJZXcySTh0NWZkcURRSktUTmtGQ1ZhSkxRa0dyRGJ2TkZNazhYOTBtYlJ3SXkxRVdWdVgwYmNOUnVUcC10dXVtREs5X1EzeHFWZFU?oc=5",
-          "date": "2026-04-29T08:58:40+00:00"
         }
       ],
       "competitor_moves": [
@@ -1462,14 +1440,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/04/grupo-penaflor-owner-acquires-off-piste-wines/",
           "date": "2026-04-29T14:00:58+00:00"
-        },
-        {
-          "title": "Nestlé confirms Blue Bottle Coffee sale as restructuring accelerates - FoodNavigator.com",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0Y3dWtiVGZUTk55Sm5tdjZHZHdEQWRQSVdHNFp1UThxcHNYVXRfZG5pd3hzU2xsT2J0d3U5b3ZIVVJMWnZjeHV3Z3QyNG5vdDh1V0stTThlV2JWcU1HX2ZVMDE2ODFJNWloeFl1RThPMjVGU2Zhc1RIVFRpakhONHlTbV85WDEzVGRwZkJYNFhJY0pmNTM0dkdNS3YzVV9UbmtyRnh1MkNSV0EzcldWN0ZoeUdSZXczelpScENjclVvbWxfeUZiVQ?oc=5",
-          "date": "2026-04-27T09:34:27+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1575,7 +1545,7 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/asahi-super-dry-rolls-out-dry-crystal-in-hong-kong-and-taiwan/",
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxONElESk9vUDhwTmdwbm5iem1fUFB6c3RxaHJnb3BJN28zMFJQdC03SFh4QkRIOE5vengxQlYzQ0ZtdXlTSFRncDhJRjczT2hzZlBlbk9nZFQ2S3lzeW81Sm5TVGZZY29vU1FUcHBZQ0pjSWVwY242SFBEYnE0TXdBeWR3WDBNR3JlLXdrVzNRd1lwSTFoZ3FBbGVNRTNfbkxERkpVY05RUnhSYkg5?oc=5",
@@ -1594,7 +1564,7 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/asahi-super-dry-rolls-out-dry-crystal-in-hong-kong-and-taiwan/",
