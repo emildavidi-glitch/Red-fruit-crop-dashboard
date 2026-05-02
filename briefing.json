@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-01T14:16:16.660481+00:00",
-  "generated_date": "Friday, 01 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Dose Partners With Juice Press To Debut Limited-Time Smoothie, Bringing Clinically Backed Wellness T.",
+  "generated_at": "2026-05-02T06:59:15.227563+00:00",
+  "generated_date": "Saturday, 02 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Hint Evolves Sparkling with Electrolytes Lineup with New Flavor Portfolio - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
+    "usa": "Juice trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
     "italy": "Carbonated trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 142,
+      "trend": 141,
       "launch": 45,
-      "pricing": 24,
-      "carbonated": 24,
-      "competitor": 22,
-      "regulatory": 19,
-      "supply_chain": 19,
-      "innovation": 18,
-      "sugar_free": 14,
-      "alcohol_free": 9
+      "pricing": 30,
+      "competitor": 26,
+      "carbonated": 23,
+      "supply_chain": 21,
+      "regulatory": 15,
+      "sugar_free": 12,
+      "innovation": 9,
+      "alcohol_free": 8
     }
   }
 }
