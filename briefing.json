@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-04T07:44:45.302379+00:00",
+  "generated_at": "2026-05-04T15:09:29.520991+00:00",
   "generated_date": "Monday, 04 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Harrison Ford überrascht mit eigener Glenmorangie Limited Edition - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Kulli Channels Peruvian Purple Corn into Functional Beverage Play - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
+    "usa": "Sugar Free trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
     "italy": "Carbonated trending. (50 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 152,
-      "launch": 34,
+      "launch": 37,
       "pricing": 30,
-      "competitor": 27,
+      "competitor": 21,
       "carbonated": 21,
-      "regulatory": 19,
+      "regulatory": 20,
       "supply_chain": 18,
-      "innovation": 14,
-      "sugar_free": 13,
-      "functional": 11
+      "innovation": 16,
+      "functional": 13,
+      "sugar_free": 13
     }
   }
 }
