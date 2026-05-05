@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-04T15:09:29.520991+00:00",
-  "generated_date": "Monday, 04 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Kulli Channels Peruvian Purple Corn into Functional Beverage Play - BevNET.com.",
+  "generated_at": "2026-05-05T07:13:32.424800+00:00",
+  "generated_date": "Tuesday, 05 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Drei unterschiedliche Open-Air-Formate mit Mühlen Kölsch - about-drinks.com.",
   "signals": {
-    "usa": "Sugar Free trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
     "italy": "Carbonated trending. (50 items)",
@@ -15,15 +15,15 @@
     "method": "rss-analysis",
     "top_topics": {
       "trend": 152,
-      "launch": 37,
-      "pricing": 30,
-      "competitor": 21,
-      "carbonated": 21,
-      "regulatory": 20,
+      "launch": 42,
+      "competitor": 27,
+      "pricing": 24,
+      "regulatory": 18,
       "supply_chain": 18,
-      "innovation": 16,
-      "functional": 13,
-      "sugar_free": 13
+      "carbonated": 17,
+      "innovation": 12,
+      "sugar_free": 11,
+      "functional": 9
     }
   }
 }
