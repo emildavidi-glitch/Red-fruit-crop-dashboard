@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-05T07:13:32.424800+00:00",
-  "generated_date": "Tuesday, 05 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Drei unterschiedliche Open-Air-Formate mit Mühlen Kölsch - about-drinks.com.",
+  "generated_at": "2026-05-06T07:40:36.372249+00:00",
+  "generated_date": "Wednesday, 06 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Ratsherrn Brauerei stärkt Markenauftritt durch neue Wraparounds - about-drinks.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
     "italy": "Carbonated trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 42,
-      "competitor": 27,
-      "pricing": 24,
-      "regulatory": 18,
-      "supply_chain": 18,
-      "carbonated": 17,
-      "innovation": 12,
-      "sugar_free": 11,
-      "functional": 9
+      "trend": 150,
+      "pricing": 41,
+      "launch": 32,
+      "supply_chain": 21,
+      "regulatory": 19,
+      "carbonated": 18,
+      "innovation": 18,
+      "premium": 14,
+      "macro": 13,
+      "functional": 12
     }
   }
 }
