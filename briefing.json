@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-07T07:39:51.904919+00:00",
+  "generated_at": "2026-05-07T15:27:29.696358+00:00",
   "generated_date": "Thursday, 07 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Nikka Perfect Serve 2026: Anmeldung ab sofort geöffnet - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Bordeaux 2025 en primeur: ‘strikingly brilliant’ wines from Pauillac.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 159,
-      "launch": 58,
-      "pricing": 33,
+      "trend": 163,
+      "launch": 60,
+      "pricing": 21,
+      "supply_chain": 21,
       "competitor": 15,
-      "supply_chain": 15,
       "premium": 13,
-      "regulatory": 12,
-      "rtd": 7,
-      "carbonated": 7,
-      "alcohol_free": 6
+      "regulatory": 10,
+      "alcohol_free": 10,
+      "retail": 6,
+      "innovation": 4
     }
   }
 }
