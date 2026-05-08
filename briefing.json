@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-07T15:27:29.696358+00:00",
-  "generated_date": "Thursday, 07 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Bordeaux 2025 en primeur: ‘strikingly brilliant’ wines from Pauillac.",
+  "generated_at": "2026-05-08T06:29:17.661115+00:00",
+  "generated_date": "Friday, 08 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Concha y Toro profits slide amid UK, US pressure - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 163,
-      "launch": 60,
-      "pricing": 21,
-      "supply_chain": 21,
-      "competitor": 15,
-      "premium": 13,
-      "regulatory": 10,
-      "alcohol_free": 10,
-      "retail": 6,
-      "innovation": 4
+      "trend": 160,
+      "launch": 58,
+      "pricing": 22,
+      "supply_chain": 22,
+      "competitor": 14,
+      "premium": 12,
+      "alcohol_free": 12,
+      "innovation": 10,
+      "functional": 8,
+      "regulatory": 8
     }
   }
 }
