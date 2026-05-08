@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T06:29:17.661115+00:00",
+  "generated_at": "2026-05-08T14:50:13.261176+00:00",
   "generated_date": "Friday, 08 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Concha y Toro profits slide amid UK, US pressure - Just Drinks.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: New Products: Bloom Moves into Minicans; Summer LTOs from Slice, Electrolit - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 160,
-      "launch": 58,
-      "pricing": 22,
-      "supply_chain": 22,
-      "competitor": 14,
-      "premium": 12,
-      "alcohol_free": 12,
+      "trend": 156,
+      "launch": 64,
+      "pricing": 24,
+      "supply_chain": 16,
+      "regulatory": 13,
+      "premium": 13,
+      "competitor": 11,
       "innovation": 10,
       "functional": 8,
-      "regulatory": 8
+      "sugar_free": 7
     }
   }
 }
