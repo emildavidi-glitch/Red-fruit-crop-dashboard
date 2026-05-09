@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T07:04:06.271810+00:00",
+  "generated_at": "2026-05-09T14:16:28.424301+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -168,15 +168,6 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in United States",
-          "explanation": "3 articles mention functional in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Sugar Free trending in United States",
           "explanation": "2 articles mention sugar free in the last 28 days",
           "support_count": 2,
@@ -186,11 +177,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
+          "signal": "Functional trending in United States",
+          "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "premium"
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "carbonated"
           ],
           "confidence": "medium"
         },
@@ -204,11 +204,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "signal": "Premium trending in United States",
+          "explanation": "1 articles mention premium in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
+            "premium"
           ],
           "confidence": "low"
         }
@@ -236,8 +236,7 @@
           "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/babybel-parent-buys-brainiac-snacks-to-expand-better-for-you-portfolio/819472/",
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJXzNydEk0Qk5sXzBYMUxORGNNR3J2YVRabzRYV0ZqUHZ3b2NoM05MR3hyRjNyNjFkdE4tR2hlaGN2blY4VmE0MThnaEhTanpWdFo2R09uVlo2QjB6eFQyRV9ZZlpBLXpCNEdjOUVXRnp4cjdXWi01dkROWHNRaXc?oc=5",
-            "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3hZa3pnWmpsb0IyTndHSnd5RERVNW5rZlNJVmxpc05OS3RPTXVaVWJJMXJ5SXBEWW5RdWdCeGs3cVdrb1ZVd25ZU0xVc05RYk1OMlR0X0RpYzFiODljV3pNVGdVd05rTExsdDJsclpOamNqaGFTM0FCU3Q4c3k5Tk0xTXdPUmkyaDZmSWlHSnBuYU8wQzJyWkxCY0NtNk9pWFVnSXNtT2ctSVczSTROUHFXZEpKX1JscTRz?oc=5"
+            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJXzNydEk0Qk5sXzBYMUxORGNNR3J2YVRabzRYV0ZqUHZ3b2NoM05MR3hyRjNyNjFkdE4tR2hlaGN2blY4VmE0MThnaEhTanpWdFo2R09uVlo2QjB6eFQyRV9ZZlpBLXpCNEdjOUVXRnp4cjdXWi01dkROWHNRaXc?oc=5"
           ]
         }
       ],
@@ -640,7 +639,7 @@
           "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
-          "date": "2026-05-01T13:14:37+00:00"
+          "date": "2026-05-01T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -815,14 +814,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/castelnau-uk-appoints-new-gm-as-keith-isaac-mw-retires/",
           "date": "2026-05-07T10:21:32+00:00"
-        },
-        {
-          "title": "Morgan Stanley leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWZsUlpSb2MzUW1uc2s1R1g1ekNObEMwdjl6dUU5OGVQd093VmxxRm8zYzhpYzFhQ1ZyTE9WVE1ZQmhhS2F1UWNreUthRzVEYWlobTlKOU9UOTRneWhUUWZ0akNPYm5VemRqQ1FheGNReGRSSnVILUV3Rkc2T1ZpbEotXy1KbXA0djg0?oc=5",
-          "date": "2026-04-29T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -861,7 +852,7 @@
           "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
-          "date": "2026-05-01T13:14:37+00:00"
+          "date": "2026-05-01T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -1036,14 +1027,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/castelnau-uk-appoints-new-gm-as-keith-isaac-mw-retires/",
           "date": "2026-05-07T10:21:32+00:00"
-        },
-        {
-          "title": "Morgan Stanley leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWZsUlpSb2MzUW1uc2s1R1g1ekNObEMwdjl6dUU5OGVQd093VmxxRm8zYzhpYzFhQ1ZyTE9WVE1ZQmhhS2F1UWNreUthRzVEYWlobTlKOU9UOTRneWhUUWZ0akNPYm5VemRqQ1FheGNReGRSSnVILUV3Rkc2T1ZpbEotXy1KbXA0djg0?oc=5",
-          "date": "2026-04-29T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1082,7 +1065,7 @@
           "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
-          "date": "2026-05-01T13:14:37+00:00"
+          "date": "2026-05-01T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -1289,13 +1272,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/",
           "date": "2026-05-07T10:40:06+00:00"
-        },
-        {
-          "title": "Rémy Martin x $OHO BANI: Eine Kooperation zwischen Musik, Handwerk und Zeitgeist - about-drinks.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbUxLV1ZGWDZpd19XWlpVZWR1ZFlpVEtUeXpxV1RjYTByS1EwYTI0aGNtLUpBQ2tSVi1tbzRCeDFwaThhQThXWGVyNzRWZXQ2Wmw3VGFBd3VGVGctYXczQmloMzRKTXFrMUdqR2pXN1dqTWI0dHlCRnViT1hPRXU0VmpLbjBGQ2oxMEQtNlZjTS01eUU2T1FFZGE5LXNjSWlXT0FMbGhRQXl6NlU?oc=5",
-          "date": "2026-05-06T12:40:50+00:00"
         }
       ],
       "pricing_promotions": [
