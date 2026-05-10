@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T07:23:24.392105+00:00",
+  "generated_at": "2026-05-10T14:19:22.033348+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -37,10 +37,10 @@
           "confidence": "high"
         },
         {
-          "headline": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "detail": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 Just Drinks",
+          "headline": "Perfect Hydration Lemon Flavored Alkaline Water - 12 oz. Can | Perfect Hydration - BevNET.com",
+          "detail": "Perfect Hydration Lemon Flavored Alkaline Water - 12 oz. Can | Perfect Hydration BevNET.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWWJxdm9MYkx4MTdsemQwemJuSU1yUGJrblI1b3lkaC0xQklMUHpHTWYxNUFNb1dUU054UjVjUWx3RUdSS3M2TXpPWlZTXzQ2YUFNWlprWjF0TkQxeWFxQTRGczJDZzJjcnJzRzgxazZhbmdXQi1lMHFaTldoeUUxRWFZekdmWkFYQ01hMllNVVUzX3hTZVV1MVhnM1o5OC1KbDJHRTZIbEZYOVk?oc=5"
           ],
           "confidence": "medium"
         }
@@ -114,13 +114,6 @@
           "date": "2026-05-08T19:06:33+00:00"
         },
         {
-          "title": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-          "date": "2026-05-08T11:21:37+00:00"
-        },
-        {
           "title": "Pakistan’s oldest brewery resumes alcohol exports",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -185,29 +178,29 @@
           "confidence": "medium"
         },
         {
+          "signal": "Hydration trending in United States",
+          "explanation": "2 articles mention hydration in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "hydration"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Energy trending in United States",
           "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Hydration trending in United States",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in United States",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
           ],
           "confidence": "low"
         }
@@ -227,7 +220,6 @@
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnpTY2s5enZKbzlJNXFMcTV3SHoyNVlwQWNZTWQ1c3NGTk5jRXZIcndyUFoxZzFhcmNfNGNkV1ZqbHpxTHJxM3BfOGYyX3FsNHlxNlpBMkpvQWNHN1BnT1VEMnVjMkhSSUItcGwtazhIUklkdVUzRF9DbWY0bW9kcUlIUklLdw?oc=5",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
           ]
         },
@@ -257,7 +249,6 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnpTY2s5enZKbzlJNXFMcTV3SHoyNVlwQWNZTWQ1c3NGTk5jRXZIcndyUFoxZzFhcmNfNGNkV1ZqbHpxTHJxM3BfOGYyX3FsNHlxNlpBMkpvQWNHN1BnT1VEMnVjMkhSSUItcGwtazhIUklkdVUzRF9DbWY0bW9kcUlIUklLdw?oc=5",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
           ]
         }
@@ -282,14 +273,6 @@
           "confidence": "high"
         },
         {
-          "headline": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "detail": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Vorstand des Kölner Brauerei-Verbandes bestätigt - about-drinks.com",
           "detail": "Vorstand des Kölner Brauerei-Verbandes bestätigt about-drinks.com",
           "evidence_urls": [
@@ -304,6 +287,14 @@
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
           ],
           "confidence": "medium"
+        },
+        {
+          "headline": "Molkerei: Müller-Konzern kauft Pflanzendrink-Hersteller Berief - Lebensmittel Zeitung",
+          "detail": "Molkerei: Müller-Konzern kauft Pflanzendrink-Hersteller Berief Lebensmittel Zeitung",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcVlyU3BDQTVOZXRhQmFnTTNtWmp6OHZGMHFiQk9LdXFORDdYcDBXR1hacVA2a3B5N0hzTzNzVXc4Wmg3eDIwUDMtSkhrWV9tRzlTc3lNYUl2V2pRREtOaUJsdjFDTFo4ZXM3RldPQWtuYVo5SHN4STB2Z0ZxR2VyZ3VmcEwycEtTY2NzSkwtYUdSakt6VHpqYVF6QXA3SUZDSDRYZWp4eGljMFdjX3B1R1hTRkZ3XzFJbXZSVHZSNVBjem44RlE?oc=5"
+          ],
+          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -374,13 +365,6 @@
           "date": "2026-04-30T07:00:00+00:00"
         },
         {
-          "title": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-          "date": "2026-05-08T11:21:37+00:00"
-        },
-        {
           "title": "Vorstand des Kölner Brauerei-Verbandes bestätigt - about-drinks.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -422,15 +406,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Juice trending in Germany",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Sugar Free trending in Germany",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
@@ -456,6 +431,15 @@
             "carbonated"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -474,7 +458,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/weekinpictures-german-precision-and-landmark-wines-from-lebanon/",
             "https://news.google.com/rss/articles/CBMid0FVX3lxTE40NWx2Z211M0pmc1J2a2VMcEc0U09nQ0J3ZXhkNWdhT1RIZ1FsN09mVDNqZTFWSHliSHVWY0wwSFBXRVVEQTFnOW9HQTg0NHhvSmtvMUZ4SGdacXpSTldGR0tXUDFQWDdQRHJ4OUN0RE9URjBBRHRZ?oc=5",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRU5wbEdrV3k0QkVYQ2UwRXdkN0x4bHNEcDlWbVAybDFBX0w5bHJWekZiV3pJTnVITU1JSWVuTWVmUzlwMWkzb1dYS1NVeEFNeW1LTTlNSUxjWWtJenlKSDhTeVBKM1EzYXJZVHdRbTdxMC1DY2hsRnQ0V2hVRTlkaWV3UVBMc3c?oc=5"
           ]
         }
       ],
@@ -496,7 +480,7 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/weekinpictures-german-precision-and-landmark-wines-from-lebanon/",
             "https://news.google.com/rss/articles/CBMid0FVX3lxTE40NWx2Z211M0pmc1J2a2VMcEc0U09nQ0J3ZXhkNWdhT1RIZ1FsN09mVDNqZTFWSHliSHVWY0wwSFBXRVVEQTFnOW9HQTg0NHhvSmtvMUZ4SGdacXpSTldGR0tXUDFQWDdQRHJ4OUN0RE9URjBBRHRZ?oc=5",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRU5wbEdrV3k0QkVYQ2UwRXdkN0x4bHNEcDlWbVAybDFBX0w5bHJWekZiV3pJTnVITU1JSWVuTWVmUzlwMWkzb1dYS1NVeEFNeW1LTTlNSUxjWWtJenlKSDhTeVBKM1EzYXJZVHdRbTdxMC1DY2hsRnQ0V2hVRTlkaWV3UVBMc3c?oc=5"
           ]
         }
       ]
@@ -504,12 +488,436 @@
     "france": {
       "executive_summary": [
         {
-          "headline": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "detail": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 Just Drinks",
+          "headline": "Suja Life shares fall on market debut - Just Drinks",
+          "detail": "Suja Life shares fall on market debut Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
           ],
           "confidence": "medium"
+        },
+        {
+          "headline": "Pakistan’s oldest brewery resumes alcohol exports",
+          "detail": "Pakistan’s oldest brewery, Murree Brewery, has begun alcohol exports to countries including the UK and Japan  – despite the fact that it’s been banned for the country’s Muslim-majority population for ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Willem Dafoe joins Laphroaig for limited-edition whisky",
+          "detail": "Actor Willem Dafoe has teamed up with Laphroaig to launch a 14-year-old single malt selected in collaboration with the distillery’s senior whisky maker Sarah Dowling. The post Willem Dafoe joins Laphr",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Rare Japanese whiskies to go under the hammer in Hong Kong",
+          "detail": "Two ultra-aged Japanese whiskies, including the oldest Karuizawa ever released, are set to be auctioned in Hong Kong later this month. The post Rare Japanese whiskies to go under the hammer in Hong Ko",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Bordeaux 2025 en primeur: Saint-Estèphe wines ‘thrill’ in this vintage",
+          "detail": "db Bordeaux correspondent Colin Hay’s tour of the Médoc en primeur releases continues with Saint-Estèphe, an appellation that, like Pauillac, sparkles in 2025. The post Bordeaux 2025 en primeur: Saint",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-saint-estephe-wines-thrill-in-this-vintage/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Suja Life shares fall on market debut - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
+          "date": "2026-05-08T17:17:02+00:00"
+        },
+        {
+          "title": "Willem Dafoe joins Laphroaig for limited-edition whisky",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
+          "date": "2026-05-08T10:53:49+00:00"
+        },
+        {
+          "title": "Rare Japanese whiskies to go under the hammer in Hong Kong",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/",
+          "date": "2026-05-08T10:25:26+00:00"
+        },
+        {
+          "title": "Bordeaux 2025 en primeur: Saint-Estèphe wines ‘thrill’ in this vintage",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-saint-estephe-wines-thrill-in-this-vintage/",
+          "date": "2026-05-08T09:00:31+00:00"
+        },
+        {
+          "title": "Jubel rolls out Lime lager with Young’s",
+          "company": "Tesco",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jubel-rolls-out-lime-lager-with-youngs/",
+          "date": "2026-05-08T08:43:00+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Castelnau UK appoints new GM as Keith Isaac MW retires",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/castelnau-uk-appoints-new-gm-as-keith-isaac-mw-retires/",
+          "date": "2026-05-07T10:21:32+00:00"
+        },
+        {
+          "title": "Morgan Stanley leads consumer M&A deal ranks in Q1 - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWZsUlpSb2MzUW1uc2s1R1g1ekNObEMwdjl6dUU5OGVQd093VmxxRm8zYzhpYzFhQ1ZyTE9WVE1ZQmhhS2F1UWNreUthRzVEYWlobTlKOU9UOTRneWhUUWZ0akNPYm5VemRqQ1FheGNReGRSSnVILUV3Rkc2T1ZpbEotXy1KbXA0djg0?oc=5",
+          "date": "2026-04-29T07:00:00+00:00"
+        }
+      ],
+      "regulatory_watch": [
+        {
+          "title": "Pakistan’s oldest brewery resumes alcohol exports",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/",
+          "date": "2026-05-07T10:40:06+00:00"
+        }
+      ],
+      "pricing_promotions": [
+        {
+          "title": "Frontera Chardonnay secures Gold in blind-tasting competition",
+          "what_changed": "Offering a taste of Chilean winemaking at an attractive price point, Frontera Chardonnay has become a global ambassador. The post Frontera Chardonnay ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/frontera-chardonnay-secures-gold-in-blind-tasting-competition/",
+          "date": "2026-05-06T12:37:52+00:00"
+        },
+        {
+          "title": "Champagne on the secondary market has moved from ‘correction to consolidation’",
+          "what_changed": "Champagne prices on the secondary market are stabilising after a rollercoaster few years, underpinned by a shift in buyer sentiment, Richard Woodard r",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/a-matter-of-time/",
+          "date": "2026-05-06T11:00:37+00:00"
+        },
+        {
+          "title": "Boston Beer narrows profit guidance on litigation costs - Just Drinks",
+          "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
+          "date": "2026-05-01T07:00:00+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in France",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in France",
+          "explanation": "1 articles mention sugar free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Functional trending in France",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in France",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in France — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
+          ]
+        },
+        {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
+          ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+          ]
+        }
+      ]
+    },
+    "spain": {
+      "executive_summary": [
+        {
+          "headline": "Suja Life shares fall on market debut - Just Drinks",
+          "detail": "Suja Life shares fall on market debut Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Pakistan’s oldest brewery resumes alcohol exports",
+          "detail": "Pakistan’s oldest brewery, Murree Brewery, has begun alcohol exports to countries including the UK and Japan  – despite the fact that it’s been banned for the country’s Muslim-majority population for ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Willem Dafoe joins Laphroaig for limited-edition whisky",
+          "detail": "Actor Willem Dafoe has teamed up with Laphroaig to launch a 14-year-old single malt selected in collaboration with the distillery’s senior whisky maker Sarah Dowling. The post Willem Dafoe joins Laphr",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Rare Japanese whiskies to go under the hammer in Hong Kong",
+          "detail": "Two ultra-aged Japanese whiskies, including the oldest Karuizawa ever released, are set to be auctioned in Hong Kong later this month. The post Rare Japanese whiskies to go under the hammer in Hong Ko",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Bordeaux 2025 en primeur: Saint-Estèphe wines ‘thrill’ in this vintage",
+          "detail": "db Bordeaux correspondent Colin Hay’s tour of the Médoc en primeur releases continues with Saint-Estèphe, an appellation that, like Pauillac, sparkles in 2025. The post Bordeaux 2025 en primeur: Saint",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-saint-estephe-wines-thrill-in-this-vintage/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "key_launches": [
+        {
+          "title": "Suja Life shares fall on market debut - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
+          "date": "2026-05-08T17:17:02+00:00"
+        },
+        {
+          "title": "Willem Dafoe joins Laphroaig for limited-edition whisky",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
+          "date": "2026-05-08T10:53:49+00:00"
+        },
+        {
+          "title": "Rare Japanese whiskies to go under the hammer in Hong Kong",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/",
+          "date": "2026-05-08T10:25:26+00:00"
+        },
+        {
+          "title": "Bordeaux 2025 en primeur: Saint-Estèphe wines ‘thrill’ in this vintage",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-saint-estephe-wines-thrill-in-this-vintage/",
+          "date": "2026-05-08T09:00:31+00:00"
+        },
+        {
+          "title": "Jubel rolls out Lime lager with Young’s",
+          "company": "Tesco",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jubel-rolls-out-lime-lager-with-youngs/",
+          "date": "2026-05-08T08:43:00+00:00"
+        }
+      ],
+      "competitor_moves": [
+        {
+          "title": "Castelnau UK appoints new GM as Keith Isaac MW retires",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/castelnau-uk-appoints-new-gm-as-keith-isaac-mw-retires/",
+          "date": "2026-05-07T10:21:32+00:00"
+        },
+        {
+          "title": "Morgan Stanley leads consumer M&A deal ranks in Q1 - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWZsUlpSb2MzUW1uc2s1R1g1ekNObEMwdjl6dUU5OGVQd093VmxxRm8zYzhpYzFhQ1ZyTE9WVE1ZQmhhS2F1UWNreUthRzVEYWlobTlKOU9UOTRneWhUUWZ0akNPYm5VemRqQ1FheGNReGRSSnVILUV3Rkc2T1ZpbEotXy1KbXA0djg0?oc=5",
+          "date": "2026-04-29T07:00:00+00:00"
+        }
+      ],
+      "regulatory_watch": [
+        {
+          "title": "Pakistan’s oldest brewery resumes alcohol exports",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/",
+          "date": "2026-05-07T10:40:06+00:00"
+        }
+      ],
+      "pricing_promotions": [
+        {
+          "title": "Frontera Chardonnay secures Gold in blind-tasting competition",
+          "what_changed": "Offering a taste of Chilean winemaking at an attractive price point, Frontera Chardonnay has become a global ambassador. The post Frontera Chardonnay ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/frontera-chardonnay-secures-gold-in-blind-tasting-competition/",
+          "date": "2026-05-06T12:37:52+00:00"
+        },
+        {
+          "title": "Champagne on the secondary market has moved from ‘correction to consolidation’",
+          "what_changed": "Champagne prices on the secondary market are stabilising after a rollercoaster few years, underpinned by a shift in buyer sentiment, Richard Woodard r",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/a-matter-of-time/",
+          "date": "2026-05-06T11:00:37+00:00"
+        },
+        {
+          "title": "Boston Beer narrows profit guidance on litigation costs - Just Drinks",
+          "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
+          "date": "2026-05-01T07:00:00+00:00"
+        }
+      ],
+      "signals": [
+        {
+          "signal": "Premium trending in Spain",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Sugar Free trending in Spain",
+          "explanation": "1 articles mention sugar free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Functional trending in Spain",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "talking_points": [
+        {
+          "customer_type": "retail",
+          "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
+          ]
+        },
+        {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+          ]
+        }
+      ],
+      "recommended_actions": [
+        {
+          "owner": "sales",
+          "action": "Review 5 new launches for competitive overlap",
+          "why_now": "New products entering market require positioning response",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
+          ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+          ]
+        }
+      ]
+    },
+    "italy": {
+      "executive_summary": [
+        {
+          "headline": "Campari maintains growth outlook despite weaker-than-expected sales",
+          "detail": "Campari has reported modest organic sales growth in the first quarter and reaffirmed its full-year guidance despite challenging market conditions. The Italian drinks group said strong performances fro",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/campari-maintains-growth-outlook-despite-weaker-than-expected-sales/"
+          ],
+          "confidence": "high"
         },
         {
           "headline": "Suja Life shares fall on market debut - Just Drinks",
@@ -606,439 +1014,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-          "date": "2026-05-08T11:21:37+00:00"
-        },
-        {
-          "title": "Pakistan’s oldest brewery resumes alcohol exports",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/",
-          "date": "2026-05-07T10:40:06+00:00"
-        }
-      ],
-      "pricing_promotions": [
-        {
-          "title": "Frontera Chardonnay secures Gold in blind-tasting competition",
-          "what_changed": "Offering a taste of Chilean winemaking at an attractive price point, Frontera Chardonnay has become a global ambassador. The post Frontera Chardonnay ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/frontera-chardonnay-secures-gold-in-blind-tasting-competition/",
-          "date": "2026-05-06T12:37:52+00:00"
-        },
-        {
-          "title": "Champagne on the secondary market has moved from ‘correction to consolidation’",
-          "what_changed": "Champagne prices on the secondary market are stabilising after a rollercoaster few years, underpinned by a shift in buyer sentiment, Richard Woodard r",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/a-matter-of-time/",
-          "date": "2026-05-06T11:00:37+00:00"
-        },
-        {
-          "title": "Boston Beer narrows profit guidance on litigation costs - Just Drinks",
-          "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
-          "date": "2026-05-01T07:00:00+00:00"
-        }
-      ],
-      "signals": [
-        {
-          "signal": "Premium trending in France",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Sugar Free trending in France",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in France",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in France",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "low"
-        }
-      ],
-      "talking_points": [
-        {
-          "customer_type": "retail",
-          "pitch": "5 new product launches in France — ask about shelf space for new formats",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
-          ]
-        },
-        {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
-          ]
-        }
-      ],
-      "recommended_actions": [
-        {
-          "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
-          "why_now": "New products entering market require positioning response",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
-          ]
-        }
-      ]
-    },
-    "spain": {
-      "executive_summary": [
-        {
-          "headline": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "detail": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Suja Life shares fall on market debut - Just Drinks",
-          "detail": "Suja Life shares fall on market debut Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Pakistan’s oldest brewery resumes alcohol exports",
-          "detail": "Pakistan’s oldest brewery, Murree Brewery, has begun alcohol exports to countries including the UK and Japan  – despite the fact that it’s been banned for the country’s Muslim-majority population for ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Willem Dafoe joins Laphroaig for limited-edition whisky",
-          "detail": "Actor Willem Dafoe has teamed up with Laphroaig to launch a 14-year-old single malt selected in collaboration with the distillery’s senior whisky maker Sarah Dowling. The post Willem Dafoe joins Laphr",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Rare Japanese whiskies to go under the hammer in Hong Kong",
-          "detail": "Two ultra-aged Japanese whiskies, including the oldest Karuizawa ever released, are set to be auctioned in Hong Kong later this month. The post Rare Japanese whiskies to go under the hammer in Hong Ko",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
-          ],
-          "confidence": "medium"
-        }
-      ],
-      "key_launches": [
-        {
-          "title": "Suja Life shares fall on market debut - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
-          "date": "2026-05-08T17:17:02+00:00"
-        },
-        {
-          "title": "Willem Dafoe joins Laphroaig for limited-edition whisky",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-          "date": "2026-05-08T10:53:49+00:00"
-        },
-        {
-          "title": "Rare Japanese whiskies to go under the hammer in Hong Kong",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/",
-          "date": "2026-05-08T10:25:26+00:00"
-        },
-        {
-          "title": "Bordeaux 2025 en primeur: Saint-Estèphe wines ‘thrill’ in this vintage",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-saint-estephe-wines-thrill-in-this-vintage/",
-          "date": "2026-05-08T09:00:31+00:00"
-        },
-        {
-          "title": "Jubel rolls out Lime lager with Young’s",
-          "company": "Tesco",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jubel-rolls-out-lime-lager-with-youngs/",
-          "date": "2026-05-08T08:43:00+00:00"
-        }
-      ],
-      "competitor_moves": [
-        {
-          "title": "Castelnau UK appoints new GM as Keith Isaac MW retires",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/castelnau-uk-appoints-new-gm-as-keith-isaac-mw-retires/",
-          "date": "2026-05-07T10:21:32+00:00"
-        }
-      ],
-      "regulatory_watch": [
-        {
-          "title": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-          "date": "2026-05-08T11:21:37+00:00"
-        },
-        {
-          "title": "Pakistan’s oldest brewery resumes alcohol exports",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/",
-          "date": "2026-05-07T10:40:06+00:00"
-        }
-      ],
-      "pricing_promotions": [
-        {
-          "title": "Frontera Chardonnay secures Gold in blind-tasting competition",
-          "what_changed": "Offering a taste of Chilean winemaking at an attractive price point, Frontera Chardonnay has become a global ambassador. The post Frontera Chardonnay ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/frontera-chardonnay-secures-gold-in-blind-tasting-competition/",
-          "date": "2026-05-06T12:37:52+00:00"
-        },
-        {
-          "title": "Champagne on the secondary market has moved from ‘correction to consolidation’",
-          "what_changed": "Champagne prices on the secondary market are stabilising after a rollercoaster few years, underpinned by a shift in buyer sentiment, Richard Woodard r",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/a-matter-of-time/",
-          "date": "2026-05-06T11:00:37+00:00"
-        },
-        {
-          "title": "Boston Beer narrows profit guidance on litigation costs - Just Drinks",
-          "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
-          "date": "2026-05-01T07:00:00+00:00"
-        }
-      ],
-      "signals": [
-        {
-          "signal": "Premium trending in Spain",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Sugar Free trending in Spain",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Spain",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Spain",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "low"
-        }
-      ],
-      "talking_points": [
-        {
-          "customer_type": "retail",
-          "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
-          ]
-        },
-        {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
-          ]
-        }
-      ],
-      "recommended_actions": [
-        {
-          "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
-          "why_now": "New products entering market require positioning response",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
-          ]
-        }
-      ]
-    },
-    "italy": {
-      "executive_summary": [
-        {
-          "headline": "Campari maintains growth outlook despite weaker-than-expected sales",
-          "detail": "Campari has reported modest organic sales growth in the first quarter and reaffirmed its full-year guidance despite challenging market conditions. The Italian drinks group said strong performances fro",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/campari-maintains-growth-outlook-despite-weaker-than-expected-sales/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "detail": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Suja Life shares fall on market debut - Just Drinks",
-          "detail": "Suja Life shares fall on market debut Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Pakistan’s oldest brewery resumes alcohol exports",
-          "detail": "Pakistan’s oldest brewery, Murree Brewery, has begun alcohol exports to countries including the UK and Japan  – despite the fact that it’s been banned for the country’s Muslim-majority population for ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Willem Dafoe joins Laphroaig for limited-edition whisky",
-          "detail": "Actor Willem Dafoe has teamed up with Laphroaig to launch a 14-year-old single malt selected in collaboration with the distillery’s senior whisky maker Sarah Dowling. The post Willem Dafoe joins Laphr",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/"
-          ],
-          "confidence": "medium"
-        }
-      ],
-      "key_launches": [
-        {
-          "title": "Suja Life shares fall on market debut - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5",
-          "date": "2026-05-08T17:17:02+00:00"
-        },
-        {
-          "title": "Willem Dafoe joins Laphroaig for limited-edition whisky",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-          "date": "2026-05-08T10:53:49+00:00"
-        },
-        {
-          "title": "Rare Japanese whiskies to go under the hammer in Hong Kong",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/",
-          "date": "2026-05-08T10:25:26+00:00"
-        },
-        {
-          "title": "Bordeaux 2025 en primeur: Saint-Estèphe wines ‘thrill’ in this vintage",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-saint-estephe-wines-thrill-in-this-vintage/",
-          "date": "2026-05-08T09:00:31+00:00"
-        },
-        {
-          "title": "Jubel rolls out Lime lager with Young’s",
-          "company": "Tesco",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jubel-rolls-out-lime-lager-with-youngs/",
-          "date": "2026-05-08T08:43:00+00:00"
-        }
-      ],
-      "competitor_moves": [
-        {
-          "title": "Castelnau UK appoints new GM as Keith Isaac MW retires",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/castelnau-uk-appoints-new-gm-as-keith-isaac-mw-retires/",
-          "date": "2026-05-07T10:21:32+00:00"
-        }
-      ],
-      "regulatory_watch": [
-        {
-          "title": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-          "date": "2026-05-08T11:21:37+00:00"
-        },
-        {
           "title": "Pakistan’s oldest brewery resumes alcohol exports",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1130,7 +1105,6 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
           ]
         }
@@ -1151,7 +1125,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
           ]
         }
@@ -1159,14 +1132,6 @@
     },
     "austria": {
       "executive_summary": [
-        {
-          "headline": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "detail": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
         {
           "headline": "Vorstand des Kölner Brauerei-Verbandes bestätigt - about-drinks.com",
           "detail": "Vorstand des Kölner Brauerei-Verbandes bestätigt about-drinks.com",
@@ -1196,6 +1161,14 @@
           "detail": "Actor Willem Dafoe has teamed up with Laphroaig to launch a 14-year-old single malt selected in collaboration with the distillery’s senior whisky maker Sarah Dowling. The post Willem Dafoe joins Laphr",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Rare Japanese whiskies to go under the hammer in Hong Kong",
+          "detail": "Two ultra-aged Japanese whiskies, including the oldest Karuizawa ever released, are set to be auctioned in Hong Kong later this month. The post Rare Japanese whiskies to go under the hammer in Hong Ko",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/rare-japanese-whiskies-to-go-under-the-hammer-in-hong-kong/"
           ],
           "confidence": "medium"
         }
@@ -1254,13 +1227,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Law firm Baker McKenzie leads consumer M&A deal ranks in Q1 - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
-          "date": "2026-05-08T11:21:37+00:00"
-        },
-        {
           "title": "Vorstand des Kölner Brauerei-Verbandes bestätigt - about-drinks.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1302,15 +1268,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Juice trending in Austria",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Sugar Free trending in Austria",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
@@ -1336,6 +1293,15 @@
             "carbonated"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1352,7 +1318,6 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
             "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRU5wbEdrV3k0QkVYQ2UwRXdkN0x4bHNEcDlWbVAybDFBX0w5bHJWekZiV3pJTnVITU1JSWVuTWVmUzlwMWkzb1dYS1NVeEFNeW1LTTlNSUxjWWtJenlKSDhTeVBKM1EzYXJZVHdRbTdxMC1DY2hsRnQ0V2hVRTlkaWV3UVBMc3c?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
           ]
@@ -1374,7 +1339,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJzX1NvdzA5MzFxcC02NUM0YXlMUGhuak1HeUZ0Q1o0NUIzSzNINEIwMHM2WW0tbFkyLU5CcDVWdnpzM2MtTC0xcGxzSnYybGNfM1lmcWdhNnZaV1Baa2lOZURPcnlNb0liZlZmaDFZbkNsdW9Ucmo4MFRZZlNaZk9KYTBISUt3NU9JVFJNZFRnWk03S0FSQThXV213TmNpUF9hQ3FFWQ?oc=5",
             "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRU5wbEdrV3k0QkVYQ2UwRXdkN0x4bHNEcDlWbVAybDFBX0w5bHJWekZiV3pJTnVITU1JSWVuTWVmUzlwMWkzb1dYS1NVeEFNeW1LTTlNSUxjWWtJenlKSDhTeVBKM1EzYXJZVHdRbTdxMC1DY2hsRnQ0V2hVRTlkaWV3UVBMc3c?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
           ]
