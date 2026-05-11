@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-10T14:19:22.033348+00:00",
-  "generated_date": "Sunday, 10 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Perfect Hydration Lemon Flavored Alkaline Water - 12 oz. Can | Perfect Hydration - BevNET.com.",
+  "generated_at": "2026-05-11T08:21:40.592484+00:00",
+  "generated_date": "Monday, 11 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: New Zealand winery Nevis Bluff enters Asia.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Functional trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Sugar Free trending. (50 items)",
+    "spain": "Sugar Free trending. (50 items)",
+    "italy": "Sugar Free trending. (50 items)",
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 160,
-      "launch": 69,
-      "pricing": 20,
-      "innovation": 15,
-      "premium": 12,
-      "regulatory": 11,
+      "trend": 173,
+      "launch": 62,
+      "innovation": 14,
+      "pricing": 13,
+      "sugar_free": 12,
+      "supply_chain": 12,
       "competitor": 10,
-      "supply_chain": 8,
+      "regulatory": 10,
       "functional": 7,
-      "alcohol_free": 6
+      "retail": 6
     }
   }
 }
