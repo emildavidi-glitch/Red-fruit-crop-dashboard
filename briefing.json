@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T08:21:40.592484+00:00",
+  "generated_at": "2026-05-11T15:54:07.169733+00:00",
   "generated_date": "Monday, 11 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: New Zealand winery Nevis Bluff enters Asia.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Ste. Michelle Wine Estates names second CEO in four months - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Sugar Free trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 173,
-      "launch": 62,
-      "innovation": 14,
-      "pricing": 13,
-      "sugar_free": 12,
-      "supply_chain": 12,
-      "competitor": 10,
-      "regulatory": 10,
-      "functional": 7,
-      "retail": 6
+      "trend": 161,
+      "launch": 74,
+      "regulatory": 23,
+      "sugar_free": 18,
+      "competitor": 14,
+      "innovation": 12,
+      "pricing": 8,
+      "carbonated": 8,
+      "alcohol_free": 7,
+      "energy": 7
     }
   }
 }
