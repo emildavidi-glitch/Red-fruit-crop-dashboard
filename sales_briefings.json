@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T15:54:07.169733+00:00",
+  "generated_at": "2026-05-12T07:39:44.936004+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -29,23 +29,31 @@
           "confidence": "high"
         },
         {
+          "headline": "Pop & Bottle Grows Beyond Lattes with Matcha Hydration Launch - BevNET.com",
+          "detail": "Pop & Bottle Grows Beyond Lattes with Matcha Hydration Launch BevNET.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjk5c2JrYW1BcUU1WTBTUGQyeHZ5Q0taZlZKejZobWlobzl3VzdKbVJXUzBndDVidHNQOXJGWThYNHpYMDNseWxlWWVKdTQ0c2tDRGlZUUs2MjVQRUpFS1JycUhKUmFwd05QSkx0Q2kyUXQtclV6MUswVk9jYkNYMDRINk10ZVFuSVF6UHNpanpFSE1BbV9n?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Wild Idol welcomes spring with sophisticated serves",
           "detail": "Spring is a time for new growth and new listings, as Wild Idol’s naturally alcohol-free sparkling launches in high-profile venues. db looks at three of the partnerships leading the way. The post Wild ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/wild-idol-welcomes-spring-with-sophisticated-serves/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Historic estate tipped to become Scotland’s ‘first true single-estate’ whisky distillery",
-          "detail": "Aberdeenshire-based liquor producer Inverurie Distillery will open Fetternear Estate to the public this Saturday, coinciding with World Whisky Day, as it unveils plans to transform the historic estate",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Pop & Bottle Grows Beyond Lattes with Matcha Hydration Launch - BevNET.com",
+          "company": "Unknown",
+          "product": "hydration",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjk5c2JrYW1BcUU1WTBTUGQyeHZ5Q0taZlZKejZobWlobzl3VzdKbVJXUzBndDVidHNQOXJGWThYNHpYMDNseWxlWWVKdTQ0c2tDRGlZUUs2MjVQRUpFS1JycUhKUmFwd05QSkx0Q2kyUXQtclV6MUswVk9jYkNYMDRINk10ZVFuSVF6UHNpanpFSE1BbV9n?oc=5",
+          "date": "2026-05-11T21:33:24+00:00"
+        },
         {
           "title": "Wild Idol welcomes spring with sophisticated serves",
           "company": "Unknown",
@@ -77,14 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEYtelpqYTlCS2lCd1RCdl9IZV93SVQ3dl9HeTZLYXJkU0ZuQXkwTU16R1JsOXM0S1BfQ3h1RXVZUGZCSDUxamlaUDJLVXlRMzljeUI4c2pMcUZ1VnVUSS1UcDN6Y0JLTUNrVlRoV1RnZzhOY1BsRG91SmgtT2s1RGdOSWVnOTYtdW96YTZobVVZelF1d0p2aTNSczlDbE5FOE9PWmNUUkxmQQ?oc=5",
           "date": "2026-05-08T14:36:58+00:00"
-        },
-        {
-          "title": "Willem Dafoe joins Laphroaig for limited-edition whisky",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/willem-dafoe-joins-laphroaig-for-limited-edition-whisky/",
-          "date": "2026-05-08T10:53:49+00:00"
         }
       ],
       "competitor_moves": [
@@ -103,14 +103,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/high-profile-virginia-winery-to-be-acquired-by-start-up/",
           "date": "2026-05-11T10:26:26+00:00"
-        },
-        {
-          "title": "Babybel parent buys Brainiac snacks to expand better-for-you portfolio",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.fooddive.com/news/babybel-parent-buys-brainiac-snacks-to-expand-better-for-you-portfolio/819472/",
-          "date": "2026-05-06T17:00:00-04:00"
         },
         {
           "title": "Castelnau UK appoints new GM as Keith Isaac MW retires",
@@ -183,20 +175,11 @@
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "signal": "Premium trending in United States",
+          "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "alcohol_free"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -210,20 +193,29 @@
           "confidence": "medium"
         },
         {
+          "signal": "Sugar Free trending in United States",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Hydration trending in United States",
+          "explanation": "1 articles mention hydration in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Carbonated trending in United States",
           "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Juice trending in United States",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
           ],
           "confidence": "low"
         }
@@ -233,9 +225,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjk5c2JrYW1BcUU1WTBTUGQyeHZ5Q0taZlZKejZobWlobzl3VzdKbVJXUzBndDVidHNQOXJGWThYNHpYMDNseWxlWWVKdTQ0c2tDRGlZUUs2MjVQRUpFS1JycUhKUmFwd05QSkx0Q2kyUXQtclV6MUswVk9jYkNYMDRINk10ZVFuSVF6UHNpanpFSE1BbV9n?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/wild-idol-welcomes-spring-with-sophisticated-serves/",
-            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/",
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
           ]
         },
         {
@@ -254,9 +246,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjk5c2JrYW1BcUU1WTBTUGQyeHZ5Q0taZlZKejZobWlobzl3VzdKbVJXUzBndDVidHNQOXJGWThYNHpYMDNseWxlWWVKdTQ0c2tDRGlZUUs2MjVQRUpFS1JycUhKUmFwd05QSkx0Q2kyUXQtclV6MUswVk9jYkNYMDRINk10ZVFuSVF6UHNpanpFSE1BbV9n?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/wild-idol-welcomes-spring-with-sophisticated-serves/",
-            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/",
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE92dWJiX1BVOG5KeGtGQnJtRmMzcFdxdkxJY1ZRM3JRQ25fN1NGelFDZHRNN21CXzZrLWpNZnpSOXJXZG5tV0E4elFTR2dsWGM3X0lTNWtjSXNsdXR3bzAwb3dzN0NrVENtR1RTWndSWWxpVGpLa0pMOVh6RQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
           ]
         },
         {
@@ -273,6 +265,14 @@
     },
     "germany": {
       "executive_summary": [
+        {
+          "headline": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "detail": "Sugar tax spurs sweetener innovation in Malaysia NST Online",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "#WeekInPictures: German precision and landmark wines from Lebanon",
           "detail": "From Mainz to Millahue, the week centred on wine gatherings shaped by conversation, travel and the enduring appeal of tasting together in person. The post #WeekInPictures: German precision and landmar",
@@ -302,14 +302,6 @@
           "detail": "Ärzteverband fordert: Kein Verkauf hochprozentiger Getränke in Supermärkten about-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONmljMW4zZWVTNEtZYU80MDZuNEpyLTJpY01IZ0FqVmE0Nk1lQV9wRG14andOREhfeGY1cS04aktXcExGUmh4QjV6NWcza3l2UUlVWEpCWjhDR3U5ZDFEbElLQW1vbDhHVUtWV3lQSUlsTDhLeXRwSkw1T1IwR1N1aW5KaWg3ZTdvdTFDeUl2TXZCTl9kbHJUSGxXQlVUUHJLS0loSEV6TGItOWs?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Wild Idol welcomes spring with sophisticated serves",
-          "detail": "Spring is a time for new growth and new listings, as Wild Idol’s naturally alcohol-free sparkling launches in high-profile venues. db looks at three of the partnerships leading the way. The post Wild ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/wild-idol-welcomes-spring-with-sophisticated-serves/"
           ],
           "confidence": "medium"
         }
@@ -376,6 +368,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+          "date": "2026-05-12T00:00:29+00:00"
+        },
+        {
           "title": "#WeekInPictures: German precision and landmark wines from Lebanon",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -402,13 +401,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONmljMW4zZWVTNEtZYU80MDZuNEpyLTJpY01IZ0FqVmE0Nk1lQV9wRG14andOREhfeGY1cS04aktXcExGUmh4QjV6NWcza3l2UUlVWEpCWjhDR3U5ZDFEbElLQW1vbDhHVUtWV3lQSUlsTDhLeXRwSkw1T1IwR1N1aW5KaWg3ZTdvdTFDeUl2TXZCTl9kbHJUSGxXQlVUUHJLS0loSEV6TGItOWs?oc=5",
           "date": "2026-05-11T06:57:42+00:00"
-        },
-        {
-          "title": "Germany plans tax on sugary drinks - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40NWx2Z211M0pmc1J2a2VMcEc0U09nQ0J3ZXhkNWdhT1RIZ1FsN09mVDNqZTFWSHliSHVWY0wwSFBXRVVEQTFnOW9HQTg0NHhvSmtvMUZ4SGdacXpSTldGR0tXUDFQWDdQRHJ4OUN0RE9URjBBRHRZ?oc=5",
-          "date": "2026-04-30T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [],
@@ -424,12 +416,12 @@
         },
         {
           "signal": "Carbonated trending in Germany",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Alcohol Free trending in Germany",
@@ -473,9 +465,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/weekinpictures-german-precision-and-landmark-wines-from-lebanon/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/"
           ]
         }
       ],
@@ -495,9 +487,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/weekinpictures-german-precision-and-landmark-wines-from-lebanon/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/"
           ]
         }
       ]
@@ -511,6 +503,14 @@
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricard-faces-indian-anti-trust-investigation/"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "detail": "Sugar tax spurs sweetener innovation in Malaysia NST Online",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Bordeaux launches €20m fund to tackle vineyard crisis",
@@ -533,14 +533,6 @@
           "detail": "Spring is a time for new growth and new listings, as Wild Idol’s naturally alcohol-free sparkling launches in high-profile venues. db looks at three of the partnerships leading the way. The post Wild ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/wild-idol-welcomes-spring-with-sophisticated-serves/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Historic estate tipped to become Scotland’s ‘first true single-estate’ whisky distillery",
-          "detail": "Aberdeenshire-based liquor producer Inverurie Distillery will open Fetternear Estate to the public this Saturday, coinciding with World Whisky Day, as it unveils plans to transform the historic estate",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
           ],
           "confidence": "medium"
         }
@@ -614,6 +606,13 @@
           "date": "2026-05-11T09:56:58+00:00"
         },
         {
+          "title": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+          "date": "2026-05-12T00:00:29+00:00"
+        },
+        {
           "title": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -635,15 +634,7 @@
           "date": "2026-05-07T10:40:06+00:00"
         }
       ],
-      "pricing_promotions": [
-        {
-          "title": "Boston Beer narrows profit guidance on litigation costs - Just Drinks",
-          "what_changed": "Boston Beer narrows profit guidance on litigation costs Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUEtakExS1FIbVVVakh2aXhwYnd3Wm8wYjJkOWp3V0E5RE5GOUlqUzZ0QXpDZXRFVW5FbEF4VVNMUXNPWEJUSGZ2YVlGeGVmUXZvcEwzTDhBblJkbWs2VUZ3cFlQTnVMaGZwRzAwcEtFN3JYdXRaeWgyV2NMbTV1MHh4SUNJOU9ZazRRbUdxRGpsSWs?oc=5",
-          "date": "2026-05-01T07:00:00+00:00"
-        }
-      ],
+      "pricing_promotions": [],
       "signals": [
         {
           "signal": "Sugar Free trending in France",
@@ -706,8 +697,8 @@
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricard-faces-indian-anti-trust-investigation/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/"
           ]
         }
       ],
@@ -728,14 +719,22 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricard-faces-indian-anti-trust-investigation/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/"
           ]
         }
       ]
     },
     "spain": {
       "executive_summary": [
+        {
+          "headline": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "detail": "Sugar tax spurs sweetener innovation in Malaysia NST Online",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "detail": "Bordeaux authorities have unveiled a €20 million land fund aimed at addressing the financial pressures facing struggling growers across the region. The initiative will buy abandoned and uprooted viney",
@@ -765,14 +764,6 @@
           "detail": "Aberdeenshire-based liquor producer Inverurie Distillery will open Fetternear Estate to the public this Saturday, coinciding with World Whisky Day, as it unveils plans to transform the historic estate",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "High-profile Virginia winery to be acquired by start-up",
-          "detail": "A newly-formed ownership company will purchase Veritas Vineyards & Winery, known for its luxury wine tourism offering, as the producer's British founders retire. The post High-profile Virginia winery ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/high-profile-virginia-winery-to-be-acquired-by-start-up/"
           ],
           "confidence": "medium"
         }
@@ -838,6 +829,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+          "date": "2026-05-12T00:00:29+00:00"
+        },
         {
           "title": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "topic": "regulation",
@@ -930,9 +928,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
           ]
         }
       ],
@@ -952,15 +950,23 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
           ]
         }
       ]
     },
     "italy": {
       "executive_summary": [
+        {
+          "headline": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "detail": "Sugar tax spurs sweetener innovation in Malaysia NST Online",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "detail": "Bordeaux authorities have unveiled a €20 million land fund aimed at addressing the financial pressures facing struggling growers across the region. The initiative will buy abandoned and uprooted viney",
@@ -990,14 +996,6 @@
           "detail": "Aberdeenshire-based liquor producer Inverurie Distillery will open Fetternear Estate to the public this Saturday, coinciding with World Whisky Day, as it unveils plans to transform the historic estate",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "High-profile Virginia winery to be acquired by start-up",
-          "detail": "A newly-formed ownership company will purchase Veritas Vineyards & Winery, known for its luxury wine tourism offering, as the producer's British founders retire. The post High-profile Virginia winery ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/high-profile-virginia-winery-to-be-acquired-by-start-up/"
           ],
           "confidence": "medium"
         }
@@ -1063,6 +1061,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+          "date": "2026-05-12T00:00:29+00:00"
+        },
         {
           "title": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "topic": "regulation",
@@ -1155,9 +1160,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
           ]
         }
       ],
@@ -1177,15 +1182,23 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/",
-            "https://www.thedrinksbusiness.com/2026/05/pakistans-oldest-brewery-resumes-alcohol-exports/"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
           ]
         }
       ]
     },
     "austria": {
       "executive_summary": [
+        {
+          "headline": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "detail": "Sugar tax spurs sweetener innovation in Malaysia NST Online",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "detail": "Bordeaux authorities have unveiled a €20 million land fund aimed at addressing the financial pressures facing struggling growers across the region. The initiative will buy abandoned and uprooted viney",
@@ -1215,14 +1228,6 @@
           "detail": "Spring is a time for new growth and new listings, as Wild Idol’s naturally alcohol-free sparkling launches in high-profile venues. db looks at three of the partnerships leading the way. The post Wild ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/wild-idol-welcomes-spring-with-sophisticated-serves/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Historic estate tipped to become Scotland’s ‘first true single-estate’ whisky distillery",
-          "detail": "Aberdeenshire-based liquor producer Inverurie Distillery will open Fetternear Estate to the public this Saturday, coinciding with World Whisky Day, as it unveils plans to transform the historic estate",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/historic-estate-tipped-to-become-scotlands-first-true-single-estate-whisky-distillery/"
           ],
           "confidence": "medium"
         }
@@ -1288,6 +1293,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Sugar tax spurs sweetener innovation in Malaysia - NST Online",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
+          "date": "2026-05-12T00:00:29+00:00"
+        },
         {
           "title": "Bordeaux launches €20m fund to tackle vineyard crisis",
           "topic": "regulation",
@@ -1379,9 +1391,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONmljMW4zZWVTNEtZYU80MDZuNEpyLTJpY01IZ0FqVmE0Nk1lQV9wRG14andOREhfeGY1cS04aktXcExGUmh4QjV6NWcza3l2UUlVWEpCWjhDR3U5ZDFEbElLQW1vbDhHVUtWV3lQSUlsTDhLeXRwSkw1T1IwR1N1aW5KaWg3ZTdvdTFDeUl2TXZCTl9kbHJUSGxXQlVUUHJLS0loSEV6TGItOWs?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
           ]
         }
       ],
@@ -1401,9 +1413,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTM0Vnk3UTJGM29VY0pTTTdEWVVYRHJvT1BsMnhRYk1YVF9YVDhnWnZtdkNnMWxCU3pnZEVRbmh1YzFvN1RFQUd4emVOem9jWjM2R2FPRkNrMktRVFNrNEVuamRfYS1TQVhXUEdDdWs4NFM5RXpjTTZWRm9TWXYxNEJJdG9WQ3RaSW5wVTNJMGl5ZnF0djdGY25OemwwamtsRnBPTGd0Q0FZNkHSAasBQVVfeXFMTU0zNFZ5N1EyRjNvVWNKU003RFlVWERyb09QbDJ4UWJNWFRfWFQ4Z1p2bXZDZzFsQlN6Z2RFUW5odWMxbzdURUFHeHplTnpvY1ozNkdhT0ZDazJLUVRTazRFbmpkX2EtU0FYV1BHQ3VrODRTOUV6Y002VkZvU1l2MTRCSXRvVkN0WklucFUzSTBpeWZxdHY3RmNuTnpsMGprbEZwT0xndENBWTZB?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/bordeaux-launches-e20m-fund-to-tackle-vineyard-crisis/",
-            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONmljMW4zZWVTNEtZYU80MDZuNEpyLTJpY01IZ0FqVmE0Nk1lQV9wRG14andOREhfeGY1cS04aktXcExGUmh4QjV6NWcza3l2UUlVWEpCWjhDR3U5ZDFEbElLQW1vbDhHVUtWV3lQSUlsTDhLeXRwSkw1T1IwR1N1aW5KaWg3ZTdvdTFDeUl2TXZCTl9kbHJUSGxXQlVUUHJLS0loSEV6TGItOWs?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/bordeaux-2025-en-primeur-medoc-best-of-the-rest/"
           ]
         }
       ]
