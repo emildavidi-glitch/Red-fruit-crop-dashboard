@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-12T15:38:50.045107+00:00",
-  "generated_date": "Tuesday, 12 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: ginsa Launches in Costco Los Angeles Region, Bringing Korean Ginseng into the Mainstream - BevNET.co.",
+  "generated_at": "2026-05-13T07:45:38.774132+00:00",
+  "generated_date": "Wednesday, 13 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: S.Pellegrino und Lewis Hamilton starten „Dinner Dialogues“ - about-drinks.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
     "italy": "Sugar Free trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 193,
-      "launch": 43,
+      "trend": 176,
+      "launch": 53,
       "regulatory": 27,
       "sugar_free": 19,
+      "carbonated": 15,
       "pricing": 14,
       "premium": 14,
-      "carbonated": 13,
-      "alcohol_free": 10,
-      "innovation": 8,
-      "supply_chain": 7
+      "competitor": 13,
+      "alcohol_free": 12,
+      "rtd": 9
     }
   }
 }
