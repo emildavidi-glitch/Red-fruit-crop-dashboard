@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-13T07:45:38.774132+00:00",
+  "generated_at": "2026-05-13T15:42:06.211482+00:00",
   "generated_date": "Wednesday, 13 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: S.Pellegrino und Lewis Hamilton starten „Dinner Dialogues“ - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Themen-Special: Spritz & Shine – Aperitif-Kultur neu entdeckt - about-drinks.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
     "italy": "Sugar Free trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 176,
-      "launch": 53,
-      "regulatory": 27,
-      "sugar_free": 19,
-      "carbonated": 15,
-      "pricing": 14,
-      "premium": 14,
+      "trend": 177,
+      "launch": 41,
+      "pricing": 20,
+      "sugar_free": 16,
+      "supply_chain": 14,
+      "regulatory": 13,
       "competitor": 13,
-      "alcohol_free": 12,
-      "rtd": 9
+      "retail": 13,
+      "rtd": 9,
+      "innovation": 9
     }
   }
 }
