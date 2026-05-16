@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T07:11:59.774877+00:00",
+  "generated_at": "2026-05-16T14:21:18.482115+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -283,14 +283,6 @@
           "confidence": "high"
         },
         {
-          "headline": "Asahi Brands: Vagner Paes neuer Country Director Germany & Austria - about-drinks.com",
-          "detail": "Asahi Brands: Vagner Paes neuer Country Director Germany & Austria about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdlpsWF9TMVRCa3BjN1dHWmpvYV9kbHpvUzlDVUw5MEdkTlM4M2xfZ1hlVVAzZkEzQnNwazR6RjVsSDh1SDQwN2w1dVpia0loaXFJZmpKTmV2YV9ybVJ0Ri1GQllZUDBiTU4xMkZmN3Jqb3N5ejVkUEsxa3g0V2hsSk5sd1BYX0JwUHFFNHVHWUxnQXJnZVczZA?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "Aperitif in neuer Kategorie gedacht: Felix Kranz über Sunvivo - about-drinks.com",
           "detail": "Aperitif in neuer Kategorie gedacht: Felix Kranz über Sunvivo about-drinks.com",
           "evidence_urls": [
@@ -311,6 +303,14 @@
           "detail": "Australian Prime Minister Anthony Albanese has reneged on his promise to support the struggling wine tourism sector, announcing this week that he will phase out the Wine Tourism and Cellar Door grant ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/australia-shocked-as-government-slashes-wine-tourism-budget/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "South Korea introduces mandatory drink-driving warnings on alcohol",
+          "detail": "From November 2026, all alcohol sold in South Korea must be labelled with drink-driving warnings under new legislation, as part of a push to reduce alcohol-related harm. The post South Korea introduce",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/south-korea-introduces-mandatory-drink-driving-warnings-on-alcohol/"
           ],
           "confidence": "medium"
         }
@@ -530,18 +530,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… - BeverageDaily.com",
-          "detail": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa25FLU5nZUxLamRnU1lXSHM1ak94ZUgwSU1rNmIwNkFZTGJHVUxEbGNJNi1iUTRJSDh3QjZSNnIxRWlPdFg2QjlCMGxDbndvbXlnYlV2a292cGlRNHFCLWpyck8wMUUzM3VMTHc2YzhyNkxmekhBMW9kWWhrMER4YUZHM2dkLWxWdzd1V2JULUNLdC0waWprdmRyXzFmNHpkY180ai0tZEdmQVk?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Thailand bans alcohol in eight public areas",
           "detail": "Thailand has prohibited the sale and consumption of alcohol in eight public areas including train stations and railways, in a revision of legislation first introduced in 2008. The post Thailand bans a",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/thailand-bans-alcohol-in-eight-public-areas/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… - BeverageDaily.com",
+          "detail": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa25FLU5nZUxLamRnU1lXSHM1ak94ZUgwSU1rNmIwNkFZTGJHVUxEbGNJNi1iUTRJSDh3QjZSNnIxRWlPdFg2QjlCMGxDbndvbXlnYlV2a292cGlRNHFCLWpyck8wMUUzM3VMTHc2YzhyNkxmekhBMW9kWWhrMER4YUZHM2dkLWxWdzd1V2JULUNLdC0waWprdmRyXzFmNHpkY180ai0tZEdmQVk?oc=5"
           ],
           "confidence": "medium"
         }
@@ -655,15 +655,6 @@
           "confidence": "high"
         },
         {
-          "signal": "Functional trending in France",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Carbonated trending in France",
           "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
@@ -671,6 +662,15 @@
             "carbonated"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Functional trending in France",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "low"
         },
         {
           "signal": "Premium trending in France",
@@ -708,14 +708,6 @@
             "https://www.thedrinksbusiness.com/2026/05/top-5-talking-points-from-the-tfwa-asia-pacific/",
             "https://www.thedrinksbusiness.com/2026/05/australia-shocked-as-government-slashes-wine-tourism-budget/",
             "https://www.thedrinksbusiness.com/2026/05/south-korea-introduces-mandatory-drink-driving-warnings-on-alcohol/"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1FSb2hjZ3VzRFZlRzYtRGlFQ2FndWQ4b2d1SWFkbkNNZlRVbGRHOFZVN3dpd052emFzeGN0MWRfekJKcWxCUFptYVZ2RlhwMEFVeW5NM2dMd1ZvalNlaWhQWFI2YndLMTA5NjRHbnpZQ0NfdEl1OXN2STEybEFLUGNzZTBxYjNZdy1wbVlJRU9jZW9KeUd0UHg5eU1zUQ?oc=5",
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJXzNydEk0Qk5sXzBYMUxORGNNR3J2YVRabzRYV0ZqUHZ3b2NoM05MR3hyRjNyNjFkdE4tR2hlaGN2blY4VmE0MThnaEhTanpWdFo2R09uVlo2QjB6eFQyRV9ZZlpBLXpCNEdjOUVXRnp4cjdXWi01dkROWHNRaXc?oc=5"
           ]
         }
       ],
@@ -777,10 +769,10 @@
           "confidence": "high"
         },
         {
-          "headline": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… - BeverageDaily.com",
-          "detail": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… BeverageDaily.com",
+          "headline": "Thailand bans alcohol in eight public areas",
+          "detail": "Thailand has prohibited the sale and consumption of alcohol in eight public areas including train stations and railways, in a revision of legislation first introduced in 2008. The post Thailand bans a",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa25FLU5nZUxLamRnU1lXSHM1ak94ZUgwSU1rNmIwNkFZTGJHVUxEbGNJNi1iUTRJSDh3QjZSNnIxRWlPdFg2QjlCMGxDbndvbXlnYlV2a292cGlRNHFCLWpyck8wMUUzM3VMTHc2YzhyNkxmekhBMW9kWWhrMER4YUZHM2dkLWxWdzd1V2JULUNLdC0waWprdmRyXzFmNHpkY180ai0tZEdmQVk?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/thailand-bans-alcohol-in-eight-public-areas/"
           ],
           "confidence": "medium"
         }
@@ -894,15 +886,6 @@
           "confidence": "high"
         },
         {
-          "signal": "Functional trending in Spain",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Carbonated trending in Spain",
           "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
@@ -910,6 +893,15 @@
             "carbonated"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Functional trending in Spain",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "low"
         },
         {
           "signal": "Premium trending in Spain",
@@ -947,14 +939,6 @@
             "https://www.thedrinksbusiness.com/2026/05/top-5-talking-points-from-the-tfwa-asia-pacific/",
             "https://www.thedrinksbusiness.com/2026/05/australia-shocked-as-government-slashes-wine-tourism-budget/",
             "https://www.thedrinksbusiness.com/2026/05/south-korea-introduces-mandatory-drink-driving-warnings-on-alcohol/"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1FSb2hjZ3VzRFZlRzYtRGlFQ2FndWQ4b2d1SWFkbkNNZlRVbGRHOFZVN3dpd052emFzeGN0MWRfekJKcWxCUFptYVZ2RlhwMEFVeW5NM2dMd1ZvalNlaWhQWFI2YndLMTA5NjRHbnpZQ0NfdEl1OXN2STEybEFLUGNzZTBxYjNZdy1wbVlJRU9jZW9KeUd0UHg5eU1zUQ?oc=5",
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJXzNydEk0Qk5sXzBYMUxORGNNR3J2YVRabzRYV0ZqUHZ3b2NoM05MR3hyRjNyNjFkdE4tR2hlaGN2blY4VmE0MThnaEhTanpWdFo2R09uVlo2QjB6eFQyRV9ZZlpBLXpCNEdjOUVXRnp4cjdXWi01dkROWHNRaXc?oc=5"
           ]
         }
       ],
@@ -1239,18 +1223,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… - BeverageDaily.com",
-          "detail": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa25FLU5nZUxLamRnU1lXSHM1ak94ZUgwSU1rNmIwNkFZTGJHVUxEbGNJNi1iUTRJSDh3QjZSNnIxRWlPdFg2QjlCMGxDbndvbXlnYlV2a292cGlRNHFCLWpyck8wMUUzM3VMTHc2YzhyNkxmekhBMW9kWWhrMER4YUZHM2dkLWxWdzd1V2JULUNLdC0waWprdmRyXzFmNHpkY180ai0tZEdmQVk?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Thailand bans alcohol in eight public areas",
           "detail": "Thailand has prohibited the sale and consumption of alcohol in eight public areas including train stations and railways, in a revision of legislation first introduced in 2008. The post Thailand bans a",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/thailand-bans-alcohol-in-eight-public-areas/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… - BeverageDaily.com",
+          "detail": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa25FLU5nZUxLamRnU1lXSHM1ak94ZUgwSU1rNmIwNkFZTGJHVUxEbGNJNi1iUTRJSDh3QjZSNnIxRWlPdFg2QjlCMGxDbndvbXlnYlV2a292cGlRNHFCLWpyck8wMUUzM3VMTHc2YzhyNkxmekhBMW9kWWhrMER4YUZHM2dkLWxWdzd1V2JULUNLdC0waWprdmRyXzFmNHpkY180ai0tZEdmQVk?oc=5"
           ],
           "confidence": "medium"
         }
