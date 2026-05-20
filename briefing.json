@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T16:18:14.289069+00:00",
-  "generated_date": "Tuesday, 19 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Hampton Water Wine Announces Second Annual Artist Series, Partnering with Renowned Artist Mary Ball .",
+  "generated_at": "2026-05-20T08:21:24.057346+00:00",
+  "generated_date": "Wednesday, 20 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: FX Pichler unveils Pinot ‘passion project’.",
   "signals": {
-    "usa": "Alcohol Free trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Rtd trending. (50 items)",
     "spain": "Rtd trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 176,
-      "launch": 48,
-      "regulatory": 26,
-      "supply_chain": 18,
-      "rtd": 18,
+      "trend": 183,
+      "launch": 41,
+      "regulatory": 23,
+      "supply_chain": 20,
+      "rtd": 19,
+      "carbonated": 16,
       "competitor": 14,
+      "premium": 11,
       "retail": 10,
-      "carbonated": 9,
-      "premium": 8,
-      "functional": 7
+      "functional": 8
     }
   }
 }
