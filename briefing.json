@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-20T08:21:24.057346+00:00",
+  "generated_at": "2026-05-20T16:24:26.441924+00:00",
   "generated_date": "Wednesday, 20 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: FX Pichler unveils Pinot ‘passion project’.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Perfect Purée Acquires Strongwater, Expands Premium Bar Ingredients Portfolio - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Rtd trending. (50 items)",
-    "spain": "Rtd trending. (50 items)",
-    "italy": "Rtd trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
+    "spain": "Carbonated trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 183,
-      "launch": 41,
-      "regulatory": 23,
-      "supply_chain": 20,
-      "rtd": 19,
-      "carbonated": 16,
-      "competitor": 14,
-      "premium": 11,
-      "retail": 10,
-      "functional": 8
+      "trend": 185,
+      "launch": 44,
+      "pricing": 28,
+      "carbonated": 22,
+      "premium": 18,
+      "alcohol_free": 17,
+      "competitor": 15,
+      "sugar_free": 13,
+      "supply_chain": 10,
+      "rtd": 10
     }
   }
 }
