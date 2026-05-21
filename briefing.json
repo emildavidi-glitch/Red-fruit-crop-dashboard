@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-20T16:24:26.441924+00:00",
-  "generated_date": "Wednesday, 20 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Perfect Purée Acquires Strongwater, Expands Premium Bar Ingredients Portfolio - BevNET.com.",
+  "generated_at": "2026-05-21T08:29:30.625241+00:00",
+  "generated_date": "Thursday, 21 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Zur Fußball-WM: Bitburger launcht „Bit im Büdchen“ mit Moderator Robby Hunke - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 185,
-      "launch": 44,
+      "trend": 180,
+      "launch": 48,
       "pricing": 28,
-      "carbonated": 22,
-      "premium": 18,
       "alcohol_free": 17,
-      "competitor": 15,
-      "sugar_free": 13,
-      "supply_chain": 10,
-      "rtd": 10
+      "competitor": 16,
+      "premium": 15,
+      "carbonated": 15,
+      "sugar_free": 12,
+      "functional": 9,
+      "supply_chain": 8
     }
   }
 }
