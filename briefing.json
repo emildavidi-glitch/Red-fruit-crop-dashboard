@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-21T08:29:30.625241+00:00",
+  "generated_at": "2026-05-21T16:15:13.858840+00:00",
   "generated_date": "Thursday, 21 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Zur Fußball-WM: Bitburger launcht „Bit im Büdchen“ mit Moderator Robby Hunke - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: NIQ: No/Low Alcohol Hits $6 Billion Globally, But Soda and Water Are Winning - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Carbonated trending. (50 items)",
-    "spain": "Carbonated trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Rtd trending. (50 items)",
+    "italy": "Rtd trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 180,
+      "trend": 157,
       "launch": 48,
-      "pricing": 28,
-      "alcohol_free": 17,
-      "competitor": 16,
+      "regulatory": 29,
+      "pricing": 27,
+      "supply_chain": 17,
       "premium": 15,
-      "carbonated": 15,
-      "sugar_free": 12,
-      "functional": 9,
-      "supply_chain": 8
+      "functional": 13,
+      "alcohol_free": 12,
+      "competitor": 10,
+      "carbonated": 10
     }
   }
 }
