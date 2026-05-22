@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-21T16:15:13.858840+00:00",
-  "generated_date": "Thursday, 21 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: NIQ: No/Low Alcohol Hits $6 Billion Globally, But Soda and Water Are Winning - BevNET.com.",
+  "generated_at": "2026-05-22T08:18:37.417550+00:00",
+  "generated_date": "Friday, 22 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Phoenix rising: how Yarra Valley found its feet amidst phylloxera.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
-    "spain": "Rtd trending. (50 items)",
-    "italy": "Rtd trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 157,
-      "launch": 48,
-      "regulatory": 29,
-      "pricing": 27,
-      "supply_chain": 17,
-      "premium": 15,
+      "trend": 145,
+      "launch": 45,
+      "regulatory": 35,
+      "pricing": 33,
+      "supply_chain": 21,
+      "premium": 14,
       "functional": 13,
-      "alcohol_free": 12,
       "competitor": 10,
-      "carbonated": 10
+      "alcohol_free": 10,
+      "innovation": 9
     }
   }
 }

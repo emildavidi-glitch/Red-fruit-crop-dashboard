@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-05-21T16:15:13.858840+00:00",
+  "generated_at": "2026-05-22T08:18:37.417550+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "English wineries battle ‘severe’ frost",
+          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
           "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
@@ -35,24 +43,40 @@
             "https://www.thedrinksbusiness.com/2026/05/brewdog-pulls-out-of-durham-bar-opening/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "4 ways Bazooka rethought its supplier strategy in face of tariffs",
-          "detail": "The candy maker scrapped its volume-for-price playbook and adopted a collaborative approach to sharing the pain.",
-          "evidence_urls": [
-            "https://www.fooddive.com/news/4-ways-bazooka-rethought-its-supplier-strategy-in-face-of-tariffs/820357/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
         {
-          "title": "Kraft Heinz launches Jell-O line without artificial dyes",
+          "title": "Herti expands business in South America",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/kraft-heinz-jello-natural-colors-artificial-dyes/820864/",
-          "date": "2026-05-21T11:03:00-04:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+          "date": "2026-05-22T06:46:43+00:00"
+        },
+        {
+          "title": "T. Hasegawa Launches HASEMILK Technology to Help Brands Deliver a More Satisfying Dairy-Free Experience - BevNET.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMlg3aTEtQkFQR3VibGc1NTFya0lkdFdodGN3UWhIYkRfY0Z4Nkh2X0VQc3hCSVhvTmk1SHE1bjlUazJFeHQ3S2xiaDNwNnV0YnFwTGdyQVZ6WGxZXzlpUElJaEJ4dkxTMEJTTlpiS0d0djBTaDFzY2FrXzhmZW8yM1djZ0ZxY3UyczYzNUs4TGdrdGVZb1hya2hSdFJveTZSaUhCem9NWGhsUlhnMlV5ck1QQUxpWmhSd0RWN1RCV0VOLTY2bndta1FGeW1wLWRtcFp6SA?oc=5",
+          "date": "2026-05-22T02:33:48+00:00"
+        },
+        {
+          "title": "Perfect Hydration Debuts Flavored Alkaline Water - BevNET.com",
+          "company": "Unknown",
+          "product": "hydration",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRnY0NG1RTkM0cHpWNHV2M25DQTIwYklYenNmRnNGVEtsT2hRLWc2RFYxVG9vLWxISTNFU0ZndGRCXzdMZHhVOHpIdW5vSkROdERxQkVPS3ZUY2RIRlNrQkRucHktVnotRkFlOWJVR3hxTE5tUzRrVzI5b1E3OVFzWEh0SjdPakhnS1ItdFFn?oc=5",
+          "date": "2026-05-22T02:33:48+00:00"
+        },
+        {
+          "title": "Rupee Beer Launches Distribution Across the San Francisco Bay Area - BevNET.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzJ0ZnpNZmR4emkwdk5wakRiVW5Kcm92Y2tVMW9UNXJmTlZEMnM1eEJNcWUyWmpTUk9YcHVRVnVWSVFvdkpOVHZoRDlQRVdFaWIzaFhGdmN0d2lsSjRKZTZvYnRzVFh0eElLamF4aHlMODdURE9TeE1fb0lFcHdlS2dxNnFIZ3RCSnYwTWRGNzR3MmxhYWdaVVdaYVA0UTFyUHN1cVZn?oc=5",
+          "date": "2026-05-22T02:33:48+00:00"
         },
         {
           "title": "Pitbull Joins Vita Pop as Global Strategic Partner Ahead of Q3 2026 U.S. Launch - BevNET.com",
@@ -61,40 +85,16 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcERKaVlURkFQd01MX0J6Mkg2cjRmYUIzYTlWVnRsNmhOOXo1WXNESmNyWjg1WEU0aVBUb0VMMFFaQ2FLdnM4ckxQZzc3NmZFTWQ1b2Z6SWtOSHJBTWxlSVk3X1drOUpvMHZwc0R1eVpXdUh5ZGtYakllWkxuR1VGZmJCbzhUUERONDJOZDNjdEkwOEo5LVNkM2RoYzZ5ZXVlN3FzSWg1dXJRZjJqTVVzb2dmYXI?oc=5",
           "date": "2026-05-18T07:00:00+00:00"
-        },
-        {
-          "title": "What can Canadian Icewine offer the whisky category?",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-          "date": "2026-05-21T10:45:59+00:00"
-        },
-        {
-          "title": "BeyondCPG Expands Nationally for Track 7, Opening Applications for Scaling Food, Beverage, and Wellness Brands - BevNET.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcFJ2TTEyUW5QSlJhclRJUjA2WXRKUFNqWjdEN1cwcHRydV9uSEdBUmRxd2RNV2s3LWktcU5hbUh2eFZvVmdvNW10WjRsb29ZTkhHRzNxYnpqblpBS253SlNENnZyNklHeXBEM0J5eVdfSjRMcFRrM2xBeGVROFZ1U3NJZjN6amJZS0otdUo5Y21vd0dwVV9CYnBua3NQaGp4bS0xdkQ4TVA4VFptU3p0eXdURVpQNjNsbVdEZWdSZGRXMUs2UERLSTNER3Y3TVNoTGFqT3AxMHJOZF93?oc=5",
-          "date": "2026-05-20T21:15:13+00:00"
-        },
-        {
-          "title": "teapigs Unveils New Herbal Tea Lineup with New Caffeine-Free Blends - BevNET.com",
-          "company": "Unknown",
-          "product": "energy",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQTkzRjJyaEJ4LWUxYUxZRG50bkR4WUxzWVZqRjl6MUp3QUZOdWVITWRFaDJrRGxNTVZZLVkzTTNjUXVWeEZPZ1l1VEtxbmVudWlOUndmSE1yS1A1ZjRpdVFGTG1wLW5MOHpsdm9QOWdoRUxJT2dNQktsNV9VS2J3dXphcFRvV0NacVJhaThJNEpyN19lV2FQRE5GWFZTNWFOZ0NhcnJB?oc=5",
-          "date": "2026-05-20T16:34:34+00:00"
         }
       ],
       "competitor_moves": [
         {
-          "title": "The Perfect Purée of Napa Valley Acquires Strongwater, Expanding Its Craft Offerings - BevNET.com",
+          "title": "StageWater Lands Exclusive Partnership with CMA Fest 2026 - BevNET.com",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTENkUE1FQmhCVDhFMm02aHRCd0lvbk11Q01ESWlCdHJtSmlpTEp0Ui1SX0pBOERfaExIVHBvSnZFblpZVjI0VF84SDNGVS03VlljUHRRbUcxbTYwMTlOVTZhS1hHME5JdGJrN0ZDWWJxOEl1NTQwOENYQWpjbUZwUHpIanc0Rno0OUtrOXFYM0lpeVE2VG1Ea0djYThjLWh5NGQ3YlEwSEN3NmVvMDdjSHpsNld1Yk1vOWthRzdTMnl2dW8?oc=5",
-          "date": "2026-05-20T18:21:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlV6X0QxeFRxRWEzekEzUUVHc005VURMWmp1Wk56RE9udVVrSy12R2tEUVZKY3ZMdHdZM2lIQkxsTVViSTBqZTZZdjRqLWVHS3JRT25NdEZVSzktYmEwc2c3TEVoYlBTVzBuRUowQ0s0aVpvNGQyOHl3Ukh1UWJPeEgxMUx6MmJHeWM0SWRBb3hCT2x1QzR0TGVB?oc=5",
+          "date": "2026-05-22T02:33:48+00:00"
         },
         {
           "title": "WineCap appoints new head of buying",
@@ -133,9 +133,23 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/brewdog-pulls-out-of-durham-bar-opening/",
           "date": "2026-05-21T08:49:19+00:00"
+        },
+        {
+          "title": "How connected packaging is closing the private label gap - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2t0bTVPNWlsZFFCQUNtbWhzTXd5RmpBQ2R2Ni11M1pwSzRwNW5kb29pcFUyMWRPdlZQaHh4LUQ4VmdJTnJ0SXpiWE5uendhd2NWRzhfeFg5VmFJbWxUV3FSc2xFSmIxS21KVEEtSEVzLXdMQWpqZzVUWXFUeDJYNkhwY19PUDN2cVFQa1htWWMxeE9ROEJ5TnBrNXMyUmRaRHZfb3BUeGlldw?oc=5",
+          "date": "2026-05-19T13:31:14+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "English wineries battle ‘severe’ frost",
+          "what_changed": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/",
+          "date": "2026-05-22T08:00:41+00:00"
+        },
         {
           "title": "4 ways Bazooka rethought its supplier strategy in face of tariffs",
           "what_changed": "The candy maker scrapped its volume-for-price playbook and adopted a collaborative approach to sharing the pain.",
@@ -163,40 +177,15 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.fooddive.com/news/once-upon-a-farm-soars-as-parents-seek-healthier-kids-foods-despite-inflat/819748/",
           "date": "2026-05-20T09:30:00-04:00"
-        },
-        {
-          "title": "UK government’s ‘call’ for food price caps sparks criticism - Just Drinks",
-          "what_changed": "UK government’s ‘call’ for food price caps sparks criticism Just Drinks",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSTM0anVudExQN1NURzd3NkJMdE5PRm4wOXpfRFg2Y01lQkxUNTdwUWIwdWgxdFAxLWt3LXZRcW81SG02cXBFMmU0MkFiM0VoOC1aVzRwM29LMmM2dmhiaHl0MUJmOGJHLXdZU2RNWlFTbE9lMkVSVjdBSkIyUGVIRmlUOA?oc=5",
-          "date": "2026-05-20T11:59:40+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "high"
-        },
-        {
           "signal": "Premium trending in United States",
-          "explanation": "4 articles mention premium in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in United States",
-          "explanation": "3 articles mention energy in the last 28 days",
+          "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "energy"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -210,13 +199,31 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
+          "signal": "Carbonated trending in United States",
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "sugar_free"
+            "carbonated"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Hydration trending in United States",
+          "explanation": "1 articles mention hydration in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Juice trending in United States",
+          "explanation": "1 articles mention juice in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "juice"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -224,9 +231,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.fooddive.com/news/kraft-heinz-jello-natural-colors-artificial-dyes/820864/",
-            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcERKaVlURkFQd01MX0J6Mkg2cjRmYUIzYTlWVnRsNmhOOXo1WXNESmNyWjg1WEU0aVBUb0VMMFFaQ2FLdnM4ckxQZzc3NmZFTWQ1b2Z6SWtOSHJBTWxlSVk3X1drOUpvMHZwc0R1eVpXdUh5ZGtYakllWkxuR1VGZmJCbzhUUERONDJOZDNjdEkwOEo5LVNkM2RoYzZ5ZXVlN3FzSWg1dXJRZjJqTVVzb2dmYXI?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/"
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMlg3aTEtQkFQR3VibGc1NTFya0lkdFdodGN3UWhIYkRfY0Z4Nkh2X0VQc3hCSVhvTmk1SHE1bjlUazJFeHQ3S2xiaDNwNnV0YnFwTGdyQVZ6WGxZXzlpUElJaEJ4dkxTMEJTTlpiS0d0djBTaDFzY2FrXzhmZW8yM1djZ0ZxY3UyczYzNUs4TGdrdGVZb1hya2hSdFJveTZSaUhCem9NWGhsUlhnMlV5ck1QQUxpWmhSd0RWN1RCV0VOLTY2bndta1FGeW1wLWRtcFp6SA?oc=5",
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRnY0NG1RTkM0cHpWNHV2M25DQTIwYklYenNmRnNGVEtsT2hRLWc2RFYxVG9vLWxISTNFU0ZndGRCXzdMZHhVOHpIdW5vSkROdERxQkVPS3ZUY2RIRlNrQkRucHktVnotRkFlOWJVR3hxTE5tUzRrVzI5b1E3OVFzWEh0SjdPakhnS1ItdFFn?oc=5"
           ]
         },
         {
@@ -254,9 +261,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.fooddive.com/news/kraft-heinz-jello-natural-colors-artificial-dyes/820864/",
-            "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcERKaVlURkFQd01MX0J6Mkg2cjRmYUIzYTlWVnRsNmhOOXo1WXNESmNyWjg1WEU0aVBUb0VMMFFaQ2FLdnM4ckxQZzc3NmZFTWQ1b2Z6SWtOSHJBTWxlSVk3X1drOUpvMHZwc0R1eVpXdUh5ZGtYakllWkxuR1VGZmJCbzhUUERONDJOZDNjdEkwOEo5LVNkM2RoYzZ5ZXVlN3FzSWg1dXJRZjJqTVVzb2dmYXI?oc=5",
-            "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/"
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMlg3aTEtQkFQR3VibGc1NTFya0lkdFdodGN3UWhIYkRfY0Z4Nkh2X0VQc3hCSVhvTmk1SHE1bjlUazJFeHQ3S2xiaDNwNnV0YnFwTGdyQVZ6WGxZXzlpUElJaEJ4dkxTMEJTTlpiS0d0djBTaDFzY2FrXzhmZW8yM1djZ0ZxY3UyczYzNUs4TGdrdGVZb1hya2hSdFJveTZSaUhCem9NWGhsUlhnMlV5ck1QQUxpWmhSd0RWN1RCV0VOLTY2bndta1FGeW1wLWRtcFp6SA?oc=5",
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRnY0NG1RTkM0cHpWNHV2M25DQTIwYklYenNmRnNGVEtsT2hRLWc2RFYxVG9vLWxISTNFU0ZndGRCXzdMZHhVOHpIdW5vSkROdERxQkVPS3ZUY2RIRlNrQkRucHktVnotRkFlOWJVR3hxTE5tUzRrVzI5b1E3OVFzWEh0SjdPakhnS1ItdFFn?oc=5"
           ]
         },
         {
@@ -273,6 +280,14 @@
     },
     "germany": {
       "executive_summary": [
+        {
+          "headline": "English wineries battle ‘severe’ frost",
+          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
           "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
@@ -304,17 +319,17 @@
             "https://www.thedrinksbusiness.com/2026/05/brewdog-pulls-out-of-durham-bar-opening/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "What can Canadian Icewine offer the whisky category?",
-          "detail": "As Tomatin Distillery releases a single malt whisky partially aged in Icewine casks, Sarah Neish discovers why Canada's signature style lends itself perfectly to spirits maturation, and why this \"trul",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Herti expands business in South America",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+          "date": "2026-05-22T06:46:43+00:00"
+        },
         {
           "title": "What can Canadian Icewine offer the whisky category?",
           "company": "Unknown",
@@ -330,14 +345,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5",
           "date": "2026-05-21T06:48:00+00:00"
-        },
-        {
-          "title": "Heineken gives Brazil debut to new beer - Just Drinks",
-          "company": "Heineken",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
-          "date": "2026-05-20T11:49:40+00:00"
         },
         {
           "title": "Sakura Sake Shop launches Japan’s first low-carbon sake",
@@ -396,14 +403,21 @@
           "date": "2026-05-21T08:49:19+00:00"
         },
         {
-          "title": "PPWR’s August deadline under pressure as leaked industry letter draws NGO backlash - Packaging Insights",
+          "title": "How connected packaging is closing the private label gap - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14OGMtbVY5Q0xnaVFSWTNrTjhYZkpQaHZURnd0YnlGd3MySUNOdGswWVlkcDhOcnh3MjNaejF5eFA5WUREUmhfOE5DbG8wR1pqeGNxTlRCM1NnemlZUHRUWnVwb1NTZjJHcUl6cXZrOXhfV2haRXVxTEhYMVFsZzQ?oc=5",
-          "date": "2026-05-18T11:31:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2t0bTVPNWlsZFFCQUNtbWhzTXd5RmpBQ2R2Ni11M1pwSzRwNW5kb29pcFUyMWRPdlZQaHh4LUQ4VmdJTnJ0SXpiWE5uendhd2NWRzhfeFg5VmFJbWxUV3FSc2xFSmIxS21KVEEtSEVzLXdMQWpqZzVUWXFUeDJYNkhwY19PUDN2cVFQa1htWWMxeE9ROEJ5TnBrNXMyUmRaRHZfb3BUeGlldw?oc=5",
+          "date": "2026-05-19T13:31:14+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "English wineries battle ‘severe’ frost",
+          "what_changed": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/",
+          "date": "2026-05-22T08:00:41+00:00"
+        },
         {
           "title": "Quality over quantity for today’s rare whisky releases",
           "what_changed": "The market for high-end whisky has endured a tough few years, impacted by macroeconomic fragility and unsustainably high prices – but companies remain",
@@ -435,15 +449,6 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Germany",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Germany",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -458,6 +463,15 @@
           "support_count": 2,
           "top_keywords": [
             "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -485,9 +499,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5"
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5"
           ]
         },
         {
@@ -514,9 +528,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5"
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5"
           ]
         },
         {
@@ -550,6 +564,14 @@
           "confidence": "high"
         },
         {
+          "headline": "English wineries battle ‘severe’ frost",
+          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
           "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
           "evidence_urls": [
@@ -564,17 +586,17 @@
             "https://www.thedrinksbusiness.com/2026/05/asa-bans-la-vieille-ferme-tiktok-wine-advert/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Ramsay reveals new Thames-side restaurant",
-          "detail": "A new partnership between Sea Containers London and Gordon Ramsay Restaurants Global will bring a major hospitality opening to the South Bank later this year. The post Ramsay reveals new Thames-side r",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/ramsay-reveals-new-thames-side-restaurant/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Herti expands business in South America",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+          "date": "2026-05-22T06:46:43+00:00"
+        },
         {
           "title": "What can Canadian Icewine offer the whisky category?",
           "company": "Unknown",
@@ -582,14 +604,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
           "date": "2026-05-21T10:45:59+00:00"
-        },
-        {
-          "title": "Heineken gives Brazil debut to new beer - Just Drinks",
-          "company": "Heineken",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
-          "date": "2026-05-20T11:49:40+00:00"
         },
         {
           "title": "Sakura Sake Shop launches Japan’s first low-carbon sake",
@@ -604,7 +618,7 @@
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdnUwUmhneUNMYktiSWNWM20wcFlRS0ZoNWFoWUxUeFBWLXV4b2ZEUWlBWVlpbmlCeF9tQVgxb2VkMVZuVnNUV2Y1TnBhY3FKX0xabUdYSTdQUlFDd21LRm9kODh3QzRPbkZsekZ3Mm1BcDdPamV0Szhrc1pZaVNmYVBvamFsaWlQQmQtRUNxMTVnbTVxSHB1QXJLZ2V5bmdTeUZOTVA1ZXBrbTNkSmJj?oc=5",
+          "evidence_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWRZSXFLUmlwYTQ3REd0d0xZUEpaNzZmLWJRQ0loMV90Um1WdVQ1YWgwZllXeEFGUl82ZUY3bW5wSTBPaXQ0NU1xZm50Z3RqT25jWUFUdHh6dFIzZG9McVduTkx6aFliVnAxZ2xyZWtvbDNvdkxWdl9MSGZVYXl1VDVuZmh3UnJFbWdybVp1eWt0TXJQTGJjbXltQmp3ODVWZk1VaHhhUU4tQnAxX09sMw?oc=5",
           "date": "2026-05-18T11:18:45+00:00"
         },
         {
@@ -664,14 +678,21 @@
           "date": "2026-05-21T08:49:19+00:00"
         },
         {
-          "title": "PPWR’s August deadline under pressure as leaked industry letter draws NGO backlash - Packaging Insights",
+          "title": "How connected packaging is closing the private label gap - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14OGMtbVY5Q0xnaVFSWTNrTjhYZkpQaHZURnd0YnlGd3MySUNOdGswWVlkcDhOcnh3MjNaejF5eFA5WUREUmhfOE5DbG8wR1pqeGNxTlRCM1NnemlZUHRUWnVwb1NTZjJHcUl6cXZrOXhfV2haRXVxTEhYMVFsZzQ?oc=5",
-          "date": "2026-05-18T11:31:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2t0bTVPNWlsZFFCQUNtbWhzTXd5RmpBQ2R2Ni11M1pwSzRwNW5kb29pcFUyMWRPdlZQaHh4LUQ4VmdJTnJ0SXpiWE5uendhd2NWRzhfeFg5VmFJbWxUV3FSc2xFSmIxS21KVEEtSEVzLXdMQWpqZzVUWXFUeDJYNkhwY19PUDN2cVFQa1htWWMxeE9ROEJ5TnBrNXMyUmRaRHZfb3BUeGlldw?oc=5",
+          "date": "2026-05-19T13:31:14+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "English wineries battle ‘severe’ frost",
+          "what_changed": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/",
+          "date": "2026-05-22T08:00:41+00:00"
+        },
         {
           "title": "Quality over quantity for today’s rare whisky releases",
           "what_changed": "The market for high-end whisky has endured a tough few years, impacted by macroeconomic fragility and unsustainably high prices – but companies remain",
@@ -730,20 +751,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in France",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Organic trending in France",
           "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "organic"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Sugar Free trending in France",
+          "explanation": "1 articles mention sugar free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "sugar_free"
           ],
           "confidence": "low"
         }
@@ -753,8 +774,8 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/"
           ]
         },
@@ -782,8 +803,8 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/"
           ]
         },
@@ -802,12 +823,28 @@
     "spain": {
       "executive_summary": [
         {
+          "headline": "English wineries battle ‘severe’ frost",
+          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
           "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/indias-supreme-court-seeks-gov-response-on-plea-to-ban-tetra-pack-liquor/"
           ],
           "confidence": "medium"
+        },
+        {
+          "headline": "Vintae signs restructuring plan to acquire Spain’s Bodegas Riojanas - Just Drinks",
+          "detail": "Vintae signs restructuring plan to acquire Spain’s Bodegas Riojanas Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdENQd2NFZ0JNeTlqLXZfRk9OUERITTBtdV9rVURuNERjQ01fazN1MXIxSVNnZ3VwRUtzWTRSWHBuZlNMWWpVSi12MW1kSXExbHVmc29fZlluSnBPd3JRUHZwVkt2d2x0cUdDYndXYVMtTi00MmhUNm5BeWFnVG5wbl9FQjN0U2U3cDlHS0NUOGtVLTJUcXlCQUgxRFhRY1ExQmc?oc=5"
+          ],
+          "confidence": "high"
         },
         {
           "headline": "ASA bans La Vieille Ferme TikTok wine advert",
@@ -824,25 +861,17 @@
             "https://www.thedrinksbusiness.com/2026/05/ramsay-reveals-new-thames-side-restaurant/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Vintae signs restructuring plan to acquire Spain’s Bodegas Riojanas - Just Drinks",
-          "detail": "Vintae signs restructuring plan to acquire Spain’s Bodegas Riojanas Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdENQd2NFZ0JNeTlqLXZfRk9OUERITTBtdV9rVURuNERjQ01fazN1MXIxSVNnZ3VwRUtzWTRSWHBuZlNMWWpVSi12MW1kSXExbHVmc29fZlluSnBPd3JRUHZwVkt2d2x0cUdDYndXYVMtTi00MmhUNm5BeWFnVG5wbl9FQjN0U2U3cDlHS0NUOGtVLTJUcXlCQUgxRFhRY1ExQmc?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Brewdog pulls out of Durham bar opening",
-          "detail": "Brewdog has reversed its plans to open a long-awaited bar that was based in Durham’s Milburngate development. But what has happened to the venue and why, after a big investment into the business, has ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/brewdog-pulls-out-of-durham-bar-opening/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Herti expands business in South America",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+          "date": "2026-05-22T06:46:43+00:00"
+        },
         {
           "title": "What can Canadian Icewine offer the whisky category?",
           "company": "Unknown",
@@ -850,14 +879,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
           "date": "2026-05-21T10:45:59+00:00"
-        },
-        {
-          "title": "Heineken gives Brazil debut to new beer - Just Drinks",
-          "company": "Heineken",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
-          "date": "2026-05-20T11:49:40+00:00"
         },
         {
           "title": "Sakura Sake Shop launches Japan’s first low-carbon sake",
@@ -872,7 +893,7 @@
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdnUwUmhneUNMYktiSWNWM20wcFlRS0ZoNWFoWUxUeFBWLXV4b2ZEUWlBWVlpbmlCeF9tQVgxb2VkMVZuVnNUV2Y1TnBhY3FKX0xabUdYSTdQUlFDd21LRm9kODh3QzRPbkZsekZ3Mm1BcDdPamV0Szhrc1pZaVNmYVBvamFsaWlQQmQtRUNxMTVnbTVxSHB1QXJLZ2V5bmdTeUZOTVA1ZXBrbTNkSmJj?oc=5",
+          "evidence_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWRZSXFLUmlwYTQ3REd0d0xZUEpaNzZmLWJRQ0loMV90Um1WdVQ1YWgwZllXeEFGUl82ZUY3bW5wSTBPaXQ0NU1xZm50Z3RqT25jWUFUdHh6dFIzZG9McVduTkx6aFliVnAxZ2xyZWtvbDNvdkxWdl9MSGZVYXl1VDVuZmh3UnJFbWdybVp1eWt0TXJQTGJjbXltQmp3ODVWZk1VaHhhUU4tQnAxX09sMw?oc=5",
           "date": "2026-05-18T11:18:45+00:00"
         },
         {
@@ -932,14 +953,21 @@
           "date": "2026-05-21T08:49:19+00:00"
         },
         {
-          "title": "PPWR’s August deadline under pressure as leaked industry letter draws NGO backlash - Packaging Insights",
+          "title": "How connected packaging is closing the private label gap - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14OGMtbVY5Q0xnaVFSWTNrTjhYZkpQaHZURnd0YnlGd3MySUNOdGswWVlkcDhOcnh3MjNaejF5eFA5WUREUmhfOE5DbG8wR1pqeGNxTlRCM1NnemlZUHRUWnVwb1NTZjJHcUl6cXZrOXhfV2haRXVxTEhYMVFsZzQ?oc=5",
-          "date": "2026-05-18T11:31:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2t0bTVPNWlsZFFCQUNtbWhzTXd5RmpBQ2R2Ni11M1pwSzRwNW5kb29pcFUyMWRPdlZQaHh4LUQ4VmdJTnJ0SXpiWE5uendhd2NWRzhfeFg5VmFJbWxUV3FSc2xFSmIxS21KVEEtSEVzLXdMQWpqZzVUWXFUeDJYNkhwY19PUDN2cVFQa1htWWMxeE9ROEJ5TnBrNXMyUmRaRHZfb3BUeGlldw?oc=5",
+          "date": "2026-05-19T13:31:14+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "English wineries battle ‘severe’ frost",
+          "what_changed": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/",
+          "date": "2026-05-22T08:00:41+00:00"
+        },
         {
           "title": "Quality over quantity for today’s rare whisky releases",
           "what_changed": "The market for high-end whisky has endured a tough few years, impacted by macroeconomic fragility and unsustainably high prices – but companies remain",
@@ -971,15 +999,6 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Spain",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -1007,6 +1026,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Rtd trending in Spain",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Organic trending in Spain",
           "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
@@ -1021,8 +1049,8 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/"
           ]
         },
@@ -1050,8 +1078,8 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/"
           ]
         },
@@ -1078,12 +1106,12 @@
           "confidence": "high"
         },
         {
-          "headline": "Milan and Palermo brewers join forces to release an Irish stout",
-          "detail": "Milanese brewer LA Brewery has collaborated with Sicily’s Palermo-based Dank Brewing to release an Irish stout named Folk Seal. The post Milan and Palermo brewers join forces to release an Irish stout",
+          "headline": "English wineries battle ‘severe’ frost",
+          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/milan-and-palermo-brewers-join-forces-to-release-a-stout/"
+            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
@@ -1112,12 +1140,12 @@
       ],
       "key_launches": [
         {
-          "title": "Milan and Palermo brewers join forces to release an Irish stout",
-          "company": "Rewe",
+          "title": "Herti expands business in South America",
+          "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/milan-and-palermo-brewers-join-forces-to-release-a-stout/",
-          "date": "2026-05-20T07:44:20+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+          "date": "2026-05-22T06:46:43+00:00"
         },
         {
           "title": "What can Canadian Icewine offer the whisky category?",
@@ -1126,14 +1154,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
           "date": "2026-05-21T10:45:59+00:00"
-        },
-        {
-          "title": "Heineken gives Brazil debut to new beer - Just Drinks",
-          "company": "Heineken",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
-          "date": "2026-05-20T11:49:40+00:00"
         },
         {
           "title": "Sakura Sake Shop launches Japan’s first low-carbon sake",
@@ -1148,8 +1168,16 @@
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdnUwUmhneUNMYktiSWNWM20wcFlRS0ZoNWFoWUxUeFBWLXV4b2ZEUWlBWVlpbmlCeF9tQVgxb2VkMVZuVnNUV2Y1TnBhY3FKX0xabUdYSTdQUlFDd21LRm9kODh3QzRPbkZsekZ3Mm1BcDdPamV0Szhrc1pZaVNmYVBvamFsaWlQQmQtRUNxMTVnbTVxSHB1QXJLZ2V5bmdTeUZOTVA1ZXBrbTNkSmJj?oc=5",
+          "evidence_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWRZSXFLUmlwYTQ3REd0d0xZUEpaNzZmLWJRQ0loMV90Um1WdVQ1YWgwZllXeEFGUl82ZUY3bW5wSTBPaXQ0NU1xZm50Z3RqT25jWUFUdHh6dFIzZG9McVduTkx6aFliVnAxZ2xyZWtvbDNvdkxWdl9MSGZVYXl1VDVuZmh3UnJFbWdybVp1eWt0TXJQTGJjbXltQmp3ODVWZk1VaHhhUU4tQnAxX09sMw?oc=5",
           "date": "2026-05-18T11:18:45+00:00"
+        },
+        {
+          "title": "New beverage launches: PepsiCo melted ice pop, Aqua Libra, Twinings and more… - BeverageDaily.com",
+          "company": "PepsiCo",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa25FLU5nZUxLamRnU1lXSHM1ak94ZUgwSU1rNmIwNkFZTGJHVUxEbGNJNi1iUTRJSDh3QjZSNnIxRWlPdFg2QjlCMGxDbndvbXlnYlV2a292cGlRNHFCLWpyck8wMUUzM3VMTHc2YzhyNkxmekhBMW9kWWhrMER4YUZHM2dkLWxWdzd1V2JULUNLdC0waWprdmRyXzFmNHpkY180ai0tZEdmQVk?oc=5",
+          "date": "2026-05-15T09:56:06+00:00"
         }
       ],
       "competitor_moves": [
@@ -1200,14 +1228,21 @@
           "date": "2026-05-21T08:49:19+00:00"
         },
         {
-          "title": "PPWR’s August deadline under pressure as leaked industry letter draws NGO backlash - Packaging Insights",
+          "title": "How connected packaging is closing the private label gap - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14OGMtbVY5Q0xnaVFSWTNrTjhYZkpQaHZURnd0YnlGd3MySUNOdGswWVlkcDhOcnh3MjNaejF5eFA5WUREUmhfOE5DbG8wR1pqeGNxTlRCM1NnemlZUHRUWnVwb1NTZjJHcUl6cXZrOXhfV2haRXVxTEhYMVFsZzQ?oc=5",
-          "date": "2026-05-18T11:31:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2t0bTVPNWlsZFFCQUNtbWhzTXd5RmpBQ2R2Ni11M1pwSzRwNW5kb29pcFUyMWRPdlZQaHh4LUQ4VmdJTnJ0SXpiWE5uendhd2NWRzhfeFg5VmFJbWxUV3FSc2xFSmIxS21KVEEtSEVzLXdMQWpqZzVUWXFUeDJYNkhwY19PUDN2cVFQa1htWWMxeE9ROEJ5TnBrNXMyUmRaRHZfb3BUeGlldw?oc=5",
+          "date": "2026-05-19T13:31:14+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "English wineries battle ‘severe’ frost",
+          "what_changed": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/",
+          "date": "2026-05-22T08:00:41+00:00"
+        },
         {
           "title": "Quality over quantity for today’s rare whisky releases",
           "what_changed": "The market for high-end whisky has endured a tough few years, impacted by macroeconomic fragility and unsustainably high prices – but companies remain",
@@ -1239,15 +1274,6 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Italy",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Italy",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -1275,6 +1301,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Rtd trending in Italy",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Organic trending in Italy",
           "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
@@ -1289,9 +1324,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/milan-and-palermo-brewers-join-forces-to-release-a-stout/",
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/"
           ]
         },
         {
@@ -1318,9 +1353,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/milan-and-palermo-brewers-join-forces-to-release-a-stout/",
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-            "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/"
           ]
         },
         {
@@ -1338,12 +1373,12 @@
     "austria": {
       "executive_summary": [
         {
-          "headline": "FX Pichler unveils Pinot ‘passion project’",
-          "detail": "Top Austrian producer FX Pichler has made an historic shift into red wine with the launch of its first ever Pinot Noir, reports Gabriel Stone. The post FX Pichler unveils Pinot ‘passion project’ appea",
+          "headline": "English wineries battle ‘severe’ frost",
+          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/fx-pichler-unveils-pinot-passion-project/"
+            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
@@ -1380,12 +1415,12 @@
       ],
       "key_launches": [
         {
-          "title": "FX Pichler unveils Pinot ‘passion project’",
+          "title": "Herti expands business in South America",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/fx-pichler-unveils-pinot-passion-project/",
-          "date": "2026-05-20T08:00:31+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
+          "date": "2026-05-22T06:46:43+00:00"
         },
         {
           "title": "What can Canadian Icewine offer the whisky category?",
@@ -1404,20 +1439,20 @@
           "date": "2026-05-21T06:48:00+00:00"
         },
         {
-          "title": "Heineken gives Brazil debut to new beer - Just Drinks",
-          "company": "Heineken",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VZno0TnJxY2IwVWt2eG1pOVJKVE5RQTdncXRXNHpFS2xqUEV2MlRyby1PbXJLUk93a1plTE1vTWdZdHRfTXBNNUFzdm5XS25HSkhud19Pcnc5T2NQckMwb3RfdndKeEVCZ0Q5dE5ySkVFR3V5d3RrYUtn?oc=5",
-          "date": "2026-05-20T11:49:40+00:00"
-        },
-        {
           "title": "Sakura Sake Shop launches Japan’s first low-carbon sake",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/sakura-sake-shop-launches-japans-first-low-carbon-sake/",
           "date": "2026-05-20T10:12:39+00:00"
+        },
+        {
+          "title": "Drinks & More launcht Functional Water - Getränke News",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14RGhLbjZ3enpLdWVwQVhxRzlmZjliX000NUhRQ3VJQ19UY1plcThiZUs4aTV4NGppS29FOTM3Wm5oeUs4ckM1VkNHOWJVVHlQWTcwb1czeFJZdUxnRzVrN1ZJX05nM09qa2hYZEpUV3A?oc=5",
+          "date": "2026-05-19T09:15:44+00:00"
         }
       ],
       "competitor_moves": [
@@ -1460,14 +1495,21 @@
           "date": "2026-05-21T08:49:19+00:00"
         },
         {
-          "title": "PPWR’s August deadline under pressure as leaked industry letter draws NGO backlash - Packaging Insights",
+          "title": "How connected packaging is closing the private label gap - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14OGMtbVY5Q0xnaVFSWTNrTjhYZkpQaHZURnd0YnlGd3MySUNOdGswWVlkcDhOcnh3MjNaejF5eFA5WUREUmhfOE5DbG8wR1pqeGNxTlRCM1NnemlZUHRUWnVwb1NTZjJHcUl6cXZrOXhfV2haRXVxTEhYMVFsZzQ?oc=5",
-          "date": "2026-05-18T11:31:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2t0bTVPNWlsZFFCQUNtbWhzTXd5RmpBQ2R2Ni11M1pwSzRwNW5kb29pcFUyMWRPdlZQaHh4LUQ4VmdJTnJ0SXpiWE5uendhd2NWRzhfeFg5VmFJbWxUV3FSc2xFSmIxS21KVEEtSEVzLXdMQWpqZzVUWXFUeDJYNkhwY19PUDN2cVFQa1htWWMxeE9ROEJ5TnBrNXMyUmRaRHZfb3BUeGlldw?oc=5",
+          "date": "2026-05-19T13:31:14+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "English wineries battle ‘severe’ frost",
+          "what_changed": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for ",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/",
+          "date": "2026-05-22T08:00:41+00:00"
+        },
         {
           "title": "Quality over quantity for today’s rare whisky releases",
           "what_changed": "The market for high-end whisky has endured a tough few years, impacted by macroeconomic fragility and unsustainably high prices – but companies remain",
@@ -1499,15 +1541,6 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Austria",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -1522,6 +1555,15 @@
           "support_count": 2,
           "top_keywords": [
             "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -1549,7 +1591,7 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/fx-pichler-unveils-pinot-passion-project/",
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5"
           ]
@@ -1578,7 +1620,7 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/fx-pichler-unveils-pinot-passion-project/",
+            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
             "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIekpTWkwwVVRkeVRiYjFYUWJNVW9PR1lxbEZ0NllSMkFsV3FqVUJRN21BNDlyUEtwb3BmdUViaE5PRUhGRjRmc0wzRUF5SVBzRU1DdEpZUzJKYXVwczRucDBKd1VSZWNEWnh4bDZ2UElUZDFIODN4dWhhX1dLaWRsNXhBakZrZmtEWl9pMXRCTURUYy03TmxTSmlyVGk2Z2ZvSVhvckg?oc=5"
           ]
