@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-22T15:47:12.726362+00:00",
-  "generated_date": "Friday, 22 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: New Beverages: GHOST x Bubblicious, Lapo’s, Recess - BevNET.com.",
+  "generated_at": "2026-05-23T07:27:37.108141+00:00",
+  "generated_date": "Saturday, 23 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: RTD alcohol: The exciting, fast-moving, and chaotic category to watch - BeverageDaily.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
@@ -14,15 +14,15 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 139,
+      "trend": 147,
+      "launch": 42,
       "regulatory": 41,
-      "launch": 41,
-      "pricing": 39,
-      "supply_chain": 19,
+      "pricing": 33,
+      "supply_chain": 15,
       "innovation": 12,
-      "functional": 10,
-      "carbonated": 9,
+      "functional": 12,
       "competitor": 9,
+      "carbonated": 8,
       "hydration": 7
     }
   }
