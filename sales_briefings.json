@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T07:27:37.108141+00:00",
+  "generated_at": "2026-05-23T14:27:56.469967+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -89,14 +89,6 @@
       ],
       "competitor_moves": [
         {
-          "title": "StageWater Lands Exclusive Partnership with CMA Fest 2026 - BevNET.com",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlV6X0QxeFRxRWEzekEzUUVHc005VURMWmp1Wk56RE9udVVrSy12R2tEUVZKY3ZMdHdZM2lIQkxsTVViSTBqZTZZdjRqLWVHS3JRT25NdEZVSzktYmEwc2c3TEVoYlBTVzBuRUowQ0s0aVpvNGQyOHl3Ukh1UWJPeEgxMUx6MmJHeWM0SWRBb3hCT2x1QzR0TGVB?oc=5",
-          "date": "2026-05-22T02:33:48+00:00"
-        },
-        {
           "title": "WineCap appoints new head of buying",
           "company": "Unknown",
           "move_type": "competitor",
@@ -181,29 +173,20 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in United States",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "high"
-        },
-        {
           "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "carbonated"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Hydration trending in United States",
-          "explanation": "2 articles mention hydration in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in United States",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "hydration"
+            "functional"
           ],
           "confidence": "medium"
         },
@@ -217,11 +200,20 @@
           "confidence": "low"
         },
         {
-          "signal": "Energy trending in United States",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Hydration trending in United States",
+          "explanation": "1 articles mention hydration in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in United States",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -250,8 +242,8 @@
           "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMingFBVV95cUxPdzUtVG85TlF5c2p3bXJlZG5xeUJ0RW9aYlAxcUpfZW5mQ05HQXFhcldkSVZvQXkwRzVocTJOclBWN3NIcmVXY3VuSlU5U1ZVd0M1bjZKYVNkemJ2YXNmYjhEa1ppWFkxNGN5WGk0enBRbjFmSUpuWXhneGx5T2Q5TWZBTjVNT1M1SDhQRndwMXM5c3VjNnBZUlc2Ui1pdw?oc=5",
-            "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVR2VzNnVG92OE9ZZVJsQlM2S3BydWNyWDFILU9VbWd3V1ctaHVtWmRLeFduT1lZUUlXbkxhbmVENF9zcV9HTUo3UHFjWnhQQzNOT0tUb2tsc3VleVcxVjBCeWNWWEhpNUlWcDU4YjRiUUtXWnBJSWZvdlEyZjFINTlyaWxsdjhobk9iQXRzUGNNY1huNEp0cjVKSHFMNVhkVzdlOHRhazRpMXV1WUx3ZXBoU200MUFOUXhXeEFEdHI?oc=5",
-            "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPR3BpX1pEdTc2a2E2V2JmeS1tYnhsMDBZVWxsM0VBdXlYX2pucnFIcEpjbUU0cUhjYVhxZm9HcFlEcEpGRGRyQVR4YWltVHlfbEU3dmpLOFFfUms3Ym5ObVotOURPMk85V2U3VkZ2SERCMlQwYXBhcUQwM2hjWVF2OEJ6Q1EzVVduakNBVHQwdHJDYkU3Sl9sRGp1eXBsTGJTUW5zbUxuMUpjaE1hdVFZcDZiRnJxUzJzZkE2TW9faWJGVXhXcHB1S3owb2tUUU5ITGNWNldZU2t0dk1jVXdodWplTXJwRmJLMDI0?oc=5"
+            "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPR3BpX1pEdTc2a2E2V2JmeS1tYnhsMDBZVWxsM0VBdXlYX2pucnFIcEpjbUU0cUhjYVhxZm9HcFlEcEpGRGRyQVR4YWltVHlfbEU3dmpLOFFfUms3Ym5ObVotOURPMk85V2U3VkZ2SERCMlQwYXBhcUQwM2hjWVF2OEJ6Q1EzVVduakNBVHQwdHJDYkU3Sl9sRGp1eXBsTGJTUW5zbUxuMUpjaE1hdVFZcDZiRnJxUzJzZkE2TW9faWJGVXhXcHB1S3owb2tUUU5ITGNWNldZU2t0dk1jVXdodWplTXJwRmJLMDI0?oc=5",
+            "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQemRaVGotM3V4MzBncWM2akl4ek9GRWNwbXlRaHBJUjJMdUtzTzVzQ0JNVTd2Zy10ZWFJZGxqek5SVVpqSkNZTjlxSDBKT05XY05qNGVkMDk2TExPV18wNmRWYVNjcjVIdFJiMzJFSzdraElsSkp4SUZEZ2V2UFRHdC0wbUEyTl9RSllGQTZwXzhIWlA4N3Nndng3ZDRRdF9WcTVlRlFiZVVpbldybzBPeDV6WGJYQnFBV0I0My1TSFdINWZ5dnRNVjVkX2plOFEtRVE?oc=5"
           ]
         }
       ],
