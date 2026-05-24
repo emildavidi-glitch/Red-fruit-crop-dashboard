@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T07:47:03.313029+00:00",
+  "generated_at": "2026-05-24T14:23:10.547092+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -88,14 +88,6 @@
         }
       ],
       "competitor_moves": [
-        {
-          "title": "The Perfect Purée of Napa Valley Acquires Strongwater, Expanding Its Craft Offerings - BevNET.com",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTENkUE1FQmhCVDhFMm02aHRCd0lvbk11Q01ESWlCdHJtSmlpTEp0Ui1SX0pBOERfaExIVHBvSnZFblpZVjI0VF84SDNGVS03VlljUHRRbUcxbTYwMTlOVTZhS1hHME5JdGJrN0ZDWWJxOEl1NTQwOENYQWpjbUZwUHpIanc0Rno0OUtrOXFYM0lpeVE2VG1Ea0djYThjLWh5NGQ3YlEwSEN3NmVvMDdjSHpsNld1Yk1vOWthRzdTMnl2dW8?oc=5",
-          "date": "2026-05-20T18:21:05+00:00"
-        },
         {
           "title": "WineCap appoints new head of buying",
           "company": "Unknown",
@@ -208,20 +200,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Hydration trending in United States",
           "explanation": "1 articles mention hydration in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
@@ -312,10 +304,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: Kool-Aid first, Absolut expands and more… - BeverageDaily.com",
-          "detail": "New beverage launches: Kool-Aid first, Absolut expands and more… BeverageDaily.com",
+          "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
+          "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOTJpU2FyUDhCSlBBTEQtOHc0eV9RNV9KR09CV19laDBJNWJvenR0WDNBQUgyMFpaX3NFeWE1OGh0MTVDOXBLMUxUYklDY2hVYm1CX2tybS1ETi1ESWExb1lsM2d0ZWtNdWN6Rkc0cHJ1ay1IdnU5TkdmRklMMm1Oc2lXYzBkUWRjLTVHTW1VSElrQlJRQTNJTnc2NmhSZXI0QV9JWQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/indias-supreme-court-seeks-gov-response-on-plea-to-ban-tetra-pack-liquor/"
           ],
           "confidence": "medium"
         }
@@ -579,10 +571,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: Kool-Aid first, Absolut expands and more… - BeverageDaily.com",
-          "detail": "New beverage launches: Kool-Aid first, Absolut expands and more… BeverageDaily.com",
+          "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
+          "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOTJpU2FyUDhCSlBBTEQtOHc0eV9RNV9KR09CV19laDBJNWJvenR0WDNBQUgyMFpaX3NFeWE1OGh0MTVDOXBLMUxUYklDY2hVYm1CX2tybS1ETi1ESWExb1lsM2d0ZWtNdWN6Rkc0cHJ1ay1IdnU5TkdmRklMMm1Oc2lXYzBkUWRjLTVHTW1VSElrQlJRQTNJTnc2NmhSZXI0QV9JWQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/indias-supreme-court-seeks-gov-response-on-plea-to-ban-tetra-pack-liquor/"
           ],
           "confidence": "medium"
         }
@@ -846,12 +838,12 @@
           "confidence": "medium"
         },
         {
-          "headline": "English wineries battle ‘severe’ frost",
-          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
+          "headline": "Vintae signs restructuring plan to acquire Spain’s Bodegas Riojanas - Just Drinks",
+          "detail": "Vintae signs restructuring plan to acquire Spain’s Bodegas Riojanas Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdENQd2NFZ0JNeTlqLXZfRk9OUERITTBtdV9rVURuNERjQ01fazN1MXIxSVNnZ3VwRUtzWTRSWHBuZlNMWWpVSi12MW1kSXExbHVmc29fZlluSnBPd3JRUHZwVkt2d2x0cUdDYndXYVMtTi00MmhUNm5BeWFnVG5wbl9FQjN0U2U3cDlHS0NUOGtVLTJUcXlCQUgxRFhRY1ExQmc?oc=5"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -1388,10 +1380,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: Kool-Aid first, Absolut expands and more… - BeverageDaily.com",
-          "detail": "New beverage launches: Kool-Aid first, Absolut expands and more… BeverageDaily.com",
+          "headline": "India’s Supreme Court seeks gov response on plea to ban Tetra Pack spirits",
+          "detail": "The Supreme Court of India is currently evaluating a plea seeking to ban the sale of spirits in Tetra Packs and sachets, arguing that labels like “green apple vodka” or “mango vodka” are deceptive, an",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOTJpU2FyUDhCSlBBTEQtOHc0eV9RNV9KR09CV19laDBJNWJvenR0WDNBQUgyMFpaX3NFeWE1OGh0MTVDOXBLMUxUYklDY2hVYm1CX2tybS1ETi1ESWExb1lsM2d0ZWtNdWN6Rkc0cHJ1ay1IdnU5TkdmRklMMm1Oc2lXYzBkUWRjLTVHTW1VSElrQlJRQTNJTnc2NmhSZXI0QV9JWQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/indias-supreme-court-seeks-gov-response-on-plea-to-ban-tetra-pack-liquor/"
           ],
           "confidence": "medium"
         }
