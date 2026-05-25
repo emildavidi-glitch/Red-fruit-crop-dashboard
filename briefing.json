@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-25T08:52:42.115432+00:00",
+  "generated_at": "2026-05-25T15:49:20.790807+00:00",
   "generated_date": "Monday, 25 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Boal City Brewing - Hospitality and Brand Manager - BevNET.com Beverage Industry Job Listing - BevNE.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Punch Club Launches Nationwide in the U.S. Through Total Wine & More - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
     "france": "Rtd trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
+    "spain": "Rtd trending. (50 items)",
     "italy": "Rtd trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
@@ -20,10 +20,10 @@
       "pricing": 33,
       "innovation": 15,
       "supply_chain": 13,
+      "rtd": 13,
       "functional": 12,
-      "sugar_free": 10,
       "carbonated": 8,
-      "rtd": 8
+      "competitor": 8
     }
   }
 }

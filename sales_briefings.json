@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-05-25T08:52:42.115432+00:00",
+  "generated_at": "2026-05-25T15:49:20.790807+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "Punch Club Launches Nationwide in the U.S. Through Total Wine & More - BevNET.com",
+          "detail": "Punch Club Launches Nationwide in the U.S. Through Total Wine & More BevNET.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxONzZOdFk0Z3FmVjFsMzBKTjZBaG5zLTVEWm5qRzliTnZNWXU1cmJFaVI2Z1dkNXg5UGNWaVVMT0thaVpPcmowbGpPc2dTZHppbUt4S2cxZU5NU3BzV0Zwd09MWXdIYUVoZEtWUWsyb21QU1UzQldQSkFxZ25qSko3Wkt1TFF5eDBxX0ppRlRCa1FfRVBMdWVkMlF1TjIzX19GU1RVTQ?oc=5"
+          ],
+          "confidence": "high"
+        },
         {
           "headline": "‘Always, we are on high alert’: Chateau Musar on winemaking in a warzone",
           "detail": "From drone-threatened roads to uncertain harvests, Chateau Musar head winemaker Tarek Sakr discusses the realities of producing world-class wine in the shadow of war. Amelie Maurice-Jones reports. The",
@@ -35,17 +43,25 @@
             "https://www.thedrinksbusiness.com/2026/05/from-cellar-to-floor-how-training-drives-wine-sales/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "English wineries battle ‘severe’ frost",
-          "detail": "Winemakers across England are counting the cost of serious frosts, which have struck many regions repeatedly in recent weeks at a critical period for budburst. Gabriel Stone reports. The post English ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/english-wineries-battle-severe-frost/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Punch Club Launches Nationwide in the U.S. Through Total Wine & More - BevNET.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONzZOdFk0Z3FmVjFsMzBKTjZBaG5zLTVEWm5qRzliTnZNWXU1cmJFaVI2Z1dkNXg5UGNWaVVMT0thaVpPcmowbGpPc2dTZHppbUt4S2cxZU5NU3BzV0Zwd09MWXdIYUVoZEtWUWsyb21QU1UzQldQSkFxZ25qSko3Wkt1TFF5eDBxX0ppRlRCa1FfRVBMdWVkMlF1TjIzX19GU1RVTQ?oc=5",
+          "date": "2026-05-25T08:00:27+00:00"
+        },
+        {
+          "title": "Report: ATLAUA Launches Botanical Recovery Beverage for Athletes - BevNET.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNallSRVZpVmtfTHRVSjlvdGdRVkdxSTUzQ0lBZWZfUEVQdnR6ZVFGS2VWY1RQX2ZPSWhpQ28xb2dJV254QmNHSjdkNmt0NGFiSmt3UzA2ZFNpR1NSRXlBMnN5czZ6ak1CeDFGTklUM1ZSelJKbzV3SlY1SWdldXJYTWk0dVlYRlJ6OThJLUIyV0kyTU5NcHRjRlA5LXo5TEd3Nmc?oc=5",
+          "date": "2026-05-22T16:19:42+00:00"
+        },
         {
           "title": "Leftovers: Bush’s bakes apple pie-flavored beans | Slice splashes into dirty soda",
           "company": "Unknown",
@@ -69,22 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/",
           "date": "2026-05-22T06:46:43+00:00"
-        },
-        {
-          "title": "Kraft Heinz launches Jell-O line without artificial dyes",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/kraft-heinz-jello-natural-colors-artificial-dyes/820864/",
-          "date": "2026-05-21T11:03:00-04:00"
-        },
-        {
-          "title": "What can Canadian Icewine offer the whisky category?",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/what-can-canadian-icewine-offer-the-whisky-category/",
-          "date": "2026-05-21T10:45:59+00:00"
         }
       ],
       "competitor_moves": [
@@ -182,6 +182,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Rtd trending in United States",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in United States",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -191,29 +200,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Rtd trending in United States",
-          "explanation": "1 articles mention rtd in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Hydration trending in United States",
           "explanation": "1 articles mention hydration in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Energy trending in United States",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "low"
         }
@@ -223,9 +223,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.fooddive.com/news/bushs-rocket-pop-beans-slice-dirty-soda-fresca-hard/820971/",
-            "https://www.thedrinksbusiness.com/2026/05/carlsberg-malaysia-debuts-chongqing-beer-in-malaysia/",
-            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxONzZOdFk0Z3FmVjFsMzBKTjZBaG5zLTVEWm5qRzliTnZNWXU1cmJFaVI2Z1dkNXg5UGNWaVVMT0thaVpPcmowbGpPc2dTZHppbUt4S2cxZU5NU3BzV0Zwd09MWXdIYUVoZEtWUWsyb21QU1UzQldQSkFxZ25qSko3Wkt1TFF5eDBxX0ppRlRCa1FfRVBMdWVkMlF1TjIzX19GU1RVTQ?oc=5",
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxNallSRVZpVmtfTHRVSjlvdGdRVkdxSTUzQ0lBZWZfUEVQdnR6ZVFGS2VWY1RQX2ZPSWhpQ28xb2dJV254QmNHSjdkNmt0NGFiSmt3UzA2ZFNpR1NSRXlBMnN5czZ6ak1CeDFGTklUM1ZSelJKbzV3SlY1SWdldXJYTWk0dVlYRlJ6OThJLUIyV0kyTU5NcHRjRlA5LXo5TEd3Nmc?oc=5",
+            "https://www.fooddive.com/news/bushs-rocket-pop-beans-slice-dirty-soda-fresca-hard/820971/"
           ]
         },
         {
@@ -252,9 +252,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.fooddive.com/news/bushs-rocket-pop-beans-slice-dirty-soda-fresca-hard/820971/",
-            "https://www.thedrinksbusiness.com/2026/05/carlsberg-malaysia-debuts-chongqing-beer-in-malaysia/",
-            "https://www.thedrinksbusiness.com/2026/05/herti-expands-business-in-south-america/"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxONzZOdFk0Z3FmVjFsMzBKTjZBaG5zLTVEWm5qRzliTnZNWXU1cmJFaVI2Z1dkNXg5UGNWaVVMT0thaVpPcmowbGpPc2dTZHppbUt4S2cxZU5NU3BzV0Zwd09MWXdIYUVoZEtWUWsyb21QU1UzQldQSkFxZ25qSko3Wkt1TFF5eDBxX0ppRlRCa1FfRVBMdWVkMlF1TjIzX19GU1RVTQ?oc=5",
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxNallSRVZpVmtfTHRVSjlvdGdRVkdxSTUzQ0lBZWZfUEVQdnR6ZVFGS2VWY1RQX2ZPSWhpQ28xb2dJV254QmNHSjdkNmt0NGFiSmt3UzA2ZFNpR1NSRXlBMnN5czZ6ak1CeDFGTklUM1ZSelJKbzV3SlY1SWdldXJYTWk0dVlYRlJ6OThJLUIyV0kyTU5NcHRjRlA5LXo5TEd3Nmc?oc=5",
+            "https://www.fooddive.com/news/bushs-rocket-pop-beans-slice-dirty-soda-fresca-hard/820971/"
           ]
         },
         {
@@ -440,6 +440,15 @@
       ],
       "signals": [
         {
+          "signal": "Rtd trending in Germany",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in Germany",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -454,15 +463,6 @@
           "support_count": 1,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Rtd trending in Germany",
-          "explanation": "1 articles mention rtd in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "rtd"
           ],
           "confidence": "low"
         },
@@ -708,8 +708,8 @@
       "signals": [
         {
           "signal": "Rtd trending in France",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "rtd"
           ],
@@ -721,15 +721,6 @@
           "support_count": 2,
           "top_keywords": [
             "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Sugar Free trending in France",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "sugar_free"
           ],
           "confidence": "medium"
         },
@@ -748,6 +739,15 @@
           "support_count": 1,
           "top_keywords": [
             "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Organic trending in France",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
           ],
           "confidence": "low"
         }
@@ -982,20 +982,20 @@
       ],
       "signals": [
         {
+          "signal": "Rtd trending in Spain",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in Spain",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Sugar Free trending in Spain",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "sugar_free"
           ],
           "confidence": "medium"
         },
@@ -1009,20 +1009,20 @@
           "confidence": "low"
         },
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "1 articles mention rtd in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Hydration trending in Spain",
           "explanation": "1 articles mention hydration in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Organic trending in Spain",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
           ],
           "confidence": "low"
         }
@@ -1275,15 +1275,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in Italy",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Carbonated trending in Italy",
           "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
@@ -1298,6 +1289,15 @@
           "support_count": 1,
           "top_keywords": [
             "hydration"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Organic trending in Italy",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
           ],
           "confidence": "low"
         }
@@ -1524,6 +1524,15 @@
       ],
       "signals": [
         {
+          "signal": "Rtd trending in Austria",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in Austria",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -1538,15 +1547,6 @@
           "support_count": 1,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Rtd trending in Austria",
-          "explanation": "1 articles mention rtd in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "rtd"
           ],
           "confidence": "low"
         },
