@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T15:49:20.790807+00:00",
-  "generated_date": "Monday, 25 May 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Punch Club Launches Nationwide in the U.S. Through Total Wine & More - BevNET.com.",
+  "generated_at": "2026-05-26T08:28:42.131597+00:00",
+  "generated_date": "Tuesday, 26 May 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: „Produktinnovation in Glas“: Bewerbungsfrist bis zum 30. Juni 2026 verlängert - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 150,
+      "trend": 145,
+      "launch": 45,
       "regulatory": 42,
-      "launch": 37,
-      "pricing": 33,
-      "innovation": 15,
-      "supply_chain": 13,
-      "rtd": 13,
-      "functional": 12,
-      "carbonated": 8,
-      "competitor": 8
+      "pricing": 27,
+      "innovation": 17,
+      "supply_chain": 14,
+      "rtd": 12,
+      "functional": 11,
+      "competitor": 8,
+      "carbonated": 7
     }
   }
 }
