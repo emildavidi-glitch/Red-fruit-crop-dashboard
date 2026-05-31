@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T14:27:39.105319+00:00",
+  "generated_at": "2026-05-31T08:11:10.782929+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -29,20 +29,20 @@
           "confidence": "high"
         },
         {
-          "headline": "C4 Energy Turns Up Summer with New Pink Lemonade Limited-Time Flavor, Plus Two Retailer-Exclusive Seasonal Launches - BevNET.com",
-          "detail": "C4 Energy Turns Up Summer with New Pink Lemonade Limited-Time Flavor, Plus Two Retailer-Exclusive Seasonal Launches BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbnRzNl90d203YXJUOVBwNHVQSjZ5b1JzM1hOR3I2LUZRWFNLckhuVDBkTmJHNVdFVzJobFQyb3R1WjlERTYxRzFpWWdaY0wtZHZla0NGZmRCSlZWNEVnTnoyN28yc0RxY2lVa1hGMV9NbUQtckR6dmltb2tTUVM1aEJ6UHNDZVRaalN3YVJBcEN4ZFNFQmN0ak83OVRlUjFINHhJTUdIM2FYM2U2NVBnZDd1TlJ5aFhmeGhwMGVRV3BsWHUyeF9ZNGNmRXU2cnFHdXVCci1NY1JMNFN5bXZYbkZfZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "American whiskey is witnessing a sorry saga but we’ve been here before - Just Drinks",
           "detail": "American whiskey is witnessing a sorry saga but we’ve been here before Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZXBPNWhxZXllVEFBZjd2LVBueXNCMUJQNmpGYUttSldTXzNxZ19xaEM3VEtHZE01Z3Q0VHNCTDVBZnl3Q0IwRmk3Q1dkM0c0S19zeTd5SnlCdW5pTW9VT1ZaX0ZVYzBncG05b0lhOTE2YkQxRTNCbm8wMHE0Tk85Zzk1SDJ1S0hKcjJ1ckZ6STZkLUd3NV9HS3VvYjVPb1dxRk11VjVjTlA1UQ?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "C4 Energy Turns Up Summer with New Pink Lemonade Limited-Time Flavor, Plus Two Retailer-Exclusive Seasonal Launches - BevNET.com",
+          "detail": "C4 Energy Turns Up Summer with New Pink Lemonade Limited-Time Flavor, Plus Two Retailer-Exclusive Seasonal Launches BevNET.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbnRzNl90d203YXJUOVBwNHVQSjZ5b1JzM1hOR3I2LUZRWFNLckhuVDBkTmJHNVdFVzJobFQyb3R1WjlERTYxRzFpWWdaY0wtZHZla0NGZmRCSlZWNEVnTnoyN28yc0RxY2lVa1hGMV9NbUQtckR6dmltb2tTUVM1aEJ6UHNDZVRaalN3YVJBcEN4ZFNFQmN0ak83OVRlUjFINHhJTUdIM2FYM2U2NVBnZDd1TlJ5aFhmeGhwMGVRV3BsWHUyeF9ZNGNmRXU2cnFHdXVCci1NY1JMNFN5bXZYbkZfZw?oc=5"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -129,13 +129,6 @@
           "date": "2026-05-29T10:28:21+00:00"
         },
         {
-          "title": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "topic": "rtd",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5",
-          "date": "2026-05-28T13:30:53+00:00"
-        },
-        {
           "title": "UK drinks company to be liquidated after selling wine ‘off the books’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -189,15 +182,6 @@
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "4 articles mention sugar free in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Carbonated trending in United States",
           "explanation": "3 articles mention carbonated in the last 28 days",
           "support_count": 3,
@@ -207,11 +191,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in United States",
-          "explanation": "3 articles mention rtd in the last 28 days",
+          "signal": "Sugar Free trending in United States",
+          "explanation": "3 articles mention sugar free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "rtd"
+            "sugar_free"
           ],
           "confidence": "medium"
         },
@@ -225,13 +209,22 @@
           "confidence": "medium"
         },
         {
+          "signal": "Rtd trending in United States",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Hydration trending in United States",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention hydration in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "hydration"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
@@ -250,7 +243,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ],
@@ -272,7 +265,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ]
@@ -284,14 +277,6 @@
           "detail": "Alpro gratuliert Markenbotschafter Ibo zum Sieg bei Germany’s Next Topmodel about-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaDdWRXpINm9ZTjZ0ZGpyWnpPRGNhbHVGVmNNcmFicHd5Ym4xOEVyUEcwcGhodlVhTXVqWGlFazJVaEp2aUVzdVA1OE0zX1pMUU05Tnp6NUlhRkszc2RwMlM5SGYtNjFzckc5dDBNNUw3ZkRqRjN1U3NYWTdqcFV1c0xCM1RIS3BQeVByY1RwanJCTTNjUUgyTXRHMU9JdWdQY0loT3hFRQ?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Melitta invests in Germany coffee production - Just Drinks",
-          "detail": "Melitta invests in Germany coffee production Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0dIUVJOUENtYkd4WGFWQU5qamo0eENHZk95UV9hMDE1ZGlPaHlRbDlTZzJtSlJOMkZfeWMxanFwWkNPQ3Jyd1BLTFhXcVNENkx4NXQ1VjZxanhjYmZ6c2x4QUlRaVpRVlVCVnV5aDVDTTNyRmxtTGlkR2VQOFJCaA?oc=5"
           ],
           "confidence": "high"
         },
@@ -318,6 +303,14 @@
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaFNncDVKcXNxc2lUYXN5MTcyZWNKUnE0SDRJSUVHcnNDUkV5UVc3UzF3NF81YkRPa0FLSVZKRU5vRU9EMEVqLWFidGpVbmJUU1Ziazk3LVNGc1ZwUURmU1NpbHRHU04wbzJWX3hMZVlVSl9SU0o0eEVURXpQN25GcmpMN1lXNGtRMElCcTRyeVcyVWNWQVpZd19IZXBfWUt0UVpqbkJVWGlOZw?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "UK late-night venue numbers fall nearly 29% since pandemic",
+          "detail": "Britain’s late-night economy has continued to contract amid rising costs and shifting consumer habits, with new figures showing the sector has shrunk by almost 29% since March 2020. The post UK late-n",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/uk-late-night-venue-numbers-fall-nearly-29-since-pandemic/"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -346,20 +339,20 @@
           "date": "2026-05-29T07:53:51+00:00"
         },
         {
-          "title": "SACHSEN QUELLE launcht medium+ orange - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jbmNIcnhCdEZZM05PSGtZR2NSQzdVdXpZVUNaWk93TUhqOG5KU3BGTXc3ZTJnQVRDYktVb0ozdDR0YkdlWFJITHdVbklDY0lEQkpnZFJVcFYtYXRHLXZva0R4b3dzTjhRaTR1dngyd1BXZVJO?oc=5",
-          "date": "2026-05-29T01:18:45+00:00"
-        },
-        {
           "title": "Rémy expands Bruichladdich RTDs presence - Just Drinks",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtTXNYMEVEN01nYUE1dzZIZkRyVHFKRU9LeVh1OUpoWS13N0xickFSbGYtZVp5VDRiOE82cmNYYnJlTm4tZ2dLTGhQZFNUZlZZZ2ZXSE5FTkdDLUlCNmZ1YjhNYm9mTFZndW4yYXE4RzNaajNHSzRXMkh5SXR2X2M?oc=5",
           "date": "2026-05-28T12:39:31+00:00"
+        },
+        {
+          "title": "Jeroboams: ‘a modern fine wine merchant… can’t just sell people wine’",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jeroboams-a-modern-fine-wine-merchant-cant-just-sell-people-wine/",
+          "date": "2026-05-27T15:49:35+00:00"
         }
       ],
       "competitor_moves": [
@@ -396,13 +389,6 @@
           "date": "2026-05-29T10:28:21+00:00"
         },
         {
-          "title": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "topic": "rtd",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5",
-          "date": "2026-05-28T13:30:53+00:00"
-        },
-        {
           "title": "UK drinks company to be liquidated after selling wine ‘off the books’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -415,6 +401,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/japan-airlines-flight-delayed-after-cabin-attendant-tests-positive-for-alcohol/",
           "date": "2026-05-28T09:40:50+00:00"
+        },
+        {
+          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+          "date": "2026-05-26T13:50:26+00:00"
         }
       ],
       "pricing_promotions": [
@@ -440,13 +433,6 @@
           "date": "2026-05-28T10:34:44+00:00"
         },
         {
-          "title": "Förstina startet Sommer-Promotion mit Musikspiel-Prämie - about-drinks.com",
-          "what_changed": "Förstina startet Sommer-Promotion mit Musikspiel-Prämie about-drinks.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNngyUEFlZFY1dDRFTWI2UkctaHdwczR5eldTWFlHbVZudlBKWU42U1hNakl0NW9UT1hDT0VWZmg3bDlNb2puR0lta3pTbXlkWGNfVWpJb09qNTRmS2pnejdaYnBmdnR5OWgyRVl5eFlFOHY0M19UVGdjOGY4UnBuSWhwWmRqd2x1M09rV21WQnc?oc=5",
-          "date": "2026-05-28T07:40:42+00:00"
-        },
-        {
           "title": "Endeavour Group trims wine portfolio in cost-saving plan - Just Drinks",
           "what_changed": "Endeavour Group trims wine portfolio in cost-saving plan Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -455,15 +441,6 @@
         }
       ],
       "signals": [
-        {
-          "signal": "Rtd trending in Germany",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
         {
           "signal": "Sugar Free trending in Germany",
           "explanation": "3 articles mention sugar free in the last 28 days",
@@ -479,6 +456,15 @@
           "support_count": 2,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Germany",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -508,7 +494,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ],
@@ -530,7 +516,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ]
@@ -654,13 +640,6 @@
           "date": "2026-05-29T10:28:21+00:00"
         },
         {
-          "title": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "topic": "rtd",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5",
-          "date": "2026-05-28T13:30:53+00:00"
-        },
-        {
           "title": "UK drinks company to be liquidated after selling wine ‘off the books’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -673,6 +652,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/japan-airlines-flight-delayed-after-cabin-attendant-tests-positive-for-alcohol/",
           "date": "2026-05-28T09:40:50+00:00"
+        },
+        {
+          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+          "date": "2026-05-26T13:50:26+00:00"
         }
       ],
       "pricing_promotions": [
@@ -714,20 +700,20 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in France",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Sugar Free trending in France",
           "explanation": "3 articles mention sugar free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in France",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -775,7 +761,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ],
@@ -797,7 +783,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ]
@@ -929,13 +915,6 @@
           "date": "2026-05-29T10:28:21+00:00"
         },
         {
-          "title": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "topic": "rtd",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5",
-          "date": "2026-05-28T13:30:53+00:00"
-        },
-        {
           "title": "UK drinks company to be liquidated after selling wine ‘off the books’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -948,6 +927,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/japan-airlines-flight-delayed-after-cabin-attendant-tests-positive-for-alcohol/",
           "date": "2026-05-28T09:40:50+00:00"
+        },
+        {
+          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+          "date": "2026-05-26T13:50:26+00:00"
         }
       ],
       "pricing_promotions": [
@@ -982,20 +968,20 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Sugar Free trending in Spain",
           "explanation": "3 articles mention sugar free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Spain",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -1043,7 +1029,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ],
@@ -1065,7 +1051,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ]
@@ -1189,13 +1175,6 @@
           "date": "2026-05-29T10:28:21+00:00"
         },
         {
-          "title": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "topic": "rtd",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5",
-          "date": "2026-05-28T13:30:53+00:00"
-        },
-        {
           "title": "UK drinks company to be liquidated after selling wine ‘off the books’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1208,6 +1187,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/japan-airlines-flight-delayed-after-cabin-attendant-tests-positive-for-alcohol/",
           "date": "2026-05-28T09:40:50+00:00"
+        },
+        {
+          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+          "date": "2026-05-26T13:50:26+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1242,20 +1228,20 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Italy",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Sugar Free trending in Italy",
           "explanation": "3 articles mention sugar free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Italy",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -1303,7 +1289,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ],
@@ -1325,7 +1311,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ]
@@ -1365,10 +1351,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "detail": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… BeverageDaily.com",
+          "headline": "UK drinks company to be liquidated after selling wine ‘off the books’",
+          "detail": "A London wholesaler was snared by tax authority HMRC after buying more than 9,700 cases of wine \"off the books\", sparking a legal debate over whether a \"deliberate\" omission is the same as a \"dishones",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ],
           "confidence": "medium"
         }
@@ -1399,20 +1385,20 @@
           "date": "2026-05-29T07:53:51+00:00"
         },
         {
-          "title": "SACHSEN QUELLE launcht medium+ orange - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jbmNIcnhCdEZZM05PSGtZR2NSQzdVdXpZVUNaWk93TUhqOG5KU3BGTXc3ZTJnQVRDYktVb0ozdDR0YkdlWFJITHdVbklDY0lEQkpnZFJVcFYtYXRHLXZva0R4b3dzTjhRaTR1dngyd1BXZVJO?oc=5",
-          "date": "2026-05-29T01:18:45+00:00"
-        },
-        {
           "title": "Rémy expands Bruichladdich RTDs presence - Just Drinks",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtTXNYMEVEN01nYUE1dzZIZkRyVHFKRU9LeVh1OUpoWS13N0xickFSbGYtZVp5VDRiOE82cmNYYnJlTm4tZ2dLTGhQZFNUZlZZZ2ZXSE5FTkdDLUlCNmZ1YjhNYm9mTFZndW4yYXE4RzNaajNHSzRXMkh5SXR2X2M?oc=5",
           "date": "2026-05-28T12:39:31+00:00"
+        },
+        {
+          "title": "Jeroboams: ‘a modern fine wine merchant… can’t just sell people wine’",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jeroboams-a-modern-fine-wine-merchant-cant-just-sell-people-wine/",
+          "date": "2026-05-27T15:49:35+00:00"
         }
       ],
       "competitor_moves": [
@@ -1449,13 +1435,6 @@
           "date": "2026-05-29T10:28:21+00:00"
         },
         {
-          "title": "New beverage launches: Gallo Cabana, Bruichladdich RTDs and more… - BeverageDaily.com",
-          "topic": "rtd",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5",
-          "date": "2026-05-28T13:30:53+00:00"
-        },
-        {
           "title": "UK drinks company to be liquidated after selling wine ‘off the books’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1468,6 +1447,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/japan-airlines-flight-delayed-after-cabin-attendant-tests-positive-for-alcohol/",
           "date": "2026-05-28T09:40:50+00:00"
+        },
+        {
+          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+          "date": "2026-05-26T13:50:26+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1493,13 +1479,6 @@
           "date": "2026-05-28T10:34:44+00:00"
         },
         {
-          "title": "Förstina startet Sommer-Promotion mit Musikspiel-Prämie - about-drinks.com",
-          "what_changed": "Förstina startet Sommer-Promotion mit Musikspiel-Prämie about-drinks.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNngyUEFlZFY1dDRFTWI2UkctaHdwczR5eldTWFlHbVZudlBKWU42U1hNakl0NW9UT1hDT0VWZmg3bDlNb2puR0lta3pTbXlkWGNfVWpJb09qNTRmS2pnejdaYnBmdnR5OWgyRVl5eFlFOHY0M19UVGdjOGY4UnBuSWhwWmRqd2x1M09rV21WQnc?oc=5",
-          "date": "2026-05-28T07:40:42+00:00"
-        },
-        {
           "title": "Endeavour Group trims wine portfolio in cost-saving plan - Just Drinks",
           "what_changed": "Endeavour Group trims wine portfolio in cost-saving plan Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -1509,20 +1488,20 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Austria",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Sugar Free trending in Austria",
           "explanation": "3 articles mention sugar free in the last 28 days",
           "support_count": 3,
           "top_keywords": [
             "sugar_free"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Austria",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -1543,6 +1522,15 @@
             "organic"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1561,7 +1549,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ],
@@ -1583,7 +1571,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LcE9CU1hZczBHRm0wVE8tRGFIUldHTWQ1WHBnLXNCS2ZubWVYMXBoa3dXRHlqVDB6d1FSaVhxNFQ2QVh5Qmc4aGNMTTdYZ2Y2NzZpQnJ6QzhiOVkzNWVkT055ZGtsOE9RTWpVd0ZoU28wM05KTUhEMlFHUQ?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/pernod-ricards-bid-to-sell-spirits-in-new-delhi-blocked/",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVJ6dmpaLUxUSlY0bU93OHphOWZSWmdkNzd4RFZkd2NGN29HZXJGdG1WYUlpR0V2QmlMVFJGM1FrMHBObTRCMWhNQ3Nhb1NzeVZ3TGN2RGZmU19HWXZmSWV4bEhpeHNBcXFJT2U1X1FxWmtOQ2Fqd3FydThLTVhDaTluYVJtamxpV3lBa1doLTN0d0FFN1kwZy01c21OUFo1aWNmWGxkRXViQQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/uk-drinks-company-to-be-liquidated-after-selling-wine-off-the-books/"
           ]
         }
       ]
