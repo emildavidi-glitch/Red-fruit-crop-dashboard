@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T08:11:10.782929+00:00",
+  "generated_at": "2026-05-31T14:43:18.540206+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -192,8 +192,8 @@
         },
         {
           "signal": "Sugar Free trending in United States",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
@@ -297,18 +297,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "WORLD CLASS: Die besten Bartender aus Deutschland, Österreich und der Schweiz - about-drinks.com",
-          "detail": "WORLD CLASS: Die besten Bartender aus Deutschland, Österreich und der Schweiz about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaFNncDVKcXNxc2lUYXN5MTcyZWNKUnE0SDRJSUVHcnNDUkV5UVc3UzF3NF81YkRPa0FLSVZKRU5vRU9EMEVqLWFidGpVbmJUU1Ziazk3LVNGc1ZwUURmU1NpbHRHU04wbzJWX3hMZVlVSl9SU0o0eEVURXpQN25GcmpMN1lXNGtRMElCcTRyeVcyVWNWQVpZd19IZXBfWUt0UVpqbkJVWGlOZw?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "UK late-night venue numbers fall nearly 29% since pandemic",
           "detail": "Britain’s late-night economy has continued to contract amid rising costs and shifting consumer habits, with new figures showing the sector has shrunk by almost 29% since March 2020. The post UK late-n",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/uk-late-night-venue-numbers-fall-nearly-29-since-pandemic/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Demand grows for alternative wines despite barriers",
+          "detail": "Younger drinkers are driving growth in alternative wines, but limited choice, price concerns and weak engagement among older consumers continue to hold the category back, according to new IWSR researc",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/05/demand-grows-for-alternative-wines-despite-barriers/"
           ],
           "confidence": "medium"
         }
@@ -791,6 +791,14 @@
     "spain": {
       "executive_summary": [
         {
+          "headline": "Spain’s Hijos de Rivera launches Italian subsidiary - Just Drinks",
+          "detail": "Spain’s Hijos de Rivera launches Italian subsidiary Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "La Martiniquaise-Bardinet invests in Spanish liqueur company - Just Drinks",
           "detail": "La Martiniquaise-Bardinet invests in Spanish liqueur company Just Drinks",
           "evidence_urls": [
@@ -821,17 +829,17 @@
             "https://www.thedrinksbusiness.com/2026/05/uk-late-night-venue-numbers-fall-nearly-29-since-pandemic/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Demand grows for alternative wines despite barriers",
-          "detail": "Younger drinkers are driving growth in alternative wines, but limited choice, price concerns and weak engagement among older consumers continue to hold the category back, according to new IWSR researc",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/demand-grows-for-alternative-wines-despite-barriers/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Spain’s Hijos de Rivera launches Italian subsidiary - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
+          "date": "2026-05-27T13:05:29+00:00"
+        },
         {
           "title": "All (Good) Things wine brand ‘exceeds all expectations’",
           "company": "Unknown",
@@ -863,14 +871,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jeroboams-a-modern-fine-wine-merchant-cant-just-sell-people-wine/",
           "date": "2026-05-27T15:49:35+00:00"
-        },
-        {
-          "title": "Cinder team to launch second St John’s Wood venture",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/cinder-team-to-launch-second-st-johns-wood-venture/",
-          "date": "2026-05-27T10:23:58+00:00"
         }
       ],
       "competitor_moves": [
@@ -977,20 +977,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Spain",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Spain",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -1018,9 +1018,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/all-good-things-wine-brand-exceeds-all-expectations/",
-            "https://www.thedrinksbusiness.com/2026/05/weekinpictures-kylie-minogue-hits-27-million-bottles-as-poco-vino-rolls-into-hong-kong/",
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtTXNYMEVEN01nYUE1dzZIZkRyVHFKRU9LeVh1OUpoWS13N0xickFSbGYtZVp5VDRiOE82cmNYYnJlTm4tZ2dLTGhQZFNUZlZZZ2ZXSE5FTkdDLUlCNmZ1YjhNYm9mTFZndW4yYXE4RzNaajNHSzRXMkh5SXR2X2M?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/weekinpictures-kylie-minogue-hits-27-million-bottles-as-poco-vino-rolls-into-hong-kong/"
           ]
         },
         {
@@ -1039,9 +1039,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
             "https://www.thedrinksbusiness.com/2026/05/all-good-things-wine-brand-exceeds-all-expectations/",
-            "https://www.thedrinksbusiness.com/2026/05/weekinpictures-kylie-minogue-hits-27-million-bottles-as-poco-vino-rolls-into-hong-kong/",
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtTXNYMEVEN01nYUE1dzZIZkRyVHFKRU9LeVh1OUpoWS13N0xickFSbGYtZVp5VDRiOE82cmNYYnJlTm4tZ2dLTGhQZFNUZlZZZ2ZXSE5FTkdDLUlCNmZ1YjhNYm9mTFZndW4yYXE4RzNaajNHSzRXMkh5SXR2X2M?oc=5"
+            "https://www.thedrinksbusiness.com/2026/05/weekinpictures-kylie-minogue-hits-27-million-bottles-as-poco-vino-rolls-into-hong-kong/"
           ]
         },
         {
@@ -1063,6 +1063,14 @@
           "detail": "Asahi is boosting Peroni Nastro Azzurro’s presence in Canada by launching a campaign that doubles down on its Italian roots and heritage as well as reconnects the brand with the art of hosting and ent",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/canada-gets-a-taste-of-italian-style-with-new-peroni-series/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Spain’s Hijos de Rivera launches Italian subsidiary - Just Drinks",
+          "detail": "Spain’s Hijos de Rivera launches Italian subsidiary Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5"
           ],
           "confidence": "high"
         },
@@ -1089,14 +1097,6 @@
             "https://www.thedrinksbusiness.com/2026/05/uk-late-night-venue-numbers-fall-nearly-29-since-pandemic/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Demand grows for alternative wines despite barriers",
-          "detail": "Younger drinkers are driving growth in alternative wines, but limited choice, price concerns and weak engagement among older consumers continue to hold the category back, according to new IWSR researc",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/05/demand-grows-for-alternative-wines-despite-barriers/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -1107,6 +1107,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/05/canada-gets-a-taste-of-italian-style-with-new-peroni-series/",
           "date": "2026-05-29T08:59:27+00:00"
+        },
+        {
+          "title": "Spain’s Hijos de Rivera launches Italian subsidiary - Just Drinks",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
+          "date": "2026-05-27T13:05:29+00:00"
         },
         {
           "title": "All (Good) Things wine brand ‘exceeds all expectations’",
@@ -1131,14 +1139,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtTXNYMEVEN01nYUE1dzZIZkRyVHFKRU9LeVh1OUpoWS13N0xickFSbGYtZVp5VDRiOE82cmNYYnJlTm4tZ2dLTGhQZFNUZlZZZ2ZXSE5FTkdDLUlCNmZ1YjhNYm9mTFZndW4yYXE4RzNaajNHSzRXMkh5SXR2X2M?oc=5",
           "date": "2026-05-28T12:39:31+00:00"
-        },
-        {
-          "title": "Jeroboams: ‘a modern fine wine merchant… can’t just sell people wine’",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/05/jeroboams-a-modern-fine-wine-merchant-cant-just-sell-people-wine/",
-          "date": "2026-05-27T15:49:35+00:00"
         }
       ],
       "competitor_moves": [
@@ -1279,8 +1279,8 @@
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/canada-gets-a-taste-of-italian-style-with-new-peroni-series/",
-            "https://www.thedrinksbusiness.com/2026/05/all-good-things-wine-brand-exceeds-all-expectations/",
-            "https://www.thedrinksbusiness.com/2026/05/weekinpictures-kylie-minogue-hits-27-million-bottles-as-poco-vino-rolls-into-hong-kong/"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/all-good-things-wine-brand-exceeds-all-expectations/"
           ]
         },
         {
@@ -1300,8 +1300,8 @@
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/05/canada-gets-a-taste-of-italian-style-with-new-peroni-series/",
-            "https://www.thedrinksbusiness.com/2026/05/all-good-things-wine-brand-exceeds-all-expectations/",
-            "https://www.thedrinksbusiness.com/2026/05/weekinpictures-kylie-minogue-hits-27-million-bottles-as-poco-vino-rolls-into-hong-kong/"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
+            "https://www.thedrinksbusiness.com/2026/05/all-good-things-wine-brand-exceeds-all-expectations/"
           ]
         },
         {
@@ -1497,15 +1497,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Austria",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Austria",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -1515,20 +1506,20 @@
           "confidence": "medium"
         },
         {
+          "signal": "Rtd trending in Austria",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Organic trending in Austria",
           "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "organic"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         }
