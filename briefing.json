@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-03T09:22:38.335766+00:00",
+  "generated_at": "2026-06-03T17:59:17.368417+00:00",
   "generated_date": "Wednesday, 03 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Vinexpo Hong Kong holds steady as appetite for Asian markets grows.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Paradise, Popped: Slice Soda Launches All-New Pineapple Flavor - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Organic trending. (50 items)",
-    "spain": "Organic trending. (50 items)",
-    "italy": "Organic trending. (50 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Sugar Free trending. (50 items)",
+    "spain": "Sugar Free trending. (50 items)",
+    "italy": "Sugar Free trending. (50 items)",
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 188,
-      "launch": 40,
-      "supply_chain": 28,
-      "pricing": 18,
-      "regulatory": 9,
+      "trend": 165,
+      "launch": 48,
+      "supply_chain": 34,
+      "pricing": 22,
+      "sugar_free": 18,
+      "regulatory": 11,
+      "innovation": 10,
+      "rtd": 8,
       "organic": 7,
-      "retail": 7,
-      "functional": 6,
-      "innovation": 6,
-      "sugar_free": 6
+      "retail": 7
     }
   }
 }
