@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03T17:59:17.368417+00:00",
-  "generated_date": "Wednesday, 03 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Paradise, Popped: Slice Soda Launches All-New Pineapple Flavor - BevNET.com.",
+  "generated_at": "2026-06-04T08:44:22.927190+00:00",
+  "generated_date": "Thursday, 04 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Fort George Brewery - Production Cellar Lead - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 165,
-      "launch": 48,
-      "supply_chain": 34,
-      "pricing": 22,
+      "trend": 162,
+      "launch": 52,
+      "supply_chain": 32,
+      "pricing": 20,
       "sugar_free": 18,
-      "regulatory": 11,
-      "innovation": 10,
-      "rtd": 8,
-      "organic": 7,
-      "retail": 7
+      "regulatory": 12,
+      "innovation": 11,
+      "rtd": 9,
+      "carbonated": 8,
+      "organic": 7
     }
   }
 }
