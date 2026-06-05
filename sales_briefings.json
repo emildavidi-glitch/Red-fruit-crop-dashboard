@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T08:40:30.005912+00:00",
+  "generated_at": "2026-06-05T15:52:33.553163+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -9,6 +9,14 @@
           "detail": "Food assistance bans pose $830M risk to soda, candy and energy drink sales FoodNavigator-USA.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Celsius under investigation for marketing high-caffeine drinks to minors",
+          "detail": "Texas AG Ken Paxton’s review marks his latest crusade against a big CPG firm after previously targeting WK Kellogg, General Mills and Mars.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/texas-ag-investigates-celsius-for-marketing-high-caffeine-energy-drinks-to/822047/"
           ],
           "confidence": "high"
         },
@@ -29,14 +37,6 @@
           "confidence": "high"
         },
         {
-          "headline": "People: Coke North America. Constellation. 7-Eleven. Zevia. Pete Grego - Beverage-Digest",
-          "detail": "People: Coke North America. Constellation. 7-Eleven. Zevia. Pete Grego Beverage-Digest",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMjQ2aDZENVZLTkVXRHFQbzhvNE5DcUx4UVpwU2R1NXVqYjFHbWV4cUIxd25nQlR4UjBXS3MwdnVEY2s4UmpmanVEaktmUnoxZjZBMDBXX3ZCU3haMDIzcHV2S192ZXZ6YTVvVEVXbjg5UEdTVEs4R1NnZTM0YWwwNDFWV3ZpZWVYRnhLel9Dd3BQN0dSUWtEYUcyMWg5ZmpkbDNOTzNpQ0U4SV80V0tMbg?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "Briefs: Montana SNAP Soda Ban. Private Label Stalls. RBC's 10 Key Themes for CPG. KDP Trend Report. Goldman, Douglas Reunite Over Tea - Beverage-Digest",
           "detail": "Briefs: Montana SNAP Soda Ban. Private Label Stalls. RBC's 10 Key Themes for CPG. KDP Trend Report. Goldman, Douglas Reunite Over Tea Beverage-Digest",
           "evidence_urls": [
@@ -46,6 +46,30 @@
         }
       ],
       "key_launches": [
+        {
+          "title": "Popeyes launches at-home biscuits | Tom Holland’s Bero expands into shandies",
+          "company": "Unknown",
+          "product": "rtd",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.fooddive.com/news/popeyes-retail-biscuits-tom-holland-bero-shandy-jose-cuervo-tequila-canned-cocktails/822107/",
+          "date": "2026-06-05T09:34:00-04:00"
+        },
+        {
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:22:45+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
+        },
         {
           "title": "What’s on the new menu at Seed Library NYC?",
           "company": "Unknown",
@@ -61,30 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPeV9aNm9nd29oUmxPb2xpUTVlWjEyWHNwMmxBbk1DUmlRWk9oWkoxSHp4VmVTemhyOWNrQ1JjTXdIN1JDVDZxQVZVcS0yaWJCY1RGaGhBVmVuUlVVQ29RMlR0ZXRBVmFIVlpLeFV2eV9fZE11MzJsbFhnbGVTYTNSdFBBLVM1Zy15UXd0VGJkRXlVakxYY0phVmJKN0llcGFHSDN3eERjZE9WczRUZzFlT1ZncGFjUVZwUWU0RDc0d1Fka1NKbE1tSWVoc0JSbHlRZlJSai1qZUJBR0prMlpOVElXYmFzcXotRXdkeTVBdmtyS19ZNG1UWFByUHc5dw?oc=5",
           "date": "2026-06-04T15:19:36+00:00"
-        },
-        {
-          "title": "Devil's Grin Texas Gin Launches \"America's Craft Gin\" for a New Generation of Gin Drinkers - BevNET.com",
-          "company": "Unknown",
-          "product": "premium",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZFM4dEplbEtXekhTMjhsWjlKWlNrMDZmc1hSeVJYTHUteXlXSlpkSWJSMC1fS2VRSFdybFo0RG1RUlZ4WFdOWTNXdmZFUHp2dkZORVV5cEFpMTRMclk5R0JhbS1VZkZRbXFlWHVBb1FPR3FZRWE2d05jWkE1LWVmTnhzeG1IRXpXaUdnS0JwWVZ2M0FWcDJseloxOG9pZVpSWS1hT3JqQzZVbkV1aVRpd3VEYmxLMWdHZTBWTHN5OWM?oc=5",
-          "date": "2026-06-04T15:08:54+00:00"
-        },
-        {
-          "title": "So Cool Brands Launches Blueberry & Blood Orange Sports Drinks and Announces Strategic Partnership with The Daley Move Podcast - BevNET.com",
-          "company": "Unknown",
-          "product": "hydration",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSVBLWHQ4Tzc4ZnB2TXJuaVdNQ0N4NzZFeGJIeUFNeEhqbk51cXBNa2NLb3BSQjRySkk4TGlMcllNSkZDbnVCUHk0UFlISnJ6ZmFRRnZ4TnFkSFRfaFZXbmdHZ21aaDhQUTlfcUtXZU11bmpDZHpFSzR1aUdEM3RCLUNMeUw0Sk1na25mT2UwcUJRUlVQUzZWS0VmQzh1VWVjZFk2MVRuVVRoSW9WLTdvSDRLYzBSODVMMWhkUXJZNHo2NUxpQWxBd1plRDdEb2pKZnlnSU5KdnhRRDg5aDB3TXVGWUoxVW5sQVVCd2Z0YzZySWJX?oc=5",
-          "date": "2026-06-04T15:08:54+00:00"
-        },
-        {
-          "title": "Treasury cuts brands in bid to revive growth",
-          "company": "Unknown",
-          "product": "alcohol_free, premium",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
-          "date": "2026-06-04T09:49:55+00:00"
         }
       ],
       "competitor_moves": [
@@ -93,7 +93,7 @@
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTC1ZWVJOVTVNdGVuSzVRWlZyUWxMZHpqY3pvTnZUVWFTWW5fSFppRTZ3aXkxTmNSZU0wZFdLbDZibFl1ejZBZFotUFplaXhjOWdJWUNFXzlYU2tiVk1DUWhxWFJrUXdZN0gtdVZmWFNIRUFaSTl3VEltc2xfNmt6cXpWOUhpQ0dXU2xqcUdncWVJeTdDS0pUTjNYUlc2Z3VlM0UwZmRZSTZzamU4T0tEWkJmZzBYWF9RemZj?oc=5",
+          "evidence_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1dlZEJDei1JeXE1cjlyTS1BMFo3NjVIMXhXU3E5d3ZKOFVPYXR5eDlZeGZDZWV0Tk92OEc5NlFfR3Y0UTFDMW45VEFnVFJwQXlVclVTU1cxZWdiNHFiTFFqR18yamtfYVd1Rk9yeUNvcFVhZjlZU0pUQkY2SWZidHF5UzZuZHU0XzUtQnlYT1JrYW42QjFhdVpaUDRQR2lya3l6blNwQWpDRnNxZmRhbXBoeUVmTldtQWt0Yw?oc=5",
           "date": "2026-06-04T17:02:19+00:00"
         },
         {
@@ -151,25 +151,9 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/how-hospitality-can-beat-a-decade-of-rising-costs/",
           "date": "2026-06-03T09:51:48+00:00"
-        },
-        {
-          "title": "PA Malt and Brewed Beverage Industry Promotion Board Launches “PA Brews” - BevNET.com",
-          "what_changed": "PA Malt and Brewed Beverage Industry Promotion Board Launches “PA Brews” BevNET.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzNyNFZscE4xZUVNUl9BSEhzMmRYR1JvdS10Q0lfdkNJVzRkYm55TC05eWpmRHAtQmtPTjMyRTJfZFZINkNnRXVCV1RzQlZlbV9yZHhKNUhlaUpicXlxOWdYWlExTG1PdUlVV21XM19odDNPWUJXYXJLcWV2ckRjWnowM25EdlllQlBnNmY4UTFNWlQ0OFpzM3JVQmFDNHhDUHZOZEZveTZWZWc?oc=5",
-          "date": "2026-06-02T21:00:46+00:00"
         }
       ],
       "signals": [
-        {
-          "signal": "Carbonated trending in United States",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "high"
-        },
         {
           "signal": "Premium trending in United States",
           "explanation": "5 articles mention premium in the last 28 days",
@@ -180,20 +164,29 @@
           "confidence": "high"
         },
         {
-          "signal": "Rtd trending in United States",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "signal": "Energy trending in United States",
+          "explanation": "4 articles mention energy in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "rtd"
+            "energy"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Energy trending in United States",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
+          "signal": "Carbonated trending in United States",
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "energy"
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "4 articles mention rtd in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -212,9 +205,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPeV9aNm9nd29oUmxPb2xpUTVlWjEyWHNwMmxBbk1DUmlRWk9oWkoxSHp4VmVTemhyOWNrQ1JjTXdIN1JDVDZxQVZVcS0yaWJCY1RGaGhBVmVuUlVVQ29RMlR0ZXRBVmFIVlpLeFV2eV9fZE11MzJsbFhnbGVTYTNSdFBBLVM1Zy15UXd0VGJkRXlVakxYY0phVmJKN0llcGFHSDN3eERjZE9WczRUZzFlT1ZncGFjUVZwUWU0RDc0d1Fka1NKbE1tSWVoc0JSbHlRZlJSai1qZUJBR0prMlpOVElXYmFzcXotRXdkeTVBdmtyS19ZNG1UWFByUHc5dw?oc=5",
-            "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZFM4dEplbEtXekhTMjhsWjlKWlNrMDZmc1hSeVJYTHUteXlXSlpkSWJSMC1fS2VRSFdybFo0RG1RUlZ4WFdOWTNXdmZFUHp2dkZORVV5cEFpMTRMclk5R0JhbS1VZkZRbXFlWHVBb1FPR3FZRWE2d05jWkE1LWVmTnhzeG1IRXpXaUdnS0JwWVZ2M0FWcDJseloxOG9pZVpSWS1hT3JqQzZVbkV1aVRpd3VEYmxLMWdHZTBWTHN5OWM?oc=5"
+            "https://www.fooddive.com/news/popeyes-retail-biscuits-tom-holland-bero-shandy-jose-cuervo-tequila-canned-cocktails/822107/",
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
           ]
         },
         {
@@ -233,9 +226,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPeV9aNm9nd29oUmxPb2xpUTVlWjEyWHNwMmxBbk1DUmlRWk9oWkoxSHp4VmVTemhyOWNrQ1JjTXdIN1JDVDZxQVZVcS0yaWJCY1RGaGhBVmVuUlVVQ29RMlR0ZXRBVmFIVlpLeFV2eV9fZE11MzJsbFhnbGVTYTNSdFBBLVM1Zy15UXd0VGJkRXlVakxYY0phVmJKN0llcGFHSDN3eERjZE9WczRUZzFlT1ZncGFjUVZwUWU0RDc0d1Fka1NKbE1tSWVoc0JSbHlRZlJSai1qZUJBR0prMlpOVElXYmFzcXotRXdkeTVBdmtyS19ZNG1UWFByUHc5dw?oc=5",
-            "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZFM4dEplbEtXekhTMjhsWjlKWlNrMDZmc1hSeVJYTHUteXlXSlpkSWJSMC1fS2VRSFdybFo0RG1RUlZ4WFdOWTNXdmZFUHp2dkZORVV5cEFpMTRMclk5R0JhbS1VZkZRbXFlWHVBb1FPR3FZRWE2d05jWkE1LWVmTnhzeG1IRXpXaUdnS0JwWVZ2M0FWcDJseloxOG9pZVpSWS1hT3JqQzZVbkV1aVRpd3VEYmxLMWdHZTBWTHN5OWM?oc=5"
+            "https://www.fooddive.com/news/popeyes-retail-biscuits-tom-holland-bero-shandy-jose-cuervo-tequila-canned-cocktails/822107/",
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
           ]
         },
         {
@@ -253,12 +246,28 @@
     "germany": {
       "executive_summary": [
         {
-          "headline": "Maison Pommery’s shares rise on back of Henkel merger talks",
+          "headline": "Maison Pommery’s shares rise on back of Henkell merger talks",
           "detail": "Champagne house Maison Pommery & Associés saw its shares rise after the news broke that it has entered into exclusive negotiations with Henkell International which could see the German-based company b",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/maison-pommery-shares-rise-on-back-of-henkel-merger-talks/"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "detail": "PepsiCo launches Adrenaline Rush energy drinks in India Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "What’s on the new menu at Seed Library NYC?",
@@ -275,25 +284,25 @@
             "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Treasury cuts brands in bid to revive growth",
-          "detail": "Treasury Wine Estates has unveiled a sweeping overhaul of its business that will cut its brand portfolio by more than half and sharpen its focus on luxury wine. Investors welcomed the plan, sending sh",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Neuer Branchenverband BWS vereint Wein, Sekt und Spirituosen - about-drinks.com",
-          "detail": "Neuer Branchenverband BWS vereint Wein, Sekt und Spirituosen about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ0dNelVOZW1jdFY3UmY4SXJVWllNMUVtRmV1R012NUstMnM2STFTNlZrRElBVWt3eTJjMzFxeWhBV2lJYjhoSzBDWXNwOERpbU4tQjFLcnRDRVZjTnUxTHZBRjNNanAtbkhMRHBCbnIzczF1ZTJDTWlnOTJ2a2tfRzRHcXBtakFVYlJOeGRqcmdtcUk?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:22:45+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
+        },
         {
           "title": "What’s on the new menu at Seed Library NYC?",
           "company": "Unknown",
@@ -308,7 +317,7 @@
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5",
-          "date": "2026-06-05T07:51:33+00:00"
+          "date": "2026-06-05T07:52:32+00:00"
         },
         {
           "title": "Treasury cuts brands in bid to revive growth",
@@ -317,27 +326,11 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
           "date": "2026-06-04T09:49:55+00:00"
-        },
-        {
-          "title": "Tito’s Vodka embarks on first ever UK campaign",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/",
-          "date": "2026-06-03T11:24:12+00:00"
-        },
-        {
-          "title": "DRS handling fees confirmed ahead of 2027 launch",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/drs-handling-fees-confirmed-ahead-of-2027-launch/",
-          "date": "2026-06-03T09:45:12+00:00"
         }
       ],
       "competitor_moves": [
         {
-          "title": "Maison Pommery’s shares rise on back of Henkel merger talks",
+          "title": "Maison Pommery’s shares rise on back of Henkell merger talks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
@@ -381,46 +374,46 @@
       "signals": [
         {
           "signal": "Rtd trending in Germany",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention rtd in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Alcohol Free trending in Germany",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in Germany",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in Germany",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "sugar_free"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Germany",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Carbonated trending in Germany",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in Germany",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "low"
         }
@@ -430,9 +423,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -450,9 +443,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -469,6 +462,22 @@
     "france": {
       "executive_summary": [
         {
+          "headline": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "detail": "PepsiCo launches Adrenaline Rush energy drinks in India Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "What’s on the new menu at Seed Library NYC?",
           "detail": "The Manhattan sibling of the Shoreditch cocktail bar has unveiled 10 new signature serves, including a drink inspired by its East London roots. The post What’s on the new menu at Seed Library NYC? app",
           "evidence_urls": [
@@ -477,39 +486,39 @@
           "confidence": "medium"
         },
         {
-          "headline": "Treasury cuts brands in bid to revive growth",
-          "detail": "Treasury Wine Estates has unveiled a sweeping overhaul of its business that will cut its brand portfolio by more than half and sharpen its focus on luxury wine. Investors welcomed the plan, sending sh",
+          "headline": "New Zealand grain growers to build upon supply chain",
+          "detail": "Discussions around the role of New Zealand grains being used to support the domestic food and drink sector, including breweries, are ramping up this week. The post New Zealand grain growers to build u",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://www.thedrinksbusiness.com/2026/06/new-zealand-grain-growers-to-build-upon-supply-chain/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Heineken loses latest appeal in Greek beer competition battle",
-          "detail": "The Dutch Supreme Court has rejected an appeal by Heineken and its Greek subsidiary Athenian Brewery in a long-running damages dispute linked to competition law breaches in Greece. The post Heineken l",
+          "headline": "All the medallists from the Bordeaux Masters 2026",
+          "detail": "Bordeaux may have its critics, but the carping can disguise this classic region's many unique qualities – among both red and white wines, says Patrick Schmitt MW. The post All the medallists from the ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lactalis joins protein fray and bulks up via M&A - Just Drinks",
-          "detail": "Lactalis joins protein fray and bulks up via M&A Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmpxYWFyTDc2ZFdKVUl3NTB2elJuaUxXNnFXN2JOd0dVRlRldXdMUHhqUUU3eFEycTg0cFlSX2hhb2lNSjF1dXlVajBNODNDOWF3cENDTll4Zk9rOE1KOXFjaWFWNHd6SnNGS0ktSUJuMmp0cEZMNEkyNXlxcEVCb1pHWUY1WDZ0?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "How hospitality can beat a decade of rising costs",
-          "detail": "Pub, bar and restaurant owners can beat a decade of rising costs by taking “a more strategic approach” to operations and supplies, according to insight from inflation experts. The post How hospitality",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/how-hospitality-can-beat-a-decade-of-rising-costs/"
+            "https://www.thedrinksbusiness.com/2026/06/all-the-medallists-from-the-bordeaux-masters-2026/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:22:45+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
+        },
         {
           "title": "What’s on the new menu at Seed Library NYC?",
           "company": "Unknown",
@@ -533,22 +542,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/",
           "date": "2026-06-03T11:24:12+00:00"
-        },
-        {
-          "title": "DRS handling fees confirmed ahead of 2027 launch",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/drs-handling-fees-confirmed-ahead-of-2027-launch/",
-          "date": "2026-06-03T09:45:12+00:00"
-        },
-        {
-          "title": "818 Tequila kicks off summer push after Sazerac deal",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/818-tequila-kicks-off-summer-push-after-sazerac-deal/",
-          "date": "2026-06-03T08:57:03+00:00"
         }
       ],
       "competitor_moves": [
@@ -575,6 +568,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
           "date": "2026-05-26T13:50:26+00:00"
+        },
+        {
+          "title": "UAE tightens tax rules on sugary drinks: What you need to know - Gulf Business",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5",
+          "date": "2026-05-20T13:56:54+00:00"
         }
       ],
       "pricing_promotions": [
@@ -587,6 +587,15 @@
         }
       ],
       "signals": [
+        {
+          "signal": "Rtd trending in France",
+          "explanation": "4 articles mention rtd in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Alcohol Free trending in France",
           "explanation": "3 articles mention alcohol free in the last 28 days",
@@ -597,38 +606,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in France",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in France",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in France",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in France",
-          "explanation": "1 articles mention premium in the last 28 days",
+          "signal": "Energy trending in France",
+          "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in France",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
+            "energy"
           ],
           "confidence": "low"
         }
@@ -638,9 +638,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
-            "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -648,7 +648,8 @@
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5"
+            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5"
           ]
         }
       ],
@@ -658,9 +659,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
-            "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -669,13 +670,30 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5"
+            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5"
           ]
         }
       ]
     },
     "spain": {
       "executive_summary": [
+        {
+          "headline": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "detail": "PepsiCo launches Adrenaline Rush energy drinks in India Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "What’s on the new menu at Seed Library NYC?",
           "detail": "The Manhattan sibling of the Shoreditch cocktail bar has unveiled 10 new signature serves, including a drink inspired by its East London roots. The post What’s on the new menu at Seed Library NYC? app",
@@ -685,39 +703,39 @@
           "confidence": "medium"
         },
         {
-          "headline": "Treasury cuts brands in bid to revive growth",
-          "detail": "Treasury Wine Estates has unveiled a sweeping overhaul of its business that will cut its brand portfolio by more than half and sharpen its focus on luxury wine. Investors welcomed the plan, sending sh",
+          "headline": "New Zealand grain growers to build upon supply chain",
+          "detail": "Discussions around the role of New Zealand grains being used to support the domestic food and drink sector, including breweries, are ramping up this week. The post New Zealand grain growers to build u",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://www.thedrinksbusiness.com/2026/06/new-zealand-grain-growers-to-build-upon-supply-chain/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Heineken loses latest appeal in Greek beer competition battle",
-          "detail": "The Dutch Supreme Court has rejected an appeal by Heineken and its Greek subsidiary Athenian Brewery in a long-running damages dispute linked to competition law breaches in Greece. The post Heineken l",
+          "headline": "All the medallists from the Bordeaux Masters 2026",
+          "detail": "Bordeaux may have its critics, but the carping can disguise this classic region's many unique qualities – among both red and white wines, says Patrick Schmitt MW. The post All the medallists from the ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lactalis joins protein fray and bulks up via M&A - Just Drinks",
-          "detail": "Lactalis joins protein fray and bulks up via M&A Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmpxYWFyTDc2ZFdKVUl3NTB2elJuaUxXNnFXN2JOd0dVRlRldXdMUHhqUUU3eFEycTg0cFlSX2hhb2lNSjF1dXlVajBNODNDOWF3cENDTll4Zk9rOE1KOXFjaWFWNHd6SnNGS0ktSUJuMmp0cEZMNEkyNXlxcEVCb1pHWUY1WDZ0?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "How hospitality can beat a decade of rising costs",
-          "detail": "Pub, bar and restaurant owners can beat a decade of rising costs by taking “a more strategic approach” to operations and supplies, according to insight from inflation experts. The post How hospitality",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/how-hospitality-can-beat-a-decade-of-rising-costs/"
+            "https://www.thedrinksbusiness.com/2026/06/all-the-medallists-from-the-bordeaux-masters-2026/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:22:45+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
+        },
         {
           "title": "What’s on the new menu at Seed Library NYC?",
           "company": "Unknown",
@@ -741,22 +759,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/",
           "date": "2026-06-03T11:24:12+00:00"
-        },
-        {
-          "title": "DRS handling fees confirmed ahead of 2027 launch",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/drs-handling-fees-confirmed-ahead-of-2027-launch/",
-          "date": "2026-06-03T09:45:12+00:00"
-        },
-        {
-          "title": "818 Tequila kicks off summer push after Sazerac deal",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/818-tequila-kicks-off-summer-push-after-sazerac-deal/",
-          "date": "2026-06-03T08:57:03+00:00"
         }
       ],
       "competitor_moves": [
@@ -783,6 +785,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
           "date": "2026-05-26T13:50:26+00:00"
+        },
+        {
+          "title": "UAE tightens tax rules on sugary drinks: What you need to know - Gulf Business",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5",
+          "date": "2026-05-20T13:56:54+00:00"
         }
       ],
       "pricing_promotions": [
@@ -795,6 +804,15 @@
         }
       ],
       "signals": [
+        {
+          "signal": "Rtd trending in Spain",
+          "explanation": "4 articles mention rtd in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Alcohol Free trending in Spain",
           "explanation": "3 articles mention alcohol free in the last 28 days",
@@ -805,29 +823,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in Spain",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in Spain",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Spain",
-          "explanation": "1 articles mention premium in the last 28 days",
+          "signal": "Energy trending in Spain",
+          "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "premium"
+            "energy"
           ],
           "confidence": "low"
         }
@@ -837,9 +855,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
-            "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -847,7 +865,8 @@
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5"
+            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5"
           ]
         }
       ],
@@ -857,9 +876,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
-            "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -868,7 +887,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5"
+            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5"
           ]
         }
       ]
@@ -876,47 +896,63 @@
     "italy": {
       "executive_summary": [
         {
+          "headline": "Scientists to brew beer with yeast from mummified remains",
+          "detail": "Researchers have said they plan to brew beer from the yeast strains collected from the corpse of Ötzi, the man whose body was preserved in the frozen Alps of northern Italy during the Copper Age. The ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/scientists-to-brew-beer-with-yeast-from-mummified-remains/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Why Garda DOC wines are well placed to sell in the UK",
+          "detail": "Following rule changes that allow 9% ABV wines to be produced from around the shores of Italy's largest lake, Garda DOC is well placed to sell in the UK. db considers why. The post Why Garda DOC wines",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/why-garda-doc-wines-are-well-placed-to-sell-in-the-uk/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "detail": "PepsiCo launches Adrenaline Rush energy drinks in India Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "What’s on the new menu at Seed Library NYC?",
           "detail": "The Manhattan sibling of the Shoreditch cocktail bar has unveiled 10 new signature serves, including a drink inspired by its East London roots. The post What’s on the new menu at Seed Library NYC? app",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Spain’s Hijos de Rivera launches Italian subsidiary - Just Drinks",
-          "detail": "Spain’s Hijos de Rivera launches Italian subsidiary Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Treasury cuts brands in bid to revive growth",
-          "detail": "Treasury Wine Estates has unveiled a sweeping overhaul of its business that will cut its brand portfolio by more than half and sharpen its focus on luxury wine. Investors welcomed the plan, sending sh",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Heineken loses latest appeal in Greek beer competition battle",
-          "detail": "The Dutch Supreme Court has rejected an appeal by Heineken and its Greek subsidiary Athenian Brewery in a long-running damages dispute linked to competition law breaches in Greece. The post Heineken l",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lactalis joins protein fray and bulks up via M&A - Just Drinks",
-          "detail": "Lactalis joins protein fray and bulks up via M&A Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmpxYWFyTDc2ZFdKVUl3NTB2elJuaUxXNnFXN2JOd0dVRlRldXdMUHhqUUU3eFEycTg0cFlSX2hhb2lNSjF1dXlVajBNODNDOWF3cENDTll4Zk9rOE1KOXFjaWFWNHd6SnNGS0ktSUJuMmp0cEZMNEkyNXlxcEVCb1pHWUY1WDZ0?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:22:45+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
+        },
         {
           "title": "What’s on the new menu at Seed Library NYC?",
           "company": "Unknown",
@@ -924,14 +960,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
           "date": "2026-06-05T08:31:26+00:00"
-        },
-        {
-          "title": "Spain’s Hijos de Rivera launches Italian subsidiary - Just Drinks",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
-          "date": "2026-05-27T13:05:29+00:00"
         },
         {
           "title": "Treasury cuts brands in bid to revive growth",
@@ -948,14 +976,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/",
           "date": "2026-06-03T11:24:12+00:00"
-        },
-        {
-          "title": "DRS handling fees confirmed ahead of 2027 launch",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/drs-handling-fees-confirmed-ahead-of-2027-launch/",
-          "date": "2026-06-03T09:45:12+00:00"
         }
       ],
       "competitor_moves": [
@@ -982,6 +1002,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
           "date": "2026-05-26T13:50:26+00:00"
+        },
+        {
+          "title": "UAE tightens tax rules on sugary drinks: What you need to know - Gulf Business",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5",
+          "date": "2026-05-20T13:56:54+00:00"
         }
       ],
       "pricing_promotions": [
@@ -995,6 +1022,15 @@
       ],
       "signals": [
         {
+          "signal": "Rtd trending in Italy",
+          "explanation": "4 articles mention rtd in the last 28 days",
+          "support_count": 4,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Alcohol Free trending in Italy",
           "explanation": "3 articles mention alcohol free in the last 28 days",
           "support_count": 3,
@@ -1004,38 +1040,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Italy",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in Italy",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in Italy",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Italy",
-          "explanation": "1 articles mention premium in the last 28 days",
+          "signal": "Energy trending in Italy",
+          "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Carbonated trending in Italy",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
+            "energy"
           ],
           "confidence": "low"
         }
@@ -1045,9 +1072,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -1055,7 +1082,8 @@
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5"
+            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5"
           ]
         }
       ],
@@ -1065,9 +1093,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzZsS014VllnMzZIeDNZSEloM0daY0wwNWRtWEJaR3c0eDdxbjZMeU90N3lKaEZuZUcwTkhyNGZFUTJOQlpSXzVRWEM2X3lXamt1RXIxQmJOS2VPWUtNZ1oxNTUtaFVWT3E5LVJLc2hKdWlNZlNsRWs0TnUxOWM4Q3RpMVlIRHBvR01DbA?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -1076,7 +1104,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/heineken-loses-latest-appeal-in-greek-beer-competition-battle/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5"
+            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOUtNRndudjA2dWtLZmlHaVlPOGVzWlRkQm5Vd2wwVExNZnJGVlUtcmZpY0xLVExkR21xZnB6cGhabEdfVXRSZnZmRFNYc0FVcDFGYVlvWDhtcjJSYmdwVjVhVzNLQjYzaGFqeS03QlU1NlBZc1pEdVlDX1UyYWlHN1V4YXZvY0Fn?oc=5"
           ]
         }
       ]
@@ -1084,18 +1113,26 @@
     "austria": {
       "executive_summary": [
         {
-          "headline": "What’s on the new menu at Seed Library NYC?",
-          "detail": "The Manhattan sibling of the Shoreditch cocktail bar has unveiled 10 new signature serves, including a drink inspired by its East London roots. The post What’s on the new menu at Seed Library NYC? app",
+          "headline": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "detail": "PepsiCo launches Adrenaline Rush energy drinks in India Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Made to mix: Jacobs launcht Espresso Concentrate - about-drinks.com",
-          "detail": "Made to mix: Jacobs launcht Espresso Concentrate about-drinks.com",
+          "headline": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5"
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "What’s on the new menu at Seed Library NYC?",
+          "detail": "The Manhattan sibling of the Shoreditch cocktail bar has unveiled 10 new signature serves, including a drink inspired by its East London roots. The post What’s on the new menu at Seed Library NYC? app",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ],
           "confidence": "medium"
         },
@@ -1108,23 +1145,31 @@
           "confidence": "high"
         },
         {
-          "headline": "Treasury cuts brands in bid to revive growth",
-          "detail": "Treasury Wine Estates has unveiled a sweeping overhaul of its business that will cut its brand portfolio by more than half and sharpen its focus on luxury wine. Investors welcomed the plan, sending sh",
+          "headline": "Made to mix: Jacobs launcht Espresso Concentrate - about-drinks.com",
+          "detail": "Made to mix: Jacobs launcht Espresso Concentrate about-drinks.com",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Neuer Branchenverband BWS vereint Wein, Sekt und Spirituosen - about-drinks.com",
-          "detail": "Neuer Branchenverband BWS vereint Wein, Sekt und Spirituosen about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ0dNelVOZW1jdFY3UmY4SXJVWllNMUVtRmV1R012NUstMnM2STFTNlZrRElBVWt3eTJjMzFxeWhBV2lJYjhoSzBDWXNwOERpbU4tQjFLcnRDRVZjTnUxTHZBRjNNanAtbkhMRHBCbnIzczF1ZTJDTWlnOTJ2a2tfRzRHcXBtakFVYlJOeGRqcmdtcUk?oc=5"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:22:45+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
+        },
         {
           "title": "What’s on the new menu at Seed Library NYC?",
           "company": "Unknown",
@@ -1139,7 +1184,7 @@
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5",
-          "date": "2026-06-05T07:51:33+00:00"
+          "date": "2026-06-05T07:52:32+00:00"
         },
         {
           "title": "Treasury cuts brands in bid to revive growth",
@@ -1148,22 +1193,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/",
           "date": "2026-06-04T09:49:55+00:00"
-        },
-        {
-          "title": "Tito’s Vodka embarks on first ever UK campaign",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/titos-homemade-vodka-embarks-on-first-ever-uk-campaign/",
-          "date": "2026-06-03T11:24:12+00:00"
-        },
-        {
-          "title": "DRS handling fees confirmed ahead of 2027 launch",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/drs-handling-fees-confirmed-ahead-of-2027-launch/",
-          "date": "2026-06-03T09:45:12+00:00"
         }
       ],
       "competitor_moves": [
@@ -1204,46 +1233,46 @@
       "signals": [
         {
           "signal": "Rtd trending in Austria",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention rtd in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Alcohol Free trending in Austria",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in Austria",
-          "explanation": "3 articles mention sugar free in the last 28 days",
-          "support_count": 3,
+          "signal": "Premium trending in Austria",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "sugar_free"
+            "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Austria",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Carbonated trending in Austria",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in Austria",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "low"
         }
@@ -1253,9 +1282,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
@@ -1273,9 +1302,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/",
-            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFsWTlBbWtPY3ptMGtic2VvUUR6R3Vac3NFSFV0SlY5dkl2Vkl5WG0yY0RXdFVBWEZsVFlvQlFickJIZGdrRko3V0JYbXJ2OWlXSVNmSE1FRC12WG9odGl5LXFKbWxPOHRsNkRNczhoQ0I5eFpENXpJWU8yOENWQlRidw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/treasury-cuts-brands-in-bid-to-revive-growth/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/whats-on-the-new-menu-at-seed-library-nyc/"
           ]
         },
         {
