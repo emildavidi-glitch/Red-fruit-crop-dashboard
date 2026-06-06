@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T07:43:08.827424+00:00",
+  "generated_at": "2026-06-06T14:28:40.693448+00:00",
   "generated_date": "Saturday, 06 June 2026",
   "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Energy drink company Celsius faces investigation over youth marketing - FoodNavigator-USA.com.",
   "signals": {
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 165,
-      "launch": 59,
+      "trend": 173,
+      "launch": 54,
       "supply_chain": 30,
-      "rtd": 21,
+      "rtd": 20,
       "alcohol_free": 17,
+      "regulatory": 16,
       "premium": 14,
-      "regulatory": 13,
       "energy": 10,
-      "carbonated": 10,
-      "competitor": 10
+      "sugar_free": 10,
+      "innovation": 9
     }
   }
 }
