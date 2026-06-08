@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-08T09:19:53.216448+00:00",
+  "generated_at": "2026-06-08T16:47:17.104922+00:00",
   "generated_date": "Monday, 08 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Are we about to see a ‘Super El Niño’?.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Eureka Heights Brewing Company - Sales Representative - BevNET.com Beverage Industry Job Listing - B.",
   "signals": {
     "usa": "Energy trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 184,
+      "trend": 169,
       "launch": 51,
-      "supply_chain": 25,
-      "regulatory": 21,
-      "alcohol_free": 21,
-      "rtd": 20,
+      "regulatory": 24,
+      "supply_chain": 23,
       "premium": 19,
-      "energy": 10,
-      "carbonated": 9,
-      "pricing": 6
+      "alcohol_free": 18,
+      "competitor": 15,
+      "rtd": 15,
+      "energy": 11,
+      "carbonated": 10
     }
   }
 }
