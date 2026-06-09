@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-09T08:28:19.316467+00:00",
+  "generated_at": "2026-06-09T15:53:42.125775+00:00",
   "generated_date": "Tuesday, 09 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Are monovarietal wine cellars the future of hospitality?.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Black Market: 10MG Black Market THC Beverage - BevNET.com.",
   "signals": {
     "usa": "Energy trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Rtd trending. (50 items)",
-    "spain": "Rtd trending. (50 items)",
-    "italy": "Rtd trending. (50 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Sugar Free trending. (50 items)",
+    "spain": "Sugar Free trending. (50 items)",
+    "italy": "Sugar Free trending. (50 items)",
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
-      "launch": 46,
-      "supply_chain": 29,
-      "regulatory": 28,
-      "competitor": 19,
-      "pricing": 13,
-      "rtd": 13,
-      "premium": 12,
-      "energy": 11,
-      "carbonated": 9
+      "trend": 165,
+      "launch": 37,
+      "pricing": 25,
+      "regulatory": 21,
+      "supply_chain": 19,
+      "sugar_free": 13,
+      "competitor": 12,
+      "macro": 12,
+      "premium": 11,
+      "energy": 7
     }
   }
 }
