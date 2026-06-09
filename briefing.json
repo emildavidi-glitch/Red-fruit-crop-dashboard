@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-08T16:47:17.104922+00:00",
-  "generated_date": "Monday, 08 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Eureka Heights Brewing Company - Sales Representative - BevNET.com Beverage Industry Job Listing - B.",
+  "generated_at": "2026-06-09T08:28:19.316467+00:00",
+  "generated_date": "Tuesday, 09 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Are monovarietal wine cellars the future of hospitality?.",
   "signals": {
     "usa": "Energy trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Rtd trending. (50 items)",
+    "spain": "Rtd trending. (50 items)",
+    "italy": "Rtd trending. (50 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 169,
-      "launch": 51,
-      "regulatory": 24,
-      "supply_chain": 23,
-      "premium": 19,
-      "alcohol_free": 18,
-      "competitor": 15,
-      "rtd": 15,
+      "trend": 155,
+      "launch": 46,
+      "supply_chain": 29,
+      "regulatory": 28,
+      "competitor": 19,
+      "pricing": 13,
+      "rtd": 13,
+      "premium": 12,
       "energy": 11,
-      "carbonated": 10
+      "carbonated": 9
     }
   }
 }
