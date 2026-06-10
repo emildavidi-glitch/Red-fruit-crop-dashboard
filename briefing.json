@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-09T15:53:42.125775+00:00",
-  "generated_date": "Tuesday, 09 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Black Market: 10MG Black Market THC Beverage - BevNET.com.",
+  "generated_at": "2026-06-10T08:44:41.963633+00:00",
+  "generated_date": "Wednesday, 10 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Urlaubsfeeling in Paderborn: SALITOS lädt zur Beach Party - about-drinks.com.",
   "signals": {
-    "usa": "Energy trending. (50 items)",
+    "usa": "Premium trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 165,
-      "launch": 37,
+      "trend": 168,
+      "launch": 47,
       "pricing": 25,
-      "regulatory": 21,
-      "supply_chain": 19,
+      "regulatory": 22,
+      "premium": 15,
+      "supply_chain": 14,
       "sugar_free": 13,
-      "competitor": 12,
-      "macro": 12,
-      "premium": 11,
-      "energy": 7
+      "macro": 10,
+      "carbonated": 8,
+      "rtd": 8
     }
   }
 }
