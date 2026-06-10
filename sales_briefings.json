@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:44:41.963633+00:00",
+  "generated_at": "2026-06-10T16:34:44.998359+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -13,14 +13,6 @@
           "confidence": "high"
         },
         {
-          "headline": "Cove Soda Expands North American Retail Footprint with National Launch at Walmart Canada - BevNET.com",
-          "detail": "Cove Soda Expands North American Retail Footprint with National Launch at Walmart Canada BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORHlwamt6ZG1fRVRnRUVWUjRFb2JSb3I4clg3THUzVHgxcFF6OEgtQ3ZPZkdkU2twU2RXVzJkRko0WHNpY0RDYm1YcXVjaUV2Yk5PLXp3amtwdkZkZnJJcVpZVkJWLUxzbGRPVVQzWlF0UzdDMWR6NDd6RkpXNVRFcVhUMEYtMUFXNTVtLU1BejN2alhncW52aUhvaThCRnRNQVJxd21fNFZkdkhhXzZHekNaRlFndmZRSjZSbk9uWFBQb1k?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "Boylan Bottling Launches Freedom Cola: A Limited-Edition Craft Soda Celebrating 250 Years of American Independence - BevNET.com",
           "detail": "Boylan Bottling Launches Freedom Cola: A Limited-Edition Craft Soda Celebrating 250 Years of American Independence BevNET.com",
           "evidence_urls": [
@@ -29,18 +21,26 @@
           "confidence": "high"
         },
         {
-          "headline": "Lavazza claims US market “first” with coffee tabs - Just Drinks",
-          "detail": "Lavazza claims US market “first” with coffee tabs Just Drinks",
+          "headline": "World Cup offers drinks trade a much-needed boost",
+          "detail": "As the 2026 FIFA World Cup gets underway, drinks companies across the UK and North America are hoping football can help lift sales. Brewers and spirits groups are investing heavily in the tournament d",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ05ZYnNiNmJmdWVsWEttUndEQjBfTHQ1czY5Umhvd0lXZ2d4UUVMMmtJSGZiWFZESzVKTVNQazROU0hJWmpCOUZra2xBd29hcVJqLVQ0TWJ5eW8yNjhac3dvUi1hTUNVNTI0b2s2RUpqY3VqLW1lT0FvZXFHVXVwOVNKbEoxcFZ1?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/world-cup-offers-drinks-trade-a-much-needed-boost/"
           ],
           "confidence": "high"
         },
         {
-          "headline": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "detail": "Joyce Yip gets the lowdown on Justerini & Brooks' wine collection as the century-old wine merchant celebrates 50 years in Asia. The post Justerini & Brooks: Asian collectors no longer ‘satisfied with ",
+          "headline": "US RTD cocktails surge as category nears 80m cases",
+          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Tyson promotes company insider to COO",
+          "detail": "Wes Morris will oversee the company’s chicken, beef and pork businesses as it battles record cattle prices.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/tyson-wes-morris-chief-operating-officer/822484/"
           ],
           "confidence": "medium"
         }
@@ -53,14 +53,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
           "date": "2026-06-09T11:10:00-04:00"
-        },
-        {
-          "title": "Cove Soda Expands North American Retail Footprint with National Launch at Walmart Canada - BevNET.com",
-          "company": "Walmart",
-          "product": "carbonated",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORHlwamt6ZG1fRVRnRUVWUjRFb2JSb3I4clg3THUzVHgxcFF6OEgtQ3ZPZkdkU2twU2RXVzJkRko0WHNpY0RDYm1YcXVjaUV2Yk5PLXp3amtwdkZkZnJJcVpZVkJWLUxzbGRPVVQzWlF0UzdDMWR6NDd6RkpXNVRFcVhUMEYtMUFXNTVtLU1BejN2alhncW52aUhvaThCRnRNQVJxd21fNFZkdkhhXzZHekNaRlFndmZRSjZSbk9uWFBQb1k?oc=5",
-          "date": "2026-06-09T14:11:58+00:00"
         },
         {
           "title": "Boylan Bottling Launches Freedom Cola: A Limited-Edition Craft Soda Celebrating 250 Years of American Independence - BevNET.com",
@@ -85,9 +77,33 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSEFROG96UkNkMXQ3Vk1PaUpZdTFHUDNnR0xvZUJVWmVzSG9wNFJOZGJjWFdqY1ZxY2xiV3V5Z2dBbGNNWXFtdWFmT0wxcmN6QS1NSFpmRi13QVFjTGJkNENFZVdNNWR2V1VrNThfYVZpZVg1WXVZblBFazdId29oczF6ZlhpQkVfSlRpRW83M1MzVXZnb29sdi1hR0Z4c0VKZlRHeXBCd1cwWEI3ZEdkcThIbkRpNTJTTGpIUlk3c294SHduZkctdzZPeHQxOTl5WkdSZzBvSQ?oc=5",
           "date": "2026-06-09T20:53:35+00:00"
+        },
+        {
+          "title": "Navi Mocktails Launches a New Era of Elevated, Alcohol-Free Celebration with Four Chef-Created Mocktail Flavors - BevNET.com",
+          "company": "Unknown",
+          "product": "alcohol_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd21ZZHhhQnk5VUExczY5MlRMeHplVHBCZTJlS21zUWFQV2F6enJCZlpLeTM0SHVMNU9QMXM1Yk5XdzAyY3NnWkpwYVhiemw5N0VfTE5qb202SUs5SUlYS1ZqVXBLYWE2MWZPWUItWkhBUDRpVEppbUNCNkM0RG5SRnFkYndhNmw5Y0FOZThSem1xRWRRNkdmcHB0allLWGNLSk1lOEpja1l2Qk03MHdwbS1iSzBOSnFHTjJZbUhsWExsNlV0OVE3ZzZhR0RNbFVxOGphLXU5akpxNDBqZXc?oc=5",
+          "date": "2026-06-09T20:09:03+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+          "date": "2026-06-10T10:30:33+00:00"
+        },
+        {
+          "title": "Bollinger appoints Émilien Boutillat as cellar master",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
+          "date": "2026-06-10T10:17:17+00:00"
+        },
         {
           "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
           "company": "Nestlé",
@@ -99,6 +115,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "US RTD cocktails surge as category nears 80m cases",
+          "topic": "rtd",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+          "date": "2026-06-10T09:54:47+00:00"
+        },
+        {
           "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -106,35 +129,28 @@
           "date": "2026-06-09T10:19:47+00:00"
         },
         {
-          "title": "A New Operating Layer for Regulated Drinks Markets May Be Coming - BevNET.com",
-          "topic": "regulation",
+          "title": "Food assistance bans pose $830M risk to soda, candy and energy drink sales - FoodNavigator-USA.com",
+          "topic": "energy, carbonated",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDhGdlJRMExQQ1lpQ1VZVFdoVmJxS2JEMkpJY2RidEVJV290bHpYMlkxV2tHRjQzRUlmVW9Udy1xS0lqMk84eHplRzg2VWNiaU93MkRyb0tnNWZ5cUtTeEhhUVl4bExhSHo3c1NnbmY4RHVOamtXTWxFNE1tMFhzRU9tT1VzNDdYd2ZTQjFWZ0dabHBKekEyMGwtcHhYU1g0UGlF?oc=5",
-          "date": "2026-06-08T20:12:01+00:00"
-        },
-        {
-          "title": "Yah Yah Yah Enters Premium RTD Coffee with Clean-Label, Honey-Sweetened Line - BevNET.com",
-          "topic": "rtd, premium",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFdGMGlFNUtWdHZjbWwtNTFvX1dUWUVDQ0hxaHFoREdnWk1ObmoyY3NYODVZWlE2THRINUdDT2Y5cmsyd2FxRFVuc25UNlhTZWZfM2k4R0YyQ3pKZkZLNnNsWVFaZFl2ZjVBdmR1WDl0ZkpfUGZrUk5IZERUYmZhZExhTkVGZ051ME1BN09lS1FvTkkxOFI1T18yTk9TakJJemxyZWJtSHRSRDhnMm40?oc=5",
-          "date": "2026-06-08T10:29:20+00:00"
-        },
-        {
-          "title": "The next recall risk isn’t ingredients—it’s your packaging data",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.fooddive.com/spons/the-next-recall-risk-isnt-ingredientsits-your-packaging-data/821831/",
-          "date": "2026-06-08T05:00:00-04:00"
-        },
-        {
-          "title": "Why ‘latitude’ has exited the conversation",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-          "date": "2026-06-08T08:15:45+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5",
+          "date": "2026-06-03T14:05:35+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Tyson promotes company insider to COO",
+          "what_changed": "Wes Morris will oversee the company’s chicken, beef and pork businesses as it battles record cattle prices.",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.fooddive.com/news/tyson-wes-morris-chief-operating-officer/822484/",
+          "date": "2026-06-10T09:45:00-04:00"
+        },
+        {
+          "title": "DB Conference survey offers chance to win free tickets",
+          "what_changed": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
+          "date": "2026-06-10T10:26:07+00:00"
+        },
         {
           "title": "Black Market Doubles the Strength, Not the Cost With Newest Product Launch - BevNET.com",
           "what_changed": "Black Market Doubles the Strength, Not the Cost With Newest Product Launch BevNET.com",
@@ -155,20 +171,6 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/",
           "date": "2026-06-09T09:12:08+00:00"
-        },
-        {
-          "title": "Are monovarietal wine cellars the future of hospitality?",
-          "what_changed": "One prominent Athens hotel has decided to stock its wine cellar exclusively with Assyrtiko. Sarah Neish discovers why the list, which includes bottles",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
-          "date": "2026-06-09T08:25:58+00:00"
-        },
-        {
-          "title": "The Wine Society posts operating loss to protect members",
-          "what_changed": "The member-owned merchant has reported an operating loss for its latest financial year, having absorbed much of the cost of the 2024 budget rather tha",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
-          "date": "2026-06-08T10:31:07+00:00"
         }
       ],
       "signals": [
@@ -182,38 +184,38 @@
           "confidence": "high"
         },
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in United States",
-          "explanation": "3 articles mention energy in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Alcohol Free trending in United States",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "explanation": "4 articles mention alcohol free in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "2 articles mention sugar free in the last 28 days",
+          "signal": "Functional trending in United States",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "sugar_free"
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         }
@@ -224,17 +226,26 @@
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORHlwamt6ZG1fRVRnRUVWUjRFb2JSb3I4clg3THUzVHgxcFF6OEgtQ3ZPZkdkU2twU2RXVzJkRko0WHNpY0RDYm1YcXVjaUV2Yk5PLXp3amtwdkZkZnJJcVpZVkJWLUxzbGRPVVQzWlF0UzdDMWR6NDd6RkpXNVRFcVhUMEYtMUFXNTVtLU1BejN2alhncW52aUhvaThCRnRNQVJxd21fNFZkdkhhXzZHekNaRlFndmZRSjZSbk9uWFBQb1k?oc=5",
-            "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWtzaVp4M0hVUS01eG1SWTRTYVk3WVU5VVpnbUJETkZOUkpDS0dqb0lWVU4yT1ZPamVQalBFVTUzaGVSY3ZiTkU3eWpyVDZXRXJpVVVRcDd5SEEwMTh1YkxCR3ZvS21QZnAyblpQMlloNzhJVDQ0UV84RUx1bTE1VmMzWUh1bGUxc002OW5MeWp2c25MT1N2UWNzYjBRblIzaENYMzVWZkJ2aU1iLUVFVGsyay1EU3p0TGhVcVpWRnh2MXd0TG53SWxhYWc4UE1VaGN0UG5hbVk3ODM5Wi1kWWxmYw?oc=5"
+            "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWtzaVp4M0hVUS01eG1SWTRTYVk3WVU5VVpnbUJETkZOUkpDS0dqb0lWVU4yT1ZPamVQalBFVTUzaGVSY3ZiTkU3eWpyVDZXRXJpVVVRcDd5SEEwMTh1YkxCR3ZvS21QZnAyblpQMlloNzhJVDQ0UV84RUx1bTE1VmMzWUh1bGUxc002OW5MeWp2c25MT1N2UWNzYjBRblIzaENYMzVWZkJ2aU1iLUVFVGsyay1EU3p0TGhVcVpWRnh2MXd0TG53SWxhYWc4UE1VaGN0UG5hbVk3ODM5Wi1kWWxmYw?oc=5",
+            "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbHkwMVJ4M09oZkhHN281MUJVOWV5TlBtNXpHa0ZiUXVOWTdQb0pJU2VLcjg5VXFZQWdmbFRnSTN4bVB5S2t2RzdYa1d2UG1rMHByc25ISjltX3dhR3ZucWZCYW1JLXBSNHFwdDZyaXlabXByU05USW9vQTY3bXJ5eDFReW84U3F0TXROQ0xiV2Y2Mk5BanVGMjEzdTNONklSMzV5THZ0S09iRVNmaUQ3Ng?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
             "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDhGdlJRMExQQ1lpQ1VZVFdoVmJxS2JEMkpJY2RidEVJV290bHpYMlkxV2tHRjQzRUlmVW9Udy1xS0lqMk84eHplRzg2VWNiaU93MkRyb0tnNWZ5cUtTeEhhUVl4bExhSHo3c1NnbmY4RHVOamtXTWxFNE1tMFhzRU9tT1VzNDdYd2ZTQjFWZ0dabHBKekEyMGwtcHhYU1g0UGlF?oc=5",
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFdGMGlFNUtWdHZjbWwtNTFvX1dUWUVDQ0hxaHFoREdnWk1ObmoyY3NYODVZWlE2THRINUdDT2Y5cmsyd2FxRFVuc25UNlhTZWZfM2k4R0YyQ3pKZkZLNnNsWVFaZFl2ZjVBdmR1WDl0ZkpfUGZrUk5IZERUYmZhZExhTkVGZ051ME1BN09lS1FvTkkxOFI1T18yTk9TakJJemxyZWJtSHRSRDhnMm40?oc=5"
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+            "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
@@ -245,8 +256,8 @@
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-            "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORHlwamt6ZG1fRVRnRUVWUjRFb2JSb3I4clg3THUzVHgxcFF6OEgtQ3ZPZkdkU2twU2RXVzJkRko0WHNpY0RDYm1YcXVjaUV2Yk5PLXp3amtwdkZkZnJJcVpZVkJWLUxzbGRPVVQzWlF0UzdDMWR6NDd6RkpXNVRFcVhUMEYtMUFXNTVtLU1BejN2alhncW52aUhvaThCRnRNQVJxd21fNFZkdkhhXzZHekNaRlFndmZRSjZSbk9uWFBQb1k?oc=5",
-            "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWtzaVp4M0hVUS01eG1SWTRTYVk3WVU5VVpnbUJETkZOUkpDS0dqb0lWVU4yT1ZPamVQalBFVTUzaGVSY3ZiTkU3eWpyVDZXRXJpVVVRcDd5SEEwMTh1YkxCR3ZvS21QZnAyblpQMlloNzhJVDQ0UV84RUx1bTE1VmMzWUh1bGUxc002OW5MeWp2c25MT1N2UWNzYjBRblIzaENYMzVWZkJ2aU1iLUVFVGsyay1EU3p0TGhVcVpWRnh2MXd0TG53SWxhYWc4UE1VaGN0UG5hbVk3ODM5Wi1kWWxmYw?oc=5"
+            "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWtzaVp4M0hVUS01eG1SWTRTYVk3WVU5VVpnbUJETkZOUkpDS0dqb0lWVU4yT1ZPamVQalBFVTUzaGVSY3ZiTkU3eWpyVDZXRXJpVVVRcDd5SEEwMTh1YkxCR3ZvS21QZnAyblpQMlloNzhJVDQ0UV84RUx1bTE1VmMzWUh1bGUxc002OW5MeWp2c25MT1N2UWNzYjBRblIzaENYMzVWZkJ2aU1iLUVFVGsyay1EU3p0TGhVcVpWRnh2MXd0TG53SWxhYWc4UE1VaGN0UG5hbVk3ODM5Wi1kWWxmYw?oc=5",
+            "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbHkwMVJ4M09oZkhHN281MUJVOWV5TlBtNXpHa0ZiUXVOWTdQb0pJU2VLcjg5VXFZQWdmbFRnSTN4bVB5S2t2RzdYa1d2UG1rMHByc25ISjltX3dhR3ZucWZCYW1JLXBSNHFwdDZyaXlabXByU05USW9vQTY3bXJ5eDFReW84U3F0TXROQ0xiV2Y2Mk5BanVGMjEzdTNONklSMzV5THZ0S09iRVNmaUQ3Ng?oc=5"
           ]
         },
         {
@@ -254,15 +265,31 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
             "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDhGdlJRMExQQ1lpQ1VZVFdoVmJxS2JEMkpJY2RidEVJV290bHpYMlkxV2tHRjQzRUlmVW9Udy1xS0lqMk84eHplRzg2VWNiaU93MkRyb0tnNWZ5cUtTeEhhUVl4bExhSHo3c1NnbmY4RHVOamtXTWxFNE1tMFhzRU9tT1VzNDdYd2ZTQjFWZ0dabHBKekEyMGwtcHhYU1g0UGlF?oc=5",
-            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFdGMGlFNUtWdHZjbWwtNTFvX1dUWUVDQ0hxaHFoREdnWk1ObmoyY3NYODVZWlE2THRINUdDT2Y5cmsyd2FxRFVuc25UNlhTZWZfM2k4R0YyQ3pKZkZLNnNsWVFaZFl2ZjVBdmR1WDl0ZkpfUGZrUk5IZERUYmZhZExhTkVGZ051ME1BN09lS1FvTkkxOFI1T18yTk9TakJJemxyZWJtSHRSRDhnMm40?oc=5"
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5"
           ]
         }
       ]
     },
     "germany": {
       "executive_summary": [
+        {
+          "headline": "US RTD cocktails surge as category nears 80m cases",
+          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "DB Conference survey offers chance to win free tickets",
+          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "detail": "Joyce Yip gets the lowdown on Justerini & Brooks' wine collection as the century-old wine merchant celebrates 50 years in Asia. The post Justerini & Brooks: Asian collectors no longer ‘satisfied with ",
@@ -272,36 +299,20 @@
           "confidence": "medium"
         },
         {
-          "headline": "Popular Peckham pub listed for £1.2m",
-          "detail": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure to London's hospitality sector via a long-term lea",
+          "headline": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "detail": "Growing demand for low and no drinks and functional beverages is helping drive mergers and acquisitions across the global food and beverage sector, according to new industry research. The post Low and",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/"
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Enter now: The Global Pinot Grigio/Pinot Gris Masters 2026",
-          "detail": "This blind tasting competition will identify the best Pinot Gris and Pinot Grigio wines from across the globe, at every price point. From light and zesty to rich and textured, all styles are welcome i",
+          "headline": "Bollinger appoints Émilien Boutillat as cellar master",
+          "detail": "Champagne Bollinger has appointed award-winning winemaker Émilien Boutillat as its new cellar master, with the current Piper-Heidsieck chief winemaker set to join the house in October. The post Bollin",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/"
+            "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Are monovarietal wine cellars the future of hospitality?",
-          "detail": "One prominent Athens hotel has decided to stock its wine cellar exclusively with Assyrtiko. Sarah Neish discovers why the list, which includes bottles priced from €75 to €650, offers a \"liquid history",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Almdudler Deutschland übernimmt 2027 Vertrieb der Einweggebinde - about-drinks.com",
-          "detail": "Almdudler Deutschland übernimmt 2027 Vertrieb der Einweggebinde about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR0x4d05yNjZfbGc2ZmpNcDBIMVhjWFNfVkNxSTYyM2dZcFQ3dDgycTJidHI3ZkJIWEZDaTlMTXlwWHhFd2hTV3d3dno1Q3ROV1E0VXVkZy1mM2hkT0ZwS1FVblVDRFZGRHo4WThjR3BMTGl5V3JWZ2hPRjY3TUVsQU9ONWtlT0xvNFNWcFRwTVpnd0NrTktoQnJB?oc=5"
-          ],
-          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -328,25 +339,25 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRi1zV0pjcFhXOHNqOXFld0RYMXFRdEVoSjJNRXp4UHRtMDB6dHcyc0lZSG9VbEZqQnp2b2ZINHNRWXpLOWw0TXV4TVBHdnhJSlJRYlU3a2p0QzJ2NEdjckhfZGYyZE5KakdCQTlXM1hDTUVZcVlWcmxxcnU4aFRYcmQ5bEpzbFJoVmhIZ0ZIR3hsVWJWcGVBd05WVFZTZw?oc=5",
           "date": "2026-06-09T07:27:08+00:00"
-        },
-        {
-          "title": "Old Vine photography shortlist unveiled at heritage showcase",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/",
-          "date": "2026-06-08T10:15:12+00:00"
-        },
-        {
-          "title": "Will this be the most collectable pint glass of 2026?",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/will-this-be-the-most-collectable-pint-glass-of-2026/",
-          "date": "2026-06-08T09:17:19+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+          "date": "2026-06-10T10:30:33+00:00"
+        },
+        {
+          "title": "Bollinger appoints Émilien Boutillat as cellar master",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
+          "date": "2026-06-10T10:17:17+00:00"
+        },
         {
           "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
           "company": "Nestlé",
@@ -358,28 +369,28 @@
       ],
       "regulatory_watch": [
         {
+          "title": "US RTD cocktails surge as category nears 80m cases",
+          "topic": "rtd",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+          "date": "2026-06-10T09:54:47+00:00"
+        },
+        {
           "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
           "date": "2026-06-09T10:19:47+00:00"
-        },
-        {
-          "title": "Why ‘latitude’ has exited the conversation",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-          "date": "2026-06-08T08:15:45+00:00"
-        },
-        {
-          "title": "Brazilian demand gives Chilean wine a winter boost",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/",
-          "date": "2026-06-08T06:40:49+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "DB Conference survey offers chance to win free tickets",
+          "what_changed": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
+          "date": "2026-06-10T10:26:07+00:00"
+        },
         {
           "title": "Popular Peckham pub listed for £1.2m",
           "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
@@ -400,16 +411,27 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
           "date": "2026-06-09T08:25:58+00:00"
-        },
-        {
-          "title": "The Wine Society posts operating loss to protect members",
-          "what_changed": "The member-owned merchant has reported an operating loss for its latest financial year, having absorbed much of the cost of the 2024 budget rather tha",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
-          "date": "2026-06-08T10:31:07+00:00"
         }
       ],
       "signals": [
+        {
+          "signal": "Functional trending in Germany",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Sugar Free trending in Germany",
           "explanation": "2 articles mention sugar free in the last 28 days",
@@ -420,29 +442,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Germany",
-          "explanation": "2 articles mention premium in the last 28 days",
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "premium"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Germany",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "signal": "Rtd trending in Germany",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Germany",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
+            "rtd"
           ],
           "confidence": "low"
         }
@@ -450,7 +463,7 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "3 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
             "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
@@ -461,16 +474,24 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+            "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
@@ -483,9 +504,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
           ]
         }
       ]
@@ -493,12 +513,28 @@
     "france": {
       "executive_summary": [
         {
+          "headline": "US RTD cocktails surge as category nears 80m cases",
+          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Vin de France gains ground in Bordeaux",
           "detail": "An increasing number of Bordeaux producers are stepping outside appellation rules in favour of Vin de France, seeking greater freedom over grape varieties, winemaking techniques and branding. While st",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/vin-de-france-gains-ground-in-bordeaux/"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "DB Conference survey offers chance to win free tickets",
+          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
@@ -509,26 +545,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Popular Peckham pub listed for £1.2m",
-          "detail": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure to London's hospitality sector via a long-term lea",
+          "headline": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "detail": "Growing demand for low and no drinks and functional beverages is helping drive mergers and acquisitions across the global food and beverage sector, according to new industry research. The post Low and",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Enter now: The Global Pinot Grigio/Pinot Gris Masters 2026",
-          "detail": "This blind tasting competition will identify the best Pinot Gris and Pinot Grigio wines from across the globe, at every price point. From light and zesty to rich and textured, all styles are welcome i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Are monovarietal wine cellars the future of hospitality?",
-          "detail": "One prominent Athens hotel has decided to stock its wine cellar exclusively with Assyrtiko. Sarah Neish discovers why the list, which includes bottles priced from €75 to €650, offers a \"liquid history",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/"
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/"
           ],
           "confidence": "medium"
         }
@@ -551,31 +571,39 @@
           "date": "2026-06-09T09:19:34+00:00"
         },
         {
-          "title": "Old Vine photography shortlist unveiled at heritage showcase",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/",
-          "date": "2026-06-08T10:15:12+00:00"
-        },
-        {
-          "title": "Will this be the most collectable pint glass of 2026?",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/will-this-be-the-most-collectable-pint-glass-of-2026/",
-          "date": "2026-06-08T09:17:19+00:00"
-        },
-        {
           "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
           "company": "PepsiCo",
           "product": "energy",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
           "date": "2026-06-05T13:23:05+00:00"
+        },
+        {
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+          "date": "2026-06-10T10:30:33+00:00"
+        },
+        {
+          "title": "Bollinger appoints Émilien Boutillat as cellar master",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
+          "date": "2026-06-10T10:17:17+00:00"
+        },
         {
           "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
           "company": "Nestlé",
@@ -583,32 +611,40 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
           "date": "2026-06-08T12:58:24+00:00"
+        },
+        {
+          "title": "The logic in Henkell Freixenet’s interest in Pommery – and why it could presage more wine M&A - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObWU3WUozZjdjeUJ6SDVDOFdjby00TGJCWG4xR1REZWhOajl3TnRXckgydWpWSE4zdWZvUWdDeC1jREdsaWh0RnlncHUycGZnZ3pRaWZncEZwTFVwa1Vwc3pGUkF0NzJZM0lycmxYd0dnaXFxR005LVUzOS1HVGdoLTR3Q01yZHo4Q29NVkxCUHl2S00yWXM1NzhoQWtscTVnS0MwTVVkczFwOVhJM0pwV2xQZFNNbzFUemxsYWoybnZpd2lS?oc=5",
+          "date": "2026-06-05T09:42:11+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "US RTD cocktails surge as category nears 80m cases",
+          "topic": "rtd",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+          "date": "2026-06-10T09:54:47+00:00"
+        },
         {
           "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
           "date": "2026-06-09T10:19:47+00:00"
-        },
-        {
-          "title": "Why ‘latitude’ has exited the conversation",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-          "date": "2026-06-08T08:15:45+00:00"
-        },
-        {
-          "title": "Brazilian demand gives Chilean wine a winter boost",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/",
-          "date": "2026-06-08T06:40:49+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "DB Conference survey offers chance to win free tickets",
+          "what_changed": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
+          "date": "2026-06-10T10:26:07+00:00"
+        },
         {
           "title": "Popular Peckham pub listed for £1.2m",
           "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
@@ -629,29 +665,22 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
           "date": "2026-06-09T08:25:58+00:00"
-        },
-        {
-          "title": "The Wine Society posts operating loss to protect members",
-          "what_changed": "The member-owned merchant has reported an operating loss for its latest financial year, having absorbed much of the cost of the 2024 budget rather tha",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
-          "date": "2026-06-08T10:31:07+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in France",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in France",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "sugar_free"
+            "functional"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Premium trending in France",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
@@ -667,53 +696,61 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in France",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
+          "signal": "Sugar Free trending in France",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "functional"
+            "sugar_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in France",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in France — ask about shelf space for new formats",
+          "pitch": "4 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
             "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
-            "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+            "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
             "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
-            "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
           ]
         },
         {
@@ -721,9 +758,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
           ]
         }
       ]
@@ -731,12 +767,20 @@
     "spain": {
       "executive_summary": [
         {
-          "headline": "Dom Pérignon offers first taste of 2018 vintage in glittering Bilbao bash",
-          "detail": "Dom Pérignon pulled out all the stops for its annual party in Bilbao, Spain last week, delighting a starry guestlist with a performance by Tilda Swinton, and an exclusive tasting of its unreleased 201",
+          "headline": "US RTD cocktails surge as category nears 80m cases",
+          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/dom-perignon-offers-first-taste-of-2018-vintage-in-glittering-bilbao-bash/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
+        },
+        {
+          "headline": "DB Conference survey offers chance to win free tickets",
+          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
@@ -747,39 +791,23 @@
           "confidence": "medium"
         },
         {
-          "headline": "Popular Peckham pub listed for £1.2m",
-          "detail": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure to London's hospitality sector via a long-term lea",
+          "headline": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "detail": "Growing demand for low and no drinks and functional beverages is helping drive mergers and acquisitions across the global food and beverage sector, according to new industry research. The post Low and",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/"
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Enter now: The Global Pinot Grigio/Pinot Gris Masters 2026",
-          "detail": "This blind tasting competition will identify the best Pinot Gris and Pinot Grigio wines from across the globe, at every price point. From light and zesty to rich and textured, all styles are welcome i",
+          "headline": "Bollinger appoints Émilien Boutillat as cellar master",
+          "detail": "Champagne Bollinger has appointed award-winning winemaker Émilien Boutillat as its new cellar master, with the current Piper-Heidsieck chief winemaker set to join the house in October. The post Bollin",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Are monovarietal wine cellars the future of hospitality?",
-          "detail": "One prominent Athens hotel has decided to stock its wine cellar exclusively with Assyrtiko. Sarah Neish discovers why the list, which includes bottles priced from €75 to €650, offers a \"liquid history",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/"
+            "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
-        {
-          "title": "Dom Pérignon offers first taste of 2018 vintage in glittering Bilbao bash",
-          "company": "Unknown",
-          "product": "sugar_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/dom-perignon-offers-first-taste-of-2018-vintage-in-glittering-bilbao-bash/",
-          "date": "2026-06-08T10:32:15+00:00"
-        },
         {
           "title": "Bruichladdich anniversary release sells out at launch",
           "company": "Unknown",
@@ -797,23 +825,39 @@
           "date": "2026-06-09T09:19:34+00:00"
         },
         {
-          "title": "Old Vine photography shortlist unveiled at heritage showcase",
-          "company": "Unknown",
-          "product": "beverage",
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/",
-          "date": "2026-06-08T10:15:12+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:23:05+00:00"
         },
         {
-          "title": "Will this be the most collectable pint glass of 2026?",
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/will-this-be-the-most-collectable-pint-glass-of-2026/",
-          "date": "2026-06-08T09:17:19+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+          "date": "2026-06-10T10:30:33+00:00"
+        },
+        {
+          "title": "Bollinger appoints Émilien Boutillat as cellar master",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
+          "date": "2026-06-10T10:17:17+00:00"
+        },
         {
           "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
           "company": "Nestlé",
@@ -821,32 +865,40 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
           "date": "2026-06-08T12:58:24+00:00"
+        },
+        {
+          "title": "The logic in Henkell Freixenet’s interest in Pommery – and why it could presage more wine M&A - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObWU3WUozZjdjeUJ6SDVDOFdjby00TGJCWG4xR1REZWhOajl3TnRXckgydWpWSE4zdWZvUWdDeC1jREdsaWh0RnlncHUycGZnZ3pRaWZncEZwTFVwa1Vwc3pGUkF0NzJZM0lycmxYd0dnaXFxR005LVUzOS1HVGdoLTR3Q01yZHo4Q29NVkxCUHl2S00yWXM1NzhoQWtscTVnS0MwTVVkczFwOVhJM0pwV2xQZFNNbzFUemxsYWoybnZpd2lS?oc=5",
+          "date": "2026-06-05T09:42:11+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "US RTD cocktails surge as category nears 80m cases",
+          "topic": "rtd",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+          "date": "2026-06-10T09:54:47+00:00"
+        },
         {
           "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
           "date": "2026-06-09T10:19:47+00:00"
-        },
-        {
-          "title": "Why ‘latitude’ has exited the conversation",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-          "date": "2026-06-08T08:15:45+00:00"
-        },
-        {
-          "title": "Brazilian demand gives Chilean wine a winter boost",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/",
-          "date": "2026-06-08T06:40:49+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "DB Conference survey offers chance to win free tickets",
+          "what_changed": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
+          "date": "2026-06-10T10:26:07+00:00"
+        },
         {
           "title": "Popular Peckham pub listed for £1.2m",
           "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
@@ -867,29 +919,22 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
           "date": "2026-06-09T08:25:58+00:00"
-        },
-        {
-          "title": "The Wine Society posts operating loss to protect members",
-          "what_changed": "The member-owned merchant has reported an operating loss for its latest financial year, having absorbed much of the cost of the 2024 budget rather tha",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
-          "date": "2026-06-08T10:31:07+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in Spain",
-          "explanation": "3 articles mention sugar free in the last 28 days",
+          "signal": "Functional trending in Spain",
+          "explanation": "3 articles mention functional in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "sugar_free"
+            "functional"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Premium trending in Spain",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
@@ -905,53 +950,61 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in Spain",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
+          "signal": "Sugar Free trending in Spain",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "functional"
+            "sugar_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in Spain",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/dom-perignon-offers-first-taste-of-2018-vintage-in-glittering-bilbao-bash/",
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
-            "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/"
+            "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+            "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/dom-perignon-offers-first-taste-of-2018-vintage-in-glittering-bilbao-bash/",
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
-            "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/"
+            "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5"
           ]
         },
         {
@@ -959,9 +1012,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
           ]
         }
       ]
@@ -977,34 +1029,34 @@
           "confidence": "high"
         },
         {
+          "headline": "Italy wine groups agree to lower production - Just Drinks",
+          "detail": "Italy wine groups agree to lower production Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6bFpteUFDdlJCYTl4YTIxNk0yckhhaDRQYVlJNFdtcnU2Q25pZzFLckFRMUtNbEhyanE2U1NPSC1qRER3UHNIbnJFQ0FnQllwb3ItZk11RDU1U0ZLb3k5UWFkdU1RVW9obEdTQWo0a1hQM00xaGVJ?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "US RTD cocktails surge as category nears 80m cases",
+          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "DB Conference survey offers chance to win free tickets",
+          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "detail": "Joyce Yip gets the lowdown on Justerini & Brooks' wine collection as the century-old wine merchant celebrates 50 years in Asia. The post Justerini & Brooks: Asian collectors no longer ‘satisfied with ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Popular Peckham pub listed for £1.2m",
-          "detail": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure to London's hospitality sector via a long-term lea",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Enter now: The Global Pinot Grigio/Pinot Gris Masters 2026",
-          "detail": "This blind tasting competition will identify the best Pinot Gris and Pinot Grigio wines from across the globe, at every price point. From light and zesty to rich and textured, all styles are welcome i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Are monovarietal wine cellars the future of hospitality?",
-          "detail": "One prominent Athens hotel has decided to stock its wine cellar exclusively with Assyrtiko. Sarah Neish discovers why the list, which includes bottles priced from €75 to €650, offers a \"liquid history",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/"
           ],
           "confidence": "medium"
         }
@@ -1035,23 +1087,39 @@
           "date": "2026-06-09T09:19:34+00:00"
         },
         {
-          "title": "Old Vine photography shortlist unveiled at heritage showcase",
-          "company": "Unknown",
-          "product": "beverage",
+          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
+          "company": "PepsiCo",
+          "product": "energy",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/",
-          "date": "2026-06-08T10:15:12+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
+          "date": "2026-06-05T13:23:05+00:00"
         },
         {
-          "title": "Will this be the most collectable pint glass of 2026?",
+          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/will-this-be-the-most-collectable-pint-glass-of-2026/",
-          "date": "2026-06-08T09:17:19+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
+          "date": "2026-06-05T08:36:38+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+          "date": "2026-06-10T10:30:33+00:00"
+        },
+        {
+          "title": "Bollinger appoints Émilien Boutillat as cellar master",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
+          "date": "2026-06-10T10:17:17+00:00"
+        },
         {
           "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
           "company": "Nestlé",
@@ -1059,32 +1127,40 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
           "date": "2026-06-08T12:58:24+00:00"
+        },
+        {
+          "title": "The logic in Henkell Freixenet’s interest in Pommery – and why it could presage more wine M&A - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObWU3WUozZjdjeUJ6SDVDOFdjby00TGJCWG4xR1REZWhOajl3TnRXckgydWpWSE4zdWZvUWdDeC1jREdsaWh0RnlncHUycGZnZ3pRaWZncEZwTFVwa1Vwc3pGUkF0NzJZM0lycmxYd0dnaXFxR005LVUzOS1HVGdoLTR3Q01yZHo4Q29NVkxCUHl2S00yWXM1NzhoQWtscTVnS0MwTVVkczFwOVhJM0pwV2xQZFNNbzFUemxsYWoybnZpd2lS?oc=5",
+          "date": "2026-06-05T09:42:11+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "US RTD cocktails surge as category nears 80m cases",
+          "topic": "rtd",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+          "date": "2026-06-10T09:54:47+00:00"
+        },
         {
           "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
           "date": "2026-06-09T10:19:47+00:00"
-        },
-        {
-          "title": "Why ‘latitude’ has exited the conversation",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-          "date": "2026-06-08T08:15:45+00:00"
-        },
-        {
-          "title": "Brazilian demand gives Chilean wine a winter boost",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/",
-          "date": "2026-06-08T06:40:49+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "DB Conference survey offers chance to win free tickets",
+          "what_changed": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
+          "date": "2026-06-10T10:26:07+00:00"
+        },
         {
           "title": "Popular Peckham pub listed for £1.2m",
           "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
@@ -1105,29 +1181,22 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
           "date": "2026-06-09T08:25:58+00:00"
-        },
-        {
-          "title": "The Wine Society posts operating loss to protect members",
-          "what_changed": "The member-owned merchant has reported an operating loss for its latest financial year, having absorbed much of the cost of the 2024 budget rather tha",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
-          "date": "2026-06-08T10:31:07+00:00"
         }
       ],
       "signals": [
         {
-          "signal": "Sugar Free trending in Italy",
-          "explanation": "2 articles mention sugar free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in Italy",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "sugar_free"
+            "functional"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Premium trending in Italy",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
@@ -1143,22 +1212,22 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in Italy",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
+          "signal": "Sugar Free trending in Italy",
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "functional"
+            "sugar_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in Italy",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
@@ -1175,9 +1244,17 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+            "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
@@ -1197,15 +1274,30 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
           ]
         }
       ]
     },
     "austria": {
       "executive_summary": [
+        {
+          "headline": "US RTD cocktails surge as category nears 80m cases",
+          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "DB Conference survey offers chance to win free tickets",
+          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "detail": "Joyce Yip gets the lowdown on Justerini & Brooks' wine collection as the century-old wine merchant celebrates 50 years in Asia. The post Justerini & Brooks: Asian collectors no longer ‘satisfied with ",
@@ -1215,34 +1307,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Popular Peckham pub listed for £1.2m",
-          "detail": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure to London's hospitality sector via a long-term lea",
+          "headline": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "detail": "Growing demand for low and no drinks and functional beverages is helping drive mergers and acquisitions across the global food and beverage sector, according to new industry research. The post Low and",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/"
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Enter now: The Global Pinot Grigio/Pinot Gris Masters 2026",
-          "detail": "This blind tasting competition will identify the best Pinot Gris and Pinot Grigio wines from across the globe, at every price point. From light and zesty to rich and textured, all styles are welcome i",
+          "headline": "Bollinger appoints Émilien Boutillat as cellar master",
+          "detail": "Champagne Bollinger has appointed award-winning winemaker Émilien Boutillat as its new cellar master, with the current Piper-Heidsieck chief winemaker set to join the house in October. The post Bollin",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Are monovarietal wine cellars the future of hospitality?",
-          "detail": "One prominent Athens hotel has decided to stock its wine cellar exclusively with Assyrtiko. Sarah Neish discovers why the list, which includes bottles priced from €75 to €650, offers a \"liquid history",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Bruichladdich anniversary release sells out at launch",
-          "detail": "Bruichladdich's latest whisky sold out before its London launch event had finished. Guests were handed empty gift bags, \"which may have been an oversight, a triumph or the most honest luxury activatio",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/"
+            "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/"
           ],
           "confidence": "medium"
         }
@@ -1271,25 +1347,25 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRi1zV0pjcFhXOHNqOXFld0RYMXFRdEVoSjJNRXp4UHRtMDB6dHcyc0lZSG9VbEZqQnp2b2ZINHNRWXpLOWw0TXV4TVBHdnhJSlJRYlU3a2p0QzJ2NEdjckhfZGYyZE5KakdCQTlXM1hDTUVZcVlWcmxxcnU4aFRYcmQ5bEpzbFJoVmhIZ0ZIR3hsVWJWcGVBd05WVFZTZw?oc=5",
           "date": "2026-06-09T07:27:08+00:00"
-        },
-        {
-          "title": "Old Vine photography shortlist unveiled at heritage showcase",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/",
-          "date": "2026-06-08T10:15:12+00:00"
-        },
-        {
-          "title": "Will this be the most collectable pint glass of 2026?",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/will-this-be-the-most-collectable-pint-glass-of-2026/",
-          "date": "2026-06-08T09:17:19+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+          "date": "2026-06-10T10:30:33+00:00"
+        },
+        {
+          "title": "Bollinger appoints Émilien Boutillat as cellar master",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
+          "date": "2026-06-10T10:17:17+00:00"
+        },
         {
           "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
           "company": "Nestlé",
@@ -1301,28 +1377,28 @@
       ],
       "regulatory_watch": [
         {
+          "title": "US RTD cocktails surge as category nears 80m cases",
+          "topic": "rtd",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+          "date": "2026-06-10T09:54:47+00:00"
+        },
+        {
           "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
           "date": "2026-06-09T10:19:47+00:00"
-        },
-        {
-          "title": "Why ‘latitude’ has exited the conversation",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-          "date": "2026-06-08T08:15:45+00:00"
-        },
-        {
-          "title": "Brazilian demand gives Chilean wine a winter boost",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/",
-          "date": "2026-06-08T06:40:49+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "DB Conference survey offers chance to win free tickets",
+          "what_changed": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
+          "date": "2026-06-10T10:26:07+00:00"
+        },
         {
           "title": "Popular Peckham pub listed for £1.2m",
           "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
@@ -1343,16 +1419,27 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
           "date": "2026-06-09T08:25:58+00:00"
-        },
-        {
-          "title": "The Wine Society posts operating loss to protect members",
-          "what_changed": "The member-owned merchant has reported an operating loss for its latest financial year, having absorbed much of the cost of the 2024 budget rather tha",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
-          "date": "2026-06-08T10:31:07+00:00"
         }
       ],
       "signals": [
+        {
+          "signal": "Functional trending in Austria",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Sugar Free trending in Austria",
           "explanation": "2 articles mention sugar free in the last 28 days",
@@ -1363,38 +1450,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Austria",
-          "explanation": "2 articles mention premium in the last 28 days",
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "premium"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Austria",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "signal": "Rtd trending in Austria",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Austria",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
+            "rtd"
           ],
           "confidence": "low"
         }
@@ -1402,7 +1471,7 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "3 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
             "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
@@ -1413,16 +1482,24 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+            "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
@@ -1435,9 +1512,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-            "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
-            "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/"
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
           ]
         }
       ]

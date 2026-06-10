@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-10T08:44:41.963633+00:00",
+  "generated_at": "2026-06-10T16:34:44.998359+00:00",
   "generated_date": "Wednesday, 10 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Urlaubsfeeling in Paderborn: SALITOS lädt zur Beach Party - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Do baijiu’s powerful brands promise global potential? - BeverageDaily.com.",
   "signals": {
     "usa": "Premium trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
-    "france": "Sugar Free trending. (50 items)",
-    "spain": "Sugar Free trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (50 items)",
+    "spain": "Functional trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 168,
-      "launch": 47,
-      "pricing": 25,
-      "regulatory": 22,
-      "premium": 15,
-      "supply_chain": 14,
-      "sugar_free": 13,
-      "macro": 10,
-      "carbonated": 8,
-      "rtd": 8
+      "launch": 30,
+      "pricing": 27,
+      "competitor": 21,
+      "premium": 20,
+      "functional": 18,
+      "supply_chain": 15,
+      "alcohol_free": 14,
+      "regulatory": 13,
+      "retail": 13
     }
   }
 }
