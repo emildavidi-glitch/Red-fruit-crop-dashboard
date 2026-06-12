@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-06-12T08:54:41.437209+00:00",
+  "generated_at": "2026-06-12T16:15:48.785841+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
         {
-          "headline": "Lavazza launches single-serve coffee pods without packaging",
-          "detail": "Tablì brings a first-to-market product to the U.S. and is a key point of the Italian company’s growth strategy in North America.",
+          "headline": "Leftovers: Svedka dips into vodka water | Magic Spoon expands with oatmeal",
+          "detail": "The alcohol maker said it's introduced a \"category-first innovation\" with a transparent can, while Italian gelato brand Sammontana grows its U.S. presence with a slate of new desserts.",
           "evidence_urls": [
-            "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/"
+            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/"
           ],
           "confidence": "high"
         },
         {
-          "headline": "More consumers checking nutrition labels for protein",
-          "detail": "Shoppers are increasingly looking for a broader range of information in labels beyond just ingredients to avoid, according to the International Food Information Council.",
+          "headline": "The medal-winning wines from The Global Rosé Masters 2026",
+          "detail": "If you want to know who is making the best pink wine right now, then read on to see the medal winners from this year's Global Rosé Masters, taking in the latest vintages of famous brands, as well as l",
           "evidence_urls": [
-            "https://www.fooddive.com/news/food-nutrition-labels-ingredient-list-consumer-study/822672/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "detail": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5"
           ],
           "confidence": "medium"
         },
@@ -29,30 +37,38 @@
           "confidence": "high"
         },
         {
-          "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
-          "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
+          "headline": "Vegg White foams at the bit as it launches in new territories",
+          "detail": "The vegan alternate to egg white-based cocktails partners with Nimbility to expand across the Asia-Pacific region. Rebecca Lo reports. The post Vegg White foams at the bit as it launches in new territ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Urban Roots Brewing - Brewer - Shift Brewer - BevNET.com Beverage Industry Job Listing - BevNET.com",
-          "detail": "Urban Roots Brewing - Brewer - Shift Brewer - BevNET.com Beverage Industry Job Listing BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qS2lUaGNXLV9PWDFNdS1yTUVhM3JrVERfajZSSFNyR01LUDNxOXVUa3ZZMXRoamlhT1REZ3BQR0U4WkQxNklYVEx4Sk93QXFSZGNwd0dNdkx3Nlc3LTItZXplVG05UFN2eDhJZm1Vb1RLOWpESmsyVGxDSTllUQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
         {
-          "title": "Lavazza launches single-serve coffee pods without packaging",
+          "title": "Leftovers: Svedka dips into vodka water | Magic Spoon expands with oatmeal",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-          "date": "2026-06-09T11:10:00-04:00"
+          "evidence_url": "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
+          "date": "2026-06-12T10:44:00-04:00"
+        },
+        {
+          "title": "Vegg White foams at the bit as it launches in new territories",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+          "date": "2026-06-12T10:32:54+00:00"
+        },
+        {
+          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+          "date": "2026-06-12T08:59:11+00:00"
         },
         {
           "title": "Former Wines of South Africa UK team launch WineWorks Studio",
@@ -63,39 +79,15 @@
           "date": "2026-06-12T08:37:25+00:00"
         },
         {
-          "title": "Canovation and CANPACK Formalize Collaboration to Accelerate CanReseal Toward Commercial Launch - BevNET.com",
+          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYmd1UjBYVnE5dkZ5WDV6VnVKLUVzUkJsa0pfLTZkLXEtODdPYzRLSy13Y1U1WUR0d2Y3M3NPRTA5RHNQU1NDSXBCT3NJdWdEVkNRLXhkb0V2akZQV1lvNVBiVkFyU2s3WjAwOGZwcWxPWkJsSmlNQkFTWXh2SUZ1V3JTRUdkSV9EZWJZSnZNNGJRb1RBUWZYQldrNXhsd3I4eXMzWHBITzNzZktvRlJKeEF3U3ViQjBSZk10bnRXYTBBYXRYM3ZXQVBYenM?oc=5",
-          "date": "2026-06-10T21:53:55+00:00"
-        },
-        {
-          "title": "Tom Brady, Gopuff launch exclusive coconut water",
-          "company": "Unknown",
-          "product": "carbonated",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/tom-brady-good-nut-coconut-water-gopuff/822552/",
-          "date": "2026-06-10T15:24:00-04:00"
-        },
-        {
-          "title": "Sold-Out Spark Pavilion, Interactive Fancy Bodega Elevate New Product Discovery at the 2026 Summer Fancy Food Show - BevNET.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQ2RreE1JVWdoOVY3LWxKb3NsdzZrY1JxOG10R3VJeU9ZdFE0NDhsWDZhSktIV2tZaDlaX0JkS1RER1pxU0J2cVEya2Fid054Yjl5WUpqd3VMaEhGRWkyNjEtQXJCT1MzYnlXU0wyR2dNRU4zazNvTS1YMVozWldzY195MmpGQkxLOW1Rd0J4VU5pNEJnMTFwM3FRUG1fVklEa2ZtdGQzQ3g0eUdzS2xCODZSa0ZCdGRrbmV1bTJ3dFVOQnFQTGVfUklfd080dEdCTzFDRDV2ZUZQMHhlSUJOcFpScw?oc=5",
-          "date": "2026-06-09T13:45:38+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
+          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
-        {
-          "title": "Hightails, LLC Announces Strategic Partnership with Spirited Insiders to Accelerate National Growth of THC Beverage Portfolio - BevNET.com",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNUQxcExaellmZy1rZ18yUkpZMTY3YnFCaXRoMmFQZVNCbGZRVDY0YVVfcnZJdTl0ck9CcElZT0pNVjlZTmVaMDRPaVViaFRlcEhfVU4tcXlWT01kd3duQ29wNTdlYXZuR0xibG9wVVpXN2l1Zk1mQ19ST2ZJNkxkVzdnVHB5Ty1BMEVjUHljUDN0aHZQWXB1ZGpIMjJ5UWRmaEZGZm1TMFYxSTNOczR2UF9ORXpNYkpwVVNwN05vX254ZWdETVVLNEhFNXhIREZLVHh6MGRxRGoySjhWQ3MzM1ZNMC1RRXgtTlpySVFPVEI5Ylk?oc=5",
-          "date": "2026-06-11T18:04:59+00:00"
-        },
         {
           "title": "Champagne growers and houses rethink old partnerships",
           "company": "Unknown",
@@ -103,6 +95,14 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/champagne-growers-and-houses-rethink-old-partnerships/",
           "date": "2026-06-11T09:48:06+00:00"
+        },
+        {
+          "title": "Electrolit Named Official Electrolyte Beverage of the US Open with Multi-Year Partnership - BevNET.com",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLUlBWjBsZ2xGXzFZYlI4d1h2YWhiNGRxaFJCUUpxckhkZF9teDFwWWZjV3o3YmZIa0hRZ0o5bUpaaS1xVC13TGNCSzh3S2FJbVc5enVqWExzdWhsT1E1bnJQeGMtYXpRanpyVDF1dGd0cWVGQlN4VmxGem1VYU5abTlDTDJsZjlmcERIc1hCc0dZQjhJQWlYeXVXelptUVpRamRiT3h0QjFBY0RjOUN5VGdhd0dLcVg3QmMwbGh3clZSRGM?oc=5",
+          "date": "2026-06-10T18:13:51+00:00"
         },
         {
           "title": "Low and no drinks fuel food and beverage dealmaking as Asia Pacific leads global M&A market",
@@ -119,30 +119,15 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
           "date": "2026-06-10T10:17:17+00:00"
-        },
-        {
-          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
-          "date": "2026-06-08T12:58:24+00:00"
         }
       ],
       "regulatory_watch": [
         {
-          "title": "More consumers checking nutrition labels for protein",
+          "title": "The medal-winning wines from The Global Rosé Masters 2026",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.fooddive.com/news/food-nutrition-labels-ingredient-list-consumer-study/822672/",
-          "date": "2026-06-11T14:31:00-04:00"
-        },
-        {
-          "title": "Urban Roots Brewing - Brewer - Shift Brewer - BevNET.com Beverage Industry Job Listing - BevNET.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qS2lUaGNXLV9PWDFNdS1yTUVhM3JrVERfajZSSFNyR01LUDNxOXVUa3ZZMXRoamlhT1REZ3BQR0U4WkQxNklYVEx4Sk93QXFSZGNwd0dNdkx3Nlc3LTItZXplVG05UFN2eDhJZm1Vb1RLOWpESmsyVGxDSTllUQ?oc=5",
-          "date": "2026-06-10T21:21:25+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+          "date": "2026-06-12T09:26:48+00:00"
         },
         {
           "title": "US RTD cocktails surge as category nears 80m cases",
@@ -152,14 +137,21 @@
           "date": "2026-06-10T09:54:47+00:00"
         },
         {
-          "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "topic": "regulation",
+          "title": "Food assistance bans pose $830M risk to soda, candy and energy drink sales - FoodNavigator-USA.com",
+          "topic": "energy, carbonated",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-          "date": "2026-06-09T10:19:47+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5",
+          "date": "2026-06-03T14:05:35+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:17:09+00:00"
+        },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
@@ -182,13 +174,6 @@
           "date": "2026-06-10T10:26:07+00:00"
         },
         {
-          "title": "Popular Peckham pub listed for £1.2m",
-          "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-          "date": "2026-06-09T10:48:26+00:00"
-        },
-        {
           "title": "Contact Us to Unlock Team Discounts - BevNET.com",
           "what_changed": "Contact Us to Unlock Team Discounts BevNET.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -199,28 +184,28 @@
       "signals": [
         {
           "signal": "Rtd trending in United States",
-          "explanation": "5 articles mention rtd in the last 28 days",
-          "support_count": 5,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "high"
-        },
-        {
-          "signal": "Premium trending in United States",
-          "explanation": "4 articles mention premium in the last 28 days",
+          "explanation": "4 articles mention rtd in the last 28 days",
           "support_count": 4,
           "top_keywords": [
-            "premium"
+            "rtd"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -235,12 +220,12 @@
         },
         {
           "signal": "Energy trending in United States",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "energy"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
@@ -248,18 +233,18 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYmd1UjBYVnE5dkZ5WDV6VnVKLUVzUkJsa0pfLTZkLXEtODdPYzRLSy13Y1U1WUR0d2Y3M3NPRTA5RHNQU1NDSXBCT3NJdWdEVkNRLXhkb0V2akZQV1lvNVBiVkFyU2s3WjAwOGZwcWxPWkJsSmlNQkFTWXh2SUZ1V3JTRUdkSV9EZWJZSnZNNGJRb1RBUWZYQldrNXhsd3I4eXMzWHBITzNzZktvRlJKeEF3U3ViQjBSZk10bnRXYTBBYXRYM3ZXQVBYenM?oc=5"
+            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.fooddive.com/news/food-nutrition-labels-ingredient-list-consumer-study/822672/",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qS2lUaGNXLV9PWDFNdS1yTUVhM3JrVERfajZSSFNyR01LUDNxOXVUa3ZZMXRoamlhT1REZ3BQR0U4WkQxNklYVEx4Sk93QXFSZGNwd0dNdkx3Nlc3LTItZXplVG05UFN2eDhJZm1Vb1RLOWpESmsyVGxDSTllUQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5"
           ]
         },
         {
@@ -277,9 +262,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYmd1UjBYVnE5dkZ5WDV6VnVKLUVzUkJsa0pfLTZkLXEtODdPYzRLSy13Y1U1WUR0d2Y3M3NPRTA5RHNQU1NDSXBCT3NJdWdEVkNRLXhkb0V2akZQV1lvNVBiVkFyU2s3WjAwOGZwcWxPWkJsSmlNQkFTWXh2SUZ1V3JTRUdkSV9EZWJZSnZNNGJRb1RBUWZYQldrNXhsd3I4eXMzWHBITzNzZktvRlJKeEF3U3ViQjBSZk10bnRXYTBBYXRYM3ZXQVBYenM?oc=5"
+            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
           ]
         },
         {
@@ -287,9 +272,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.fooddive.com/news/food-nutrition-labels-ingredient-list-consumer-study/822672/",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qS2lUaGNXLV9PWDFNdS1yTUVhM3JrVERfajZSSFNyR01LUDNxOXVUa3ZZMXRoamlhT1REZ3BQR0U4WkQxNklYVEx4Sk93QXFSZGNwd0dNdkx3Nlc3LTItZXplVG05UFN2eDhJZm1Vb1RLOWpESmsyVGxDSTllUQ?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5"
           ]
         }
       ]
@@ -305,39 +290,55 @@
           "confidence": "high"
         },
         {
-          "headline": "CAFFO Deutschland verstärkt sich mit neuem On-Trade Team - about-drinks.com",
-          "detail": "CAFFO Deutschland verstärkt sich mit neuem On-Trade Team about-drinks.com",
+          "headline": "The medal-winning wines from The Global Rosé Masters 2026",
+          "detail": "If you want to know who is making the best pink wine right now, then read on to see the medal winners from this year's Global Rosé Masters, taking in the latest vintages of famous brands, as well as l",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOGVoV2Q2NXhYOGQteXFhejBUbm8yanFMWEVkMHE3SmpwSnFsME5ROVJPckFxNVY3OW5LU2Z6SnA3YV9wbDd1T3VTSzNFdHB1S2lycGVPNFBMRVFJcFhETEJoNUhCNUxwZlZNSjFTaFB3bnVfdnRieDlFY1lZc1hHMWRaMTRieWZaYkxpQkdCdC0?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
-          "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Deutschland verliert weiter an Hopfenfläche - about-drinks.com",
-          "detail": "Deutschland verliert weiter an Hopfenfläche about-drinks.com",
+          "headline": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "detail": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwNHRiSkpOY19PV3BEU19EOXRUay1Wck54ZFBRWGNzcXNIYmxPQkVTTXdWWDJsVmdVaGhUNlNzRzdONkdGcFlkMzI0MFNjTjhhSHdZbGFaMHJTZzlGZnQwWGRUMEg0UFlOWExWNGFYSGdBRG4wbFFqbVlZUG5tNnM?oc=5"
+            "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
-          "headline": "CHEP: Jonas Glöckler wird neuer Country General Manager für DACH - about-drinks.com",
-          "detail": "CHEP: Jonas Glöckler wird neuer Country General Manager für DACH about-drinks.com",
+          "headline": "Vegg White foams at the bit as it launches in new territories",
+          "detail": "The vegan alternate to egg white-based cocktails partners with Nimbility to expand across the Asia-Pacific region. Rebecca Lo reports. The post Vegg White foams at the bit as it launches in new territ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdnJaVnZxeWMzbUZLSmdhYkFUMlRsaGxxZ1dyM2tkWG1VUmlkb1E2amRpaHBJMW9DbXBONGJCUVRzSGhBMHpXWkFObTZOa05pa3Nqdk13UW5neFNfSkZxWDZnY3RLdVRpZTNXZ2lZWThtQnJCbVN2NzBKTWk4NWVBcU1ZR0xXUVFzRkRkYnZNN2pFY19NZXFfR2d4bw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Cockburns, Mingle Mood and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Vegg White foams at the bit as it launches in new territories",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+          "date": "2026-06-12T10:32:54+00:00"
+        },
+        {
+          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+          "date": "2026-06-12T08:59:11+00:00"
+        },
         {
           "title": "Former Wines of South Africa UK team launch WineWorks Studio",
           "company": "Unknown",
@@ -347,12 +348,12 @@
           "date": "2026-06-12T08:37:25+00:00"
         },
         {
-          "title": "100 Jahre EDEKA Hessening: effect® launcht Sonderedition zum Jubiläum - about-drinks.com",
-          "company": "Edeka",
+          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
+          "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5",
-          "date": "2026-06-11T08:54:20+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
+          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
@@ -379,33 +380,32 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
           "date": "2026-06-10T10:17:17+00:00"
-        },
-        {
-          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
-          "date": "2026-06-08T12:58:24+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "The medal-winning wines from The Global Rosé Masters 2026",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+          "date": "2026-06-12T09:26:48+00:00"
+        },
         {
           "title": "US RTD cocktails surge as category nears 80m cases",
           "topic": "rtd",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
           "date": "2026-06-10T09:54:47+00:00"
-        },
-        {
-          "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-          "date": "2026-06-09T10:19:47+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:17:09+00:00"
+        },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
@@ -419,22 +419,24 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
           "date": "2026-06-10T10:26:07+00:00"
-        },
-        {
-          "title": "Popular Peckham pub listed for £1.2m",
-          "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-          "date": "2026-06-09T10:48:26+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Rtd trending in Germany",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention rtd in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "rtd"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -448,13 +450,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Germany",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "signal": "Sugar Free trending in Germany",
+          "explanation": "1 articles mention sugar free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "premium"
+            "sugar_free"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Alcohol Free trending in Germany",
@@ -469,18 +471,19 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "2 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         },
         {
@@ -495,11 +498,12 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 2 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ]
         },
         {
@@ -507,8 +511,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         }
       ]
@@ -516,47 +520,63 @@
     "france": {
       "executive_summary": [
         {
+          "headline": "The medal-winning wines from The Global Rosé Masters 2026",
+          "detail": "If you want to know who is making the best pink wine right now, then read on to see the medal winners from this year's Global Rosé Masters, taking in the latest vintages of famous brands, as well as l",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "detail": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Vegg White foams at the bit as it launches in new territories",
+          "detail": "The vegan alternate to egg white-based cocktails partners with Nimbility to expand across the Asia-Pacific region. Rebecca Lo reports. The post Vegg White foams at the bit as it launches in new territ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Cockburns, Mingle Mood and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
           "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Robert Mondavi California targets Chinese wine experience seekers",
-          "detail": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th anniversary. The post Robert Mondavi California targets Ch",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/robert-mondavi-california-targets-chinese-wine-experience-seekers/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "US RTD cocktails surge as category nears 80m cases",
-          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Champagne growers and houses rethink old partnerships",
-          "detail": "Climate change and shifting consumer preferences are prompting some Champagne producers to deepen ties with their grape growers. For estates such as Laurent-Perrier, closer collaboration is becoming i",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/champagne-growers-and-houses-rethink-old-partnerships/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "DB Conference survey offers chance to win free tickets",
-          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Vegg White foams at the bit as it launches in new territories",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+          "date": "2026-06-12T10:32:54+00:00"
+        },
+        {
+          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+          "date": "2026-06-12T08:59:11+00:00"
+        },
         {
           "title": "Former Wines of South Africa UK team launch WineWorks Studio",
           "company": "Unknown",
@@ -566,20 +586,20 @@
           "date": "2026-06-12T08:37:25+00:00"
         },
         {
+          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
+          "date": "2026-06-12T06:00:51+00:00"
+        },
+        {
           "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
           "company": "PepsiCo",
           "product": "energy",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
           "date": "2026-06-05T13:23:05+00:00"
-        },
-        {
-          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
-          "date": "2026-06-05T08:36:38+00:00"
         }
       ],
       "competitor_moves": [
@@ -618,21 +638,28 @@
       ],
       "regulatory_watch": [
         {
+          "title": "The medal-winning wines from The Global Rosé Masters 2026",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+          "date": "2026-06-12T09:26:48+00:00"
+        },
+        {
           "title": "US RTD cocktails surge as category nears 80m cases",
           "topic": "rtd",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
           "date": "2026-06-10T09:54:47+00:00"
-        },
-        {
-          "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-          "date": "2026-06-09T10:19:47+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:17:09+00:00"
+        },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
@@ -646,13 +673,6 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
           "date": "2026-06-10T10:26:07+00:00"
-        },
-        {
-          "title": "Popular Peckham pub listed for £1.2m",
-          "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-          "date": "2026-06-09T10:48:26+00:00"
         }
       ],
       "signals": [
@@ -666,15 +686,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in France",
-          "explanation": "3 articles mention functional in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in France",
           "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
@@ -684,13 +695,22 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in France",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Alcohol Free trending in France",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Energy trending in France",
@@ -705,19 +725,19 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in France — ask about shelf space for new formats",
+          "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         },
         {
@@ -733,12 +753,12 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ]
         },
         {
@@ -746,8 +766,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         }
       ]
@@ -755,47 +775,71 @@
     "spain": {
       "executive_summary": [
         {
-          "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
-          "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
+          "headline": "#WeekInPictures: Dom Pérignon, Bollinger and old vines",
+          "detail": "This week’s gatherings ranged from the unveiling of Dom Pérignon Vintage 2018 in Bilbao and a major appointment at Bollinger to the launch of the Old Vine Conference’s inaugural photography competitio",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
+            "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "The medal-winning wines from The Global Rosé Masters 2026",
+          "detail": "If you want to know who is making the best pink wine right now, then read on to see the medal winners from this year's Global Rosé Masters, taking in the latest vintages of famous brands, as well as l",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Robert Mondavi California targets Chinese wine experience seekers",
-          "detail": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th anniversary. The post Robert Mondavi California targets Ch",
+          "headline": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "detail": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/robert-mondavi-california-targets-chinese-wine-experience-seekers/"
+            "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "US RTD cocktails surge as category nears 80m cases",
-          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
+          "headline": "Vegg White foams at the bit as it launches in new territories",
+          "detail": "The vegan alternate to egg white-based cocktails partners with Nimbility to expand across the Asia-Pacific region. Rebecca Lo reports. The post Vegg White foams at the bit as it launches in new territ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Champagne growers and houses rethink old partnerships",
-          "detail": "Climate change and shifting consumer preferences are prompting some Champagne producers to deepen ties with their grape growers. For estates such as Laurent-Perrier, closer collaboration is becoming i",
+          "headline": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Cockburns, Mingle Mood and more… BeverageDaily.com",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/champagne-growers-and-houses-rethink-old-partnerships/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "DB Conference survey offers chance to win free tickets",
-          "detail": "the drinks business is inviting wine professionals to help shape the agenda for its 2026 conference through a short industry survey. Three respondents will receive complimentary tickets to the event, ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/"
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "#WeekInPictures: Dom Pérignon, Bollinger and old vines",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
+          "date": "2026-06-12T10:34:12+00:00"
+        },
+        {
+          "title": "Vegg White foams at the bit as it launches in new territories",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+          "date": "2026-06-12T10:32:54+00:00"
+        },
+        {
+          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+          "date": "2026-06-12T08:59:11+00:00"
+        },
         {
           "title": "Former Wines of South Africa UK team launch WineWorks Studio",
           "company": "Unknown",
@@ -805,20 +849,12 @@
           "date": "2026-06-12T08:37:25+00:00"
         },
         {
-          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
-          "company": "PepsiCo",
-          "product": "energy",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
-          "date": "2026-06-05T13:23:05+00:00"
-        },
-        {
-          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
+          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
-          "date": "2026-06-05T08:36:38+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
+          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
@@ -857,21 +893,28 @@
       ],
       "regulatory_watch": [
         {
+          "title": "The medal-winning wines from The Global Rosé Masters 2026",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+          "date": "2026-06-12T09:26:48+00:00"
+        },
+        {
           "title": "US RTD cocktails surge as category nears 80m cases",
           "topic": "rtd",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
           "date": "2026-06-10T09:54:47+00:00"
-        },
-        {
-          "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-          "date": "2026-06-09T10:19:47+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:17:09+00:00"
+        },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
@@ -885,13 +928,6 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
           "date": "2026-06-10T10:26:07+00:00"
-        },
-        {
-          "title": "Popular Peckham pub listed for £1.2m",
-          "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-          "date": "2026-06-09T10:48:26+00:00"
         }
       ],
       "signals": [
@@ -905,15 +941,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in Spain",
-          "explanation": "3 articles mention functional in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Spain",
           "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
@@ -923,20 +950,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Spain",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in Spain",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Energy trending in Spain",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -944,19 +971,19 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in Spain — ask about shelf space for new formats",
+          "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         },
         {
@@ -972,12 +999,12 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
           ]
         },
         {
@@ -985,8 +1012,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         }
       ]
@@ -994,10 +1021,10 @@
     "italy": {
       "executive_summary": [
         {
-          "headline": "Lavazza launches single-serve coffee pods without packaging",
-          "detail": "Tablì brings a first-to-market product to the U.S. and is a key point of the Italian company’s growth strategy in North America.",
+          "headline": "Leftovers: Svedka dips into vodka water | Magic Spoon expands with oatmeal",
+          "detail": "The alcohol maker said it's introduced a \"category-first innovation\" with a transparent can, while Italian gelato brand Sammontana grows its U.S. presence with a slate of new desserts.",
           "evidence_urls": [
-            "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/"
+            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/"
           ],
           "confidence": "high"
         },
@@ -1010,38 +1037,38 @@
           "confidence": "high"
         },
         {
-          "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
-          "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
+          "headline": "The medal-winning wines from The Global Rosé Masters 2026",
+          "detail": "If you want to know who is making the best pink wine right now, then read on to see the medal winners from this year's Global Rosé Masters, taking in the latest vintages of famous brands, as well as l",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Robert Mondavi California targets Chinese wine experience seekers",
-          "detail": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th anniversary. The post Robert Mondavi California targets Ch",
+          "headline": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "detail": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/robert-mondavi-california-targets-chinese-wine-experience-seekers/"
+            "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Italy wine groups agree to lower production - Just Drinks",
-          "detail": "Italy wine groups agree to lower production Just Drinks",
+          "headline": "Vegg White foams at the bit as it launches in new territories",
+          "detail": "The vegan alternate to egg white-based cocktails partners with Nimbility to expand across the Asia-Pacific region. Rebecca Lo reports. The post Vegg White foams at the bit as it launches in new territ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6bFpteUFDdlJCYTl4YTIxNk0yckhhaDRQYVlJNFdtcnU2Q25pZzFLckFRMUtNbEhyanE2U1NPSC1qRER3UHNIbnJFQ0FnQllwb3ItZk11RDU1U0ZLb3k5UWFkdU1RVW9obEdTQWo0a1hQM00xaGVJ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "key_launches": [
         {
-          "title": "Lavazza launches single-serve coffee pods without packaging",
+          "title": "Leftovers: Svedka dips into vodka water | Magic Spoon expands with oatmeal",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-          "date": "2026-06-09T11:10:00-04:00"
+          "evidence_url": "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
+          "date": "2026-06-12T10:44:00-04:00"
         },
         {
           "title": "Für moderne Aperitivo-Drinks: GOLDBERG launcht die Limited Edition Lavender - about-drinks.com",
@@ -1049,7 +1076,23 @@
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5",
-          "date": "2026-06-12T08:27:33+00:00"
+          "date": "2026-06-12T08:27:59+00:00"
+        },
+        {
+          "title": "Vegg White foams at the bit as it launches in new territories",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+          "date": "2026-06-12T10:32:54+00:00"
+        },
+        {
+          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+          "date": "2026-06-12T08:59:11+00:00"
         },
         {
           "title": "Former Wines of South Africa UK team launch WineWorks Studio",
@@ -1058,22 +1101,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
           "date": "2026-06-12T08:37:25+00:00"
-        },
-        {
-          "title": "PepsiCo launches Adrenaline Rush energy drinks in India - Just Drinks",
-          "company": "PepsiCo",
-          "product": "energy",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHB6MXJSUllLWjdPcFNPNi1mUzdlczQxUjlfWFhqQVFWbFEwMGVieWdUcmhodVV6ZWg3bGttV1hLMXRxUU5lNGZ0STJGbGhObjlSTGpick9WTHN3Z3VyQ1VkWWp2am1hZndIZnZraVctUW5YdkxuR0tTOU5OQXlnYVlfcXp4SmthVjFHZERTT2s3S2c?oc=5",
-          "date": "2026-06-05T13:23:05+00:00"
-        },
-        {
-          "title": "New beverage launches: Bubblegum beer, Cointreau Spicy and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczBRaEczNVNkNUxYQzlhM1Fmek9KbldDVWdqYVBza3VrU0tJWGhDanZCR1JNTzRZbGdMTmIxMXktLTYwMF9IN2tOVkhHOW9ZZktuNzI4ZG9ESUNicUtCUkg5TjdoVnRVOUlxS2dGeWVzWTJRUTFfYUNpTWxtSllBRFl0Vk1CMllyWFZuNXNFWmhmaW1GM0ZqSVlhMDZZZnZuNEtIUU10YVNSWktCWnBUM3VNTWttZw?oc=5",
-          "date": "2026-06-05T08:36:38+00:00"
         }
       ],
       "competitor_moves": [
@@ -1112,21 +1139,28 @@
       ],
       "regulatory_watch": [
         {
+          "title": "The medal-winning wines from The Global Rosé Masters 2026",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+          "date": "2026-06-12T09:26:48+00:00"
+        },
+        {
           "title": "US RTD cocktails surge as category nears 80m cases",
           "topic": "rtd",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
           "date": "2026-06-10T09:54:47+00:00"
-        },
-        {
-          "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-          "date": "2026-06-09T10:19:47+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:17:09+00:00"
+        },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
@@ -1140,13 +1174,6 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
           "date": "2026-06-10T10:26:07+00:00"
-        },
-        {
-          "title": "Popular Peckham pub listed for £1.2m",
-          "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-          "date": "2026-06-09T10:48:26+00:00"
         }
       ],
       "signals": [
@@ -1160,15 +1187,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in Italy",
-          "explanation": "3 articles mention functional in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Italy",
           "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
@@ -1178,20 +1196,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "signal": "Functional trending in Italy",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Energy trending in Italy",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1201,17 +1219,17 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
+            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         },
         {
@@ -1230,9 +1248,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
+            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
@@ -1240,8 +1258,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         }
       ]
@@ -1249,47 +1267,63 @@
     "austria": {
       "executive_summary": [
         {
+          "headline": "The medal-winning wines from The Global Rosé Masters 2026",
+          "detail": "If you want to know who is making the best pink wine right now, then read on to see the medal winners from this year's Global Rosé Masters, taking in the latest vintages of famous brands, as well as l",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "detail": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Vegg White foams at the bit as it launches in new territories",
+          "detail": "The vegan alternate to egg white-based cocktails partners with Nimbility to expand across the Asia-Pacific region. Rebecca Lo reports. The post Vegg White foams at the bit as it launches in new territ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Cockburns, Mingle Mood and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
           "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Austria cracks the Gen Z code",
-          "detail": "How does the wine world draw in younger consumers? Maybe Austria’s dynamic winemaking scene has some of the answers, writes Gabriel Stone. The post Austria cracks the Gen Z code appeared first on The ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/generation-game/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Robert Mondavi California targets Chinese wine experience seekers",
-          "detail": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th anniversary. The post Robert Mondavi California targets Ch",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/robert-mondavi-california-targets-chinese-wine-experience-seekers/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "US RTD cocktails surge as category nears 80m cases",
-          "detail": "Spirit-based ready-to-drink cocktails added more than 10 million cases in the US last year, according to new figures from Impact Databank. Growth continues to be driven by simple serves and familiar c",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "100 Jahre EDEKA Hessening: effect® launcht Sonderedition zum Jubiläum - about-drinks.com",
-          "detail": "100 Jahre EDEKA Hessening: effect® launcht Sonderedition zum Jubiläum about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Vegg White foams at the bit as it launches in new territories",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+          "date": "2026-06-12T10:32:54+00:00"
+        },
+        {
+          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+          "date": "2026-06-12T08:59:11+00:00"
+        },
         {
           "title": "Former Wines of South Africa UK team launch WineWorks Studio",
           "company": "Unknown",
@@ -1299,12 +1333,12 @@
           "date": "2026-06-12T08:37:25+00:00"
         },
         {
-          "title": "100 Jahre EDEKA Hessening: effect® launcht Sonderedition zum Jubiläum - about-drinks.com",
-          "company": "Edeka",
+          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
+          "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5",
-          "date": "2026-06-11T08:54:20+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
+          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
@@ -1331,33 +1365,32 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
           "date": "2026-06-10T10:17:17+00:00"
-        },
-        {
-          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
-          "date": "2026-06-08T12:58:24+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "The medal-winning wines from The Global Rosé Masters 2026",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+          "date": "2026-06-12T09:26:48+00:00"
+        },
         {
           "title": "US RTD cocktails surge as category nears 80m cases",
           "topic": "rtd",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
           "date": "2026-06-10T09:54:47+00:00"
-        },
-        {
-          "title": "Justerini & Brooks: Asian collectors no longer ‘satisfied with just the label’",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-          "date": "2026-06-09T10:19:47+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:17:09+00:00"
+        },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
@@ -1371,22 +1404,24 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/db-conference-survey-offers-chance-to-win-free-tickets/",
           "date": "2026-06-10T10:26:07+00:00"
-        },
-        {
-          "title": "Popular Peckham pub listed for £1.2m",
-          "what_changed": "The freehold of one of Peckham's best-known pubs has been brought to market with a guide price of more than £1.2 million, offering investors exposure ",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-          "date": "2026-06-09T10:48:26+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Rtd trending in Austria",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention rtd in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "rtd"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -1400,39 +1435,40 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Austria",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "signal": "Sugar Free trending in Austria",
+          "explanation": "1 articles mention sugar free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "premium"
+            "sugar_free"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Alcohol Free trending in Austria",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "2 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         },
         {
@@ -1447,11 +1483,12 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 2 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVlIdEpRR3RTMm04dUo5ZVIyQ2FUV1cxci1Ibk9XTU5IUFZLMkhZUndINkRkdjV4LUVGSVIza0p1MUEwbE1ZMWF1MEI5N3NtQnpGT0hZZ1VpM3djMldnd3hHcFZGUXNrWTFDcXRfWnVDUFAxbXNGWDRlMzJaVDBRVjl4MkhfRXZqQW5Zb29hbWFwOWZOamVzUm1NY2o1MFk?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ]
         },
         {
@@ -1459,8 +1496,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
-            "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/"
+            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/",
+            "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/"
           ]
         }
       ]
