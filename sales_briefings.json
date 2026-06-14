@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T08:38:10.107484+00:00",
+  "generated_at": "2026-06-14T15:07:04.357578+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -111,6 +111,14 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/bollinger-appoints-emilien-boutillat-as-cellar-master/",
           "date": "2026-06-10T10:17:17+00:00"
+        },
+        {
+          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
+          "company": "Nestlé",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
+          "date": "2026-06-08T12:58:24+00:00"
         }
       ],
       "regulatory_watch": [
@@ -134,13 +142,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/us-rtd-cocktails-surge-as-category-nears-80m-cases/",
           "date": "2026-06-10T09:54:47+00:00"
-        },
-        {
-          "title": "Food assistance bans pose $830M risk to soda, candy and energy drink sales - FoodNavigator-USA.com",
-          "topic": "energy, carbonated",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenhQTmRjWWpNS0ItMW5mMWJ4OWJaZE5PUWt5cTZUSzlyMEZ2Z1ZFcG8xVzQ0dTM0VXRkQVVubHIwVjRkcXNwV1RQdW1EU2V4VE03cXZFTEJIUkNteER1NmdEVXJZOEJyWGQ1djg5STdKR1pXTHUyNjQ2VGpRajJvM0UzZTd2aWxmZV9YX0pXd2RBLTd0MlF3TW9qeVdIcW1kMnB0SXhB?oc=5",
-          "date": "2026-06-03T14:05:35+00:00"
         }
       ],
       "pricing_promotions": [
@@ -202,15 +203,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Functional trending in United States",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -218,6 +210,15 @@
             "functional"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in United States",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -562,10 +563,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "European Commission issues new guidance on EU packaging rules - Food Business Middle East & Africa",
-          "detail": "European Commission issues new guidance on EU packaging rules Food Business Middle East & Africa",
+          "headline": "Former Wines of South Africa UK team launch WineWorks Studio",
+          "detail": "Industry veterans Claudia Pritchard and Jo Wehring have launched WineWorks Studio, a UK-based marketing, public relations and events agency serving wine businesses in the UK and internationally. The n",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT05kZGcwOFFfNUlPNjFXZW1LSGJ3aUJyV3YtQU5nSDZrQmMyME11RF9VUUZYYWJtWlpKWVlsTmVpYUROalZFX0dxRkh0cEFWTEw4aUo3QjUxNEV2S0pnS2pwTjBOT0dPSXZFRUx6UlZDMTNlZ1ZwbVJyaUFxd2tVemFjdkFFek9HeFhfQkxTOTV6ZnVsUVdMWWR3?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/"
           ],
           "confidence": "medium"
         }
@@ -944,20 +945,20 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Spain",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in Spain",
           "explanation": "4 articles mention premium in the last 28 days",
           "support_count": 4,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in Spain",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -1325,20 +1326,20 @@
           "confidence": "medium"
         },
         {
-          "headline": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
-          "detail": "New beverage launches: Cockburns, Mingle Mood and more… BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Austria cracks the Gen Z code",
           "detail": "How does the wine world draw in younger consumers? Maybe Austria’s dynamic winemaking scene has some of the answers, writes Gabriel Stone. The post Austria cracks the Gen Z code appeared first on The ",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/generation-game/"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Cockburns, Mingle Mood and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
