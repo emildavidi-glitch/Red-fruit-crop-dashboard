@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T10:51:33.815655+00:00",
+  "generated_at": "2026-06-15T17:58:39.222166+00:00",
   "generated_date": "Monday, 15 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Bacardi mit neuer Führung in Deutschland - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: „The beach is calling“ – Nikša Pirović über den neuen Pacific & Lime Tequila Reposado - about-drinks.",
   "signals": {
     "usa": "Premium trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 45,
-      "premium": 27,
-      "supply_chain": 25,
-      "competitor": 17,
-      "rtd": 16,
+      "trend": 160,
+      "launch": 49,
+      "supply_chain": 26,
+      "premium": 23,
+      "pricing": 20,
       "regulatory": 15,
-      "pricing": 13,
-      "retail": 12,
-      "innovation": 9
+      "competitor": 15,
+      "rtd": 12,
+      "innovation": 9,
+      "retail": 6
     }
   }
 }

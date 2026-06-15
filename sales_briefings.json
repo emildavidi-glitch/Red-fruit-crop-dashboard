@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T10:51:33.815655+00:00",
+  "generated_at": "2026-06-15T17:58:39.222166+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -9,6 +9,14 @@
           "detail": "As Trump touches down in France for a G7 summit, the US president claims he has \"no choice\" but to slap a 100% tariff on French wine imports unless Paris drops its 3% digital tax on American tech comp",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/trump-threatens-new-100-tariff-on-french-wine/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Nestlé USA removes artificial colors in all food and beverages",
+          "detail": "The Nesquik maker joined other food manufacturers last year in pledging to eliminate synthetic dyes from the rest of its portfolio following pressure from the Trump administration.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/Nestle-artificial-colors-dyes-fda-General-mills-cheerios-kraft-heinz/822661/"
           ],
           "confidence": "high"
         },
@@ -35,14 +43,6 @@
             "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "detail": "The pub group has launched a click and collect drinks service at 34 sites, allowing customers to order and pay for drinks in advance and collect them directly from the bar. The post Young’s rolls out ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -53,6 +53,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
           "date": "2026-06-12T10:44:00-04:00"
+        },
+        {
+          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "company": "Target",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+          "date": "2026-06-15T11:18:10+00:00"
         },
         {
           "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
@@ -77,14 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
           "date": "2026-06-12T10:32:54+00:00"
-        },
-        {
-          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
-          "date": "2026-06-12T08:59:11+00:00"
         }
       ],
       "competitor_moves": [
@@ -103,14 +103,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/champagne-growers-and-houses-rethink-old-partnerships/",
           "date": "2026-06-11T09:48:06+00:00"
-        },
-        {
-          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
-          "date": "2026-06-08T12:58:24+00:00"
         }
       ],
       "regulatory_watch": [
@@ -152,6 +144,13 @@
           "date": "2026-06-15T08:48:24+00:00"
         },
         {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:21:55+00:00"
+        },
+        {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -169,17 +168,17 @@
       "signals": [
         {
           "signal": "Premium trending in United States",
-          "explanation": "6 articles mention premium in the last 28 days",
-          "support_count": 6,
+          "explanation": "4 articles mention premium in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "premium"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Rtd trending in United States",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "explanation": "4 articles mention rtd in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "rtd"
           ],
@@ -195,11 +194,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "signal": "Organic trending in United States",
+          "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
+            "organic"
           ],
           "confidence": "low"
         },
@@ -219,8 +218,8 @@
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSkRsR2FOLTBRWDhMMzc4cVNrRTNmaVBmc014aUxHWUx6dE5TbjBwSG1BNTJBMFhuV2V1a2tsRUt0RzREb0g0SEswSS1hd29RRVR3eEVoR2ppakpHbkdLdnZHcjNmbWdRT2NELW56blUyR0dnVjhTRElUUDlwcVVSWHlFMk9OQUJBdG05am05bGdjNjlaa1FNNndaSFl1SlBGWkRudEtObXdQRjQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ]
         },
         {
@@ -240,8 +239,8 @@
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSkRsR2FOLTBRWDhMMzc4cVNrRTNmaVBmc014aUxHWUx6dE5TbjBwSG1BNTJBMFhuV2V1a2tsRUt0RzREb0g0SEswSS1hd29RRVR3eEVoR2ppakpHbkdLdnZHcjNmbWdRT2NELW56blUyR0dnVjhTRElUUDlwcVVSWHlFMk9OQUJBdG05am05bGdjNjlaa1FNNndaSFl1SlBGWkRudEtObXdQRjQ?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ]
         },
         {
@@ -291,15 +290,23 @@
           "confidence": "medium"
         },
         {
-          "headline": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "detail": "The pub group has launched a click and collect drinks service at 34 sites, allowing customers to order and pay for drinks in advance and collect them directly from the bar. The post Young’s rolls out ",
+          "headline": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "detail": "The Macallan has launched a new social media campaign starring Hollywood actor James Marsden and his son Jack Marsden which aims to tap into the growth of Gen Z's importance in the market. The post Th",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "company": "Target",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+          "date": "2026-06-15T11:18:10+00:00"
+        },
         {
           "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
           "company": "Unknown",
@@ -331,14 +338,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
           "date": "2026-06-12T08:37:25+00:00"
-        },
-        {
-          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
-          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
@@ -384,6 +383,13 @@
           "date": "2026-06-15T08:48:24+00:00"
         },
         {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:21:55+00:00"
+        },
+        {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -394,8 +400,8 @@
       "signals": [
         {
           "signal": "Premium trending in Germany",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "premium"
           ],
@@ -403,19 +409,10 @@
         },
         {
           "signal": "Rtd trending in Germany",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Carbonated trending in Germany",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
+            "rtd"
           ],
           "confidence": "low"
         }
@@ -425,9 +422,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
@@ -445,9 +442,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
@@ -472,10 +469,26 @@
           "confidence": "high"
         },
         {
+          "headline": "Trump ‘hits France with fresh tariff threat on wines’ - Just Drinks",
+          "detail": "Trump ‘hits France with fresh tariff threat on wines’ Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxNanFtdXpPd0FDVjFia19vWHZ2NE0zbU5DZmZUdGJaRmZybEE5TlpGdEZXVlJhWGlVY2pRZlE0R0Rob2libXRMUnIwdDhVNXlfY0pES1V4ZFY2U3Zyc2xNS0xLR1VUbXFTSnZoR1gtc0V6dDV3amFXeFlSRUVXVGtodm5ESXpqOFlRcjhxdEh3?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "Price of a pint of Guinness expected to soar to £13 within a decade",
           "detail": "UK pub-goers could be paying close to £13 for a pint of Guinness in some regions within a decade, according to new price data. The post Price of a pint of Guinness expected to soar to £13 within a dec",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "detail": "The Macallan has launched a new social media campaign starring Hollywood actor James Marsden and his son Jack Marsden which aims to tap into the growth of Gen Z's importance in the market. The post Th",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
           ],
           "confidence": "medium"
         },
@@ -486,25 +499,17 @@
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Oatley Fine Wine set to distribute Casella’s premium wine",
-          "detail": "Yellow Tail producer Casella Family Brands has appointed Oatley Fine Wine Merchants as the new distribution partner for its premium wine portfolio in Australia, in a bid to strengthen its presence in ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/oatley-fine-wine-set-to-distribute-casellas-premium-wine/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Quebec first Canadian province to ban energy-drinks sales to under 16s - Just Drinks",
-          "detail": "Quebec first Canadian province to ban energy-drinks sales to under 16s Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTZTNXg5NTVWcUR0eG9CbHptaExrdVpPOHVYR0VyM2tZdXdNNWRBTEo0UTdkVkM1Qmd4ajZiUGhNSEk1enNPRVpleGwxNnJ6NUdsckR5NlZyTDNZbmxSbDlNOTFmcnBRM1VLeVdPRmRWYWJtWHpwbGJNaTVxZGZSdWE0LVAySlNUVW9RQ3hLZlVsU1l3NzJESV9Ca29OTUVjdTI4dWdLdw?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "company": "Target",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+          "date": "2026-06-15T11:18:10+00:00"
+        },
         {
           "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
           "company": "Unknown",
@@ -536,14 +541,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
           "date": "2026-06-12T08:37:25+00:00"
-        },
-        {
-          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
-          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
@@ -597,11 +594,25 @@
       ],
       "pricing_promotions": [
         {
+          "title": "Trump ‘hits France with fresh tariff threat on wines’ - Just Drinks",
+          "what_changed": "Trump ‘hits France with fresh tariff threat on wines’ Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNanFtdXpPd0FDVjFia19vWHZ2NE0zbU5DZmZUdGJaRmZybEE5TlpGdEZXVlJhWGlVY2pRZlE0R0Rob2libXRMUnIwdDhVNXlfY0pES1V4ZFY2U3Zyc2xNS0xLR1VUbXFTSnZoR1gtc0V6dDV3amFXeFlSRUVXVGtodm5ESXpqOFlRcjhxdEh3?oc=5",
+          "date": "2026-06-15T13:50:44+00:00"
+        },
+        {
           "title": "Price of a pint of Guinness expected to soar to £13 within a decade",
           "what_changed": "UK pub-goers could be paying close to £13 for a pint of Guinness in some regions within a decade, according to new price data. The post Price of a pin",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/",
           "date": "2026-06-15T08:48:24+00:00"
+        },
+        {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:21:55+00:00"
         },
         {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
@@ -623,8 +634,8 @@
         },
         {
           "signal": "Rtd trending in France",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "rtd"
           ],
@@ -663,9 +674,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
@@ -684,9 +695,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
@@ -712,14 +723,6 @@
           "confidence": "high"
         },
         {
-          "headline": "Price of a pint of Guinness expected to soar to £13 within a decade",
-          "detail": "UK pub-goers could be paying close to £13 for a pint of Guinness in some regions within a decade, according to new price data. The post Price of a pint of Guinness expected to soar to £13 within a dec",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "#WeekInPictures: Dom Pérignon, Bollinger and old vines",
           "detail": "This week’s gatherings ranged from the unveiling of Dom Pérignon Vintage 2018 in Bilbao and a major appointment at Bollinger to the launch of the Old Vine Conference’s inaugural photography competitio",
           "evidence_urls": [
@@ -728,18 +731,26 @@
           "confidence": "high"
         },
         {
-          "headline": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "detail": "The pub group has launched a click and collect drinks service at 34 sites, allowing customers to order and pay for drinks in advance and collect them directly from the bar. The post Young’s rolls out ",
+          "headline": "Price of a pint of Guinness expected to soar to £13 within a decade",
+          "detail": "UK pub-goers could be paying close to £13 for a pint of Guinness in some regions within a decade, according to new price data. The post Price of a pint of Guinness expected to soar to £13 within a dec",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Oatley Fine Wine set to distribute Casella’s premium wine",
-          "detail": "Yellow Tail producer Casella Family Brands has appointed Oatley Fine Wine Merchants as the new distribution partner for its premium wine portfolio in Australia, in a bid to strengthen its presence in ",
+          "headline": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "detail": "The Macallan has launched a new social media campaign starring Hollywood actor James Marsden and his son Jack Marsden which aims to tap into the growth of Gen Z's importance in the market. The post Th",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/oatley-fine-wine-set-to-distribute-casellas-premium-wine/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
+          "detail": "The pub group has launched a click and collect drinks service at 34 sites, allowing customers to order and pay for drinks in advance and collect them directly from the bar. The post Young’s rolls out ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ],
           "confidence": "medium"
         }
@@ -752,6 +763,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
           "date": "2026-06-12T10:34:12+00:00"
+        },
+        {
+          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "company": "Target",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+          "date": "2026-06-15T11:18:10+00:00"
         },
         {
           "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
@@ -776,14 +795,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
           "date": "2026-06-12T08:59:11+00:00"
-        },
-        {
-          "title": "Former Wines of South Africa UK team launch WineWorks Studio",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
-          "date": "2026-06-12T08:37:25+00:00"
         }
       ],
       "competitor_moves": [
@@ -837,6 +848,13 @@
           "date": "2026-06-15T08:48:24+00:00"
         },
         {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:21:55+00:00"
+        },
+        {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -856,8 +874,8 @@
         },
         {
           "signal": "Rtd trending in Spain",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "rtd"
           ],
@@ -888,8 +906,8 @@
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ]
         },
         {
@@ -908,8 +926,8 @@
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ]
         },
         {
@@ -950,18 +968,18 @@
           "confidence": "high"
         },
         {
-          "headline": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "detail": "The pub group has launched a click and collect drinks service at 34 sites, allowing customers to order and pay for drinks in advance and collect them directly from the bar. The post Young’s rolls out ",
+          "headline": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "detail": "The Macallan has launched a new social media campaign starring Hollywood actor James Marsden and his son Jack Marsden which aims to tap into the growth of Gen Z's importance in the market. The post Th",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Oatley Fine Wine set to distribute Casella’s premium wine",
-          "detail": "Yellow Tail producer Casella Family Brands has appointed Oatley Fine Wine Merchants as the new distribution partner for its premium wine portfolio in Australia, in a bid to strengthen its presence in ",
+          "headline": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
+          "detail": "The pub group has launched a click and collect drinks service at 34 sites, allowing customers to order and pay for drinks in advance and collect them directly from the bar. The post Young’s rolls out ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/oatley-fine-wine-set-to-distribute-casellas-premium-wine/"
+            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
           ],
           "confidence": "medium"
         }
@@ -984,6 +1002,14 @@
           "date": "2026-06-12T08:27:59+00:00"
         },
         {
+          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "company": "Target",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+          "date": "2026-06-15T11:18:10+00:00"
+        },
+        {
           "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
           "company": "Unknown",
           "product": "beverage",
@@ -998,14 +1024,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
           "date": "2026-06-12T10:32:54+00:00"
-        },
-        {
-          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
-          "date": "2026-06-12T08:59:11+00:00"
         }
       ],
       "competitor_moves": [
@@ -1059,6 +1077,13 @@
           "date": "2026-06-15T08:48:24+00:00"
         },
         {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:21:55+00:00"
+        },
+        {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -1078,8 +1103,8 @@
         },
         {
           "signal": "Rtd trending in Italy",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "rtd"
           ],
@@ -1111,7 +1136,7 @@
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
           ]
         },
         {
@@ -1131,7 +1156,7 @@
           "evidence_urls": [
             "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
           ]
         },
         {
@@ -1152,6 +1177,14 @@
           "detail": "UK pub-goers could be paying close to £13 for a pint of Guinness in some regions within a decade, according to new price data. The post Price of a pint of Guinness expected to soar to £13 within a dec",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "detail": "The Macallan has launched a new social media campaign starring Hollywood actor James Marsden and his son Jack Marsden which aims to tap into the growth of Gen Z's importance in the market. The post Th",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
           ],
           "confidence": "medium"
         },
@@ -1178,17 +1211,17 @@
             "https://news.google.com/rss/articles/CBMijgFBVV95cUxObG54cjNybG95YTM2TnNabE9YZFZUSi0zY0czcE1saVU0R3Z1MGJaakxwa2NNS2RKNjBTZ1ppOFBPMkNvcHBJTnRWNjZMWXRna1RhTHU1VWRhX2dJN1BYblE4ZjJkd00ybUY1YmZaMlZZcHRKcXVyT09yWmlxaHZCY0RHdWttMDV5X0lUMFNB?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Quebec first Canadian province to ban energy-drinks sales to under 16s - Just Drinks",
-          "detail": "Quebec first Canadian province to ban energy-drinks sales to under 16s Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTZTNXg5NTVWcUR0eG9CbHptaExrdVpPOHVYR0VyM2tZdXdNNWRBTEo0UTdkVkM1Qmd4ajZiUGhNSEk1enNPRVpleGwxNnJ6NUdsckR5NlZyTDNZbmxSbDlNOTFmcnBRM1VLeVdPRmRWYWJtWHpwbGJNaTVxZGZSdWE0LVAySlNUVW9RQ3hLZlVsU1l3NzJESV9Ca29OTUVjdTI4dWdLdw?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
+          "company": "Target",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
+          "date": "2026-06-15T11:18:10+00:00"
+        },
         {
           "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
           "company": "Unknown",
@@ -1220,14 +1253,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/former-wines-of-south-africa-uk-team-launch-wineworks-studio/",
           "date": "2026-06-12T08:37:25+00:00"
-        },
-        {
-          "title": "Why Jack Daniel’s Halo MK1 is set to be ‘iconic’",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/why-jack-daniels-halo-mk1-is-set-to-be-iconic/",
-          "date": "2026-06-12T06:00:51+00:00"
         }
       ],
       "competitor_moves": [
@@ -1246,14 +1271,6 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/champagne-growers-and-houses-rethink-old-partnerships/",
           "date": "2026-06-11T09:48:06+00:00"
-        },
-        {
-          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
-          "company": "Nestlé",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
-          "date": "2026-06-08T12:58:24+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1281,6 +1298,13 @@
           "date": "2026-06-15T08:48:24+00:00"
         },
         {
+          "title": "Stoli lowers Bayou rum price in brand revamp - Just Drinks",
+          "what_changed": "Stoli lowers Bayou rum price in brand revamp Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11WUVmX2FjQ1RDSWdEUU04aXBmRWYwNElwWGc4TXpuS25OZWRjelZqMy1YMnhEZEE0Mm96LUhVNTVlQzhlZUE1RzREZmhZU256aE9pdVF5WTZVTmhVV1kxMXVKTDctNVFJMi1KRUVuSQ?oc=5",
+          "date": "2026-06-12T12:21:55+00:00"
+        },
+        {
           "title": "Robert Mondavi California targets Chinese wine experience seekers",
           "what_changed": "ASC Fine Wines introduces the new collection with accessible price points to Chinese consumers in time to toast the Napa Valley estate’s 60th annivers",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -1291,8 +1315,8 @@
       "signals": [
         {
           "signal": "Premium trending in Austria",
-          "explanation": "3 articles mention premium in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "premium"
           ],
@@ -1300,12 +1324,12 @@
         },
         {
           "signal": "Rtd trending in Austria",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Carbonated trending in Austria",
@@ -1322,9 +1346,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
@@ -1342,9 +1366,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
             "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5"
+            "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/"
           ]
         },
         {
