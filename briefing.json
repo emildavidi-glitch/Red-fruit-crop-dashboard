@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T10:03:32.189797+00:00",
+  "generated_at": "2026-06-16T18:03:24.898819+00:00",
   "generated_date": "Tuesday, 16 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Delegat ups 2026 profit guidance - Just Drinks.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: This Two-Ingredient Tequila Soda Is Betting That Less Is More in the Canned Cocktail Boom - BevNET.c.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
+    "usa": "Alcohol Free trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 156,
-      "launch": 56,
-      "supply_chain": 28,
-      "premium": 18,
-      "regulatory": 16,
+      "trend": 145,
+      "launch": 54,
+      "supply_chain": 37,
+      "regulatory": 18,
       "pricing": 15,
-      "innovation": 10,
-      "rtd": 10,
+      "premium": 14,
+      "innovation": 11,
       "competitor": 9,
-      "retail": 6
+      "alcohol_free": 8,
+      "rtd": 7
     }
   }
 }

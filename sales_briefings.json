@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T10:03:32.189797+00:00",
+  "generated_at": "2026-06-16T18:03:24.898819+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -13,6 +13,22 @@
           "confidence": "high"
         },
         {
+          "headline": "Bill in Congress targets ‘forever chemicals’ in food packaging",
+          "detail": "The No Toxics in Food Packaging Act seeks to ban PFAS, phthalates, BPA and certain other substances from food packaging and food processing materials.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/no-toxics-in-food-packaging-act-2026/822803/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Campbell’s launches gluten-free chicken noodle soup in partnership with Banza",
+          "detail": "The noodles, which are made from chickpeas, come as big snack brands like Cheez-It and Oreos lean into the gluten-free market, which is forecast to reach $14 billion by 2032.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/soup-campbells-banza-partner-gluten-free-condensed/822629/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Damien Hirst partners with Château La Coste on rosé brand",
           "detail": "High-profile English conceptual artist Damien Hirst has put his name to a new rosé brand as part of a partnership with biodynamic Provençal wine estate Château La Coste. The post Damien Hirst partners",
           "evidence_urls": [
@@ -21,31 +37,39 @@
           "confidence": "medium"
         },
         {
-          "headline": "Nestlé USA removes artificial colors in all food and beverages",
-          "detail": "The Nesquik maker joined other food manufacturers last year in pledging to eliminate synthetic dyes from the rest of its portfolio following pressure from the Trump administration.",
+          "headline": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "detail": "AB InBev launches fruit beers for UK market Just Drinks",
           "evidence_urls": [
-            "https://www.fooddive.com/news/Nestle-artificial-colors-dyes-fda-General-mills-cheerios-kraft-heinz/822661/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
-          "detail": "Iron Maiden has collaborated with Heineken’s California-based brewery Lagunitas to release Trooper West Coast IPA. db finds out more. The post Is Iron Maiden releasing a West Coast IPA with Lagunitas ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "INFINITY WATER: Walter Scherb über die Zusammenarbeit mit CRO - about-drinks.com",
-          "detail": "INFINITY WATER: Walter Scherb über die Zusammenarbeit mit CRO about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdXFONmc1ckdfUm1uRWlrSm1DenNkaHItcUdfMzlMWk15bmJSdFphSnlZZnYxS3lTYTFpeUtQc1JtWU5sUFFTUks2ZjgtZEstZHg4bVE2bU1HWGE3aE1RS1UxVS0wR2RQTDhOa2ZoQlFsQTJaNnEtdC0zdzF6OHZCRmY4cmp1NXpNZUt2QXNFZkpJQmJGOXc?oc=5"
-          ],
-          "confidence": "high"
         }
       ],
       "key_launches": [
+        {
+          "title": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "company": "AB InBev",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+          "date": "2026-06-16T12:37:18+00:00"
+        },
+        {
+          "title": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+          "date": "2026-06-16T11:15:01+00:00"
+        },
+        {
+          "title": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+          "date": "2026-06-16T10:39:37+00:00"
+        },
         {
           "title": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
           "company": "Heineken, Rewe",
@@ -61,30 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
           "date": "2026-06-12T10:44:00-04:00"
-        },
-        {
-          "title": "DryWater Finds Everyday Hydration Niche, Expands To 41K Doors - BevNET.com",
-          "company": "Unknown",
-          "product": "hydration",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRFBnZzM4UktTOExCU0RTY29JTWw2dVNOWFVxTlZhQ2lXZkwxR0RoSTFuelhGYlgwem9UNkoyc1ZVUnR5UDJ0NExfRjJUVzkzUlN5Vl9SM3c3Ri1yVXNtT1pQZ3JleWVjb2ZuWEp4TF9yMV9MTGtlSENFSzBZS1YycFVTSU5SSDRaM3NzYmk5NVlOR0JxbTVzN0xB?oc=5",
-          "date": "2026-06-15T20:17:01+00:00"
-        },
-        {
-          "title": "Drink Wholesome x FLORA Nutrition Launch Reflux-Friendly Golden Milk Protein Powder - BevNET.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWDhObzFyQjY1TkRzaWtrWjBNa0JKOERqX2NvMXZhQnY0elBIU0tNVEhsUmI3bjItanNlaDNRN3VremE0cGRqR1Bnd2RGZ0NONE5CRGpFNnN4RWstWFRaUUltc2VDRS01VzQyRFZsNVR6bGJLSnRKR0U5T1J1R2JoTmNacVVUdlh0TzY3UzJOYUI3WnA0NGhqM29RcS01SmZJY0N2MWNLU1k1ZkQ3blE1d2ZQN3RjSkpHak5N?oc=5",
-          "date": "2026-06-15T19:08:03+00:00"
-        },
-        {
-          "title": "Kahawa 1893 Launches Functional Coffee with African Mango Seed Extract: A Natural Alternative in the GLP-1 Era - BevNET.com",
-          "company": "Unknown",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQczJ4Zy16cFBzVWEyQ2VQTTBVQXB0eUVoVHBHa0lJdnFTRlhGcnRhMWhZSUt3UnFYSjA1SUhoZjVMa3llWHlockNwV2Rnd1lYR3BJU2c5bm1YM3lqRXpQUlYwdHUwVFVlME92OUg2V2pjcEdXV1FjLU11bXZqM1dZdVBKekF1cGRUdm04bjAxYXZUWHdUbUF2WS00TEF1RENHZ1B6bnc2NXl6TXV4d1JnY0FRakljc000bThiUWtwT3ktNmlpckx6dU9PNXppd1FZUWVrTlI2R2RKVjlGVmc?oc=5",
-          "date": "2026-06-15T19:08:03+00:00"
         }
       ],
       "competitor_moves": [
@@ -104,6 +104,20 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/trump-threatens-new-100-tariff-on-french-wine/",
           "date": "2026-06-15T10:12:17+00:00"
+        },
+        {
+          "title": "Bill in Congress targets ‘forever chemicals’ in food packaging",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.fooddive.com/news/no-toxics-in-food-packaging-act-2026/822803/",
+          "date": "2026-06-16T09:19:00-04:00"
+        },
+        {
+          "title": "Campbell’s launches gluten-free chicken noodle soup in partnership with Banza",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.fooddive.com/news/soup-campbells-banza-partner-gluten-free-condensed/822629/",
+          "date": "2026-06-16T09:00:00-04:00"
         },
         {
           "title": "Quebec first Canadian province to ban energy-drinks sales to under 16s - Just Drinks",
@@ -138,11 +152,11 @@
       ],
       "signals": [
         {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
+          "signal": "Alcohol Free trending in United States",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "premium"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -156,22 +170,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "alcohol_free"
+            "carbonated"
           ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Hydration trending in United States",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Functional trending in United States",
@@ -181,6 +186,15 @@
             "functional"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -188,9 +202,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
-            "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRFBnZzM4UktTOExCU0RTY29JTWw2dVNOWFVxTlZhQ2lXZkwxR0RoSTFuelhGYlgwem9UNkoyc1ZVUnR5UDJ0NExfRjJUVzkzUlN5Vl9SM3c3Ri1yVXNtT1pQZ3JleWVjb2ZuWEp4TF9yMV9MTGtlSENFSzBZS1YycFVTSU5SSDRaM3NzYmk5NVlOR0JxbTVzN0xB?oc=5"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -198,8 +212,8 @@
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/trump-threatens-new-100-tariff-on-french-wine/",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTZTNXg5NTVWcUR0eG9CbHptaExrdVpPOHVYR0VyM2tZdXdNNWRBTEo0UTdkVkM1Qmd4ajZiUGhNSEk1enNPRVpleGwxNnJ6NUdsckR5NlZyTDNZbmxSbDlNOTFmcnBRM1VLeVdPRmRWYWJtWHpwbGJNaTVxZGZSdWE0LVAySlNUVW9RQ3hLZlVsU1l3NzJESV9Ca29OTUVjdTI4dWdLdw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
+            "https://www.fooddive.com/news/no-toxics-in-food-packaging-act-2026/822803/",
+            "https://www.fooddive.com/news/soup-campbells-banza-partner-gluten-free-condensed/822629/"
           ]
         }
       ],
@@ -209,9 +223,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
-            "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRFBnZzM4UktTOExCU0RTY29JTWw2dVNOWFVxTlZhQ2lXZkwxR0RoSTFuelhGYlgwem9UNkoyc1ZVUnR5UDJ0NExfRjJUVzkzUlN5Vl9SM3c3Ri1yVXNtT1pQZ3JleWVjb2ZuWEp4TF9yMV9MTGtlSENFSzBZS1YycFVTSU5SSDRaM3NzYmk5NVlOR0JxbTVzN0xB?oc=5"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -220,22 +234,14 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/trump-threatens-new-100-tariff-on-french-wine/",
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTZTNXg5NTVWcUR0eG9CbHptaExrdVpPOHVYR0VyM2tZdXdNNWRBTEo0UTdkVkM1Qmd4ajZiUGhNSEk1enNPRVpleGwxNnJ6NUdsckR5NlZyTDNZbmxSbDlNOTFmcnBRM1VLeVdPRmRWYWJtWHpwbGJNaTVxZGZSdWE0LVAySlNUVW9RQ3hLZlVsU1l3NzJESV9Ca29OTUVjdTI4dWdLdw?oc=5",
-            "https://www.thedrinksbusiness.com/2026/06/the-medal-winning-wines-from-the-global-rose-masters-2026/"
+            "https://www.fooddive.com/news/no-toxics-in-food-packaging-act-2026/822803/",
+            "https://www.fooddive.com/news/soup-campbells-banza-partner-gluten-free-condensed/822629/"
           ]
         }
       ]
     },
     "germany": {
       "executive_summary": [
-        {
-          "headline": "Germany’s Beverage Companies Face New EU Packaging Rules in August 2026 - Vinetur",
-          "detail": "Germany’s Beverage Companies Face New EU Packaging Rules in August 2026 Vinetur",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMVcxU1QwQl9GZTBzeE94ZHRTN3pKRHhUZUtJN0I4b2YxQXduVTkyaGk4TGNsX2xqZkNud0w5a0hLTnlzU2VkOXJUVVVQY1JKODd1dWNEUXp0U3BHWXBnQ0p6M1d5ZlNlUG1za2ZyNUNCQU9jLVV5dTlkRHVDS2FNeW54NEU4dk1PWHdWVmVIMWdYQ2Z6cDAzTGtDZXk5TWlVYkFOU25uSF9Dc1pKNE0yY1pURnF1ejZ40gG-AUFVX3lxTE1kcjRkUW8yY1BoU3J6UXFZRXEwZDJLRDBZV0owRzZzT1loNHdqWjRobjBJYThQYWdhSmtzcmVSTGUwaFFWSF81Y2ZUdGtCUmYtTS1GS1VROGRSTUJISFYyWVFuRVBSMVk0djkzRl9EYlRYTTdOR0tVeEhRdGRVUGVTY24zZ0MzSkc3NWtCcDBZMUMtaE9aSzl1Y1Y2NkZZRFR2T0p6d1NNYVBhb21KeXRPREMyaDNycjdKVmxxM1E?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "Verband Traditioneller Sektmacher erhält Preis der Deutschen Weinkritik 2026 - about-drinks.com",
           "detail": "Verband Traditioneller Sektmacher erhält Preis der Deutschen Weinkritik 2026 about-drinks.com",
@@ -261,15 +267,47 @@
           "confidence": "medium"
         },
         {
-          "headline": "Bacardi mit neuer Führung in Deutschland - about-drinks.com",
-          "detail": "Bacardi mit neuer Führung in Deutschland about-drinks.com",
+          "headline": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "detail": "AB InBev launches fruit beers for UK market Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMie0FVX3lxTE43RFBja2hrREd4MWpWRzQ3bmhQYTRQYXR6OHk2RW5LNFM2Wko3WF9KaTVNRUdsWm90R3B1ZjFKY2lnMzhKd2hYbFB6T3NhaG9EdHpyZ3diVG1zQUpqM25qYk1XbWRGMHJXNlNkVTM1M0FyRDRIcnVLd0E2Zw?oc=5"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5"
           ],
-          "confidence": "high"
+          "confidence": "medium"
+        },
+        {
+          "headline": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "detail": "The arrival of Lauren Laudrin as the new director general is not the only big change at Château Petit-Village in Pomerol. Db’s Bordeaux correspondent Colin Hay explores its new relationship with La Pl",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "company": "AB InBev",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+          "date": "2026-06-16T12:37:18+00:00"
+        },
+        {
+          "title": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+          "date": "2026-06-16T11:15:01+00:00"
+        },
+        {
+          "title": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+          "date": "2026-06-16T10:39:37+00:00"
+        },
         {
           "title": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
           "company": "Heineken, Rewe",
@@ -285,30 +323,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
           "date": "2026-06-15T11:18:10+00:00"
-        },
-        {
-          "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-          "date": "2026-06-15T10:23:33+00:00"
-        },
-        {
-          "title": "Vegg White foams at the bit as it launches in new territories",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-          "date": "2026-06-12T10:32:54+00:00"
-        },
-        {
-          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
-          "date": "2026-06-12T08:59:11+00:00"
         }
       ],
       "competitor_moves": [
@@ -378,6 +392,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Germany",
           "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
@@ -392,9 +415,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -413,9 +436,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -465,15 +488,39 @@
           "confidence": "medium"
         },
         {
-          "headline": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
-          "detail": "Iron Maiden has collaborated with Heineken’s California-based brewery Lagunitas to release Trooper West Coast IPA. db finds out more. The post Is Iron Maiden releasing a West Coast IPA with Lagunitas ",
+          "headline": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "detail": "AB InBev launches fruit beers for UK market Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "company": "AB InBev",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+          "date": "2026-06-16T12:37:18+00:00"
+        },
+        {
+          "title": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+          "date": "2026-06-16T11:15:01+00:00"
+        },
+        {
+          "title": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+          "date": "2026-06-16T10:39:37+00:00"
+        },
         {
           "title": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
           "company": "Heineken, Rewe",
@@ -489,30 +536,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
           "date": "2026-06-15T11:18:10+00:00"
-        },
-        {
-          "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-          "date": "2026-06-15T10:23:33+00:00"
-        },
-        {
-          "title": "Vegg White foams at the bit as it launches in new territories",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-          "date": "2026-06-12T10:32:54+00:00"
-        },
-        {
-          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
-          "date": "2026-06-12T08:59:11+00:00"
         }
       ],
       "competitor_moves": [
@@ -582,28 +605,28 @@
       "signals": [
         {
           "signal": "Premium trending in France",
-          "explanation": "4 articles mention premium in the last 28 days",
-          "support_count": 4,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in France",
-          "explanation": "2 articles mention rtd in the last 28 days",
+          "signal": "Alcohol Free trending in France",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "rtd"
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in France",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "signal": "Rtd trending in France",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "rtd"
           ],
           "confidence": "low"
         },
@@ -615,15 +638,6 @@
             "functional"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in France",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -631,9 +645,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -652,9 +666,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -673,7 +687,7 @@
       "executive_summary": [
         {
           "headline": "Spain’s ‘taste of sunshine’ grape proves its value",
-          "detail": "If Monastrell has flown under the radar in the UK, that is not for a lack of quality. db looks at how the grape is meeting contemporary trends – and how it might 'help us survive the next century'. Th",
+          "detail": "If Monastrell has flown under the radar in the UK, that is not for a lack of quality. db looks at how the grape is meeting contemporary trends – and how it might \"help us survive the next century\" acc",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/spains-taste-of-sunshine-grape-proves-its-value/"
           ],
@@ -688,31 +702,55 @@
           "confidence": "medium"
         },
         {
-          "headline": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
-          "detail": "Iron Maiden has collaborated with Heineken’s California-based brewery Lagunitas to release Trooper West Coast IPA. db finds out more. The post Is Iron Maiden releasing a West Coast IPA with Lagunitas ",
+          "headline": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "detail": "AB InBev launches fruit beers for UK market Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Marta Vidal elected president of Cava DO",
-          "detail": "Marta Vidal has been elected as the new president of Spain's Cava Designation of Origin (DO) for the next four years. The post Marta Vidal elected president of Cava DO appeared first on The Drinks Bus",
+          "headline": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "detail": "The arrival of Lauren Laudrin as the new director general is not the only big change at Château Petit-Village in Pomerol. Db’s Bordeaux correspondent Colin Hay explores its new relationship with La Pl",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/marta-vidal-elected-president-of-cava-do/"
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
-          "headline": "#WeekInPictures: Dom Pérignon, Bollinger and old vines",
-          "detail": "This week’s gatherings ranged from the unveiling of Dom Pérignon Vintage 2018 in Bilbao and a major appointment at Bollinger to the launch of the Old Vine Conference’s inaugural photography competitio",
+          "headline": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "detail": "A new record, alleged to be the first ever album inspired by the production of Vini d’Abruzzo, has launched online, with 10 tracks created from the sounds of winemaking, such as the wind among the vin",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/"
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "company": "AB InBev",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+          "date": "2026-06-16T12:37:18+00:00"
+        },
+        {
+          "title": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+          "date": "2026-06-16T11:15:01+00:00"
+        },
+        {
+          "title": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+          "date": "2026-06-16T10:39:37+00:00"
+        },
         {
           "title": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
           "company": "Heineken, Rewe",
@@ -728,30 +766,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
           "date": "2026-06-12T10:34:12+00:00"
-        },
-        {
-          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
-          "company": "Target",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-          "date": "2026-06-15T11:18:10+00:00"
-        },
-        {
-          "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-          "date": "2026-06-15T10:23:33+00:00"
-        },
-        {
-          "title": "Vegg White foams at the bit as it launches in new territories",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-          "date": "2026-06-12T10:32:54+00:00"
         }
       ],
       "competitor_moves": [
@@ -807,21 +821,30 @@
       "signals": [
         {
           "signal": "Premium trending in Spain",
-          "explanation": "4 articles mention premium in the last 28 days",
-          "support_count": 4,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Spain",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Functional trending in Spain",
@@ -831,15 +854,6 @@
             "functional"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Spain",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -847,9 +861,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -867,9 +881,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/weekinpictures-dom-perignon-bollinger-and-old-vines/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -894,6 +908,14 @@
           "confidence": "high"
         },
         {
+          "headline": "Zachys to auction ‘staggering’ cellar of New York’s most historic Italian restaurant",
+          "detail": "Auction house Zachys is to auction wines from the cellars of Barbetta, the 120-year-old New York Italian restaurant that \"helped shape America's appreciation of Italian wine\" but which closed its door",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/06/zachys-to-auction-staggering-cellar-of-new-yorks-most-historic-italian-restaurant/"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "Leftovers: Svedka dips into vodka water | Magic Spoon expands with oatmeal",
           "detail": "The alcohol maker said it's introduced a \"category-first innovation\" with a transparent can, while Italian gelato brand Sammontana grows its U.S. presence with a slate of new desserts.",
           "evidence_urls": [
@@ -910,20 +932,12 @@
           "confidence": "medium"
         },
         {
-          "headline": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
-          "detail": "Iron Maiden has collaborated with Heineken’s California-based brewery Lagunitas to release Trooper West Coast IPA. db finds out more. The post Is Iron Maiden releasing a West Coast IPA with Lagunitas ",
+          "headline": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "detail": "AB InBev launches fruit beers for UK market Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Für moderne Aperitivo-Drinks: GOLDBERG launcht die Limited Edition Lavender - about-drinks.com",
-          "detail": "Für moderne Aperitivo-Drinks: GOLDBERG launcht die Limited Edition Lavender about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5"
-          ],
-          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -936,36 +950,36 @@
           "date": "2026-06-12T10:44:00-04:00"
         },
         {
+          "title": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "company": "AB InBev",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+          "date": "2026-06-16T12:37:18+00:00"
+        },
+        {
+          "title": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+          "date": "2026-06-16T11:15:01+00:00"
+        },
+        {
+          "title": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+          "date": "2026-06-16T10:39:37+00:00"
+        },
+        {
           "title": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
           "company": "Heineken, Rewe",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
           "date": "2026-06-16T08:50:04+00:00"
-        },
-        {
-          "title": "Für moderne Aperitivo-Drinks: GOLDBERG launcht die Limited Edition Lavender - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5",
-          "date": "2026-06-12T08:27:59+00:00"
-        },
-        {
-          "title": "The Macallan targets Gen Z in latest social media campaign with Emmy-nominated actor",
-          "company": "Target",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-          "date": "2026-06-15T11:18:10+00:00"
-        },
-        {
-          "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-          "date": "2026-06-15T10:23:33+00:00"
         }
       ],
       "competitor_moves": [
@@ -1021,21 +1035,30 @@
       "signals": [
         {
           "signal": "Premium trending in Italy",
-          "explanation": "4 articles mention premium in the last 28 days",
-          "support_count": 4,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Italy",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Functional trending in Italy",
@@ -1043,15 +1066,6 @@
           "support_count": 1,
           "top_keywords": [
             "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Italy",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "low"
         }
@@ -1062,8 +1076,8 @@
           "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/"
           ]
         },
         {
@@ -1082,8 +1096,8 @@
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.fooddive.com/news/svedka-vodka-water-magic-spoon-oatmeal-sammontana-gelato/822792/",
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzZxOTdyVkNzcUc3X2NzWjhud0xfTVlJaG5ObFNMeXRxYmhFSnZ6NjZYdjd1RGFlSG5CTFlPbDdITmx5V3JhSlJKMXozMXBjUjNaZG00bFpiUDhzaWZRY2t6M1RxNTRsbzhmRTNCS05wbU5YTXU1MG83ZWZ1RVhDc0xMdFpTMXNlZWlUN0ltNEpxZ1ZWMldDNjR2S0dHVXU3X2ZjSVIyV2c?oc=5"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/"
           ]
         },
         {
@@ -1124,23 +1138,47 @@
           "confidence": "medium"
         },
         {
-          "headline": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
-          "detail": "Iron Maiden has collaborated with Heineken’s California-based brewery Lagunitas to release Trooper West Coast IPA. db finds out more. The post Is Iron Maiden releasing a West Coast IPA with Lagunitas ",
+          "headline": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "detail": "AB InBev launches fruit beers for UK market Just Drinks",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Price of a pint of Guinness expected to soar to £13 within a decade",
-          "detail": "UK pub-goers could be paying close to £13 for a pint of Guinness in some regions within a decade, according to new price data. The post Price of a pint of Guinness expected to soar to £13 within a dec",
+          "headline": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "detail": "The arrival of Lauren Laudrin as the new director general is not the only big change at Château Petit-Village in Pomerol. Db’s Bordeaux correspondent Colin Hay explores its new relationship with La Pl",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/price-of-a-pint-of-guinness-expected-to-soar-to-13-within-a-decade/"
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "AB InBev launches fruit beers for UK market - Just Drinks",
+          "company": "AB InBev",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+          "date": "2026-06-16T12:37:18+00:00"
+        },
+        {
+          "title": "Château Petit-Village unveils its new relationship with La Place de Bordeaux",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+          "date": "2026-06-16T11:15:01+00:00"
+        },
+        {
+          "title": "The first album inspired by the production of Vini d’Abruzzo has now launched",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+          "date": "2026-06-16T10:39:37+00:00"
+        },
         {
           "title": "Is Iron Maiden releasing a West Coast IPA with Lagunitas an ‘evolution’ for Trooper?",
           "company": "Heineken, Rewe",
@@ -1156,30 +1194,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
           "date": "2026-06-15T11:18:10+00:00"
-        },
-        {
-          "title": "Young’s rolls out click and collect pints ahead of summer sporting calendar",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/",
-          "date": "2026-06-15T10:23:33+00:00"
-        },
-        {
-          "title": "Vegg White foams at the bit as it launches in new territories",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/vegg-white-foams-at-the-bit-as-it-launches-in-new-territories/",
-          "date": "2026-06-12T10:32:54+00:00"
-        },
-        {
-          "title": "New beverage launches: Cockburns, Mingle Mood and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUItVmc0bEdYVVVGU2RWNTc1WC0ydkM2LUcxYndCeWk2djhQTHhSanBpZEYzT1VxQlYxX3VGbmtLWWJIMFd5UFFKbHdhV3VUYUdXVFpRU3lQVll4OE9YVFMxNGtQbFpTajNqb3hMSk9aWlRuSFdOOWZ2SzB2YktaUEcwemRmZzVBdE96U2VJUDdIV3V5WGp2cXhxcGFKUm0zaV9uWnQxR1I?oc=5",
-          "date": "2026-06-12T08:59:11+00:00"
         }
       ],
       "competitor_moves": [
@@ -1249,6 +1263,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Austria",
           "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
@@ -1263,9 +1286,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
@@ -1284,9 +1307,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
-            "https://www.thedrinksbusiness.com/2026/06/the-macallan-targets-gen-z-in-latest-social-media-campaign-starring-james-marsden/",
-            "https://www.thedrinksbusiness.com/2026/06/youngs-rolls-out-click-and-collect-pints-ahead-of-summer-sporting-calendar/"
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJtbEVjLW9QSmxNaWh5WjZhYmhGX09JYWNfRmxQYUhrYUlxRndOVGpiajJRTU95eXNISmt1elV4V05zQk9WNGNramlKQWVick1TV05PV1FNZzlwcUZaQnBBSmJvOVRUR2lqeFA4d096c3VXNnlZNy1YMWIxSnVfVG9KTQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+            "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/"
           ]
         },
         {
