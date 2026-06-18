@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-17T16:37:58.728202+00:00",
-  "generated_date": "Wednesday, 17 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Aloha Medicinals Launches FungiFuse Functional Mushroom Ingredient Portfolio - BevNET.com.",
+  "generated_at": "2026-06-18T09:10:36.785610+00:00",
+  "generated_date": "Thursday, 18 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Gleneagles and Dom Pérignon unveil new private dining experience.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
     "france": "Premium trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
+    "spain": "Functional trending. (50 items)",
     "italy": "Premium trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 129,
-      "launch": 53,
-      "supply_chain": 48,
-      "regulatory": 19,
-      "competitor": 17,
-      "innovation": 15,
-      "pricing": 13,
+      "trend": 135,
+      "launch": 54,
+      "supply_chain": 40,
+      "innovation": 23,
+      "regulatory": 22,
+      "competitor": 12,
       "alcohol_free": 12,
-      "premium": 10,
-      "carbonated": 5
+      "functional": 10,
+      "carbonated": 7,
+      "pricing": 7
     }
   }
 }
