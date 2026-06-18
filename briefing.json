@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-18T09:10:36.785610+00:00",
+  "generated_at": "2026-06-18T16:29:37.007237+00:00",
   "generated_date": "Thursday, 18 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Gleneagles and Dom Pérignon unveil new private dining experience.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Benson Boone and Caliwater Introduce Dragon Fruit Flavor, Marking a New Milestone in Their Partnersh.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Premium trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "italy": "Functional trending. (50 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 135,
-      "launch": 54,
-      "supply_chain": 40,
-      "innovation": 23,
-      "regulatory": 22,
-      "competitor": 12,
-      "alcohol_free": 12,
-      "functional": 10,
-      "carbonated": 7,
-      "pricing": 7
+      "trend": 111,
+      "launch": 61,
+      "supply_chain": 41,
+      "regulatory": 25,
+      "competitor": 22,
+      "innovation": 21,
+      "functional": 15,
+      "pricing": 13,
+      "carbonated": 13,
+      "alcohol_free": 8
     }
   }
 }
