@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-19T15:58:09.021403+00:00",
-  "generated_date": "Friday, 19 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Court dismisses contractor bid to block Diageo’s EABL sale - Just Drinks.",
+  "generated_at": "2026-06-20T08:18:48.819486+00:00",
+  "generated_date": "Saturday, 20 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: New Products: Benson Boone Brings Dragon Fruit to Caliwater, Alani Adds Purple Cotton Candy - BevNET.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 143,
-      "launch": 67,
-      "competitor": 22,
+      "trend": 142,
+      "launch": 68,
+      "competitor": 20,
       "regulatory": 19,
-      "innovation": 18,
-      "supply_chain": 15,
-      "functional": 14,
-      "carbonated": 10,
-      "retail": 9,
-      "pricing": 7
+      "innovation": 19,
+      "supply_chain": 18,
+      "functional": 12,
+      "pricing": 7,
+      "carbonated": 7,
+      "sugar_free": 7
     }
   }
 }
