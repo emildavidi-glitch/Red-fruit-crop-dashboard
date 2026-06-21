@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T08:54:57.377943+00:00",
+  "generated_at": "2026-06-21T15:10:21.754834+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -155,8 +155,8 @@
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "carbonated"
           ],
@@ -172,15 +172,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Functional trending in United States",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Alcohol Free trending in United States",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
@@ -190,11 +181,20 @@
           "confidence": "low"
         },
         {
-          "signal": "Hydration trending in United States",
-          "explanation": "1 articles mention hydration in the last 28 days",
+          "signal": "Protein trending in United States",
+          "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "hydration"
+            "protein"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Functional trending in United States",
+          "explanation": "1 articles mention functional in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "functional"
           ],
           "confidence": "low"
         }
@@ -216,14 +216,6 @@
             "https://www.thedrinksbusiness.com/2026/06/government-urged-to-back-new-law-to-protect-historic-pubs/",
             "https://www.thedrinksbusiness.com/2026/06/alcohol-cancer-labels-public-health-measure-or-scare-tactic/",
             "https://www.fooddive.com/news/no-toxics-in-food-packaging-act-2026/822803/"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYUtLWVRKNkpPUVp0MGw4Sk9tcTZrYmJIVlRGX2p6UXlzV3k1bVFfanFIaHdOWUo0d2RYNG9rd0dTaVFaQjVjRG1NUXBjeUMzTlk0ZnlDZ0xMU19HU0JNYnNCa29sb0U2ZlhuNDE2djV4RWxlVVQyY1gyQkRvZThQLTlmeDRXWXk5S0tEb19VMTdBTmppUE1oNm4yOUFXeDhTZHZZVGdDVQ?oc=5",
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDUwLVg5SEw4SDRxMHh4VGZ3OWNBc2dLcEF1TjFTTGU3SmtoVV9Da3NzcFBGZlJlN2NjN1I1OXV1ZEM0c2lTZVBtOHhxRGJGSWtvYnNSYXNnQzhTYTUxb0t5cnIzNmFSb0hiY0p4azJFWGFIdjlMbXhWYTZQYnBLTWpUbGY1RkRodnNGdTNWc0lfQXloRWlRQWpxWnNoQjluRGRtSWhLUVdhWlNV?oc=5"
           ]
         }
       ],
@@ -261,6 +253,14 @@
           "confidence": "medium"
         },
         {
+          "headline": "Krugmeister: Die beliebtesten Sorten in Deutschland-Farben - about-drinks.com",
+          "detail": "Krugmeister: Die beliebtesten Sorten in Deutschland-Farben about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGx4M2tRRFFKQ3RVYldFc01iMEZLNVQ5UHdFdS0tcTNYdUh4c2c3cFk2ZktLamtBdWsyUjNVRWhWYmIwbTFONzIzU1FuYVFlY3FYVkQwTHUyZTN1WktrOHY5ZG50dUpHN09kenJoWUVNUEY3bnY2NDJNbUxGSnRFNlIwN0ZKcDhneGFyT28zUUY?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "New beverage launches: Stella strawberries and cream and more… - BeverageDaily.com",
           "detail": "New beverage launches: Stella strawberries and cream and more… BeverageDaily.com",
           "evidence_urls": [
@@ -281,14 +281,6 @@
           "detail": "Weekend food show Saturday Kitchen has partnered with Majestic to launch a new wine subscription service featuring exclusive wines selected by resident experts Helen McGinn and Olly Smith. The post Sa",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/saturday-kitchen-launches-wine-club-with-majestic/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "California wineries request US$32 million to fight vineyard pest",
-          "detail": "Senators have requested the immediate release of emergency funds from the US Department of Agriculture to \"contain and eradicate\" the glassy-winged sharpshooter before it decimates vineyards across Ca",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/06/california-wineries-request-us32-million-to-fight-vineyard-pest/"
           ],
           "confidence": "medium"
         }
@@ -377,13 +369,6 @@
           "date": "2026-06-18T09:51:14+00:00"
         },
         {
-          "title": "Verband Traditioneller Sektmacher erhält Preis der Deutschen Weinkritik 2026 - about-drinks.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVm02clJ6SGFxQWNRZlZuc3pqVGl5TC1xeGowVlBRWncwYW1hX3VJelRYQnJ5TmxucEFURTFLTTdIRkx1T01VTFJya2V0WG9Yb3AtUmtwQ0xPbEpIYm8zZFIzbUlCRWxBTGp4MFoyS2tmSU1XVmRVVVo3NGpsUzVXWDFKRjR3bmRESzFhQnVPVDVBVnNUUDRXN29ILWRpa2l0SDAxVXl5YS1OSlU?oc=5",
-          "date": "2026-06-16T08:51:06+00:00"
-        },
-        {
           "title": "Diving deeper into the EU's latest guidance on the PPWR - Packaging Europe",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -402,13 +387,13 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in Germany",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
+          "signal": "Protein trending in Germany",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "functional"
+            "protein"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Sugar Free trending in Germany",
@@ -429,11 +414,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Energy trending in Germany",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Functional trending in Germany",
+          "explanation": "1 articles mention functional in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "functional"
           ],
           "confidence": "low"
         }
@@ -454,15 +439,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/government-urged-to-back-new-law-to-protect-historic-pubs/",
             "https://www.thedrinksbusiness.com/2026/06/alcohol-cancer-labels-public-health-measure-or-scare-tactic/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVm02clJ6SGFxQWNRZlZuc3pqVGl5TC1xeGowVlBRWncwYW1hX3VJelRYQnJ5TmxucEFURTFLTTdIRkx1T01VTFJya2V0WG9Yb3AtUmtwQ0xPbEpIYm8zZFIzbUlCRWxBTGp4MFoyS2tmSU1XVmRVVVo3NGpsUzVXWDFKRjR3bmRESzFhQnVPVDVBVnNUUDRXN29ILWRpa2l0SDAxVXl5YS1OSlU?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDUwLVg5SEw4SDRxMHh4VGZ3OWNBc2dLcEF1TjFTTGU3SmtoVV9Da3NzcFBGZlJlN2NjN1I1OXV1ZEM0c2lTZVBtOHhxRGJGSWtvYnNSYXNnQzhTYTUxb0t5cnIzNmFSb0hiY0p4azJFWGFIdjlMbXhWYTZQYnBLTWpUbGY1RkRodnNGdTNWc0lfQXloRWlRQWpxWnNoQjluRGRtSWhLUVdhWlNV?oc=5",
-            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODRMRUVyTWtmRkVKdnViVUlORExfbTk4dUtjWGNMQ3kxX0hQLVl2Y3dJZ0lSbTNqd2h6Q1NTanhoMkRrY05USFhXM1RINjJKUmlFaEJpVnpjcU9TWjVaQWdaYkRUNzJKZ2t1MWM4b1Y4ckFvVUNLWGszWUxUTXRESENaU3hhYTI5a1VRQnVzNEkzc0cxS0dla3dfSmxlMGFuV0hz?oc=5"
           ]
         }
       ],
@@ -484,7 +461,7 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/government-urged-to-back-new-law-to-protect-historic-pubs/",
             "https://www.thedrinksbusiness.com/2026/06/alcohol-cancer-labels-public-health-measure-or-scare-tactic/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVm02clJ6SGFxQWNRZlZuc3pqVGl5TC1xeGowVlBRWncwYW1hX3VJelRYQnJ5TmxucEFURTFLTTdIRkx1T01VTFJya2V0WG9Yb3AtUmtwQ0xPbEpIYm8zZFIzbUlCRWxBTGp4MFoyS2tmSU1XVmRVVVo3NGpsUzVXWDFKRjR3bmRESzFhQnVPVDVBVnNUUDRXN29ILWRpa2l0SDAxVXl5YS1OSlU?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODRMRUVyTWtmRkVKdnViVUlORExfbTk4dUtjWGNMQ3kxX0hQLVl2Y3dJZ0lSbTNqd2h6Q1NTanhoMkRrY05USFhXM1RINjJKUmlFaEJpVnpjcU9TWjVaQWdaYkRUNzJKZ2t1MWM4b1Y4ckFvVUNLWGszWUxUTXRESENaU3hhYTI5a1VRQnVzNEkzc0cxS0dla3dfSmxlMGFuV0hz?oc=5"
           ]
         }
       ]
@@ -600,12 +577,12 @@
           "date": "2026-06-17T10:35:16+00:00"
         },
         {
-          "title": "Lactalis joins protein fray and bulks up via M&A - Just Drinks",
-          "company": "Lactalis",
+          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
+          "company": "Nestlé",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmpxYWFyTDc2ZFdKVUl3NTB2elJuaUxXNnFXN2JOd0dVRlRldXdMUHhqUUU3eFEycTg0cFlSX2hhb2lNSjF1dXlVajBNODNDOWF3cENDTll4Zk9rOE1KOXFjaWFWNHd6SnNGS0ktSUJuMmp0cEZMNEkyNXlxcEVCb1pHWUY1WDZ0?oc=5",
-          "date": "2026-06-04T12:15:57+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
+          "date": "2026-06-08T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -629,13 +606,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODRMRUVyTWtmRkVKdnViVUlORExfbTk4dUtjWGNMQ3kxX0hQLVl2Y3dJZ0lSbTNqd2h6Q1NTanhoMkRrY05USFhXM1RINjJKUmlFaEJpVnpjcU9TWjVaQWdaYkRUNzJKZ2t1MWM4b1Y4ckFvVUNLWGszWUxUTXRESENaU3hhYTI5a1VRQnVzNEkzc0cxS0dla3dfSmxlMGFuV0hz?oc=5",
           "date": "2026-06-15T13:21:53+00:00"
-        },
-        {
-          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
-          "date": "2026-05-26T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -665,20 +635,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in France",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Alcohol Free trending in France",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Protein trending in France",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "protein"
           ],
           "confidence": "low"
         },
@@ -863,12 +833,12 @@
           "date": "2026-06-17T10:35:16+00:00"
         },
         {
-          "title": "Lactalis joins protein fray and bulks up via M&A - Just Drinks",
-          "company": "Lactalis",
+          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
+          "company": "Nestlé",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmpxYWFyTDc2ZFdKVUl3NTB2elJuaUxXNnFXN2JOd0dVRlRldXdMUHhqUUU3eFEycTg0cFlSX2hhb2lNSjF1dXlVajBNODNDOWF3cENDTll4Zk9rOE1KOXFjaWFWNHd6SnNGS0ktSUJuMmp0cEZMNEkyNXlxcEVCb1pHWUY1WDZ0?oc=5",
-          "date": "2026-06-04T12:15:57+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
+          "date": "2026-06-08T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -930,6 +900,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Protein trending in Spain",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "protein"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Sugar Free trending in Spain",
           "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
@@ -944,15 +923,6 @@
           "support_count": 1,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Spain",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "low"
         }
@@ -1127,12 +1097,12 @@
           "date": "2026-06-17T10:35:16+00:00"
         },
         {
-          "title": "Lactalis joins protein fray and bulks up via M&A - Just Drinks",
-          "company": "Lactalis",
+          "title": "CCU buys out Nestlé from Chile joint venture - Just Drinks",
+          "company": "Nestlé",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmpxYWFyTDc2ZFdKVUl3NTB2elJuaUxXNnFXN2JOd0dVRlRldXdMUHhqUUU3eFEycTg0cFlSX2hhb2lNSjF1dXlVajBNODNDOWF3cENDTll4Zk9rOE1KOXFjaWFWNHd6SnNGS0ktSUJuMmp0cEZMNEkyNXlxcEVCb1pHWUY1WDZ0?oc=5",
-          "date": "2026-06-04T12:15:57+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWlhT0ZsaTM2UGxHbzc4YXp2d2pjcGw4YWt1R0VqV2dqUXh2SExTT2t5UWgyakZTTzJWN1d6b2s5aDBEVW1ab1pnZUFiZHh2dVQwMzBRYnB3dllDemU0RjZsenBzQ3RyTjA0LVBxNkhaUnE5ZnhST0RwbGVIZVU5WGpOdHc?oc=5",
+          "date": "2026-06-08T07:00:00+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1156,13 +1126,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODRMRUVyTWtmRkVKdnViVUlORExfbTk4dUtjWGNMQ3kxX0hQLVl2Y3dJZ0lSbTNqd2h6Q1NTanhoMkRrY05USFhXM1RINjJKUmlFaEJpVnpjcU9TWjVaQWdaYkRUNzJKZ2t1MWM4b1Y4ckFvVUNLWGszWUxUTXRESENaU3hhYTI5a1VRQnVzNEkzc0cxS0dla3dfSmxlMGFuV0hz?oc=5",
           "date": "2026-06-15T13:21:53+00:00"
-        },
-        {
-          "title": "Packaging and Packaging Waste Regulation: placing on the market ahead of August 2026 - twobirds.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1JWbk1EcUdGbVlvWWJwMG05WVkxNWFTTWZlcW1RZW1ZUHpfTVVfcmVpV0ZTXzYwVXJkdmNfZG1wajNyVnpUUW9XSVlqckFnN09mRGNZNG1tSnZ1ajhhVVdPYUZnUHNIOE5yODlBLUx0NURUS1NwdF8tWkg4ZGR5NUdWR2d4MkZ4bnRNLVlYeklZTTJ3X2RQWFFCb1NBNGxJX1hMVFQwV2RKa1R0eVpzZUZoMEFwcVlqTXNfcXEwRUhNajg?oc=5",
-          "date": "2026-05-26T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1185,13 +1148,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Italy",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "signal": "Protein trending in Italy",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "rtd"
+            "protein"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Sugar Free trending in Italy",
@@ -1399,13 +1362,6 @@
           "date": "2026-06-18T09:51:14+00:00"
         },
         {
-          "title": "Verband Traditioneller Sektmacher erhält Preis der Deutschen Weinkritik 2026 - about-drinks.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVm02clJ6SGFxQWNRZlZuc3pqVGl5TC1xeGowVlBRWncwYW1hX3VJelRYQnJ5TmxucEFURTFLTTdIRkx1T01VTFJya2V0WG9Yb3AtUmtwQ0xPbEpIYm8zZFIzbUlCRWxBTGp4MFoyS2tmSU1XVmRVVVo3NGpsUzVXWDFKRjR3bmRESzFhQnVPVDVBVnNUUDRXN29ILWRpa2l0SDAxVXl5YS1OSlU?oc=5",
-          "date": "2026-06-16T08:51:06+00:00"
-        },
-        {
           "title": "Diving deeper into the EU's latest guidance on the PPWR - Packaging Europe",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1424,13 +1380,13 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in Austria",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
+          "signal": "Protein trending in Austria",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "functional"
+            "protein"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Sugar Free trending in Austria",
@@ -1451,11 +1407,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Energy trending in Austria",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Functional trending in Austria",
+          "explanation": "1 articles mention functional in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "functional"
           ],
           "confidence": "low"
         }
@@ -1476,15 +1432,7 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/government-urged-to-back-new-law-to-protect-historic-pubs/",
             "https://www.thedrinksbusiness.com/2026/06/alcohol-cancer-labels-public-health-measure-or-scare-tactic/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVm02clJ6SGFxQWNRZlZuc3pqVGl5TC1xeGowVlBRWncwYW1hX3VJelRYQnJ5TmxucEFURTFLTTdIRkx1T01VTFJya2V0WG9Yb3AtUmtwQ0xPbEpIYm8zZFIzbUlCRWxBTGp4MFoyS2tmSU1XVmRVVVo3NGpsUzVXWDFKRjR3bmRESzFhQnVPVDVBVnNUUDRXN29ILWRpa2l0SDAxVXl5YS1OSlU?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDUwLVg5SEw4SDRxMHh4VGZ3OWNBc2dLcEF1TjFTTGU3SmtoVV9Da3NzcFBGZlJlN2NjN1I1OXV1ZEM0c2lTZVBtOHhxRGJGSWtvYnNSYXNnQzhTYTUxb0t5cnIzNmFSb0hiY0p4azJFWGFIdjlMbXhWYTZQYnBLTWpUbGY1RkRodnNGdTNWc0lfQXloRWlRQWpxWnNoQjluRGRtSWhLUVdhWlNV?oc=5",
-            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODRMRUVyTWtmRkVKdnViVUlORExfbTk4dUtjWGNMQ3kxX0hQLVl2Y3dJZ0lSbTNqd2h6Q1NTanhoMkRrY05USFhXM1RINjJKUmlFaEJpVnpjcU9TWjVaQWdaYkRUNzJKZ2t1MWM4b1Y4ckFvVUNLWGszWUxUTXRESENaU3hhYTI5a1VRQnVzNEkzc0cxS0dla3dfSmxlMGFuV0hz?oc=5"
           ]
         }
       ],
@@ -1506,7 +1454,7 @@
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/06/government-urged-to-back-new-law-to-protect-historic-pubs/",
             "https://www.thedrinksbusiness.com/2026/06/alcohol-cancer-labels-public-health-measure-or-scare-tactic/",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVm02clJ6SGFxQWNRZlZuc3pqVGl5TC1xeGowVlBRWncwYW1hX3VJelRYQnJ5TmxucEFURTFLTTdIRkx1T01VTFJya2V0WG9Yb3AtUmtwQ0xPbEpIYm8zZFIzbUlCRWxBTGp4MFoyS2tmSU1XVmRVVVo3NGpsUzVXWDFKRjR3bmRESzFhQnVPVDVBVnNUUDRXN29ILWRpa2l0SDAxVXl5YS1OSlU?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODRMRUVyTWtmRkVKdnViVUlORExfbTk4dUtjWGNMQ3kxX0hQLVl2Y3dJZ0lSbTNqd2h6Q1NTanhoMkRrY05USFhXM1RINjJKUmlFaEJpVnpjcU9TWjVaQWdaYkRUNzJKZ2t1MWM4b1Y4ckFvVUNLWGszWUxUTXRESENaU3hhYTI5a1VRQnVzNEkzc0cxS0dla3dfSmxlMGFuV0hz?oc=5"
           ]
         }
       ]
