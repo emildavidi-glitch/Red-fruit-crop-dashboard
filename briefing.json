@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-21T15:10:21.754834+00:00",
-  "generated_date": "Sunday, 21 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Plum Deluxe and Strawberry Shortcake Bring Berry-Sweet Tea to Summer - BevNET.com.",
+  "generated_at": "2026-06-22T10:34:04.675974+00:00",
+  "generated_date": "Monday, 22 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Italy launches new ‘crisis fund’ for winemakers in Trentino.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Protein trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
     "italy": "Functional trending. (50 items)",
-    "austria": "Protein trending. (50 items)"
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 146,
-      "launch": 56,
-      "competitor": 22,
-      "innovation": 22,
-      "regulatory": 20,
-      "supply_chain": 20,
-      "functional": 9,
-      "pricing": 7,
-      "carbonated": 7,
-      "sugar_free": 7
+      "trend": 150,
+      "launch": 50,
+      "supply_chain": 32,
+      "regulatory": 24,
+      "functional": 20,
+      "innovation": 20,
+      "competitor": 16,
+      "sugar_free": 13,
+      "pricing": 8,
+      "carbonated": 7
     }
   }
 }
