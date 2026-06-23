@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-23T08:25:57.360258+00:00",
+  "generated_at": "2026-06-23T15:46:30.151534+00:00",
   "generated_date": "Tuesday, 23 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: waterdrop® ernennt Mark Henning zum ersten General Manager in Deutschland - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: The future on en primeur will be determined by distribution rather than reducing price.",
   "signals": {
-    "usa": "Alcohol Free trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Functional trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
     "spain": "Functional trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
     "austria": "Functional trending. (50 items)"
@@ -15,15 +15,15 @@
     "method": "rss-analysis",
     "top_topics": {
       "trend": 146,
-      "launch": 50,
-      "supply_chain": 26,
-      "innovation": 24,
-      "regulatory": 23,
-      "competitor": 21,
+      "launch": 47,
+      "regulatory": 31,
+      "supply_chain": 30,
+      "innovation": 28,
+      "alcohol_free": 17,
       "functional": 16,
-      "alcohol_free": 13,
-      "pricing": 8,
-      "sugar_free": 6
+      "sugar_free": 11,
+      "carbonated": 10,
+      "pricing": 10
     }
   }
 }
