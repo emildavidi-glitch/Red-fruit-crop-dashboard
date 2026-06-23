@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-22T17:39:34.723230+00:00",
-  "generated_date": "Monday, 22 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Ardgowan Distillery “far stronger” after new investment - Just Drinks.",
+  "generated_at": "2026-06-23T08:25:57.360258+00:00",
+  "generated_date": "Tuesday, 23 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: waterdrop® ernennt Mark Henning zum ersten General Manager in Deutschland - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
+    "usa": "Alcohol Free trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
+    "italy": "Alcohol Free trending. (50 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 141,
-      "launch": 53,
-      "functional": 30,
-      "supply_chain": 29,
-      "regulatory": 29,
-      "competitor": 20,
-      "innovation": 19,
-      "alcohol_free": 11,
-      "pricing": 9,
-      "sugar_free": 7
+      "trend": 146,
+      "launch": 50,
+      "supply_chain": 26,
+      "innovation": 24,
+      "regulatory": 23,
+      "competitor": 21,
+      "functional": 16,
+      "alcohol_free": 13,
+      "pricing": 8,
+      "sugar_free": 6
     }
   }
 }
