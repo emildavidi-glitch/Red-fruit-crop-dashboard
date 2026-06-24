@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-24T08:19:05.622823+00:00",
+  "generated_at": "2026-06-24T15:32:21.496979+00:00",
   "generated_date": "Wednesday, 24 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: AIX Rosé sets summer mood with Playlister.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Winding through Austria’s diverse Niederösterreich vineyards.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
     "austria": "Carbonated trending. (50 items)"
   },
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 52,
-      "regulatory": 31,
-      "supply_chain": 27,
-      "innovation": 19,
+      "trend": 153,
+      "launch": 46,
+      "regulatory": 30,
+      "supply_chain": 22,
+      "innovation": 20,
+      "competitor": 17,
       "alcohol_free": 15,
-      "functional": 15,
-      "carbonated": 13,
-      "pricing": 10,
-      "sugar_free": 10
+      "carbonated": 14,
+      "pricing": 11,
+      "functional": 10
     }
   }
 }
