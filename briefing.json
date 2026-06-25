@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-24T15:32:21.496979+00:00",
-  "generated_date": "Wednesday, 24 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Winding through Austria’s diverse Niederösterreich vineyards.",
+  "generated_at": "2026-06-25T08:19:18.804544+00:00",
+  "generated_date": "Thursday, 25 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: 1816 Paleur Classique – der schönste Drink des Sommers wird tagsüber getrunken - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
+    "france": "Sugar Free trending. (50 items)",
+    "spain": "Sugar Free trending. (50 items)",
+    "italy": "Sugar Free trending. (50 items)",
     "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 153,
-      "launch": 46,
+      "trend": 141,
+      "launch": 42,
+      "supply_chain": 30,
       "regulatory": 30,
-      "supply_chain": 22,
-      "innovation": 20,
-      "competitor": 17,
-      "alcohol_free": 15,
+      "innovation": 25,
+      "pricing": 17,
       "carbonated": 14,
-      "pricing": 11,
-      "functional": 10
+      "competitor": 13,
+      "functional": 13,
+      "alcohol_free": 13
     }
   }
 }
