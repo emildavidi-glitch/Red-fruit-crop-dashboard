@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-25T15:38:43.814672+00:00",
-  "generated_date": "Thursday, 25 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Regenerative farming programme officially launches with drinks companies pledging support - Beverage.",
+  "generated_at": "2026-06-26T08:27:17.879852+00:00",
+  "generated_date": "Friday, 26 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Capri Sun launcht Energy-Drink GAME ON - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
     "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
-    "italy": "Carbonated trending. (50 items)",
+    "italy": "Alcohol Free trending. (50 items)",
     "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 44,
-      "supply_chain": 25,
-      "carbonated": 20,
-      "competitor": 19,
-      "regulatory": 19,
+      "trend": 148,
+      "launch": 45,
+      "supply_chain": 29,
+      "competitor": 25,
+      "carbonated": 25,
+      "regulatory": 20,
       "pricing": 17,
-      "innovation": 16,
-      "functional": 10,
-      "sugar_free": 9
+      "innovation": 15,
+      "alcohol_free": 13,
+      "functional": 9
     }
   }
 }
