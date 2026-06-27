@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T15:22:25.097127+00:00",
-  "generated_date": "Friday, 26 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Rhenser Mineralbrunnen wird Teil von Refresco Deutschland - about-drinks.com.",
+  "generated_at": "2026-06-27T07:45:02.599587+00:00",
+  "generated_date": "Saturday, 27 June 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Professional Fighters League Names Gorilla Energy as Exclusive Energy Drink Partner in Major Multi-Y.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
     "italy": "Functional trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 161,
+      "trend": 162,
       "launch": 50,
-      "regulatory": 22,
-      "competitor": 18,
-      "carbonated": 18,
+      "regulatory": 24,
+      "competitor": 22,
       "supply_chain": 17,
+      "carbonated": 17,
       "functional": 14,
       "innovation": 14,
-      "alcohol_free": 11,
-      "pricing": 11
+      "alcohol_free": 10,
+      "hydration": 7
     }
   }
 }
