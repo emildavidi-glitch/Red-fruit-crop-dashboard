@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-29T09:23:25.939295+00:00",
+  "generated_at": "2026-06-29T16:37:49.872059+00:00",
   "generated_date": "Monday, 29 June 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Coca-Cola Company North America President steps down - BeverageDaily.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Nach Insolvenz: Rauch übernimmt Kloster Kitchen - about-drinks.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Alcohol Free trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Functional trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 134,
-      "launch": 57,
-      "regulatory": 28,
-      "competitor": 27,
-      "supply_chain": 19,
-      "innovation": 18,
-      "carbonated": 16,
-      "alcohol_free": 13,
-      "pricing": 11,
+      "trend": 153,
+      "launch": 48,
+      "regulatory": 37,
+      "alcohol_free": 24,
+      "innovation": 21,
+      "carbonated": 20,
+      "competitor": 15,
+      "premium": 12,
+      "supply_chain": 12,
       "functional": 9
     }
   }
