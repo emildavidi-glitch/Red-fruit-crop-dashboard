@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-01T08:46:43.618131+00:00",
+  "generated_at": "2026-07-01T15:39:57.792602+00:00",
   "generated_date": "Wednesday, 01 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Chef Andrew Wong and Dishoom’s Amar Radia plan Chinese pub.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Chlorophyll Water Expands Midwest Footprint, Now Available at All Hy-Vee Locations - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
+    "usa": "Alcohol Free trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
     "france": "Alcohol Free trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 154,
-      "launch": 53,
-      "regulatory": 48,
-      "alcohol_free": 22,
-      "premium": 17,
-      "carbonated": 13,
-      "pricing": 12,
-      "supply_chain": 10,
-      "retail": 9,
-      "rtd": 8
+      "trend": 138,
+      "launch": 63,
+      "regulatory": 38,
+      "alcohol_free": 26,
+      "premium": 16,
+      "supply_chain": 16,
+      "pricing": 14,
+      "competitor": 13,
+      "carbonated": 9,
+      "rtd": 6
     }
   }
 }
