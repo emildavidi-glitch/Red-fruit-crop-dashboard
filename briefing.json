@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-02T08:09:12.256444+00:00",
+  "generated_at": "2026-07-02T15:13:41.903828+00:00",
   "generated_date": "Thursday, 02 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: KNUT HANSEN: Null Prozent Kompromiss - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: US reclassification of cannabis opens new opportunities for beverage innovation - BeverageDaily.com.",
   "signals": {
     "usa": "Alcohol Free trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Energy trending. (50 items)",
+    "spain": "Energy trending. (50 items)",
     "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 151,
-      "launch": 52,
-      "regulatory": 39,
-      "alcohol_free": 21,
-      "pricing": 14,
+      "trend": 139,
+      "launch": 59,
+      "regulatory": 45,
+      "supply_chain": 22,
       "competitor": 14,
-      "supply_chain": 12,
-      "premium": 9,
-      "rtd": 8,
-      "innovation": 6
+      "alcohol_free": 13,
+      "energy": 9,
+      "innovation": 9,
+      "premium": 8,
+      "pricing": 8
     }
   }
 }
