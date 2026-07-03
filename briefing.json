@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-02T15:13:41.903828+00:00",
-  "generated_date": "Thursday, 02 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: US reclassification of cannabis opens new opportunities for beverage innovation - BeverageDaily.com.",
+  "generated_at": "2026-07-03T07:57:57.358767+00:00",
+  "generated_date": "Friday, 03 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Gastivo Gastro Monitor 2026: Gastronomie gewinnt an Stabilität - about-drinks.com.",
   "signals": {
-    "usa": "Alcohol Free trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
     "france": "Energy trending. (50 items)",
     "spain": "Energy trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
+    "italy": "Energy trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 139,
-      "launch": 59,
-      "regulatory": 45,
-      "supply_chain": 22,
-      "competitor": 14,
-      "alcohol_free": 13,
-      "energy": 9,
-      "innovation": 9,
-      "premium": 8,
-      "pricing": 8
+      "trend": 149,
+      "launch": 48,
+      "regulatory": 39,
+      "competitor": 19,
+      "supply_chain": 16,
+      "pricing": 14,
+      "alcohol_free": 11,
+      "energy": 10,
+      "innovation": 8,
+      "premium": 7
     }
   }
 }

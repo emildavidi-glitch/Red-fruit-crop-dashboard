@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-07-02T15:13:41.903828+00:00",
+  "generated_at": "2026-07-03T07:57:57.358767+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
         {
+          "headline": "FDA adds caffeine labeling to regulatory priority list",
+          "detail": "The disclosure comes after Celsius and other energy drink manufacturers face mounting scrutiny for allegedly failing to disclose health risks to consumers.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/"
+          ],
+          "confidence": "high"
+        },
+        {
           "headline": "Beer Hour: Lotte Peplow",
           "detail": "Lotte Peplow, the Brewers Association’s American craft beer ambassador for Europe, tells Jessica Mason about her experience within the beer sector, the challenges and trends that are changing it and t",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/beer-hour-lotte-peplow/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "Top 10 oldest wineries and distilleries in US",
+          "detail": "Ahead of Independence Day on Saturday, db reveals the oldest wineries and distilleries in the United States that remain operational, two of which predate the Declaration of Independence altogether. Th",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/top-10-oldest-wineries-and-distilleries-in-us/"
           ],
           "confidence": "high"
         },
@@ -27,22 +43,6 @@
             "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Beer considered to be the ‘most American’ of drinks",
-          "detail": "Ahead of Independence Day celebrations, new statistics have revealed that the majority of adults believe beer is the drink that is understood to be “most American”. db looks at the findings. The post ",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/beer-considered-to-be-most-american-of-drinks/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Relighting a passion: wine and America on a milestone anniversary",
-          "detail": "As the US celebrates its 250th anniversary this weekend, where does wine fit into the national mood? Karen MacNeil argues that Americans should take the chance to embrace a longstanding and unique win",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/relighting-a-passion-wine-and-america-on-a-milestone-anniversary/"
-          ],
-          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -71,30 +71,30 @@
           "date": "2026-07-01T18:01:26+00:00"
         },
         {
-          "title": "Chlorophyll Water Expands Midwest Footprint, Now Available at All Hy-Vee Locations - BevNET.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZhRzRCTTJqc3BaM1kteVhMVnltME5PdXFVei1CUnp2ZFhGVGhNSXhKOWxuWGRZcHN3Z2ZHRERPampra21EUEwtVFphOFNvT0Iyd3BhdkpvMGtkN2lsT21LQzlQaVNrQ0lESTE3UzF5MkNaLTRWSGVnMTJaLVJCQTl3VjJKMGRQbnR0aFBJMHFITkh1TEE4RFlLRGV5Qko3UTQtV3BDbHhmMkVQd2txbW1YYng0Vm0y?oc=5",
-          "date": "2026-07-01T15:17:11+00:00"
-        },
-        {
           "title": "Bollinger launches PNAYC21",
           "company": "Unknown",
           "product": "alcohol_free",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bollinger-launches-pnayc21/",
           "date": "2026-07-01T12:37:15+00:00"
+        },
+        {
+          "title": "Westgarth Wines expands fine wine business into Europe with new hire",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/westgarth-wines-expands-fine-wine-business-into-europe-with-new-hire/",
+          "date": "2026-07-01T10:27:01+00:00"
         }
       ],
       "competitor_moves": [
         {
-          "title": "M&A Activity For Scaled RTD Brands Expected to Ramp Up - BevNET.com",
-          "company": "Unknown",
+          "title": "Bestway and Budweiser tie-up drives huge sales surge",
+          "company": "AB InBev",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPazNSUzl4U2RUWk1FcEgtdTB1R0FMWWN1TVFkcGZEeEZzaHNZejBHZTNQZzhZcGhsZ3FOZFVzSnpZZThwTW0yMjNRcHBwTHhPdVh3TWRkbnlFUGNXUXJJYVc3YmVzeE1yTnFWRlVSTjBmaUFrM3pjdHNnbUo2R1dsbGNXYU5aLVJkVENzbVk0cHl6emRC?oc=5",
-          "date": "2026-07-01T19:00:19+00:00"
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
+          "date": "2026-07-03T06:00:32+00:00"
         },
         {
           "title": "Saint Wine and Cru Wines join forces",
@@ -105,15 +105,22 @@
           "date": "2026-07-01T10:07:44+00:00"
         },
         {
-          "title": "ASC Fine Wines and Familia Zuccardi strike exclusive distribution deal",
+          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-and-familia-zuccardi-strike-exclusive-distribution-deal/",
-          "date": "2026-06-30T10:37:58+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
+          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "FDA adds caffeine labeling to regulatory priority list",
+          "topic": "energy",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/",
+          "date": "2026-07-02T12:35:00-04:00"
+        },
         {
           "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
           "topic": "energy",
@@ -141,16 +148,16 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWkRPSllOZlFQczNucUlXRFM4aXRWQk00TWU0V3VTTHhldG4zYXp0NVprckNyYW94VlpFTEM0VnlWUUVFb0dJcXZiT1RyNkY2eWExUzFuSjMwcHFUYThiN0R3bURpdWZrdHhyUDRSRWV4a3Qyb1k2dFdkQlp2UVNURmVYVHBIbWpnMHhZTzlzZ0c2NTRQX0oydmsxUG8?oc=5",
           "date": "2026-07-01T20:50:56+00:00"
-        },
-        {
-          "title": "Thailand reviews alcohol dispenser rules to close retail loopholes",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/thailand-reviews-alcohol-dispenser-rules-to-close-retail-loopholes/",
-          "date": "2026-06-30T10:43:45+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "The Big Interview: Costco’s Chad Sokol",
+          "what_changed": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surpris",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+          "date": "2026-07-02T15:28:48+00:00"
+        },
         {
           "title": "Cal-Maine to donate 30M eggs in DOJ price-fixing settlement",
           "what_changed": "The country's largest egg producer will also pay $1.5 million in an agreement that also involves producers Hickman's Egg Ranch and Versova.",
@@ -175,11 +182,20 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
+          "signal": "Carbonated trending in United States",
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
-            "alcohol_free"
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in United States",
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "medium"
         },
@@ -193,29 +209,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Rtd trending in United States",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in United States",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Sugar Free trending in United States",
+          "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "sugar_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Alcohol Free trending in United States",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -234,9 +241,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
-            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ]
         }
       ],
@@ -256,9 +263,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/",
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
-            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ]
         }
       ]
@@ -358,6 +365,14 @@
           "date": "2026-07-01T11:14:55+00:00"
         },
         {
+          "title": "Bestway and Budweiser tie-up drives huge sales surge",
+          "company": "AB InBev",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
+          "date": "2026-07-03T06:00:32+00:00"
+        },
+        {
           "title": "Saint Wine and Cru Wines join forces",
           "company": "Unknown",
           "move_type": "competitor",
@@ -366,12 +381,12 @@
           "date": "2026-07-01T10:07:44+00:00"
         },
         {
-          "title": "ASC Fine Wines and Familia Zuccardi strike exclusive distribution deal",
+          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-and-familia-zuccardi-strike-exclusive-distribution-deal/",
-          "date": "2026-06-30T10:37:58+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
+          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -413,6 +428,13 @@
       ],
       "pricing_promotions": [
         {
+          "title": "The Big Interview: Costco’s Chad Sokol",
+          "what_changed": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surpris",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+          "date": "2026-07-02T15:28:48+00:00"
+        },
+        {
           "title": "The finest rosé wines money can buy",
           "what_changed": "Yes, there is such a thing as pink fine wine, and Patrick Schmitt MW has picked out a handful of the greatest, all of which gained a top scores in thi",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -421,6 +443,15 @@
         }
       ],
       "signals": [
+        {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Functional trending in Germany",
           "explanation": "1 articles mention functional in the last 28 days",
@@ -436,15 +467,6 @@
           "support_count": 1,
           "top_keywords": [
             "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Germany",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         },
@@ -536,10 +558,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Vinarchy puts ‘biggest investment yet’ behind new Jacob’s Creek campaign",
-          "detail": "The Australian parent company of Jacob's Creek has launched its 'Welcome to the Creek' campaign, aimed at making wine drinking more social and approachable The post Vinarchy puts ‘biggest investment y",
+          "headline": "The Big Interview: Costco’s Chad Sokol",
+          "detail": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surprising priority for the wholesaler. The post The Big ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/"
           ],
           "confidence": "medium"
         }
@@ -588,6 +610,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Bestway and Budweiser tie-up drives huge sales surge",
+          "company": "AB InBev",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
+          "date": "2026-07-03T06:00:32+00:00"
+        },
+        {
           "title": "Saint Wine and Cru Wines join forces",
           "company": "Unknown",
           "move_type": "competitor",
@@ -596,12 +626,12 @@
           "date": "2026-07-01T10:07:44+00:00"
         },
         {
-          "title": "ASC Fine Wines and Familia Zuccardi strike exclusive distribution deal",
+          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-and-familia-zuccardi-strike-exclusive-distribution-deal/",
-          "date": "2026-06-30T10:37:58+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
+          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -627,21 +657,28 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Thailand reviews alcohol dispenser rules to close retail loopholes",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/thailand-reviews-alcohol-dispenser-rules-to-close-retail-loopholes/",
-          "date": "2026-06-30T10:43:45+00:00"
-        },
-        {
           "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
           "date": "2026-06-29T12:45:25+00:00"
+        },
+        {
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "The Big Interview: Costco’s Chad Sokol",
+          "what_changed": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surpris",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+          "date": "2026-07-02T15:28:48+00:00"
+        },
         {
           "title": "The finest rosé wines money can buy",
           "what_changed": "Yes, there is such a thing as pink fine wine, and Patrick Schmitt MW has picked out a handful of the greatest, all of which gained a top scores in thi",
@@ -767,18 +804,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Vinarchy puts ‘biggest investment yet’ behind new Jacob’s Creek campaign",
-          "detail": "The Australian parent company of Jacob's Creek has launched its 'Welcome to the Creek' campaign, aimed at making wine drinking more social and approachable The post Vinarchy puts ‘biggest investment y",
+          "headline": "The Big Interview: Costco’s Chad Sokol",
+          "detail": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surprising priority for the wholesaler. The post The Big ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Aldi launches its ‘chicken wine’ dupe in magnum",
-          "detail": "Budget supermarket Aldi is to release Le Grand Poulet Rosé wine, a magnum-sized version of its Le Petit Poulet Rosé, on 6 July, the same day England plays Mexico in the World Cup. The post Aldi launch",
+          "headline": "Bestway and Budweiser tie-up drives huge sales surge",
+          "detail": "Bestway Wholesale’s partnership with the AB InBev-owned beer brand Budweiser has shown how strong supplier collaboration can benefit sales. db reports. The post Bestway and Budweiser tie-up drives hug",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/aldi-launches-its-chicken-wine-dupe-in-magnum/"
+            "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/"
           ],
           "confidence": "medium"
         }
@@ -827,6 +864,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Bestway and Budweiser tie-up drives huge sales surge",
+          "company": "AB InBev",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
+          "date": "2026-07-03T06:00:32+00:00"
+        },
+        {
           "title": "Saint Wine and Cru Wines join forces",
           "company": "Unknown",
           "move_type": "competitor",
@@ -835,12 +880,12 @@
           "date": "2026-07-01T10:07:44+00:00"
         },
         {
-          "title": "ASC Fine Wines and Familia Zuccardi strike exclusive distribution deal",
+          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-and-familia-zuccardi-strike-exclusive-distribution-deal/",
-          "date": "2026-06-30T10:37:58+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
+          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -866,21 +911,28 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Thailand reviews alcohol dispenser rules to close retail loopholes",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/thailand-reviews-alcohol-dispenser-rules-to-close-retail-loopholes/",
-          "date": "2026-06-30T10:43:45+00:00"
-        },
-        {
           "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
           "date": "2026-06-29T12:45:25+00:00"
+        },
+        {
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "The Big Interview: Costco’s Chad Sokol",
+          "what_changed": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surpris",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+          "date": "2026-07-02T15:28:48+00:00"
+        },
         {
           "title": "The finest rosé wines money can buy",
           "what_changed": "Yes, there is such a thing as pink fine wine, and Patrick Schmitt MW has picked out a handful of the greatest, all of which gained a top scores in thi",
@@ -982,14 +1034,6 @@
     "italy": {
       "executive_summary": [
         {
-          "headline": "AperZero: New Italian Non-Alcoholic Aperitivo Now in the USA - BevNET.com",
-          "detail": "AperZero: New Italian Non-Alcoholic Aperitivo Now in the USA BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV1NXY01NMTdkWmQtNl9aemM5VXBQWEdYZzQ0Ym1FWGVqY0JjYnBLLUJIc0dJUXVvelVUWTlXR1pibHZhSlBqY1JxRURxdUxyY3hyMTlLZm1rS1pwblNhQm0zMEcwUVI1Y0p2QUk5andsMXNUVnpVTGVEbU5ZX2dKNVozaXlpanhLQnhGeHh0Ym5PWjFZenAtOHJ5cw?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
           "detail": "India regulator issues notices on \"misleading\" energy drinks claims Just Drinks",
           "evidence_urls": [
@@ -1014,10 +1058,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Vinarchy puts ‘biggest investment yet’ behind new Jacob’s Creek campaign",
-          "detail": "The Australian parent company of Jacob's Creek has launched its 'Welcome to the Creek' campaign, aimed at making wine drinking more social and approachable The post Vinarchy puts ‘biggest investment y",
+          "headline": "The Big Interview: Costco’s Chad Sokol",
+          "detail": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surprising priority for the wholesaler. The post The Big ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Bestway and Budweiser tie-up drives huge sales surge",
+          "detail": "Bestway Wholesale’s partnership with the AB InBev-owned beer brand Budweiser has shown how strong supplier collaboration can benefit sales. db reports. The post Bestway and Budweiser tie-up drives hug",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/"
           ],
           "confidence": "medium"
         }
@@ -1066,6 +1118,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Bestway and Budweiser tie-up drives huge sales surge",
+          "company": "AB InBev",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
+          "date": "2026-07-03T06:00:32+00:00"
+        },
+        {
           "title": "Saint Wine and Cru Wines join forces",
           "company": "Unknown",
           "move_type": "competitor",
@@ -1074,12 +1134,12 @@
           "date": "2026-07-01T10:07:44+00:00"
         },
         {
-          "title": "ASC Fine Wines and Familia Zuccardi strike exclusive distribution deal",
+          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-and-familia-zuccardi-strike-exclusive-distribution-deal/",
-          "date": "2026-06-30T10:37:58+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
+          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1105,21 +1165,28 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Thailand reviews alcohol dispenser rules to close retail loopholes",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/thailand-reviews-alcohol-dispenser-rules-to-close-retail-loopholes/",
-          "date": "2026-06-30T10:43:45+00:00"
-        },
-        {
           "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
           "date": "2026-06-29T12:45:25+00:00"
+        },
+        {
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "The Big Interview: Costco’s Chad Sokol",
+          "what_changed": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surpris",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+          "date": "2026-07-02T15:28:48+00:00"
+        },
         {
           "title": "The finest rosé wines money can buy",
           "what_changed": "Yes, there is such a thing as pink fine wine, and Patrick Schmitt MW has picked out a handful of the greatest, all of which gained a top scores in thi",
@@ -1130,20 +1197,20 @@
       ],
       "signals": [
         {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "3 articles mention alcohol free in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Energy trending in Italy",
           "explanation": "2 articles mention energy in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "energy"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -1253,10 +1320,10 @@
           "confidence": "high"
         },
         {
-          "headline": "Vinarchy puts ‘biggest investment yet’ behind new Jacob’s Creek campaign",
-          "detail": "The Australian parent company of Jacob's Creek has launched its 'Welcome to the Creek' campaign, aimed at making wine drinking more social and approachable The post Vinarchy puts ‘biggest investment y",
+          "headline": "The Big Interview: Costco’s Chad Sokol",
+          "detail": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surprising priority for the wholesaler. The post The Big ",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/"
           ],
           "confidence": "medium"
         }
@@ -1305,6 +1372,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Bestway and Budweiser tie-up drives huge sales surge",
+          "company": "AB InBev",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
+          "date": "2026-07-03T06:00:32+00:00"
+        },
+        {
           "title": "Saint Wine and Cru Wines join forces",
           "company": "Unknown",
           "move_type": "competitor",
@@ -1313,12 +1388,12 @@
           "date": "2026-07-01T10:07:44+00:00"
         },
         {
-          "title": "ASC Fine Wines and Familia Zuccardi strike exclusive distribution deal",
+          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
           "company": "Unknown",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-and-familia-zuccardi-strike-exclusive-distribution-deal/",
-          "date": "2026-06-30T10:37:58+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
+          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1351,14 +1426,21 @@
           "date": "2026-07-01T12:48:48+00:00"
         },
         {
-          "title": "Thailand reviews alcohol dispenser rules to close retail loopholes",
+          "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/06/thailand-reviews-alcohol-dispenser-rules-to-close-retail-loopholes/",
-          "date": "2026-06-30T10:43:45+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
+          "date": "2026-06-29T12:45:25+00:00"
         }
       ],
       "pricing_promotions": [
+        {
+          "title": "The Big Interview: Costco’s Chad Sokol",
+          "what_changed": "Chad Sokol, vice president of wine and liquor at Costco, is on a quest for hidden gems, writes Sarah Heller MW, with fine wine from Bordeaux a surpris",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+          "date": "2026-07-02T15:28:48+00:00"
+        },
         {
           "title": "The finest rosé wines money can buy",
           "what_changed": "Yes, there is such a thing as pink fine wine, and Patrick Schmitt MW has picked out a handful of the greatest, all of which gained a top scores in thi",
@@ -1378,20 +1460,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Austria",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Energy trending in Austria",
           "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "energy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
