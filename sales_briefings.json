@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T15:09:47.892238+00:00",
+  "generated_at": "2026-07-04T07:40:37.949061+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -89,6 +89,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
@@ -175,12 +183,12 @@
       "signals": [
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention carbonated in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Energy trending in United States",
@@ -289,20 +297,20 @@
           "confidence": "high"
         },
         {
-          "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
-          "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Rauch acquires German functional drinks maker Kloster Kitchen - Just Drinks",
           "detail": "Rauch acquires German functional drinks maker Kloster Kitchen Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUxwbVk1NGtkUUF0cXZUREVjUjJEaDdyMC1hOElWa2lwTlBXWE1hN1gyVUZaMjBUVUhhTlNKZHM3UmRWc3E0RDRTeDJsenlPaU9lUjZ3bWFTTUNlcm9ZT0VsUjUxUmhfQzBYamlHekpXTHR6YUlmWEZOOGZoZDlMMERNQ3hOSE1DcllOUUhxQjhWUW9JRmFvdl8zZw?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
+          "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -355,6 +363,14 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUxwbVk1NGtkUUF0cXZUREVjUjJEaDdyMC1hOElWa2lwTlBXWE1hN1gyVUZaMjBUVUhhTlNKZHM3UmRWc3E0RDRTeDJsenlPaU9lUjZ3bWFTTUNlcm9ZT0VsUjUxUmhfQzBYamlHekpXTHR6YUlmWEZOOGZoZDlMMERNQ3hOSE1DcllOUUhxQjhWUW9JRmFvdl8zZw?oc=5",
           "date": "2026-07-01T11:14:55+00:00"
+        },
+        {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
         },
         {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
@@ -437,20 +453,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Germany",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Functional trending in Germany",
           "explanation": "1 articles mention functional in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "functional"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         },
@@ -603,6 +619,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
@@ -617,6 +641,14 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
           "date": "2026-07-01T10:07:44+00:00"
+        },
+        {
+          "title": "Danone strengthens beverages portfolio with Asia-Pacific acquisition - BeverageDaily.com",
+          "company": "Danone",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1JCNk82SnJiWFBPXzRSbU5iYmM0UFUzcmY3R0pEZVdseHFTZDM4UzJLYklKUHVfU04xZUN2SnhKV2FyMng1VURwZUtMMXcyQnRyaFItTmh2TVhVNV9mVkJKQ1cySmxaclpZRDhSalU0S2ZwUWduWVZUT2JjbndGMnVZZE9LQ3g3c0hDdjMtRnZ6SVhJZ3RKNjExMzRkTzIzQVQwTk9xM01xY3hYODhfRU1laXd6NjAtakNNbVQ4NS1QUXVfY0F0MWR3?oc=5",
+          "date": "2026-06-22T14:47:59+00:00"
         }
       ],
       "regulatory_watch": [
@@ -649,11 +681,11 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
-          "date": "2026-06-29T12:45:25+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
@@ -670,6 +702,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-finest-rose-wines-money-can-buy/",
           "date": "2026-07-01T10:21:15+00:00"
+        },
+        {
+          "title": "Diageo CEO ‘calls on execs to cut jobs, costs’ - Just Drinks",
+          "what_changed": "Diageo CEO ‘calls on execs to cut jobs, costs’ Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaGZabnFjTmJLYm8zbVJUMmFRSG5PRGNWaExmajd4VFhNa2F1VW9ldFdtdzFfYU9uMlFFZWo1OE4ydDNkUlVNTUlvczRXWnhvUEVyTmk3bmN2cEVRd052Y3RRNDhMT1YxWko3RHgwa3pTWnQxaFJwZUNKbTVMY3A3WjJKRQ?oc=5",
+          "date": "2026-06-18T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -679,15 +718,6 @@
           "support_count": 2,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in France",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "medium"
         },
@@ -715,6 +745,15 @@
           "support_count": 1,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Protein trending in France",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "protein"
           ],
           "confidence": "low"
         }
@@ -849,6 +888,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
@@ -863,6 +910,14 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
           "date": "2026-07-01T10:07:44+00:00"
+        },
+        {
+          "title": "Danone strengthens beverages portfolio with Asia-Pacific acquisition - BeverageDaily.com",
+          "company": "Danone",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1JCNk82SnJiWFBPXzRSbU5iYmM0UFUzcmY3R0pEZVdseHFTZDM4UzJLYklKUHVfU04xZUN2SnhKV2FyMng1VURwZUtMMXcyQnRyaFItTmh2TVhVNV9mVkJKQ1cySmxaclpZRDhSalU0S2ZwUWduWVZUT2JjbndGMnVZZE9LQ3g3c0hDdjMtRnZ6SVhJZ3RKNjExMzRkTzIzQVQwTk9xM01xY3hYODhfRU1laXd6NjAtakNNbVQ4NS1QUXVfY0F0MWR3?oc=5",
+          "date": "2026-06-22T14:47:59+00:00"
         }
       ],
       "regulatory_watch": [
@@ -895,11 +950,11 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
-          "date": "2026-06-29T12:45:25+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
@@ -916,6 +971,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-finest-rose-wines-money-can-buy/",
           "date": "2026-07-01T10:21:15+00:00"
+        },
+        {
+          "title": "Diageo CEO ‘calls on execs to cut jobs, costs’ - Just Drinks",
+          "what_changed": "Diageo CEO ‘calls on execs to cut jobs, costs’ Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaGZabnFjTmJLYm8zbVJUMmFRSG5PRGNWaExmajd4VFhNa2F1VW9ldFdtdzFfYU9uMlFFZWo1OE4ydDNkUlVNTUlvczRXWnhvUEVyTmk3bmN2cEVRd052Y3RRNDhMT1YxWko3RHgwa3pTWnQxaFJwZUNKbTVMY3A3WjJKRQ?oc=5",
+          "date": "2026-06-18T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -925,15 +987,6 @@
           "support_count": 2,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in Spain",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "medium"
         },
@@ -961,6 +1014,15 @@
           "support_count": 1,
           "top_keywords": [
             "protein"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Energy trending in Spain",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "low"
         }
@@ -1095,6 +1157,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
@@ -1109,6 +1179,14 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
           "date": "2026-07-01T10:07:44+00:00"
+        },
+        {
+          "title": "Danone strengthens beverages portfolio with Asia-Pacific acquisition - BeverageDaily.com",
+          "company": "Danone",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1JCNk82SnJiWFBPXzRSbU5iYmM0UFUzcmY3R0pEZVdseHFTZDM4UzJLYklKUHVfU04xZUN2SnhKV2FyMng1VURwZUtMMXcyQnRyaFItTmh2TVhVNV9mVkJKQ1cySmxaclpZRDhSalU0S2ZwUWduWVZUT2JjbndGMnVZZE9LQ3g3c0hDdjMtRnZ6SVhJZ3RKNjExMzRkTzIzQVQwTk9xM01xY3hYODhfRU1laXd6NjAtakNNbVQ4NS1QUXVfY0F0MWR3?oc=5",
+          "date": "2026-06-22T14:47:59+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1141,11 +1219,11 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Industry welcomes White House’s call on Congress to revise hemp regulation - Just Drinks",
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVNHbDVuSVNScUc5MVMtYVRkdk1xdTRKRi1MQWFDT1RfRDlqTW9sYjBBMHdMM3hCVkp1cEh1S0dWR1psRFBUdU56QnFLVzNUdDVRT3ZwZVBWWnhrNC1ia1JFSjJXQjQ1R1J0dEplNDQzNm1pVk5jTEowM1RXa25Yb2VCa19RMGVPa0hBZGk4TkV3bUVjb240VkZfWVIwYmhzODVwZ0dUQ3ZLMUk?oc=5",
-          "date": "2026-06-29T12:45:25+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1162,6 +1240,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/the-finest-rose-wines-money-can-buy/",
           "date": "2026-07-01T10:21:15+00:00"
+        },
+        {
+          "title": "Diageo CEO ‘calls on execs to cut jobs, costs’ - Just Drinks",
+          "what_changed": "Diageo CEO ‘calls on execs to cut jobs, costs’ Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaGZabnFjTmJLYm8zbVJUMmFRSG5PRGNWaExmajd4VFhNa2F1VW9ldFdtdzFfYU9uMlFFZWo1OE4ydDNkUlVNTUlvczRXWnhvUEVyTmk3bmN2cEVRd052Y3RRNDhMT1YxWko3RHgwa3pTWnQxaFJwZUNKbTVMY3A3WjJKRQ?oc=5",
+          "date": "2026-06-18T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -1171,15 +1256,6 @@
           "support_count": 2,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in Italy",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "medium"
         },
@@ -1207,6 +1283,15 @@
           "support_count": 1,
           "top_keywords": [
             "protein"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Energy trending in Italy",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "low"
         }
@@ -1341,6 +1426,14 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
@@ -1387,11 +1480,11 @@
           "date": "2026-07-02T08:45:32+00:00"
         },
         {
-          "title": "Krombacher ist neuer Partner des Deutschen Pickleball Verbandes - about-drinks.com",
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUElNTFJueFRZQjd4RkZVXzNBV2VJWE15emFzYXEyYnEyZE9iX00tWXBYbDhVemFacFBsemRVMXdJXzM2ZXVpeGtvZ0dQcmE3ZVE0cVVETjNscE4xdTdzZWZleUE2TDI2UDk4amtMNC14MFNFOFd2VW42M2pFWjRLY2tCaTdPZnI3S0gzaFNHNFQ2YVRORDhRbQ?oc=5",
-          "date": "2026-07-01T12:48:48+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [

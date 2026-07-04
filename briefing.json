@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03T15:09:47.892238+00:00",
-  "generated_date": "Friday, 03 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: French wine producer Lagarosse Holdings files for US IPO - Just Drinks.",
+  "generated_at": "2026-07-04T07:40:37.949061+00:00",
+  "generated_date": "Saturday, 04 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: 247 Packaging Corp. - Filler and Seamer Technician - BevNET.com Beverage Industry Job Listing - BevN.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 139,
-      "launch": 57,
-      "regulatory": 45,
-      "supply_chain": 14,
-      "pricing": 14,
-      "competitor": 13,
+      "trend": 138,
+      "launch": 52,
+      "regulatory": 37,
+      "competitor": 22,
+      "pricing": 17,
+      "supply_chain": 15,
       "alcohol_free": 12,
-      "macro": 11,
-      "energy": 10,
-      "carbonated": 10
+      "macro": 12,
+      "rtd": 9,
+      "carbonated": 9
     }
   }
 }
