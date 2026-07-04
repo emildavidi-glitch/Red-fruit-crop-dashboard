@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T07:40:37.949061+00:00",
+  "generated_at": "2026-07-04T14:28:01.180329+00:00",
   "generated_date": "Saturday, 04 July 2026",
   "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: 247 Packaging Corp. - Filler and Seamer Technician - BevNET.com Beverage Industry Job Listing - BevN.",
   "signals": {
@@ -8,21 +8,21 @@
     "france": "Rtd trending. (50 items)",
     "spain": "Rtd trending. (50 items)",
     "italy": "Rtd trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 138,
-      "launch": 52,
-      "regulatory": 37,
-      "competitor": 22,
+      "trend": 127,
+      "launch": 58,
+      "regulatory": 40,
+      "supply_chain": 20,
+      "competitor": 19,
       "pricing": 17,
-      "supply_chain": 15,
+      "rtd": 13,
       "alcohol_free": 12,
       "macro": 12,
-      "rtd": 9,
       "carbonated": 9
     }
   }
