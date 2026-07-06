@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-06T08:56:52.871064+00:00",
+  "generated_at": "2026-07-06T16:19:57.396513+00:00",
   "generated_date": "Monday, 06 July 2026",
-  "briefing": "Sales intelligence tracked 299 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Finest Beer Selection 2026: Riedenburger Brauhaus mit vier Auszeichnungen - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Cheeky Branches Into Canned Mixers with Botanical Tonic Launch - BevNET.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (49 items)",
-    "italy": "Rtd trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Sugar Free trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 299,
+    "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 134,
-      "launch": 53,
-      "regulatory": 40,
-      "supply_chain": 26,
+      "trend": 152,
+      "launch": 45,
+      "regulatory": 36,
+      "supply_chain": 20,
+      "competitor": 18,
       "pricing": 17,
-      "premium": 15,
-      "rtd": 13,
-      "competitor": 12,
-      "alcohol_free": 12,
-      "innovation": 11
+      "premium": 13,
+      "carbonated": 10,
+      "rtd": 10,
+      "energy": 7
     }
   }
 }
