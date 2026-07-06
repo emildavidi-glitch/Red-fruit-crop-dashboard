@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T14:41:50.941508+00:00",
+  "generated_at": "2026-07-06T08:56:52.871064+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -21,6 +21,14 @@
           "confidence": "high"
         },
         {
+          "headline": "LVMH wins China trademark battle",
+          "detail": "Luxury goods group LVMH has scored a US$1.5 billion judgment in China for trademark violation, suggesting a significant shift in the People’s Republic’s attitude to protecting intellectual property. W",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/lvmh-wins-china-trademark-battle/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Beer Hour: Lotte Peplow",
           "detail": "Lotte Peplow, the Brewers Association’s American craft beer ambassador for Europe, tells Jessica Mason about her experience within the beer sector, the challenges and trends that are changing it and t",
           "evidence_urls": [
@@ -35,14 +43,6 @@
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Top 10 oldest wineries and distilleries in the US",
-          "detail": "Ahead of Independence Day on Saturday, db reveals the oldest wineries and distilleries in the United States that remain operational, two of which predate the Declaration of Independence altogether. Th",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/top-10-oldest-wineries-and-distilleries-in-the-us/"
-          ],
-          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -89,28 +89,20 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
           "date": "2026-07-03T06:00:32+00:00"
-        },
-        {
-          "title": "Saint Wine and Cru Wines join forces",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
-          "date": "2026-07-01T10:07:44+00:00"
-        },
-        {
-          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
-          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -129,13 +121,6 @@
           "date": "2026-07-03T10:32:43+00:00"
         },
         {
-          "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-          "date": "2026-07-02T13:47:08+00:00"
-        },
-        {
           "title": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -148,6 +133,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/",
           "date": "2026-07-02T08:45:32+00:00"
+        },
+        {
+          "title": "Supermarkets globally ramp up investment in own-label alcohol ranges - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
+          "date": "2026-06-29T08:35:38+00:00"
         }
       ],
       "pricing_promotions": [
@@ -182,18 +174,9 @@
       ],
       "signals": [
         {
-          "signal": "Energy trending in United States",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "premium"
           ],
@@ -201,10 +184,19 @@
         },
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
@@ -218,11 +210,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Protein trending in United States",
-          "explanation": "1 articles mention protein in the last 28 days",
+          "signal": "Energy trending in United States",
+          "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "protein"
+            "energy"
           ],
           "confidence": "low"
         }
@@ -243,7 +235,7 @@
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/",
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ]
         }
       ],
@@ -265,7 +257,7 @@
           "evidence_urls": [
             "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/",
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ]
         }
       ]
@@ -273,20 +265,20 @@
     "germany": {
       "executive_summary": [
         {
-          "headline": "Germany mulling tax increase on spirits - Just Drinks",
-          "detail": "Germany mulling tax increase on spirits Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QMkxoWnNCYnJsS2hMMmExMndaUlJraUtHbG1YeV9pdHpfRFRaTm9mSGhPd0tOQlViRzc1X21vLTJvX1V1b0Z5cTVQUGp0b0FJV1FNanNGbWw0bF8tT1V4N0hUM2R3N1RPUWRMWjNkS1RocElWMkFpdlE0ckVkUQ?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "Drinks companies hit out at Germany’s sugar tax plans - Just Drinks",
           "detail": "Drinks companies hit out at Germany’s sugar tax plans Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzdtNHo3Nkc0ODV0aFR2R3JmanN2cWFpU3lSZXVtQ3I5NURWVWt6TTFWQmQ2X2VlRWlIY3kzWjExNGJ3WEJKUnlxMjhaN2JpYUlHYldrQ1NZaHVDZlZyTHRmVURSNE9wOHUxSWdOa2l0eW5ndl9vWE5DV0JsV1RJMG9aYk84QnhzQWU4MlJDbzBaRDRQdkJYUVBVWlNnSWM?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Offener Brief: Kölner Brauerei-Verband warnt vor Zuckersteuer - about-drinks.com",
+          "detail": "Offener Brief: Kölner Brauerei-Verband warnt vor Zuckersteuer about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Over 300 drinks companies sign open letter against Germany’s proposed sugar levy - BeverageDaily.com",
@@ -297,18 +289,18 @@
           "confidence": "high"
         },
         {
-          "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
-          "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
+          "headline": "LVMH wins China trademark battle",
+          "detail": "Luxury goods group LVMH has scored a US$1.5 billion judgment in China for trademark violation, suggesting a significant shift in the People’s Republic’s attitude to protecting intellectual property. W",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
+            "https://www.thedrinksbusiness.com/2026/07/lvmh-wins-china-trademark-battle/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "detail": "India regulator issues notices on \"misleading\" energy drinks claims Just Drinks",
+          "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
+          "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
           ],
           "confidence": "medium"
         }
@@ -331,6 +323,14 @@
           "date": "2026-07-03T09:01:12+00:00"
         },
         {
+          "title": "Conte Camillo: Cocktail-Range launcht eigenen Onlineshop - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW9IQXBPUGV4M3B5SnBHZTNxV3d4dTJhU1FwMW1BTGxNVUtJNjFaZEtEbWd5ZkVTcWRrMHZPaUpZY254YTZMek5zUlFER1VPOWV2aEF5TWdOUHd6SXU4RWtlX2d0MmdWTjRKZjZ0UGlHc3dyS0p0c0hWNUw1aVpudVZfbUMxOXhrNUp0b2dB?oc=5",
+          "date": "2026-07-03T08:50:54+00:00"
+        },
+        {
           "title": "Vinarchy puts ‘biggest investment yet’ behind new Jacob’s Creek campaign",
           "company": "Unknown",
           "product": "beverage",
@@ -345,17 +345,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/aldi-launches-its-chicken-wine-dupe-in-magnum/",
           "date": "2026-07-02T10:39:38+00:00"
-        },
-        {
-          "title": "Bollinger launches PNAYC21",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bollinger-launches-pnayc21/",
-          "date": "2026-07-01T12:37:15+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
         {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
@@ -363,38 +363,22 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
           "date": "2026-07-03T06:00:32+00:00"
-        },
-        {
-          "title": "Saint Wine and Cru Wines join forces",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
-          "date": "2026-07-01T10:07:44+00:00"
-        },
-        {
-          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
-          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
-        {
-          "title": "Germany mulling tax increase on spirits - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QMkxoWnNCYnJsS2hMMmExMndaUlJraUtHbG1YeV9pdHpfRFRaTm9mSGhPd0tOQlViRzc1X21vLTJvX1V1b0Z5cTVQUGp0b0FJV1FNanNGbWw0bF8tT1V4N0hUM2R3N1RPUWRMWjNkS1RocElWMkFpdlE0ckVkUQ?oc=5",
-          "date": "2026-07-01T18:10:43+00:00"
-        },
         {
           "title": "Drinks companies hit out at Germany’s sugar tax plans - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzdtNHo3Nkc0ODV0aFR2R3JmanN2cWFpU3lSZXVtQ3I5NURWVWt6TTFWQmQ2X2VlRWlIY3kzWjExNGJ3WEJKUnlxMjhaN2JpYUlHYldrQ1NZaHVDZlZyTHRmVURSNE9wOHUxSWdOa2l0eW5ndl9vWE5DV0JsV1RJMG9aYk84QnhzQWU4MlJDbzBaRDRQdkJYUVBVWlNnSWM?oc=5",
           "date": "2026-06-30T12:21:39+00:00"
+        },
+        {
+          "title": "Offener Brief: Kölner Brauerei-Verband warnt vor Zuckersteuer - about-drinks.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5",
+          "date": "2026-07-06T08:05:43+00:00"
         },
         {
           "title": "3,000 bottles of Alta Langa stolen from Strevi winery",
@@ -404,18 +388,18 @@
           "date": "2026-07-03T10:32:43+00:00"
         },
         {
-          "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-          "date": "2026-07-02T13:47:08+00:00"
-        },
-        {
           "title": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
           "date": "2026-07-02T11:03:06+00:00"
+        },
+        {
+          "title": "Diageo sale of East African Breweries is on the rocks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/",
+          "date": "2026-07-02T08:45:32+00:00"
         }
       ],
       "pricing_promotions": [
@@ -436,11 +420,11 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Germany",
-          "explanation": "2 articles mention rtd in the last 28 days",
+          "signal": "Premium trending in Germany",
+          "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -454,29 +438,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Germany",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Germany",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Protein trending in Germany",
           "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "protein"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Rtd trending in Germany",
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Carbonated trending in Germany",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -488,15 +472,15 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5",
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWjFpZ1lHblNUWFFMd3FMMlBTQlo3ZmhvNTE4OENzQlg4ZENCOExncjg5Zjh2N2xwMFFUcV9JVlhiTE91WDhmaG5peTRUbkF5UTRwMTVhUXB3THNpQWFVQ1lxTEtZbW83NWtGQlJEZFBISUpORjRZMjc0U3RtSVdDNHk4ZVYxSmJtZ1FkZVJiUkhEbUpvYmxET1Rad1B4QVRTeW9RLWM5TVdwbE0?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW9IQXBPUGV4M3B5SnBHZTNxV3d4dTJhU1FwMW1BTGxNVUtJNjFaZEtEbWd5ZkVTcWRrMHZPaUpZY254YTZMek5zUlFER1VPOWV2aEF5TWdOUHd6SXU4RWtlX2d0MmdWTjRKZjZ0UGlHc3dyS0p0c0hWNUw1aVpudVZfbUMxOXhrNUp0b2dB?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QMkxoWnNCYnJsS2hMMmExMndaUlJraUtHbG1YeV9pdHpfRFRaTm9mSGhPd0tOQlViRzc1X21vLTJvX1V1b0Z5cTVQUGp0b0FJV1FNanNGbWw0bF8tT1V4N0hUM2R3N1RPUWRMWjNkS1RocElWMkFpdlE0ckVkUQ?oc=5",
             "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzdtNHo3Nkc0ODV0aFR2R3JmanN2cWFpU3lSZXVtQ3I5NURWVWt6TTFWQmQ2X2VlRWlIY3kzWjExNGJ3WEJKUnlxMjhaN2JpYUlHYldrQ1NZaHVDZlZyTHRmVURSNE9wOHUxSWdOa2l0eW5ndl9vWE5DV0JsV1RJMG9aYk84QnhzQWU4MlJDbzBaRDRQdkJYUVBVWlNnSWM?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
           ]
         }
@@ -509,7 +493,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5",
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWjFpZ1lHblNUWFFMd3FMMlBTQlo3ZmhvNTE4OENzQlg4ZENCOExncjg5Zjh2N2xwMFFUcV9JVlhiTE91WDhmaG5peTRUbkF5UTRwMTVhUXB3THNpQWFVQ1lxTEtZbW83NWtGQlJEZFBISUpORjRZMjc0U3RtSVdDNHk4ZVYxSmJtZ1FkZVJiUkhEbUpvYmxET1Rad1B4QVRTeW9RLWM5TVdwbE0?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW9IQXBPUGV4M3B5SnBHZTNxV3d4dTJhU1FwMW1BTGxNVUtJNjFaZEtEbWd5ZkVTcWRrMHZPaUpZY254YTZMek5zUlFER1VPOWV2aEF5TWdOUHd6SXU4RWtlX2d0MmdWTjRKZjZ0UGlHc3dyS0p0c0hWNUw1aVpudVZfbUMxOXhrNUp0b2dB?oc=5"
           ]
         },
         {
@@ -517,8 +501,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QMkxoWnNCYnJsS2hMMmExMndaUlJraUtHbG1YeV9pdHpfRFRaTm9mSGhPd0tOQlViRzc1X21vLTJvX1V1b0Z5cTVQUGp0b0FJV1FNanNGbWw0bF8tT1V4N0hUM2R3N1RPUWRMWjNkS1RocElWMkFpdlE0ckVkUQ?oc=5",
             "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzdtNHo3Nkc0ODV0aFR2R3JmanN2cWFpU3lSZXVtQ3I5NURWVWt6TTFWQmQ2X2VlRWlIY3kzWjExNGJ3WEJKUnlxMjhaN2JpYUlHYldrQ1NZaHVDZlZyTHRmVURSNE9wOHUxSWdOa2l0eW5ndl9vWE5DV0JsV1RJMG9aYk84QnhzQWU4MlJDbzBaRDRQdkJYUVBVWlNnSWM?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/"
           ]
         }
@@ -535,12 +519,12 @@
           "confidence": "high"
         },
         {
-          "headline": "French wine producer Lagarosse Holdings files for US IPO - Just Drinks",
-          "detail": "French wine producer Lagarosse Holdings files for US IPO Just Drinks",
+          "headline": "LVMH wins China trademark battle",
+          "detail": "Luxury goods group LVMH has scored a US$1.5 billion judgment in China for trademark violation, suggesting a significant shift in the People’s Republic’s attitude to protecting intellectual property. W",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNjUxTnFxLXZQcmdOR1drN2xNdVdBTXVhaDFQd3RYSENXS3pjQ3NKWjFEZWwwdDdKVVhDcTl4VjZtdWdGc1oxSWJvckRPNnJ2Y1lucGdXS2hKTHo4WlJ0aDBLekpkaGRIMDVVWk5rRkp6U0J0YmNrTEdPQXN0WHhMd1l6UHl4TGNCR2xXRVVZbUs0cmc1?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/lvmh-wins-china-trademark-battle/"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
@@ -551,18 +535,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "detail": "India regulator issues notices on \"misleading\" energy drinks claims Just Drinks",
+          "headline": "Two drinks giants considering IPOs in India",
+          "detail": "With both Pernod Ricard and Carlsberg reportedly considering applying for Initial Public Offerings (IPOs) in India, how might this reshape the drinks sector in the market? Ron Emler reports. The post ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/two-drinks-giants-considering-ipos-in-india/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Dairy group Ehrmann to launch RTD collagen coffees - Just Drinks",
-          "detail": "Dairy group Ehrmann to launch RTD collagen coffees Just Drinks",
+          "headline": "Will Bordeaux feel the heat over irrigation rules?",
+          "detail": "Lafleur, which withdrew from both Pomerol AOC and the Bordeaux designation last year partly over irrigation, has already started to irrigate its vines this year. With temperature soaring into the 40s ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/will-bordeaux-feel-the-heat-over-irrigation-rules/"
           ],
           "confidence": "medium"
         }
@@ -611,28 +595,20 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
           "date": "2026-07-03T06:00:32+00:00"
-        },
-        {
-          "title": "Saint Wine and Cru Wines join forces",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
-          "date": "2026-07-01T10:07:44+00:00"
-        },
-        {
-          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
-          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -642,13 +618,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
           "date": "2026-07-03T10:32:43+00:00"
-        },
-        {
-          "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-          "date": "2026-07-02T13:47:08+00:00"
         },
         {
           "title": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
@@ -670,6 +639,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
           "date": "2026-06-29T08:35:38+00:00"
+        },
+        {
+          "title": "Paris bans public alcohol consumption amid heatwave - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU0dYSXdaZnBzN2xLZ2hra3FTT3FHcG40Zi1QSlkzdFpIak5wZi1rWk5JU1RUZk50a3A0MFNGcmZUWlI0aHk5cU1rVmF6ZnVhTUdfdU1qNnhwR1VOMjMwQXVfZEg3RHFqeUIxYTYwUF9aTVp1c3pZclVZWmNSaDEzQk80V1VFNjdLRnJHV1RR?oc=5",
+          "date": "2026-06-26T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -697,9 +673,18 @@
       ],
       "signals": [
         {
+          "signal": "Premium trending in France",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Rtd trending in France",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "rtd"
           ],
@@ -715,29 +700,20 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in France",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Organic trending in France",
           "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "organic"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Premium trending in France",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in France",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "low"
         }
@@ -757,8 +733,16 @@
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVczVjF3ZUR6a2tLQVpDWENVRWZKa2hzbHd5X0RpbkJBSV9NSHgyQTZ1ejJGVGVRbHM5VkJCcnd6YVF1clBicjNHbWtzSThfbmVhV1BWdHBhNEw5MUF2UDczQzFrSXRidXIwVzBkWm03b0cwcUVkSktOWHNJY29ZSmVQOFFTSjdIMjktOXNiXzY5Q3pyUExFMVlha0tBeFAzUmw3MWk5bU5PZw?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
@@ -779,14 +763,22 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
           ]
         }
       ]
     },
     "spain": {
       "executive_summary": [
+        {
+          "headline": "LVMH wins China trademark battle",
+          "detail": "Luxury goods group LVMH has scored a US$1.5 billion judgment in China for trademark violation, suggesting a significant shift in the People’s Republic’s attitude to protecting intellectual property. W",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/lvmh-wins-china-trademark-battle/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
           "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
@@ -796,10 +788,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "detail": "India regulator issues notices on \"misleading\" energy drinks claims Just Drinks",
+          "headline": "Two drinks giants considering IPOs in India",
+          "detail": "With both Pernod Ricard and Carlsberg reportedly considering applying for Initial Public Offerings (IPOs) in India, how might this reshape the drinks sector in the market? Ron Emler reports. The post ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/two-drinks-giants-considering-ipos-in-india/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Will Bordeaux feel the heat over irrigation rules?",
+          "detail": "Lafleur, which withdrew from both Pomerol AOC and the Bordeaux designation last year partly over irrigation, has already started to irrigate its vines this year. With temperature soaring into the 40s ",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/will-bordeaux-feel-the-heat-over-irrigation-rules/"
           ],
           "confidence": "medium"
         },
@@ -808,22 +808,6 @@
           "detail": "Dairy group Ehrmann to launch RTD collagen coffees Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
-          "detail": "A Grade II-listed former bank in the centre of Bakewell has relaunched as a restaurant and cocktail bar following a £2.6 million makeover. The post Former Bakewell bank reopens as restaurant after £2.",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Diageo sale of East African Breweries is on the rocks",
-          "detail": "An agreed sale of East African Breweries to Japanese beer maker Asahi has hit a major roadblock as multiple lawsuits have been filed to stop it going through. Ron Emler reports. The post Diageo sale o",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
           ],
           "confidence": "medium"
         }
@@ -872,28 +856,20 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
           "date": "2026-07-03T06:00:32+00:00"
-        },
-        {
-          "title": "Saint Wine and Cru Wines join forces",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
-          "date": "2026-07-01T10:07:44+00:00"
-        },
-        {
-          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
-          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -903,13 +879,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
           "date": "2026-07-03T10:32:43+00:00"
-        },
-        {
-          "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-          "date": "2026-07-02T13:47:08+00:00"
         },
         {
           "title": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
@@ -931,6 +900,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
           "date": "2026-06-29T08:35:38+00:00"
+        },
+        {
+          "title": "Paris bans public alcohol consumption amid heatwave - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU0dYSXdaZnBzN2xLZ2hra3FTT3FHcG40Zi1QSlkzdFpIak5wZi1rWk5JU1RUZk50a3A0MFNGcmZUWlI0aHk5cU1rVmF6ZnVhTUdfdU1qNnhwR1VOMjMwQXVfZEg3RHFqeUIxYTYwUF9aTVp1c3pZclVZWmNSaDEzQk80V1VFNjdLRnJHV1RR?oc=5",
+          "date": "2026-06-26T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -958,9 +934,18 @@
       ],
       "signals": [
         {
+          "signal": "Premium trending in Spain",
+          "explanation": "3 articles mention premium in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Rtd trending in Spain",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "rtd"
           ],
@@ -976,22 +961,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Spain",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
+          "signal": "Functional trending in Spain",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "premium"
+            "functional"
           ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Spain",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Protein trending in Spain",
@@ -1018,8 +994,16 @@
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVczVjF3ZUR6a2tLQVpDWENVRWZKa2hzbHd5X0RpbkJBSV9NSHgyQTZ1ejJGVGVRbHM5VkJCcnd6YVF1clBicjNHbWtzSThfbmVhV1BWdHBhNEw5MUF2UDczQzFrSXRidXIwVzBkWm03b0cwcUVkSktOWHNJY29ZSmVQOFFTSjdIMjktOXNiXzY5Q3pyUExFMVlha0tBeFAzUmw3MWk5bU5PZw?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
@@ -1040,14 +1024,30 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
           ]
         }
       ]
     },
     "italy": {
       "executive_summary": [
+        {
+          "headline": "Don’t miss db’s Italy Report 2026, out now",
+          "detail": "Want to find out why fashionistas are drinking Franciacorta? Or whether Amarone producers are conforming to the consumer trend for lighter styles? Perhaps you know a sommelier looking to transform the",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/dont-miss-dbs-italy-report-2026-out-now/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "LVMH wins China trademark battle",
+          "detail": "Luxury goods group LVMH has scored a US$1.5 billion judgment in China for trademark violation, suggesting a significant shift in the People’s Republic’s attitude to protecting intellectual property. W",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/lvmh-wins-china-trademark-battle/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
           "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
@@ -1057,34 +1057,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "detail": "India regulator issues notices on \"misleading\" energy drinks claims Just Drinks",
+          "headline": "Two drinks giants considering IPOs in India",
+          "detail": "With both Pernod Ricard and Carlsberg reportedly considering applying for Initial Public Offerings (IPOs) in India, how might this reshape the drinks sector in the market? Ron Emler reports. The post ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://www.thedrinksbusiness.com/2026/07/two-drinks-giants-considering-ipos-in-india/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Dairy group Ehrmann to launch RTD collagen coffees - Just Drinks",
-          "detail": "Dairy group Ehrmann to launch RTD collagen coffees Just Drinks",
+          "headline": "Will Bordeaux feel the heat over irrigation rules?",
+          "detail": "Lafleur, which withdrew from both Pomerol AOC and the Bordeaux designation last year partly over irrigation, has already started to irrigate its vines this year. With temperature soaring into the 40s ",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
-          "detail": "A Grade II-listed former bank in the centre of Bakewell has relaunched as a restaurant and cocktail bar following a £2.6 million makeover. The post Former Bakewell bank reopens as restaurant after £2.",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Diageo sale of East African Breweries is on the rocks",
-          "detail": "An agreed sale of East African Breweries to Japanese beer maker Asahi has hit a major roadblock as multiple lawsuits have been filed to stop it going through. Ron Emler reports. The post Diageo sale o",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+            "https://www.thedrinksbusiness.com/2026/07/will-bordeaux-feel-the-heat-over-irrigation-rules/"
           ],
           "confidence": "medium"
         }
@@ -1133,28 +1117,20 @@
       ],
       "competitor_moves": [
         {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
+        {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
           "move_type": "competitor",
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
           "date": "2026-07-03T06:00:32+00:00"
-        },
-        {
-          "title": "Saint Wine and Cru Wines join forces",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
-          "date": "2026-07-01T10:07:44+00:00"
-        },
-        {
-          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
-          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
@@ -1164,13 +1140,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
           "date": "2026-07-03T10:32:43+00:00"
-        },
-        {
-          "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-          "date": "2026-07-02T13:47:08+00:00"
         },
         {
           "title": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
@@ -1192,6 +1161,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdV9DTDhKbzB5V1lwSE5xSGw3b29sX1NKM2hzaG5NQ0RkdWR3RlhkWUY1U2VvSzctOWFqVEEwVndKMlgxdTZWMFFpWmFvOWoxazdsU05lckJhOFlRVlI2Y043UkpJSWJqRHg5bjViSmthdVNleXR5RXNEQ3dyYVU4TTYzMEcySS1CNnMzaWtxU3V4NnpLaEJrMnRqUTI3dmhJcFBSRkJyeHpWMHlHTWkyeFBoVjAxTHlQN2c?oc=5",
           "date": "2026-06-29T08:35:38+00:00"
+        },
+        {
+          "title": "Paris bans public alcohol consumption amid heatwave - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU0dYSXdaZnBzN2xLZ2hra3FTT3FHcG40Zi1QSlkzdFpIak5wZi1rWk5JU1RUZk50a3A0MFNGcmZUWlI0aHk5cU1rVmF6ZnVhTUdfdU1qNnhwR1VOMjMwQXVfZEg3RHFqeUIxYTYwUF9aTVp1c3pZclVZWmNSaDEzQk80V1VFNjdLRnJHV1RR?oc=5",
+          "date": "2026-06-26T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1220,10 +1196,19 @@
       "signals": [
         {
           "signal": "Rtd trending in Italy",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in Italy",
+          "explanation": "2 articles mention premium in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -1237,29 +1222,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Italy",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
+          "signal": "Functional trending in Italy",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "premium"
+            "functional"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
-          "signal": "Energy trending in Italy",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Sugar Free trending in Italy",
+          "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Protein trending in Italy",
-          "explanation": "1 articles mention protein in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "protein"
+            "sugar_free"
           ],
           "confidence": "low"
         }
@@ -1279,8 +1255,16 @@
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVczVjF3ZUR6a2tLQVpDWENVRWZKa2hzbHd5X0RpbkJBSV9NSHgyQTZ1ejJGVGVRbHM5VkJCcnd6YVF1clBicjNHbWtzSThfbmVhV1BWdHBhNEw5MUF2UDczQzFrSXRidXIwVzBkWm03b0cwcUVkSktOWHNJY29ZSmVQOFFTSjdIMjktOXNiXzY5Q3pyUExFMVlha0tBeFAzUmw3MWk5bU5PZw?oc=5",
+            "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnZMdWRxWEJyQWJjT1dWYjBDZzhCWlNPWkVSemlFaE9JZkVEOUt2Zy1EeVBrcmNid3lSTmNuUG92S1M0c1laRUFMVE43djd1WXc5QUNWNEM0dGNyTTVOX3g0X01qWEg4ZVBYbjVhZEI3R2taSG96ekxFX1NodUlWcGdRd3Fab1RGVkhub3FFUG5GUQ?oc=5"
           ]
         }
       ],
@@ -1301,14 +1285,30 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
+            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
           ]
         }
       ]
     },
     "austria": {
       "executive_summary": [
+        {
+          "headline": "Offener Brief: Kölner Brauerei-Verband warnt vor Zuckersteuer - about-drinks.com",
+          "detail": "Offener Brief: Kölner Brauerei-Verband warnt vor Zuckersteuer about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "LVMH wins China trademark battle",
+          "detail": "Luxury goods group LVMH has scored a US$1.5 billion judgment in China for trademark violation, suggesting a significant shift in the People’s Republic’s attitude to protecting intellectual property. W",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/lvmh-wins-china-trademark-battle/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "3,000 bottles of Alta Langa stolen from Strevi winery",
           "detail": "More than 3,000 bottles of premium fizz have been nicked from Banfi winery in Piedmont in what the producer has described as a carefully calculated operation. The post 3,000 bottles of Alta Langa stol",
@@ -1318,34 +1318,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "detail": "India regulator issues notices on \"misleading\" energy drinks claims Just Drinks",
+          "headline": "Finest Beer Selection 2026: Riedenburger Brauhaus mit vier Auszeichnungen - about-drinks.com",
+          "detail": "Finest Beer Selection 2026: Riedenburger Brauhaus mit vier Auszeichnungen about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2tiQUNhZUEwV00tRFhmZFJIbW9uSFNMTjVRZFEtU1FWZXJnVjFVUHRmd25aazlQcFVtbVhRVUFqVHJfQmhzTC13QUxVN1VHeUJ5OEFQNGdLTHk2bXM3U1UxNldFUUdZdlI1LXVFc0ZjSjF4ZTNhdkRNRmJ0dVNZSm4tLU9obURFOEtEZHA1cHhiMVc5c09ubll1NmJHVGw5eDcxNQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Dairy group Ehrmann to launch RTD collagen coffees - Just Drinks",
-          "detail": "Dairy group Ehrmann to launch RTD collagen coffees Just Drinks",
+          "headline": "Schumacher Wines wird offizieller Weinpartner des MotoGP-Laufs am Sachsenring - about-drinks.com",
+          "detail": "Schumacher Wines wird offizieller Weinpartner des MotoGP-Laufs am Sachsenring about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
-          "detail": "A Grade II-listed former bank in the centre of Bakewell has relaunched as a restaurant and cocktail bar following a £2.6 million makeover. The post Former Bakewell bank reopens as restaurant after £2.",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Diageo sale of East African Breweries is on the rocks",
-          "detail": "An agreed sale of East African Breweries to Japanese beer maker Asahi has hit a major roadblock as multiple lawsuits have been filed to stop it going through. Ron Emler reports. The post Diageo sale o",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/"
+            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcXNxQnZrWjNpUVBfZXRDY0Z6OTQ3Vml2NXNXUE9meUFDZEVmVk1UX3lkQ04tV3pVWTlqRGpPSkpFanhDQkRWY1FOYzN5cGFJczdJRXpOTk96TVYwYVZPXzRNakNfd0h6Skl0aHBtelVkOC1udDVheEs3bm52bWhpSGlOQ1BIWTRsNFhXd2pxQXNySUJZZ2s3SFJYX195c3Rsd0dYelFwZ01JSmc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1368,6 +1352,14 @@
           "date": "2026-07-03T09:01:12+00:00"
         },
         {
+          "title": "Conte Camillo: Cocktail-Range launcht eigenen Onlineshop - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW9IQXBPUGV4M3B5SnBHZTNxV3d4dTJhU1FwMW1BTGxNVUtJNjFaZEtEbWd5ZkVTcWRrMHZPaUpZY254YTZMek5zUlFER1VPOWV2aEF5TWdOUHd6SXU4RWtlX2d0MmdWTjRKZjZ0UGlHc3dyS0p0c0hWNUw1aVpudVZfbUMxOXhrNUp0b2dB?oc=5",
+          "date": "2026-07-03T08:50:54+00:00"
+        },
+        {
           "title": "Vinarchy puts ‘biggest investment yet’ behind new Jacob’s Creek campaign",
           "company": "Unknown",
           "product": "beverage",
@@ -1382,17 +1374,17 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/aldi-launches-its-chicken-wine-dupe-in-magnum/",
           "date": "2026-07-02T10:39:38+00:00"
-        },
-        {
-          "title": "Bollinger launches PNAYC21",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bollinger-launches-pnayc21/",
-          "date": "2026-07-01T12:37:15+00:00"
         }
       ],
       "competitor_moves": [
+        {
+          "title": "Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKZEF5YldjNThxbXctSUg0TzE0UnhBeHZZQS11Z3hXcW5pSDVReTlSd3RFTHZRZ0ZkblN4MVB2aGpvUHVJcmVqd1lnLXh1U0JkVlEzcUxKOXhYbEs4aDBVSDJaTUtOOUtDMG02bWRHNUE0T1lCcjU4d0hJVk0?oc=5",
+          "date": "2026-07-03T13:22:49+00:00"
+        },
         {
           "title": "Bestway and Budweiser tie-up drives huge sales surge",
           "company": "AB InBev",
@@ -1400,38 +1392,22 @@
           "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/bestway-and-budweiser-tie-up-drives-huge-sales-surge/",
           "date": "2026-07-03T06:00:32+00:00"
-        },
-        {
-          "title": "Saint Wine and Cru Wines join forces",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/saint-wine-and-cru-wines-join-forces/",
-          "date": "2026-07-01T10:07:44+00:00"
-        },
-        {
-          "title": "Viva Wine Group receives takeover bid from shareholder consortium - Just Drinks",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEckNNVFZHU2ZHdTNuUjlwdDVmXzRCZXh1dG5KeUFBQlpHRXdDWTZYRHllMnItd2UwQWdITnAzWXpacUNXdUhVLXpwdlpjSmk3RWpwV19jeUNKZ2FHVEhNNk9JaDlGYzF5RER4Q2p4MUhBWjJtUk1hZk1FOA?oc=5",
-          "date": "2026-06-29T12:35:28+00:00"
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "Offener Brief: Kölner Brauerei-Verband warnt vor Zuckersteuer - about-drinks.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5",
+          "date": "2026-07-06T08:05:43+00:00"
+        },
         {
           "title": "3,000 bottles of Alta Langa stolen from Strevi winery",
           "topic": "premium",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
           "date": "2026-07-03T10:32:43+00:00"
-        },
-        {
-          "title": "India regulator issues notices on \"misleading\" energy drinks claims - Just Drinks",
-          "topic": "energy",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
-          "date": "2026-07-02T13:47:08+00:00"
         },
         {
           "title": "Former Bakewell bank reopens as restaurant after £2.6m revamp",
@@ -1473,11 +1449,11 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Austria",
-          "explanation": "2 articles mention rtd in the last 28 days",
+          "signal": "Premium trending in Austria",
+          "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "rtd"
+            "premium"
           ],
           "confidence": "medium"
         },
@@ -1491,29 +1467,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in Austria",
-          "explanation": "1 articles mention premium in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Austria",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Protein trending in Austria",
           "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "protein"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Rtd trending in Austria",
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Carbonated trending in Austria",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -1525,15 +1501,15 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5",
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWjFpZ1lHblNUWFFMd3FMMlBTQlo3ZmhvNTE4OENzQlg4ZENCOExncjg5Zjh2N2xwMFFUcV9JVlhiTE91WDhmaG5peTRUbkF5UTRwMTVhUXB3THNpQWFVQ1lxTEtZbW83NWtGQlJEZFBISUpORjRZMjc0U3RtSVdDNHk4ZVYxSmJtZ1FkZVJiUkhEbUpvYmxET1Rad1B4QVRTeW9RLWM5TVdwbE0?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW9IQXBPUGV4M3B5SnBHZTNxV3d4dTJhU1FwMW1BTGxNVUtJNjFaZEtEbWd5ZkVTcWRrMHZPaUpZY254YTZMek5zUlFER1VPOWV2aEF5TWdOUHd6SXU4RWtlX2d0MmdWTjRKZjZ0UGlHc3dyS0p0c0hWNUw1aVpudVZfbUMxOXhrNUp0b2dB?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ]
         }
@@ -1546,7 +1522,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxONUF0VVBYWUtOSjBxTks3aWxxMUVRdHNmcU9yVVdPSHMtVnpyX1ZFeXRwTGg1cjUtbUNnanBEOG1xbFZqTUg5cl9Id1hLa2dCM1FCOGJjYlA4QURHU3dGWkxGTFg3QWhxRDl2NEgwV0plcnRpTE1pOW5HT05BTVpNdkF4ZVlTTkFyYkEwZg?oc=5",
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWjFpZ1lHblNUWFFMd3FMMlBTQlo3ZmhvNTE4OENzQlg4ZENCOExncjg5Zjh2N2xwMFFUcV9JVlhiTE91WDhmaG5peTRUbkF5UTRwMTVhUXB3THNpQWFVQ1lxTEtZbW83NWtGQlJEZFBISUpORjRZMjc0U3RtSVdDNHk4ZVYxSmJtZ1FkZVJiUkhEbUpvYmxET1Rad1B4QVRTeW9RLWM5TVdwbE0?oc=5",
-            "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/"
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW9IQXBPUGV4M3B5SnBHZTNxV3d4dTJhU1FwMW1BTGxNVUtJNjFaZEtEbWd5ZkVTcWRrMHZPaUpZY254YTZMek5zUlFER1VPOWV2aEF5TWdOUHd6SXU4RWtlX2d0MmdWTjRKZjZ0UGlHc3dyS0p0c0hWNUw1aVpudVZfbUMxOXhrNUp0b2dB?oc=5"
           ]
         },
         {
@@ -1554,8 +1530,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHR0NUIwLWdFdnd1Sy1NN1laVzljbjBZSUxmdURyUGdMVVlJUWlfeFpneEkwQ0phQkdKTzNOUjFVbzZxYlVSOGtFa1MwZmhTZTJiOS1ENHpuRVpia0JUUGpZUkszNURfZVFPOGtPZGNnQ0p2S2JtaG9EY3d4X29oUVdwSWdEUGdEMTVESWdndlpwLU1mZ0E?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/3000-bottles-of-alta-langa-stolen-from-strevi-winery/",
-            "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWgwOFpJMnB1YWNEZ2l1ajhmVkQ2b0dka25xQi1ITHFNblR0Q0xHczlmS2JKZmhWLVNaWmhMb21RVk00SWFveGh6UmRvUU13cTFYRENUX1RoT0NQVkplWmlOSWNUaHJzenhGbk1Sd3BfdXhnaUVfb0w4Rkd5SjlLR21UeHhTUUtiekNsWlJkdXF5YnpnOWVCTi1pV2RPMjdT?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/"
           ]
         }

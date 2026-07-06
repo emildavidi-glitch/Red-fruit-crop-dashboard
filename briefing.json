@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-05T14:41:50.941508+00:00",
-  "generated_date": "Sunday, 05 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: 247 Packaging Corp. - Filler and Seamer Technician - BevNET.com Beverage Industry Job Listing - BevN.",
+  "generated_at": "2026-07-06T08:56:52.871064+00:00",
+  "generated_date": "Monday, 06 July 2026",
+  "briefing": "Sales intelligence tracked 299 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Finest Beer Selection 2026: Riedenburger Brauhaus mit vier Auszeichnungen - about-drinks.com.",
   "signals": {
-    "usa": "Energy trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (50 items)",
-    "spain": "Rtd trending. (50 items)",
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (49 items)",
     "italy": "Rtd trending. (50 items)",
-    "austria": "Rtd trending. (50 items)"
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 300,
+    "total_articles_analyzed": 299,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 139,
-      "launch": 52,
-      "regulatory": 39,
-      "competitor": 18,
+      "trend": 134,
+      "launch": 53,
+      "regulatory": 40,
+      "supply_chain": 26,
       "pricing": 17,
-      "supply_chain": 15,
+      "premium": 15,
+      "rtd": 13,
+      "competitor": 12,
       "alcohol_free": 12,
-      "macro": 12,
-      "rtd": 11,
-      "innovation": 8
+      "innovation": 11
     }
   }
 }
