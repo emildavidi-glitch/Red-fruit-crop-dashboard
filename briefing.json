@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T16:19:57.396513+00:00",
-  "generated_date": "Monday, 06 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Cheeky Branches Into Canned Mixers with Botanical Tonic Launch - BevNET.com.",
+  "generated_at": "2026-07-07T08:17:57.283212+00:00",
+  "generated_date": "Tuesday, 07 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: The Big Interview: Gabriele Lechthaler.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 45,
-      "regulatory": 36,
+      "trend": 158,
+      "launch": 42,
+      "regulatory": 34,
       "supply_chain": 20,
-      "competitor": 18,
-      "pricing": 17,
-      "premium": 13,
-      "carbonated": 10,
+      "pricing": 16,
+      "competitor": 15,
+      "premium": 12,
+      "macro": 10,
       "rtd": 10,
-      "energy": 7
+      "carbonated": 9
     }
   }
 }
