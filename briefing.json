@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-07T15:42:27.976661+00:00",
-  "generated_date": "Tuesday, 07 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: EAC EastAlsterCompany mit ihren Marken steht zum Verkauf - about-drinks.com.",
+  "generated_at": "2026-07-08T07:24:44.526635+00:00",
+  "generated_date": "Wednesday, 08 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: feinstbrenner®: Neuer Verband setzt auf Qualität und Verbraucheraufklärung - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 168,
-      "regulatory": 36,
+      "trend": 156,
+      "regulatory": 38,
       "launch": 30,
-      "supply_chain": 23,
-      "sugar_free": 13,
+      "supply_chain": 29,
+      "sugar_free": 19,
+      "competitor": 15,
       "pricing": 12,
-      "competitor": 12,
       "premium": 12,
-      "macro": 10,
-      "rtd": 10
+      "innovation": 10,
+      "macro": 10
     }
   }
 }
