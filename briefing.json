@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-09T08:23:00.991221+00:00",
+  "generated_at": "2026-07-09T15:54:51.703936+00:00",
   "generated_date": "Thursday, 09 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: India’s beer sector ‘positive’ but climate and margin caution still evident.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: How Bacardi is shaping the world of cocktails with fun, flair... and a little bit of magic - Beverag.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Sugar Free trending. (50 items)",
-    "spain": "Sugar Free trending. (50 items)",
-    "italy": "Carbonated trending. (50 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 161,
-      "launch": 52,
+      "launch": 42,
       "regulatory": 37,
+      "premium": 24,
       "pricing": 21,
-      "carbonated": 17,
-      "sugar_free": 16,
+      "carbonated": 14,
+      "competitor": 12,
       "innovation": 12,
-      "functional": 9,
-      "competitor": 9,
-      "rtd": 8
+      "sugar_free": 11,
+      "supply_chain": 6
     }
   }
 }
