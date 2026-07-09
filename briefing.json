@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-08T15:20:07.600487+00:00",
-  "generated_date": "Wednesday, 08 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: The First Premium Fortified Wine RTD - BevNET.com.",
+  "generated_at": "2026-07-09T08:23:00.991221+00:00",
+  "generated_date": "Thursday, 09 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: India’s beer sector ‘positive’ but climate and margin caution still evident.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
     "france": "Sugar Free trending. (50 items)",
     "spain": "Sugar Free trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 176,
-      "launch": 47,
-      "regulatory": 36,
+      "trend": 161,
+      "launch": 52,
+      "regulatory": 37,
+      "pricing": 21,
+      "carbonated": 17,
       "sugar_free": 16,
-      "pricing": 14,
-      "rtd": 10,
-      "carbonated": 9,
-      "macro": 9,
-      "supply_chain": 7,
-      "organic": 7
+      "innovation": 12,
+      "functional": 9,
+      "competitor": 9,
+      "rtd": 8
     }
   }
 }
