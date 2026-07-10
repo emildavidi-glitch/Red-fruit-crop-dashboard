@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-10T08:17:03.666945+00:00",
+  "generated_at": "2026-07-10T15:31:03.781160+00:00",
   "generated_date": "Friday, 10 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Green room: how Vinhos Verdes upped its A-list appeal.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: New Beverages: Black Cherry BREZ, Tropical Protein, A2 Lattes and a Lowkey Coffee - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
-    "italy": "Carbonated trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 161,
-      "launch": 43,
-      "regulatory": 36,
-      "premium": 24,
-      "carbonated": 19,
+      "trend": 136,
+      "launch": 51,
+      "regulatory": 42,
+      "premium": 29,
+      "innovation": 21,
+      "competitor": 18,
+      "carbonated": 16,
       "pricing": 14,
-      "sugar_free": 13,
-      "competitor": 12,
-      "supply_chain": 12,
-      "innovation": 12
+      "retail": 12,
+      "sugar_free": 10
     }
   }
 }
