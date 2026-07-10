@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-09T15:54:51.703936+00:00",
-  "generated_date": "Thursday, 09 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: How Bacardi is shaping the world of cocktails with fun, flair... and a little bit of magic - Beverag.",
+  "generated_at": "2026-07-10T08:17:03.666945+00:00",
+  "generated_date": "Friday, 10 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Green room: how Vinhos Verdes upped its A-list appeal.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
@@ -15,15 +15,15 @@
     "method": "rss-analysis",
     "top_topics": {
       "trend": 161,
-      "launch": 42,
-      "regulatory": 37,
+      "launch": 43,
+      "regulatory": 36,
       "premium": 24,
-      "pricing": 21,
-      "carbonated": 14,
+      "carbonated": 19,
+      "pricing": 14,
+      "sugar_free": 13,
       "competitor": 12,
-      "innovation": 12,
-      "sugar_free": 11,
-      "supply_chain": 6
+      "supply_chain": 12,
+      "innovation": 12
     }
   }
 }
