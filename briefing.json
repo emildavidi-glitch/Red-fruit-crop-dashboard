@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T07:08:02.394354+00:00",
+  "generated_at": "2026-07-14T14:48:35.361806+00:00",
   "generated_date": "Tuesday, 14 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Kein Investor gefunden: Privatbrauerei Eichbaum stellt Betrieb ein - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Mineralbrunnen Überkingen-Teinach: Bilanzgewinn von rund 40 Mio. Euro - about-drinks.com.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 142,
-      "regulatory": 39,
-      "launch": 37,
-      "premium": 26,
-      "competitor": 24,
-      "innovation": 20,
-      "pricing": 14,
-      "supply_chain": 12,
+      "trend": 155,
+      "launch": 42,
+      "regulatory": 31,
+      "competitor": 27,
+      "premium": 21,
+      "supply_chain": 19,
+      "innovation": 19,
+      "rtd": 14,
       "juice": 12,
-      "retail": 10
+      "carbonated": 9
     }
   }
 }
