@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-15T07:11:04.415471+00:00",
+  "generated_at": "2026-07-15T14:48:28.917544+00:00",
   "generated_date": "Wednesday, 15 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Ex-Paulaner-Manager Jörg Herpfer wechselt zur Felsengartenkellerei - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; new product launches intensifying. Latest: Investors of Poppi, Goodles raise seed round for powdered beverage startup - FoodNavigator.com.",
   "signals": {
     "usa": "Premium trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
     "italy": "Premium trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 150,
-      "launch": 38,
-      "regulatory": 35,
-      "competitor": 27,
-      "premium": 23,
-      "innovation": 21,
-      "supply_chain": 19,
-      "rtd": 13,
-      "juice": 12,
-      "carbonated": 8
+      "trend": 137,
+      "competitor": 42,
+      "launch": 34,
+      "supply_chain": 31,
+      "regulatory": 30,
+      "premium": 15,
+      "pricing": 13,
+      "innovation": 12,
+      "rtd": 11,
+      "carbonated": 6
     }
   }
 }
