@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-16T07:19:38.487370+00:00",
+  "generated_at": "2026-07-16T14:59:47.665938+00:00",
   "generated_date": "Thursday, 16 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; supply_chain trending. Latest: Distribution: Big Geyser Adds Gym Weed, Gym Soda to Roster - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; supply_chain trending. Latest: Boomers become the generation of moderation - BeverageDaily.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
-    "austria": "Rtd trending. (50 items)"
+    "germany": "Premium trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
+    "italy": "Alcohol Free trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 150,
-      "competitor": 36,
-      "supply_chain": 32,
+      "competitor": 32,
+      "supply_chain": 31,
+      "launch": 30,
       "regulatory": 29,
-      "launch": 26,
-      "pricing": 13,
-      "innovation": 13,
-      "rtd": 12,
-      "premium": 12,
-      "alcohol_free": 10
+      "pricing": 14,
+      "innovation": 14,
+      "carbonated": 10,
+      "alcohol_free": 9,
+      "rtd": 7
     }
   }
 }
