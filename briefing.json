@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T14:59:47.665938+00:00",
-  "generated_date": "Thursday, 16 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; supply_chain trending. Latest: Boomers become the generation of moderation - BeverageDaily.com.",
+  "generated_at": "2026-07-17T07:12:59.034983+00:00",
+  "generated_date": "Friday, 17 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: New beverage launches: Capri Sun ice lollies, Nichols x My Protein… - BeverageDaily.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Premium trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 150,
+      "trend": 145,
+      "launch": 34,
       "competitor": 32,
-      "supply_chain": 31,
-      "launch": 30,
+      "supply_chain": 30,
       "regulatory": 29,
-      "pricing": 14,
-      "innovation": 14,
-      "carbonated": 10,
-      "alcohol_free": 9,
-      "rtd": 7
+      "pricing": 20,
+      "alcohol_free": 10,
+      "innovation": 10,
+      "carbonated": 8,
+      "premium": 7
     }
   }
 }
