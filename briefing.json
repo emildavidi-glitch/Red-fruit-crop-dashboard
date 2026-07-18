@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T14:42:25.372939+00:00",
-  "generated_date": "Friday, 17 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: World Cup: Carlsberg wins, global beer uplift falls short, while Americans drive Pre-mix cocktail sa.",
+  "generated_at": "2026-07-18T06:57:23.961970+00:00",
+  "generated_date": "Saturday, 18 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; supply_chain trending. Latest: Plexus Worldwide Launches Superfoods, a Greens Powder for Gut Health and Immune Health - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Premium trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 178,
-      "launch": 26,
-      "competitor": 26,
-      "pricing": 19,
-      "supply_chain": 19,
+      "trend": 174,
+      "competitor": 25,
+      "supply_chain": 25,
+      "launch": 24,
+      "pricing": 18,
       "regulatory": 17,
-      "innovation": 14,
-      "carbonated": 8,
-      "alcohol_free": 7,
-      "functional": 7
+      "innovation": 16,
+      "functional": 8,
+      "premium": 7,
+      "juice": 6
     }
   }
 }
