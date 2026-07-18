@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T06:57:23.961970+00:00",
+  "generated_at": "2026-07-18T14:19:06.695943+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -79,12 +79,12 @@
           "date": "2026-07-16T18:22:15+00:00"
         },
         {
-          "title": "James Watt launches bid to buy back BrewDog",
-          "company": "Rewe",
-          "product": "premium",
+          "title": "Beyond Tea Names: iTeaworld Launches Chinese Oolong Tea Flavor Roadmap to Simplify Tea Discovery for Global Consumers - BevNET.com",
+          "company": "Unknown",
+          "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/james-watt-launches-bid-to-buy-back-brewdog/",
-          "date": "2026-07-16T10:37:32+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc0VReVJLUmd0SGpCVTB2LV82Q0tXcmMxaUFBMjRhSkR4cXAxQzlSMzdmUHpNc0hxSUlFMzAyVDFXb2NjZHFEaXhOaGRiLVJHeE84NEszVUJSNzZiNUU5bWwwQzlmMUVhcHdKR1A4V0JBVEhURUVjOUtxU0xwSGxOdXgtMm1EcVI2bnJ2OEd0UGltSTlEZUlGS2VPZzJMeTdkOF9KcGxseFhOREIzb1pPSlNZRkRlcUFHRmRYcWFaLU5oMV9KM1pXU2k3NXdkWko1a25JczVGMUNnNUsyWlRJaEtMUWZhZnFQ?oc=5",
+          "date": "2026-07-16T12:13:34+00:00"
         }
       ],
       "competitor_moves": [
@@ -171,6 +171,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Juice trending in United States",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Premium trending in United States",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -178,15 +187,6 @@
             "premium"
           ],
           "confidence": "medium"
-        },
-        {
-          "signal": "Juice trending in United States",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "low"
         },
         {
           "signal": "Energy trending in United States",
@@ -284,18 +284,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "effect® gewinnt doppelt beim German Brand Award 2026 - about-drinks.com",
-          "detail": "effect® gewinnt doppelt beim German Brand Award 2026 about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObnBRcGVzN19wcUJfcm8yd1NPdkZqdTRRYTBqYjBrcGI4LS1XR3FFMWRCMlpBc005U2M0cDNGVS1zNmpJOWx4Nm5USDQ4bkdsSzZRZmpEQjRxaWVZMWNzT2pDU21KTnVFSGVQVVhvM0o0dHlRUmUzajhaZFFuUERRM1JVMmlXYnl3?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "New beverage launches: Capri Sun ice lollies, Nichols x My Protein… - BeverageDaily.com",
           "detail": "New beverage launches: Capri Sun ice lollies, Nichols x My Protein… BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Adie Broswon Breweries and United Breweries sign manufacturing pact",
+          "detail": "Adie Broswon Breweries (ABB) has signed a long-term manufacturing partnership with United Breweries Limited (UBL), as it seeks to strengthen production capacity in North India. The post Adie Broswon B",
+          "evidence_urls": [
+            "https://www.thedrinksbusiness.com/2026/07/adie-broswon-breweries-and-united-breweries-sign-manufacturing-pact/"
           ],
           "confidence": "medium"
         }
