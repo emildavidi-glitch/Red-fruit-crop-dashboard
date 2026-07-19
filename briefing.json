@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-18T14:19:06.695943+00:00",
-  "generated_date": "Saturday, 18 July 2026",
+  "generated_at": "2026-07-19T07:24:03.006503+00:00",
+  "generated_date": "Sunday, 19 July 2026",
   "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Plexus Worldwide Launches Superfoods, a Greens Powder for Gut Health and Immune Health - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (50 items)",
+    "france": "Functional trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 175,
-      "launch": 25,
+      "trend": 172,
+      "launch": 28,
       "competitor": 25,
-      "supply_chain": 24,
+      "innovation": 20,
+      "supply_chain": 19,
       "pricing": 18,
       "regulatory": 17,
-      "innovation": 15,
-      "functional": 8,
+      "functional": 10,
       "juice": 7,
-      "premium": 7
+      "alcohol_free": 7
     }
   }
 }

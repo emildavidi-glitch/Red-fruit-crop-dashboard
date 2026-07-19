@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T14:19:06.695943+00:00",
+  "generated_at": "2026-07-19T07:24:03.006503+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -181,12 +181,12 @@
         },
         {
           "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "premium"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Energy trending in United States",
@@ -268,10 +268,10 @@
           "confidence": "high"
         },
         {
-          "headline": "Champagne POMMERY kooperiert mit dem CSD Deutschland e.V. - about-drinks.com",
-          "detail": "Champagne POMMERY kooperiert mit dem CSD Deutschland e.V. about-drinks.com",
+          "headline": "Young Poets: German Design Award 2026 und Marktstart in der Schweiz - about-drinks.com",
+          "detail": "Young Poets: German Design Award 2026 und Marktstart in der Schweiz about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTFRiRWlVdkRUZnZKRTFab1g1cV9WR1l6R3NpOExKNEQ3Z0YzeFhsa1Y4WXQ2Z2h0VmJnWnVZZXFtNUpwREQwelpSeEltcUljUnQxVUpkc2FRdkEyOEUtZHZFSVk2VGJlOUotbEhjNmN3SmhObkNMc0Z5VUl5WjhyVXNJVlluaDgyX3ltWUJIUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUlZwVEd2QjRvUmJJaFFIWWRVazlpMXdvZDBYWmtCTnE1STJJdXYzamVzOG11SGJmRzAxLTl2cllZWWttb0FvNllxVlF6dkQ3eDVNUWNOYlpURERwTnA1N1hGUmE0RHVpYkMwc0swN09rYW15Y1dBR3FBSjVWZkNzQXY2T1ROQ1BtcmdSbEgzZ2haSTJCZEJCbFhZcHA?oc=5"
           ],
           "confidence": "high"
         },
@@ -435,15 +435,6 @@
           "confidence": "low"
         },
         {
-          "signal": "Carbonated trending in Germany",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Alcohol Free trending in Germany",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
@@ -563,6 +554,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/stoli-to-boost-pride-and-morale-with-latest-investment/",
           "date": "2026-07-16T08:51:12+00:00"
+        },
+        {
+          "title": "New beverage launches: Canned Mezcal, session ciders and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdFVvYkJYUkhGbkxvNjRUeDhMWkJ0X2UwY2tDVEpvTEZuZGFaVF9UV2xIRTc0ZnJfMHpnX0FocTFUem9PSE1HMXlPWFRlR05MNHh5YTZlc3RSNjJXTE0zekRvMUVRNWt4bkdlelRzcU14Z2lubVZPSnBLMFMzN3NKZVJYWklUYXptWFV5RE1jTHhUZHFyUVROc1g1d1dlX0NwUGpNVA?oc=5",
+          "date": "2026-07-10T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -647,20 +646,20 @@
       ],
       "signals": [
         {
+          "signal": "Functional trending in France",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Premium trending in France",
           "explanation": "1 articles mention premium in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in France",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
           ],
           "confidence": "low"
         },
@@ -674,15 +673,6 @@
           "confidence": "low"
         },
         {
-          "signal": "Carbonated trending in France",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Alcohol Free trending in France",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
@@ -690,12 +680,21 @@
             "alcohol_free"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Rtd trending in France",
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in France — ask about shelf space for new formats",
+          "pitch": "4 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/james-watt-launches-bid-to-buy-back-brewdog/",
@@ -710,12 +709,20 @@
             "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
             "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FVzNnTzhxYzlPd0VmUTBYSmhqSnBFRmRpTDBuWnZjSFAtX1ZkMFJaeFZKUDRkSG1RYmlUTTY1akxvV3NmMk01S2JwSmVyeGFoWEJJck40OERiemR1bkVNMXd0UWNIb2Z3b0RqTg?oc=5"
           ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxORm03STNJU3pSd0FZcUZVckpfRk5YdEZpcnVaREFWZDhYQWpGY2d1SC1QOVlHMXVJVmJya1RzRTV1UktFS212bG85ZkZ2eUdiRTRUcjdMYWhLbUlSYjA5UjZHdkt3VkRtM05LR0xzQjd0eXFiOFRUUXdjTjdVbmd5YlJ5YS12RzRNajd1Zm5VM252NUVybjgzdUx3d0ZKNE0ycTlreTBn?oc=5",
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxPblc2bzhCbjI3NUxzblR6T2JEUE9ZLWJqUjFWLU8yRlp0bFFsVWlnU25qTGZHT2hWZzBkdVh6Um1fNjdra1k2X0Jjcy1DZVJrRFc2ZS1OR0xkaldTNld2UHhQenJOa0VPVVZGRFlhbUpkSVpHS1ZnMDIzTk5BWndtZ3IzTUZ4VlJaemc?oc=5"
+          ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5",
@@ -802,6 +809,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/stoli-to-boost-pride-and-morale-with-latest-investment/",
           "date": "2026-07-16T08:51:12+00:00"
+        },
+        {
+          "title": "New beverage launches: Canned Mezcal, session ciders and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdFVvYkJYUkhGbkxvNjRUeDhMWkJ0X2UwY2tDVEpvTEZuZGFaVF9UV2xIRTc0ZnJfMHpnX0FocTFUem9PSE1HMXlPWFRlR05MNHh5YTZlc3RSNjJXTE0zekRvMUVRNWt4bkdlelRzcU14Z2lubVZPSnBLMFMzN3NKZVJYWklUYXptWFV5RE1jTHhUZHFyUVROc1g1d1dlX0NwUGpNVA?oc=5",
+          "date": "2026-07-10T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -922,11 +937,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Carbonated trending in Spain",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "signal": "Rtd trending in Spain",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
+            "rtd"
           ],
           "confidence": "low"
         }
@@ -934,7 +949,7 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in Spain — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/james-watt-launches-bid-to-buy-back-brewdog/",
@@ -954,7 +969,7 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5",
@@ -1041,6 +1056,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/stoli-to-boost-pride-and-morale-with-latest-investment/",
           "date": "2026-07-16T08:51:12+00:00"
+        },
+        {
+          "title": "New beverage launches: Canned Mezcal, session ciders and more… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdFVvYkJYUkhGbkxvNjRUeDhMWkJ0X2UwY2tDVEpvTEZuZGFaVF9UV2xIRTc0ZnJfMHpnX0FocTFUem9PSE1HMXlPWFRlR05MNHh5YTZlc3RSNjJXTE0zekRvMUVRNWt4bkdlelRzcU14Z2lubVZPSnBLMFMzN3NKZVJYWklUYXptWFV5RE1jTHhUZHFyUVROc1g1d1dlX0NwUGpNVA?oc=5",
+          "date": "2026-07-10T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -1133,20 +1156,20 @@
       ],
       "signals": [
         {
+          "signal": "Functional trending in Italy",
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Premium trending in Italy",
           "explanation": "1 articles mention premium in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in Italy",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
           ],
           "confidence": "low"
         },
@@ -1160,15 +1183,6 @@
           "confidence": "low"
         },
         {
-          "signal": "Carbonated trending in Italy",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Alcohol Free trending in Italy",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
@@ -1176,12 +1190,21 @@
             "alcohol_free"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Rtd trending in Italy",
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in Italy — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/james-watt-launches-bid-to-buy-back-brewdog/",
@@ -1196,12 +1219,20 @@
             "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
             "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FVzNnTzhxYzlPd0VmUTBYSmhqSnBFRmRpTDBuWnZjSFAtX1ZkMFJaeFZKUDRkSG1RYmlUTTY1akxvV3NmMk01S2JwSmVyeGFoWEJJck40OERiemR1bkVNMXd0UWNIb2Z3b0RqTg?oc=5"
           ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxORm03STNJU3pSd0FZcUZVckpfRk5YdEZpcnVaREFWZDhYQWpGY2d1SC1QOVlHMXVJVmJya1RzRTV1UktFS212bG85ZkZ2eUdiRTRUcjdMYWhLbUlSYjA5UjZHdkt3VkRtM05LR0xzQjd0eXFiOFRUUXdjTjdVbmd5YlJ5YS12RzRNajd1Zm5VM252NUVybjgzdUx3d0ZKNE0ycTlreTBn?oc=5",
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxPblc2bzhCbjI3NUxzblR6T2JEUE9ZLWJqUjFWLU8yRlp0bFFsVWlnU25qTGZHT2hWZzBkdVh6Um1fNjdra1k2X0Jjcy1DZVJrRFc2ZS1OR0xkaldTNld2UHhQenJOa0VPVVZGRFlhbUpkSVpHS1ZnMDIzTk5BWndtZ3IzTUZ4VlJaemc?oc=5"
+          ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnMydzl6WnRWaFVRTHI4NXhEZlhha0VBa1pFZmw1TWRJRjJzMXloVWhBN0JKZEYwWFd2emo0SDlkdDV4eFJsZGJraDdzRFBmZGdjY1QyM1J4TVp5cFd3N3VmeEdNY09RM3lnTkFpM3VtRExuQ1RPUy1OQlFUV2Nub3d5WWdnU2xEOWJTOTY0T2lxRjJIelJEd1I2RDdFZFRvejdIUlBFYkpRV2c?oc=5",
@@ -1395,15 +1426,6 @@
           "support_count": 1,
           "top_keywords": [
             "juice"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Carbonated trending in Austria",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
           ],
           "confidence": "low"
         },
