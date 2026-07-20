@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-20T07:54:11.348051+00:00",
+  "generated_at": "2026-07-20T15:10:20.467165+00:00",
   "generated_date": "Monday, 20 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; new product launches intensifying. Latest: Nitro Creammmy Blackberry Vanilla | humm kombucha - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; supply_chain trending; pricing pressures in focus. Latest: What are the top 10 functional beverage brands favoured by AI in the US? - BeverageDaily.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Premium trending. (50 items)",
     "germany": "Premium trending. (50 items)",
     "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
     "italy": "Functional trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 172,
-      "competitor": 26,
-      "launch": 25,
-      "supply_chain": 24,
-      "pricing": 18,
+      "trend": 185,
+      "supply_chain": 26,
+      "pricing": 24,
+      "launch": 24,
       "regulatory": 17,
-      "innovation": 16,
-      "functional": 11,
-      "carbonated": 7,
-      "juice": 7
+      "innovation": 17,
+      "premium": 14,
+      "juice": 12,
+      "functional": 10,
+      "sugar_free": 6
     }
   }
 }
