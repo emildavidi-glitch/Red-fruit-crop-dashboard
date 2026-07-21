@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-21T07:29:23.154425+00:00",
+  "generated_at": "2026-07-21T15:02:23.214325+00:00",
   "generated_date": "Tuesday, 21 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Brown-Forman Deutschland präsentiert Glenglassaugh 15 Years Old - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 264 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Sèchey Closing S.C. Retail Store, Launching Tech Platform - BevNET.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Carbonated trending. (37 items)",
+    "spain": "Carbonated trending. (40 items)",
+    "italy": "Carbonated trending. (37 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 300,
+    "total_articles_analyzed": 264,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 173,
-      "launch": 31,
-      "supply_chain": 27,
-      "pricing": 24,
-      "regulatory": 23,
-      "premium": 15,
-      "innovation": 12,
-      "juice": 12,
-      "competitor": 8,
-      "functional": 8
+      "trend": 180,
+      "regulatory": 25,
+      "launch": 23,
+      "carbonated": 18,
+      "innovation": 15,
+      "alcohol_free": 13,
+      "juice": 13,
+      "functional": 12,
+      "supply_chain": 11,
+      "rtd": 10
     }
   }
 }
