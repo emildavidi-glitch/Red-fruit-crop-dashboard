@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20T15:10:20.467165+00:00",
-  "generated_date": "Monday, 20 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; supply_chain trending; pricing pressures in focus. Latest: What are the top 10 functional beverage brands favoured by AI in the US? - BeverageDaily.com.",
+  "generated_at": "2026-07-21T07:29:23.154425+00:00",
+  "generated_date": "Tuesday, 21 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Brown-Forman Deutschland präsentiert Glenglassaugh 15 Years Old - about-drinks.com.",
   "signals": {
     "usa": "Premium trending. (50 items)",
     "germany": "Premium trending. (50 items)",
-    "france": "Functional trending. (50 items)",
+    "france": "Premium trending. (50 items)",
     "spain": "Premium trending. (50 items)",
     "italy": "Functional trending. (50 items)",
     "austria": "Premium trending. (50 items)"
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 185,
-      "supply_chain": 26,
+      "trend": 173,
+      "launch": 31,
+      "supply_chain": 27,
       "pricing": 24,
-      "launch": 24,
-      "regulatory": 17,
-      "innovation": 17,
-      "premium": 14,
+      "regulatory": 23,
+      "premium": 15,
+      "innovation": 12,
       "juice": 12,
-      "functional": 10,
-      "sugar_free": 6
+      "competitor": 8,
+      "functional": 8
     }
   }
 }
