@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-22T07:31:09.501132+00:00",
+  "generated_at": "2026-07-22T15:02:20.440193+00:00",
   "generated_date": "Wednesday, 22 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Five Cherries launches as Social AOR and Creative and Strategy Lead for Fernet-Branca USA - BevNET.c.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Specright launches automated PPWR compliance reporting tool - New Food.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Sugar Free trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "italy": "Sugar Free trending. (50 items)",
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
-      "launch": 32,
-      "pricing": 24,
-      "regulatory": 23,
-      "supply_chain": 23,
-      "innovation": 22,
-      "competitor": 18,
-      "carbonated": 14,
-      "premium": 14,
-      "alcohol_free": 12
+      "trend": 139,
+      "launch": 50,
+      "pricing": 36,
+      "regulatory": 34,
+      "carbonated": 15,
+      "supply_chain": 15,
+      "alcohol_free": 14,
+      "innovation": 14,
+      "sugar_free": 12,
+      "competitor": 12
     }
   }
 }
