@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-22T15:02:20.440193+00:00",
-  "generated_date": "Wednesday, 22 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Specright launches automated PPWR compliance reporting tool - New Food.",
+  "generated_at": "2026-07-23T07:28:34.960516+00:00",
+  "generated_date": "Thursday, 23 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Melon | Kampeon Water - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
-    "france": "Sugar Free trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
     "spain": "Carbonated trending. (50 items)",
-    "italy": "Sugar Free trending. (50 items)",
-    "austria": "Sugar Free trending. (50 items)"
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 139,
-      "launch": 50,
+      "launch": 52,
+      "regulatory": 37,
       "pricing": 36,
-      "regulatory": 34,
-      "carbonated": 15,
-      "supply_chain": 15,
-      "alcohol_free": 14,
-      "innovation": 14,
-      "sugar_free": 12,
-      "competitor": 12
+      "carbonated": 18,
+      "innovation": 16,
+      "supply_chain": 14,
+      "alcohol_free": 13,
+      "premium": 12,
+      "sugar_free": 11
     }
   }
 }
