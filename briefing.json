@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-23T07:28:34.960516+00:00",
+  "generated_at": "2026-07-23T15:07:11.568664+00:00",
   "generated_date": "Thursday, 23 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Melon | Kampeon Water - BevNET.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Haus Cramer Gruppe beruft Bodo-Joachim Wendenburg zum CEO/CRO - about-drinks.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Carbonated trending. (50 items)",
-    "spain": "Carbonated trending. (50 items)",
+    "usa": "Alcohol Free trending. (50 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (50 items)",
+    "spain": "Alcohol Free trending. (50 items)",
     "italy": "Carbonated trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 139,
-      "launch": 52,
-      "regulatory": 37,
-      "pricing": 36,
+      "trend": 150,
+      "pricing": 37,
+      "launch": 36,
+      "regulatory": 31,
+      "alcohol_free": 25,
+      "supply_chain": 22,
       "carbonated": 18,
-      "innovation": 16,
-      "supply_chain": 14,
-      "alcohol_free": 13,
-      "premium": 12,
-      "sugar_free": 11
+      "innovation": 18,
+      "premium": 17,
+      "sugar_free": 12
     }
   }
 }
