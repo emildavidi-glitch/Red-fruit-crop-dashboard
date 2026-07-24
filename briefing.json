@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T07:27:39.728328+00:00",
+  "generated_at": "2026-07-24T14:52:48.360870+00:00",
   "generated_date": "Friday, 24 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Aktion Torkonto: 3.330 Liter Gaffel Kölsch für die Fans des 1. FC Köln - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Scotch toasts UK whisky exemption from new US tariffs - Just Drinks.",
   "signals": {
     "usa": "Alcohol Free trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 148,
-      "launch": 42,
-      "pricing": 37,
-      "regulatory": 32,
+      "trend": 128,
+      "pricing": 50,
+      "launch": 48,
       "alcohol_free": 31,
+      "regulatory": 28,
+      "competitor": 19,
       "premium": 17,
-      "supply_chain": 17,
-      "competitor": 14,
-      "carbonated": 14,
-      "sugar_free": 12
+      "supply_chain": 16,
+      "sugar_free": 13,
+      "functional": 12
     }
   }
 }
