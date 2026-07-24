@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-23T15:07:11.568664+00:00",
-  "generated_date": "Thursday, 23 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Haus Cramer Gruppe beruft Bodo-Joachim Wendenburg zum CEO/CRO - about-drinks.com.",
+  "generated_at": "2026-07-24T07:27:39.728328+00:00",
+  "generated_date": "Friday, 24 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Aktion Torkonto: 3.330 Liter Gaffel Kölsch für die Fans des 1. FC Köln - about-drinks.com.",
   "signals": {
     "usa": "Alcohol Free trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
     "france": "Alcohol Free trending. (50 items)",
     "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Carbonated trending. (50 items)",
+    "italy": "Alcohol Free trending. (50 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 150,
+      "trend": 148,
+      "launch": 42,
       "pricing": 37,
-      "launch": 36,
-      "regulatory": 31,
-      "alcohol_free": 25,
-      "supply_chain": 22,
-      "carbonated": 18,
-      "innovation": 18,
+      "regulatory": 32,
+      "alcohol_free": 31,
       "premium": 17,
+      "supply_chain": 17,
+      "competitor": 14,
+      "carbonated": 14,
       "sugar_free": 12
     }
   }
