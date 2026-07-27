@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-27T08:25:05.640927+00:00",
+  "generated_at": "2026-07-27T15:40:51.956979+00:00",
   "generated_date": "Monday, 27 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: „Schaffen eine neue Shot-Experience“: Tim Hotfiel über Three Sixty Fusion - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: \"Too early to tell\" if Tequila seeing \"normalisation\" in US, Becle says - Just Drinks.",
   "signals": {
-    "usa": "Alcohol Free trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (50 items)",
-    "spain": "Alcohol Free trending. (50 items)",
-    "italy": "Alcohol Free trending. (50 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 135,
-      "launch": 49,
-      "pricing": 44,
-      "alcohol_free": 30,
-      "regulatory": 27,
-      "functional": 18,
-      "innovation": 18,
-      "premium": 14,
-      "supply_chain": 14,
-      "sugar_free": 13
+      "trend": 162,
+      "launch": 36,
+      "pricing": 32,
+      "competitor": 25,
+      "supply_chain": 20,
+      "premium": 19,
+      "regulatory": 13,
+      "sugar_free": 13,
+      "functional": 13,
+      "alcohol_free": 12
     }
   }
 }
