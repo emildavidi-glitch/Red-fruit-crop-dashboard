@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-27T15:40:51.956979+00:00",
-  "generated_date": "Monday, 27 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: \"Too early to tell\" if Tequila seeing \"normalisation\" in US, Becle says - Just Drinks.",
+  "generated_at": "2026-07-28T07:34:39.750608+00:00",
+  "generated_date": "Tuesday, 28 July 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Multifunctional beverages: The next avenue of growth? - FoodNavigator.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
+    "france": "Functional trending. (50 items)",
+    "spain": "Functional trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 162,
-      "launch": 36,
-      "pricing": 32,
+      "trend": 157,
+      "pricing": 38,
+      "launch": 37,
       "competitor": 25,
-      "supply_chain": 20,
-      "premium": 19,
-      "regulatory": 13,
-      "sugar_free": 13,
-      "functional": 13,
-      "alcohol_free": 12
+      "alcohol_free": 18,
+      "premium": 17,
+      "functional": 16,
+      "innovation": 15,
+      "supply_chain": 14,
+      "regulatory": 13
     }
   }
 }
