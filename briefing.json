@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-28T07:34:39.750608+00:00",
+  "generated_at": "2026-07-28T15:18:53.167352+00:00",
   "generated_date": "Tuesday, 28 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Multifunctional beverages: The next avenue of growth? - FoodNavigator.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Coke Projects Confidence in Innovation Strategy Amid Strong Q2 Earnings - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
     "italy": "Functional trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 157,
-      "pricing": 38,
-      "launch": 37,
-      "competitor": 25,
-      "alcohol_free": 18,
-      "premium": 17,
+      "trend": 139,
+      "launch": 42,
+      "pricing": 37,
+      "regulatory": 33,
+      "competitor": 24,
       "functional": 16,
-      "innovation": 15,
       "supply_chain": 14,
-      "regulatory": 13
+      "innovation": 10,
+      "carbonated": 8,
+      "rtd": 7
     }
   }
 }
