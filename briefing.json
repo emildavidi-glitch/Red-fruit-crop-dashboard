@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-29T07:39:09.864070+00:00",
+  "generated_at": "2026-07-29T15:07:16.552223+00:00",
   "generated_date": "Wednesday, 29 July 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Asahi eyes beverage growth, East Africa for cyberattack rebound - FoodNavigator.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; competitor trending; carbonated trending. Latest: Mount Gay MD: why now is the time for age-statement rum - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Carbonated trending. (50 items)",
+    "spain": "Carbonated trending. (50 items)",
+    "italy": "Carbonated trending. (50 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 136,
-      "launch": 40,
-      "regulatory": 38,
-      "pricing": 36,
-      "competitor": 24,
-      "functional": 16,
+      "trend": 153,
+      "competitor": 32,
+      "carbonated": 32,
+      "launch": 31,
+      "regulatory": 30,
+      "pricing": 20,
+      "innovation": 14,
       "supply_chain": 14,
-      "innovation": 11,
-      "carbonated": 8,
-      "rtd": 7
+      "functional": 13,
+      "rtd": 11
     }
   }
 }
