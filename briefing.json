@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-02T07:28:56.659801+00:00",
+  "generated_at": "2026-08-02T14:29:07.406481+00:00",
   "generated_date": "Sunday, 02 August 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Christian Energy Drinks are Becoming a Thing. What’s Driving Them? - BevNET.com.",
+  "briefing": "Sales intelligence tracked 150 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Marie Brizard Wine & Spirits returns to French growth.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (50 items)",
-    "spain": "Premium trending. (50 items)",
-    "italy": "Premium trending. (50 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Premium trending. (31 items)",
+    "germany": "Premium trending. (24 items)",
+    "france": "Premium trending. (25 items)",
+    "spain": "Premium trending. (24 items)",
+    "italy": "Premium trending. (23 items)",
+    "austria": "Premium trending. (23 items)"
   },
   "meta": {
-    "total_articles_analyzed": 300,
+    "total_articles_analyzed": 150,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 165,
-      "launch": 52,
-      "premium": 27,
-      "pricing": 24,
-      "functional": 21,
-      "innovation": 20,
-      "carbonated": 17,
-      "rtd": 15,
+      "trend": 82,
+      "launch": 25,
+      "premium": 24,
       "competitor": 13,
-      "retail": 12
+      "pricing": 13,
+      "carbonated": 13,
+      "regulatory": 7,
+      "alcohol_free": 6,
+      "retail": 6,
+      "sugar_free": 6
     }
   }
 }

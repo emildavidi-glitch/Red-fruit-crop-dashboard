@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-08-02T07:28:56.659801+00:00",
+  "generated_at": "2026-08-02T14:29:07.406481+00:00",
   "regions": {
     "usa": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-07-31T17:36:53+00:00",
+      "items": 31,
+      "sources_ok": 2,
+      "sources_failed": 13,
+      "last_item_date": "2026-07-31T10:48:00-04:00",
       "notes": []
     },
     "germany": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-07-31T14:02:28+00:00",
+      "items": 24,
+      "sources_ok": 2,
+      "sources_failed": 13,
+      "last_item_date": "2026-07-31T10:43:16+00:00",
       "notes": []
     },
     "france": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-07-31T15:42:42+00:00",
+      "items": 25,
+      "sources_ok": 2,
+      "sources_failed": 13,
+      "last_item_date": "2026-07-31T10:49:24+00:00",
       "notes": []
     },
     "spain": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-07-31T14:16:03+00:00",
+      "items": 24,
+      "sources_ok": 2,
+      "sources_failed": 13,
+      "last_item_date": "2026-07-31T10:43:16+00:00",
       "notes": []
     },
     "italy": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-07-31T14:02:28+00:00",
+      "items": 23,
+      "sources_ok": 2,
+      "sources_failed": 13,
+      "last_item_date": "2026-07-31T10:43:16+00:00",
       "notes": []
     },
     "austria": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-07-31T14:02:28+00:00",
+      "items": 23,
+      "sources_ok": 2,
+      "sources_failed": 13,
+      "last_item_date": "2026-07-31T10:43:16+00:00",
       "notes": []
     }
   },
   "global": {
-    "total_items": 300,
-    "total_sources_ok": 15,
-    "total_sources_failed": 0
+    "total_items": 150,
+    "total_sources_ok": 2,
+    "total_sources_failed": 13
   }
 }
