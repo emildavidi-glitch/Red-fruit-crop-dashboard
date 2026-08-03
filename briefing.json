@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-02T14:29:07.406481+00:00",
-  "generated_date": "Sunday, 02 August 2026",
-  "briefing": "Sales intelligence tracked 150 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Marie Brizard Wine & Spirits returns to French growth.",
+  "generated_at": "2026-08-03T08:23:26.344437+00:00",
+  "generated_date": "Monday, 03 August 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Dallmayr startet TV-Kampagne zu Home Barista - about-drinks.com.",
   "signals": {
-    "usa": "Premium trending. (31 items)",
-    "germany": "Premium trending. (24 items)",
-    "france": "Premium trending. (25 items)",
-    "spain": "Premium trending. (24 items)",
-    "italy": "Premium trending. (23 items)",
-    "austria": "Premium trending. (23 items)"
+    "usa": "Premium trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (50 items)",
+    "spain": "Premium trending. (50 items)",
+    "italy": "Premium trending. (50 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 150,
+    "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 82,
-      "launch": 25,
-      "premium": 24,
+      "trend": 160,
+      "launch": 51,
+      "pricing": 27,
+      "premium": 27,
+      "innovation": 21,
+      "functional": 20,
+      "carbonated": 20,
+      "regulatory": 14,
       "competitor": 13,
-      "pricing": 13,
-      "carbonated": 13,
-      "regulatory": 7,
-      "alcohol_free": 6,
-      "retail": 6,
-      "sugar_free": 6
+      "rtd": 13
     }
   }
 }

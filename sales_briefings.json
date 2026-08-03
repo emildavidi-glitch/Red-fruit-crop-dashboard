@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-08-02T14:29:07.406481+00:00",
+  "generated_at": "2026-08-03T08:23:26.344437+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "VILSA setzt Zusammenarbeit mit Klaas Heufer-Umlauf und Papaplatte fort - about-drinks.com",
+          "detail": "VILSA setzt Zusammenarbeit mit Klaas Heufer-Umlauf und Papaplatte fort about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT3dYcGNzSDFxYVhlY0xuN3VUNFZXUHRvUEU3SXpzSGlfVklnUWRaczRyeHpsaVRwMmtOYmN6TEIzYVRBVGd3bXFlUUxqSGJVZFdHbmNweTE0TGhOWVJJYVFsX2ZCZ1R5TFdYYTdJZW9wZVRSMmNDbGNlaWxETThFc1kxeXhrTXNNUjNSX3NnRFhTdlh1bjV5OXlqOVlIbk54T2c?oc=5"
+          ],
+          "confidence": "high"
+        },
         {
           "headline": "Reorganisation at AXA Millésimes as Ilić becomes US managing director",
           "detail": "AXA Millésimes has announced a strategic reorganisation after appointing Corinne Ilić as managing director USA. The post Reorganisation at AXA Millésimes as Ilić becomes US managing director appeared ",
@@ -35,14 +43,6 @@
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Lion Brewery returns to India after six decades",
-          "detail": "A Singapore-based brewery with roots dating back to the 19th Century has returned to India after more than 60 years, launching two beers in Delhi as it seeks to jump into the country's growing premium",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -63,6 +63,14 @@
           "date": "2026-07-31T10:41:39+00:00"
         },
         {
+          "title": "New beverage launches: Functional booze, spicy cocktails and no-alc wine… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+          "date": "2026-07-31T10:21:00+00:00"
+        },
+        {
           "title": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
           "company": "Unknown",
           "product": "beverage",
@@ -77,14 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/",
           "date": "2026-07-31T09:34:02+00:00"
-        },
-        {
-          "title": "High-risk drinking falls among Korean men, but climbs for women",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/high-risk-drinking-falls-among-korean-men-but-climbs-for-women/",
-          "date": "2026-07-29T10:33:44+00:00"
         }
       ],
       "competitor_moves": [
@@ -145,6 +145,13 @@
           "date": "2026-07-30T11:03:00-04:00"
         },
         {
+          "title": "Fairtrade International updates minimum prices for coffee - Just Drinks",
+          "what_changed": "Fairtrade International updates minimum prices for coffee Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDZTS1J5Y0xneDhjRFRIZnh1QUhoZU40cjUxWnNmczh5WGEwNG9SMlF6NTVxVEZfVlJXRGhaU1RObjNrRnVVdnllczYzMTAxbGJ1OHhQTVZjdVJWSUpxamhpYWZuSXRFVXVIYVR2UGJWQXZlbGtxdjRnUzcycWktSEZPT3FQWUc2NGhUUUlRSHI1RFlWaWc?oc=5",
+          "date": "2026-07-30T13:31:36+00:00"
+        },
+        {
           "title": "Could chilled reds be a premium move?",
           "what_changed": "As luxury store Fortnum & Mason curates a chilled reds collection to meet the viral trend, senior wine buyer Edwina Watson tells Sarah Neish why drink",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -155,48 +162,48 @@
       "signals": [
         {
           "signal": "Premium trending in United States",
-          "explanation": "4 articles mention premium in the last 28 days",
-          "support_count": 4,
+          "explanation": "6 articles mention premium in the last 28 days",
+          "support_count": 6,
           "top_keywords": [
             "premium"
           ],
-          "confidence": "medium"
+          "confidence": "high"
+        },
+        {
+          "signal": "Functional trending in United States",
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "high"
         },
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in United States",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Functional trending in United States",
-          "explanation": "1 articles mention functional in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Sugar Free trending in United States",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "sugar_free"
-          ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
@@ -206,7 +213,7 @@
           "supporting_evidence_urls": [
             "https://www.fooddive.com/news/chips-ahoy-mystery-sam-adams-nonalcoholic-octoberfest-chef-boyardee-protein/826712/",
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5"
           ]
         },
         {
@@ -215,6 +222,15 @@
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
             "https://www.fooddive.com/news/beef-prices-cattle-ban-mexico-jbs/826343/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.fooddive.com/news/how-6-big-beverage-brands-are-embracing-functional-ingredients/826643/",
+            "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVMyMHE1NFhOYm13eHFIS3lWOHZvU3lybEp2Y0ZuU1RGT2dzZWp2MFFxb0FPdTM4YzNWSzhuRm5CUTJIZ0Y4a3owNHRRWGhjS3hyQmd5Yk85RDRTRkg5RDBBYWtDWHRNTHZVOGRySDN1a3pnWVNLQnpXOTNmU3pCS2VQMC1TYl9xc3k0QkxDUC1CcFdscjVMbVVRNk1hTjBRT3NNTHdsRzl2bnRwdXJuY05NNDM?oc=5"
           ]
         }
       ],
@@ -226,7 +242,7 @@
           "evidence_urls": [
             "https://www.fooddive.com/news/chips-ahoy-mystery-sam-adams-nonalcoholic-octoberfest-chef-boyardee-protein/826712/",
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5"
           ]
         },
         {
@@ -243,44 +259,44 @@
     "germany": {
       "executive_summary": [
         {
+          "headline": "Dallmayr startet TV-Kampagne zu Home Barista - about-drinks.com",
+          "detail": "Dallmayr startet TV-Kampagne zu Home Barista about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ZVhVZUJFVmVOR0RhSjF1TGh1aW9FdFVoUkN3ZTVYRl9PWUhsYndHMGNYRzR0azJRS0ozdEM0S0l2eTlwY3lGUnhyZldLVHYyaVdXUF9XaEktRjF0ZS1fdXJwVWR1UHJfakhBdDlTSlpFX2pEdkJfOHhHQlN0UWc?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "SALITOS Beach Party 2026 begeistert 3.500 Gäste am Lippesee - about-drinks.com",
+          "detail": "SALITOS Beach Party 2026 begeistert 3.500 Gäste am Lippesee about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWFdzYjdXNTFjYk1WUHFRT042SE1pTWRvamJQakpsZ3pSSWlRU2VORnpjLW1IQlNPQS1hSVQwaElmMVZKN09RWkp3bGhNOVN2OEhxSFNyMTY5aExtb202SUVzdDQ4ZDZnMHJSZ0pxQm5IRjVZV0JCMlRGYkdrY0g4eEVvd0ZYQjBPTDBQU2tSbFBlNlNf?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "detail": "EU Packaging and Packaging Waste Regulation (PPWR) ChemLinked",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kalorienreduzierte Erfrischungsgetränke weiter im Plus - about-drinks.com",
+          "detail": "Kalorienreduzierte Erfrischungsgetränke weiter im Plus about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQlBLMDJpczZmRk16c250d014NXRwaTAzZ0pIY3NvRFJIRkExQW5fM2dnbE11bno5NXU4cHROclp1c1VXMzc0TXVlSG5TcjNEY0UzdHY5S3NnbE4tWmgyVVhaeHU5a2kxMFEwaTlYVFd6V1ZEQ2dxNHVDMEFpSUdGUUk1bUVBUWRadXRudlBR?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Exceptionally rare 1811 Riesling comes up for auction",
           "detail": "A bottle of 1811 Forster Ungeheuer Riesling, thought to be the oldest  bottle of German Riesling from a named single vineyard to ever be offered at a European auction, is being auctioned by Amsterdam-",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/exceptionally-rare-19th-century-riesling-comes-up-for-auction/"
           ],
           "confidence": "high"
-        },
-        {
-          "headline": "Enter now: The Global Sauvignon Blanc Masters 2026",
-          "detail": "the drinks business invites producers worldwide to submit their wines for The Global Sauvignon Blanc Masters 2026, a competition designed to recognise the very best expressions of this celebrated grap",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/enter-now-the-global-sauvignon-blanc-masters-2026/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
-          "detail": "Domaine Lafage has acquired the struggling Collioure Banyuls Winegrowers' Group (GICB), securing the future of around 60% of production across the two historic Roussillon appellations and creating a n",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lion Brewery returns to India after six decades",
-          "detail": "A Singapore-based brewery with roots dating back to the 19th Century has returned to India after more than 60 years, launching two beers in Delhi as it seeks to jump into the country's growing premium",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
-          "detail": "Glenmorangie has unveiled a limited-edition single malt created in collaboration with Harrison Ford, with the Highland distillery rolling out the exclusive bottling across international airports as it",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -291,6 +307,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
           "date": "2026-07-31T10:41:39+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional booze, spicy cocktails and no-alc wine… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+          "date": "2026-07-31T10:21:00+00:00"
         },
         {
           "title": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
@@ -337,6 +361,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-07-31T06:05:46+00:00"
+        },
+        {
           "title": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
           "topic": "alcohol_free",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -353,11 +384,25 @@
           "date": "2026-07-31T09:51:06+00:00"
         },
         {
+          "title": "Fairtrade International updates minimum prices for coffee - Just Drinks",
+          "what_changed": "Fairtrade International updates minimum prices for coffee Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDZTS1J5Y0xneDhjRFRIZnh1QUhoZU40cjUxWnNmczh5WGEwNG9SMlF6NTVxVEZfVlJXRGhaU1RObjNrRnVVdnllczYzMTAxbGJ1OHhQTVZjdVJWSUpxamhpYWZuSXRFVXVIYVR2UGJWQXZlbGtxdjRnUzcycWktSEZPT3FQWUc2NGhUUUlRSHI1RFlWaWc?oc=5",
+          "date": "2026-07-30T13:31:36+00:00"
+        },
+        {
           "title": "Could chilled reds be a premium move?",
           "what_changed": "As luxury store Fortnum & Mason curates a chilled reds collection to meet the viral trend, senior wine buyer Edwina Watson tells Sarah Neish why drink",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/can-chilled-reds-be-a-premium-move/",
           "date": "2026-07-30T10:47:00+00:00"
+        },
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T10:35:58+00:00"
         }
       ],
       "signals": [
@@ -371,69 +416,79 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in Germany",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Carbonated trending in Germany",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Germany",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Sugar Free trending in Germany",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
-          "signal": "Organic trending in Germany",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
+          "signal": "Rtd trending in Germany",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "organic"
+            "rtd"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2p6Qk9tOU9Yc3IyUlZ5dzhRMjd1ak5xUC14cjRvNy03NWlidE9nMFhGWFgyTnVvRG5TR3BFZjBwdUNHYzVYSlFDeXdybzVLcHhlMGpBLXpPaG5ROXA2ZUpCcnlhQ1hVR2F0cTBkUTA1bHYwWlpZZUhGWjRXbm5XWGF1c0pjaHdmNjhzdkVpZllwVlZBMjdsUXJOTmtTS1VXcUpBNWgyazkwNXVuMjZJT1Q1WVd5a1E?oc=5",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNEtVNVhFTUxiMVlWUVBlMGMwdXc2T2l1RUlhRVVpWEJiUUYyNW91MnB3YnB2dnBmaDdiSEZvM2NSTjlpVTFPMnZUNjg1cklDSmhTMnloR2dPZldyeUwwaGFzN1BwbnlLN1lJOHloMEdTRmVPQmFGaDVxYThSTGVaVVg4OGdFdXZSdUp4V0xjX2c1eUNTRGRvTHphd3JPZDdPa3BwQzJSLVptZnJDbzBn?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
@@ -441,6 +496,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
           ]
         }
@@ -448,6 +504,22 @@
     },
     "france": {
       "executive_summary": [
+        {
+          "headline": "Marie Brizard sees sales rebound in France - Just Drinks",
+          "detail": "Marie Brizard sees sales rebound in France Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLTBoU3VaNV85RVpOLXI1bUhIaXFKZG9KdEJhVldNNEpRWEc3Z05ud1dzc3dSRXdUaWgxZ0g2QWJld3BDNjNieDN2X0d5NmJxNGQ5Zmd2YTRoNTVQeEhaWVFfdUlZREhWVU5NR1ZPekZHMmNteFVXQVFDYzFqU3hwMk93?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "France’s Domaine Lafage buys local wine cooperative - Just Drinks",
+          "detail": "France’s Domaine Lafage buys local wine cooperative Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYk5yNllCMHFxLWNTcEd1ZnFQZ3k0dS11M3BWSko1dkpYNEhwOWVLRS1oODZuR2QxeFZ6LXVoMm1CRFZtSzdPS1RLRk5reWU1Znp3cDBMekM4cm0xemZ3WF9PbEdYekwxQWhrbkNvb1laaFVja3FMR250c3B4VzJQVWh2TzVmSl84YlhLaA?oc=5"
+          ],
+          "confidence": "high"
+        },
         {
           "headline": "Marie Brizard Wine & Spirits returns to French growth",
           "detail": "Marie Brizard Wine & Spirits (MBWS) has posted a 6% like-for-like rise in French sales for the second quarter, helped by the performance of William Peel whisky. The post Marie Brizard Wine & Spirits r",
@@ -457,34 +529,18 @@
           "confidence": "high"
         },
         {
+          "headline": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "detail": "EU Packaging and Packaging Waste Regulation (PPWR) ChemLinked",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Enter now: The Global Sauvignon Blanc Masters 2026",
           "detail": "the drinks business invites producers worldwide to submit their wines for The Global Sauvignon Blanc Masters 2026, a competition designed to recognise the very best expressions of this celebrated grap",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/enter-now-the-global-sauvignon-blanc-masters-2026/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "‘Worst crisis since WWII’: Bordeaux wildfires continue amid extreme heat",
-          "detail": "As wildfires continue to blaze near Bordeaux, in what President Emmanuel Macron has described as the toughest situation France has faced since World War II, the country's celebrated wine region confro",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/worst-crisis-since-wwii-bordeaux-wildfires-continue-amid-extreme-heat/"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
-          "detail": "Domaine Lafage has acquired the struggling Collioure Banyuls Winegrowers' Group (GICB), securing the future of around 60% of production across the two historic Roussillon appellations and creating a n",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lion Brewery returns to India after six decades",
-          "detail": "A Singapore-based brewery with roots dating back to the 19th Century has returned to India after more than 60 years, launching two beers in Delhi as it seeks to jump into the country's growing premium",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/"
           ],
           "confidence": "medium"
         }
@@ -497,6 +553,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
           "date": "2026-07-31T10:41:39+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional booze, spicy cocktails and no-alc wine… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+          "date": "2026-07-31T10:21:00+00:00"
         },
         {
           "title": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
@@ -543,6 +607,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-07-31T06:05:46+00:00"
+        },
+        {
           "title": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
           "topic": "alcohol_free",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -559,11 +630,32 @@
           "date": "2026-07-31T09:51:06+00:00"
         },
         {
+          "title": "Fairtrade International updates minimum prices for coffee - Just Drinks",
+          "what_changed": "Fairtrade International updates minimum prices for coffee Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDZTS1J5Y0xneDhjRFRIZnh1QUhoZU40cjUxWnNmczh5WGEwNG9SMlF6NTVxVEZfVlJXRGhaU1RObjNrRnVVdnllczYzMTAxbGJ1OHhQTVZjdVJWSUpxamhpYWZuSXRFVXVIYVR2UGJWQXZlbGtxdjRnUzcycWktSEZPT3FQWUc2NGhUUUlRSHI1RFlWaWc?oc=5",
+          "date": "2026-07-30T13:31:36+00:00"
+        },
+        {
           "title": "Could chilled reds be a premium move?",
           "what_changed": "As luxury store Fortnum & Mason curates a chilled reds collection to meet the viral trend, senior wine buyer Edwina Watson tells Sarah Neish why drink",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/can-chilled-reds-be-a-premium-move/",
           "date": "2026-07-30T10:47:00+00:00"
+        },
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T10:35:58+00:00"
+        },
+        {
+          "title": "US lines up 50% tariff on alcohol, dairy from Canada - Just Drinks",
+          "what_changed": "US lines up 50% tariff on alcohol, dairy from Canada Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVhoQjdxcEZVcTZjZnR6anZwdVoxS2hTX0RVUUc1My1KazVhMjNicDVXQVctVjlGVGVjQ1p2cnBvT1gwa3k2QWtfUXdwV3pDN19zMVFMd3lXVEFXLTZoQjhLYnk5Ry0yYmRsTGFmQm5MYkhzb3J2XzFjSWo5d0plMXhZM2hIUlRnYWJZbA?oc=5",
+          "date": "2026-07-21T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -577,9 +669,18 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in France",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Carbonated trending in France",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
@@ -587,59 +688,60 @@
         },
         {
           "signal": "Alcohol Free trending in France",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in France",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Organic trending in France",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in France — ask about shelf space for new formats",
+          "pitch": "5 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2p6Qk9tOU9Yc3IyUlZ5dzhRMjd1ak5xUC14cjRvNy03NWlidE9nMFhGWFgyTnVvRG5TR3BFZjBwdUNHYzVYSlFDeXdybzVLcHhlMGpBLXpPaG5ROXA2ZUpCcnlhQ1hVR2F0cTBkUTA1bHYwWlpZZUhGWjRXbm5XWGF1c0pjaHdmNjhzdkVpZllwVlZBMjdsUXJOTmtTS1VXcUpBNWgyazkwNXVuMjZJT1Q1WVd5a1E?oc=5",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNEtVNVhFTUxiMVlWUVBlMGMwdXc2T2l1RUlhRVVpWEJiUUYyNW91MnB3YnB2dnBmaDdiSEZvM2NSTjlpVTFPMnZUNjg1cklDSmhTMnloR2dPZldyeUwwaGFzN1BwbnlLN1lJOHloMEdTRmVPQmFGaDVxYThSTGVaVVg4OGdFdXZSdUp4V0xjX2c1eUNTRGRvTHphd3JPZDdPa3BwQzJSLVptZnJDbzBn?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
@@ -647,6 +749,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
           ]
         }
@@ -663,6 +766,22 @@
           "confidence": "high"
         },
         {
+          "headline": "Vintae CEO on bid to revitalise Spanish wine peer Bodegas Riojanas - Just Drinks",
+          "detail": "Vintae CEO on bid to revitalise Spanish wine peer Bodegas Riojanas Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUmFwSEk5OUEyeVNoS1hZMXVuUUFuTGhWdW9CRlNJX0FCYUV6XzhvLUxtdDFHcmJnSW9fQmZPSTFIZjlVZVlsRHFlLXd0OFIySE9MSzBFc2h1T2ZlNVk2Q25Ga1A4U2xyRDJtT3BLdHh5enZLUmMwR2F0SUFrWFBpX25FeldxN1REWVpuV09fWjd0cmJLQ2JRMWNCNWZmVXFHYU1zcHRpcnlSUQ?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "detail": "EU Packaging and Packaging Waste Regulation (PPWR) ChemLinked",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Enter now: The Global Sauvignon Blanc Masters 2026",
           "detail": "the drinks business invites producers worldwide to submit their wines for The Global Sauvignon Blanc Masters 2026, a competition designed to recognise the very best expressions of this celebrated grap",
           "evidence_urls": [
@@ -677,22 +796,6 @@
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Lion Brewery returns to India after six decades",
-          "detail": "A Singapore-based brewery with roots dating back to the 19th Century has returned to India after more than 60 years, launching two beers in Delhi as it seeks to jump into the country's growing premium",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
-          "detail": "Glenmorangie has unveiled a limited-edition single malt created in collaboration with Harrison Ford, with the Highland distillery rolling out the exclusive bottling across international airports as it",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -703,6 +806,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
           "date": "2026-07-31T10:41:39+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional booze, spicy cocktails and no-alc wine… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+          "date": "2026-07-31T10:21:00+00:00"
         },
         {
           "title": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
@@ -749,11 +860,25 @@
       ],
       "regulatory_watch": [
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-07-31T06:05:46+00:00"
+        },
+        {
           "title": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
           "topic": "alcohol_free",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
           "date": "2026-07-30T10:17:31+00:00"
+        },
+        {
+          "title": "EU PPWR Regulation: Full Implementation from August 2026 - A Complete Guide for Cross-Border Businesses - openpr.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
+          "date": "2026-07-15T14:42:05+00:00"
         }
       ],
       "pricing_promotions": [
@@ -765,11 +890,32 @@
           "date": "2026-07-31T09:51:06+00:00"
         },
         {
+          "title": "Fairtrade International updates minimum prices for coffee - Just Drinks",
+          "what_changed": "Fairtrade International updates minimum prices for coffee Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDZTS1J5Y0xneDhjRFRIZnh1QUhoZU40cjUxWnNmczh5WGEwNG9SMlF6NTVxVEZfVlJXRGhaU1RObjNrRnVVdnllczYzMTAxbGJ1OHhQTVZjdVJWSUpxamhpYWZuSXRFVXVIYVR2UGJWQXZlbGtxdjRnUzcycWktSEZPT3FQWUc2NGhUUUlRSHI1RFlWaWc?oc=5",
+          "date": "2026-07-30T13:31:36+00:00"
+        },
+        {
           "title": "Could chilled reds be a premium move?",
           "what_changed": "As luxury store Fortnum & Mason curates a chilled reds collection to meet the viral trend, senior wine buyer Edwina Watson tells Sarah Neish why drink",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/can-chilled-reds-be-a-premium-move/",
           "date": "2026-07-30T10:47:00+00:00"
+        },
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T10:35:58+00:00"
+        },
+        {
+          "title": "US lines up 50% tariff on alcohol, dairy from Canada - Just Drinks",
+          "what_changed": "US lines up 50% tariff on alcohol, dairy from Canada Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVhoQjdxcEZVcTZjZnR6anZwdVoxS2hTX0RVUUc1My1KazVhMjNicDVXQVctVjlGVGVjQ1p2cnBvT1gwa3k2QWtfUXdwV3pDN19zMVFMd3lXVEFXLTZoQjhLYnk5Ry0yYmRsTGFmQm5MYkhzb3J2XzFjSWo5d0plMXhZM2hIUlRnYWJZbA?oc=5",
+          "date": "2026-07-21T07:00:00+00:00"
         }
       ],
       "signals": [
@@ -783,9 +929,18 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in Spain",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Carbonated trending in Spain",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
@@ -793,59 +948,61 @@
         },
         {
           "signal": "Alcohol Free trending in Spain",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in Spain",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Organic trending in Spain",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Spain — ask about shelf space for new formats",
+          "pitch": "5 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2p6Qk9tOU9Yc3IyUlZ5dzhRMjd1ak5xUC14cjRvNy03NWlidE9nMFhGWFgyTnVvRG5TR3BFZjBwdUNHYzVYSlFDeXdybzVLcHhlMGpBLXpPaG5ROXA2ZUpCcnlhQ1hVR2F0cTBkUTA1bHYwWlpZZUhGWjRXbm5XWGF1c0pjaHdmNjhzdkVpZllwVlZBMjdsUXJOTmtTS1VXcUpBNWgyazkwNXVuMjZJT1Q1WVd5a1E?oc=5",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNEtVNVhFTUxiMVlWUVBlMGMwdXc2T2l1RUlhRVVpWEJiUUYyNW91MnB3YnB2dnBmaDdiSEZvM2NSTjlpVTFPMnZUNjg1cklDSmhTMnloR2dPZldyeUwwaGFzN1BwbnlLN1lJOHloMEdTRmVPQmFGaDVxYThSTGVaVVg4OGdFdXZSdUp4V0xjX2c1eUNTRGRvTHphd3JPZDdPa3BwQzJSLVptZnJDbzBn?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
@@ -853,7 +1010,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5"
           ]
         }
       ]
@@ -861,6 +1020,22 @@
     "italy": {
       "executive_summary": [
         {
+          "headline": "Tanqueray launcht neuen Premium-Aperitif Tanqueray Aperitivo - about-drinks.com",
+          "detail": "Tanqueray launcht neuen Premium-Aperitif Tanqueray Aperitivo about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmJ4SWpjZWtRTjZ2dGRYakx1YllEOG5qOTdVWHFJdV9Hd1ZmY2hPSHo4S1d1S01vSlNQOXNzdUVabThrdHYyRHhzVXg5UThxbF9uOGVKZXhkWGNnendRUlFCZXFvN2FjX21rcGQ5aXNPcFJWODlhOGp3Qi1Zd0t3Mjc5N2U0MjhzTGtxTHloWk1BUFQz?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "detail": "EU Packaging and Packaging Waste Regulation (PPWR) ChemLinked",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Enter now: The Global Sauvignon Blanc Masters 2026",
           "detail": "the drinks business invites producers worldwide to submit their wines for The Global Sauvignon Blanc Masters 2026, a competition designed to recognise the very best expressions of this celebrated grap",
           "evidence_urls": [
@@ -883,25 +1058,17 @@
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
-          "detail": "Glenmorangie has unveiled a limited-edition single malt created in collaboration with Harrison Ford, with the Highland distillery rolling out the exclusive bottling across international airports as it",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Groove Armada launches Do It Right lager with Signature Brew",
-          "detail": "Signature Brew is teaming up with electronic music icons Groove Armada and regenerative farming pioneers Wildfarmed to launch a Czech-style lager named Do It Right. Jessica Mason reports. The post Gro",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Tanqueray launcht neuen Premium-Aperitif Tanqueray Aperitivo - about-drinks.com",
+          "company": "Unknown",
+          "product": "premium",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmJ4SWpjZWtRTjZ2dGRYakx1YllEOG5qOTdVWHFJdV9Hd1ZmY2hPSHo4S1d1S01vSlNQOXNzdUVabThrdHYyRHhzVXg5UThxbF9uOGVKZXhkWGNnendRUlFCZXFvN2FjX21rcGQ5aXNPcFJWODlhOGp3Qi1Zd0t3Mjc5N2U0MjhzTGtxTHloWk1BUFQz?oc=5",
+          "date": "2026-07-30T12:48:33+00:00"
+        },
         {
           "title": "Lion Brewery returns to India after six decades",
           "company": "Rewe",
@@ -909,6 +1076,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
           "date": "2026-07-31T10:41:39+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional booze, spicy cocktails and no-alc wine… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+          "date": "2026-07-31T10:21:00+00:00"
         },
         {
           "title": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
@@ -925,14 +1100,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/",
           "date": "2026-07-31T09:34:02+00:00"
-        },
-        {
-          "title": "High-risk drinking falls among Korean men, but climbs for women",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://www.thedrinksbusiness.com/2026/07/high-risk-drinking-falls-among-korean-men-but-climbs-for-women/",
-          "date": "2026-07-29T10:33:44+00:00"
         }
       ],
       "competitor_moves": [
@@ -955,11 +1122,25 @@
       ],
       "regulatory_watch": [
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-07-31T06:05:46+00:00"
+        },
+        {
           "title": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
           "topic": "alcohol_free",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
           "date": "2026-07-30T10:17:31+00:00"
+        },
+        {
+          "title": "EU PPWR Regulation: Full Implementation from August 2026 - A Complete Guide for Cross-Border Businesses - openpr.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
+          "date": "2026-07-15T14:42:05+00:00"
         }
       ],
       "pricing_promotions": [
@@ -971,27 +1152,57 @@
           "date": "2026-07-31T09:51:06+00:00"
         },
         {
+          "title": "Fairtrade International updates minimum prices for coffee - Just Drinks",
+          "what_changed": "Fairtrade International updates minimum prices for coffee Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDZTS1J5Y0xneDhjRFRIZnh1QUhoZU40cjUxWnNmczh5WGEwNG9SMlF6NTVxVEZfVlJXRGhaU1RObjNrRnVVdnllczYzMTAxbGJ1OHhQTVZjdVJWSUpxamhpYWZuSXRFVXVIYVR2UGJWQXZlbGtxdjRnUzcycWktSEZPT3FQWUc2NGhUUUlRSHI1RFlWaWc?oc=5",
+          "date": "2026-07-30T13:31:36+00:00"
+        },
+        {
           "title": "Could chilled reds be a premium move?",
           "what_changed": "As luxury store Fortnum & Mason curates a chilled reds collection to meet the viral trend, senior wine buyer Edwina Watson tells Sarah Neish why drink",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/can-chilled-reds-be-a-premium-move/",
           "date": "2026-07-30T10:47:00+00:00"
+        },
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T10:35:58+00:00"
+        },
+        {
+          "title": "US lines up 50% tariff on alcohol, dairy from Canada - Just Drinks",
+          "what_changed": "US lines up 50% tariff on alcohol, dairy from Canada Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVhoQjdxcEZVcTZjZnR6anZwdVoxS2hTX0RVUUc1My1KazVhMjNicDVXQVctVjlGVGVjQ1p2cnBvT1gwa3k2QWtfUXdwV3pDN19zMVFMd3lXVEFXLTZoQjhLYnk5Ry0yYmRsTGFmQm5MYkhzb3J2XzFjSWo5d0plMXhZM2hIUlRnYWJZbA?oc=5",
+          "date": "2026-07-21T07:00:00+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Premium trending in Italy",
-          "explanation": "4 articles mention premium in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention premium in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "high"
+        },
+        {
+          "signal": "Functional trending in Italy",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
           ],
           "confidence": "medium"
         },
         {
           "signal": "Carbonated trending in Italy",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
@@ -999,59 +1210,61 @@
         },
         {
           "signal": "Alcohol Free trending in Italy",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in Italy",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Organic trending in Italy",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Italy — ask about shelf space for new formats",
+          "pitch": "5 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmJ4SWpjZWtRTjZ2dGRYakx1YllEOG5qOTdVWHFJdV9Hd1ZmY2hPSHo4S1d1S01vSlNQOXNzdUVabThrdHYyRHhzVXg5UThxbF9uOGVKZXhkWGNnendRUlFCZXFvN2FjX21rcGQ5aXNPcFJWODlhOGp3Qi1Zd0t3Mjc5N2U0MjhzTGtxTHloWk1BUFQz?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2p6Qk9tOU9Yc3IyUlZ5dzhRMjd1ak5xUC14cjRvNy03NWlidE9nMFhGWFgyTnVvRG5TR3BFZjBwdUNHYzVYSlFDeXdybzVLcHhlMGpBLXpPaG5ROXA2ZUpCcnlhQ1hVR2F0cTBkUTA1bHYwWlpZZUhGWjRXbm5XWGF1c0pjaHdmNjhzdkVpZllwVlZBMjdsUXJOTmtTS1VXcUpBNWgyazkwNXVuMjZJT1Q1WVd5a1E?oc=5",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNEtVNVhFTUxiMVlWUVBlMGMwdXc2T2l1RUlhRVVpWEJiUUYyNW91MnB3YnB2dnBmaDdiSEZvM2NSTjlpVTFPMnZUNjg1cklDSmhTMnloR2dPZldyeUwwaGFzN1BwbnlLN1lJOHloMEdTRmVPQmFGaDVxYThSTGVaVVg4OGdFdXZSdUp4V0xjX2c1eUNTRGRvTHphd3JPZDdPa3BwQzJSLVptZnJDbzBn?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmJ4SWpjZWtRTjZ2dGRYakx1YllEOG5qOTdVWHFJdV9Hd1ZmY2hPSHo4S1d1S01vSlNQOXNzdUVabThrdHYyRHhzVXg5UThxbF9uOGVKZXhkWGNnendRUlFCZXFvN2FjX21rcGQ5aXNPcFJWODlhOGp3Qi1Zd0t3Mjc5N2U0MjhzTGtxTHloWk1BUFQz?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5"
           ]
         },
         {
@@ -1059,7 +1272,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5"
           ]
         }
       ]
@@ -1067,42 +1282,42 @@
     "austria": {
       "executive_summary": [
         {
+          "headline": "Dallmayr startet TV-Kampagne zu Home Barista - about-drinks.com",
+          "detail": "Dallmayr startet TV-Kampagne zu Home Barista about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ZVhVZUJFVmVOR0RhSjF1TGh1aW9FdFVoUkN3ZTVYRl9PWUhsYndHMGNYRzR0azJRS0ozdEM0S0l2eTlwY3lGUnhyZldLVHYyaVdXUF9XaEktRjF0ZS1fdXJwVWR1UHJfakhBdDlTSlpFX2pEdkJfOHhHQlN0UWc?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "SALITOS Beach Party 2026 begeistert 3.500 Gäste am Lippesee - about-drinks.com",
+          "detail": "SALITOS Beach Party 2026 begeistert 3.500 Gäste am Lippesee about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWFdzYjdXNTFjYk1WUHFRT042SE1pTWRvamJQakpsZ3pSSWlRU2VORnpjLW1IQlNPQS1hSVQwaElmMVZKN09RWkp3bGhNOVN2OEhxSFNyMTY5aExtb202SUVzdDQ4ZDZnMHJSZ0pxQm5IRjVZV0JCMlRGYkdrY0g4eEVvd0ZYQjBPTDBQU2tSbFBlNlNf?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "detail": "EU Packaging and Packaging Waste Regulation (PPWR) ChemLinked",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Kalorienreduzierte Erfrischungsgetränke weiter im Plus - about-drinks.com",
+          "detail": "Kalorienreduzierte Erfrischungsgetränke weiter im Plus about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQlBLMDJpczZmRk16c250d014NXRwaTAzZ0pIY3NvRFJIRkExQW5fM2dnbE11bno5NXU4cHROclp1c1VXMzc0TXVlSG5TcjNEY0UzdHY5S3NnbE4tWmgyVVhaeHU5a2kxMFEwaTlYVFd6V1ZEQ2dxNHVDMEFpSUdGUUk1bUVBUWRadXRudlBR?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Enter now: The Global Sauvignon Blanc Masters 2026",
           "detail": "the drinks business invites producers worldwide to submit their wines for The Global Sauvignon Blanc Masters 2026, a competition designed to recognise the very best expressions of this celebrated grap",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/enter-now-the-global-sauvignon-blanc-masters-2026/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
-          "detail": "Domaine Lafage has acquired the struggling Collioure Banyuls Winegrowers' Group (GICB), securing the future of around 60% of production across the two historic Roussillon appellations and creating a n",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Lion Brewery returns to India after six decades",
-          "detail": "A Singapore-based brewery with roots dating back to the 19th Century has returned to India after more than 60 years, launching two beers in Delhi as it seeks to jump into the country's growing premium",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
-          "detail": "Glenmorangie has unveiled a limited-edition single malt created in collaboration with Harrison Ford, with the Highland distillery rolling out the exclusive bottling across international airports as it",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Groove Armada launches Do It Right lager with Signature Brew",
-          "detail": "Signature Brew is teaming up with electronic music icons Groove Armada and regenerative farming pioneers Wildfarmed to launch a Czech-style lager named Do It Right. Jessica Mason reports. The post Gro",
-          "evidence_urls": [
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
           ],
           "confidence": "medium"
         }
@@ -1115,6 +1330,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
           "date": "2026-07-31T10:41:39+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional booze, spicy cocktails and no-alc wine… - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+          "date": "2026-07-31T10:21:00+00:00"
         },
         {
           "title": "Harrison Ford co-creates Glenmorangie whisky for global travel retail",
@@ -1161,6 +1384,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-07-31T06:05:46+00:00"
+        },
+        {
           "title": "Domaine Lafage steps in to rescue majority of Banyuls and Collioure production",
           "topic": "alcohol_free",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1177,11 +1407,25 @@
           "date": "2026-07-31T09:51:06+00:00"
         },
         {
+          "title": "Fairtrade International updates minimum prices for coffee - Just Drinks",
+          "what_changed": "Fairtrade International updates minimum prices for coffee Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDZTS1J5Y0xneDhjRFRIZnh1QUhoZU40cjUxWnNmczh5WGEwNG9SMlF6NTVxVEZfVlJXRGhaU1RObjNrRnVVdnllczYzMTAxbGJ1OHhQTVZjdVJWSUpxamhpYWZuSXRFVXVIYVR2UGJWQXZlbGtxdjRnUzcycWktSEZPT3FQWUc2NGhUUUlRSHI1RFlWaWc?oc=5",
+          "date": "2026-07-30T13:31:36+00:00"
+        },
+        {
           "title": "Could chilled reds be a premium move?",
           "what_changed": "As luxury store Fortnum & Mason curates a chilled reds collection to meet the viral trend, senior wine buyer Edwina Watson tells Sarah Neish why drink",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.thedrinksbusiness.com/2026/07/can-chilled-reds-be-a-premium-move/",
           "date": "2026-07-30T10:47:00+00:00"
+        },
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T10:35:58+00:00"
         }
       ],
       "signals": [
@@ -1195,69 +1439,79 @@
           "confidence": "medium"
         },
         {
+          "signal": "Functional trending in Austria",
+          "explanation": "3 articles mention functional in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Carbonated trending in Austria",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Sugar Free trending in Austria",
-          "explanation": "1 articles mention sugar free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention sugar free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "sugar_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         },
         {
-          "signal": "Organic trending in Austria",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
+          "signal": "Rtd trending in Austria",
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
-            "organic"
+            "rtd"
           ],
-          "confidence": "low"
+          "confidence": "medium"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
+          ]
+        },
+        {
+          "customer_type": "distributor",
+          "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2p6Qk9tOU9Yc3IyUlZ5dzhRMjd1ak5xUC14cjRvNy03NWlidE9nMFhGWFgyTnVvRG5TR3BFZjBwdUNHYzVYSlFDeXdybzVLcHhlMGpBLXpPaG5ROXA2ZUpCcnlhQ1hVR2F0cTBkUTA1bHYwWlpZZUhGWjRXbm5XWGF1c0pjaHdmNjhzdkVpZllwVlZBMjdsUXJOTmtTS1VXcUpBNWgyazkwNXVuMjZJT1Q1WVd5a1E?oc=5",
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNEtVNVhFTUxiMVlWUVBlMGMwdXc2T2l1RUlhRVVpWEJiUUYyNW91MnB3YnB2dnBmaDdiSEZvM2NSTjlpVTFPMnZUNjg1cklDSmhTMnloR2dPZldyeUwwaGFzN1BwbnlLN1lJOHloMEdTRmVPQmFGaDVxYThSTGVaVVg4OGdFdXZSdUp4V0xjX2c1eUNTRGRvTHphd3JPZDdPa3BwQzJSLVptZnJDbzBn?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://www.thedrinksbusiness.com/2026/07/historic-british-brewer-lion-brewery-returns-to-india-after-six-decades/",
-            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/",
-            "https://www.thedrinksbusiness.com/2026/07/groove-armada-launches-do-it-right-lager-with-signature-brew/"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0hwRnBDRnFpeWRhQ1JXd3RnUlBkVzd2OWRmalBWVGtZRUhQZmtETUVqM2t6UmpiODQ1eEprU2VMSUhETFlJdGpMVkU1NGNhOXRtemsyMm9OSlY3OF9mQnpFWHEtNjRiTXZFTk1kSi1xUldFZzd4YVVneUFCbjJET0Zja3kxaVU2ZmFteEc3c3NCOUxvMVRpejN1Nnl5Zk9GbzhmSXItLTBGQQ?oc=5",
+            "https://www.thedrinksbusiness.com/2026/07/harrison-ford-co-creates-glenmorangie-whisky-for-global-travel-retail/"
           ]
         },
         {
@@ -1265,6 +1519,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
             "https://www.thedrinksbusiness.com/2026/07/domaine-lafage-steps-in-to-rescue-majority-of-banyuls-and-collioure-production/"
           ]
         }
