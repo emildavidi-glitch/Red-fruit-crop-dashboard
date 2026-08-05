@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T15:23:06.844777+00:00",
-  "generated_date": "Tuesday, 04 August 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Yalumba unveils the 2026 Rare & Fine Collection.",
+  "generated_at": "2026-08-05T07:34:43.265441+00:00",
+  "generated_date": "Wednesday, 05 August 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Heineken helps pave the way for regenerative farming to prosper in the UK.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
-      "regulatory": 49,
-      "launch": 43,
-      "pricing": 14,
-      "innovation": 14,
-      "functional": 14,
+      "trend": 153,
+      "regulatory": 55,
+      "launch": 38,
+      "innovation": 13,
+      "pricing": 13,
+      "supply_chain": 13,
       "alcohol_free": 12,
-      "supply_chain": 12,
-      "sugar_free": 12,
-      "macro": 12
+      "macro": 12,
+      "functional": 11,
+      "sugar_free": 11
     }
   }
 }
