@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T14:11:49.350741+00:00",
-  "generated_date": "Friday, 07 August 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: New Beverages: Waterloo Refreshes, More Protein - BevNET.com.",
+  "generated_at": "2026-08-08T05:38:21.512850+00:00",
+  "generated_date": "Saturday, 08 August 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: NORTH AMERICAN SAKE BREWERY - Sales Representative - BevNET.com Beverage Industry Job Listing - BevN.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
     "france": "Rtd trending. (50 items)",
     "spain": "Rtd trending. (50 items)",
@@ -14,16 +14,16 @@
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 179,
-      "regulatory": 36,
-      "launch": 32,
+      "trend": 183,
+      "regulatory": 33,
+      "launch": 30,
       "pricing": 22,
       "competitor": 13,
       "innovation": 10,
+      "supply_chain": 9,
+      "rtd": 9,
       "premium": 8,
-      "supply_chain": 8,
-      "rtd": 7,
-      "alcohol_free": 7
+      "protein": 7
     }
   }
 }
