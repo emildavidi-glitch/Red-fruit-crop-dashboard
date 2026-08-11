@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-08-11T05:50:16.430655+00:00",
+  "generated_at": "2026-08-11T14:18:33.672979+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "detail": "US lawmakers introduce bill to regulate THC drinks like alcohol Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Another New Bill to Regulate Legal Hemp Beverages Goes to Capitol Hill - BevNET.com",
           "detail": "Another New Bill to Regulate Legal Hemp Beverages Goes to Capitol Hill BevNET.com",
@@ -21,10 +29,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Medase Cocktails Continues Rapid Retail Expansion With Launch in 25 Giant Eagle and Market District Stores - BevNET.com",
-          "detail": "Medase Cocktails Continues Rapid Retail Expansion With Launch in 25 Giant Eagle and Market District Stores BevNET.com",
+          "headline": "Can frozen serve as the next frontier for functional beverages? - FoodNavigator.com",
+          "detail": "Can frozen serve as the next frontier for functional beverages? FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPblI3WThvNXhVQ2h4MzZTaDNMUW0yeXQxM2JvcmNLRWY4aVBZbkF0UlNkOGVRWW92VTJ4TjZLUFdORjVrVk41TDRjU1NoYkRTbm4wMVd1aEVlaHJBVHdIaVhNNTVXNlR5Q1NmT0tiVWN2eElVN1VRSTRmWEFNaDRfZUlxYzZ6cWFNcDhnek9YR01lby04ZUpjMUJKQnRDT245SVF4VWF6cVJWLW53SUlCZDYxMUJMVXpOa2E3aGRwMWM1LV9OU19SQlBHRE90a0xpUXlYRFRzNG0tUzg?oc=5"
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5"
           ],
           "confidence": "medium"
         },
@@ -35,14 +43,6 @@
             "https://www.fooddive.com/news/kraft-heinz-zeroes-in-on-marketing-as-it-pours-another-100m-into-turnaroun/827216/"
           ],
           "confidence": "high"
-        },
-        {
-          "headline": "Nichols acquires functional drinks business VitHit - Just Drinks",
-          "detail": "Nichols acquires functional drinks business VitHit Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -107,6 +107,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
+          "date": "2026-08-11T12:44:15+00:00"
+        },
+        {
           "title": "Another New Bill to Regulate Legal Hemp Beverages Goes to Capitol Hill - BevNET.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -147,8 +154,8 @@
       "signals": [
         {
           "signal": "Functional trending in United States",
-          "explanation": "6 articles mention functional in the last 28 days",
-          "support_count": 6,
+          "explanation": "7 articles mention functional in the last 28 days",
+          "support_count": 7,
           "top_keywords": [
             "functional"
           ],
@@ -205,18 +212,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxONVl2YnctTlhRYzZjZGIxaUxMZDVYeEVhSkg2NDV4YzV1VzM2UTFrTzZ4YkZFR3RvU3k0b2sxWXBNbVNlVHNnOUlJZmc4NWo2Y1h3Y0pqa3pGeWNobGY5WHdPRW5NcGpCaDlUN3FHbkg5cHM5eEVuZy1SUU00bzJNTVRsUW93SGdVaWFoUnlnNWt4cGxHclhNZldibkFya0VLM25OOVJR?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5",
             "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5",
-            "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU2pLREx1RDdUYUVLWjI3MjUtU3JGazVJZGVRT1F1YzVQd1p2aWZtVmZ3R1IzbHduWERuYUJzSVdISmpKcHBuUENxaUNoZjlDVGRrZ1JTY2RnSHZGVnI0VHR4TTRTUGRXd1hySERXMVBHV1hQQ0FTWEpEYnBrYm5aZjk2bE9OeExlc3FtTjV3YVdKMjBiTF9vSzZ5RWFLNDNYV1pYMVhn?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
           ]
         }
       ],
@@ -236,15 +243,23 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxONVl2YnctTlhRYzZjZGIxaUxMZDVYeEVhSkg2NDV4YzV1VzM2UTFrTzZ4YkZFR3RvU3k0b2sxWXBNbVNlVHNnOUlJZmc4NWo2Y1h3Y0pqa3pGeWNobGY5WHdPRW5NcGpCaDlUN3FHbkg5cHM5eEVuZy1SUU00bzJNTVRsUW93SGdVaWFoUnlnNWt4cGxHclhNZldibkFya0VLM25OOVJR?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         }
       ]
     },
     "germany": {
       "executive_summary": [
+        {
+          "headline": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "detail": "US lawmakers introduce bill to regulate THC drinks like alcohol Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Einbecker Brauhaus launcht Headbanger Zero.Zero - about-drinks.com",
           "detail": "Einbecker Brauhaus launcht Headbanger Zero.Zero about-drinks.com",
@@ -254,10 +269,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Nichols acquires functional drinks business VitHit - Just Drinks",
-          "detail": "Nichols acquires functional drinks business VitHit Just Drinks",
+          "headline": "Can frozen serve as the next frontier for functional beverages? - FoodNavigator.com",
+          "detail": "Can frozen serve as the next frontier for functional beverages? FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5"
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5"
           ],
           "confidence": "medium"
         },
@@ -270,18 +285,10 @@
           "confidence": "high"
         },
         {
-          "headline": "Functional drinks boom, but can brands prove they actually work? - BeverageDaily.com",
-          "detail": "Functional drinks boom, but can brands prove they actually work? BeverageDaily.com",
+          "headline": "Nichols acquires functional drinks business VitHit - Just Drinks",
+          "detail": "Nichols acquires functional drinks business VitHit Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Nichols eyes functional drinks growth with £64m purchase of VITHIT - BeverageDaily.com",
-          "detail": "Nichols eyes functional drinks growth with £64m purchase of VITHIT BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5"
           ],
           "confidence": "medium"
         }
@@ -316,6 +323,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
+          "date": "2026-08-11T12:44:15+00:00"
+        },
+        {
           "title": "Einbecker Brauhaus launcht Headbanger Zero.Zero - about-drinks.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -323,7 +337,7 @@
           "date": "2026-08-09T20:01:47+00:00"
         },
         {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
+          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - foodanddrinktechnology.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
@@ -342,13 +356,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5",
           "date": "2026-08-03T14:42:17+00:00"
-        },
-        {
-          "title": "PPWR unpacked: What the EU Packaging and Packaging Waste Regulation means for business and how to prepare - Carbon Trust",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYW0zRndyVjFXTEZ5U1pXeG1NZ0dxNXh0Y2txbEN6RG12RWp2X3QwVWlCM3NNZ2dUN2NZMTB4c2xnVUpXQXQzVDVqejNhSTNwYXNlUmhrMDcxLVRyS3RFMEEzREp6a2ZMa0VqNGlmS1FGalhkaVNHZUM3cUtvTlE2VF95anA0Y0VpT21xN2w3RWllU0lCQkw1Wi1HN012OWtDOGlrZENZcEwxUlZfZXY1R3JaR055Z2hnZ0FfQ2FyX3QwT093alpUZlFDaGpJN2lhRkRYQ0hpTjNhb0MyM3FIdk5Wb1F0YmEzQ2lZSG5HV0U?oc=5",
-          "date": "2026-07-16T11:41:25+00:00"
         }
       ],
       "pricing_promotions": [
@@ -363,12 +370,21 @@
       "signals": [
         {
           "signal": "Functional trending in Germany",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "medium"
+          "confidence": "high"
+        },
+        {
+          "signal": "Organic trending in Germany",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
+          ],
+          "confidence": "low"
         },
         {
           "signal": "Protein trending in Germany",
@@ -411,18 +427,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5",
             "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
           ]
         }
       ],
@@ -441,15 +457,31 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
           ]
         }
       ]
     },
     "france": {
       "executive_summary": [
+        {
+          "headline": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "detail": "US lawmakers introduce bill to regulate THC drinks like alcohol Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can frozen serve as the next frontier for functional beverages? - FoodNavigator.com",
+          "detail": "Can frozen serve as the next frontier for functional beverages? FoodNavigator.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Nichols acquires functional drinks business VitHit - Just Drinks",
           "detail": "Nichols acquires functional drinks business VitHit Just Drinks",
@@ -467,26 +499,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Nichols eyes functional drinks growth with £64m purchase of VITHIT - BeverageDaily.com",
-          "detail": "Nichols eyes functional drinks growth with £64m purchase of VITHIT BeverageDaily.com",
+          "headline": "Why the heat is still on for Diageo and CEO Sir Dave Lewis - Just Drinks",
+          "detail": "Why the heat is still on for Diageo and CEO Sir Dave Lewis Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "US Senate approves delay to hemp rules - Just Drinks",
-          "detail": "US Senate approves delay to hemp rules Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmJYZjVNSHpfZjR2TGpRZ0c1Q0NPcW05dldZZDRJVmUyQlpVak9nS0JNbmtuUTBEczFjVTFjY3hZX2VJbVBQYTJCMl9MWVlVdkx1a2d4UlNIRmpHLU00U0JiWlF0Tmx6MTF2UnExSGtyRmxpa0FicXRXRks0RGtTc0xB?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas - Just Drinks",
-          "detail": "Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY045aDZuM1JPZDlReVB3Vm5yTV93SlpMai1yOHFvUmNYU1VXdzAtZGRTamZ3SVN4VTFycnNsa0JneWI5RDg2QWZjc0RQaFVUZFFKcXltbzNDVHJYblI1aGZXQzJ0QVRNTXVuMjBFb0lEZUZmY1JRMlhBc0NDWWRNQ2xGS0JlV3Rn?oc=5"
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVk91YklyRjVGZEtQM2VoQ2Z3UkdHWkozNVplaWZrb3hiZDJRSzcxZ2p4WXJTWG05M2dNblRQVWNHWWdEcTZuUjNxNHpqanluQW1IQUZTR0tRX0tROHBkU0Ezc2tJT3JqNlh1UXZqLWZlMHREX2V0d2NBSVFnTHNIdEo1UjZFbjJzZXpZYVpWQkRMUUh5Tk5jM25uZw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -521,7 +537,14 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
+          "title": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
+          "date": "2026-08-11T12:44:15+00:00"
+        },
+        {
+          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - foodanddrinktechnology.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
@@ -547,13 +570,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYW0zRndyVjFXTEZ5U1pXeG1NZ0dxNXh0Y2txbEN6RG12RWp2X3QwVWlCM3NNZ2dUN2NZMTB4c2xnVUpXQXQzVDVqejNhSTNwYXNlUmhrMDcxLVRyS3RFMEEzREp6a2ZMa0VqNGlmS1FGalhkaVNHZUM3cUtvTlE2VF95anA0Y0VpT21xN2w3RWllU0lCQkw1Wi1HN012OWtDOGlrZENZcEwxUlZfZXY1R3JaR055Z2hnZ0FfQ2FyX3QwT093alpUZlFDaGpJN2lhRkRYQ0hpTjNhb0MyM3FIdk5Wb1F0YmEzQ2lZSG5HV0U?oc=5",
           "date": "2026-07-16T11:41:25+00:00"
-        },
-        {
-          "title": "EU PPWR Regulation: Full Implementation from August 2026 - A Complete Guide for Cross-Border Businesses - openPR.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
-          "date": "2026-07-15T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -568,12 +584,12 @@
       "signals": [
         {
           "signal": "Functional trending in France",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Protein trending in France",
@@ -616,18 +632,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5",
             "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
           ]
         }
       ],
@@ -646,15 +662,31 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         }
       ]
     },
     "spain": {
       "executive_summary": [
+        {
+          "headline": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "detail": "US lawmakers introduce bill to regulate THC drinks like alcohol Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can frozen serve as the next frontier for functional beverages? - FoodNavigator.com",
+          "detail": "Can frozen serve as the next frontier for functional beverages? FoodNavigator.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Nichols acquires functional drinks business VitHit - Just Drinks",
           "detail": "Nichols acquires functional drinks business VitHit Just Drinks",
@@ -672,26 +704,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Nichols eyes functional drinks growth with £64m purchase of VITHIT - BeverageDaily.com",
-          "detail": "Nichols eyes functional drinks growth with £64m purchase of VITHIT BeverageDaily.com",
+          "headline": "Why the heat is still on for Diageo and CEO Sir Dave Lewis - Just Drinks",
+          "detail": "Why the heat is still on for Diageo and CEO Sir Dave Lewis Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "US Senate approves delay to hemp rules - Just Drinks",
-          "detail": "US Senate approves delay to hemp rules Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmJYZjVNSHpfZjR2TGpRZ0c1Q0NPcW05dldZZDRJVmUyQlpVak9nS0JNbmtuUTBEczFjVTFjY3hZX2VJbVBQYTJCMl9MWVlVdkx1a2d4UlNIRmpHLU00U0JiWlF0Tmx6MTF2UnExSGtyRmxpa0FicXRXRks0RGtTc0xB?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas - Just Drinks",
-          "detail": "Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY045aDZuM1JPZDlReVB3Vm5yTV93SlpMai1yOHFvUmNYU1VXdzAtZGRTamZ3SVN4VTFycnNsa0JneWI5RDg2QWZjc0RQaFVUZFFKcXltbzNDVHJYblI1aGZXQzJ0QVRNTXVuMjBFb0lEZUZmY1JRMlhBc0NDWWRNQ2xGS0JlV3Rn?oc=5"
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVk91YklyRjVGZEtQM2VoQ2Z3UkdHWkozNVplaWZrb3hiZDJRSzcxZ2p4WXJTWG05M2dNblRQVWNHWWdEcTZuUjNxNHpqanluQW1IQUZTR0tRX0tROHBkU0Ezc2tJT3JqNlh1UXZqLWZlMHREX2V0d2NBSVFnTHNIdEo1UjZFbjJzZXpZYVpWQkRMUUh5Tk5jM25uZw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -726,7 +742,14 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
+          "title": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
+          "date": "2026-08-11T12:44:15+00:00"
+        },
+        {
+          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - foodanddrinktechnology.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
@@ -752,13 +775,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYW0zRndyVjFXTEZ5U1pXeG1NZ0dxNXh0Y2txbEN6RG12RWp2X3QwVWlCM3NNZ2dUN2NZMTB4c2xnVUpXQXQzVDVqejNhSTNwYXNlUmhrMDcxLVRyS3RFMEEzREp6a2ZMa0VqNGlmS1FGalhkaVNHZUM3cUtvTlE2VF95anA0Y0VpT21xN2w3RWllU0lCQkw1Wi1HN012OWtDOGlrZENZcEwxUlZfZXY1R3JaR055Z2hnZ0FfQ2FyX3QwT093alpUZlFDaGpJN2lhRkRYQ0hpTjNhb0MyM3FIdk5Wb1F0YmEzQ2lZSG5HV0U?oc=5",
           "date": "2026-07-16T11:41:25+00:00"
-        },
-        {
-          "title": "EU PPWR Regulation: Full Implementation from August 2026 - A Complete Guide for Cross-Border Businesses - openPR.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
-          "date": "2026-07-15T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -773,12 +789,12 @@
       "signals": [
         {
           "signal": "Functional trending in Spain",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Protein trending in Spain",
@@ -821,18 +837,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5",
             "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
           ]
         }
       ],
@@ -851,15 +867,31 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         }
       ]
     },
     "italy": {
       "executive_summary": [
+        {
+          "headline": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "detail": "US lawmakers introduce bill to regulate THC drinks like alcohol Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can frozen serve as the next frontier for functional beverages? - FoodNavigator.com",
+          "detail": "Can frozen serve as the next frontier for functional beverages? FoodNavigator.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Nichols acquires functional drinks business VitHit - Just Drinks",
           "detail": "Nichols acquires functional drinks business VitHit Just Drinks",
@@ -877,26 +909,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Nichols eyes functional drinks growth with £64m purchase of VITHIT - BeverageDaily.com",
-          "detail": "Nichols eyes functional drinks growth with £64m purchase of VITHIT BeverageDaily.com",
+          "headline": "Why the heat is still on for Diageo and CEO Sir Dave Lewis - Just Drinks",
+          "detail": "Why the heat is still on for Diageo and CEO Sir Dave Lewis Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "US Senate approves delay to hemp rules - Just Drinks",
-          "detail": "US Senate approves delay to hemp rules Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmJYZjVNSHpfZjR2TGpRZ0c1Q0NPcW05dldZZDRJVmUyQlpVak9nS0JNbmtuUTBEczFjVTFjY3hZX2VJbVBQYTJCMl9MWVlVdkx1a2d4UlNIRmpHLU00U0JiWlF0Tmx6MTF2UnExSGtyRmxpa0FicXRXRks0RGtTc0xB?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas - Just Drinks",
-          "detail": "Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY045aDZuM1JPZDlReVB3Vm5yTV93SlpMai1yOHFvUmNYU1VXdzAtZGRTamZ3SVN4VTFycnNsa0JneWI5RDg2QWZjc0RQaFVUZFFKcXltbzNDVHJYblI1aGZXQzJ0QVRNTXVuMjBFb0lEZUZmY1JRMlhBc0NDWWRNQ2xGS0JlV3Rn?oc=5"
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVk91YklyRjVGZEtQM2VoQ2Z3UkdHWkozNVplaWZrb3hiZDJRSzcxZ2p4WXJTWG05M2dNblRQVWNHWWdEcTZuUjNxNHpqanluQW1IQUZTR0tRX0tROHBkU0Ezc2tJT3JqNlh1UXZqLWZlMHREX2V0d2NBSVFnTHNIdEo1UjZFbjJzZXpZYVpWQkRMUUh5Tk5jM25uZw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -931,7 +947,14 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
+          "title": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
+          "date": "2026-08-11T12:44:15+00:00"
+        },
+        {
+          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - foodanddrinktechnology.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
@@ -957,13 +980,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYW0zRndyVjFXTEZ5U1pXeG1NZ0dxNXh0Y2txbEN6RG12RWp2X3QwVWlCM3NNZ2dUN2NZMTB4c2xnVUpXQXQzVDVqejNhSTNwYXNlUmhrMDcxLVRyS3RFMEEzREp6a2ZMa0VqNGlmS1FGalhkaVNHZUM3cUtvTlE2VF95anA0Y0VpT21xN2w3RWllU0lCQkw1Wi1HN012OWtDOGlrZENZcEwxUlZfZXY1R3JaR055Z2hnZ0FfQ2FyX3QwT093alpUZlFDaGpJN2lhRkRYQ0hpTjNhb0MyM3FIdk5Wb1F0YmEzQ2lZSG5HV0U?oc=5",
           "date": "2026-07-16T11:41:25+00:00"
-        },
-        {
-          "title": "EU PPWR Regulation: Full Implementation from August 2026 - A Complete Guide for Cross-Border Businesses - openPR.com",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXRxdTNOaDRkdHhwb19ZVGFkaDlvdmVqbWFTRG80TEJPYUtqOEsxdnhIMXM4LTZfN0RjNzYzMTZJRVZNckdoMXdINFBhV1VZLUN3aWluR3p2YUpKeFdJQXVjdzBwSmMwX0JQbXJuckxXZGpqWVN2ZDJ0b21tQWYyV3E0VXhBRWRTUy1DbUVhWkQxN3o3OUE?oc=5",
-          "date": "2026-07-15T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -978,12 +994,12 @@
       "signals": [
         {
           "signal": "Functional trending in Italy",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Protein trending in Italy",
@@ -1026,18 +1042,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5",
             "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
           ]
         }
       ],
@@ -1056,9 +1072,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5",
-            "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5"
+            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
           ]
         }
       ]
@@ -1066,10 +1082,26 @@
     "austria": {
       "executive_summary": [
         {
+          "headline": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "detail": "US lawmakers introduce bill to regulate THC drinks like alcohol Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Einbecker Brauhaus launcht Headbanger Zero.Zero - about-drinks.com",
           "detail": "Einbecker Brauhaus launcht Headbanger Zero.Zero about-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can frozen serve as the next frontier for functional beverages? - FoodNavigator.com",
+          "detail": "Can frozen serve as the next frontier for functional beverages? FoodNavigator.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5"
           ],
           "confidence": "medium"
         },
@@ -1086,22 +1118,6 @@
           "detail": "Functional drinks boom, but can brands prove they actually work? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Nichols eyes functional drinks growth with £64m purchase of VITHIT - BeverageDaily.com",
-          "detail": "Nichols eyes functional drinks growth with £64m purchase of VITHIT BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Erfolgreiches Halbjahr: VDGE zieht positive Zwischenbilanz - about-drinks.com",
-          "detail": "Erfolgreiches Halbjahr: VDGE zieht positive Zwischenbilanz about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGNKdkZoNW5RcWxCR0U0cUtmTXpTY0luZ2dSZXZ4ZXVtN21nUlhxUzdQUVZ1SDBzYW9yZWFyVENQM21menYtTHlraWxSajdzakRHYV83UTU5dHFKcVpoaUdvU2xOOGFBR3lnT1NjWFZrdDBZaHBsUkw4UWxJS29lUkVFTEp2eEJTQ2FpdWNBQjM?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1136,6 +1152,13 @@
       ],
       "regulatory_watch": [
         {
+          "title": "US lawmakers introduce bill to regulate THC drinks like alcohol - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
+          "date": "2026-08-11T12:44:15+00:00"
+        },
+        {
           "title": "Einbecker Brauhaus launcht Headbanger Zero.Zero - about-drinks.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1143,7 +1166,7 @@
           "date": "2026-08-09T20:01:47+00:00"
         },
         {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
+          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - foodanddrinktechnology.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
@@ -1162,13 +1185,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDNUSm9HZzZPZ0pqWXJPUFpDdEtpWXktZnFJdnNZMVBrOUNVLU5zXzhicUVldGxLWklpQm45OEltaVZ2TUVzamh1UmZKbW1Xb0tXWGdCcmtnb3lpVDJxTW9oU3l5WnAxOTM5Y2dvWWhwS1NQNm5ZdjIzSFR0aEZ3emZzLW41QnJadlFzR24wS0dGZU9zcV9wYmRnUXRNM21NaGZyVXo3YmNUNVJVQ2FBY1Bta2dLZ1R6Y00zS1pIalZ6d2sxcmRtT0t0VkxvRWZDTEFEQ3FuYw?oc=5",
           "date": "2026-08-03T14:42:17+00:00"
-        },
-        {
-          "title": "PPWR unpacked: What the EU Packaging and Packaging Waste Regulation means for business and how to prepare - Carbon Trust",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYW0zRndyVjFXTEZ5U1pXeG1NZ0dxNXh0Y2txbEN6RG12RWp2X3QwVWlCM3NNZ2dUN2NZMTB4c2xnVUpXQXQzVDVqejNhSTNwYXNlUmhrMDcxLVRyS3RFMEEzREp6a2ZMa0VqNGlmS1FGalhkaVNHZUM3cUtvTlE2VF95anA0Y0VpT21xN2w3RWllU0lCQkw1Wi1HN012OWtDOGlrZENZcEwxUlZfZXY1R3JaR055Z2hnZ0FfQ2FyX3QwT093alpUZlFDaGpJN2lhRkRYQ0hpTjNhb0MyM3FIdk5Wb1F0YmEzQ2lZSG5HV0U?oc=5",
-          "date": "2026-07-16T11:41:25+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1183,12 +1199,21 @@
       "signals": [
         {
           "signal": "Functional trending in Austria",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "medium"
+          "confidence": "high"
+        },
+        {
+          "signal": "Organic trending in Austria",
+          "explanation": "1 articles mention organic in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "organic"
+          ],
+          "confidence": "low"
         },
         {
           "signal": "Protein trending in Austria",
@@ -1231,18 +1256,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE9MdmRrWnM0WUM1NDAtQTdEdWp4Z1FKdURHMnNpWTBfRHNodVBxRl9TaU1pZTFuemhiU2F6VEozWjQ4azlDM0V2bURLOWF6V3IxTDEzdFBGVjZGVVFrakVFTTgwWk8tS1lFMHNwUW51M3Vkcy0tYURGZDBZM0tyX2hXRE5pdW5Ya1hSMWtRUzFmSGo2OHduMFY1RENQeGtYQmhhYXU0N3dJemxlMVNWN2U3X0JOdGs?oc=5",
             "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1VoMGxoQS1FLUM4LWNVMFhETU05VG42TWh3SXJXcjZEOEdJMU5rV2dQTjBQTEJTVFVvdEthb2Nvd0hEVjRzcXByMFJoYXRKanJaMVRmTmVSd1FMRld1VnNGVFNBUms3UDFWbjZzdk84TnlWOEcwTlc1LXdNV284RnhTVzU?oc=5",
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjNfeWtISG05OHdSY21hQU1KRUQwOXhpTW9RaWZiNE9tSXRnNHlkaGFuVHF2MGZmdFo0ajVqOWdTaWJXbVBsaVFocFlaTUFCSUFUOFAyWHgxVGs0cElobXVxQUtMRjl6dkdDMnZHUUg4MGg5a0pRRllwczJRVTAwdldDcklORVFOYkdNd1RoMEtkSDFNZ0VvVllveVJ5cUlLY1MyLV9SV3Q3WDRSRlNOUmRYOVliUQ?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUtOTDZ5R0lXbmpjWk5YekZpWVFNQVZaSm9nMjFLZ1M3clZHZWg3cm8tTm9VNzl2cEZ5WDlBbEgyeHlabzdRYzlQN3BNcUpwZFFPTGdJVTdaWkhZV2Rlb1hYWm90b0htX3hhX253UVZiZ21KTkZVM2t0LVhtOU1YSzZVZUVtYm9WbTVldV9tNUpzTElnYmx3WVE2Ny12VTAwM1A4UA?oc=5"
           ]
         }
       ],
@@ -1261,9 +1286,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYUJnbkNZTVBKSDVYM0dnUVdxcHZmQXl4UE8yQXp3ZzlxSmc5LWVheWN3UlpLUTROY1dmYjhpZHlseUVQSUNtT004ODhyWXZKR0RkRjRXZE1BV0FNajVmbDVwbkhtMVd6S0Vnb1NNcWI?oc=5",
             "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
           ]
         }
       ]
