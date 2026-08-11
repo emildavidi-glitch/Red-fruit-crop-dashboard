@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-08-10T14:18:43.079481+00:00",
+  "generated_at": "2026-08-11T05:50:16.430655+00:00",
   "regions": {
     "usa": {
       "status": "ok",
       "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-08-10T12:37:47+00:00",
+      "sources_ok": 14,
+      "sources_failed": 1,
+      "last_item_date": "2026-08-10T20:39:41+00:00",
       "notes": []
     },
     "germany": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-08-10T12:37:47+00:00",
+      "items": 42,
+      "sources_ok": 14,
+      "sources_failed": 1,
+      "last_item_date": "2026-08-10T17:58:46+00:00",
       "notes": []
     },
     "france": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-08-10T12:37:47+00:00",
+      "items": 28,
+      "sources_ok": 14,
+      "sources_failed": 1,
+      "last_item_date": "2026-08-10T17:58:46+00:00",
       "notes": []
     },
     "spain": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-08-10T12:37:47+00:00",
+      "items": 28,
+      "sources_ok": 14,
+      "sources_failed": 1,
+      "last_item_date": "2026-08-10T17:58:46+00:00",
       "notes": []
     },
     "italy": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-08-10T12:37:47+00:00",
+      "items": 28,
+      "sources_ok": 14,
+      "sources_failed": 1,
+      "last_item_date": "2026-08-10T17:58:46+00:00",
       "notes": []
     },
     "austria": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 15,
-      "sources_failed": 0,
-      "last_item_date": "2026-08-10T12:37:47+00:00",
+      "items": 38,
+      "sources_ok": 14,
+      "sources_failed": 1,
+      "last_item_date": "2026-08-10T17:58:46+00:00",
       "notes": []
     }
   },
   "global": {
-    "total_items": 300,
-    "total_sources_ok": 15,
-    "total_sources_failed": 0
+    "total_items": 214,
+    "total_sources_ok": 14,
+    "total_sources_failed": 1
   }
 }

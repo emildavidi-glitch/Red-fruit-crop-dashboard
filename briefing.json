@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-10T14:18:43.079481+00:00",
-  "generated_date": "Monday, 10 August 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Treasury Wine Estates reveals plan to improve \"returns\" in under pressure Americas - Just Drinks.",
+  "generated_at": "2026-08-11T05:50:16.430655+00:00",
+  "generated_date": "Tuesday, 11 August 2026",
+  "briefing": "Sales intelligence tracked 214 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; functional beverages gaining momentum. Latest: Another New Bill to Regulate Legal Hemp Beverages Goes to Capitol Hill - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Functional trending. (42 items)",
+    "france": "Functional trending. (28 items)",
+    "spain": "Functional trending. (28 items)",
+    "italy": "Functional trending. (28 items)",
+    "austria": "Functional trending. (38 items)"
   },
   "meta": {
-    "total_articles_analyzed": 300,
+    "total_articles_analyzed": 214,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 161,
-      "regulatory": 44,
-      "launch": 24,
-      "pricing": 23,
-      "competitor": 19,
-      "functional": 18,
-      "innovation": 16,
-      "supply_chain": 12,
-      "premium": 8,
-      "rtd": 8
+      "trend": 126,
+      "regulatory": 30,
+      "functional": 26,
+      "innovation": 19,
+      "launch": 18,
+      "competitor": 7,
+      "pricing": 7,
+      "energy": 7,
+      "protein": 7,
+      "juice": 7
     }
   }
 }
