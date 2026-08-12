@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-12T06:08:54.303438+00:00",
+  "generated_at": "2026-08-12T14:19:00.241175+00:00",
   "generated_date": "Wednesday, 12 August 2026",
-  "briefing": "Sales intelligence tracked 229 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; functional beverages gaining momentum. Latest: Olipop unveils new leadership to support next growth phase - BeverageDaily.com.",
+  "briefing": "Sales intelligence tracked 242 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; regulatory changes reshaping strategies. Latest: Suntory factory in Japan damaged by earthquake - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (43 items)",
-    "france": "Functional trending. (32 items)",
-    "spain": "Functional trending. (32 items)",
-    "italy": "Functional trending. (32 items)",
-    "austria": "Functional trending. (40 items)"
+    "germany": "Functional trending. (48 items)",
+    "france": "Functional trending. (33 items)",
+    "spain": "Functional trending. (33 items)",
+    "italy": "Functional trending. (33 items)",
+    "austria": "Functional trending. (45 items)"
   },
   "meta": {
-    "total_articles_analyzed": 229,
+    "total_articles_analyzed": 242,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 125,
-      "regulatory": 33,
-      "functional": 33,
-      "launch": 24,
-      "innovation": 20,
+      "trend": 147,
+      "functional": 32,
+      "regulatory": 27,
+      "innovation": 25,
+      "launch": 18,
       "supply_chain": 12,
       "juice": 8,
-      "competitor": 7,
-      "pricing": 7,
-      "protein": 7
+      "energy": 7,
+      "protein": 7,
+      "competitor": 6
     }
   }
 }
