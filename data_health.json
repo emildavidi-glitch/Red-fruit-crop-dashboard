@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T06:08:43.359237+00:00",
+  "generated_at": "2026-08-14T14:14:21.659301+00:00",
   "regions": {
     "usa": {
       "status": "ok",
       "items": 50,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-08-13T22:13:13+00:00",
+      "last_item_date": "2026-08-14T13:25:35+00:00",
       "notes": []
     },
     "germany": {
@@ -14,44 +14,44 @@
       "items": 50,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-08-13T19:13:33+00:00",
+      "last_item_date": "2026-08-14T13:25:35+00:00",
       "notes": []
     },
     "france": {
       "status": "ok",
-      "items": 33,
+      "items": 36,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-08-13T19:13:33+00:00",
+      "last_item_date": "2026-08-14T13:29:58+00:00",
       "notes": []
     },
     "spain": {
       "status": "ok",
-      "items": 33,
+      "items": 35,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-08-13T19:13:33+00:00",
+      "last_item_date": "2026-08-14T13:25:35+00:00",
       "notes": []
     },
     "italy": {
       "status": "ok",
-      "items": 33,
+      "items": 35,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-08-13T19:13:33+00:00",
+      "last_item_date": "2026-08-14T13:25:35+00:00",
       "notes": []
     },
     "austria": {
       "status": "ok",
-      "items": 49,
+      "items": 50,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-08-13T19:13:33+00:00",
+      "last_item_date": "2026-08-14T13:25:35+00:00",
       "notes": []
     }
   },
   "global": {
-    "total_items": 248,
+    "total_items": 256,
     "total_sources_ok": 14,
     "total_sources_failed": 1
   }
