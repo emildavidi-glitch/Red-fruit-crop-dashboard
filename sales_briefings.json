@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:19:24.762080+00:00",
+  "generated_at": "2026-08-15T13:28:02.526510+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -120,7 +120,15 @@
           "date": "2026-07-22T07:00:00+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Functional trending in United States",
@@ -142,12 +150,21 @@
         },
         {
           "signal": "Protein trending in United States",
-          "explanation": "1 articles mention protein in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention protein in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "protein"
           ],
-          "confidence": "low"
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in United States",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
+          ],
+          "confidence": "medium"
         },
         {
           "signal": "Sugar Free trending in United States",
@@ -155,15 +172,6 @@
           "support_count": 1,
           "top_keywords": [
             "sugar_free"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in United States",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -255,10 +263,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Anora nears deal to distribute Bacardi in Sweden, Norway - Just Drinks",
-          "detail": "Anora nears deal to distribute Bacardi in Sweden, Norway Just Drinks",
+          "headline": "Olipop unveils new leadership to support next growth phase - BeverageDaily.com",
+          "detail": "Olipop unveils new leadership to support next growth phase BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TYkk0YnZNR0dCV2tBMDNnejRUV1ROX0dsMWdiaXN3Vm1uVXZ5aWEwWW9KNW4zcmEtcmRtRlVONGpkZkdSMDJqNTROTnlxU0hLc1V5SXNkTlZVeDF2d2tCdy0zUXVOS0ZWRUZGcjBxN1F0NEx4R2JaRDJDbE5ETHc?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeDhiR2pUdkJLdm5GQnpqVFlSSjdnNlpZYXgxQzhzS1hzWll5V3Y5WjRwUGhzWHIxYVA1ckQzTkU0ODVIdHRQU3ZFSUxSNktrUGpjUDE4SmZBSUV3RkdRSFp3SDA2aVJrLVEzdGh1NkY3UGg2aGRhSzNIUkZHQnA5eXcwZTJkT0tCY253UHEzbVB1UXRMRlk1LVpubWkzcldIOFJKRHBJazBjcy1ycUlZcHhZN3R0VmxDeVdzUk1fR3EwQnRiWUM3ZUx3ODRueWlDSnBGMA?oc=5"
           ],
           "confidence": "medium"
         }
@@ -306,6 +314,13 @@
           "date": "2026-08-12T09:14:25+00:00"
         },
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-08-05T07:00:00+00:00"
+        },
+        {
           "title": "Australian drinks associations push for excise reform after major tax increase - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -313,7 +328,15 @@
           "date": "2026-08-04T15:56:12+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Functional trending in Germany",
@@ -321,6 +344,15 @@
           "support_count": 3,
           "top_keywords": [
             "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Germany",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -334,11 +366,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Juice trending in Germany",
-          "explanation": "1 articles mention juice in the last 28 days",
+          "signal": "Protein trending in Germany",
+          "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "juice"
+            "protein"
           ],
           "confidence": "low"
         }
@@ -359,7 +391,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         },
         {
@@ -390,7 +422,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         }
       ]
@@ -481,6 +513,13 @@
           "date": "2026-08-12T09:14:25+00:00"
         },
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-08-05T07:00:00+00:00"
+        },
+        {
           "title": "Australian drinks associations push for excise reform after major tax increase - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -488,7 +527,15 @@
           "date": "2026-08-04T15:56:12+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Functional trending in France",
@@ -501,10 +548,19 @@
         },
         {
           "signal": "Juice trending in France",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Protein trending in France",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "protein"
           ],
           "confidence": "low"
         }
@@ -525,7 +581,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         },
         {
@@ -556,7 +612,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         }
       ]
@@ -596,10 +652,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Anora nears deal to distribute Bacardi in Sweden, Norway - Just Drinks",
-          "detail": "Anora nears deal to distribute Bacardi in Sweden, Norway Just Drinks",
+          "headline": "Olipop unveils new leadership to support next growth phase - BeverageDaily.com",
+          "detail": "Olipop unveils new leadership to support next growth phase BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TYkk0YnZNR0dCV2tBMDNnejRUV1ROX0dsMWdiaXN3Vm1uVXZ5aWEwWW9KNW4zcmEtcmRtRlVONGpkZkdSMDJqNTROTnlxU0hLc1V5SXNkTlZVeDF2d2tCdy0zUXVOS0ZWRUZGcjBxN1F0NEx4R2JaRDJDbE5ETHc?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeDhiR2pUdkJLdm5GQnpqVFlSSjdnNlpZYXgxQzhzS1hzWll5V3Y5WjRwUGhzWHIxYVA1ckQzTkU0ODVIdHRQU3ZFSUxSNktrUGpjUDE4SmZBSUV3RkdRSFp3SDA2aVJrLVEzdGh1NkY3UGg2aGRhSzNIUkZHQnA5eXcwZTJkT0tCY253UHEzbVB1UXRMRlk1LVpubWkzcldIOFJKRHBJazBjcy1ycUlZcHhZN3R0VmxDeVdzUk1fR3EwQnRiWUM3ZUx3ODRueWlDSnBGMA?oc=5"
           ],
           "confidence": "medium"
         }
@@ -647,6 +703,13 @@
           "date": "2026-08-12T09:14:25+00:00"
         },
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-08-05T07:00:00+00:00"
+        },
+        {
           "title": "Australian drinks associations push for excise reform after major tax increase - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -654,7 +717,15 @@
           "date": "2026-08-04T15:56:12+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Functional trending in Spain",
@@ -667,10 +738,19 @@
         },
         {
           "signal": "Juice trending in Spain",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Protein trending in Spain",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "protein"
           ],
           "confidence": "low"
         }
@@ -691,7 +771,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         },
         {
@@ -722,7 +802,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         }
       ]
@@ -762,10 +842,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Anora nears deal to distribute Bacardi in Sweden, Norway - Just Drinks",
-          "detail": "Anora nears deal to distribute Bacardi in Sweden, Norway Just Drinks",
+          "headline": "Olipop unveils new leadership to support next growth phase - BeverageDaily.com",
+          "detail": "Olipop unveils new leadership to support next growth phase BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TYkk0YnZNR0dCV2tBMDNnejRUV1ROX0dsMWdiaXN3Vm1uVXZ5aWEwWW9KNW4zcmEtcmRtRlVONGpkZkdSMDJqNTROTnlxU0hLc1V5SXNkTlZVeDF2d2tCdy0zUXVOS0ZWRUZGcjBxN1F0NEx4R2JaRDJDbE5ETHc?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeDhiR2pUdkJLdm5GQnpqVFlSSjdnNlpZYXgxQzhzS1hzWll5V3Y5WjRwUGhzWHIxYVA1ckQzTkU0ODVIdHRQU3ZFSUxSNktrUGpjUDE4SmZBSUV3RkdRSFp3SDA2aVJrLVEzdGh1NkY3UGg2aGRhSzNIUkZHQnA5eXcwZTJkT0tCY253UHEzbVB1UXRMRlk1LVpubWkzcldIOFJKRHBJazBjcy1ycUlZcHhZN3R0VmxDeVdzUk1fR3EwQnRiWUM3ZUx3ODRueWlDSnBGMA?oc=5"
           ],
           "confidence": "medium"
         }
@@ -813,6 +893,13 @@
           "date": "2026-08-12T09:14:25+00:00"
         },
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-08-05T07:00:00+00:00"
+        },
+        {
           "title": "Australian drinks associations push for excise reform after major tax increase - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -820,7 +907,15 @@
           "date": "2026-08-04T15:56:12+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Functional trending in Italy",
@@ -833,10 +928,19 @@
         },
         {
           "signal": "Juice trending in Italy",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "juice"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Protein trending in Italy",
+          "explanation": "1 articles mention protein in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "protein"
           ],
           "confidence": "low"
         }
@@ -857,7 +961,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         },
         {
@@ -888,7 +992,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         }
       ]
@@ -928,10 +1032,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Anora nears deal to distribute Bacardi in Sweden, Norway - Just Drinks",
-          "detail": "Anora nears deal to distribute Bacardi in Sweden, Norway Just Drinks",
+          "headline": "Olipop unveils new leadership to support next growth phase - BeverageDaily.com",
+          "detail": "Olipop unveils new leadership to support next growth phase BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TYkk0YnZNR0dCV2tBMDNnejRUV1ROX0dsMWdiaXN3Vm1uVXZ5aWEwWW9KNW4zcmEtcmRtRlVONGpkZkdSMDJqNTROTnlxU0hLc1V5SXNkTlZVeDF2d2tCdy0zUXVOS0ZWRUZGcjBxN1F0NEx4R2JaRDJDbE5ETHc?oc=5"
+            "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeDhiR2pUdkJLdm5GQnpqVFlSSjdnNlpZYXgxQzhzS1hzWll5V3Y5WjRwUGhzWHIxYVA1ckQzTkU0ODVIdHRQU3ZFSUxSNktrUGpjUDE4SmZBSUV3RkdRSFp3SDA2aVJrLVEzdGh1NkY3UGg2aGRhSzNIUkZHQnA5eXcwZTJkT0tCY253UHEzbVB1UXRMRlk1LVpubWkzcldIOFJKRHBJazBjcy1ycUlZcHhZN3R0VmxDeVdzUk1fR3EwQnRiWUM3ZUx3ODRueWlDSnBGMA?oc=5"
           ],
           "confidence": "medium"
         }
@@ -979,6 +1083,13 @@
           "date": "2026-08-12T09:14:25+00:00"
         },
         {
+          "title": "EU Packaging and Packaging Waste Regulation (PPWR) - ChemLinked",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5",
+          "date": "2026-08-05T07:00:00+00:00"
+        },
+        {
           "title": "Australian drinks associations push for excise reform after major tax increase - BeverageDaily.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -986,7 +1097,15 @@
           "date": "2026-08-04T15:56:12+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "How might threat of ‘super’ El Niño impact coffee prices? - Just Drinks",
+          "what_changed": "How might threat of ‘super’ El Niño impact coffee prices? Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlBzU0d2bm9vNTdZbXlDNlZWNXp4X192Vk9IN2xZWFptNG5IaHZsZUVsMWpBcHJEcWdEMDF0d2kwRncxWkpvTDVSbmMtRUpqandZel9YQThXSnpxQ19sQmxfb2xOV3pub20tMVc5eG1LZTFxV1BBMVJyOTVYZUh0Y3c3eWgzck9HTzVDMTdFbDhwWFZRTU5n?oc=5",
+          "date": "2026-07-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Functional trending in Austria",
@@ -994,6 +1113,15 @@
           "support_count": 3,
           "top_keywords": [
             "functional"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Juice trending in Austria",
+          "explanation": "2 articles mention juice in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "juice"
           ],
           "confidence": "medium"
         },
@@ -1007,11 +1135,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Juice trending in Austria",
-          "explanation": "1 articles mention juice in the last 28 days",
+          "signal": "Protein trending in Austria",
+          "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "juice"
+            "protein"
           ],
           "confidence": "low"
         }
@@ -1032,7 +1160,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         },
         {
@@ -1063,7 +1191,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kTXF4RjNjaFlScnlvOEhYeGxTV254aVkwU3VPTmFvQnpfemk4Rk5EWmFCRjVQRXh0YmhYWUdVQl9VckNDT254MVl1Nnd3WFYzdDJJbVNUdnFwOXV6SkxMSE9ORjM0QkFJMUZyRTNCMllwVGF4Q2txdjNYWnU?oc=5",
             "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNVekJiNF9kLUMwSDhyZjkweWZCN1NvbjFueVQ3eGllWFhqU2JIZzNpUW9hY1hXX2VEdU1rSVhraFFPUnYyaWpabUdldTdtWVAwcXp5NlBnYzlEbFo4RWJKblg3cEdaY2puRV9yclN6dzhMTWlSVlpHem5XNzZ4bnF4YUVmenFWTnA5Qi1WRUZXUVhTQ3FjVkYyeV80Y2ZMU3lWTXA0NWloREFxUEt1WQ?oc=5",
-            "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbU1qaEVtdHoxOS1rWTFPaURVM1ozYnpWMl9rUGRaSjN5ZGx4djNWUlNZZ25zTWF5NFBVbHVlaEpoWkN4OFpBX0s4WGw3cW5qc0Ywd1lqNEdWSTVZelVOa0xHU1N3ZzBZNWV1Wm10dGt6c2U3WWxfN2lfWl9wVDZtcS0wQzRhall3eHZGQTE3VUtmRkl0VTNpdGRZZUF5cXc2ZldCcGQ0MHRSekxTam1YakVRM2UzWVNRTDl3SVF4UTJyd29NQm9V?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk45MHdtcWx6WG1hVG9pQ0MtblFCeUg5N0VxRFBERVpPbXNRSDl5RlgxZE9yaXNDVDl6QjFZajZwUWpSTWN0SzNHVmtZNFNPcmd6eXBOaTdhUU5KYU9TdklJV3UtelBXLWZWLVdQUWVpUFdyVE94R0RtaDVFVXRzeXVuVHF0ZlJWWWhpdWJTVFQzODVBMUxULXhZczYwdw?oc=5"
           ]
         }
       ]

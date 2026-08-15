@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-15T05:19:24.762080+00:00",
+  "generated_at": "2026-08-15T13:28:02.526510+00:00",
   "generated_date": "Saturday, 15 August 2026",
-  "briefing": "Sales intelligence tracked 221 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Right Coast Brands - General Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "briefing": "Sales intelligence tracked 229 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: Right Coast Brands - General Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (47 items)",
-    "france": "Functional trending. (27 items)",
-    "spain": "Functional trending. (26 items)",
-    "italy": "Functional trending. (26 items)",
-    "austria": "Functional trending. (45 items)"
+    "usa": "Functional trending. (47 items)",
+    "germany": "Functional trending. (48 items)",
+    "france": "Functional trending. (30 items)",
+    "spain": "Functional trending. (29 items)",
+    "italy": "Functional trending. (29 items)",
+    "austria": "Functional trending. (46 items)"
   },
   "meta": {
-    "total_articles_analyzed": 221,
+    "total_articles_analyzed": 229,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 143,
+      "trend": 142,
       "innovation": 27,
+      "regulatory": 23,
       "launch": 23,
       "functional": 22,
-      "regulatory": 18,
+      "juice": 12,
+      "protein": 7,
       "supply_chain": 6,
-      "juice": 6,
-      "carbonated": 4,
-      "macro": 3,
-      "premium": 2
+      "pricing": 6,
+      "carbonated": 4
     }
   }
 }
