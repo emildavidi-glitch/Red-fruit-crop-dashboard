@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-14T14:14:21.659301+00:00",
-  "generated_date": "Friday, 14 August 2026",
-  "briefing": "Sales intelligence tracked 256 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: French distiller Les Bienheureux nears Campari rum brands deal - Just Drinks.",
+  "generated_at": "2026-08-15T05:19:24.762080+00:00",
+  "generated_date": "Saturday, 15 August 2026",
+  "briefing": "Sales intelligence tracked 221 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Right Coast Brands - General Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (36 items)",
-    "spain": "Functional trending. (35 items)",
-    "italy": "Functional trending. (35 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Functional trending. (47 items)",
+    "france": "Functional trending. (27 items)",
+    "spain": "Functional trending. (26 items)",
+    "italy": "Functional trending. (26 items)",
+    "austria": "Functional trending. (45 items)"
   },
   "meta": {
-    "total_articles_analyzed": 256,
+    "total_articles_analyzed": 221,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 32,
-      "functional": 29,
-      "innovation": 24,
-      "regulatory": 19,
-      "supply_chain": 12,
-      "juice": 10,
-      "competitor": 8,
-      "protein": 6,
-      "energy": 5
+      "trend": 143,
+      "innovation": 27,
+      "launch": 23,
+      "functional": 22,
+      "regulatory": 18,
+      "supply_chain": 6,
+      "juice": 6,
+      "carbonated": 4,
+      "macro": 3,
+      "premium": 2
     }
   }
 }
