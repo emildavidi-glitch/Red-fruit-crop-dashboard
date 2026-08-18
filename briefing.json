@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-18T05:22:50.944630+00:00",
+  "generated_at": "2026-08-18T13:40:05.795556+00:00",
   "generated_date": "Tuesday, 18 August 2026",
-  "briefing": "Sales intelligence tracked 247 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; functional beverages gaining momentum. Latest: Diageo questions Kenya regulator demand over EABL sale - Just Drinks.",
+  "briefing": "Sales intelligence tracked 255 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; competitor trending. Latest: Diageo complies with India regulator following rebuke over flavouring - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (33 items)",
-    "spain": "Functional trending. (33 items)",
-    "italy": "Functional trending. (33 items)",
-    "austria": "Functional trending. (48 items)"
+    "france": "Functional trending. (35 items)",
+    "spain": "Functional trending. (35 items)",
+    "italy": "Functional trending. (35 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 247,
+    "total_articles_analyzed": 255,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 121,
-      "regulatory": 47,
-      "functional": 25,
-      "innovation": 24,
-      "competitor": 19,
+      "trend": 131,
+      "regulatory": 45,
+      "competitor": 25,
+      "functional": 22,
+      "innovation": 19,
       "supply_chain": 15,
-      "launch": 13,
-      "protein": 7,
-      "juice": 6,
-      "energy": 6
+      "launch": 14,
+      "protein": 5,
+      "juice": 4,
+      "energy": 4
     }
   }
 }
