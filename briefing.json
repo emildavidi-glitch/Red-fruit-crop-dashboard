@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-19T05:23:22.516331+00:00",
+  "generated_at": "2026-08-19T13:41:57.744880+00:00",
   "generated_date": "Wednesday, 19 August 2026",
-  "briefing": "Sales intelligence tracked 236 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; competitor trending. Latest: Food & Beverage Veteran Debbie Wildrick Launches “The 10 Pillars of Business Success” Online Worksho.",
+  "briefing": "Sales intelligence tracked 243 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; competitor trending. Latest: Briefs: Topo Chico. Sparkling Water Results. Hemp Ban Update. EPR Lawsuit. Gras Rule Published - Bev.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (29 items)",
-    "spain": "Functional trending. (29 items)",
-    "italy": "Functional trending. (29 items)",
-    "austria": "Functional trending. (49 items)"
+    "france": "Functional trending. (31 items)",
+    "spain": "Functional trending. (31 items)",
+    "italy": "Functional trending. (31 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 236,
+    "total_articles_analyzed": 243,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 108,
-      "regulatory": 37,
+      "trend": 123,
+      "regulatory": 36,
       "competitor": 27,
-      "innovation": 23,
-      "launch": 21,
-      "functional": 19,
-      "supply_chain": 13,
-      "protein": 7,
-      "juice": 6,
-      "energy": 6
+      "functional": 22,
+      "innovation": 20,
+      "launch": 19,
+      "supply_chain": 14,
+      "protein": 5,
+      "juice": 5,
+      "rtd": 4
     }
   }
 }
