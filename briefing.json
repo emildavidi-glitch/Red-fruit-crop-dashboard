@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-20T05:24:12.190128+00:00",
+  "generated_at": "2026-08-20T13:43:25.772480+00:00",
   "generated_date": "Thursday, 20 August 2026",
-  "briefing": "Sales intelligence tracked 240 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; competitor trending. Latest: View Media | 48737 | Photo of 10MG Black Market THC Beverage - Black Market (uploaded by company) - .",
+  "briefing": "Sales intelligence tracked 249 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; competitor trending. Latest: DLG: Warsteiner Alkoholfrei 0,0% ist „Bestes alkoholfreies Bier“ - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (30 items)",
-    "spain": "Functional trending. (30 items)",
-    "italy": "Functional trending. (30 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Functional trending. (33 items)",
+    "spain": "Functional trending. (33 items)",
+    "italy": "Functional trending. (33 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 240,
+    "total_articles_analyzed": 249,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 105,
-      "regulatory": 45,
-      "competitor": 27,
-      "launch": 21,
+      "trend": 117,
+      "regulatory": 40,
+      "competitor": 33,
+      "launch": 24,
       "supply_chain": 19,
-      "functional": 17,
-      "innovation": 16,
+      "functional": 10,
+      "innovation": 10,
       "rtd": 5,
-      "protein": 5,
-      "juice": 5
+      "carbonated": 4,
+      "sugar_free": 4
     }
   }
 }
