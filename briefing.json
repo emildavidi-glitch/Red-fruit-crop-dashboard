@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-21T05:26:40.490267+00:00",
+  "generated_at": "2026-08-21T13:42:48.714737+00:00",
   "generated_date": "Friday, 21 August 2026",
-  "briefing": "Sales intelligence tracked 222 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Cerebral Brewing - Packaging Specialist - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: New Holland Brewing Co. LLC - Brewery Operator - 3rd Shift - BevNET.com Beverage Industry Job Listin.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Protein trending. (24 items)",
-    "spain": "Protein trending. (24 items)",
-    "italy": "Protein trending. (24 items)",
-    "austria": "Rtd trending. (50 items)"
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Protein trending. (25 items)",
+    "spain": "Protein trending. (25 items)",
+    "italy": "Protein trending. (25 items)",
+    "austria": "Juice trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 222,
+    "total_articles_analyzed": 225,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 107,
-      "launch": 33,
-      "competitor": 20,
-      "regulatory": 18,
+      "trend": 108,
+      "launch": 39,
+      "regulatory": 23,
       "innovation": 16,
       "supply_chain": 15,
+      "competitor": 14,
       "rtd": 11,
-      "macro": 8,
-      "carbonated": 5,
-      "protein": 5
+      "macro": 9,
+      "juice": 8,
+      "energy": 5
     }
   }
 }
