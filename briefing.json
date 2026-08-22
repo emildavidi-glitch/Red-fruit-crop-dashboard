@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-21T13:42:48.714737+00:00",
-  "generated_date": "Friday, 21 August 2026",
-  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: New Holland Brewing Co. LLC - Brewery Operator - 3rd Shift - BevNET.com Beverage Industry Job Listin.",
+  "generated_at": "2026-08-22T05:21:11.127395+00:00",
+  "generated_date": "Saturday, 22 August 2026",
+  "briefing": "Sales intelligence tracked 234 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Teilnahmebedingungen und Datenschutzhinweise für das Gewinnspiel „Aperol x SUPERBLOOM“ - about-drink.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
-    "france": "Protein trending. (25 items)",
-    "spain": "Protein trending. (25 items)",
-    "italy": "Protein trending. (25 items)",
+    "france": "Protein trending. (28 items)",
+    "spain": "Protein trending. (28 items)",
+    "italy": "Protein trending. (28 items)",
     "austria": "Juice trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 225,
+    "total_articles_analyzed": 234,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 108,
-      "launch": 39,
-      "regulatory": 23,
-      "innovation": 16,
+      "trend": 110,
+      "launch": 34,
+      "competitor": 25,
+      "regulatory": 22,
+      "innovation": 17,
       "supply_chain": 15,
-      "competitor": 14,
-      "rtd": 11,
       "macro": 9,
       "juice": 8,
-      "energy": 5
+      "rtd": 7,
+      "protein": 5
     }
   }
 }
