@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-22T05:21:11.127395+00:00",
+  "generated_at": "2026-08-22T13:29:44.079138+00:00",
   "generated_date": "Saturday, 22 August 2026",
-  "briefing": "Sales intelligence tracked 234 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Teilnahmebedingungen und Datenschutzhinweise für das Gewinnspiel „Aperol x SUPERBLOOM“ - about-drink.",
+  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; competitor trending. Latest: Teilnahmebedingungen und Datenschutzhinweise für das Gewinnspiel „Aperol x SUPERBLOOM“ - about-drink.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Sugar Free trending. (50 items)",
-    "france": "Protein trending. (28 items)",
-    "spain": "Protein trending. (28 items)",
-    "italy": "Protein trending. (28 items)",
-    "austria": "Juice trending. (50 items)"
+    "france": "Energy trending. (26 items)",
+    "spain": "Energy trending. (26 items)",
+    "italy": "Energy trending. (26 items)",
+    "austria": "Sugar Free trending. (47 items)"
   },
   "meta": {
-    "total_articles_analyzed": 234,
+    "total_articles_analyzed": 225,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 110,
-      "launch": 34,
+      "trend": 101,
+      "launch": 35,
       "competitor": 25,
-      "regulatory": 22,
-      "innovation": 17,
-      "supply_chain": 15,
-      "macro": 9,
-      "juice": 8,
-      "rtd": 7,
-      "protein": 5
+      "regulatory": 23,
+      "innovation": 18,
+      "supply_chain": 13,
+      "rtd": 9,
+      "macro": 8,
+      "energy": 6,
+      "functional": 5
     }
   }
 }
