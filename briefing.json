@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-23T05:23:24.213609+00:00",
+  "generated_at": "2026-08-23T13:29:55.551461+00:00",
   "generated_date": "Sunday, 23 August 2026",
-  "briefing": "Sales intelligence tracked 172 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Teilnahmebedingungen und Datenschutzhinweise für das Gewinnspiel „Aperol x SUPERBLOOM“ - about-drink.",
+  "briefing": "Sales intelligence tracked 140 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Kick Fizz Hemp Beverages Now Available Across Texas - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (46 items)",
-    "germany": "Sugar Free trending. (38 items)",
-    "france": "Rtd trending. (18 items)",
-    "spain": "Rtd trending. (18 items)",
-    "italy": "Rtd trending. (18 items)",
-    "austria": "Sugar Free trending. (34 items)"
+    "usa": "Rtd trending. (39 items)",
+    "germany": "Sugar Free trending. (31 items)",
+    "france": "Rtd trending. (14 items)",
+    "spain": "Rtd trending. (14 items)",
+    "italy": "Rtd trending. (14 items)",
+    "austria": "Sugar Free trending. (28 items)"
   },
   "meta": {
-    "total_articles_analyzed": 172,
+    "total_articles_analyzed": 140,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 86,
-      "launch": 29,
+      "trend": 62,
+      "launch": 23,
       "innovation": 20,
-      "regulatory": 18,
-      "rtd": 9,
-      "macro": 8,
-      "competitor": 7,
+      "regulatory": 13,
+      "rtd": 8,
+      "supply_chain": 7,
+      "macro": 7,
+      "competitor": 6,
       "functional": 6,
-      "pricing": 2,
-      "supply_chain": 2
+      "pricing": 2
     }
   }
 }
