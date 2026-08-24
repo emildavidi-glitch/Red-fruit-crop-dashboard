@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-24T05:32:40.455224+00:00",
+  "generated_at": "2026-08-24T13:49:56.008043+00:00",
   "generated_date": "Monday, 24 August 2026",
-  "briefing": "Sales intelligence tracked 149 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Kick Fizz Hemp Beverages Now Available Across Texas - BevNET.com.",
+  "briefing": "Sales intelligence tracked 182 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: AB InBev invests in New York Cutwater production - Just Drinks.",
   "signals": {
-    "usa": "Rtd trending. (37 items)",
-    "germany": "Functional trending. (33 items)",
-    "france": "Functional trending. (16 items)",
-    "spain": "Functional trending. (16 items)",
-    "italy": "Functional trending. (16 items)",
-    "austria": "Functional trending. (31 items)"
+    "usa": "Rtd trending. (40 items)",
+    "germany": "Alcohol Free trending. (44 items)",
+    "france": "Functional trending. (19 items)",
+    "spain": "Functional trending. (19 items)",
+    "italy": "Functional trending. (19 items)",
+    "austria": "Alcohol Free trending. (41 items)"
   },
   "meta": {
-    "total_articles_analyzed": 149,
+    "total_articles_analyzed": 182,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 68,
-      "launch": 27,
-      "innovation": 18,
-      "regulatory": 15,
+      "trend": 104,
+      "launch": 21,
+      "regulatory": 17,
+      "innovation": 13,
       "functional": 12,
-      "rtd": 8,
-      "macro": 7,
-      "supply_chain": 6,
+      "pricing": 10,
       "competitor": 6,
-      "pricing": 2
+      "macro": 6,
+      "supply_chain": 5,
+      "alcohol_free": 4
     }
   }
 }
