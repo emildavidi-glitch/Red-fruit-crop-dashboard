@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-23T13:29:55.551461+00:00",
-  "generated_date": "Sunday, 23 August 2026",
-  "briefing": "Sales intelligence tracked 140 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Kick Fizz Hemp Beverages Now Available Across Texas - BevNET.com.",
+  "generated_at": "2026-08-24T05:32:40.455224+00:00",
+  "generated_date": "Monday, 24 August 2026",
+  "briefing": "Sales intelligence tracked 149 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Kick Fizz Hemp Beverages Now Available Across Texas - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (39 items)",
-    "germany": "Sugar Free trending. (31 items)",
-    "france": "Rtd trending. (14 items)",
-    "spain": "Rtd trending. (14 items)",
-    "italy": "Rtd trending. (14 items)",
-    "austria": "Sugar Free trending. (28 items)"
+    "usa": "Rtd trending. (37 items)",
+    "germany": "Functional trending. (33 items)",
+    "france": "Functional trending. (16 items)",
+    "spain": "Functional trending. (16 items)",
+    "italy": "Functional trending. (16 items)",
+    "austria": "Functional trending. (31 items)"
   },
   "meta": {
-    "total_articles_analyzed": 140,
+    "total_articles_analyzed": 149,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 62,
-      "launch": 23,
-      "innovation": 20,
-      "regulatory": 13,
+      "trend": 68,
+      "launch": 27,
+      "innovation": 18,
+      "regulatory": 15,
+      "functional": 12,
       "rtd": 8,
-      "supply_chain": 7,
       "macro": 7,
+      "supply_chain": 6,
       "competitor": 6,
-      "functional": 6,
       "pricing": 2
     }
   }
