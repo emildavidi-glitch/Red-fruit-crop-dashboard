@@ -1,24 +1,29 @@
 {
-  "generated_at": "2026-08-26T05:30:19.337234+00:00",
+  "generated_at": "2026-08-26T13:52:57.798615+00:00",
   "generated_date": "Wednesday, 26 August 2026",
-  "briefing": "Sales intelligence tracked 4 items across 1 regions in the past 28 days. Key themes: pricing pressures in focus; premium trending; energy drinks leading growth. Latest: Saint James enters yerba mate with first new product extension.",
+  "briefing": "Sales intelligence tracked 229 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Bewusster Biergenuss: Weihenstephan mit No-Low-Spezialitäten breit aufgestellt - about-drinks.com.",
   "signals": {
-    "usa": "Premium trending. (4 items)",
-    "germany": "No recent data — monitoring.",
-    "france": "No recent data — monitoring.",
-    "spain": "No recent data — monitoring.",
-    "italy": "No recent data — monitoring.",
-    "austria": "No recent data — monitoring."
+    "usa": "Rtd trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
+    "france": "Rtd trending. (26 items)",
+    "spain": "Rtd trending. (27 items)",
+    "italy": "Rtd trending. (26 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 4,
+    "total_articles_analyzed": 229,
     "method": "rss-analysis",
     "top_topics": {
-      "pricing": 2,
-      "premium": 1,
-      "energy": 1,
-      "launch": 1,
-      "innovation": 1
+      "trend": 138,
+      "launch": 41,
+      "regulatory": 18,
+      "rtd": 11,
+      "pricing": 8,
+      "energy": 7,
+      "competitor": 7,
+      "retail": 6,
+      "supply_chain": 5,
+      "innovation": 4
     }
   }
 }
