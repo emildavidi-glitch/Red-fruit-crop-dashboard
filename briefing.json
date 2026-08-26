@@ -1,29 +1,24 @@
 {
-  "generated_at": "2026-08-25T13:47:59.612706+00:00",
-  "generated_date": "Tuesday, 25 August 2026",
-  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Beverages drop into the spirit of Halloween with FOMO-inducing releases - FoodNavigator.com.",
+  "generated_at": "2026-08-26T05:30:19.337234+00:00",
+  "generated_date": "Wednesday, 26 August 2026",
+  "briefing": "Sales intelligence tracked 4 items across 1 regions in the past 28 days. Key themes: pricing pressures in focus; premium trending; energy drinks leading growth. Latest: Saint James enters yerba mate with first new product extension.",
   "signals": {
-    "usa": "Energy trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Energy trending. (25 items)",
-    "spain": "Energy trending. (25 items)",
-    "italy": "Energy trending. (25 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "usa": "Premium trending. (4 items)",
+    "germany": "No recent data — monitoring.",
+    "france": "No recent data — monitoring.",
+    "spain": "No recent data — monitoring.",
+    "italy": "No recent data — monitoring.",
+    "austria": "No recent data — monitoring."
   },
   "meta": {
-    "total_articles_analyzed": 225,
+    "total_articles_analyzed": 4,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 139,
-      "launch": 37,
-      "regulatory": 17,
-      "pricing": 10,
-      "innovation": 10,
-      "energy": 9,
-      "competitor": 6,
-      "functional": 5,
-      "carbonated": 5,
-      "supply_chain": 5
+      "pricing": 2,
+      "premium": 1,
+      "energy": 1,
+      "launch": 1,
+      "innovation": 1
     }
   }
 }
