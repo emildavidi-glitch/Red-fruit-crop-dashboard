@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-26T13:52:57.798615+00:00",
-  "generated_date": "Wednesday, 26 August 2026",
-  "briefing": "Sales intelligence tracked 229 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Bewusster Biergenuss: Weihenstephan mit No-Low-Spezialitäten breit aufgestellt - about-drinks.com.",
+  "generated_at": "2026-08-27T16:02:54.990332+00:00",
+  "generated_date": "Thursday, 27 August 2026",
+  "briefing": "Sales intelligence tracked 235 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Pernod anticipates \"soft\" US market over next three financial years - Just Drinks.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (26 items)",
-    "spain": "Rtd trending. (27 items)",
-    "italy": "Rtd trending. (26 items)",
+    "france": "Rtd trending. (28 items)",
+    "spain": "Rtd trending. (29 items)",
+    "italy": "Rtd trending. (28 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 229,
+    "total_articles_analyzed": 235,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 138,
+      "trend": 141,
       "launch": 41,
-      "regulatory": 18,
-      "rtd": 11,
+      "regulatory": 17,
+      "innovation": 12,
+      "rtd": 10,
       "pricing": 8,
-      "energy": 7,
-      "competitor": 7,
-      "retail": 6,
-      "supply_chain": 5,
-      "innovation": 4
+      "energy": 8,
+      "premium": 8,
+      "competitor": 8,
+      "retail": 6
     }
   }
 }
