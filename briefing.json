@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-27T16:02:54.990332+00:00",
+  "generated_at": "2026-08-27T22:48:27.516919+00:00",
   "generated_date": "Thursday, 27 August 2026",
-  "briefing": "Sales intelligence tracked 235 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Pernod anticipates \"soft\" US market over next three financial years - Just Drinks.",
+  "briefing": "Sales intelligence tracked 189 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Oval Coffee Roasters Launches Six Specialty Coffee SKUs at 45 Lowes Foods Locations Across the Carol.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (28 items)",
-    "spain": "Rtd trending. (29 items)",
-    "italy": "Rtd trending. (28 items)",
-    "austria": "Rtd trending. (50 items)"
+    "germany": "Rtd trending. (30 items)",
+    "france": "Rtd trending. (27 items)",
+    "spain": "Rtd trending. (28 items)",
+    "italy": "Rtd trending. (27 items)",
+    "austria": "Rtd trending. (27 items)"
   },
   "meta": {
-    "total_articles_analyzed": 235,
+    "total_articles_analyzed": 189,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 141,
-      "launch": 41,
-      "regulatory": 17,
-      "innovation": 12,
+      "trend": 89,
+      "launch": 43,
+      "regulatory": 18,
+      "innovation": 16,
       "rtd": 10,
-      "pricing": 8,
       "energy": 8,
-      "premium": 8,
       "competitor": 8,
+      "pricing": 7,
+      "premium": 7,
       "retail": 6
     }
   }
