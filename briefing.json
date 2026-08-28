@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-27T22:48:27.516919+00:00",
-  "generated_date": "Thursday, 27 August 2026",
-  "briefing": "Sales intelligence tracked 189 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Oval Coffee Roasters Launches Six Specialty Coffee SKUs at 45 Lowes Foods Locations Across the Carol.",
+  "generated_at": "2026-08-28T17:08:49.600867+00:00",
+  "generated_date": "Friday, 28 August 2026",
+  "briefing": "Sales intelligence tracked 256 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Finnish Long Drink Cuts Sales Roles After Mark Anthony Acquisition - BevNET.com.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
-    "germany": "Rtd trending. (30 items)",
-    "france": "Rtd trending. (27 items)",
-    "spain": "Rtd trending. (28 items)",
-    "italy": "Rtd trending. (27 items)",
-    "austria": "Rtd trending. (27 items)"
+    "germany": "Rtd trending. (50 items)",
+    "france": "Rtd trending. (35 items)",
+    "spain": "Rtd trending. (36 items)",
+    "italy": "Rtd trending. (35 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 189,
+    "total_articles_analyzed": 256,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 89,
+      "trend": 163,
       "launch": 43,
-      "regulatory": 18,
-      "innovation": 16,
+      "regulatory": 15,
+      "innovation": 12,
       "rtd": 10,
-      "energy": 8,
-      "competitor": 8,
-      "pricing": 7,
+      "competitor": 9,
+      "pricing": 8,
+      "energy": 7,
       "premium": 7,
-      "retail": 6
+      "supply_chain": 5
     }
   }
 }
