@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-28T17:08:49.600867+00:00",
+  "generated_at": "2026-08-28T22:53:03.333211+00:00",
   "generated_date": "Friday, 28 August 2026",
-  "briefing": "Sales intelligence tracked 256 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Finnish Long Drink Cuts Sales Roles After Mark Anthony Acquisition - BevNET.com.",
+  "briefing": "Sales intelligence tracked 253 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Kofola takes majority stake in Czech coffee chain - Just Drinks.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (35 items)",
-    "spain": "Rtd trending. (36 items)",
-    "italy": "Rtd trending. (35 items)",
+    "france": "Rtd trending. (34 items)",
+    "spain": "Rtd trending. (35 items)",
+    "italy": "Rtd trending. (34 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 256,
+    "total_articles_analyzed": 253,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 163,
-      "launch": 43,
-      "regulatory": 15,
+      "trend": 169,
+      "launch": 42,
       "innovation": 12,
-      "rtd": 10,
       "competitor": 9,
-      "pricing": 8,
-      "energy": 7,
+      "rtd": 9,
+      "regulatory": 9,
+      "pricing": 7,
       "premium": 7,
-      "supply_chain": 5
+      "energy": 6,
+      "supply_chain": 4
     }
   }
 }
