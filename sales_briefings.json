@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:53:03.333211+00:00",
+  "generated_at": "2026-08-29T11:27:01.449328+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -21,6 +21,14 @@
           "confidence": "high"
         },
         {
+          "headline": "Hormel’s retail segment hit by Q3 commodity turkey and snack nut declines - FoodNavigator.com",
+          "detail": "Hormel’s retail segment hit by Q3 commodity turkey and snack nut declines FoodNavigator.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEdqQWdfelN3SW5pZDBTN18yRGNpd0JmdkU4WDNCMF9keHhCY1Q4YUo0eUxpa1VxWDZuQkNOLWQ5d20tNVBWUnlaTU1UY2dMbHA0bmw0RTNEN1ppQUdRS0p5cHIwSXdGbUpJcG4xNy1XUlh2ekN1Y0o3VldxRTV2aVFxLXRLXzVIa2d5YVVPUnZsUjhhR1IwdkJMVmhVeGJWTlpDQlhjOG9UVnN0T2VXZ1c3bGdGTmFWREVrMGhmVEhJNXdjZWlfLQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Leftovers: Pringles introduces thicker chips | Pop-Tarts gets buzzed with BuzzBallz",
           "detail": "The Mars Snacking brand is launching a sturdier crisp designed for dipping, while Snoop Dogg's Dr. Bombay releases a nostalgic popsicle.",
           "evidence_urls": [
@@ -35,14 +43,6 @@
             "https://news.google.com/rss/articles/CBMioAFBVV95cUxNazRweFAySjJsSjJwdk0tOUtXVTFHeHBPX01nNWx1dUlNM1dqTFFMSk53SWV4MnlNcDhuU2RVdW5kQzNjdkV4dUFHS01xamw5SVFySlNXLW9MYzRZVER3WkVwdndIUWtpUVNPWjdEQ1hYODdWVzV4aHB5a1JhRDhNd21jUW5qR3ZqeGoxMnhyOGVLeWJYTTM2S3BOWEJJOXlo?oc=5"
           ],
           "confidence": "high"
-        },
-        {
-          "headline": "New beverage launches: Mate iced tea, Sierra Paloma and beer bonanza… - BeverageDaily.com",
-          "detail": "New beverage launches: Mate iced tea, Sierra Paloma and beer bonanza… BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxORWd0NExoUU1TcGtCOFpfRXBMT1Z2alZzOVZjZUlUcXpBaTZMeGxwSjFiRDBNa0RIcDV3WG5kZFRtZ05qYl93RlNsMEhFWDZiVlk5WXJZUU03aTBmYktva1RQVFEyWTFGOG9YVEh4ZHZtak9LdXc3czFCQlRTQ0JSck1YMm1faDVXTXZnbHVILWx3YU9CN1RIZEhoSjYtaGM?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -97,14 +97,6 @@
           "date": "2026-08-28T14:50:45+00:00"
         },
         {
-          "title": "Red Diamond Coffee & Tea Appoints Mike Mehrotra as Senior Vice President of Away From Home Division - BevNET.com",
-          "company": "Unknown",
-          "move_type": "competitor",
-          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM2xZOURhR1hRdmo3ZGdWaUgydXcyejNFVDU2aWZnZEtid1dXbGVHSlRWdU4zSFRneEVVWHZwSWhXQ2ctam5zZGd0X05felFNVjFKZnBvY1BqZlBxcWNQRE1mM194LWVoT1Q5MDhNSW1XSHYtUm9KUzNHSUpubDV6cjYzTkc4S2lnSGZuMUVSMHN3am9CdWxrTkpwVm9QaHQtSHdpMzlfOUVUUFJHdk5Xc1FiRUhkSG1JMkFpSlNua29xN1VwRTlnVXhGRl9MMmNz?oc=5",
-          "date": "2026-08-26T22:57:16+00:00"
-        },
-        {
           "title": "Kautz Family of Ironstone Vineyards Acquires Portfolio of California Wine and Beverage Brands - BevNET.com",
           "company": "Unknown",
           "move_type": "competitor",
@@ -113,7 +105,15 @@
           "date": "2026-08-25T17:27:59+00:00"
         }
       ],
-      "regulatory_watch": [],
+      "regulatory_watch": [
+        {
+          "title": "Not enough time? India gives 90-day deadline to re-label energy drinks - FoodNavigator.com",
+          "topic": "energy",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX1Z0WUJTRGVTbFlnS1Q0VDVqR2oxdGdGZUJyVlNGUXJmU1BJelZ3cWtSZ2szMGhJLXY3VHVwQkllN3lHcHhiTDJ0aWYteVczbm1XTmpwRk9mWDNDVy1qa3RRNGNPcnI5RFBQMDJaUnRta3VPLTR2RlBzdzRlMUJFcDZWOC15SkZMaFpJN0FKMXZKdVgyWjFqNkxWSF8xRkp6eXl5T2hkbWVqVk9USFlnWnRFV0hsS2NGMEY4dFJxaw?oc=5",
+          "date": "2026-08-27T10:39:38+00:00"
+        }
+      ],
       "pricing_promotions": [
         {
           "title": "Packaging industry braces for impacts from U.S.-Canada trade war",
@@ -121,6 +121,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://www.fooddive.com/news/canada-united-states-tariffs-trade-war-packaging-fiber-metal-glass/828879/",
           "date": "2026-08-27T09:29:00-04:00"
+        },
+        {
+          "title": "Hormel’s retail segment hit by Q3 commodity turkey and snack nut declines - FoodNavigator.com",
+          "what_changed": "Hormel’s retail segment hit by Q3 commodity turkey and snack nut declines FoodNavigator.com",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEdqQWdfelN3SW5pZDBTN18yRGNpd0JmdkU4WDNCMF9keHhCY1Q4YUo0eUxpa1VxWDZuQkNOLWQ5d20tNVBWUnlaTU1UY2dMbHA0bmw0RTNEN1ppQUdRS0p5cHIwSXdGbUpJcG4xNy1XUlh2ekN1Y0o3VldxRTV2aVFxLXRLXzVIa2d5YVVPUnZsUjhhR1IwdkJMVmhVeGJWTlpDQlhjOG9UVnN0T2VXZ1c3bGdGTmFWREVrMGhmVEhJNXdjZWlfLQ?oc=5",
+          "date": "2026-08-28T13:22:35+00:00"
         },
         {
           "title": "Alcohol industry urges US, Canada to resume tariff talks - Just Drinks",
@@ -133,21 +140,21 @@
       "signals": [
         {
           "signal": "Rtd trending in United States",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "rtd"
           ],
           "confidence": "medium"
         },
         {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "signal": "Energy trending in United States",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "premium"
+            "energy"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Hydration trending in United States",
@@ -168,11 +175,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Organic trending in United States",
-          "explanation": "1 articles mention organic in the last 28 days",
+          "signal": "Protein trending in United States",
+          "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "organic"
+            "protein"
           ],
           "confidence": "low"
         }
@@ -186,6 +193,13 @@
             "https://www.fooddive.com/news/buzzballs-poptarts-snoop-dogg-popsicle-thick-pringles/829061/",
             "https://news.google.com/rss/articles/CBMinwFBVV95cUxORWd0NExoUU1TcGtCOFpfRXBMT1Z2alZzOVZjZUlUcXpBaTZMeGxwSjFiRDBNa0RIcDV3WG5kZFRtZ05qYl93RlNsMEhFWDZiVlk5WXJZUU03aTBmYktva1RQVFEyWTFGOG9YVEh4ZHZtak9LdXc3czFCQlRTQ0JSck1YMm1faDVXTXZnbHVILWx3YU9CN1RIZEhoSjYtaGM?oc=5"
           ]
+        },
+        {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX1Z0WUJTRGVTbFlnS1Q0VDVqR2oxdGdGZUJyVlNGUXJmU1BJelZ3cWtSZ2szMGhJLXY3VHVwQkllN3lHcHhiTDJ0aWYteVczbm1XTmpwRk9mWDNDVy1qa3RRNGNPcnI5RFBQMDJaUnRta3VPLTR2RlBzdzRlMUJFcDZWOC15SkZMaFpJN0FKMXZKdVgyWjFqNkxWSF8xRkp6eXl5T2hkbWVqVk9USFlnWnRFV0hsS2NGMEY4dFJxaw?oc=5"
+          ]
         }
       ],
       "recommended_actions": [
@@ -197,6 +211,14 @@
             "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeUNvbEwyYUhDck9iUGtURjJnazFuMzhneFRydlBEdzhra2J1d3ZHbG9hSjlwMnRzbHFuZW1haUhTVnRNNEMtZFJDYW5zR0pERTNVYkQ0VXV4ckhTTG5FYXBSMWZZUlo5U0lvY3lNMHE1bVdWaFU1N2V2MnBJNE9Wd2xfSzNnaDlYWUo2U0ZWRldtLWh5VVg3YnZmZ2VNcjd2UnFncDVFYjQ4MXZiakhzTkRlclM?oc=5",
             "https://www.fooddive.com/news/buzzballs-poptarts-snoop-dogg-popsicle-thick-pringles/829061/",
             "https://news.google.com/rss/articles/CBMinwFBVV95cUxORWd0NExoUU1TcGtCOFpfRXBMT1Z2alZzOVZjZUlUcXpBaTZMeGxwSjFiRDBNa0RIcDV3WG5kZFRtZ05qYl93RlNsMEhFWDZiVlk5WXJZUU03aTBmYktva1RQVFEyWTFGOG9YVEh4ZHZtak9LdXc3czFCQlRTQ0JSck1YMm1faDVXTXZnbHVILWx3YU9CN1RIZEhoSjYtaGM?oc=5"
+          ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX1Z0WUJTRGVTbFlnS1Q0VDVqR2oxdGdGZUJyVlNGUXJmU1BJelZ3cWtSZ2szMGhJLXY3VHVwQkllN3lHcHhiTDJ0aWYteVczbm1XTmpwRk9mWDNDVy1qa3RRNGNPcnI5RFBQMDJaUnRta3VPLTR2RlBzdzRlMUJFcDZWOC15SkZMaFpJN0FKMXZKdVgyWjFqNkxWSF8xRkp6eXl5T2hkbWVqVk9USFlnWnRFV0hsS2NGMEY4dFJxaw?oc=5"
           ]
         }
       ]
@@ -341,15 +363,6 @@
           "confidence": "low"
         },
         {
-          "signal": "Energy trending in Germany",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Alcohol Free trending in Germany",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
@@ -427,8 +440,8 @@
           "confidence": "medium"
         },
         {
-          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne - BeverageDaily.com",
-          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne BeverageDaily.com",
+          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland - BeverageDaily.com",
+          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2VzQW9IMEVGQnlNc0VuQW5jNkFnSnBLbW5GVm5wb1JrcUJQR2xJT1BfRmNCRFlaQ211X21EWVA3dklNMjh1MWVYaTRQR1NqTWdFUWEtUmFlZDZQOVdSQlBLbV90SW96SVNPMTcyOUpXeE1qcmpJdWFma2kyRkZ2eUduX2t6MkNoMDlyU215WmFtdkxZbTE0TEVkRHJ2WlNvMVlkRU1fOW9ESG52REU3dkV0Ulc?oc=5"
           ],
@@ -502,13 +515,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
           "date": "2026-08-26T06:05:54+00:00"
-        },
-        {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-          "date": "2026-08-07T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -538,15 +544,6 @@
             "premium"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in France",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -563,8 +560,7 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ],
@@ -584,8 +580,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ]
@@ -625,8 +620,8 @@
           "confidence": "medium"
         },
         {
-          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne - BeverageDaily.com",
-          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne BeverageDaily.com",
+          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland - BeverageDaily.com",
+          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2VzQW9IMEVGQnlNc0VuQW5jNkFnSnBLbW5GVm5wb1JrcUJQR2xJT1BfRmNCRFlaQ211X21EWVA3dklNMjh1MWVYaTRQR1NqTWdFUWEtUmFlZDZQOVdSQlBLbV90SW96SVNPMTcyOUpXeE1qcmpJdWFma2kyRkZ2eUduX2t6MkNoMDlyU215WmFtdkxZbTE0TEVkRHJ2WlNvMVlkRU1fOW9ESG52REU3dkV0Ulc?oc=5"
           ],
@@ -700,13 +695,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
           "date": "2026-08-26T06:05:54+00:00"
-        },
-        {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-          "date": "2026-08-07T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -736,15 +724,6 @@
             "premium"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Spain",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -761,8 +740,7 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ],
@@ -782,8 +760,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ]
@@ -815,8 +792,8 @@
           "confidence": "medium"
         },
         {
-          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne - BeverageDaily.com",
-          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne BeverageDaily.com",
+          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland - BeverageDaily.com",
+          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2VzQW9IMEVGQnlNc0VuQW5jNkFnSnBLbW5GVm5wb1JrcUJQR2xJT1BfRmNCRFlaQ211X21EWVA3dklNMjh1MWVYaTRQR1NqTWdFUWEtUmFlZDZQOVdSQlBLbV90SW96SVNPMTcyOUpXeE1qcmpJdWFma2kyRkZ2eUduX2t6MkNoMDlyU215WmFtdkxZbTE0TEVkRHJ2WlNvMVlkRU1fOW9ESG52REU3dkV0Ulc?oc=5"
           ],
@@ -890,13 +867,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
           "date": "2026-08-26T06:05:54+00:00"
-        },
-        {
-          "title": "Are you AI-ready to help tackle Europe’s new packaging law? - Food and Drink Technology",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5",
-          "date": "2026-08-07T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -926,15 +896,6 @@
             "premium"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Italy",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -951,8 +912,7 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ],
@@ -972,8 +932,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFRpOFFJZUNETnJzQmNWWkdOdVNZUktiTEF5c19pWHhkeHFMeFZwX2F0QUU1WDZTRnBpYldEV0FsWWpFc3M2UEZvc2JCemdOMFM3S0xTU2hubmMwcW85ZEFyRG5VcnptVWxRZGNGN0QxS3FpUUozakVUaWpEZ2xOdVlRWWtySlRuYTh4TA?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ]
@@ -1005,8 +964,8 @@
           "confidence": "medium"
         },
         {
-          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne - BeverageDaily.com",
-          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Lucerne BeverageDaily.com",
+          "headline": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland - BeverageDaily.com",
+          "detail": "Heineken targets 2030 opening for new Eichhof Brewery in Switzerland BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2VzQW9IMEVGQnlNc0VuQW5jNkFnSnBLbW5GVm5wb1JrcUJQR2xJT1BfRmNCRFlaQ211X21EWVA3dklNMjh1MWVYaTRQR1NqTWdFUWEtUmFlZDZQOVdSQlBLbV90SW96SVNPMTcyOUpXeE1qcmpJdWFma2kyRkZ2eUduX2t6MkNoMDlyU215WmFtdkxZbTE0TEVkRHJ2WlNvMVlkRU1fOW9ESG52REU3dkV0Ulc?oc=5"
           ],
@@ -1080,6 +1039,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
           "date": "2026-08-26T06:05:54+00:00"
+        },
+        {
+          "title": "Einbecker Brauhaus launcht Headbanger Zero.Zero - about-drinks.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5",
+          "date": "2026-08-09T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1111,15 +1077,6 @@
           "confidence": "low"
         },
         {
-          "signal": "Energy trending in Austria",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Alcohol Free trending in Austria",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
@@ -1143,7 +1100,8 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5"
           ]
         }
       ],
@@ -1163,7 +1121,8 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmNyZnpaMmQ2dmIwN3JYZ2RsSms0WUdOMHZ1TnpUZk16ekY4RE5iblQ2TEdjYXhycHp0UDk5RGxzQkFvSzJicjV3SjFaZ3EwakE0Zk04NjcxRlBHbWtBOENtQlVINE8wYl8yZ3h2eldNeWwwaC1XaE9VT1FqcjhiTXlTMA?oc=5"
           ]
         }
       ]
