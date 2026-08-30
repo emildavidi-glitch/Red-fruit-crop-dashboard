@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-29T16:57:57.149392+00:00",
-  "generated_date": "Saturday, 29 August 2026",
-  "briefing": "Sales intelligence tracked 234 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Kofola takes majority stake in Czech coffee chain - Just Drinks.",
+  "generated_at": "2026-08-30T10:13:38.340663+00:00",
+  "generated_date": "Sunday, 30 August 2026",
+  "briefing": "Sales intelligence tracked 171 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Southern Sweet Tea Company Expands Real-Brewed Iced Tea Lineup to 13 Flavors, Fueling Retail Growth .",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
-    "germany": "Sugar Free trending. (50 items)",
-    "france": "Rtd trending. (29 items)",
-    "spain": "Rtd trending. (30 items)",
-    "italy": "Rtd trending. (29 items)",
-    "austria": "Rtd trending. (46 items)"
+    "usa": "Rtd trending. (44 items)",
+    "germany": "Rtd trending. (33 items)",
+    "france": "Rtd trending. (21 items)",
+    "spain": "Rtd trending. (21 items)",
+    "italy": "Rtd trending. (21 items)",
+    "austria": "Rtd trending. (31 items)"
   },
   "meta": {
-    "total_articles_analyzed": 234,
+    "total_articles_analyzed": 171,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 153,
-      "launch": 37,
-      "innovation": 16,
-      "regulatory": 10,
-      "competitor": 9,
+      "trend": 107,
+      "launch": 22,
+      "innovation": 18,
       "pricing": 8,
+      "regulatory": 8,
+      "competitor": 8,
       "rtd": 8,
-      "premium": 6,
-      "energy": 1,
-      "hydration": 1
+      "hydration": 2,
+      "protein": 1,
+      "juice": 1
     }
   }
 }
