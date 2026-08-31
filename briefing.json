@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-31T11:17:57.196998+00:00",
+  "generated_at": "2026-08-31T19:23:02.563361+00:00",
   "generated_date": "Monday, 31 August 2026",
-  "briefing": "Sales intelligence tracked 159 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Mionetto 0,0% jetzt auch in der Kleinflasche - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 192 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Pumpkin Spice Medium Roast Instant Coffee — IQJOE - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (39 items)",
-    "germany": "Alcohol Free trending. (35 items)",
-    "france": "Rtd trending. (17 items)",
-    "spain": "Rtd trending. (17 items)",
-    "italy": "Rtd trending. (17 items)",
-    "austria": "Alcohol Free trending. (34 items)"
+    "usa": "Carbonated trending. (49 items)",
+    "germany": "Carbonated trending. (42 items)",
+    "france": "Functional trending. (20 items)",
+    "spain": "Functional trending. (20 items)",
+    "italy": "Functional trending. (20 items)",
+    "austria": "Carbonated trending. (41 items)"
   },
   "meta": {
-    "total_articles_analyzed": 159,
+    "total_articles_analyzed": 192,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 103,
-      "launch": 22,
-      "innovation": 12,
+      "trend": 117,
+      "launch": 28,
+      "innovation": 24,
       "rtd": 9,
+      "carbonated": 8,
+      "competitor": 8,
       "pricing": 7,
       "regulatory": 7,
-      "competitor": 7,
-      "premium": 6,
-      "carbonated": 4,
-      "hydration": 2
+      "functional": 6,
+      "premium": 6
     }
   }
 }
