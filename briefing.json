@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-31T19:23:02.563361+00:00",
-  "generated_date": "Monday, 31 August 2026",
-  "briefing": "Sales intelligence tracked 192 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Pumpkin Spice Medium Roast Instant Coffee — IQJOE - BevNET.com.",
+  "generated_at": "2026-09-01T09:42:21.834894+00:00",
+  "generated_date": "Tuesday, 01 September 2026",
+  "briefing": "Sales intelligence tracked 219 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: AG Barr appoints former Sainsbury’s CFO Darren Shapland as new chair - BeverageDaily.com.",
   "signals": {
-    "usa": "Carbonated trending. (49 items)",
-    "germany": "Carbonated trending. (42 items)",
-    "france": "Functional trending. (20 items)",
-    "spain": "Functional trending. (20 items)",
-    "italy": "Functional trending. (20 items)",
-    "austria": "Carbonated trending. (41 items)"
+    "usa": "Rtd trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Functional trending. (23 items)",
+    "spain": "Functional trending. (23 items)",
+    "italy": "Functional trending. (23 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 192,
+    "total_articles_analyzed": 219,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 117,
+      "trend": 147,
       "launch": 28,
-      "innovation": 24,
-      "rtd": 9,
-      "carbonated": 8,
-      "competitor": 8,
+      "innovation": 16,
+      "competitor": 13,
+      "rtd": 10,
+      "carbonated": 7,
       "pricing": 7,
-      "regulatory": 7,
       "functional": 6,
+      "regulatory": 6,
       "premium": 6
     }
   }
