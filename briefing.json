@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-01T09:42:21.834894+00:00",
+  "generated_at": "2026-09-01T17:09:04.217755+00:00",
   "generated_date": "Tuesday, 01 September 2026",
-  "briefing": "Sales intelligence tracked 219 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: AG Barr appoints former Sainsbury’s CFO Darren Shapland as new chair - BeverageDaily.com.",
+  "briefing": "Sales intelligence tracked 234 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Viva Agave enters Connecticut via North American Beverage Selections - BevNET.com.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (23 items)",
-    "spain": "Functional trending. (23 items)",
-    "italy": "Functional trending. (23 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Alcohol Free trending. (28 items)",
+    "spain": "Alcohol Free trending. (28 items)",
+    "italy": "Alcohol Free trending. (28 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 219,
+    "total_articles_analyzed": 234,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 147,
-      "launch": 28,
-      "innovation": 16,
-      "competitor": 13,
-      "rtd": 10,
-      "carbonated": 7,
-      "pricing": 7,
-      "functional": 6,
-      "regulatory": 6,
-      "premium": 6
+      "trend": 159,
+      "launch": 27,
+      "innovation": 20,
+      "rtd": 11,
+      "competitor": 10,
+      "alcohol_free": 10,
+      "carbonated": 8,
+      "regulatory": 8,
+      "functional": 7,
+      "pricing": 6
     }
   }
 }
