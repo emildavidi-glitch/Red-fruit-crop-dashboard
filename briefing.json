@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-02T16:59:43.299890+00:00",
-  "generated_date": "Wednesday, 02 September 2026",
-  "briefing": "Sales intelligence tracked 250 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Sonderedition aus dem Schwarzwald: Black Forest Rothaus Whisky PX Sherry Cask 2026 - about-drinks.co.",
+  "generated_at": "2026-09-03T09:23:13.499606+00:00",
+  "generated_date": "Thursday, 03 September 2026",
+  "briefing": "Sales intelligence tracked 245 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Burlanegra Rum: Drei Mixology-Cocktails für Profis und mutige Hobby-Bartender - about-drinks.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Alcohol Free trending. (33 items)",
-    "spain": "Alcohol Free trending. (33 items)",
-    "italy": "Alcohol Free trending. (34 items)",
+    "france": "Hydration trending. (31 items)",
+    "spain": "Hydration trending. (31 items)",
+    "italy": "Carbonated trending. (33 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 250,
+    "total_articles_analyzed": 245,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 176,
-      "launch": 29,
+      "trend": 150,
+      "launch": 34,
+      "regulatory": 21,
+      "competitor": 12,
       "innovation": 12,
-      "regulatory": 11,
-      "rtd": 10,
-      "competitor": 9,
+      "rtd": 9,
+      "hydration": 9,
       "alcohol_free": 9,
-      "functional": 7,
-      "pricing": 6,
-      "premium": 6
+      "carbonated": 7,
+      "functional": 7
     }
   }
 }
