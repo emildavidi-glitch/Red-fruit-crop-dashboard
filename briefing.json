@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-03T16:56:11.687718+00:00",
-  "generated_date": "Thursday, 03 September 2026",
-  "briefing": "Sales intelligence tracked 242 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Liquid Death Founder and Sazerac Launch Mr. Fancy Canned ‘American Bubbly’ - bevnet.com.",
+  "generated_at": "2026-09-04T09:16:30.692688+00:00",
+  "generated_date": "Friday, 04 September 2026",
+  "briefing": "Sales intelligence tracked 262 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Spirituosensteuer: Bayerische Brenner warnen vor dem Ende einer Handwerkstradition - about-drinks.co.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (30 items)",
-    "spain": "Rtd trending. (30 items)",
-    "italy": "Rtd trending. (32 items)",
+    "france": "Premium trending. (37 items)",
+    "spain": "Premium trending. (37 items)",
+    "italy": "Premium trending. (38 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 242,
+    "total_articles_analyzed": 262,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 153,
-      "launch": 36,
-      "rtd": 16,
-      "regulatory": 13,
-      "competitor": 13,
+      "trend": 179,
+      "launch": 26,
+      "regulatory": 25,
+      "rtd": 15,
       "innovation": 12,
-      "hydration": 10,
-      "carbonated": 7,
-      "functional": 7,
-      "alcohol_free": 7
+      "premium": 9,
+      "competitor": 9,
+      "hydration": 8,
+      "alcohol_free": 7,
+      "carbonated": 6
     }
   }
 }
