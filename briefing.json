@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-04T16:43:48.728501+00:00",
-  "generated_date": "Friday, 04 September 2026",
-  "briefing": "Sales intelligence tracked 269 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Distribution: AriZona Takes Premium Mineral Water Ferrarelle into Cans; UPDATE Hits Circle K - BevNE.",
+  "generated_at": "2026-09-05T08:45:18.275770+00:00",
+  "generated_date": "Saturday, 05 September 2026",
+  "briefing": "Sales intelligence tracked 246 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: „Timeless Twist“: Claire Schenk über den MONIN Cup 2026 - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Rtd trending. (48 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (39 items)",
-    "spain": "Functional trending. (40 items)",
-    "italy": "Functional trending. (40 items)",
+    "france": "Functional trending. (32 items)",
+    "spain": "Functional trending. (33 items)",
+    "italy": "Functional trending. (33 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 269,
+    "total_articles_analyzed": 246,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 179,
-      "launch": 32,
-      "regulatory": 20,
+      "trend": 160,
+      "launch": 23,
+      "regulatory": 19,
       "innovation": 19,
+      "rtd": 14,
+      "competitor": 13,
       "functional": 13,
-      "premium": 12,
-      "rtd": 12,
-      "competitor": 9,
-      "alcohol_free": 7,
-      "hydration": 6
+      "premium": 9,
+      "alcohol_free": 6,
+      "pricing": 6
     }
   }
 }
