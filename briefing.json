@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-05T15:46:48.944138+00:00",
-  "generated_date": "Saturday, 05 September 2026",
-  "briefing": "Sales intelligence tracked 226 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Interview: Westrock Coffee talks health trends, coffee volatility - Just Drinks.",
+  "generated_at": "2026-09-06T09:06:40.569583+00:00",
+  "generated_date": "Sunday, 06 September 2026",
+  "briefing": "Sales intelligence tracked 179 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Interview: Westrock Coffee talks health trends, coffee volatility - Just Drinks.",
   "signals": {
-    "usa": "Rtd trending. (45 items)",
-    "germany": "Functional trending. (49 items)",
-    "france": "Functional trending. (28 items)",
-    "spain": "Functional trending. (29 items)",
-    "italy": "Functional trending. (29 items)",
-    "austria": "Functional trending. (46 items)"
+    "usa": "Carbonated trending. (38 items)",
+    "germany": "Rtd trending. (34 items)",
+    "france": "Rtd trending. (25 items)",
+    "spain": "Rtd trending. (25 items)",
+    "italy": "Rtd trending. (25 items)",
+    "austria": "Rtd trending. (32 items)"
   },
   "meta": {
-    "total_articles_analyzed": 226,
+    "total_articles_analyzed": 179,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 145,
-      "launch": 24,
-      "innovation": 19,
-      "regulatory": 18,
-      "rtd": 14,
+      "trend": 113,
+      "launch": 23,
+      "regulatory": 17,
       "competitor": 13,
-      "functional": 13,
-      "premium": 9,
+      "rtd": 12,
+      "innovation": 7,
       "alcohol_free": 6,
-      "pricing": 6
+      "pricing": 6,
+      "premium": 6,
+      "carbonated": 4
     }
   }
 }

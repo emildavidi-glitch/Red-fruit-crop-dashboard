@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:46:48.944138+00:00",
+  "generated_at": "2026-09-06T09:06:40.569583+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -79,12 +79,12 @@
           "date": "2026-09-02T17:00:00-04:00"
         },
         {
-          "title": "Amrut Distilleries Launches Amrut Kranthi Single Malt Whisky Celebrating India’s Single Malt Revolution - BevNET.com",
+          "title": "Proda Kicks Off Fall With The Launch of Golden Apple Protein Soda - BevNET.com",
           "company": "Unknown",
-          "product": "beverage",
+          "product": "carbonated",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV041ODhTZGZucm55RTdKUUpjY1dSMVhoYmZjUXNjaEFKNUN0dDdUQnltZzdrYjdRQlp5S3hvS1RqeXV4N1dRekk4RGIxXzNRdDJUeHlpNkNWT2ZvZENOS05vUGoycnBqRmVjekcyOEJRSGZUT1VtcWZWX1VTRnc3MFgyWFd1cU1jSTNfV2VvUWZad2RRNzUybGY5R3NfcmZsM1c0d1cxa3dVV0RiZEtlX0lLb0pKQkRjOE1ZbnB0czI2WWhZMVd6UEpmcDFvVTk2YnZEN1F3?oc=5",
-          "date": "2026-09-02T17:12:05+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQkR3SVhjMi01bVFXVXhHazNqZkg1elltM3hqTG1NN1pEdlE4aUJsT2xLREtFeFFabEFDbVN0NXFIZVQzRWtmd29JcDNsM2U4TlFpZ2ZFd21jaGF4R294Z0NfQXc4VWwwaUJvYUE0ZlNTN2V3QWRIeHZYcG02MzJQU3ZncXlNS0hxUWFYZzdQOUlzMTVFNnEzWUJMUm1JNFJOaFllbQ?oc=5",
+          "date": "2026-09-02T17:05:46+00:00"
         }
       ],
       "competitor_moves": [
@@ -140,9 +140,18 @@
       ],
       "signals": [
         {
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Rtd trending in United States",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "2 articles mention rtd in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "rtd"
           ],
@@ -150,28 +159,10 @@
         },
         {
           "signal": "Functional trending in United States",
-          "explanation": "3 articles mention functional in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Carbonated trending in United States",
-          "explanation": "1 articles mention carbonated in the last 28 days",
+          "explanation": "1 articles mention functional in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "carbonated"
+            "functional"
           ],
           "confidence": "low"
         },
@@ -181,6 +172,15 @@
           "support_count": 1,
           "top_keywords": [
             "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
@@ -201,15 +201,6 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdW5BRURFT2Yxc3E0SVg5dlRGUGlzNjBCVWJwbno0WG0yQkhyMUtGYk14eGFQblNCZG45QjhmWDJfTFRTc1RvbHRxTGxnZF82eEgyTEozbU5PQm9qLW9hbmwxZ1Z3blpWejhzc1lZNlFmSzZRV2c?oc=5",
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5",
-            "https://www.fooddive.com/news/barilla-buys-goodles-mac-and-cheese/829666/",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1R4NndBcDVDRUQ1Q3NYTG8taUF4MzFPdzhEN2lDS2FpZVpJVWlZZXVCNHlyUHFoSFRyOHRVZzdDZDQ1S2VrVnZEWFpuMXVDUjM2cGZqek5DajN1OEFsM0s0cWptalk2bWxLVktIZUFuX3c2QzM2aEU4X2tuWkFlaVZOSHR2Q05QR20yTU5vdEUwT19rNjdFS05mT2pZakV6Y3RsdUgtXzRvdWhySWNvbTFyYkRWNld4S0t6aQ?oc=5"
           ]
         }
       ],
@@ -238,26 +229,10 @@
     "germany": {
       "executive_summary": [
         {
-          "headline": "Nestlé adds jobs in Germany with coffee investment - Just Drinks",
-          "detail": "Nestlé adds jobs in Germany with coffee investment Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GdG1JUWtEeGFFdjNTQlBzNWd6VUFQUzVmTGpKNzRyZUc3cm5HeXhPMW1tc3dROENXcDRpdU9QUi0xNUtFbjVJM2hnR2NHeTZfYmFTUjA0dG53OGVHdFQyQTdTcmJQcEhaS1ZmZFZ3?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Brauereien: Paulaner wird zur Softdrink-Macht - lebensmittelzeitung.net",
-          "detail": "Brauereien: Paulaner wird zur Softdrink-Macht lebensmittelzeitung.net",
+          "headline": "Brauereien: Paulaner wird zur Softdrink-Macht - Lebensmittel Zeitung",
+          "detail": "Brauereien: Paulaner wird zur Softdrink-Macht Lebensmittel Zeitung",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaUV6enVPYVpOUnNiWXE2LXQwWFZJSTVCdGJLbnpnLUwxSGdRZW5La1ZmVEJKZVpwQ1NnMHNid0cwelFpU2VWVzllUDkxM3AyWS1EMkpZVzRkUDRLaDBmUzVIVm9aZ1BvOWR6bUIyVnZyLWwtMjFmeFhpam9VRThrNk5RdzN0NnIxRDFUU3BFWG9DUmlIakhnQWdHRDQ2LWZDeUFCb1Q3eTFhdTBTUXc?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
-          "headline": "Germany plans sugar tax that includes sugar free drinks - Brussels Signal",
-          "detail": "Germany plans sugar tax that includes sugar free drinks Brussels Signal",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkpxU1V0NWVXZU1kbHYwYzI1cGVkcXlna0h3Q0ZsQVhid3hHcEVKcHQwc2ZGOWVYYWJidXRJVHF4cEZYT1VFaVhDZ3VrbkQ2VmpoMDJlQW5RTUlYSUpYVGE0VWI0MWlMVFFJYjViMXI4VnFBemhXOWU5cDFMc1EzLU5ReWlWa295UG9xWkJnbmZfdlRn?oc=5"
           ],
           "confidence": "high"
         },
@@ -274,6 +249,22 @@
           "detail": "US Congress passes hemp ban delay Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdW5BRURFT2Yxc3E0SVg5dlRGUGlzNjBCVWJwbno0WG0yQkhyMUtGYk14eGFQblNCZG45QjhmWDJfTFRTc1RvbHRxTGxnZF82eEgyTEozbU5PQm9qLW9hbmwxZ1Z3blpWejhzc1lZNlFmSzZRV2c?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Keurig Dr Pepper to sell stake – and factory – to Chobani - Just Drinks",
+          "detail": "Keurig Dr Pepper to sell stake – and factory – to Chobani Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Interview: Westrock Coffee talks health trends, coffee volatility - Just Drinks",
+          "detail": "Interview: Westrock Coffee talks health trends, coffee volatility Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVmVIcWQ3NE5LRXhkVk14UE5LRjJHekFlbWhxXzV5NUcyZldkTWNYclVFcDBYOXIwbElxV1NTM1dEamxYVzZKd25TYy1tVzNpelFPYUNRU016ektvNVdhUXZUSUNRNjAtTnRfcHM3cE1mRmxSY1JxbDBERktvREFmaEdBUENwWWNETWpCbDgtOWtKRUltcC01OUNpMjFkYTg3dUNaeFZyWHhTUWg1cUJPNU1IOVR1a0d6Zy12WGhVdGk4OGtjWGZuVUdOOEN2OTZLOURsTDViSTNVZkNQb3B0bzhmNkFrR0dIRkJ0ZVZFdW4zamZWTUJn?oc=5"
           ],
           "confidence": "medium"
         }
@@ -324,13 +315,6 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Germany plans sugar tax that includes sugar free drinks - Brussels Signal",
-          "topic": "sugar_free",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkpxU1V0NWVXZU1kbHYwYzI1cGVkcXlna0h3Q0ZsQVhid3hHcEVKcHQwc2ZGOWVYYWJidXRJVHF4cEZYT1VFaVhDZ3VrbkQ2VmpoMDJlQW5RTUlYSUpYVGE0VWI0MWlMVFFJYjViMXI4VnFBemhXOWU5cDFMc1EzLU5ReWlWa295UG9xWkJnbmZfdlRn?oc=5",
-          "date": "2026-08-25T07:00:00+00:00"
-        },
-        {
           "title": "US Congress passes hemp ban delay - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -363,24 +347,6 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in Germany",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in Germany",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Rtd trending in Germany",
           "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
@@ -390,20 +356,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Sugar Free trending in Germany",
-          "explanation": "1 articles mention sugar free in the last 28 days",
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "sugar_free"
+            "alcohol_free"
           ],
           "confidence": "low"
         },
         {
-          "signal": "Juice trending in Germany",
-          "explanation": "1 articles mention juice in the last 28 days",
+          "signal": "Carbonated trending in Germany",
+          "explanation": "1 articles mention carbonated in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "juice"
+            "carbonated"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
@@ -422,17 +397,9 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkpxU1V0NWVXZU1kbHYwYzI1cGVkcXlna0h3Q0ZsQVhid3hHcEVKcHQwc2ZGOWVYYWJidXRJVHF4cEZYT1VFaVhDZ3VrbkQ2VmpoMDJlQW5RTUlYSUpYVGE0VWI0MWlMVFFJYjViMXI4VnFBemhXOWU5cDFMc1EzLU5ReWlWa295UG9xWkJnbmZfdlRn?oc=5",
             "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdW5BRURFT2Yxc3E0SVg5dlRGUGlzNjBCVWJwbno0WG0yQkhyMUtGYk14eGFQblNCZG45QjhmWDJfTFRTc1RvbHRxTGxnZF82eEgyTEozbU5PQm9qLW9hbmwxZ1Z3blpWejhzc1lZNlFmSzZRV2c?oc=5",
-            "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1R4NndBcDVDRUQ1Q3NYTG8taUF4MzFPdzhEN2lDS2FpZVpJVWlZZXVCNHlyUHFoSFRyOHRVZzdDZDQ1S2VrVnZEWFpuMXVDUjM2cGZqek5DajN1OEFsM0s0cWptalk2bWxLVktIZUFuX3c2QzM2aEU4X2tuWkFlaVZOSHR2Q05QR20yTU5vdEUwT19rNjdFS05mT2pZakV6Y3RsdUgtXzRvdWhySWNvbTFyYkRWNld4S0t6aQ?oc=5"
+            "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5",
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ],
@@ -452,9 +419,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkpxU1V0NWVXZU1kbHYwYzI1cGVkcXlna0h3Q0ZsQVhid3hHcEVKcHQwc2ZGOWVYYWJidXRJVHF4cEZYT1VFaVhDZ3VrbkQ2VmpoMDJlQW5RTUlYSUpYVGE0VWI0MWlMVFFJYjViMXI4VnFBemhXOWU5cDFMc1EzLU5ReWlWa295UG9xWkJnbmZfdlRn?oc=5",
             "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdW5BRURFT2Yxc3E0SVg5dlRGUGlzNjBCVWJwbno0WG0yQkhyMUtGYk14eGFQblNCZG45QjhmWDJfTFRTc1RvbHRxTGxnZF82eEgyTEozbU5PQm9qLW9hbmwxZ1Z3blpWejhzc1lZNlFmSzZRV2c?oc=5",
-            "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5"
+            "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5",
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ]
@@ -494,10 +461,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Podcast: Tenzing eyes “functional” benefits as next phase in UK energy-drinks push - Just Drinks",
-          "detail": "Podcast: Tenzing eyes “functional” benefits as next phase in UK energy-drinks push Just Drinks",
+          "headline": "Could Sub-Saharan Africa be the next growth region for alcohol sales? - BeverageDaily.com",
+          "detail": "Could Sub-Saharan Africa be the next growth region for alcohol sales? BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5"
+            "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmF1ZVh6eWhCMVpwRWlFXzBmeTYwOEJVQlVNSmRhVGZxMDhvZU1uUU5vNEg4TDB5RU9ZR3VtNWxxUGJBNE5XaDRNOW96bm5VNGtYTktsNG1ZMFRUd3FSU0pIdDRFeTVIRVJXbUJqbmphQm00aFhLVG9SYmRHS1dfTVJibUJ1VnBKdXdYQTQybE4xTnV6akNzeXlmT0FJT25UN2tsY29qYmhaZ2tBSl9xbHVOVWFaUEdLZXc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -579,15 +546,6 @@
         }
       ],
       "signals": [
-        {
-          "signal": "Functional trending in France",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
         {
           "signal": "Rtd trending in France",
           "explanation": "2 articles mention rtd in the last 28 days",
@@ -634,14 +592,6 @@
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5",
             "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1R4NndBcDVDRUQ1Q3NYTG8taUF4MzFPdzhEN2lDS2FpZVpJVWlZZXVCNHlyUHFoSFRyOHRVZzdDZDQ1S2VrVnZEWFpuMXVDUjM2cGZqek5DajN1OEFsM0s0cWptalk2bWxLVktIZUFuX3c2QzM2aEU4X2tuWkFlaVZOSHR2Q05QR20yTU5vdEUwT19rNjdFS05mT2pZakV6Y3RsdUgtXzRvdWhySWNvbTFyYkRWNld4S0t6aQ?oc=5"
-          ]
         }
       ],
       "recommended_actions": [
@@ -669,14 +619,6 @@
     },
     "spain": {
       "executive_summary": [
-        {
-          "headline": "Spain’s Félix Solís Avantis buys three Rioja wine brands - Just Drinks",
-          "detail": "Spain’s Félix Solís Avantis buys three Rioja wine brands Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSGV5Y2tCcktobkFQc0syMXo2eUFRcEhrSjZrZ1piYTFkNTZPTVZPYVN2aGpHTHdFOUNMS0VVbVNxQ251b04xUUV6OEZFNFYxSFFWSU1ONHZqcTJZX1hWMDQxLWJrVXFhY25ONmRFbTgtUmZZUzU5NmJfcHRqazUtRzVEWDhTWmwybFVYVTBrb3dvOTA?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
           "detail": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… BeverageDaily.com",
@@ -706,6 +648,14 @@
           "detail": "Interview: Westrock Coffee talks health trends, coffee volatility Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVmVIcWQ3NE5LRXhkVk14UE5LRjJHekFlbWhxXzV5NUcyZldkTWNYclVFcDBYOXIwbElxV1NTM1dEamxYVzZKd25TYy1tVzNpelFPYUNRU016ektvNVdhUXZUSUNRNjAtTnRfcHM3cE1mRmxSY1JxbDBERktvREFmaEdBUENwWWNETWpCbDgtOWtKRUltcC01OUNpMjFkYTg3dUNaeFZyWHhTUWg1cUJPNU1IOVR1a0d6Zy12WGhVdGk4OGtjWGZuVUdOOEN2OTZLOURsTDViSTNVZkNQb3B0bzhmNkFrR0dIRkJ0ZVZFdW4zamZWTUJn?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Could Sub-Saharan Africa be the next growth region for alcohol sales? - BeverageDaily.com",
+          "detail": "Could Sub-Saharan Africa be the next growth region for alcohol sales? BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmF1ZVh6eWhCMVpwRWlFXzBmeTYwOEJVQlVNSmRhVGZxMDhvZU1uUU5vNEg4TDB5RU9ZR3VtNWxxUGJBNE5XaDRNOW96bm5VNGtYTktsNG1ZMFRUd3FSU0pIdDRFeTVIRVJXbUJqbmphQm00aFhLVG9SYmRHS1dfTVJibUJ1VnBKdXdYQTQybE4xTnV6akNzeXlmT0FJT25UN2tsY29qYmhaZ2tBSl9xbHVOVWFaUEdLZXc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -787,15 +737,6 @@
         }
       ],
       "signals": [
-        {
-          "signal": "Functional trending in Spain",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
         {
           "signal": "Rtd trending in Spain",
           "explanation": "2 articles mention rtd in the last 28 days",
@@ -842,14 +783,6 @@
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5",
             "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1R4NndBcDVDRUQ1Q3NYTG8taUF4MzFPdzhEN2lDS2FpZVpJVWlZZXVCNHlyUHFoSFRyOHRVZzdDZDQ1S2VrVnZEWFpuMXVDUjM2cGZqek5DajN1OEFsM0s0cWptalk2bWxLVktIZUFuX3c2QzM2aEU4X2tuWkFlaVZOSHR2Q05QR20yTU5vdEUwT19rNjdFS05mT2pZakV6Y3RsdUgtXzRvdWhySWNvbTFyYkRWNld4S0t6aQ?oc=5"
-          ]
         }
       ],
       "recommended_actions": [
@@ -877,14 +810,6 @@
     },
     "italy": {
       "executive_summary": [
-        {
-          "headline": "Fruchtsecco Aperitivo: Rotkäppchen Lemon Spritz und Rosa Spritz - about-drinks.com",
-          "detail": "Fruchtsecco Aperitivo: Rotkäppchen Lemon Spritz und Rosa Spritz about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUZZMnZsdldwaXBlTHJocG50WTJzZE81Y2pZTHQ1czVTenlTc2J0aUotS2VMUk9TdmtEMElINEwyekR1M3dTOWlXRGxGYmRnMmQzTDRFTU1TSXJtNHhtQ0Mxd19yU3B0aF9MckYtcXg0Znd3cDNMZHB6SjdyT0tYZVltWEUyVllKWmNxemZURXRmcm1HbExZRw?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
           "detail": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… BeverageDaily.com",
@@ -914,6 +839,14 @@
           "detail": "Interview: Westrock Coffee talks health trends, coffee volatility Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVmVIcWQ3NE5LRXhkVk14UE5LRjJHekFlbWhxXzV5NUcyZldkTWNYclVFcDBYOXIwbElxV1NTM1dEamxYVzZKd25TYy1tVzNpelFPYUNRU016ektvNVdhUXZUSUNRNjAtTnRfcHM3cE1mRmxSY1JxbDBERktvREFmaEdBUENwWWNETWpCbDgtOWtKRUltcC01OUNpMjFkYTg3dUNaeFZyWHhTUWg1cUJPNU1IOVR1a0d6Zy12WGhVdGk4OGtjWGZuVUdOOEN2OTZLOURsTDViSTNVZkNQb3B0bzhmNkFrR0dIRkJ0ZVZFdW4zamZWTUJn?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Could Sub-Saharan Africa be the next growth region for alcohol sales? - BeverageDaily.com",
+          "detail": "Could Sub-Saharan Africa be the next growth region for alcohol sales? BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmF1ZVh6eWhCMVpwRWlFXzBmeTYwOEJVQlVNSmRhVGZxMDhvZU1uUU5vNEg4TDB5RU9ZR3VtNWxxUGJBNE5XaDRNOW96bm5VNGtYTktsNG1ZMFRUd3FSU0pIdDRFeTVIRVJXbUJqbmphQm00aFhLVG9SYmRHS1dfTVJibUJ1VnBKdXdYQTQybE4xTnV6akNzeXlmT0FJT25UN2tsY29qYmhaZ2tBSl9xbHVOVWFaUEdLZXc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -996,15 +929,6 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in Italy",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Rtd trending in Italy",
           "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
@@ -1049,14 +973,6 @@
             "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdW5BRURFT2Yxc3E0SVg5dlRGUGlzNjBCVWJwbno0WG0yQkhyMUtGYk14eGFQblNCZG45QjhmWDJfTFRTc1RvbHRxTGxnZF82eEgyTEozbU5PQm9qLW9hbmwxZ1Z3blpWejhzc1lZNlFmSzZRV2c?oc=5",
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5",
             "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1R4NndBcDVDRUQ1Q3NYTG8taUF4MzFPdzhEN2lDS2FpZVpJVWlZZXVCNHlyUHFoSFRyOHRVZzdDZDQ1S2VrVnZEWFpuMXVDUjM2cGZqek5DajN1OEFsM0s0cWptalk2bWxLVktIZUFuX3c2QzM2aEU4X2tuWkFlaVZOSHR2Q05QR20yTU5vdEUwT19rNjdFS05mT2pZakV6Y3RsdUgtXzRvdWhySWNvbTFyYkRWNld4S0t6aQ?oc=5"
           ]
         }
       ],
@@ -1118,10 +1034,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Podcast: Tenzing eyes “functional” benefits as next phase in UK energy-drinks push - Just Drinks",
-          "detail": "Podcast: Tenzing eyes “functional” benefits as next phase in UK energy-drinks push Just Drinks",
+          "headline": "Ein Schluck Zeitgeschichte: Originaler Veltins-Bierkasten aus den 60ern - about-drinks.com",
+          "detail": "Ein Schluck Zeitgeschichte: Originaler Veltins-Bierkasten aus den 60ern about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOU5YMzRYRERzaTMwOXByWGs2V29ZelBidUVMQ1dKY1lxRHhIck1mNW92c3VrTlhBRFhjeHowMkZtVW9jaXU0VkZyT2dWNF9admJELU9iU1BESlBqRU5KSHlmczRhSTRwZ1FCTDRkanQwLThVdnVMdEVCLTF5bG5EcWNBSVppSXJ6akpVMVpEUlMzai1vSEkzeHZGR1RHRUQzWVE?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1204,24 +1120,6 @@
       ],
       "signals": [
         {
-          "signal": "Functional trending in Austria",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Premium trending in Austria",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "premium"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Rtd trending in Austria",
           "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
@@ -1231,20 +1129,29 @@
           "confidence": "medium"
         },
         {
-          "signal": "Juice trending in Austria",
-          "explanation": "1 articles mention juice in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "juice"
-          ],
-          "confidence": "low"
-        },
-        {
           "signal": "Alcohol Free trending in Austria",
           "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Carbonated trending in Austria",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
           ],
           "confidence": "low"
         }
@@ -1266,14 +1173,6 @@
             "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdW5BRURFT2Yxc3E0SVg5dlRGUGlzNjBCVWJwbno0WG0yQkhyMUtGYk14eGFQblNCZG45QjhmWDJfTFRTc1RvbHRxTGxnZF82eEgyTEozbU5PQm9qLW9hbmwxZ1Z3blpWejhzc1lZNlFmSzZRV2c?oc=5",
             "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYzkwV1JyQ1FubzFSdXViZjI1OGw5LUM2ckFkcFNfOEpCbFo0UUY2Ti10cW5mLWwyRnFKTFhLZWllc3BveU9uc3lpRkV4T0FyVF9OMXVpYmZiS2UwQ2hZRnVHREp6NEpuRmxkRFZwRVFZUXlxUVhRa2ZmcnY?oc=5",
             "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3V3VzB6UG1NaHZUdW5kYjVRZzR3eHJPbFMydTRKX19NSVNib1FPc0tadXVERG9HbnpHOWtUZmNrYkROYlg4VEExdi1nQXVUOXo2Vld1NG82aXAtQ3UtZU83TWdIbTNlVGVydnpLTTVSYlFfSWlOaTE1R3ZnTVpTTUdSNEVvall3RkV0bXRycU1fejNZZWpKUUhqQXdCQUtyVjk2bWJtUEFnaE5sRHNPQTNNMA?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1R4NndBcDVDRUQ1Q3NYTG8taUF4MzFPdzhEN2lDS2FpZVpJVWlZZXVCNHlyUHFoSFRyOHRVZzdDZDQ1S2VrVnZEWFpuMXVDUjM2cGZqek5DajN1OEFsM0s0cWptalk2bWxLVktIZUFuX3c2QzM2aEU4X2tuWkFlaVZOSHR2Q05QR20yTU5vdEUwT19rNjdFS05mT2pZakV6Y3RsdUgtXzRvdWhySWNvbTFyYkRWNld4S0t6aQ?oc=5"
           ]
         }
       ],
