@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-06T15:58:51.927399+00:00",
-  "generated_date": "Sunday, 06 September 2026",
-  "briefing": "Sales intelligence tracked 216 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Interview: Westrock Coffee talks health trends, coffee volatility - Just Drinks.",
+  "generated_at": "2026-09-07T09:53:40.649527+00:00",
+  "generated_date": "Monday, 07 September 2026",
+  "briefing": "Sales intelligence tracked 188 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Dallmayr und Armbrustschützenzelt führen Partnerschaft fort - about-drinks.com.",
   "signals": {
-    "usa": "Rtd trending. (42 items)",
-    "germany": "Rtd trending. (41 items)",
-    "france": "Rtd trending. (31 items)",
-    "spain": "Rtd trending. (31 items)",
-    "italy": "Rtd trending. (31 items)",
-    "austria": "Rtd trending. (40 items)"
+    "usa": "Functional trending. (34 items)",
+    "germany": "Functional trending. (42 items)",
+    "france": "Functional trending. (23 items)",
+    "spain": "Functional trending. (24 items)",
+    "italy": "Functional trending. (23 items)",
+    "austria": "Functional trending. (42 items)"
   },
   "meta": {
-    "total_articles_analyzed": 216,
+    "total_articles_analyzed": 188,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 115,
-      "launch": 28,
-      "regulatory": 23,
-      "pricing": 18,
+      "trend": 111,
+      "launch": 22,
+      "innovation": 19,
+      "regulatory": 17,
       "competitor": 13,
-      "supply_chain": 12,
+      "functional": 13,
       "rtd": 12,
-      "innovation": 7,
-      "sugar_free": 6,
-      "alcohol_free": 6
+      "alcohol_free": 6,
+      "pricing": 6,
+      "carbonated": 3
     }
   }
 }
