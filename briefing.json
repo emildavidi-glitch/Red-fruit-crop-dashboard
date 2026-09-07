@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-07T09:53:40.649527+00:00",
+  "generated_at": "2026-09-07T18:06:13.554715+00:00",
   "generated_date": "Monday, 07 September 2026",
-  "briefing": "Sales intelligence tracked 188 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Dallmayr und Armbrustschützenzelt führen Partnerschaft fort - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 218 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: France faces “one of smallest wine harvests in 30 years” - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (34 items)",
-    "germany": "Functional trending. (42 items)",
-    "france": "Functional trending. (23 items)",
-    "spain": "Functional trending. (24 items)",
-    "italy": "Functional trending. (23 items)",
-    "austria": "Functional trending. (42 items)"
+    "usa": "Functional trending. (42 items)",
+    "germany": "Rtd trending. (46 items)",
+    "france": "Rtd trending. (28 items)",
+    "spain": "Rtd trending. (28 items)",
+    "italy": "Rtd trending. (28 items)",
+    "austria": "Rtd trending. (46 items)"
   },
   "meta": {
-    "total_articles_analyzed": 188,
+    "total_articles_analyzed": 218,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 111,
+      "trend": 137,
       "launch": 22,
       "innovation": 19,
-      "regulatory": 17,
-      "competitor": 13,
+      "regulatory": 19,
+      "rtd": 18,
+      "competitor": 14,
       "functional": 13,
-      "rtd": 12,
       "alcohol_free": 6,
       "pricing": 6,
-      "carbonated": 3
+      "carbonated": 2
     }
   }
 }
