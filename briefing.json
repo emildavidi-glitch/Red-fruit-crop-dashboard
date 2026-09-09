@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-09T09:20:58.364734+00:00",
+  "generated_at": "2026-09-09T17:02:26.084892+00:00",
   "generated_date": "Wednesday, 09 September 2026",
-  "briefing": "Sales intelligence tracked 237 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Jeck im Sunnesching in Aachen: Letzte Tickets für das große Finale im CHIO Allianz-Park - about-drin.",
+  "briefing": "Sales intelligence tracked 243 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: RYZE Introduces Limited-Edition Pumpkin Spice Latte Mushroom Coffee, Exclusively at Target - BevNET..",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (30 items)",
-    "spain": "Rtd trending. (28 items)",
-    "italy": "Rtd trending. (29 items)",
+    "france": "Rtd trending. (31 items)",
+    "spain": "Rtd trending. (30 items)",
+    "italy": "Rtd trending. (32 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 237,
+    "total_articles_analyzed": 243,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 161,
-      "launch": 30,
+      "trend": 164,
+      "launch": 27,
       "rtd": 25,
-      "regulatory": 17,
+      "regulatory": 23,
+      "carbonated": 13,
       "functional": 13,
       "innovation": 13,
       "competitor": 8,
-      "carbonated": 6,
       "pricing": 6,
-      "hydration": 1
+      "hydration": 2
     }
   }
 }
