@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-10T09:20:16.518129+00:00",
+  "generated_at": "2026-09-10T16:53:27.341886+00:00",
   "generated_date": "Thursday, 10 September 2026",
-  "briefing": "Sales intelligence tracked 237 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: S.Pellegrino und Drei-Sterne-Koch Christian Bau starten Partnerschaft - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 255 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: C&C Group relaunches Tennent’s stout in UK - Just Drinks.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (29 items)",
-    "spain": "Rtd trending. (28 items)",
-    "italy": "Rtd trending. (30 items)",
+    "france": "Rtd trending. (35 items)",
+    "spain": "Rtd trending. (34 items)",
+    "italy": "Rtd trending. (36 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 237,
+    "total_articles_analyzed": 255,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 153,
-      "launch": 31,
-      "rtd": 31,
-      "regulatory": 23,
-      "carbonated": 15,
-      "functional": 13,
+      "trend": 170,
+      "launch": 36,
+      "rtd": 28,
+      "regulatory": 21,
+      "carbonated": 14,
       "innovation": 13,
+      "functional": 12,
       "competitor": 7,
-      "pricing": 6,
-      "hydration": 2
+      "energy": 6,
+      "pricing": 4
     }
   }
 }
