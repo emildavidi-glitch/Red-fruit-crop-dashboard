@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-11T09:19:04.483746+00:00",
+  "generated_at": "2026-09-11T16:55:12.898162+00:00",
   "generated_date": "Friday, 11 September 2026",
-  "briefing": "Sales intelligence tracked 236 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Bitburger Braugruppe: Ali Hariri wird neuer Exportchef - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 252 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Holidaily Brewing Company - Brewer/Cellar/Packaging Tech - BevNET.com Beverage Industry Job Listing .",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (29 items)",
-    "spain": "Rtd trending. (28 items)",
-    "italy": "Rtd trending. (29 items)",
+    "france": "Rtd trending. (34 items)",
+    "spain": "Rtd trending. (33 items)",
+    "italy": "Rtd trending. (35 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 236,
+    "total_articles_analyzed": 252,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 42,
-      "rtd": 32,
+      "trend": 162,
+      "launch": 44,
+      "rtd": 31,
       "innovation": 13,
-      "functional": 12,
-      "regulatory": 11,
+      "functional": 13,
+      "regulatory": 12,
       "competitor": 7,
-      "pricing": 7,
-      "energy": 6,
-      "hydration": 4
+      "sugar_free": 6,
+      "retail": 6,
+      "energy": 6
     }
   }
 }
