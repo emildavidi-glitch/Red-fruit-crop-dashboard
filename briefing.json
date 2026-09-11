@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-10T16:53:27.341886+00:00",
-  "generated_date": "Thursday, 10 September 2026",
-  "briefing": "Sales intelligence tracked 255 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: C&C Group relaunches Tennent’s stout in UK - Just Drinks.",
+  "generated_at": "2026-09-11T09:19:04.483746+00:00",
+  "generated_date": "Friday, 11 September 2026",
+  "briefing": "Sales intelligence tracked 236 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Bitburger Braugruppe: Ali Hariri wird neuer Exportchef - about-drinks.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (35 items)",
-    "spain": "Rtd trending. (34 items)",
-    "italy": "Rtd trending. (36 items)",
+    "france": "Rtd trending. (29 items)",
+    "spain": "Rtd trending. (28 items)",
+    "italy": "Rtd trending. (29 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 255,
+    "total_articles_analyzed": 236,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 170,
-      "launch": 36,
-      "rtd": 28,
-      "regulatory": 21,
-      "carbonated": 14,
+      "trend": 152,
+      "launch": 42,
+      "rtd": 32,
       "innovation": 13,
       "functional": 12,
+      "regulatory": 11,
       "competitor": 7,
+      "pricing": 7,
       "energy": 6,
-      "pricing": 4
+      "hydration": 4
     }
   }
 }
