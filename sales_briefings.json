@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-09-11T16:55:12.898162+00:00",
+  "generated_at": "2026-09-12T08:58:40.546070+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
-        {
-          "headline": "U.K.-based MOTH Bets $15M On U.S. Growth As Premium RTDs Surge - BevNET.com",
-          "detail": "U.K.-based MOTH Bets $15M On U.S. Growth As Premium RTDs Surge BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR21YWlhZTnRZQXlPMDJOSzZtRG9yOHRIVm9HTy1tM3RVMzNUUk9feGI4Q1FsY256TWN5dms0M1dnT3RCWWR1MlJmTTdtbHpORHFoOUFBU0x4em1vcEZXdjZ6NE1jSWJGUTlycHZoMTNRQU42RElxaTZDa1dYRlFzSXBpYzFMeDFOSVBXRDR3blJ2V2lXWE5xdmNJNA?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "North American Breweries returns as company rebrands following sale and appoints new CEO - BeverageDaily.com",
           "detail": "North American Breweries returns as company rebrands following sale and appoints new CEO BeverageDaily.com",
@@ -21,8 +13,16 @@
           "confidence": "high"
         },
         {
-          "headline": "New Products: Apple Soda For Olipop, Proda & Culture Pop - BevNET.com",
-          "detail": "New Products: Apple Soda For Olipop, Proda & Culture Pop BevNET.com",
+          "headline": "U.K.-based MOTH Bets $15M On U.S. Growth As Premium RTDs Surge - bevnet.com",
+          "detail": "U.K.-based MOTH Bets $15M On U.S. Growth As Premium RTDs Surge bevnet.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR21YWlhZTnRZQXlPMDJOSzZtRG9yOHRIVm9HTy1tM3RVMzNUUk9feGI4Q1FsY256TWN5dms0M1dnT3RCWWR1MlJmTTdtbHpORHFoOUFBU0x4em1vcEZXdjZ6NE1jSWJGUTlycHZoMTNRQU42RElxaTZDa1dYRlFzSXBpYzFMeDFOSVBXRDR3blJ2V2lXWE5xdmNJNA?oc=5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "headline": "New Products: Apple Soda For Olipop, Proda & Culture Pop - bevnet.com",
+          "detail": "New Products: Apple Soda For Olipop, Proda & Culture Pop bevnet.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXRBNTlYRUt6Y0VqOVEyTjF5bTBGRVE3VGZIUkdGWnlLb0xOZnJiZmZaZGFZOWRQMHlpR0J6Y2tNQ2NhYndob2xsRkZMQjNfM3lKdzQ5dms2SVE5YS03ZnBFUVBsU1RKdTdNVkFDcEVfUmJrTGhiX2Q4cVZFWE1IVGtJT0cyUjVZRVpZUWln?oc=5"
           ],
@@ -47,7 +47,7 @@
       ],
       "key_launches": [
         {
-          "title": "New Products: Apple Soda For Olipop, Proda & Culture Pop - BevNET.com",
+          "title": "New Products: Apple Soda For Olipop, Proda & Culture Pop - bevnet.com",
           "company": "Unknown",
           "product": "carbonated",
           "angle": "Map against our portfolio for overlap",
@@ -63,7 +63,7 @@
           "date": "2026-09-11T10:34:05+00:00"
         },
         {
-          "title": "Sunkist Hydration and Collagen Peptides Expands Its All-In-One Wellness Line With Two Brand New Flavors: Guava and Lychee - BevNET.com",
+          "title": "Sunkist Hydration and Collagen Peptides Expands Its All-In-One Wellness Line With Two Brand New Flavors: Guava and Lychee - bevnet.com",
           "company": "Unknown",
           "product": "hydration, protein",
           "angle": "Map against our portfolio for overlap",
@@ -71,7 +71,7 @@
           "date": "2026-09-11T00:31:47+00:00"
         },
         {
-          "title": "2O3 Launches a Performance Hydration Beverage With Electrolytes and Honey - BevNET.com",
+          "title": "2O3 Launches a Performance Hydration Beverage With Electrolytes and Honey - bevnet.com",
           "company": "Unknown",
           "product": "hydration",
           "angle": "Map against our portfolio for overlap",
@@ -79,7 +79,7 @@
           "date": "2026-09-10T23:02:45+00:00"
         },
         {
-          "title": "Oval Coffee Roasters Launches Six Specialty Coffee Products at Fresh Thyme Market - BevNET.com",
+          "title": "Oval Coffee Roasters Launches Six Specialty Coffee Products at Fresh Thyme Market - bevnet.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -107,7 +107,7 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
+          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
@@ -126,19 +126,19 @@
       "signals": [
         {
           "signal": "Rtd trending in United States",
-          "explanation": "8 articles mention rtd in the last 28 days",
-          "support_count": 8,
+          "explanation": "7 articles mention rtd in the last 28 days",
+          "support_count": 7,
           "top_keywords": [
             "rtd"
           ],
           "confidence": "high"
         },
         {
-          "signal": "Premium trending in United States",
-          "explanation": "2 articles mention premium in the last 28 days",
-          "support_count": 2,
+          "signal": "Hydration trending in United States",
+          "explanation": "3 articles mention hydration in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
-            "premium"
+            "hydration"
           ],
           "confidence": "medium"
         },
@@ -152,15 +152,6 @@
           "confidence": "medium"
         },
         {
-          "signal": "Hydration trending in United States",
-          "explanation": "2 articles mention hydration in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Functional trending in United States",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -168,6 +159,15 @@
             "functional"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Premium trending in United States",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -244,16 +244,16 @@
           "confidence": "medium"
         },
         {
-          "headline": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
-          "detail": "C&C Group relaunches Tennent’s stout in UK just-drinks.com",
+          "headline": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
+          "detail": "C&C Group relaunches Tennent’s stout in UK Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZjhZV3IyMjBvNVNLNVY2cHNiVHZTMVNyWXhILVZwSFl5bWQ4amstVEV6djA3bjZQallyM1lubkE0Ylp6VTZOSy1YekxLRjJUOWVBNzUtcXVENmF1c0szczlOUVZ0OEV0UHRUMmRiQko5TjNURVcxTVJjM3R0Ykk?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
-          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat just-drinks.com",
+          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
+          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
           ],
@@ -270,7 +270,7 @@
           "date": "2026-09-11T10:34:05+00:00"
         },
         {
-          "title": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
+          "title": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -286,20 +286,20 @@
           "date": "2026-09-09T16:46:28+00:00"
         },
         {
+          "title": "GIN SUL launcht dritte Island Edition: Jardim do Paraíso – Inspirado no Japão - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpwb1djV192U3VkM1Nud0lOV0Z3THJTc1RCa0d2bm9BZ1ZTeVFUdGgxTDVObjRheV9XNlA2ZG5nVGZaYmJxSFFwbTdxY1F3cFg1WmdIbVE2SWtHOGxrMUItNk8waU9rU1dhcGE2M3ljbUU4elVkX3NxWnVOek1OMEZVUWFOMFBHOTBNc09JNTNiMXpUZ0o0dzVrT2RENTVQaE9Qc3k2TQ?oc=5",
+          "date": "2026-09-09T10:03:26+00:00"
+        },
+        {
           "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5",
           "date": "2026-09-04T10:43:29+00:00"
-        },
-        {
-          "title": "New beverage launches: Mate iced tea, Sierra Paloma and beer bonanza… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORWd0NExoUU1TcGtCOFpfRXBMT1Z2alZzOVZjZUlUcXpBaTZMeGxwSjFiRDBNa0RIcDV3WG5kZFRtZ05qYl93RlNsMEhFWDZiVlk5WXJZUU03aTBmYktva1RQVFEyWTFGOG9YVEh4ZHZtak9LdXc3czFCQlRTQ0JSck1YMm1faDVXTXZnbHVILWx3YU9CN1RIZEhoSjYtaGM?oc=5",
-          "date": "2026-08-28T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -321,23 +321,38 @@
           "date": "2026-09-11T11:15:36+00:00"
         },
         {
-          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
+          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
           "date": "2026-09-09T12:48:53+00:00"
+        },
+        {
+          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - foodingredientsfirst.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
+          "date": "2026-08-26T07:00:00+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "Alcohol industry urges US, Canada to resume tariff talks - Just Drinks",
+          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjJzMURfVFNCNWRwOGdibG1tTDJBQkgyejdQc1JGdFFXS1hwYVZGV1hSdENGcG55REJOTWVWckwxSE1EajE2M0ppakxNc1l1b1pDNFFSSE5PM2VvWVlPamMzLVFMRnQzZnV3Zk5Nc1llaG85OFJ4b1lTNVpFbDJsUkFybUFfVHozZXpwZGZDVXZENnpoVGk3cGRYVzNJY2k3el9N?oc=5",
+          "date": "2026-08-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Rtd trending in Germany",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention rtd in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Functional trending in Germany",
@@ -391,7 +406,8 @@
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb2FCQS1WSG1md3gwSHV1eUJ4ODl6MlphNXpCbXBvaVc3QmUwN19mOURFUF8tWUZFM0dFSmhyNGY0aHF4anh6UEt3REstblhsMmZaWTZJODB6TjV1TkQxaFVpS1owTEFJenBua2x0RkRfbWl2b0lhSG4yTWtlR1YwXzZEeWl2UEtXbTA5elVqTmk?oc=5",
-            "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
+            "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         },
         {
@@ -420,7 +436,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb2FCQS1WSG1md3gwSHV1eUJ4ODl6MlphNXpCbXBvaVc3QmUwN19mOURFUF8tWUZFM0dFSmhyNGY0aHF4anh6UEt3REstblhsMmZaWTZJODB6TjV1TkQxaFVpS1owTEFJenBua2x0RkRfbWl2b0lhSG4yTWtlR1YwXzZEeWl2UEtXbTA5elVqTmk?oc=5",
-            "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
+            "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
+            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5"
           ]
         }
       ]
@@ -436,24 +453,24 @@
           "confidence": "medium"
         },
         {
-          "headline": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
-          "detail": "C&C Group relaunches Tennent’s stout in UK just-drinks.com",
+          "headline": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
+          "detail": "C&C Group relaunches Tennent’s stout in UK Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZjhZV3IyMjBvNVNLNVY2cHNiVHZTMVNyWXhILVZwSFl5bWQ4amstVEV6djA3bjZQallyM1lubkE0Ylp6VTZOSy1YekxLRjJUOWVBNzUtcXVENmF1c0szczlOUVZ0OEV0UHRUMmRiQko5TjNURVcxTVJjM3R0Ykk?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
-          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat just-drinks.com",
+          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
+          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Global travel retail offers ray of light amid spirits-industry gloom - just-drinks.com",
-          "detail": "Global travel retail offers ray of light amid spirits-industry gloom just-drinks.com",
+          "headline": "Global travel retail offers ray of light amid spirits-industry gloom - Just Drinks",
+          "detail": "Global travel retail offers ray of light amid spirits-industry gloom Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWtWNHgwSHI2WERlaFVSeFlpZ01tOGdMLUxub2FmTFNrclhTNXpwbTQwbkUwRUNhT19nUm1iNHJBSDVoRlltSW1FcVgwY3lzZ2Y2bzhZNkNlZXZQcm5OZE5taW1ZR0VieENqNW9sOVY5UzF0NEJDVkFqd3pSZXNLMTdUWHpHaGRaSnFVVm9mWmVlQl9WQjg1c0RWTk9IbUZtQ1ZjZkFRa2c?oc=5"
           ],
@@ -478,7 +495,7 @@
           "date": "2026-09-11T10:34:05+00:00"
         },
         {
-          "title": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
+          "title": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -522,14 +539,14 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
+          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
           "date": "2026-09-09T12:48:53+00:00"
         },
         {
-          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - Food Ingredients First",
+          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - foodingredientsfirst.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
@@ -538,8 +555,8 @@
       ],
       "pricing_promotions": [
         {
-          "title": "Alcohol industry urges US, Canada to resume tariff talks - just-drinks.com",
-          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks just-drinks.com",
+          "title": "Alcohol industry urges US, Canada to resume tariff talks - Just Drinks",
+          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjJzMURfVFNCNWRwOGdibG1tTDJBQkgyejdQc1JGdFFXS1hwYVZGV1hSdENGcG55REJOTWVWckwxSE1EajE2M0ppakxNc1l1b1pDNFFSSE5PM2VvWVlPamMzLVFMRnQzZnV3Zk5Nc1llaG85OFJ4b1lTNVpFbDJsUkFybUFfVHozZXpwZGZDVXZENnpoVGk3cGRYVzNJY2k3el9N?oc=5",
           "date": "2026-08-24T07:00:00+00:00"
@@ -643,24 +660,24 @@
           "confidence": "medium"
         },
         {
-          "headline": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
-          "detail": "C&C Group relaunches Tennent’s stout in UK just-drinks.com",
+          "headline": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
+          "detail": "C&C Group relaunches Tennent’s stout in UK Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZjhZV3IyMjBvNVNLNVY2cHNiVHZTMVNyWXhILVZwSFl5bWQ4amstVEV6djA3bjZQallyM1lubkE0Ylp6VTZOSy1YekxLRjJUOWVBNzUtcXVENmF1c0szczlOUVZ0OEV0UHRUMmRiQko5TjNURVcxTVJjM3R0Ykk?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
-          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat just-drinks.com",
+          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
+          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Global travel retail offers ray of light amid spirits-industry gloom - just-drinks.com",
-          "detail": "Global travel retail offers ray of light amid spirits-industry gloom just-drinks.com",
+          "headline": "Global travel retail offers ray of light amid spirits-industry gloom - Just Drinks",
+          "detail": "Global travel retail offers ray of light amid spirits-industry gloom Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWtWNHgwSHI2WERlaFVSeFlpZ01tOGdMLUxub2FmTFNrclhTNXpwbTQwbkUwRUNhT19nUm1iNHJBSDVoRlltSW1FcVgwY3lzZ2Y2bzhZNkNlZXZQcm5OZE5taW1ZR0VieENqNW9sOVY5UzF0NEJDVkFqd3pSZXNLMTdUWHpHaGRaSnFVVm9mWmVlQl9WQjg1c0RWTk9IbUZtQ1ZjZkFRa2c?oc=5"
           ],
@@ -685,7 +702,7 @@
           "date": "2026-09-11T10:34:05+00:00"
         },
         {
-          "title": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
+          "title": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -729,14 +746,14 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
+          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
           "date": "2026-09-09T12:48:53+00:00"
         },
         {
-          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - Food Ingredients First",
+          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - foodingredientsfirst.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
@@ -745,8 +762,8 @@
       ],
       "pricing_promotions": [
         {
-          "title": "Alcohol industry urges US, Canada to resume tariff talks - just-drinks.com",
-          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks just-drinks.com",
+          "title": "Alcohol industry urges US, Canada to resume tariff talks - Just Drinks",
+          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjJzMURfVFNCNWRwOGdibG1tTDJBQkgyejdQc1JGdFFXS1hwYVZGV1hSdENGcG55REJOTWVWckwxSE1EajE2M0ppakxNc1l1b1pDNFFSSE5PM2VvWVlPamMzLVFMRnQzZnV3Zk5Nc1llaG85OFJ4b1lTNVpFbDJsUkFybUFfVHozZXpwZGZDVXZENnpoVGk3cGRYVzNJY2k3el9N?oc=5",
           "date": "2026-08-24T07:00:00+00:00"
@@ -858,24 +875,24 @@
           "confidence": "medium"
         },
         {
-          "headline": "Pepsi Kicks Off Its 26th NFL Season With Jerome Bettis and Justin Jefferson, Reminding Fans That Tailgating Deserves Pepsi - BevNET.com",
-          "detail": "Pepsi Kicks Off Its 26th NFL Season With Jerome Bettis and Justin Jefferson, Reminding Fans That Tailgating Deserves Pepsi BevNET.com",
+          "headline": "Pepsi Kicks Off Its 26th NFL Season With Jerome Bettis and Justin Jefferson, Reminding Fans That Tailgating Deserves Pepsi - bevnet.com",
+          "detail": "Pepsi Kicks Off Its 26th NFL Season With Jerome Bettis and Justin Jefferson, Reminding Fans That Tailgating Deserves Pepsi bevnet.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQVNCNjZCcmoxdExMM1Utb2pxTUFoQmpNa2pHUTA4bWtGYUdSWUQtUWpoaG9sN0FkNHpIMkVGWjg3WFI2dEZpQ3U5UW5SWXp2bGl3MFNURkxrZ2VSZUdmSmhOMFZ5Q0hPWmFVYmtoWVZVSDdpTVJwTkpFNnAzLVk4OFh2eG9lNnVGWTY0N2d5akdqaUhxbExDRmVFVjJQYWVVQVZoZ280UnJnNTd6T3ZKVk1LeWRDTnRYdVJlZlBBeE1SWDRQUk1BT0FuaFVwTTgtdXRMX3BYaFRHb1QxeUJJRmtBMFVXekJWQTJvWUVmOA?oc=5"
           ],
           "confidence": "high"
         },
         {
-          "headline": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
-          "detail": "C&C Group relaunches Tennent’s stout in UK just-drinks.com",
+          "headline": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
+          "detail": "C&C Group relaunches Tennent’s stout in UK Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZjhZV3IyMjBvNVNLNVY2cHNiVHZTMVNyWXhILVZwSFl5bWQ4amstVEV6djA3bjZQallyM1lubkE0Ylp6VTZOSy1YekxLRjJUOWVBNzUtcXVENmF1c0szczlOUVZ0OEV0UHRUMmRiQko5TjNURVcxTVJjM3R0Ykk?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
-          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat just-drinks.com",
+          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
+          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
           ],
@@ -900,7 +917,7 @@
           "date": "2026-09-11T10:34:05+00:00"
         },
         {
-          "title": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
+          "title": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -936,14 +953,14 @@
       ],
       "regulatory_watch": [
         {
-          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
+          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
           "date": "2026-09-09T12:48:53+00:00"
         },
         {
-          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - Food Ingredients First",
+          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - foodingredientsfirst.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
@@ -952,8 +969,8 @@
       ],
       "pricing_promotions": [
         {
-          "title": "Alcohol industry urges US, Canada to resume tariff talks - just-drinks.com",
-          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks just-drinks.com",
+          "title": "Alcohol industry urges US, Canada to resume tariff talks - Just Drinks",
+          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjJzMURfVFNCNWRwOGdibG1tTDJBQkgyejdQc1JGdFFXS1hwYVZGV1hSdENGcG55REJOTWVWckwxSE1EajE2M0ppakxNc1l1b1pDNFFSSE5PM2VvWVlPamMzLVFMRnQzZnV3Zk5Nc1llaG85OFJ4b1lTNVpFbDJsUkFybUFfVHozZXpwZGZDVXZENnpoVGk3cGRYVzNJY2k3el9N?oc=5",
           "date": "2026-08-24T07:00:00+00:00"
@@ -1083,16 +1100,16 @@
           "confidence": "medium"
         },
         {
-          "headline": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
-          "detail": "C&C Group relaunches Tennent’s stout in UK just-drinks.com",
+          "headline": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
+          "detail": "C&C Group relaunches Tennent’s stout in UK Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZjhZV3IyMjBvNVNLNVY2cHNiVHZTMVNyWXhILVZwSFl5bWQ4amstVEV6djA3bjZQallyM1lubkE0Ylp6VTZOSy1YekxLRjJUOWVBNzUtcXVENmF1c0szczlOUVZ0OEV0UHRUMmRiQko5TjNURVcxTVJjM3R0Ykk?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
-          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat just-drinks.com",
+          "headline": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
+          "detail": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5"
           ],
@@ -1109,7 +1126,7 @@
           "date": "2026-09-11T10:34:05+00:00"
         },
         {
-          "title": "C&C Group relaunches Tennent’s stout in UK - just-drinks.com",
+          "title": "C&C Group relaunches Tennent’s stout in UK - Just Drinks",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -1125,20 +1142,20 @@
           "date": "2026-09-09T16:46:28+00:00"
         },
         {
+          "title": "GIN SUL launcht dritte Island Edition: Jardim do Paraíso – Inspirado no Japão - about-drinks.com",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpwb1djV192U3VkM1Nud0lOV0Z3THJTc1RCa0d2bm9BZ1ZTeVFUdGgxTDVObjRheV9XNlA2ZG5nVGZaYmJxSFFwbTdxY1F3cFg1WmdIbVE2SWtHOGxrMUItNk8waU9rU1dhcGE2M3ljbUU4elVkX3NxWnVOek1OMEZVUWFOMFBHOTBNc09JNTNiMXpUZ0o0dzVrT2RENTVQaE9Qc3k2TQ?oc=5",
+          "date": "2026-09-09T10:03:26+00:00"
+        },
+        {
           "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5",
           "date": "2026-09-04T10:43:29+00:00"
-        },
-        {
-          "title": "New beverage launches: Mate iced tea, Sierra Paloma and beer bonanza… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORWd0NExoUU1TcGtCOFpfRXBMT1Z2alZzOVZjZUlUcXpBaTZMeGxwSjFiRDBNa0RIcDV3WG5kZFRtZ05qYl93RlNsMEhFWDZiVlk5WXJZUU03aTBmYktva1RQVFEyWTFGOG9YVEh4ZHZtak9LdXc3czFCQlRTQ0JSck1YMm1faDVXTXZnbHVILWx3YU9CN1RIZEhoSjYtaGM?oc=5",
-          "date": "2026-08-28T07:00:00+00:00"
         }
       ],
       "competitor_moves": [
@@ -1160,30 +1177,38 @@
           "date": "2026-09-11T11:15:36+00:00"
         },
         {
-          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - just-drinks.com",
+          "title": "Trump bans Canadian alcohol, dairy imports in tariffs tit-for-tat - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdzF5ekNkaTAtejZEN1AyMEhkNE8xVG1fczlxQktKVkRhWDNhQ2V6Y3ZkeTZfLWdWNVBweEg4eXY2MG5GYUI0alhRYlR3eDBUaHlwU29CRjROcWhGRFEzWm5fU1ZRU1VFM1U4Uzd3?oc=5",
           "date": "2026-09-09T12:48:53+00:00"
         },
         {
-          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - Food Ingredients First",
+          "title": "EU PPWR: What F&B companies need to know about the new packaging rules - foodingredientsfirst.com",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlRzOUEtX18wTDlqYVJrcThQRnpmWWM1NzUyTlRPZlFGQXVJcFAwNE9rZFE4clV0UHMzdWNUaklKUXFmMEFUeWs2bEdYVEVPNU1jWWZuanZVZGg5NTU0OG9HYnJaX19yV0xtR2FYRXRxOVJNRGx2MjI1TEtXYkJMeDd2djJ1cVU?oc=5",
           "date": "2026-08-26T07:00:00+00:00"
         }
       ],
-      "pricing_promotions": [],
+      "pricing_promotions": [
+        {
+          "title": "Alcohol industry urges US, Canada to resume tariff talks - Just Drinks",
+          "what_changed": "Alcohol industry urges US, Canada to resume tariff talks Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjJzMURfVFNCNWRwOGdibG1tTDJBQkgyejdQc1JGdFFXS1hwYVZGV1hSdENGcG55REJOTWVWckwxSE1EajE2M0ppakxNc1l1b1pDNFFSSE5PM2VvWVlPamMzLVFMRnQzZnV3Zk5Nc1llaG85OFJ4b1lTNVpFbDJsUkFybUFfVHozZXpwZGZDVXZENnpoVGk3cGRYVzNJY2k3el9N?oc=5",
+          "date": "2026-08-24T07:00:00+00:00"
+        }
+      ],
       "signals": [
         {
           "signal": "Rtd trending in Austria",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
+          "explanation": "5 articles mention rtd in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "signal": "Functional trending in Austria",
