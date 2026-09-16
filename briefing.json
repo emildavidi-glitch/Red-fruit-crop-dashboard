@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-15T17:28:22.220201+00:00",
-  "generated_date": "Tuesday, 15 September 2026",
-  "briefing": "Sales intelligence tracked 228 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Erhöhung der Alkoholsteuer: BSI sieht rechtliche Bedenken - about-drinks.com.",
+  "generated_at": "2026-09-16T09:38:07.682556+00:00",
+  "generated_date": "Wednesday, 16 September 2026",
+  "briefing": "Sales intelligence tracked 212 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: kommunikation.pur: Agentur mit neuer Führung ab April 2027 - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (44 items)",
+    "usa": "Carbonated trending. (41 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Rtd trending. (28 items)",
-    "spain": "Rtd trending. (27 items)",
-    "italy": "Functional trending. (29 items)",
-    "austria": "Rtd trending. (50 items)"
+    "france": "Functional trending. (24 items)",
+    "spain": "Functional trending. (23 items)",
+    "italy": "Functional trending. (25 items)",
+    "austria": "Functional trending. (49 items)"
   },
   "meta": {
-    "total_articles_analyzed": 228,
+    "total_articles_analyzed": 212,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 151,
+      "trend": 127,
       "launch": 23,
       "functional": 20,
       "innovation": 20,
-      "rtd": 18,
-      "regulatory": 12,
-      "pricing": 10,
-      "competitor": 6,
-      "energy": 6,
-      "supply_chain": 5
+      "regulatory": 13,
+      "pricing": 9,
+      "sugar_free": 8,
+      "rtd": 8,
+      "competitor": 7,
+      "supply_chain": 6
     }
   }
 }
