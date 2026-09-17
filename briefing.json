@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-17T09:46:37.907764+00:00",
+  "generated_at": "2026-09-17T17:27:56.721754+00:00",
   "generated_date": "Thursday, 17 September 2026",
-  "briefing": "Sales intelligence tracked 226 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Gastgewerbe unter Druck: Mehrwertsteuergeschenk verpufft, Beschäftigte am Limit - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 238 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Finney Hospitality Group - Assistant Brewer - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (47 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (27 items)",
-    "spain": "Functional trending. (26 items)",
-    "italy": "Functional trending. (26 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
+    "france": "Functional trending. (30 items)",
+    "spain": "Functional trending. (29 items)",
+    "italy": "Functional trending. (29 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 226,
+    "total_articles_analyzed": 238,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 144,
-      "launch": 28,
-      "functional": 20,
-      "innovation": 20,
-      "rtd": 10,
-      "sugar_free": 8,
-      "retail": 7,
-      "carbonated": 7,
-      "regulatory": 7,
-      "pricing": 7
+      "trend": 167,
+      "launch": 25,
+      "innovation": 15,
+      "functional": 14,
+      "rtd": 9,
+      "carbonated": 8,
+      "regulatory": 6,
+      "supply_chain": 6,
+      "pricing": 6,
+      "competitor": 6
     }
   }
 }
