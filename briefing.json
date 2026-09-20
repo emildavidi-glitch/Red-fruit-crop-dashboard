@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-19T16:13:34.199761+00:00",
-  "generated_date": "Saturday, 19 September 2026",
-  "briefing": "Sales intelligence tracked 196 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Why Sazerac might move for under-pressure Berentzen - Just Drinks.",
+  "generated_at": "2026-09-20T09:33:46.942336+00:00",
+  "generated_date": "Sunday, 20 September 2026",
+  "briefing": "Sales intelligence tracked 186 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Strong Rope Brewery - Floor Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (40 items)",
-    "germany": "Functional trending. (41 items)",
-    "france": "Functional trending. (26 items)",
-    "spain": "Functional trending. (25 items)",
-    "italy": "Functional trending. (25 items)",
-    "austria": "Functional trending. (39 items)"
+    "usa": "Functional trending. (39 items)",
+    "germany": "Energy trending. (39 items)",
+    "france": "Energy trending. (24 items)",
+    "spain": "Energy trending. (24 items)",
+    "italy": "Energy trending. (24 items)",
+    "austria": "Energy trending. (36 items)"
   },
   "meta": {
-    "total_articles_analyzed": 196,
+    "total_articles_analyzed": 186,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 118,
-      "launch": 27,
-      "functional": 21,
-      "innovation": 20,
-      "regulatory": 14,
+      "trend": 120,
+      "launch": 20,
+      "functional": 14,
+      "innovation": 14,
+      "regulatory": 13,
       "energy": 12,
-      "rtd": 9,
+      "rtd": 12,
       "competitor": 7,
-      "carbonated": 6,
-      "pricing": 6
+      "pricing": 6,
+      "carbonated": 5
     }
   }
 }
