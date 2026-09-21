@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-21T10:21:16.650665+00:00",
+  "generated_at": "2026-09-21T18:28:34.022706+00:00",
   "generated_date": "Monday, 21 September 2026",
-  "briefing": "Sales intelligence tracked 202 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Walovi scales up SEA push as it targets global plant-based beverage growth - FoodNavigator.com.",
+  "briefing": "Sales intelligence tracked 223 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Cantine Riunite Introduces New 187ml Formats for Alcohol-Free Expressions, Bringing Italian Wine to .",
   "signals": {
-    "usa": "Functional trending. (40 items)",
-    "germany": "Energy trending. (45 items)",
-    "france": "Energy trending. (25 items)",
-    "spain": "Energy trending. (25 items)",
-    "italy": "Energy trending. (25 items)",
-    "austria": "Energy trending. (42 items)"
+    "usa": "Functional trending. (43 items)",
+    "germany": "Energy trending. (50 items)",
+    "france": "Energy trending. (27 items)",
+    "spain": "Energy trending. (27 items)",
+    "italy": "Alcohol Free trending. (28 items)",
+    "austria": "Energy trending. (48 items)"
   },
   "meta": {
-    "total_articles_analyzed": 202,
+    "total_articles_analyzed": 223,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 141,
-      "launch": 25,
-      "innovation": 15,
+      "trend": 153,
+      "launch": 27,
+      "innovation": 16,
       "functional": 14,
-      "energy": 12,
+      "energy": 13,
       "rtd": 12,
       "regulatory": 8,
-      "dairy_alt": 6,
-      "pricing": 6,
-      "carbonated": 5
+      "alcohol_free": 7,
+      "retail": 6,
+      "dairy_alt": 6
     }
   }
 }
