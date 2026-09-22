@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-22T09:35:40.494092+00:00",
+  "generated_at": "2026-09-22T17:31:10.400934+00:00",
   "generated_date": "Tuesday, 22 September 2026",
-  "briefing": "Sales intelligence tracked 210 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: 70 Jahre Tannenzäpfle: PUMA und Rothaus launchen Sneaker zum Jubiläum - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 227 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Botanical Wellness Brand, oHHo, Launches oHHo Energy, A Five-Active Functional Energy Drink With Eve.",
   "signals": {
-    "usa": "Functional trending. (40 items)",
+    "usa": "Energy trending. (48 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Rtd trending. (24 items)",
-    "spain": "Rtd trending. (24 items)",
-    "italy": "Alcohol Free trending. (25 items)",
-    "austria": "Rtd trending. (47 items)"
+    "france": "Rtd trending. (26 items)",
+    "spain": "Rtd trending. (26 items)",
+    "italy": "Rtd trending. (27 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 210,
+    "total_articles_analyzed": 227,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 23,
-      "innovation": 16,
-      "functional": 14,
-      "rtd": 12,
-      "energy": 7,
+      "trend": 172,
+      "launch": 19,
+      "rtd": 18,
+      "innovation": 17,
+      "energy": 15,
+      "functional": 15,
       "alcohol_free": 7,
       "retail": 6,
-      "dairy_alt": 6,
-      "pricing": 6
+      "pricing": 6,
+      "carbonated": 5
     }
   }
 }
