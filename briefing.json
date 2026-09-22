@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-21T18:28:34.022706+00:00",
-  "generated_date": "Monday, 21 September 2026",
-  "briefing": "Sales intelligence tracked 223 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Cantine Riunite Introduces New 187ml Formats for Alcohol-Free Expressions, Bringing Italian Wine to .",
+  "generated_at": "2026-09-22T09:35:40.494092+00:00",
+  "generated_date": "Tuesday, 22 September 2026",
+  "briefing": "Sales intelligence tracked 210 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: 70 Jahre Tannenzäpfle: PUMA und Rothaus launchen Sneaker zum Jubiläum - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (43 items)",
-    "germany": "Energy trending. (50 items)",
-    "france": "Energy trending. (27 items)",
-    "spain": "Energy trending. (27 items)",
-    "italy": "Alcohol Free trending. (28 items)",
-    "austria": "Energy trending. (48 items)"
+    "usa": "Functional trending. (40 items)",
+    "germany": "Rtd trending. (50 items)",
+    "france": "Rtd trending. (24 items)",
+    "spain": "Rtd trending. (24 items)",
+    "italy": "Alcohol Free trending. (25 items)",
+    "austria": "Rtd trending. (47 items)"
   },
   "meta": {
-    "total_articles_analyzed": 223,
+    "total_articles_analyzed": 210,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 153,
-      "launch": 27,
+      "trend": 152,
+      "launch": 23,
       "innovation": 16,
       "functional": 14,
-      "energy": 13,
       "rtd": 12,
-      "regulatory": 8,
+      "energy": 7,
       "alcohol_free": 7,
       "retail": 6,
-      "dairy_alt": 6
+      "dairy_alt": 6,
+      "pricing": 6
     }
   }
 }
