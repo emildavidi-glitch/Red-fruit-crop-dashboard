@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-09-23T09:41:18.122951+00:00",
+  "generated_at": "2026-09-23T17:42:16.557228+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "Ferrero relaunches Wonka candy brand",
+          "detail": "The food giant is releasing a line of limited-edition treats with unexpected colors and texture combinations to attract a new generation of consumers.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/ferrero-relaunches-wonka-candy-brand-netflix/831147/"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "Botanical Wellness Brand, oHHo, Launches oHHo Energy, A Five-Active Functional Energy Drink With Every Dose on the Label - BevNET.com",
           "detail": "Botanical Wellness Brand, oHHo, Launches oHHo Energy, A Five-Active Functional Energy Drink With Every Dose on the Label BevNET.com",
@@ -35,17 +43,17 @@
             "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSm9jaEFuenVTSzhHVVF4Qk5LdVJJYm15N3JaVDZkQlhmNkpEYl92YlY4dzZla2Y2NWRPVy1hNEtJY21NbVZKdUpJdVRpN3JLUWJSVER4ZU13cWN6TmtMbjBSYWZmbmZGN1FqRTZfLUJvakM4anFRdUVyajRKTVJsWkQ5NGdjcFliNG1LQkFIRjlkdDBhU28yaDhOZE1qZk9NY0tqSFpONDZTeGVBQTA4ZG5kZ0VxLUhmODBobG9WMjM?oc=5"
           ],
           "confidence": "medium"
-        },
-        {
-          "headline": "Flash Energy Drink Expands Functional Energy Lineup Ahead of 2027 Growth - BevNET.com",
-          "detail": "Flash Energy Drink Expands Functional Energy Lineup Ahead of 2027 Growth BevNET.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmdfdU5RYy1aTFVBeDBLa3V2aVRGbURuM3p2U1c4aExoZXVvck9zM2p4MTlBQVhfdmxqbjlERUFPNE1sTVY2ODd1ZkhCcW5VUk5MNU1OeVBKd1BSejl2WUJqVUNhMmhaN2NWUmNRVDVsU2pYaWVOYkl0dGRzTFp5WlVBOVF0cUFySFotZnJkTjJvNElTRWVKWlhTUkM1QmZxc3ZVNzJhejVHeGR6clE?oc=5"
-          ],
-          "confidence": "medium"
         }
       ],
       "key_launches": [
+        {
+          "title": "Ferrero relaunches Wonka candy brand",
+          "company": "Unknown",
+          "product": "beverage",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://www.fooddive.com/news/ferrero-relaunches-wonka-candy-brand-netflix/831147/",
+          "date": "2026-09-23T10:57:00-04:00"
+        },
         {
           "title": "Chlorophyll Water Expands Southeast Presence with Launch at Select Winn-Dixie Locations - BevNET.com",
           "company": "Unknown",
@@ -77,14 +85,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://www.fooddive.com/news/mondelez-biscoff-costco-truffles-innovation/830748/",
           "date": "2026-09-22T09:05:00-04:00"
-        },
-        {
-          "title": "oHy Makes a Splash at Target with Nationwide Launch of Its Hydrogen Sparkling Water - BevNET.com",
-          "company": "Target",
-          "product": "carbonated",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeEZMWHFPZHpLaUNUVFVRbVFiaGZEMUVmODIzSGdrbXRRc3ZxUzVTNlBveG4yR3lSdVpHVE0xbVZmLWJrbV95NS1pT2dJQWFjOUFVOUdXMGROak9HV25KT3hlbVRLUC01ZlMzS1hKQ3NqU1Bmb0k5OU10N25JV0hLZmtyNDJ1OXh4VURtNzNkQ0ZGMnl6Z1NIVURCSFMwRTB4WDMtWHRadDRMdE9haERFcVpOVTctX2VKa0ZERg?oc=5",
-          "date": "2026-09-21T20:31:21+00:00"
         }
       ],
       "competitor_moves": [],
@@ -113,8 +113,8 @@
       ],
       "pricing_promotions": [
         {
-          "title": "Trump: I’ll remove US tariffs on Irish whiskey - Just Drinks",
-          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey Just Drinks",
+          "title": "Trump: I’ll remove US tariffs on Irish whiskey - just-drinks.com",
+          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey just-drinks.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjdmTmNORnRselJrQ1pLeEZPLUNTMmRLQkZpZ2JKWUYyV1BFWjB3SWZqaGI4OGFFS0lnaFROMl9mNzI5eGRxSGVYb0tuTTlvcDAzVnlIemp3V1hJa0gxQ3FmWk5MNUlfTms4dlRIYTdvNXFkZTk5ZVp6ZnNxNTlqbWZORWI?oc=5",
           "date": "2026-09-14T13:19:46+00:00"
@@ -132,21 +132,12 @@
         },
         {
           "signal": "Functional trending in United States",
-          "explanation": "6 articles mention functional in the last 28 days",
-          "support_count": 6,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
           "confidence": "high"
-        },
-        {
-          "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
         },
         {
           "signal": "Rtd trending in United States",
@@ -159,12 +150,21 @@
         },
         {
           "signal": "Alcohol Free trending in United States",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "alcohol_free"
           ],
-          "confidence": "low"
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
         }
       ],
       "talking_points": [
@@ -172,9 +172,9 @@
           "customer_type": "retail",
           "pitch": "5 new product launches in United States — ask about shelf space for new formats",
           "supporting_evidence_urls": [
+            "https://www.fooddive.com/news/ferrero-relaunches-wonka-candy-brand-netflix/831147/",
             "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSm9jaEFuenVTSzhHVVF4Qk5LdVJJYm15N3JaVDZkQlhmNkpEYl92YlY4dzZla2Y2NWRPVy1hNEtJY21NbVZKdUpJdVRpN3JLUWJSVER4ZU13cWN6TmtMbjBSYWZmbmZGN1FqRTZfLUJvakM4anFRdUVyajRKTVJsWkQ5NGdjcFliNG1LQkFIRjlkdDBhU28yaDhOZE1qZk9NY0tqSFpONDZTeGVBQTA4ZG5kZ0VxLUhmODBobG9WMjM?oc=5",
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmdfdU5RYy1aTFVBeDBLa3V2aVRGbURuM3p2U1c4aExoZXVvck9zM2p4MTlBQVhfdmxqbjlERUFPNE1sTVY2ODd1ZkhCcW5VUk5MNU1OeVBKd1BSejl2WUJqVUNhMmhaN2NWUmNRVDVsU2pYaWVOYkl0dGRzTFp5WlVBOVF0cUFySFotZnJkTjJvNElTRWVKWlhTUkM1QmZxc3ZVNzJhejVHeGR6clE?oc=5",
-            "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR3VtOFNGWk03bEhTUHpLdlpjSjU0bTdsUUlHLTJ2SEdhRk5EXzRVN24taG9YcFNYOTFEUnBiTlFULTNIQjJWWHhydVpvQ3l5eFUwbkkyZUNSSFdkcWRCNjRUVmxpQlpQTE1vU2dqX3M0TlR5aDlwVlJOT2xnLXNsSVRuYjNWS1h6MjhrMHVDWm1oa21xVFFVNEFaN2RnSXNNYmNFbEJ4M2hoX2JRaFlOdlZMNW5TaFh4U3VkUVJMU2o0am1YV2M2NTd3?oc=5"
+            "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmdfdU5RYy1aTFVBeDBLa3V2aVRGbURuM3p2U1c4aExoZXVvck9zM2p4MTlBQVhfdmxqbjlERUFPNE1sTVY2ODd1ZkhCcW5VUk5MNU1OeVBKd1BSejl2WUJqVUNhMmhaN2NWUmNRVDVsU2pYaWVOYkl0dGRzTFp5WlVBOVF0cUFySFotZnJkTjJvNElTRWVKWlhTUkM1QmZxc3ZVNzJhejVHeGR6clE?oc=5"
           ]
         },
         {
@@ -192,7 +192,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeWhnNG9tMGZfbjVHbW9fR0JGZ0Mtbkhka01iZllTUXVNUmVlSFQ4RWMzcW44N0o5RVEwTWpuOXBQdjNTWlZybDlvUmRtZWFWUUU3R204bnhKZVhWX1VHSmI4YnRTVF9HTFBjZldxR2RHMFlTM3hMQmdUYVJXdkdKbzJkNjVkQURiakh5WnRnTzN0MEJ3cWJrZDhmTlhDclNvMWdSR2o5NDVaclMtdVp2ZXUta2xPeXFiT1BUVW9HWWlPSHhaMkxteFZnWFN4ODlVY1M2eWp4RS1JWEJ2d2ZMVjB1MlpMT3M4?oc=5",
             "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmdfdU5RYy1aTFVBeDBLa3V2aVRGbURuM3p2U1c4aExoZXVvck9zM2p4MTlBQVhfdmxqbjlERUFPNE1sTVY2ODd1ZkhCcW5VUk5MNU1OeVBKd1BSejl2WUJqVUNhMmhaN2NWUmNRVDVsU2pYaWVOYkl0dGRzTFp5WlVBOVF0cUFySFotZnJkTjJvNElTRWVKWlhTUkM1QmZxc3ZVNzJhejVHeGR6clE?oc=5",
-            "https://www.fooddive.com/spons/why-functional-nutrition-calls-for-a-closer-look-at-flavor/830241/"
+            "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdE9xU3NtVTZDNmRVcmlZT3htS1dON3pqZjNoU1Q4ekFYUDNqZXBlaGYzdnFPeUlZWUZFZ3hMazhCeVViTllHdnBnLXYwLWM3M0x0N2VDMHZ5UVV4SER4T3ZtcFJEWWwzS3VjOUZRdDN2MmNNYjhaZGVURXlRUVEwTVY5SzFEQi1WVWlkbGRNdFFzM0k?oc=5"
           ]
         }
       ],
@@ -202,9 +202,9 @@
           "action": "Review 5 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
+            "https://www.fooddive.com/news/ferrero-relaunches-wonka-candy-brand-netflix/831147/",
             "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSm9jaEFuenVTSzhHVVF4Qk5LdVJJYm15N3JaVDZkQlhmNkpEYl92YlY4dzZla2Y2NWRPVy1hNEtJY21NbVZKdUpJdVRpN3JLUWJSVER4ZU13cWN6TmtMbjBSYWZmbmZGN1FqRTZfLUJvakM4anFRdUVyajRKTVJsWkQ5NGdjcFliNG1LQkFIRjlkdDBhU28yaDhOZE1qZk9NY0tqSFpONDZTeGVBQTA4ZG5kZ0VxLUhmODBobG9WMjM?oc=5",
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmdfdU5RYy1aTFVBeDBLa3V2aVRGbURuM3p2U1c4aExoZXVvck9zM2p4MTlBQVhfdmxqbjlERUFPNE1sTVY2ODd1ZkhCcW5VUk5MNU1OeVBKd1BSejl2WUJqVUNhMmhaN2NWUmNRVDVsU2pYaWVOYkl0dGRzTFp5WlVBOVF0cUFySFotZnJkTjJvNElTRWVKWlhTUkM1QmZxc3ZVNzJhejVHeGR6clE?oc=5",
-            "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR3VtOFNGWk03bEhTUHpLdlpjSjU0bTdsUUlHLTJ2SEdhRk5EXzRVN24taG9YcFNYOTFEUnBiTlFULTNIQjJWWHhydVpvQ3l5eFUwbkkyZUNSSFdkcWRCNjRUVmxpQlpQTE1vU2dqX3M0TlR5aDlwVlJOT2xnLXNsSVRuYjNWS1h6MjhrMHVDWm1oa21xVFFVNEFaN2RnSXNNYmNFbEJ4M2hoX2JRaFlOdlZMNW5TaFh4U3VkUVJMU2o0am1YV2M2NTd3?oc=5"
+            "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmdfdU5RYy1aTFVBeDBLa3V2aVRGbURuM3p2U1c4aExoZXVvck9zM2p4MTlBQVhfdmxqbjlERUFPNE1sTVY2ODd1ZkhCcW5VUk5MNU1OeVBKd1BSejl2WUJqVUNhMmhaN2NWUmNRVDVsU2pYaWVOYkl0dGRzTFp5WlVBOVF0cUFySFotZnJkTjJvNElTRWVKWlhTUkM1QmZxc3ZVNzJhejVHeGR6clE?oc=5"
           ]
         },
         {
@@ -222,14 +222,6 @@
     "germany": {
       "executive_summary": [
         {
-          "headline": "Whisky Live Germany: Tickets für die letzten sieben Masterclasses erhältlich - about-drinks.com",
-          "detail": "Whisky Live Germany: Tickets für die letzten sieben Masterclasses erhältlich about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWpQRU1mVlowald3dFNoVzNKVG9lbTZCdW5ZalFHdXJ2Rm1rTUV5cVlBS1FpTHBacHpweHc3cTdsa19yUW8zX1NEbGNYUDJONUNBcDJVck1pck04LWFCNUZ6bHVaV3FJMHZseEJFQ3Y2REgxMTlncVU2dFl5RWFMS1JJSHFBYVRFR2hlRUo0Z3BscWRiOUo1SEE3U0h3RWE4bGVDeTJReEJQWVk?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "70 Jahre Tannenzäpfle: PUMA und Rothaus launchen Sneaker zum Jubiläum - about-drinks.com",
           "detail": "70 Jahre Tannenzäpfle: PUMA und Rothaus launchen Sneaker zum Jubiläum about-drinks.com",
           "evidence_urls": [
@@ -238,26 +230,34 @@
           "confidence": "medium"
         },
         {
-          "headline": "Minges und Käfer verlängern erfolgreiche Lizenzpartnerschaft - about-drinks.com",
-          "detail": "Minges und Käfer verlängern erfolgreiche Lizenzpartnerschaft about-drinks.com",
+          "headline": "Winter-Aktionen und neue Special-Edition: Kleiner Feigling feiert die Adventszeit - about-drinks.com",
+          "detail": "Winter-Aktionen und neue Special-Edition: Kleiner Feigling feiert die Adventszeit about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTEs1c3doRnZHSGgxNlVWNnZsZWh0THp0M2NDWVppOVZqWWU3N0ZhTHVjODFha2lsODZnUTh1cmdHZklnd0FWbmNpaEJMS0ZOSVlqYzJ3T1dUdHdpdFgyVjBobU90VmMzeGdCTHlTbFBxQmtaR2VPR3JIS1k3S196S2RxdTdCRUFFVUtITDRPYmJJMElPVEtn?oc=5"
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUtEZldzVkVVTjZtcFRXZ1lGdWVLM1ZxN1JPSjNSV2dXbGpEX2ZvYTFjTVhOTUw1b1hSeEpYbEN0dnpMVXhBb1RRNFNVYUthNzVuajZ3YVdiNFQ4Q3VIUUlMaUVUejRyQ2hIY240bkh3RWI0ZlJSV1R0UDNoUklTUldoTEN1eWxjY1lZdm9jajBsbG1KRjNJdmIwZnMtSnFzZlNLMl9hemFKYWppYkpB?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "INTERNORGA: Neuer Markenauftritt und Kurs auf die 100. Ausgabe - about-drinks.com",
-          "detail": "INTERNORGA: Neuer Markenauftritt und Kurs auf die 100. Ausgabe about-drinks.com",
+          "headline": "NZ wine export volumes rise – but value sales flat - just-drinks.com",
+          "detail": "NZ wine export volumes rise – but value sales flat just-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZlp0YzJGWEtldTFpYlNKUWJGQ1N5NHgzV3BDamkyU1ZaMUJQRVNtMnBaRFFjcGRkSG9kNXV3cmJtang2NmFXN3lWNG80T1g5ZE5FemZRTjNFNC1RQlV3YVBrcVVSMjlqR3c4ZWJ3NkZKN3pFaVNTYkl1dkd3aXhLeVNEMGVvcFdKaDBiOURycDNfWndX?oc=5"
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGsxQm53QVZYcklEbEFORUJKSnBhRFMzMXlrLTlfRjcwYnoySmljN2duU0w1azJ1WGRIZ25oWWo5LW1PeHRFUjZ3NzFzWjZGeGQzZncyZDRCNVlhckFzbUdlWEdOTndtYlhPbTFLem5yWmt4MEo1UHdxc3prbnlQaE82ZHFwc2ZvT0E?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Dallmayr ist offizieller Partner des MARATHON MÜNCHEN - about-drinks.com",
-          "detail": "Dallmayr ist offizieller Partner des MARATHON MÜNCHEN about-drinks.com",
+          "headline": "González Byass promotes Murillo to top job - just-drinks.com",
+          "detail": "González Byass promotes Murillo to top job just-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdkt6MDU5a0hjQVQtYVRVUXVELUowWEoyYU9aM1VWa0tJbWhvWTBPbFFDZmJFczVNM3NvNlZQQVI5UzRHcGpnU2RHcDBMN0hwOHg5YktCZ3pidWhJZW1hdUZjMkdIY0RRR2N1X0dZUWNCR2hlYmlQcWpiWTFzZEJJcEdVb19zQmp6eXJ6bg?oc=5"
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT0Z6OFdXZFY1d3BFVFlESFRudmZ0b0t1VGxFYWJHeVBMLUVBVEppWHhCaXllUjM1XzU2bnBSRUZLU0RGUWlwOGVfVUVDdFZqU1hKY1VGOEFoU1pxUjBNeW9MN0hjUkxPOGJlVHVzaEFfTnV0ZndhMkU3dmNWeC1jQmVB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO - just-drinks.com",
+          "detail": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVXJiRjNrZEtRc1I5SzZIdThNMHRvNlhnWkRBZjRtajQyZWxBR2lpelpZcE5wQ0U0VkJ6SHJWaWw3NUNPZEtacVhkd0tpUlhWRUE5WnZ2UmM5cXF6UzJGZUZ4eTdsU3l1UFVfOUJFVXY4RWtDd3FLRzYzMUhUbUdGeWFGMUhySkd2U05wNmJoWkZZRGJyLU1WSnlOLTdrUGpWdjBEZg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -272,34 +272,35 @@
           "date": "2026-09-22T08:22:50+00:00"
         },
         {
-          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - BeverageDaily.com",
+          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - beveragedaily.com",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
           "date": "2026-09-09T07:00:00+00:00"
-        },
-        {
-          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5",
-          "date": "2026-09-04T07:00:00+00:00"
         }
       ],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [
         {
-          "title": "Trump: I’ll remove US tariffs on Irish whiskey - Just Drinks",
-          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey Just Drinks",
+          "title": "Trump: I’ll remove US tariffs on Irish whiskey - just-drinks.com",
+          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey just-drinks.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjdmTmNORnRselJrQ1pLeEZPLUNTMmRLQkZpZ2JKWUYyV1BFWjB3SWZqaGI4OGFFS0lnaFROMl9mNzI5eGRxSGVYb0tuTTlvcDAzVnlIemp3V1hJa0gxQ3FmWk5MNUlfTms4dlRIYTdvNXFkZTk5ZVp6ZnNxNTlqbWZORWI?oc=5",
           "date": "2026-09-14T13:19:46+00:00"
         }
       ],
       "signals": [
+        {
+          "signal": "Rtd trending in Germany",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Energy trending in Germany",
           "explanation": "2 articles mention energy in the last 28 days",
@@ -308,24 +309,6 @@
             "energy"
           ],
           "confidence": "medium"
-        },
-        {
-          "signal": "Rtd trending in Germany",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Organic trending in Germany",
-          "explanation": "1 articles mention organic in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "organic"
-          ],
-          "confidence": "low"
         },
         {
           "signal": "Alcohol Free trending in Germany",
@@ -337,11 +320,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Functional trending in Germany",
-          "explanation": "1 articles mention functional in the last 28 days",
+          "signal": "Organic trending in Germany",
+          "explanation": "1 articles mention organic in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "functional"
+            "organic"
           ],
           "confidence": "low"
         }
@@ -349,23 +332,21 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "2 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdi1uNE9KbWY2cEdoY1FtX3dXWFpqMmZDS0hwZzU4b2xPWV9MUjlFbWQ0N3g5QUpaZENhLVRXMlg3UXpqLWVVSjVTaXlXOU9VWlF2ZUZFNEJpcGQ1QWhfYjF3bjA1dGVvRHdsUXJmdlN1VF8wS0NTZDBHOG8xUE04a3ZhM3hWYUVaMmJFRmc0cEU3dG55TktEYkpZQm9vb3J1aUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5"
+            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 2 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdi1uNE9KbWY2cEdoY1FtX3dXWFpqMmZDS0hwZzU4b2xPWV9MUjlFbWQ0N3g5QUpaZENhLVRXMlg3UXpqLWVVSjVTaXlXOU9VWlF2ZUZFNEJpcGQ1QWhfYjF3bjA1dGVvRHdsUXJmdlN1VF8wS0NTZDBHOG8xUE04a3ZhM3hWYUVaMmJFRmc0cEU3dG55TktEYkpZQm9vb3J1aUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5"
+            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5"
           ]
         }
       ]
@@ -373,49 +354,49 @@
     "france": {
       "executive_summary": [
         {
-          "headline": "Master of Malt cyber breach exposes customer data - Just Drinks",
-          "detail": "Master of Malt cyber breach exposes customer data Just Drinks",
+          "headline": "NZ wine export volumes rise – but value sales flat - just-drinks.com",
+          "detail": "NZ wine export volumes rise – but value sales flat just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGsxQm53QVZYcklEbEFORUJKSnBhRFMzMXlrLTlfRjcwYnoySmljN2duU0w1azJ1WGRIZ25oWWo5LW1PeHRFUjZ3NzFzWjZGeGQzZncyZDRCNVlhckFzbUdlWEdOTndtYlhPbTFLem5yWmt4MEo1UHdxc3prbnlQaE82ZHFwc2ZvT0E?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "González Byass promotes Murillo to top job - just-drinks.com",
+          "detail": "González Byass promotes Murillo to top job just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT0Z6OFdXZFY1d3BFVFlESFRudmZ0b0t1VGxFYWJHeVBMLUVBVEppWHhCaXllUjM1XzU2bnBSRUZLU0RGUWlwOGVfVUVDdFZqU1hKY1VGOEFoU1pxUjBNeW9MN0hjUkxPOGJlVHVzaEFfTnV0ZndhMkU3dmNWeC1jQmVB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO - just-drinks.com",
+          "detail": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVXJiRjNrZEtRc1I5SzZIdThNMHRvNlhnWkRBZjRtajQyZWxBR2lpelpZcE5wQ0U0VkJ6SHJWaWw3NUNPZEtacVhkd0tpUlhWRUE5WnZ2UmM5cXF6UzJGZUZ4eTdsU3l1UFVfOUJFVXY4RWtDd3FLRzYzMUhUbUdGeWFGMUhySkd2U05wNmJoWkZZRGJyLU1WSnlOLTdrUGpWdjBEZg?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Asahi, Royal Swinkels and PerfectTed to feature at Just Drinks non-alcoholic conference this week - just-drinks.com",
+          "detail": "Asahi, Royal Swinkels and PerfectTed to feature at Just Drinks non-alcoholic conference this week just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaGIwSlFVVlRWN3ZWbEtYSlFkYnpsWDN1QTRqZm5DWmloS19mTzJEbDZSejV3X2dwdU1qY2h4TElwZzNyQnIwTzgwTmZZSHc0SEp5LWExbU1mVkZ6Z1pGV2hmZE5NVVo5UzhRZFJjNTBPS3hndXlxMkxQNlMzelZXc0JXZW9aR1BfdW9lTmVZUTFzd0R2OVJ1UlEwX0NFNzZQeGhJLWpzeHNFaEpfZTBoRjlrWVFmbnZXRGpJbzIxNHNqR09kaFZpYzRB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Master of Malt cyber breach exposes customer data - just-drinks.com",
+          "detail": "Master of Malt cyber breach exposes customer data just-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOGxPNFZwTEJISFFNaF8zS1JxOTdrVjBzbkZ2RXhBdVZ3T19CMk1EeEw0Zk1WZTZ4M3N2NVc2dkxjRk4ySVZEQzdlYXlsNUlRVG94czI0UXpjUWtLcVZjX3JQVmZrZ0pJYkRmbXhR?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "IWSR: Emerging spirits categories reshape global travel retail market - BeverageDaily.com",
-          "detail": "IWSR: Emerging spirits categories reshape global travel retail market BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLXNsRDhqY3RfdWdIS05lOXpwU1FfZnZhMzd5elFhbDVjX1BsclhyRTYwcDJpcmdBOEJ5MkNhUGllVTZRZUN1bzR3aFVuV3VvZWRHVUtUQ2lFVWZabzE2TVhYR2ktVGtOS0daTS02ZEo0cHJCS2RMSUI3WldRU1hnaHY5azRTdWhLT1haMzFJRG9YNnhnQmNpR1AwcjI4TE9sVTBkckZuc1dNOWttcW1vQVpra2YwQ01Kd0E?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Why is energy drink dependency so high among Swedish teenagers? - BeverageDaily.com",
-          "detail": "Why is energy drink dependency so high among Swedish teenagers? BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUWo0d0pYQUdqTXg4ZlBub2NYdjZnamxYc180cFI3cmQwSHk2a0xUWXhTelJOaEFMTFRIajc2WG4waWt1TEtBYTRmRDdmakc0NlZCdXFyR0hYMWw3MTJqWFp4bGZ0cmZIc0xIQlJyQ3FJOVBxdEdiY1RYNlNRZGlFN095S2FDWE5DU2x6SEoxZjRsRE8wQWJOLVFEdkZnZklqRmlUX1FzSXZJWnYxSDdDNHRB?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Henkell moves production of Slovakia’s Hubert brand to Czechia - Just Drinks",
-          "detail": "Henkell moves production of Slovakia’s Hubert brand to Czechia Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb2J6MXc5LWVtdTFjWnEwbllZZjA0UHRjUXRXeE9DS2dXZm12Qk04QWRMNnBWd3otQmJxTlpnUVZzaHZUNlF6X2xDOWV3WDI2WlZ6UWliZkU4REhvdzg4a1d4RUxoaUpyZVhNUGM4SFhDSnJ0UmpjRUhtVkpEM3hzYXJqRWI0U2FDYTlLSWZsVnI5X1N5NFg1eVdxNA?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Nestlé Russia: There has been no “change of ownership” - Just Drinks",
-          "detail": "Nestlé Russia: There has been no “change of ownership” Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNGxXb3dreklOVFNkMnhZNEEtYjBBeHA5RUFsdWlBbVlvMTVNRmdUUUFuc0NhejhPSVZnaU5zTjRTd05MTjlQclEzRFVxQnRqbDhQZkdiVFlROGk4VWZYclpqaERDc2Q2VlRPOTJRTXNwdGljVXRkUl9GQVhmRms2MWJNLU5MOU12a1ZtOS1R?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
         {
-          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - BeverageDaily.com",
+          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - beveragedaily.com",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
@@ -423,7 +404,7 @@
           "date": "2026-09-09T07:00:00+00:00"
         },
         {
-          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
+          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - beveragedaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -435,8 +416,8 @@
       "regulatory_watch": [],
       "pricing_promotions": [
         {
-          "title": "Trump: I’ll remove US tariffs on Irish whiskey - Just Drinks",
-          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey Just Drinks",
+          "title": "Trump: I’ll remove US tariffs on Irish whiskey - just-drinks.com",
+          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey just-drinks.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjdmTmNORnRselJrQ1pLeEZPLUNTMmRLQkZpZ2JKWUYyV1BFWjB3SWZqaGI4OGFFS0lnaFROMl9mNzI5eGRxSGVYb0tuTTlvcDAzVnlIemp3V1hJa0gxQ3FmWk5MNUlfTms4dlRIYTdvNXFkZTk5ZVp6ZnNxNTlqbWZORWI?oc=5",
           "date": "2026-09-14T13:19:46+00:00"
@@ -513,49 +494,49 @@
     "spain": {
       "executive_summary": [
         {
-          "headline": "Master of Malt cyber breach exposes customer data - Just Drinks",
-          "detail": "Master of Malt cyber breach exposes customer data Just Drinks",
+          "headline": "NZ wine export volumes rise – but value sales flat - just-drinks.com",
+          "detail": "NZ wine export volumes rise – but value sales flat just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGsxQm53QVZYcklEbEFORUJKSnBhRFMzMXlrLTlfRjcwYnoySmljN2duU0w1azJ1WGRIZ25oWWo5LW1PeHRFUjZ3NzFzWjZGeGQzZncyZDRCNVlhckFzbUdlWEdOTndtYlhPbTFLem5yWmt4MEo1UHdxc3prbnlQaE82ZHFwc2ZvT0E?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "González Byass promotes Murillo to top job - just-drinks.com",
+          "detail": "González Byass promotes Murillo to top job just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT0Z6OFdXZFY1d3BFVFlESFRudmZ0b0t1VGxFYWJHeVBMLUVBVEppWHhCaXllUjM1XzU2bnBSRUZLU0RGUWlwOGVfVUVDdFZqU1hKY1VGOEFoU1pxUjBNeW9MN0hjUkxPOGJlVHVzaEFfTnV0ZndhMkU3dmNWeC1jQmVB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO - just-drinks.com",
+          "detail": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVXJiRjNrZEtRc1I5SzZIdThNMHRvNlhnWkRBZjRtajQyZWxBR2lpelpZcE5wQ0U0VkJ6SHJWaWw3NUNPZEtacVhkd0tpUlhWRUE5WnZ2UmM5cXF6UzJGZUZ4eTdsU3l1UFVfOUJFVXY4RWtDd3FLRzYzMUhUbUdGeWFGMUhySkd2U05wNmJoWkZZRGJyLU1WSnlOLTdrUGpWdjBEZg?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Asahi, Royal Swinkels and PerfectTed to feature at Just Drinks non-alcoholic conference this week - just-drinks.com",
+          "detail": "Asahi, Royal Swinkels and PerfectTed to feature at Just Drinks non-alcoholic conference this week just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaGIwSlFVVlRWN3ZWbEtYSlFkYnpsWDN1QTRqZm5DWmloS19mTzJEbDZSejV3X2dwdU1qY2h4TElwZzNyQnIwTzgwTmZZSHc0SEp5LWExbU1mVkZ6Z1pGV2hmZE5NVVo5UzhRZFJjNTBPS3hndXlxMkxQNlMzelZXc0JXZW9aR1BfdW9lTmVZUTFzd0R2OVJ1UlEwX0NFNzZQeGhJLWpzeHNFaEpfZTBoRjlrWVFmbnZXRGpJbzIxNHNqR09kaFZpYzRB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Master of Malt cyber breach exposes customer data - just-drinks.com",
+          "detail": "Master of Malt cyber breach exposes customer data just-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOGxPNFZwTEJISFFNaF8zS1JxOTdrVjBzbkZ2RXhBdVZ3T19CMk1EeEw0Zk1WZTZ4M3N2NVc2dkxjRk4ySVZEQzdlYXlsNUlRVG94czI0UXpjUWtLcVZjX3JQVmZrZ0pJYkRmbXhR?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "IWSR: Emerging spirits categories reshape global travel retail market - BeverageDaily.com",
-          "detail": "IWSR: Emerging spirits categories reshape global travel retail market BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLXNsRDhqY3RfdWdIS05lOXpwU1FfZnZhMzd5elFhbDVjX1BsclhyRTYwcDJpcmdBOEJ5MkNhUGllVTZRZUN1bzR3aFVuV3VvZWRHVUtUQ2lFVWZabzE2TVhYR2ktVGtOS0daTS02ZEo0cHJCS2RMSUI3WldRU1hnaHY5azRTdWhLT1haMzFJRG9YNnhnQmNpR1AwcjI4TE9sVTBkckZuc1dNOWttcW1vQVpra2YwQ01Kd0E?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Why is energy drink dependency so high among Swedish teenagers? - BeverageDaily.com",
-          "detail": "Why is energy drink dependency so high among Swedish teenagers? BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUWo0d0pYQUdqTXg4ZlBub2NYdjZnamxYc180cFI3cmQwSHk2a0xUWXhTelJOaEFMTFRIajc2WG4waWt1TEtBYTRmRDdmakc0NlZCdXFyR0hYMWw3MTJqWFp4bGZ0cmZIc0xIQlJyQ3FJOVBxdEdiY1RYNlNRZGlFN095S2FDWE5DU2x6SEoxZjRsRE8wQWJOLVFEdkZnZklqRmlUX1FzSXZJWnYxSDdDNHRB?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Henkell moves production of Slovakia’s Hubert brand to Czechia - Just Drinks",
-          "detail": "Henkell moves production of Slovakia’s Hubert brand to Czechia Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb2J6MXc5LWVtdTFjWnEwbllZZjA0UHRjUXRXeE9DS2dXZm12Qk04QWRMNnBWd3otQmJxTlpnUVZzaHZUNlF6X2xDOWV3WDI2WlZ6UWliZkU4REhvdzg4a1d4RUxoaUpyZVhNUGM4SFhDSnJ0UmpjRUhtVkpEM3hzYXJqRWI0U2FDYTlLSWZsVnI5X1N5NFg1eVdxNA?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Nestlé Russia: There has been no “change of ownership” - Just Drinks",
-          "detail": "Nestlé Russia: There has been no “change of ownership” Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNGxXb3dreklOVFNkMnhZNEEtYjBBeHA5RUFsdWlBbVlvMTVNRmdUUUFuc0NhejhPSVZnaU5zTjRTd05MTjlQclEzRFVxQnRqbDhQZkdiVFlROGk4VWZYclpqaERDc2Q2VlRPOTJRTXNwdGljVXRkUl9GQVhmRms2MWJNLU5MOU12a1ZtOS1R?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
         {
-          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - BeverageDaily.com",
+          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - beveragedaily.com",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
@@ -563,7 +544,7 @@
           "date": "2026-09-09T07:00:00+00:00"
         },
         {
-          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
+          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - beveragedaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -575,8 +556,8 @@
       "regulatory_watch": [],
       "pricing_promotions": [
         {
-          "title": "Trump: I’ll remove US tariffs on Irish whiskey - Just Drinks",
-          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey Just Drinks",
+          "title": "Trump: I’ll remove US tariffs on Irish whiskey - just-drinks.com",
+          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey just-drinks.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjdmTmNORnRselJrQ1pLeEZPLUNTMmRLQkZpZ2JKWUYyV1BFWjB3SWZqaGI4OGFFS0lnaFROMl9mNzI5eGRxSGVYb0tuTTlvcDAzVnlIemp3V1hJa0gxQ3FmWk5MNUlfTms4dlRIYTdvNXFkZTk5ZVp6ZnNxNTlqbWZORWI?oc=5",
           "date": "2026-09-14T13:19:46+00:00"
@@ -653,57 +634,49 @@
     "italy": {
       "executive_summary": [
         {
-          "headline": "Cantine Riunite Introduces New 187ml Formats for Alcohol-Free Expressions, Bringing Italian Wine to More On-the-Go Occasions - BevNET.com",
-          "detail": "Cantine Riunite Introduces New 187ml Formats for Alcohol-Free Expressions, Bringing Italian Wine to More On-the-Go Occasions BevNET.com",
+          "headline": "NZ wine export volumes rise – but value sales flat - just-drinks.com",
+          "detail": "NZ wine export volumes rise – but value sales flat just-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUEMwMUkxTHNiUnNMNGcyUlBEVmdxSGxRVldRZ19fRGt1RmRVVUt4aU5ETjNzWE1iMjhROFhHMzFyaWd2MUJiT1liU2tNR05SX1FldkFUaEMxY3JZRFN4Nnlha2htMVJRaFJuY19XYkZudDY5M2Z6aXBKUEhfUW9YWUhtZWV0cU1TT1QxZkRZTzQ1cFlyLU5sTy1nam5MYzVka3RjbFZMWTc3a1JOOWFSa3Q2NG1SQm1BNGctWC1DbTNubkZFU3FNUGlKT0tiek5hdDdkWEZvSC1jeEVnMlpMUUt4cktmWEtKV2tzMVh3?oc=5"
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGsxQm53QVZYcklEbEFORUJKSnBhRFMzMXlrLTlfRjcwYnoySmljN2duU0w1azJ1WGRIZ25oWWo5LW1PeHRFUjZ3NzFzWjZGeGQzZncyZDRCNVlhckFzbUdlWEdOTndtYlhPbTFLem5yWmt4MEo1UHdxc3prbnlQaE82ZHFwc2ZvT0E?oc=5"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
-          "headline": "Master of Malt cyber breach exposes customer data - Just Drinks",
-          "detail": "Master of Malt cyber breach exposes customer data Just Drinks",
+          "headline": "González Byass promotes Murillo to top job - just-drinks.com",
+          "detail": "González Byass promotes Murillo to top job just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT0Z6OFdXZFY1d3BFVFlESFRudmZ0b0t1VGxFYWJHeVBMLUVBVEppWHhCaXllUjM1XzU2bnBSRUZLU0RGUWlwOGVfVUVDdFZqU1hKY1VGOEFoU1pxUjBNeW9MN0hjUkxPOGJlVHVzaEFfTnV0ZndhMkU3dmNWeC1jQmVB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO - just-drinks.com",
+          "detail": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVXJiRjNrZEtRc1I5SzZIdThNMHRvNlhnWkRBZjRtajQyZWxBR2lpelpZcE5wQ0U0VkJ6SHJWaWw3NUNPZEtacVhkd0tpUlhWRUE5WnZ2UmM5cXF6UzJGZUZ4eTdsU3l1UFVfOUJFVXY4RWtDd3FLRzYzMUhUbUdGeWFGMUhySkd2U05wNmJoWkZZRGJyLU1WSnlOLTdrUGpWdjBEZg?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Asahi, Royal Swinkels and PerfectTed to feature at Just Drinks non-alcoholic conference this week - just-drinks.com",
+          "detail": "Asahi, Royal Swinkels and PerfectTed to feature at Just Drinks non-alcoholic conference this week just-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaGIwSlFVVlRWN3ZWbEtYSlFkYnpsWDN1QTRqZm5DWmloS19mTzJEbDZSejV3X2dwdU1qY2h4TElwZzNyQnIwTzgwTmZZSHc0SEp5LWExbU1mVkZ6Z1pGV2hmZE5NVVo5UzhRZFJjNTBPS3hndXlxMkxQNlMzelZXc0JXZW9aR1BfdW9lTmVZUTFzd0R2OVJ1UlEwX0NFNzZQeGhJLWpzeHNFaEpfZTBoRjlrWVFmbnZXRGpJbzIxNHNqR09kaFZpYzRB?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Master of Malt cyber breach exposes customer data - just-drinks.com",
+          "detail": "Master of Malt cyber breach exposes customer data just-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOGxPNFZwTEJISFFNaF8zS1JxOTdrVjBzbkZ2RXhBdVZ3T19CMk1EeEw0Zk1WZTZ4M3N2NVc2dkxjRk4ySVZEQzdlYXlsNUlRVG94czI0UXpjUWtLcVZjX3JQVmZrZ0pJYkRmbXhR?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "IWSR: Emerging spirits categories reshape global travel retail market - BeverageDaily.com",
-          "detail": "IWSR: Emerging spirits categories reshape global travel retail market BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLXNsRDhqY3RfdWdIS05lOXpwU1FfZnZhMzd5elFhbDVjX1BsclhyRTYwcDJpcmdBOEJ5MkNhUGllVTZRZUN1bzR3aFVuV3VvZWRHVUtUQ2lFVWZabzE2TVhYR2ktVGtOS0daTS02ZEo0cHJCS2RMSUI3WldRU1hnaHY5azRTdWhLT1haMzFJRG9YNnhnQmNpR1AwcjI4TE9sVTBkckZuc1dNOWttcW1vQVpra2YwQ01Kd0E?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Why is energy drink dependency so high among Swedish teenagers? - BeverageDaily.com",
-          "detail": "Why is energy drink dependency so high among Swedish teenagers? BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUWo0d0pYQUdqTXg4ZlBub2NYdjZnamxYc180cFI3cmQwSHk2a0xUWXhTelJOaEFMTFRIajc2WG4waWt1TEtBYTRmRDdmakc0NlZCdXFyR0hYMWw3MTJqWFp4bGZ0cmZIc0xIQlJyQ3FJOVBxdEdiY1RYNlNRZGlFN095S2FDWE5DU2x6SEoxZjRsRE8wQWJOLVFEdkZnZklqRmlUX1FzSXZJWnYxSDdDNHRB?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Henkell moves production of Slovakia’s Hubert brand to Czechia - Just Drinks",
-          "detail": "Henkell moves production of Slovakia’s Hubert brand to Czechia Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb2J6MXc5LWVtdTFjWnEwbllZZjA0UHRjUXRXeE9DS2dXZm12Qk04QWRMNnBWd3otQmJxTlpnUVZzaHZUNlF6X2xDOWV3WDI2WlZ6UWliZkU4REhvdzg4a1d4RUxoaUpyZVhNUGM4SFhDSnJ0UmpjRUhtVkpEM3hzYXJqRWI0U2FDYTlLSWZsVnI5X1N5NFg1eVdxNA?oc=5"
           ],
           "confidence": "medium"
         }
       ],
       "key_launches": [
         {
-          "title": "Cantine Riunite Introduces New 187ml Formats for Alcohol-Free Expressions, Bringing Italian Wine to More On-the-Go Occasions - BevNET.com",
-          "company": "Unknown",
-          "product": "alcohol_free",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUEMwMUkxTHNiUnNMNGcyUlBEVmdxSGxRVldRZ19fRGt1RmRVVUt4aU5ETjNzWE1iMjhROFhHMzFyaWd2MUJiT1liU2tNR05SX1FldkFUaEMxY3JZRFN4Nnlha2htMVJRaFJuY19XYkZudDY5M2Z6aXBKUEhfUW9YWUhtZWV0cU1TT1QxZkRZTzQ1cFlyLU5sTy1nam5MYzVka3RjbFZMWTc3a1JOOWFSa3Q2NG1SQm1BNGctWC1DbTNubkZFU3FNUGlKT0tiek5hdDdkWEZvSC1jeEVnMlpMUUt4cktmWEtKV2tzMVh3?oc=5",
-          "date": "2026-09-21T18:16:16+00:00"
-        },
-        {
-          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - BeverageDaily.com",
+          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - beveragedaily.com",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
@@ -711,7 +684,7 @@
           "date": "2026-09-09T07:00:00+00:00"
         },
         {
-          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
+          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - beveragedaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
@@ -723,8 +696,8 @@
       "regulatory_watch": [],
       "pricing_promotions": [
         {
-          "title": "Trump: I’ll remove US tariffs on Irish whiskey - Just Drinks",
-          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey Just Drinks",
+          "title": "Trump: I’ll remove US tariffs on Irish whiskey - just-drinks.com",
+          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey just-drinks.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjdmTmNORnRselJrQ1pLeEZPLUNTMmRLQkZpZ2JKWUYyV1BFWjB3SWZqaGI4OGFFS0lnaFROMl9mNzI5eGRxSGVYb0tuTTlvcDAzVnlIemp3V1hJa0gxQ3FmWk5MNUlfTms4dlRIYTdvNXFkZTk5ZVp6ZnNxNTlqbWZORWI?oc=5",
           "date": "2026-09-14T13:19:46+00:00"
@@ -737,15 +710,6 @@
           "support_count": 3,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "2 articles mention alcohol free in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -766,14 +730,22 @@
             "functional"
           ],
           "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in Italy — ask about shelf space for new formats",
+          "pitch": "2 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUEMwMUkxTHNiUnNMNGcyUlBEVmdxSGxRVldRZ19fRGt1RmRVVUt4aU5ETjNzWE1iMjhROFhHMzFyaWd2MUJiT1liU2tNR05SX1FldkFUaEMxY3JZRFN4Nnlha2htMVJRaFJuY19XYkZudDY5M2Z6aXBKUEhfUW9YWUhtZWV0cU1TT1QxZkRZTzQ1cFlyLU5sTy1nam5MYzVka3RjbFZMWTc3a1JOOWFSa3Q2NG1SQm1BNGctWC1DbTNubkZFU3FNUGlKT0tiek5hdDdkWEZvSC1jeEVnMlpMUUt4cktmWEtKV2tzMVh3?oc=5",
             "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5"
           ]
@@ -790,10 +762,9 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 2 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUEMwMUkxTHNiUnNMNGcyUlBEVmdxSGxRVldRZ19fRGt1RmRVVUt4aU5ETjNzWE1iMjhROFhHMzFyaWd2MUJiT1liU2tNR05SX1FldkFUaEMxY3JZRFN4Nnlha2htMVJRaFJuY19XYkZudDY5M2Z6aXBKUEhfUW9YWUhtZWV0cU1TT1QxZkRZTzQ1cFlyLU5sTy1nam5MYzVka3RjbFZMWTc3a1JOOWFSa3Q2NG1SQm1BNGctWC1DbTNubkZFU3FNUGlKT0tiek5hdDdkWEZvSC1jeEVnMlpMUUt4cktmWEtKV2tzMVh3?oc=5",
             "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5"
           ]
@@ -811,34 +782,34 @@
           "confidence": "medium"
         },
         {
-          "headline": "Minges und Käfer verlängern erfolgreiche Lizenzpartnerschaft - about-drinks.com",
-          "detail": "Minges und Käfer verlängern erfolgreiche Lizenzpartnerschaft about-drinks.com",
+          "headline": "Winter-Aktionen und neue Special-Edition: Kleiner Feigling feiert die Adventszeit - about-drinks.com",
+          "detail": "Winter-Aktionen und neue Special-Edition: Kleiner Feigling feiert die Adventszeit about-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTEs1c3doRnZHSGgxNlVWNnZsZWh0THp0M2NDWVppOVZqWWU3N0ZhTHVjODFha2lsODZnUTh1cmdHZklnd0FWbmNpaEJMS0ZOSVlqYzJ3T1dUdHdpdFgyVjBobU90VmMzeGdCTHlTbFBxQmtaR2VPR3JIS1k3S196S2RxdTdCRUFFVUtITDRPYmJJMElPVEtn?oc=5"
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOUtEZldzVkVVTjZtcFRXZ1lGdWVLM1ZxN1JPSjNSV2dXbGpEX2ZvYTFjTVhOTUw1b1hSeEpYbEN0dnpMVXhBb1RRNFNVYUthNzVuajZ3YVdiNFQ4Q3VIUUlMaUVUejRyQ2hIY240bkh3RWI0ZlJSV1R0UDNoUklTUldoTEN1eWxjY1lZdm9jajBsbG1KRjNJdmIwZnMtSnFzZlNLMl9hemFKYWppYkpB?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "INTERNORGA: Neuer Markenauftritt und Kurs auf die 100. Ausgabe - about-drinks.com",
-          "detail": "INTERNORGA: Neuer Markenauftritt und Kurs auf die 100. Ausgabe about-drinks.com",
+          "headline": "NZ wine export volumes rise – but value sales flat - just-drinks.com",
+          "detail": "NZ wine export volumes rise – but value sales flat just-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZlp0YzJGWEtldTFpYlNKUWJGQ1N5NHgzV3BDamkyU1ZaMUJQRVNtMnBaRFFjcGRkSG9kNXV3cmJtang2NmFXN3lWNG80T1g5ZE5FemZRTjNFNC1RQlV3YVBrcVVSMjlqR3c4ZWJ3NkZKN3pFaVNTYkl1dkd3aXhLeVNEMGVvcFdKaDBiOURycDNfWndX?oc=5"
+            "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGsxQm53QVZYcklEbEFORUJKSnBhRFMzMXlrLTlfRjcwYnoySmljN2duU0w1azJ1WGRIZ25oWWo5LW1PeHRFUjZ3NzFzWjZGeGQzZncyZDRCNVlhckFzbUdlWEdOTndtYlhPbTFLem5yWmt4MEo1UHdxc3prbnlQaE82ZHFwc2ZvT0E?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Dallmayr ist offizieller Partner des MARATHON MÜNCHEN - about-drinks.com",
-          "detail": "Dallmayr ist offizieller Partner des MARATHON MÜNCHEN about-drinks.com",
+          "headline": "González Byass promotes Murillo to top job - just-drinks.com",
+          "detail": "González Byass promotes Murillo to top job just-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdkt6MDU5a0hjQVQtYVRVUXVELUowWEoyYU9aM1VWa0tJbWhvWTBPbFFDZmJFczVNM3NvNlZQQVI5UzRHcGpnU2RHcDBMN0hwOHg5YktCZ3pidWhJZW1hdUZjMkdIY0RRR2N1X0dZUWNCR2hlYmlQcWpiWTFzZEJJcEdVb19zQmp6eXJ6bg?oc=5"
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT0Z6OFdXZFY1d3BFVFlESFRudmZ0b0t1VGxFYWJHeVBMLUVBVEppWHhCaXllUjM1XzU2bnBSRUZLU0RGUWlwOGVfVUVDdFZqU1hKY1VGOEFoU1pxUjBNeW9MN0hjUkxPOGJlVHVzaEFfTnV0ZndhMkU3dmNWeC1jQmVB?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Jameson und 11FREUNDE bringen das Kneipenquiz zurück auf Tour - about-drinks.com",
-          "detail": "Jameson und 11FREUNDE bringen das Kneipenquiz zurück auf Tour about-drinks.com",
+          "headline": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO - just-drinks.com",
+          "detail": "Diageo brings in former Britvic, Tesco executive Joanne Wilson as CFO just-drinks.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWZlcXBUTWlBRUY5LXFpbGRMbDk2aExrWl95YmlJVW01Ulo1ZFMyeWtWS09sSUR1VVFhbFJ3UWhMX3NvcWpaUnNNMXFRSEQxUTdLRlFSVmMyT3puRmxSTnhxMnlnQ2JKNVhWX3YxZlE3UzdRVGxCSTFwWkRkVnR6ZGp1cXowSndxVzFfV3NZektJa1FTam9B?oc=5"
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVXJiRjNrZEtRc1I5SzZIdThNMHRvNlhnWkRBZjRtajQyZWxBR2lpelpZcE5wQ0U0VkJ6SHJWaWw3NUNPZEtacVhkd0tpUlhWRUE5WnZ2UmM5cXF6UzJGZUZ4eTdsU3l1UFVfOUJFVXY4RWtDd3FLRzYzMUhUbUdGeWFGMUhySkd2U05wNmJoWkZZRGJyLU1WSnlOLTdrUGpWdjBEZg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -853,34 +824,35 @@
           "date": "2026-09-22T08:22:50+00:00"
         },
         {
-          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - BeverageDaily.com",
+          "title": "BuzzBallz expands in India as RTD cocktail demand continues to grow - beveragedaily.com",
           "company": "Unknown",
           "product": "rtd",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
           "date": "2026-09-09T07:00:00+00:00"
-        },
-        {
-          "title": "New beverage launches: Cherry rosé, Twinings, Bruichladdich and more… - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5",
-          "date": "2026-09-04T07:00:00+00:00"
         }
       ],
       "competitor_moves": [],
       "regulatory_watch": [],
       "pricing_promotions": [
         {
-          "title": "Trump: I’ll remove US tariffs on Irish whiskey - Just Drinks",
-          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey Just Drinks",
+          "title": "Trump: I’ll remove US tariffs on Irish whiskey - just-drinks.com",
+          "what_changed": "Trump: I’ll remove US tariffs on Irish whiskey just-drinks.com",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjdmTmNORnRselJrQ1pLeEZPLUNTMmRLQkZpZ2JKWUYyV1BFWjB3SWZqaGI4OGFFS0lnaFROMl9mNzI5eGRxSGVYb0tuTTlvcDAzVnlIemp3V1hJa0gxQ3FmWk5MNUlfTms4dlRIYTdvNXFkZTk5ZVp6ZnNxNTlqbWZORWI?oc=5",
           "date": "2026-09-14T13:19:46+00:00"
         }
       ],
       "signals": [
+        {
+          "signal": "Rtd trending in Austria",
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
         {
           "signal": "Energy trending in Austria",
           "explanation": "2 articles mention energy in the last 28 days",
@@ -891,22 +863,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Rtd trending in Austria",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "rtd"
+            "alcohol_free"
           ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Functional trending in Austria",
-          "explanation": "2 articles mention functional in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Organic trending in Austria",
@@ -918,11 +881,11 @@
           "confidence": "low"
         },
         {
-          "signal": "Alcohol Free trending in Austria",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "signal": "Functional trending in Austria",
+          "explanation": "1 articles mention functional in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "alcohol_free"
+            "functional"
           ],
           "confidence": "low"
         }
@@ -930,31 +893,21 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "3 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "2 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdi1uNE9KbWY2cEdoY1FtX3dXWFpqMmZDS0hwZzU4b2xPWV9MUjlFbWQ0N3g5QUpaZENhLVRXMlg3UXpqLWVVSjVTaXlXOU9VWlF2ZUZFNEJpcGQ1QWhfYjF3bjA1dGVvRHdsUXJmdlN1VF8wS0NTZDBHOG8xUE04a3ZhM3hWYUVaMmJFRmc0cEU3dG55TktEYkpZQm9vb3J1aUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5"
-          ]
-        },
-        {
-          "customer_type": "distributor",
-          "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR3Q4T0tFMWQ2c3pVenVIRHQ5VVJGUXpFNzFSNlFKdjlOd0FJa21FZU51X3ZzZDVyRThmZW9lOUx2ay1rdU5QSEx2MW5nZFRfYWtwZnNXOWNUOTVyc0Z1V2w1TUVRTkFDS0o4UndlTzU2OGFrYzZmTFhLeThXOTFuc2lKOGhFMDhxTF9XdzFsMnJteHlMTjFLS29seXp1NU9oQlltd19XMGx6eUNmUURVLUkzTHBLcFRRQ25uLVZUeG14anF3LTJzSkR5eHk5Q1N5aFlfZGNZWUxJRUNxUUlEWlFic2VXbFdlRlEyWExTcw?oc=5",
-            "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR0dnSW9SeWtpVnQybEs4TmNwMzE5a0pXNUpBdnVMRTN4QWkwcW9hZnJ5VHUzTW9QOC1pQVRNYTlTZ3J3ZGg1MFRXS1dhRDh3cXJpcVlRLUZPcFp6eU12djRiTlh3Qm1mZWozRU90czFaX3pnWGdhaUNha2o1V0hpWVR4UEpCTjIxQXlJWDBpT3QwNzFRQXFSYTJ1Rk9TVFRQekJJODZUVTF0STZK?oc=5"
+            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 3 new launches for competitive overlap",
+          "action": "Review 2 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdi1uNE9KbWY2cEdoY1FtX3dXWFpqMmZDS0hwZzU4b2xPWV9MUjlFbWQ0N3g5QUpaZENhLVRXMlg3UXpqLWVVSjVTaXlXOU9VWlF2ZUZFNEJpcGQ1QWhfYjF3bjA1dGVvRHdsUXJmdlN1VF8wS0NTZDBHOG8xUE04a3ZhM3hWYUVaMmJFRmc0cEU3dG55TktEYkpZQm9vb3J1aUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5",
-            "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHhVMEc2WDVxUmYtSVFXbjRpSnR2aVlPOWZIS0JqX2tWLThDV1k4Z1VVNWl6M3lzVllmLThMNDJoaGZpUVZPNm9tZFVtd2ZlbzlUTnhtREVRU1FiQWFYdDY3NmJMZkZWcmtHQUFpZlRMczBVOGYyN19GM2VaMjUzUDZzNGR1YkkxNGNkNWR2aUVObUdYd3lVZktkb1RsT1VFcjFJWTJ2X1kwSDg?oc=5"
+            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2doYVZLSWlqWnNRd2swTy00LVhyOEZqMWlXakRzOGZfa0RNWEphWGJLRE9vdk9DYUpfQ0JrRTZRUm5XVm5haTBoY1JlbWE2d3BGeDJsUUQ4Q0tYbkQzX2wtQU1WajlTRFBzVE1ua3I4eWJMR3MtRWw3WHNDVTVmRjRIaDVCcklMTFdsdExLcXlhN2NrTFNXMk42R09aOC10RmxneG15YTNGdmxrVzhBcllqdEdaTVc0?oc=5"
           ]
         }
       ]

@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-23T09:41:18.122951+00:00",
+  "generated_at": "2026-09-23T17:42:16.557228+00:00",
   "generated_date": "Wednesday, 23 September 2026",
-  "briefing": "Sales intelligence tracked 229 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; energy drinks leading growth. Latest: Minges und Käfer verlängern erfolgreiche Lizenzpartnerschaft - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 237 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Winter-Aktionen und neue Special-Edition: Kleiner Feigling feiert die Adventszeit - about-drinks.com.",
   "signals": {
     "usa": "Energy trending. (50 items)",
-    "germany": "Energy trending. (50 items)",
-    "france": "Rtd trending. (26 items)",
-    "spain": "Rtd trending. (26 items)",
-    "italy": "Rtd trending. (27 items)",
-    "austria": "Energy trending. (50 items)"
+    "germany": "Rtd trending. (50 items)",
+    "france": "Rtd trending. (29 items)",
+    "spain": "Rtd trending. (29 items)",
+    "italy": "Rtd trending. (29 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 229,
+    "total_articles_analyzed": 237,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 174,
-      "launch": 21,
+      "trend": 186,
+      "launch": 19,
+      "rtd": 18,
       "energy": 16,
-      "rtd": 16,
-      "functional": 15,
-      "innovation": 14,
-      "retail": 7,
+      "functional": 12,
+      "innovation": 11,
+      "retail": 8,
       "alcohol_free": 7,
       "pricing": 6,
-      "carbonated": 4
+      "regulatory": 3
     }
   }
 }
