@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-25T09:57:39.721405+00:00",
+  "generated_at": "2026-09-25T17:45:46.257612+00:00",
   "generated_date": "Friday, 25 September 2026",
-  "briefing": "Sales intelligence tracked 235 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; energy drinks leading growth. Latest: Kyrö Distillery launcht die dritte Edition der Sauna Stories Reihe - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 238 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Nikka Whisky Launches Taketsuru Pure Malt Essentials - BevNET.com.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
-    "germany": "Energy trending. (50 items)",
-    "france": "Energy trending. (28 items)",
-    "spain": "Energy trending. (28 items)",
-    "italy": "Energy trending. (29 items)",
-    "austria": "Energy trending. (50 items)"
+    "germany": "Premium trending. (50 items)",
+    "france": "Rtd trending. (29 items)",
+    "spain": "Rtd trending. (29 items)",
+    "italy": "Rtd trending. (30 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 235,
+    "total_articles_analyzed": 238,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 161,
-      "launch": 31,
-      "energy": 19,
-      "rtd": 17,
+      "trend": 167,
+      "launch": 30,
+      "rtd": 16,
       "competitor": 12,
-      "functional": 10,
-      "innovation": 10,
+      "energy": 11,
       "regulatory": 8,
-      "alcohol_free": 7,
-      "retail": 7
+      "retail": 8,
+      "innovation": 7,
+      "premium": 6,
+      "alcohol_free": 6
     }
   }
 }
