@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-26T09:39:56.667527+00:00",
+  "generated_at": "2026-09-26T16:52:05.265990+00:00",
   "generated_date": "Saturday, 26 September 2026",
-  "briefing": "Sales intelligence tracked 214 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: La Costeña and Jumex Team Up For Landmark UTSA Athletics Sponsorship - BevNET.com.",
+  "briefing": "Sales intelligence tracked 216 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: BeGOAT Clean Energy Launches New Mandarin Orange Zero Sugar Flavor - bevnet.com.",
   "signals": {
-    "usa": "Rtd trending. (45 items)",
+    "usa": "Rtd trending. (47 items)",
     "germany": "Rtd trending. (48 items)",
     "france": "Rtd trending. (24 items)",
     "spain": "Rtd trending. (24 items)",
@@ -11,19 +11,19 @@
     "austria": "Rtd trending. (48 items)"
   },
   "meta": {
-    "total_articles_analyzed": 214,
+    "total_articles_analyzed": 216,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 157,
-      "launch": 30,
+      "trend": 156,
+      "launch": 31,
       "rtd": 19,
+      "functional": 13,
       "innovation": 13,
-      "functional": 12,
       "retail": 8,
-      "energy": 7,
       "alcohol_free": 6,
+      "energy": 6,
       "premium": 4,
-      "pricing": 2
+      "macro": 3
     }
   }
 }
