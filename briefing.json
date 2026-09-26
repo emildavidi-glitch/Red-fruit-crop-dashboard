@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-25T17:45:46.257612+00:00",
-  "generated_date": "Friday, 25 September 2026",
-  "briefing": "Sales intelligence tracked 238 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: Nikka Whisky Launches Taketsuru Pure Malt Essentials - BevNET.com.",
+  "generated_at": "2026-09-26T09:39:56.667527+00:00",
+  "generated_date": "Saturday, 26 September 2026",
+  "briefing": "Sales intelligence tracked 214 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; RTD formats expanding. Latest: La Costeña and Jumex Team Up For Landmark UTSA Athletics Sponsorship - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Rtd trending. (29 items)",
-    "spain": "Rtd trending. (29 items)",
-    "italy": "Rtd trending. (30 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Rtd trending. (45 items)",
+    "germany": "Rtd trending. (48 items)",
+    "france": "Rtd trending. (24 items)",
+    "spain": "Rtd trending. (24 items)",
+    "italy": "Rtd trending. (25 items)",
+    "austria": "Rtd trending. (48 items)"
   },
   "meta": {
-    "total_articles_analyzed": 238,
+    "total_articles_analyzed": 214,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 167,
+      "trend": 157,
       "launch": 30,
-      "rtd": 16,
-      "competitor": 12,
-      "energy": 11,
-      "regulatory": 8,
+      "rtd": 19,
+      "innovation": 13,
+      "functional": 12,
       "retail": 8,
-      "innovation": 7,
-      "premium": 6,
-      "alcohol_free": 6
+      "energy": 7,
+      "alcohol_free": 6,
+      "premium": 4,
+      "pricing": 2
     }
   }
 }
