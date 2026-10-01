@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-30T18:16:22.036090+00:00",
-  "generated_date": "Wednesday, 30 September 2026",
-  "briefing": "Sales intelligence tracked 214 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Smirnoff releases new cocktail recipes to celebrate the launch of Chief Vibes Officer Troye Sivan’s .",
+  "generated_at": "2026-10-01T11:18:07.028208+00:00",
+  "generated_date": "Thursday, 01 October 2026",
+  "briefing": "Sales intelligence tracked 207 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Neu von TEELING: Small Batch Whiskey mit Santa Teresa Cask Finish - about-drinks.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
-    "germany": "Functional trending. (48 items)",
-    "france": "Functional trending. (23 items)",
-    "spain": "Functional trending. (23 items)",
-    "italy": "Functional trending. (24 items)",
-    "austria": "Functional trending. (46 items)"
+    "usa": "Premium trending. (44 items)",
+    "germany": "Energy trending. (50 items)",
+    "france": "Energy trending. (21 items)",
+    "spain": "Energy trending. (21 items)",
+    "italy": "Energy trending. (22 items)",
+    "austria": "Energy trending. (49 items)"
   },
   "meta": {
-    "total_articles_analyzed": 214,
+    "total_articles_analyzed": 207,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 115,
-      "launch": 47,
-      "functional": 23,
-      "premium": 20,
-      "innovation": 18,
-      "rtd": 12,
-      "regulatory": 10,
-      "carbonated": 8,
-      "macro": 8,
-      "retail": 7
+      "trend": 125,
+      "launch": 30,
+      "regulatory": 19,
+      "energy": 18,
+      "premium": 13,
+      "functional": 12,
+      "macro": 10,
+      "retail": 7,
+      "innovation": 7,
+      "alcohol_free": 7
     }
   }
 }
