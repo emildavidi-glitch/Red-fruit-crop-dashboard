@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-01T11:18:07.028208+00:00",
+  "generated_at": "2026-10-01T18:41:33.845048+00:00",
   "generated_date": "Thursday, 01 October 2026",
-  "briefing": "Sales intelligence tracked 207 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Neu von TEELING: Small Batch Whiskey mit Santa Teresa Cask Finish - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 220 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Keurig Dr Pepper names new head of coffee business - Just Drinks.",
   "signals": {
-    "usa": "Premium trending. (44 items)",
-    "germany": "Energy trending. (50 items)",
-    "france": "Energy trending. (21 items)",
-    "spain": "Energy trending. (21 items)",
-    "italy": "Energy trending. (22 items)",
-    "austria": "Energy trending. (49 items)"
+    "usa": "Premium trending. (42 items)",
+    "germany": "Premium trending. (50 items)",
+    "france": "Premium trending. (26 items)",
+    "spain": "Premium trending. (26 items)",
+    "italy": "Premium trending. (26 items)",
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 207,
+    "total_articles_analyzed": 220,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 125,
-      "launch": 30,
-      "regulatory": 19,
-      "energy": 18,
-      "premium": 13,
-      "functional": 12,
-      "macro": 10,
+      "trend": 146,
+      "launch": 23,
+      "premium": 19,
+      "regulatory": 16,
+      "macro": 15,
+      "energy": 13,
+      "functional": 10,
       "retail": 7,
-      "innovation": 7,
-      "alcohol_free": 7
+      "competitor": 6,
+      "rtd": 5
     }
   }
 }
