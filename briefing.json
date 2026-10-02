@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-01T18:41:33.845048+00:00",
-  "generated_date": "Thursday, 01 October 2026",
-  "briefing": "Sales intelligence tracked 220 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Keurig Dr Pepper names new head of coffee business - Just Drinks.",
+  "generated_at": "2026-10-02T10:50:32.215446+00:00",
+  "generated_date": "Friday, 02 October 2026",
+  "briefing": "Sales intelligence tracked 220 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; premium trending. Latest: Diageo to close Guinness Open Gate site in US - Just Drinks.",
   "signals": {
-    "usa": "Premium trending. (42 items)",
+    "usa": "Functional trending. (45 items)",
     "germany": "Premium trending. (50 items)",
-    "france": "Premium trending. (26 items)",
-    "spain": "Premium trending. (26 items)",
-    "italy": "Premium trending. (26 items)",
+    "france": "Premium trending. (25 items)",
+    "spain": "Premium trending. (25 items)",
+    "italy": "Premium trending. (25 items)",
     "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 220,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 146,
-      "launch": 23,
+      "trend": 144,
+      "launch": 21,
       "premium": 19,
-      "regulatory": 16,
+      "regulatory": 17,
+      "functional": 15,
       "macro": 15,
-      "energy": 13,
-      "functional": 10,
+      "energy": 15,
+      "innovation": 9,
       "retail": 7,
-      "competitor": 6,
-      "rtd": 5
+      "hydration": 6
     }
   }
 }
