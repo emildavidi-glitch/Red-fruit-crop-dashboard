@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-03T16:59:04.344392+00:00",
-  "generated_date": "Saturday, 03 October 2026",
-  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; functional beverages gaining momentum. Latest: Settlement Reached in FTC’s Price Discrimination Lawsuit Against Southern Glazer’s - BevNET.com.",
+  "generated_at": "2026-10-04T10:50:57.659906+00:00",
+  "generated_date": "Sunday, 04 October 2026",
+  "briefing": "Sales intelligence tracked 192 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Second Shift Packaging Team Lead - bevnet.com.",
   "signals": {
-    "usa": "Functional trending. (46 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (26 items)",
-    "spain": "Functional trending. (26 items)",
-    "italy": "Functional trending. (27 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Functional trending. (34 items)",
+    "germany": "Functional trending. (45 items)",
+    "france": "Functional trending. (23 items)",
+    "spain": "Functional trending. (23 items)",
+    "italy": "Functional trending. (24 items)",
+    "austria": "Functional trending. (43 items)"
   },
   "meta": {
-    "total_articles_analyzed": 225,
+    "total_articles_analyzed": 192,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 134,
-      "regulatory": 25,
+      "trend": 102,
       "functional": 20,
-      "macro": 20,
       "launch": 19,
+      "macro": 19,
+      "regulatory": 18,
       "energy": 18,
-      "premium": 14,
+      "premium": 13,
       "innovation": 13,
-      "retail": 7,
-      "hydration": 6
+      "competitor": 12,
+      "retail": 7
     }
   }
 }
