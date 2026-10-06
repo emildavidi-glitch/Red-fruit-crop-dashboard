@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-05T11:59:23.187226+00:00",
-  "generated_date": "Monday, 05 October 2026",
-  "briefing": "Sales intelligence tracked 223 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Oatly launcht Barista Edition Vanilla und Churros - about-drinks.com.",
+  "generated_at": "2026-10-06T11:41:22.644250+00:00",
+  "generated_date": "Tuesday, 06 October 2026",
+  "briefing": "Sales intelligence tracked 262 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Bourbon maker TKC Distilling removes CEO amid voyeurism allegations - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (41 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (27 items)",
-    "spain": "Functional trending. (27 items)",
-    "italy": "Functional trending. (28 items)",
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (37 items)",
+    "italy": "Functional trending. (38 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 223,
+    "total_articles_analyzed": 262,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 128,
-      "functional": 22,
-      "launch": 22,
-      "macro": 20,
-      "regulatory": 19,
-      "innovation": 17,
-      "premium": 15,
-      "competitor": 12,
-      "energy": 8,
-      "retail": 4
+      "trend": 157,
+      "functional": 26,
+      "launch": 21,
+      "regulatory": 21,
+      "innovation": 18,
+      "macro": 17,
+      "competitor": 16,
+      "premium": 14,
+      "alcohol_free": 9,
+      "energy": 7
     }
   }
 }
