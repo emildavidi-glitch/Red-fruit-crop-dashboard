@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-06T11:41:22.644250+00:00",
+  "generated_at": "2026-10-06T18:45:59.722284+00:00",
   "generated_date": "Tuesday, 06 October 2026",
-  "briefing": "Sales intelligence tracked 262 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Bourbon maker TKC Distilling removes CEO amid voyeurism allegations - Just Drinks.",
+  "briefing": "Sales intelligence tracked 268 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: NKD Distillery Turns To Kanna For NAKIES’ Functional Edge - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (37 items)",
-    "spain": "Functional trending. (37 items)",
-    "italy": "Functional trending. (38 items)",
+    "france": "Functional trending. (39 items)",
+    "spain": "Functional trending. (39 items)",
+    "italy": "Functional trending. (40 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 262,
+    "total_articles_analyzed": 268,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 157,
-      "functional": 26,
-      "launch": 21,
-      "regulatory": 21,
-      "innovation": 18,
-      "macro": 17,
-      "competitor": 16,
-      "premium": 14,
-      "alcohol_free": 9,
-      "energy": 7
+      "trend": 156,
+      "functional": 31,
+      "launch": 26,
+      "innovation": 22,
+      "regulatory": 20,
+      "competitor": 14,
+      "supply_chain": 10,
+      "premium": 10,
+      "carbonated": 10,
+      "macro": 10
     }
   }
 }
