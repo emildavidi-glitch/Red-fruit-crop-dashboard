@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-06T18:45:59.722284+00:00",
-  "generated_date": "Tuesday, 06 October 2026",
-  "briefing": "Sales intelligence tracked 268 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: NKD Distillery Turns To Kanna For NAKIES’ Functional Edge - BevNET.com.",
+  "generated_at": "2026-10-07T11:28:16.052753+00:00",
+  "generated_date": "Wednesday, 07 October 2026",
+  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; regulatory changes reshaping strategies. Latest: Sodastream bestätigt Daniele Tarantino als General Manager DACH - about-drinks.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (39 items)",
-    "spain": "Functional trending. (39 items)",
-    "italy": "Functional trending. (40 items)",
+    "france": "Functional trending. (36 items)",
+    "spain": "Functional trending. (36 items)",
+    "italy": "Functional trending. (39 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 268,
+    "total_articles_analyzed": 261,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 156,
+      "trend": 145,
       "functional": 31,
-      "launch": 26,
-      "innovation": 22,
-      "regulatory": 20,
+      "regulatory": 26,
+      "innovation": 23,
+      "launch": 20,
       "competitor": 14,
-      "supply_chain": 10,
-      "premium": 10,
-      "carbonated": 10,
-      "macro": 10
+      "carbonated": 12,
+      "macro": 12,
+      "supply_chain": 11,
+      "premium": 10
     }
   }
 }
