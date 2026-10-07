@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-07T11:28:16.052753+00:00",
+  "generated_at": "2026-10-07T19:12:10.222763+00:00",
   "generated_date": "Wednesday, 07 October 2026",
-  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; regulatory changes reshaping strategies. Latest: Sodastream bestätigt Daniele Tarantino als General Manager DACH - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 267 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: „Fenster in die Zukunft unserer Branche“ – Damien Guichard & Camille Vidal über den BCB - about-drin.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (36 items)",
-    "spain": "Functional trending. (36 items)",
-    "italy": "Functional trending. (39 items)",
+    "france": "Functional trending. (38 items)",
+    "spain": "Functional trending. (38 items)",
+    "italy": "Functional trending. (41 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 261,
+    "total_articles_analyzed": 267,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 145,
-      "functional": 31,
-      "regulatory": 26,
-      "innovation": 23,
-      "launch": 20,
+      "functional": 37,
+      "innovation": 29,
+      "regulatory": 24,
+      "launch": 18,
+      "macro": 17,
       "competitor": 14,
-      "carbonated": 12,
-      "macro": 12,
-      "supply_chain": 11,
-      "premium": 10
+      "carbonated": 13,
+      "supply_chain": 10,
+      "alcohol_free": 10
     }
   }
 }
