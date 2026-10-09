@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-08T19:08:27.795884+00:00",
-  "generated_date": "Thursday, 08 October 2026",
-  "briefing": "Sales intelligence tracked 267 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: Athletic Brewing Company Named an Official Non-Alcoholic Beer of the NHL in Canada - BevNET.com.",
+  "generated_at": "2026-10-09T11:37:06.573208+00:00",
+  "generated_date": "Friday, 09 October 2026",
+  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Pinienkerne kaufen 2026: Trends und Qualitätsmerkmale - about-drinks.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (38 items)",
-    "spain": "Functional trending. (38 items)",
-    "italy": "Functional trending. (41 items)",
+    "france": "Functional trending. (36 items)",
+    "spain": "Functional trending. (36 items)",
+    "italy": "Functional trending. (39 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 267,
+    "total_articles_analyzed": 261,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 151,
-      "functional": 36,
-      "innovation": 33,
-      "launch": 22,
+      "trend": 152,
+      "launch": 37,
+      "functional": 32,
+      "innovation": 22,
       "regulatory": 15,
       "pricing": 13,
-      "carbonated": 13,
-      "supply_chain": 11,
-      "alcohol_free": 9,
-      "competitor": 9
+      "carbonated": 12,
+      "supply_chain": 10,
+      "alcohol_free": 6,
+      "macro": 5
     }
   }
 }
