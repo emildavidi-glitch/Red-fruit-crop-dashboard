@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-09T11:37:06.573208+00:00",
+  "generated_at": "2026-10-09T18:39:02.589117+00:00",
   "generated_date": "Friday, 09 October 2026",
-  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Pinienkerne kaufen 2026: Trends und Qualitätsmerkmale - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 258 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Natalie’s Juices Expands Retail Presence with Launch at Bashas' Family Supermarkets - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (36 items)",
-    "spain": "Functional trending. (36 items)",
-    "italy": "Functional trending. (39 items)",
+    "france": "Functional trending. (35 items)",
+    "spain": "Functional trending. (35 items)",
+    "italy": "Functional trending. (38 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 261,
+    "total_articles_analyzed": 258,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 152,
       "launch": 37,
-      "functional": 32,
-      "innovation": 22,
+      "functional": 34,
+      "innovation": 24,
       "regulatory": 15,
       "pricing": 13,
-      "carbonated": 12,
-      "supply_chain": 10,
-      "alcohol_free": 6,
-      "macro": 5
+      "carbonated": 13,
+      "supply_chain": 9,
+      "alcohol_free": 7,
+      "premium": 4
     }
   }
 }
