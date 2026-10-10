@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:39:02.589117+00:00",
+  "generated_at": "2026-10-10T10:54:52.995667+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -68,7 +68,7 @@
           "product": "juice",
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHZEZms0QXZFVXMwcjM2RDAwelRnLTBabFFyY0lyVV9xOUE1OGQteDZweTY1c1VHQ1MxZ0hCYWpJQXV4dzVDRE14TGpwVDR4aTQzcXJtdnduYVJyN25WZUFwcnhMUV9XZmcza1hMNXVTeGlUWTNjNHJyX3lfMWU3U2dfZno2cGRZeDlYUUt6dVlEanlUWERLRUh4M3dCYWhOVmtELVRLVm5EczBBVEZjSm4xR0R5eEdOcUE?oc=5",
-          "date": "2026-10-09T18:11:15+00:00"
+          "date": "2026-10-09T18:12:03+00:00"
         },
         {
           "title": "Monster Preparing Protein Energy Drink For Release Next Year - BevNET.com",
@@ -88,7 +88,15 @@
         }
       ],
       "competitor_moves": [],
-      "regulatory_watch": [],
+      "regulatory_watch": [
+        {
+          "title": "US judge throws out Diageo Tequila lawsuit - Just Drinks",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5",
+          "date": "2026-10-02T12:50:49+00:00"
+        }
+      ],
       "pricing_promotions": [
         {
           "title": "PepsiCo plans cost cuts as North American struggles persist",
@@ -105,6 +113,13 @@
           "date": "2026-10-08T12:28:11+00:00"
         },
         {
+          "title": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "what_changed": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5",
+          "date": "2026-10-07T13:19:13+00:00"
+        },
+        {
           "title": "Southern Glazer’s, FTC reach deal over prices charged to retailers - Just Drinks",
           "what_changed": "Southern Glazer’s, FTC reach deal over prices charged to retailers Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -115,8 +130,8 @@
       "signals": [
         {
           "signal": "Functional trending in United States",
-          "explanation": "9 articles mention functional in the last 28 days",
-          "support_count": 9,
+          "explanation": "7 articles mention functional in the last 28 days",
+          "support_count": 7,
           "top_keywords": [
             "functional"
           ],
@@ -124,8 +139,8 @@
         },
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "7 articles mention carbonated in the last 28 days",
-          "support_count": 7,
+          "explanation": "5 articles mention carbonated in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "carbonated"
           ],
@@ -170,12 +185,19 @@
           ]
         },
         {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5"
+          ]
+        },
+        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWTFlOUFQRWhwTWxLUlZwdDl1LWs3b01LdXVWRC0ybkg2MXIxQ3N6ODlIYkNsOHA3ZHo4dUZZd0xDbkE2YkNQd3FnTXAxaExvUVZkdC11d0YzYjVkUmVlOTFWVFlZMG1oMm93ZFJvZDBzZTNTNjBvWlZ5T19WdkVCU2ZROHdJbHJmNjJsZkdWUFRLNVV3T3NpdVFWQjdaZGtySTZCTlVjM1lONnhiQWFWVlNUWjk?oc=5"
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzR1XzQ4bFZ6WmRQWkU0SGt5dnB3elpRbWd0REt5M1ZTWVp2YWxSWTdJSV9ZRk00UWwxa08zdUw4aU5uc1Z1bTM5TTNJR0dFUXRDTnpid3VvT185WS1tVy1sekRzMlJPZVl5Wk4zQ2tLRktxZV9tM29XV0NaS05oN0dkTDEzNHllZWM4UHRMTnFuS2tDZnpxcVR1T0Rnb01KYzF2T1M2T0RNVkNXczZrUnFfZE5vQQ?oc=5",
+            "https://www.fooddive.com/news/olipop-ceo-christian-patino-webb-interview-1-billion-sales-better-for-you-soda/831539/"
           ]
         }
       ],
@@ -189,19 +211,19 @@
             "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR0g0WlJlblR0U016VGNSak9rcDdCdFVxcDdwWTlrSjJtY1VITy1HXzYxbVRCd1RuaHdfeks2SWNmTzBXMU83RUNYSE0wVXVLVml1M0twQjA5WHRZNHBFaGp5UXBwNHZUQ1FmM2cwYS1iOGl6ZGpSMFhCSTRlbmkxYmpXV1VHOFZwV1A1dHFCeEFBTkotSEc5Tll5YTVDNXk2bFFvRGxkR0Z2eFhMQVl2aUdRYm44d21BR2hSbjRSdw?oc=5",
             "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHZEZms0QXZFVXMwcjM2RDAwelRnLTBabFFyY0lyVV9xOUE1OGQteDZweTY1c1VHQ1MxZ0hCYWpJQXV4dzVDRE14TGpwVDR4aTQzcXJtdnduYVJyN25WZUFwcnhMUV9XZmcza1hMNXVTeGlUWTNjNHJyX3lfMWU3U2dfZno2cGRZeDlYUUt6dVlEanlUWERLRUh4M3dCYWhOVmtELVRLVm5EczBBVEZjSm4xR0R5eEdOcUE?oc=5"
           ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5"
+          ]
         }
       ]
     },
     "germany": {
       "executive_summary": [
-        {
-          "headline": "Whisky Live Germany: Nur noch wenige Tickets für Publikumstag erhältlich - about-drinks.com",
-          "detail": "Whisky Live Germany: Nur noch wenige Tickets für Publikumstag erhältlich about-drinks.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTDRGUEZYTjAxVXp5MHRENG5BdU50aVNudFJVekUybG9Yb1k1cWdfQW1CVXgyU1hNWkJEcENiMnA4d2FURmZzTmZkSjBtTmFqTlY1QmlscEI0NDJmekh1NFhJUnFYZER3cXlQWHM4S1NCYVZvc1F6cHZtYmw4UXlnUWZ1V1JLUU0zcnduck9haUcyMTJBZlR0YnNSb2wzcDNSbDJBZzlB?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "Gurkenwasser und Jalapeños in Coca-Cola light? So experimentierfreudig ist Deutschland - about-drinks.com",
           "detail": "Gurkenwasser und Jalapeños in Coca-Cola light? So experimentierfreudig ist Deutschland about-drinks.com",
@@ -233,6 +255,14 @@
             "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDNBNjVtM1dFM3BVOXlLUExUR1g5OHVfSFoxdzZfdDc0ZDlScy1wcWV4RDNDaERNeDR3MHNOaVNDR0tBMkkwUHRuT09WdTZ0dEpLX01ieWpzbTdBVUVUS25zTmZWT21SRTJDa01aa2dLSkxSaDE5aVVhVVEwYkJBZ0xGc2ZuMFpwcDFka2JEYw?oc=5"
           ],
           "confidence": "medium"
+        },
+        {
+          "headline": "Sodastream bestätigt Daniele Tarantino als General Manager DACH - about-drinks.com",
+          "detail": "Sodastream bestätigt Daniele Tarantino als General Manager DACH about-drinks.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd1VjRnVYdFkydmIyX2NVdDd5UUJLajlDcUhtdTZlTUh6QzJSN3VtQjV4VEZtLUN2c294M3dtMXZvZUU0WTJ1Zmxfd3hVcHoxVnU1cjFaMXo3SjNjbGZzVWZOWHF2VVVZbW96dTdOb3FtTHRZdGtlVGtqVExmeEdNV1NCOVhGT283M0trOUQ4dGNUd1lXcndNZHd3?oc=5"
+          ],
+          "confidence": "high"
         }
       ],
       "key_launches": [
@@ -253,20 +283,12 @@
           "date": "2026-10-09T07:49:51+00:00"
         },
         {
-          "title": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "company": "Coca-Cola",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-          "date": "2026-10-08T13:18:57+00:00"
-        },
-        {
-          "title": "Mineralwasser mit einem Hauch Frische: Bissinger Auerquelle launcht PUR+ - about-drinks.com",
+          "title": "New beverage launches: Grey Goose, MOMO and more... - BeverageDaily.com",
           "company": "Unknown",
           "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUEhGLXplT1NrdUg2VzRZeTJVTHhzYkRwSjdiTXZTbGhUUFZuWll0czhRdDZoRWZwZGR6VFl6ZmNnUGpLUHIzb20zZnU5dGwyaE1kZTZ4RkZFczNQcjNMTENvTmdwa0tKY0NsOEpkMnhhTEdiVTI2c2tPQXNkVU94NGt2aDNWd3dMVEE0ZG11WUF5eXpIUk9rTGNOM3gwXzhrc0E?oc=5",
-          "date": "2026-10-06T13:09:32+00:00"
+          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+          "date": "2026-10-02T11:14:35+00:00"
         }
       ],
       "competitor_moves": [],
@@ -291,6 +313,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5",
           "date": "2026-10-02T12:50:49+00:00"
+        },
+        {
+          "title": "Clear label beverages – no chemicals or compromise - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSng4X05tUnlWU1I0dzVvQ1RHX2dqOWNHSjA2S29VM3RqUWR4NXBUYm04RUxhSFJ0TDEzSV9JaXFLRjNQMmJoVExqVkljaEExMlptUUVHRWpRbl9nS0FNQldzclBiV3VGNGxoaURUX05RU1NOei1TNWVSYkxTRkgtc1JBZ0JMRzFyWjZEVjhoaVFQZkxVdXdhRDRkWlVrYlZa?oc=5",
+          "date": "2026-09-29T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -300,6 +329,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDNBNjVtM1dFM3BVOXlLUExUR1g5OHVfSFoxdzZfdDc0ZDlScy1wcWV4RDNDaERNeDR3MHNOaVNDR0tBMkkwUHRuT09WdTZ0dEpLX01ieWpzbTdBVUVUS25zTmZWT21SRTJDa01aa2dLSkxSaDE5aVVhVVEwYkJBZ0xGc2ZuMFpwcDFka2JEYw?oc=5",
           "date": "2026-10-08T12:28:11+00:00"
+        },
+        {
+          "title": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "what_changed": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5",
+          "date": "2026-10-07T13:19:13+00:00"
         },
         {
           "title": "Southern Glazer’s, FTC reach deal over prices charged to retailers - Just Drinks",
@@ -312,12 +348,12 @@
       "signals": [
         {
           "signal": "Functional trending in Germany",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Carbonated trending in Germany",
@@ -345,16 +381,25 @@
             "alcohol_free"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Germany",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "3 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
             "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDhXVWZ0QUxqRS1FV3k5MS1hZ2VPS21qREtxNVhRdlhlZy1lbnhRNHZDdmNYRmhYY2xrQVA3LVlNZl81N3loeTVqZ2x6dUNxYkI0Y3M2MEtZSk1SYkluNlFEdXk2QXJMYkVSTWM3bGVyYzltb1UyNW1CQkE4MlBPY1E2SjZhcG1MZllCQ1IxNEd1cFk?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
           ]
         },
         {
@@ -370,21 +415,21 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
             "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDhXVWZ0QUxqRS1FV3k5MS1hZ2VPS21qREtxNVhRdlhlZy1lbnhRNHZDdmNYRmhYY2xrQVA3LVlNZl81N3loeTVqZ2x6dUNxYkI0Y3M2MEtZSk1SYkluNlFEdXk2QXJMYkVSTWM3bGVyYzltb1UyNW1CQkE4MlBPY1E2SjZhcG1MZllCQ1IxNEd1cFk?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
           ]
         },
         {
@@ -418,10 +463,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "detail": "Coca-Cola expands prebiotic push with “test-and-learn” NPD Just Drinks",
+          "headline": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "detail": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5"
           ],
           "confidence": "medium"
         },
@@ -434,10 +479,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Could PepsiCo’s snack turnaround offer a blueprint for its struggling beverage business? - FoodNavigator.com",
-          "detail": "Could PepsiCo’s snack turnaround offer a blueprint for its struggling beverage business? FoodNavigator.com",
+          "headline": "Snacks pricing, “urgency” on drinks – takeaways from PepsiCo’s Q3 results - Just Drinks",
+          "detail": "Snacks pricing, “urgency” on drinks – takeaways from PepsiCo’s Q3 results Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVVFidHRTWnpUazI1QTNPUlczMTRFLVp3ZU1pTnlHbWdxVmt4VEFIbl9rMFJMYVpTOUpZX2UwQjA2ZlI0TGhMV01SUmNvNmoyX2VCTTdSc1ZTUFVLSjRXY3gxT3JMS0FfRk5KaUJtODlYZWRIYTdxWE5mQjhXZlFhaFBXUmtmWXNjcUxJY2Y4WkRteG56Q2g3Tk5WNA?oc=5"
+            "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iT1Rsa3Jsd1dKVEpBUVVtTDh3T3liRWFYOFlEbWZSQnN6M1hnUnBIMWFHMkk2R1FyVElzUFlxUmdEdk9KWXN2T1FCQWtfS2p4TjBDYWhmWDVNLTBrWVRLZUg2ZnZzTXlUR0NSZFZPaWwtLTFl?oc=5"
           ],
           "confidence": "medium"
         }
@@ -450,14 +495,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
           "date": "2026-10-09T09:27:06+00:00"
-        },
-        {
-          "title": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "company": "Coca-Cola",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-          "date": "2026-10-08T13:18:57+00:00"
         },
         {
           "title": "New beverage launches: Grey Goose, MOMO and more... - BeverageDaily.com",
@@ -509,6 +546,13 @@
           "date": "2026-10-08T12:28:11+00:00"
         },
         {
+          "title": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "what_changed": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5",
+          "date": "2026-10-07T13:19:13+00:00"
+        },
+        {
           "title": "Southern Glazer’s, FTC reach deal over prices charged to retailers - Just Drinks",
           "what_changed": "Southern Glazer’s, FTC reach deal over prices charged to retailers Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -519,12 +563,12 @@
       "signals": [
         {
           "signal": "Functional trending in France",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Carbonated trending in France",
@@ -566,11 +610,11 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in France — ask about shelf space for new formats",
+          "pitch": "3 new product launches in France — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNW9GT25ZSEtwaThEM2RCNWc3TGZFekU3ZmZyZldwbElXU1BXeDFJSTUxVjk0dFA1TEdNQ3JqR3NtaGJkQWNZcWozUmFJM2hCZ1dkYlpjY3QyakJxTjNGeExMeWZzd3NENEdHTTNsZEJjbVdzaVlSeEE5c1daSTh0NS1RZl81N0dzZV9CY2pVWXgwSVJaT2VwZDlobHZJemhhM3M0?oc=5"
           ]
         },
         {
@@ -586,21 +630,21 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNW9GT25ZSEtwaThEM2RCNWc3TGZFekU3ZmZyZldwbElXU1BXeDFJSTUxVjk0dFA1TEdNQ3JqR3NtaGJkQWNZcWozUmFJM2hCZ1dkYlpjY3QyakJxTjNGeExMeWZzd3NENEdHTTNsZEJjbVdzaVlSeEE5c1daSTh0NS1RZl81N0dzZV9CY2pVWXgwSVJaT2VwZDlobHZJemhhM3M0?oc=5"
           ]
         },
         {
@@ -634,10 +678,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "detail": "Coca-Cola expands prebiotic push with “test-and-learn” NPD Just Drinks",
+          "headline": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "detail": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5"
           ],
           "confidence": "medium"
         },
@@ -650,10 +694,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Could PepsiCo’s snack turnaround offer a blueprint for its struggling beverage business? - FoodNavigator.com",
-          "detail": "Could PepsiCo’s snack turnaround offer a blueprint for its struggling beverage business? FoodNavigator.com",
+          "headline": "Snacks pricing, “urgency” on drinks – takeaways from PepsiCo’s Q3 results - Just Drinks",
+          "detail": "Snacks pricing, “urgency” on drinks – takeaways from PepsiCo’s Q3 results Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVVFidHRTWnpUazI1QTNPUlczMTRFLVp3ZU1pTnlHbWdxVmt4VEFIbl9rMFJMYVpTOUpZX2UwQjA2ZlI0TGhMV01SUmNvNmoyX2VCTTdSc1ZTUFVLSjRXY3gxT3JMS0FfRk5KaUJtODlYZWRIYTdxWE5mQjhXZlFhaFBXUmtmWXNjcUxJY2Y4WkRteG56Q2g3Tk5WNA?oc=5"
+            "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iT1Rsa3Jsd1dKVEpBUVVtTDh3T3liRWFYOFlEbWZSQnN6M1hnUnBIMWFHMkk2R1FyVElzUFlxUmdEdk9KWXN2T1FCQWtfS2p4TjBDYWhmWDVNLTBrWVRLZUg2ZnZzTXlUR0NSZFZPaWwtLTFl?oc=5"
           ],
           "confidence": "medium"
         }
@@ -666,14 +710,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
           "date": "2026-10-09T09:27:06+00:00"
-        },
-        {
-          "title": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "company": "Coca-Cola",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-          "date": "2026-10-08T13:18:57+00:00"
         },
         {
           "title": "New beverage launches: Grey Goose, MOMO and more... - BeverageDaily.com",
@@ -725,6 +761,13 @@
           "date": "2026-10-08T12:28:11+00:00"
         },
         {
+          "title": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "what_changed": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5",
+          "date": "2026-10-07T13:19:13+00:00"
+        },
+        {
           "title": "Southern Glazer’s, FTC reach deal over prices charged to retailers - Just Drinks",
           "what_changed": "Southern Glazer’s, FTC reach deal over prices charged to retailers Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -735,12 +778,12 @@
       "signals": [
         {
           "signal": "Functional trending in Spain",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Carbonated trending in Spain",
@@ -782,11 +825,11 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Spain — ask about shelf space for new formats",
+          "pitch": "3 new product launches in Spain — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNW9GT25ZSEtwaThEM2RCNWc3TGZFekU3ZmZyZldwbElXU1BXeDFJSTUxVjk0dFA1TEdNQ3JqR3NtaGJkQWNZcWozUmFJM2hCZ1dkYlpjY3QyakJxTjNGeExMeWZzd3NENEdHTTNsZEJjbVdzaVlSeEE5c1daSTh0NS1RZl81N0dzZV9CY2pVWXgwSVJaT2VwZDlobHZJemhhM3M0?oc=5"
           ]
         },
         {
@@ -802,21 +845,21 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNW9GT25ZSEtwaThEM2RCNWc3TGZFekU3ZmZyZldwbElXU1BXeDFJSTUxVjk0dFA1TEdNQ3JqR3NtaGJkQWNZcWozUmFJM2hCZ1dkYlpjY3QyakJxTjNGeExMeWZzd3NENEdHTTNsZEJjbVdzaVlSeEE5c1daSTh0NS1RZl81N0dzZV9CY2pVWXgwSVJaT2VwZDlobHZJemhhM3M0?oc=5"
           ]
         },
         {
@@ -850,14 +893,6 @@
           "confidence": "medium"
         },
         {
-          "headline": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "detail": "Coca-Cola expands prebiotic push with “test-and-learn” NPD Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Die Bar als Trendbarometer: „Alkoholfrei“ erobert die Cocktailszene - about-drinks.com",
           "detail": "Die Bar als Trendbarometer: „Alkoholfrei“ erobert die Cocktailszene about-drinks.com",
           "evidence_urls": [
@@ -872,6 +907,14 @@
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNk9oUlRmdkh6VkJjSWZzSWZyS0VpaW1BNHV5dUpjQmpWNTZaeUJrTEhNWEtyOUlRUHoxSEROeWlwcDNkT25jWmd5WE9tb041aWdfVUI5Q2xPVFRfLURIczFhNUdZcmpLVjJQdExKSURWcV9LS3JZUE5MWmlpY0RFb2pNLVc2aHhXT2RjUjEwMFMxVDRWcTBjOHNVLW12RFljTmdncGZkQQ?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "detail": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5"
+          ],
+          "confidence": "medium"
         }
       ],
       "key_launches": [
@@ -882,14 +925,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
           "date": "2026-10-09T09:27:06+00:00"
-        },
-        {
-          "title": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "company": "Coca-Cola",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-          "date": "2026-10-08T13:18:57+00:00"
         },
         {
           "title": "New beverage launches: Grey Goose, MOMO and more... - BeverageDaily.com",
@@ -941,6 +976,13 @@
           "date": "2026-10-08T12:28:11+00:00"
         },
         {
+          "title": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "what_changed": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5",
+          "date": "2026-10-07T13:19:13+00:00"
+        },
+        {
           "title": "Southern Glazer’s, FTC reach deal over prices charged to retailers - Just Drinks",
           "what_changed": "Southern Glazer’s, FTC reach deal over prices charged to retailers Just Drinks",
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
@@ -951,12 +993,12 @@
       "signals": [
         {
           "signal": "Functional trending in Italy",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Carbonated trending in Italy",
@@ -998,11 +1040,11 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Italy — ask about shelf space for new formats",
+          "pitch": "3 new product launches in Italy — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNW9GT25ZSEtwaThEM2RCNWc3TGZFekU3ZmZyZldwbElXU1BXeDFJSTUxVjk0dFA1TEdNQ3JqR3NtaGJkQWNZcWozUmFJM2hCZ1dkYlpjY3QyakJxTjNGeExMeWZzd3NENEdHTTNsZEJjbVdzaVlSeEE5c1daSTh0NS1RZl81N0dzZV9CY2pVWXgwSVJaT2VwZDlobHZJemhhM3M0?oc=5"
           ]
         },
         {
@@ -1018,21 +1060,21 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNW9GT25ZSEtwaThEM2RCNWc3TGZFekU3ZmZyZldwbElXU1BXeDFJSTUxVjk0dFA1TEdNQ3JqR3NtaGJkQWNZcWozUmFJM2hCZ1dkYlpjY3QyakJxTjNGeExMeWZzd3NENEdHTTNsZEJjbVdzaVlSeEE5c1daSTh0NS1RZl81N0dzZV9CY2pVWXgwSVJaT2VwZDlobHZJemhhM3M0?oc=5"
           ]
         },
         {
@@ -1074,18 +1116,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "detail": "Coca-Cola expands prebiotic push with “test-and-learn” NPD Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "ABERFELDY®: Designerin Esther Perbandt entwirft Limited-Edition Sleeve - about-drinks.com",
           "detail": "ABERFELDY®: Designerin Esther Perbandt entwirft Limited-Edition Sleeve about-drinks.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVmhPRm42NGlUaHpqM1RDNjlLSEtUQmRRRHlJSHdOSXlSdy1JR3hVT3gtRGhhWlNMSFVUR3JzakVEeFVOdGlYbUVIWnd0TDQ4bF9yU3dGay1Zb1VXa0NjUlhVdkxKZUV1WkRxWmJfQmxPY2hlRFd0OUpNWXJiUG1XbkxfdTJBS0laMXRSRDRXZTZHdFJEczlnTHBuelgyMkE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "detail": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1106,22 +1148,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDhXVWZ0QUxqRS1FV3k5MS1hZ2VPS21qREtxNVhRdlhlZy1lbnhRNHZDdmNYRmhYY2xrQVA3LVlNZl81N3loeTVqZ2x6dUNxYkI0Y3M2MEtZSk1SYkluNlFEdXk2QXJMYkVSTWM3bGVyYzltb1UyNW1CQkE4MlBPY1E2SjZhcG1MZllCQ1IxNEd1cFk?oc=5",
           "date": "2026-10-09T07:49:51+00:00"
-        },
-        {
-          "title": "Coca-Cola expands prebiotic push with “test-and-learn” NPD - Just Drinks",
-          "company": "Coca-Cola",
-          "product": "functional",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
-          "date": "2026-10-08T13:18:57+00:00"
-        },
-        {
-          "title": "Mineralwasser mit einem Hauch Frische: Bissinger Auerquelle launcht PUR+ - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUEhGLXplT1NrdUg2VzRZeTJVTHhzYkRwSjdiTXZTbGhUUFZuWll0czhRdDZoRWZwZGR6VFl6ZmNnUGpLUHIzb20zZnU5dGwyaE1kZTZ4RkZFczNQcjNMTENvTmdwa0tKY0NsOEpkMnhhTEdiVTI2c2tPQXNkVU94NGt2aDNWd3dMVEE0ZG11WUF5eXpIUk9rTGNOM3gwXzhrc0E?oc=5",
-          "date": "2026-10-06T13:09:32+00:00"
         },
         {
           "title": "New beverage launches: Grey Goose, MOMO and more... - BeverageDaily.com",
@@ -1154,6 +1180,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5",
           "date": "2026-10-02T12:50:49+00:00"
+        },
+        {
+          "title": "Clear label beverages – no chemicals or compromise - BeverageDaily.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSng4X05tUnlWU1I0dzVvQ1RHX2dqOWNHSjA2S29VM3RqUWR4NXBUYm04RUxhSFJ0TDEzSV9JaXFLRjNQMmJoVExqVkljaEExMlptUUVHRWpRbl9nS0FNQldzclBiV3VGNGxoaURUX05RU1NOei1TNWVSYkxTRkgtc1JBZ0JMRzFyWjZEVjhoaVFQZkxVdXdhRDRkWlVrYlZa?oc=5",
+          "date": "2026-09-29T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1163,6 +1196,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDNBNjVtM1dFM3BVOXlLUExUR1g5OHVfSFoxdzZfdDc0ZDlScy1wcWV4RDNDaERNeDR3MHNOaVNDR0tBMkkwUHRuT09WdTZ0dEpLX01ieWpzbTdBVUVUS25zTmZWT21SRTJDa01aa2dLSkxSaDE5aVVhVVEwYkJBZ0xGc2ZuMFpwcDFka2JEYw?oc=5",
           "date": "2026-10-08T12:28:11+00:00"
+        },
+        {
+          "title": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe - Just Drinks",
+          "what_changed": "Japan’s anti-trust watchdog raids four major brewers in price cartel probe Just Drinks",
+          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdEhoOXpscGpKMkVWVFNyOXZSSlNKVU5LZGVKR1ZBSGtNQTh1OXhRSmE4cU5yd2xGQ25DVm41UXZETkNnWTRPeTZLN1ZwM2xTNTBGOUdGN0h4TkwzOGR6MU1tTm81c2hVNTVNdUlHOU1PU3JBU0hBLWJ6NjJnNmFEVDhCMDdpaEZYbk1kY3JCSXhpTEY2Q0hUeXZDeXE2ZXBvb1RPQ0h0dFkwUQ?oc=5",
+          "date": "2026-10-07T13:19:13+00:00"
         },
         {
           "title": "Southern Glazer’s, FTC reach deal over prices charged to retailers - Just Drinks",
@@ -1175,12 +1215,12 @@
       "signals": [
         {
           "signal": "Functional trending in Austria",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Alcohol Free trending in Austria",
@@ -1199,16 +1239,25 @@
             "carbonated"
           ],
           "confidence": "low"
+        },
+        {
+          "signal": "Premium trending in Austria",
+          "explanation": "1 articles mention premium in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "premium"
+          ],
+          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "3 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
             "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDhXVWZ0QUxqRS1FV3k5MS1hZ2VPS21qREtxNVhRdlhlZy1lbnhRNHZDdmNYRmhYY2xrQVA3LVlNZl81N3loeTVqZ2x6dUNxYkI0Y3M2MEtZSk1SYkluNlFEdXk2QXJMYkVSTWM3bGVyYzltb1UyNW1CQkE4MlBPY1E2SjZhcG1MZllCQ1IxNEd1cFk?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
           ]
         },
         {
@@ -1224,21 +1273,21 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 3 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5",
             "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDhXVWZ0QUxqRS1FV3k5MS1hZ2VPS21qREtxNVhRdlhlZy1lbnhRNHZDdmNYRmhYY2xrQVA3LVlNZl81N3loeTVqZ2x6dUNxYkI0Y3M2MEtZSk1SYkluNlFEdXk2QXJMYkVSTWM3bGVyYzltb1UyNW1CQkE4MlBPY1E2SjZhcG1MZllCQ1IxNEd1cFk?oc=5",
-            "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xSzNqdzJGQVQxeUVPMGN4U3ZFZE5LcnZFT2xmLUw4NlVMN19IbkxFY2JvdmJSbXQ0Ulh4WmdCNU9WN0wxVlJfVWRZVUJEZ2pkeDItd2JfNjBLNklvaGVoNjlrSkN5ZU9vazdmWno2OTFEcm9GUkY1VGJIUXVuZw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5"
           ]
         },
         {

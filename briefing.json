@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-09T18:39:02.589117+00:00",
-  "generated_date": "Friday, 09 October 2026",
-  "briefing": "Sales intelligence tracked 258 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Natalie’s Juices Expands Retail Presence with Launch at Bashas' Family Supermarkets - BevNET.com.",
+  "generated_at": "2026-10-10T10:54:52.995667+00:00",
+  "generated_date": "Saturday, 10 October 2026",
+  "briefing": "Sales intelligence tracked 254 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Speaker Bio: Palmer Nackard - Beverage-Digest.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (35 items)",
-    "spain": "Functional trending. (35 items)",
-    "italy": "Functional trending. (38 items)",
+    "france": "Functional trending. (34 items)",
+    "spain": "Functional trending. (34 items)",
+    "italy": "Functional trending. (36 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 258,
+    "total_articles_analyzed": 254,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 152,
-      "launch": 37,
-      "functional": 34,
+      "trend": 154,
+      "functional": 27,
+      "launch": 25,
       "innovation": 24,
-      "regulatory": 15,
-      "pricing": 13,
-      "carbonated": 13,
-      "supply_chain": 9,
+      "pricing": 19,
+      "regulatory": 18,
+      "carbonated": 11,
+      "supply_chain": 8,
       "alcohol_free": 7,
-      "premium": 4
+      "premium": 6
     }
   }
 }
