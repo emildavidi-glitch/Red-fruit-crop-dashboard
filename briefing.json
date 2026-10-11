@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-10T17:38:38.238811+00:00",
-  "generated_date": "Saturday, 10 October 2026",
-  "briefing": "Sales intelligence tracked 239 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Speaker Bio: Palmer Nackard - Beverage-Digest.",
+  "generated_at": "2026-10-11T11:09:13.255800+00:00",
+  "generated_date": "Sunday, 11 October 2026",
+  "briefing": "Sales intelligence tracked 241 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Speaker Bio: Palmer Nackard - Beverage-Digest.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (29 items)",
-    "spain": "Functional trending. (29 items)",
+    "france": "Functional trending. (30 items)",
+    "spain": "Functional trending. (30 items)",
     "italy": "Functional trending. (31 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 239,
+    "total_articles_analyzed": 241,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 138,
-      "functional": 31,
-      "launch": 26,
-      "innovation": 24,
+      "trend": 136,
+      "functional": 30,
+      "launch": 28,
+      "innovation": 23,
       "pricing": 19,
-      "regulatory": 16,
-      "carbonated": 14,
-      "supply_chain": 8,
+      "regulatory": 17,
+      "carbonated": 12,
+      "supply_chain": 9,
       "premium": 6,
-      "alcohol_free": 6
+      "macro": 6
     }
   }
 }
