@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T11:09:13.255800+00:00",
+  "generated_at": "2026-10-11T17:54:08.689911+00:00",
   "regions": {
     "usa": {
       "status": "ok",
       "items": 50,
       "sources_ok": 14,
       "sources_failed": 1,
-      "last_item_date": "2026-10-10T01:52:59+00:00",
+      "last_item_date": "2026-10-10T01:04:06+00:00",
       "notes": []
     },
     "germany": {
@@ -19,7 +19,7 @@
     },
     "france": {
       "status": "ok",
-      "items": 30,
+      "items": 28,
       "sources_ok": 14,
       "sources_failed": 1,
       "last_item_date": "2026-10-09T13:51:14+00:00",
@@ -27,7 +27,7 @@
     },
     "spain": {
       "status": "ok",
-      "items": 30,
+      "items": 28,
       "sources_ok": 14,
       "sources_failed": 1,
       "last_item_date": "2026-10-09T13:51:14+00:00",
@@ -35,7 +35,7 @@
     },
     "italy": {
       "status": "ok",
-      "items": 31,
+      "items": 29,
       "sources_ok": 14,
       "sources_failed": 1,
       "last_item_date": "2026-10-09T13:51:14+00:00",
@@ -51,7 +51,7 @@
     }
   },
   "global": {
-    "total_items": 241,
+    "total_items": 235,
     "total_sources_ok": 14,
     "total_sources_failed": 1
   }
