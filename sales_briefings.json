@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:39:55.191561+00:00",
+  "generated_at": "2026-10-12T21:33:15.216466+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -13,6 +13,14 @@
           "confidence": "high"
         },
         {
+          "headline": "B&G Foods calls off Green Giant sale in Canada after antitrust concerns",
+          "detail": "A regulator previously said the sale to Nortera Foods could result in higher prices, fewer choices and reduced competition.",
+          "evidence_urls": [
+            "https://www.fooddive.com/news/antitrust-bg-foods-terminates-green-giant-sale-canada/832710/"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Leftovers: BeatBox jams with Cinnabon | Topo Chico launches premium canned water",
           "detail": "The party punch brand is bringing an April Fools’ joke to life, while Bauducco looks to introduce Americans to panettone made with Skippy peanut butter.",
           "evidence_urls": [
@@ -21,26 +29,18 @@
           "confidence": "high"
         },
         {
-          "headline": "Japan Focus: Health, innovation and the forces shaping food and drink - FoodNavigator.com",
-          "detail": "Japan Focus: Health, innovation and the forces shaping food and drink FoodNavigator.com",
+          "headline": "PepsiCo puts ‘all the urgency’ into turning around soft drinks",
+          "detail": "The beverage giant is planning to add more functional benefits to Poppi, its newly acquired better-for-you soda brand.",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWxhTjJET04temdhVk1uRVJsd0lHOHp3c0cwbm9uZHpCR2tvUV94SFgxcG5tWmlYVFFmUXY1SXFCaGFFRVZhYXdsSkRPWWJnTEItdkdQSkFZUnV1SERYcDdKZkhDVkxJdUZMQXBOalpBcVRXcHdwQ3NKLXFCS1FvQkFmWkxJYk1jdFNHek42Y004MlVpMFVYNDMtTFdDd1ZhYkowd3pjcFcxWjE4Sk9CUEl5eW1fT0lW?oc=5"
+            "https://www.fooddive.com/news/pepsico-soda-business-turnaround-poppi-mountain-dew/832737/"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
-          "detail": "Poland’s lower house passes curbs on alcohol sales, ban on advertising Just Drinks",
+          "headline": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "detail": "Constellation returns to M&A fray amid stagnant US beer market Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ3hxcjhOM3JGZF94aFV4WHN1MlRES1ItanMxbVI4OUNjZEZ3eko2bkVnM3NoUHJKNnU2OU9DUnA0RVBvWnp1UVA2RXktaURVV09aRkd2ZU9leF94VFQ1ekxBRUg5TUpOd1RuN3ZiMktqZlFOUkp2My13X1hHM0ZPNC1qaW1Wc29udF9kdmRhR0J6bmJvVUdfWEhSanpEcC1qVXo5Tg?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Campari chairman ‘asked to face trial on tax evasion allegations’ - Just Drinks",
-          "detail": "Campari chairman ‘asked to face trial on tax evasion allegations’ Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMid0FVX3lxTE45YUJtbGx6ZXZMS0hvMnJQX1ppUVliUWlGT0lMWVdqeGRUdnNOMzVPQXhBSFZEcTBjaHB4cHQ0cnRjMEhPd3JZT21nRWVnbzBZd2NleU5SOWstMEU4WmdERFFObUNtSjM4dmlaR0Znd1dHeXlNUDBV?oc=5"
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5"
           ],
           "confidence": "medium"
         }
@@ -79,8 +79,32 @@
           "date": "2026-10-02T11:14:35+00:00"
         }
       ],
-      "competitor_moves": [],
+      "competitor_moves": [
+        {
+          "title": "PepsiCo puts ‘all the urgency’ into turning around soft drinks",
+          "company": "PepsiCo",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://www.fooddive.com/news/pepsico-soda-business-turnaround-poppi-mountain-dew/832737/",
+          "date": "2026-10-12T11:03:00-04:00"
+        },
+        {
+          "title": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5",
+          "date": "2026-10-12T13:28:32+00:00"
+        }
+      ],
       "regulatory_watch": [
+        {
+          "title": "B&G Foods calls off Green Giant sale in Canada after antitrust concerns",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://www.fooddive.com/news/antitrust-bg-foods-terminates-green-giant-sale-canada/832710/",
+          "date": "2026-10-12T10:00:00-04:00"
+        },
         {
           "title": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
           "topic": "regulation",
@@ -136,8 +160,8 @@
       "signals": [
         {
           "signal": "Functional trending in United States",
-          "explanation": "9 articles mention functional in the last 28 days",
-          "support_count": 9,
+          "explanation": "8 articles mention functional in the last 28 days",
+          "support_count": 8,
           "top_keywords": [
             "functional"
           ],
@@ -145,12 +169,12 @@
         },
         {
           "signal": "Carbonated trending in United States",
-          "explanation": "5 articles mention carbonated in the last 28 days",
-          "support_count": 5,
+          "explanation": "3 articles mention carbonated in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Premium trending in United States",
@@ -171,13 +195,13 @@
           "confidence": "medium"
         },
         {
-          "signal": "Organic trending in United States",
-          "explanation": "2 articles mention organic in the last 28 days",
-          "support_count": 2,
+          "signal": "Alcohol Free trending in United States",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
-            "organic"
+            "alcohol_free"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -194,18 +218,18 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://www.fooddive.com/news/antitrust-bg-foods-terminates-green-giant-sale-canada/832710/",
             "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ3hxcjhOM3JGZF94aFV4WHN1MlRES1ItanMxbVI4OUNjZEZ3eko2bkVnM3NoUHJKNnU2OU9DUnA0RVBvWnp1UVA2RXktaURVV09aRkd2ZU9leF94VFQ1ekxBRUg5TUpOd1RuN3ZiMktqZlFOUkp2My13X1hHM0ZPNC1qaW1Wc29udF9kdmRhR0J6bmJvVUdfWEhSanpEcC1qVXo5Tg?oc=5",
-            "https://news.google.com/rss/articles/CBMid0FVX3lxTE45YUJtbGx6ZXZMS0hvMnJQX1ppUVliUWlGT0lMWVdqeGRUdnNOMzVPQXhBSFZEcTBjaHB4cHQ0cnRjMEhPd3JZT21nRWVnbzBZd2NleU5SOWstMEU4WmdERFFObUNtSjM4dmlaR0Znd1dHeXlNUDBV?oc=5",
-            "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5"
+            "https://news.google.com/rss/articles/CBMid0FVX3lxTE45YUJtbGx6ZXZMS0hvMnJQX1ppUVliUWlGT0lMWVdqeGRUdnNOMzVPQXhBSFZEcTBjaHB4cHQ0cnRjMEhPd3JZT21nRWVnbzBZd2NleU5SOWstMEU4WmdERFFObUNtSjM4dmlaR0Znd1dHeXlNUDBV?oc=5"
           ]
         },
         {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in United States — expand functional SKU range in next order",
           "supporting_evidence_urls": [
+            "https://www.fooddive.com/news/pepsico-soda-business-turnaround-poppi-mountain-dew/832737/",
             "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnhPUDVGT0VJcnhPdWpWWVR4amxkM092MU94bEpNckJHdkdNcDdzbXIyaW4yckxfUzN4ajIwRVlhNVJvU2tuT1Q2WjZ2ZWJYUzZ4c3pidDhoSkNqd2hrLXJQN0dYMm13bHppejY0VTNRWUxxblZTOTZlc1J3YU9JM0UwcThiaXp3WVhRVTZCOTl0ekRJQXh4Zi0yWFVqWnRVLXlJ?oc=5",
-            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzR1XzQ4bFZ6WmRQWkU0SGt5dnB3elpRbWd0REt5M1ZTWVp2YWxSWTdJSV9ZRk00UWwxa08zdUw4aU5uc1Z1bTM5TTNJR0dFUXRDTnpid3VvT185WS1tVy1sekRzMlJPZVl5Wk4zQ2tLRktxZV9tM29XV0NaS05oN0dkTDEzNHllZWM4UHRMTnFuS2tDZnpxcVR1T0Rnb01KYzF2T1M2T0RNVkNXczZrUnFfZE5vQQ?oc=5",
-            "https://www.fooddive.com/news/olipop-ceo-christian-patino-webb-interview-1-billion-sales-better-for-you-soda/831539/"
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzR1XzQ4bFZ6WmRQWkU0SGt5dnB3elpRbWd0REt5M1ZTWVp2YWxSWTdJSV9ZRk00UWwxa08zdUw4aU5uc1Z1bTM5TTNJR0dFUXRDTnpid3VvT185WS1tVy1sekRzMlJPZVl5Wk4zQ2tLRktxZV9tM29XV0NaS05oN0dkTDEzNHllZWM4UHRMTnFuS2tDZnpxcVR1T0Rnb01KYzF2T1M2T0RNVkNXczZrUnFfZE5vQQ?oc=5"
           ]
         }
       ],
@@ -225,9 +249,9 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://www.fooddive.com/news/antitrust-bg-foods-terminates-green-giant-sale-canada/832710/",
             "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ3hxcjhOM3JGZF94aFV4WHN1MlRES1ItanMxbVI4OUNjZEZ3eko2bkVnM3NoUHJKNnU2OU9DUnA0RVBvWnp1UVA2RXktaURVV09aRkd2ZU9leF94VFQ1ekxBRUg5TUpOd1RuN3ZiMktqZlFOUkp2My13X1hHM0ZPNC1qaW1Wc29udF9kdmRhR0J6bmJvVUdfWEhSanpEcC1qVXo5Tg?oc=5",
-            "https://news.google.com/rss/articles/CBMid0FVX3lxTE45YUJtbGx6ZXZMS0hvMnJQX1ppUVliUWlGT0lMWVdqeGRUdnNOMzVPQXhBSFZEcTBjaHB4cHQ0cnRjMEhPd3JZT21nRWVnbzBZd2NleU5SOWstMEU4WmdERFFObUNtSjM4dmlaR0Znd1dHeXlNUDBV?oc=5",
-            "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWZ0Y3kzS3lpcHFIbVR2cFdUdWprUm5YODBBYmpqOUlUeWRvSTZQQm5YVDZKMVBXZEc0VXJpcHoxbDRCMzV3dDliSGdidUdoWjJGQlc5QWNHVlQ1cE14OUExRVViaDJMbFktRTNqbS1JemtIekkxLVB2bFdtVjVxZVln?oc=5"
+            "https://news.google.com/rss/articles/CBMid0FVX3lxTE45YUJtbGx6ZXZMS0hvMnJQX1ppUVliUWlGT0lMWVdqeGRUdnNOMzVPQXhBSFZEcTBjaHB4cHQ0cnRjMEhPd3JZT21nRWVnbzBZd2NleU5SOWstMEU4WmdERFFObUNtSjM4dmlaR0Znd1dHeXlNUDBV?oc=5"
           ]
         }
       ]
@@ -241,6 +265,14 @@
             "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pTFNoalBEY2dQN0pjRkRCYm9FOWRGenFlMzhCUEtvVkhhdnVLeUhJYld0LUoyVmk2aXVVQVRFQWtnR3VIb2c2cmxtYVBZaVBmM2xrTlhYRWNtd2tvZWhvZjF4bUsxdkNSUE5rTl9xX3dUUk92ODk0QkwyckpIQQ?oc=5"
           ],
           "confidence": "high"
+        },
+        {
+          "headline": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "detail": "Constellation returns to M&A fray amid stagnant US beer market Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5"
+          ],
+          "confidence": "medium"
         },
         {
           "headline": "Japan Focus: Health, innovation and the forces shaping food and drink - FoodNavigator.com",
@@ -263,14 +295,6 @@
           "detail": "Campari chairman ‘asked to face trial on tax evasion allegations’ Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMid0FVX3lxTE45YUJtbGx6ZXZMS0hvMnJQX1ppUVliUWlGT0lMWVdqeGRUdnNOMzVPQXhBSFZEcTBjaHB4cHQ0cnRjMEhPd3JZT21nRWVnbzBZd2NleU5SOWstMEU4WmdERFFObUNtSjM4dmlaR0Znd1dHeXlNUDBV?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth - BeverageDaily.com",
-          "detail": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelM3NDhPamg4ZmlzRGd3MzRUZnJvSFhXUUw0YVBmV3RWcFhXUk9mUEp6eDgwU0E2ZkhpRGRvX1pDSG5LVm5GYmc0YU1tZW9oVG5rUFFCX0dZTktaaFoxZkNGUlZpc1pmWktFTkZCWGpRRktQQXJSRHhrSlhLM1pSX2F5RHVLNVJBSW5jT1lsZEpIVmVObGNhTzVzcEJraGQ0dWNzemJPbHJQbDhMOEdIY2F3?oc=5"
           ],
           "confidence": "medium"
         }
@@ -317,14 +341,23 @@
           "date": "2026-09-22T07:00:00+00:00"
         }
       ],
-      "competitor_moves": [],
+      "competitor_moves": [
+        {
+          "title": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5",
+          "date": "2026-10-12T13:28:32+00:00"
+        }
+      ],
       "regulatory_watch": [
         {
           "title": "German states criticise sugar tax plans - Just Drinks",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pTFNoalBEY2dQN0pjRkRCYm9FOWRGenFlMzhCUEtvVkhhdnVLeUhJYld0LUoyVmk2aXVVQVRFQWtnR3VIb2c2cmxtYVBZaVBmM2xrTlhYRWNtd2tvZWhvZjF4bUsxdkNSUE5rTl9xX3dUUk92ODk0QkwyckpIQQ?oc=5",
-          "date": "2026-10-12T12:23:30+00:00"
+          "date": "2026-10-12T13:07:48+00:00"
         },
         {
           "title": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
@@ -407,11 +440,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Energy trending in Germany",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -471,6 +504,14 @@
     "france": {
       "executive_summary": [
         {
+          "headline": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "detail": "Constellation returns to M&A fray amid stagnant US beer market Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Japan Focus: Health, innovation and the forces shaping food and drink - FoodNavigator.com",
           "detail": "Japan Focus: Health, innovation and the forces shaping food and drink FoodNavigator.com",
           "evidence_urls": [
@@ -495,18 +536,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth - BeverageDaily.com",
-          "detail": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth BeverageDaily.com",
+          "headline": "Beer brand values rise amid alcohol-free growth - BeverageDaily.com",
+          "detail": "Beer brand values rise amid alcohol-free growth BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelM3NDhPamg4ZmlzRGd3MzRUZnJvSFhXUUw0YVBmV3RWcFhXUk9mUEp6eDgwU0E2ZkhpRGRvX1pDSG5LVm5GYmc0YU1tZW9oVG5rUFFCX0dZTktaaFoxZkNGUlZpc1pmWktFTkZCWGpRRktQQXJSRHhrSlhLM1pSX2F5RHVLNVJBSW5jT1lsZEpIVmVObGNhTzVzcEJraGQ0dWNzemJPbHJQbDhMOEdIY2F3?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "New beverage launches: Rude Health, three whiskey releases and more - BeverageDaily.com",
-          "detail": "New beverage launches: Rude Health, three whiskey releases and more BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxNamhaaWdpN3RNdm9yN1FXeWF1aU9iSzFjSC1QNndXQmhQVEJkNUgtQWxfVlF4NWNXUGhnWWxDOXhmNlZlUm1hSjJfODYzbVh1QldqTHFCc0hGZ1Q2aWVWbUZ3dlA3c05FOGlzMDEyZW8tNHcya1NSaHQxTl9POFdTdU1jSWR2ckJKc1o0eXBWcGw5RkdZcVVjbkhrN05idw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -537,7 +570,16 @@
           "date": "2026-09-28T07:00:00+00:00"
         }
       ],
-      "competitor_moves": [],
+      "competitor_moves": [
+        {
+          "title": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5",
+          "date": "2026-10-12T13:28:32+00:00"
+        }
+      ],
       "regulatory_watch": [
         {
           "title": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
@@ -609,6 +651,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in France",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Premium trending in France",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -632,15 +683,6 @@
           "support_count": 1,
           "top_keywords": [
             "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in France",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -700,6 +742,14 @@
     "spain": {
       "executive_summary": [
         {
+          "headline": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "detail": "Constellation returns to M&A fray amid stagnant US beer market Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Japan Focus: Health, innovation and the forces shaping food and drink - FoodNavigator.com",
           "detail": "Japan Focus: Health, innovation and the forces shaping food and drink FoodNavigator.com",
           "evidence_urls": [
@@ -724,18 +774,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth - BeverageDaily.com",
-          "detail": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth BeverageDaily.com",
+          "headline": "Beer brand values rise amid alcohol-free growth - BeverageDaily.com",
+          "detail": "Beer brand values rise amid alcohol-free growth BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelM3NDhPamg4ZmlzRGd3MzRUZnJvSFhXUUw0YVBmV3RWcFhXUk9mUEp6eDgwU0E2ZkhpRGRvX1pDSG5LVm5GYmc0YU1tZW9oVG5rUFFCX0dZTktaaFoxZkNGUlZpc1pmWktFTkZCWGpRRktQQXJSRHhrSlhLM1pSX2F5RHVLNVJBSW5jT1lsZEpIVmVObGNhTzVzcEJraGQ0dWNzemJPbHJQbDhMOEdIY2F3?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "New beverage launches: Rude Health, three whiskey releases and more - BeverageDaily.com",
-          "detail": "New beverage launches: Rude Health, three whiskey releases and more BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxNamhaaWdpN3RNdm9yN1FXeWF1aU9iSzFjSC1QNndXQmhQVEJkNUgtQWxfVlF4NWNXUGhnWWxDOXhmNlZlUm1hSjJfODYzbVh1QldqTHFCc0hGZ1Q2aWVWbUZ3dlA3c05FOGlzMDEyZW8tNHcya1NSaHQxTl9POFdTdU1jSWR2ckJKc1o0eXBWcGw5RkdZcVVjbkhrN05idw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -766,7 +808,16 @@
           "date": "2026-09-28T07:00:00+00:00"
         }
       ],
-      "competitor_moves": [],
+      "competitor_moves": [
+        {
+          "title": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5",
+          "date": "2026-10-12T13:28:32+00:00"
+        }
+      ],
       "regulatory_watch": [
         {
           "title": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
@@ -838,6 +889,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Premium trending in Spain",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -861,15 +921,6 @@
           "support_count": 1,
           "top_keywords": [
             "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Spain",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -929,6 +980,14 @@
     "italy": {
       "executive_summary": [
         {
+          "headline": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "detail": "Constellation returns to M&A fray amid stagnant US beer market Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Japan Focus: Health, innovation and the forces shaping food and drink - FoodNavigator.com",
           "detail": "Japan Focus: Health, innovation and the forces shaping food and drink FoodNavigator.com",
           "evidence_urls": [
@@ -953,18 +1012,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth - BeverageDaily.com",
-          "detail": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth BeverageDaily.com",
+          "headline": "Beer brand values rise amid alcohol-free growth - BeverageDaily.com",
+          "detail": "Beer brand values rise amid alcohol-free growth BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelM3NDhPamg4ZmlzRGd3MzRUZnJvSFhXUUw0YVBmV3RWcFhXUk9mUEp6eDgwU0E2ZkhpRGRvX1pDSG5LVm5GYmc0YU1tZW9oVG5rUFFCX0dZTktaaFoxZkNGUlZpc1pmWktFTkZCWGpRRktQQXJSRHhrSlhLM1pSX2F5RHVLNVJBSW5jT1lsZEpIVmVObGNhTzVzcEJraGQ0dWNzemJPbHJQbDhMOEdIY2F3?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "New beverage launches: Rude Health, three whiskey releases and more - BeverageDaily.com",
-          "detail": "New beverage launches: Rude Health, three whiskey releases and more BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxNamhaaWdpN3RNdm9yN1FXeWF1aU9iSzFjSC1QNndXQmhQVEJkNUgtQWxfVlF4NWNXUGhnWWxDOXhmNlZlUm1hSjJfODYzbVh1QldqTHFCc0hGZ1Q2aWVWbUZ3dlA3c05FOGlzMDEyZW8tNHcya1NSaHQxTl9POFdTdU1jSWR2ckJKc1o0eXBWcGw5RkdZcVVjbkhrN05idw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -995,7 +1046,16 @@
           "date": "2026-09-28T07:00:00+00:00"
         }
       ],
-      "competitor_moves": [],
+      "competitor_moves": [
+        {
+          "title": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5",
+          "date": "2026-10-12T13:28:32+00:00"
+        }
+      ],
       "regulatory_watch": [
         {
           "title": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
@@ -1067,6 +1127,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Premium trending in Italy",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -1090,15 +1159,6 @@
           "support_count": 1,
           "top_keywords": [
             "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Alcohol Free trending in Italy",
-          "explanation": "1 articles mention alcohol free in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "alcohol_free"
           ],
           "confidence": "low"
         }
@@ -1158,6 +1218,14 @@
     "austria": {
       "executive_summary": [
         {
+          "headline": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "detail": "Constellation returns to M&A fray amid stagnant US beer market Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Japan Focus: Health, innovation and the forces shaping food and drink - FoodNavigator.com",
           "detail": "Japan Focus: Health, innovation and the forces shaping food and drink FoodNavigator.com",
           "evidence_urls": [
@@ -1182,18 +1250,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth - BeverageDaily.com",
-          "detail": "Sip. Chill. Repeat: Why stress-relieving drinks are exploding in growth BeverageDaily.com",
+          "headline": "Beer brand values rise amid alcohol-free growth - BeverageDaily.com",
+          "detail": "Beer brand values rise amid alcohol-free growth BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelM3NDhPamg4ZmlzRGd3MzRUZnJvSFhXUUw0YVBmV3RWcFhXUk9mUEp6eDgwU0E2ZkhpRGRvX1pDSG5LVm5GYmc0YU1tZW9oVG5rUFFCX0dZTktaaFoxZkNGUlZpc1pmWktFTkZCWGpRRktQQXJSRHhrSlhLM1pSX2F5RHVLNVJBSW5jT1lsZEpIVmVObGNhTzVzcEJraGQ0dWNzemJPbHJQbDhMOEdIY2F3?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "New beverage launches: Rude Health, three whiskey releases and more - BeverageDaily.com",
-          "detail": "New beverage launches: Rude Health, three whiskey releases and more BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRhZlhZRThpS2ljTm51VVBINWxHU0lkdkNfSEFxVkstYWRGQXdLMEtfUWhUXzl2Z2RWNFNoZFhuYlJqWmhUVS05ejQycmpwZktkQ3k4aWNMQkhKYUt3WWMwLVMyVU5iYzIzTjRxT2d6MjBjaGcwTUhGMWFRQUNhX1NVMWZaaUZVcUFyaU9IWkRKMndRS3hWdTBVMFdPdmZUeUE?oc=5"
+            "https://news.google.com/rss/articles/CBMingFBVV95cUxNamhaaWdpN3RNdm9yN1FXeWF1aU9iSzFjSC1QNndXQmhQVEJkNUgtQWxfVlF4NWNXUGhnWWxDOXhmNlZlUm1hSjJfODYzbVh1QldqTHFCc0hGZ1Q2aWVWbUZ3dlA3c05FOGlzMDEyZW8tNHcya1NSaHQxTl9POFdTdU1jSWR2ckJKc1o0eXBWcGw5RkdZcVVjbkhrN05idw?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1240,7 +1300,16 @@
           "date": "2026-09-22T07:00:00+00:00"
         }
       ],
-      "competitor_moves": [],
+      "competitor_moves": [
+        {
+          "title": "Constellation returns to M&A fray amid stagnant US beer market - Just Drinks",
+          "company": "Unknown",
+          "move_type": "competitor",
+          "impact": "Competitor move may reshape market dynamics. Evaluate impact on distribution, shelf space, and customer relationships.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkIwZEtjdXhLdEQ4MDZpeWJMMEZ4eWpWejd0ZjhKdXl0RVI0YTlaRjVpTlZhMDFMLWlMSS1xVldmWkQteG9QWTgwMFNVUEROMVZuTHgzV1VSS1p6RlZyaHk1X2djUFE5d0pOY1lkUkdoc25IYjZJN3Q4NHFMRmVhZTlseWNPV2dIX1k3cVNGNS0ySktiRkF0SHpOczMwNmhH?oc=5",
+          "date": "2026-10-12T13:28:32+00:00"
+        }
+      ],
       "regulatory_watch": [
         {
           "title": "Poland’s lower house passes curbs on alcohol sales, ban on advertising - Just Drinks",
@@ -1328,15 +1397,6 @@
             "carbonated"
           ],
           "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in Austria",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         },
         {
           "signal": "Alcohol Free trending in Austria",

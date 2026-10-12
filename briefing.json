@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-12T12:39:55.191561+00:00",
+  "generated_at": "2026-10-12T21:33:15.216466+00:00",
   "generated_date": "Monday, 12 October 2026",
-  "briefing": "Sales intelligence tracked 253 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: German states criticise sugar tax plans - Just Drinks.",
+  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: WHY DRINK THE OTHER STUFF? AVANA Brings a More Thoughtful Approach to the Canned Cocktail - BevNET.c.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (34 items)",
-    "spain": "Functional trending. (34 items)",
-    "italy": "Functional trending. (35 items)",
+    "france": "Functional trending. (36 items)",
+    "spain": "Functional trending. (36 items)",
+    "italy": "Functional trending. (37 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 253,
+    "total_articles_analyzed": 259,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 130,
+      "trend": 131,
+      "regulatory": 30,
       "innovation": 29,
-      "regulatory": 29,
-      "functional": 29,
+      "functional": 28,
       "launch": 23,
       "pricing": 19,
       "premium": 12,
-      "carbonated": 12,
-      "supply_chain": 11,
-      "macro": 7
+      "carbonated": 10,
+      "supply_chain": 10,
+      "alcohol_free": 9
     }
   }
 }
