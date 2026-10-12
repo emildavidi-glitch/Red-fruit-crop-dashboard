@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-11T17:54:08.689911+00:00",
-  "generated_date": "Sunday, 11 October 2026",
-  "briefing": "Sales intelligence tracked 235 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Garage Brewing Co - Office and Logistics Administrator - BevNET.com Beverage Industry Job Listing - .",
+  "generated_at": "2026-10-12T12:39:55.191561+00:00",
+  "generated_date": "Monday, 12 October 2026",
+  "briefing": "Sales intelligence tracked 253 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: German states criticise sugar tax plans - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (28 items)",
-    "spain": "Functional trending. (28 items)",
-    "italy": "Functional trending. (29 items)",
+    "france": "Functional trending. (34 items)",
+    "spain": "Functional trending. (34 items)",
+    "italy": "Functional trending. (35 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 235,
+    "total_articles_analyzed": 253,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 133,
-      "functional": 30,
-      "launch": 27,
-      "innovation": 23,
+      "trend": 130,
+      "innovation": 29,
+      "regulatory": 29,
+      "functional": 29,
+      "launch": 23,
       "pricing": 19,
-      "regulatory": 17,
+      "premium": 12,
       "carbonated": 12,
-      "supply_chain": 10,
-      "premium": 7,
-      "energy": 6
+      "supply_chain": 11,
+      "macro": 7
     }
   }
 }
