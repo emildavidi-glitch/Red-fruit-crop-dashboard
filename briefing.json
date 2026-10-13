@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-12T21:33:15.216466+00:00",
-  "generated_date": "Monday, 12 October 2026",
-  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: WHY DRINK THE OTHER STUFF? AVANA Brings a More Thoughtful Approach to the Canned Cocktail - BevNET.c.",
+  "generated_at": "2026-10-13T12:25:01.648425+00:00",
+  "generated_date": "Tuesday, 13 October 2026",
+  "briefing": "Sales intelligence tracked 250 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: Champagne in a can: Can RTD attract new consumers? - BeverageDaily.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (36 items)",
-    "spain": "Functional trending. (36 items)",
-    "italy": "Functional trending. (37 items)",
+    "france": "Functional trending. (33 items)",
+    "spain": "Functional trending. (33 items)",
+    "italy": "Functional trending. (34 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 259,
+    "total_articles_analyzed": 250,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 131,
+      "trend": 123,
       "regulatory": 30,
       "innovation": 29,
-      "functional": 28,
-      "launch": 23,
-      "pricing": 19,
-      "premium": 12,
-      "carbonated": 10,
-      "supply_chain": 10,
-      "alcohol_free": 9
+      "functional": 27,
+      "launch": 26,
+      "supply_chain": 15,
+      "pricing": 13,
+      "alcohol_free": 10,
+      "rtd": 8,
+      "macro": 8
     }
   }
 }
