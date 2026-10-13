@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-13T12:25:01.648425+00:00",
+  "generated_at": "2026-10-13T19:44:28.310344+00:00",
   "generated_date": "Tuesday, 13 October 2026",
-  "briefing": "Sales intelligence tracked 250 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: Champagne in a can: Can RTD attract new consumers? - BeverageDaily.com.",
+  "briefing": "Sales intelligence tracked 257 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: Sierra Nevada Brewing Co. - Sr Supply Chain Manager - BevNET.com Beverage Industry Job Listing - Bev.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (33 items)",
-    "spain": "Functional trending. (33 items)",
-    "italy": "Functional trending. (34 items)",
+    "france": "Functional trending. (36 items)",
+    "spain": "Functional trending. (35 items)",
+    "italy": "Functional trending. (36 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 250,
+    "total_articles_analyzed": 257,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 123,
-      "regulatory": 30,
-      "innovation": 29,
+      "trend": 122,
+      "regulatory": 29,
+      "innovation": 28,
       "functional": 27,
-      "launch": 26,
+      "launch": 25,
+      "pricing": 19,
       "supply_chain": 15,
-      "pricing": 13,
-      "alcohol_free": 10,
-      "rtd": 8,
-      "macro": 8
+      "rtd": 10,
+      "alcohol_free": 9,
+      "premium": 8
     }
   }
 }
