@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-14T09:52:34.047653+00:00",
+  "generated_at": "2026-10-14T17:46:39.552492+00:00",
   "generated_date": "Wednesday, 14 October 2026",
-  "briefing": "Sales intelligence tracked 244 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: Diese deutschen Biermarken sind auf Social Media am stärksten - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Just Ice Tea Competes for Energy Occasion with Awaken Cold Brew Tea Launch - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (32 items)",
-    "spain": "Functional trending. (31 items)",
-    "italy": "Functional trending. (31 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (36 items)",
+    "italy": "Functional trending. (36 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 244,
+    "total_articles_analyzed": 259,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 119,
-      "regulatory": 31,
-      "innovation": 22,
-      "functional": 21,
-      "launch": 20,
-      "pricing": 19,
-      "supply_chain": 16,
-      "alcohol_free": 12,
+      "trend": 131,
+      "launch": 29,
+      "regulatory": 27,
+      "functional": 25,
+      "innovation": 21,
+      "pricing": 20,
+      "supply_chain": 17,
+      "alcohol_free": 11,
       "rtd": 10,
-      "competitor": 6
+      "macro": 6
     }
   }
 }
