@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-14T17:46:39.552492+00:00",
-  "generated_date": "Wednesday, 14 October 2026",
-  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Just Ice Tea Competes for Energy Occasion with Awaken Cold Brew Tea Launch - BevNET.com.",
+  "generated_at": "2026-10-15T09:33:44.493914+00:00",
+  "generated_date": "Thursday, 15 October 2026",
+  "briefing": "Sales intelligence tracked 253 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; regulatory changes reshaping strategies. Latest: Hellers Brauhaus feiert 30 Jahre mit kölschem Programm - about-drinks.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (37 items)",
-    "spain": "Functional trending. (36 items)",
-    "italy": "Functional trending. (36 items)",
+    "france": "Functional trending. (35 items)",
+    "spain": "Functional trending. (34 items)",
+    "italy": "Functional trending. (34 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 259,
+    "total_articles_analyzed": 253,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 131,
-      "launch": 29,
-      "regulatory": 27,
-      "functional": 25,
-      "innovation": 21,
-      "pricing": 20,
-      "supply_chain": 17,
+      "trend": 132,
+      "functional": 30,
+      "regulatory": 28,
+      "innovation": 27,
+      "launch": 25,
+      "pricing": 15,
       "alcohol_free": 11,
-      "rtd": 10,
-      "macro": 6
+      "supply_chain": 10,
+      "macro": 8,
+      "competitor": 4
     }
   }
 }
