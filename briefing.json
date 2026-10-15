@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-15T09:33:44.493914+00:00",
+  "generated_at": "2026-10-15T17:35:45.511239+00:00",
   "generated_date": "Thursday, 15 October 2026",
-  "briefing": "Sales intelligence tracked 253 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; regulatory changes reshaping strategies. Latest: Hellers Brauhaus feiert 30 Jahre mit kölschem Programm - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 258 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: Pernod Ricard Expects RTDs To Gain Share, But No US Spirits “Bounceback” - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (35 items)",
-    "spain": "Functional trending. (34 items)",
-    "italy": "Functional trending. (34 items)",
+    "france": "Functional trending. (36 items)",
+    "spain": "Functional trending. (36 items)",
+    "italy": "Functional trending. (36 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 253,
+    "total_articles_analyzed": 258,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 132,
-      "functional": 30,
-      "regulatory": 28,
-      "innovation": 27,
-      "launch": 25,
-      "pricing": 15,
-      "alcohol_free": 11,
-      "supply_chain": 10,
-      "macro": 8,
-      "competitor": 4
+      "trend": 147,
+      "innovation": 30,
+      "regulatory": 27,
+      "functional": 27,
+      "launch": 24,
+      "alcohol_free": 9,
+      "protein": 8,
+      "supply_chain": 8,
+      "pricing": 7,
+      "macro": 7
     }
   }
 }
