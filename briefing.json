@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-16T09:26:20.711795+00:00",
+  "generated_at": "2026-10-16T17:09:55.057346+00:00",
   "generated_date": "Friday, 16 October 2026",
-  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: 600.000 Euro für 10 % Anteile: Kölsche Koks in „Die Höhle der Löwen“ - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 283 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Wook Water - Head of Operations - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Protein trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (37 items)",
-    "spain": "Functional trending. (37 items)",
-    "italy": "Functional trending. (37 items)",
+    "france": "Functional trending. (45 items)",
+    "spain": "Functional trending. (44 items)",
+    "italy": "Functional trending. (44 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 261,
+    "total_articles_analyzed": 283,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 159,
-      "innovation": 31,
-      "regulatory": 23,
-      "launch": 22,
-      "functional": 17,
+      "trend": 172,
+      "launch": 29,
+      "innovation": 26,
+      "supply_chain": 16,
+      "regulatory": 15,
+      "functional": 14,
+      "macro": 11,
       "energy": 10,
-      "protein": 9,
-      "alcohol_free": 9,
-      "pricing": 8,
-      "macro": 7
+      "rtd": 9,
+      "protein": 9
     }
   }
 }
