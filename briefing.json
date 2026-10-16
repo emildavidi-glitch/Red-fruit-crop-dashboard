@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T17:35:45.511239+00:00",
-  "generated_date": "Thursday, 15 October 2026",
-  "briefing": "Sales intelligence tracked 258 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: Pernod Ricard Expects RTDs To Gain Share, But No US Spirits “Bounceback” - BevNET.com.",
+  "generated_at": "2026-10-16T09:26:20.711795+00:00",
+  "generated_date": "Friday, 16 October 2026",
+  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; regulatory changes reshaping strategies. Latest: 600.000 Euro für 10 % Anteile: Kölsche Koks in „Die Höhle der Löwen“ - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Protein trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (36 items)",
-    "spain": "Functional trending. (36 items)",
-    "italy": "Functional trending. (36 items)",
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (37 items)",
+    "italy": "Functional trending. (37 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 258,
+    "total_articles_analyzed": 261,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 147,
-      "innovation": 30,
-      "regulatory": 27,
-      "functional": 27,
-      "launch": 24,
+      "trend": 159,
+      "innovation": 31,
+      "regulatory": 23,
+      "launch": 22,
+      "functional": 17,
+      "energy": 10,
+      "protein": 9,
       "alcohol_free": 9,
-      "protein": 8,
-      "supply_chain": 8,
-      "pricing": 7,
+      "pricing": 8,
       "macro": 7
     }
   }
