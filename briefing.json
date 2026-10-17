@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-16T17:09:55.057346+00:00",
-  "generated_date": "Friday, 16 October 2026",
-  "briefing": "Sales intelligence tracked 283 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Wook Water - Head of Operations - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "generated_at": "2026-10-17T08:58:01.096754+00:00",
+  "generated_date": "Saturday, 17 October 2026",
+  "briefing": "Sales intelligence tracked 274 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Wook Water - Head of Operations - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (45 items)",
-    "spain": "Functional trending. (44 items)",
-    "italy": "Functional trending. (44 items)",
+    "france": "Functional trending. (42 items)",
+    "spain": "Functional trending. (41 items)",
+    "italy": "Functional trending. (41 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 283,
+    "total_articles_analyzed": 274,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 172,
-      "launch": 29,
-      "innovation": 26,
-      "supply_chain": 16,
-      "regulatory": 15,
-      "functional": 14,
+      "trend": 163,
+      "innovation": 30,
+      "launch": 26,
+      "regulatory": 19,
+      "functional": 17,
+      "supply_chain": 12,
       "macro": 11,
+      "competitor": 10,
       "energy": 10,
-      "rtd": 9,
-      "protein": 9
+      "alcohol_free": 9
     }
   }
 }
