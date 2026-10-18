@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-17T16:08:14.371410+00:00",
-  "generated_date": "Saturday, 17 October 2026",
-  "briefing": "Sales intelligence tracked 280 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Wook Water - Head of Operations - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "generated_at": "2026-10-18T09:17:05.021910+00:00",
+  "generated_date": "Sunday, 18 October 2026",
+  "briefing": "Sales intelligence tracked 274 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: ABC Distro Craft Beverage Outside Sales Representative | Los Angeles & Orange County | Base + Uncapp.",
   "signals": {
     "usa": "Rtd trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (44 items)",
-    "spain": "Functional trending. (43 items)",
-    "italy": "Functional trending. (43 items)",
+    "france": "Functional trending. (42 items)",
+    "spain": "Functional trending. (41 items)",
+    "italy": "Functional trending. (41 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 280,
+    "total_articles_analyzed": 274,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 167,
-      "launch": 35,
-      "innovation": 23,
-      "functional": 17,
-      "regulatory": 17,
-      "supply_chain": 14,
-      "rtd": 11,
-      "competitor": 10,
+      "trend": 157,
+      "launch": 40,
+      "innovation": 26,
+      "regulatory": 20,
+      "functional": 19,
+      "supply_chain": 10,
+      "macro": 10,
       "energy": 10,
-      "macro": 9
+      "alcohol_free": 9,
+      "carbonated": 8
     }
   }
 }
