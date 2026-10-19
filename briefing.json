@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-18T16:20:35.866878+00:00",
-  "generated_date": "Sunday, 18 October 2026",
-  "briefing": "Sales intelligence tracked 262 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: ABC Distro Craft Beverage Outside Sales Representative | Los Angeles & Orange County | Base + Uncapp.",
+  "generated_at": "2026-10-19T10:26:55.721207+00:00",
+  "generated_date": "Monday, 19 October 2026",
+  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Paulaner steigt mit Bella Bavaria in den RTD-Markt ein - about-drinks.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Premium trending. (38 items)",
-    "spain": "Energy trending. (37 items)",
-    "italy": "Energy trending. (37 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (37 items)",
+    "italy": "Functional trending. (37 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 262,
+    "total_articles_analyzed": 261,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 147,
-      "launch": 45,
-      "regulatory": 26,
-      "innovation": 20,
-      "functional": 14,
-      "macro": 11,
+      "trend": 144,
+      "launch": 43,
+      "functional": 26,
+      "innovation": 25,
+      "regulatory": 25,
+      "competitor": 13,
+      "premium": 12,
+      "carbonated": 10,
       "energy": 10,
-      "alcohol_free": 9,
-      "premium": 8,
-      "carbonated": 8
+      "alcohol_free": 9
     }
   }
 }
