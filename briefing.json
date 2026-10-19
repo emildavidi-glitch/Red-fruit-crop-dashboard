@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-19T10:26:55.721207+00:00",
+  "generated_at": "2026-10-19T19:00:28.491973+00:00",
   "generated_date": "Monday, 19 October 2026",
-  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Paulaner steigt mit Bella Bavaria in den RTD-Markt ein - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 282 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Sazerac target Berentzen expects slump in profits - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (37 items)",
-    "spain": "Functional trending. (37 items)",
-    "italy": "Functional trending. (37 items)",
+    "france": "Functional trending. (44 items)",
+    "spain": "Functional trending. (44 items)",
+    "italy": "Functional trending. (44 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 261,
+    "total_articles_analyzed": 282,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 144,
-      "launch": 43,
-      "functional": 26,
-      "innovation": 25,
+      "trend": 154,
+      "launch": 46,
+      "functional": 31,
       "regulatory": 25,
-      "competitor": 13,
-      "premium": 12,
-      "carbonated": 10,
-      "energy": 10,
-      "alcohol_free": 9
+      "innovation": 24,
+      "energy": 16,
+      "competitor": 16,
+      "supply_chain": 14,
+      "carbonated": 9,
+      "premium": 9
     }
   }
 }
