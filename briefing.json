@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-20T09:45:49.282790+00:00",
+  "generated_at": "2026-10-20T17:46:15.759181+00:00",
   "generated_date": "Tuesday, 20 October 2026",
-  "briefing": "Sales intelligence tracked 280 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Lieblingsgetränke auf Knopfdruck: Sodastream launcht ULTIMATE MULTI-DRINK - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 289 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Sovány Organic Sparkling Water Launches in All Erewhon Stores - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (43 items)",
-    "spain": "Functional trending. (44 items)",
-    "italy": "Functional trending. (43 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
+    "france": "Functional trending. (46 items)",
+    "spain": "Functional trending. (47 items)",
+    "italy": "Functional trending. (46 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 280,
+    "total_articles_analyzed": 289,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 157,
-      "launch": 45,
-      "innovation": 31,
-      "functional": 28,
-      "regulatory": 23,
+      "trend": 158,
+      "launch": 46,
+      "innovation": 27,
+      "functional": 23,
+      "regulatory": 20,
+      "supply_chain": 19,
       "energy": 14,
-      "carbonated": 12,
+      "carbonated": 13,
       "rtd": 12,
-      "supply_chain": 9,
-      "competitor": 8
+      "premium": 8
     }
   }
 }
