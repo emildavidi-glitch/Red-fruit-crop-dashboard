@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-20T17:46:15.759181+00:00",
-  "generated_date": "Tuesday, 20 October 2026",
-  "briefing": "Sales intelligence tracked 289 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Sovány Organic Sparkling Water Launches in All Erewhon Stores - BevNET.com.",
+  "generated_at": "2026-10-21T09:46:55.644837+00:00",
+  "generated_date": "Wednesday, 21 October 2026",
+  "briefing": "Sales intelligence tracked 277 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Was haben Starbucks, Coffee Fellows & Co. auf LinkedIn zu erzählen? - about-drinks.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Rtd trending. (50 items)",
-    "france": "Functional trending. (46 items)",
-    "spain": "Functional trending. (47 items)",
-    "italy": "Functional trending. (46 items)",
+    "france": "Functional trending. (42 items)",
+    "spain": "Functional trending. (43 items)",
+    "italy": "Functional trending. (42 items)",
     "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 289,
+    "total_articles_analyzed": 277,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
+      "trend": 149,
       "launch": 46,
-      "innovation": 27,
-      "functional": 23,
-      "regulatory": 20,
-      "supply_chain": 19,
-      "energy": 14,
-      "carbonated": 13,
-      "rtd": 12,
-      "premium": 8
+      "innovation": 28,
+      "functional": 26,
+      "supply_chain": 21,
+      "rtd": 18,
+      "regulatory": 18,
+      "carbonated": 14,
+      "energy": 13,
+      "competitor": 8
     }
   }
 }
