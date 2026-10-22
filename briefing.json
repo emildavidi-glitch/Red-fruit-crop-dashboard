@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-22T09:47:20.179203+00:00",
+  "generated_at": "2026-10-22T17:50:41.236786+00:00",
   "generated_date": "Thursday, 22 October 2026",
-  "briefing": "Sales intelligence tracked 295 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Tag des Sekt Austria: Österreich feiert seine Spitzensekte - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: FLIP Launches Lemon Sparkling Coffee for Ontario’s Café, Retail and Hospitality Market - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (48 items)",
-    "spain": "Functional trending. (49 items)",
-    "italy": "Functional trending. (48 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "germany": "Rtd trending. (50 items)",
+    "france": "Functional trending. (50 items)",
+    "spain": "Functional trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
+    "austria": "Rtd trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 295,
+    "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 184,
-      "launch": 43,
-      "functional": 19,
-      "innovation": 19,
-      "carbonated": 18,
-      "regulatory": 18,
+      "trend": 175,
+      "innovation": 35,
+      "launch": 32,
+      "functional": 31,
+      "rtd": 18,
+      "regulatory": 17,
+      "pricing": 15,
       "supply_chain": 15,
-      "rtd": 12,
-      "energy": 9,
-      "premium": 7
+      "carbonated": 11,
+      "competitor": 8
     }
   }
 }
