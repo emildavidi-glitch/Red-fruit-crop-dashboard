@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-23T09:42:16.507729+00:00",
+  "generated_at": "2026-10-23T17:42:49.601209+00:00",
   "generated_date": "Friday, 23 October 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Historischer Bourbon neu entdeckt: Rosewood feiert vierfaches Comeback - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: MOGUL VODKA Adds 375ml Flask Bottle at a $5 Retail Price Point - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
+    "germany": "Premium trending. (50 items)",
     "france": "Functional trending. (50 items)",
     "spain": "Functional trending. (50 items)",
     "italy": "Functional trending. (50 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "austria": "Premium trending. (50 items)"
   },
   "meta": {
     "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 201,
-      "launch": 38,
-      "innovation": 23,
-      "functional": 19,
-      "regulatory": 15,
-      "carbonated": 11,
-      "competitor": 10,
-      "supply_chain": 10,
-      "energy": 10,
-      "rtd": 9
+      "launch": 31,
+      "supply_chain": 22,
+      "regulatory": 21,
+      "functional": 14,
+      "premium": 12,
+      "innovation": 11,
+      "alcohol_free": 9,
+      "energy": 9,
+      "pricing": 8
     }
   }
 }
