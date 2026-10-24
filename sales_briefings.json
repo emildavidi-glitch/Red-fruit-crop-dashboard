@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:15:01.628368+00:00",
+  "generated_at": "2026-10-24T16:25:52.512104+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -63,14 +63,6 @@
           "date": "2026-10-22T20:42:35+00:00"
         },
         {
-          "title": "Lake Hour Expands Tequila Portfolio with New Passionfruit Tangerine Flavor and Launches Dock Club Subscription Program - BevNET.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObmpHeVlGVU1LV2Z6LUl2VlNUOGtZYl8tQ053eGp6RDJsOVR0UVRGQ3pLbUpDcDhGalM2TUVUeHlzZ2V6YVdYa215ZTdLWFVyR1V6WXRnNzQ5SVhLRkRNNlNQZVM0WDFyZnljX19HcUJSWl90RUhWQ0l3bkFkRjVjSVJLRG5KYlVKN3JFVVNJVF8xY1lUR3hZZXNxaEs1Vzd0MEdVamtzN2xleDFHRTBRT28wMGRBNVpTUENtRG5XVk1RZmx3MUF6c080dGlwMmQ1VVNaSEMwcHNXRG04MkVNWVFNVlFjczJkLXdN?oc=5",
-          "date": "2026-10-22T20:42:35+00:00"
-        },
-        {
           "title": "Big Sipz Literally Launches New Flavor Blast Off Blue… To Space. - BevNET.com",
           "company": "Unknown",
           "product": "beverage",
@@ -79,12 +71,20 @@
           "date": "2026-10-22T20:42:35+00:00"
         },
         {
-          "title": "FLIP Launches Lemon Sparkling Coffee for Ontario’s Café, Retail and Hospitality Market - BevNET.com",
-          "company": "Unknown",
-          "product": "carbonated",
+          "title": "General Mills brings Epic into meat sticks",
+          "company": "PepsiCo",
+          "product": "beverage",
           "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ3djdktSWlktQjE2REhGYUxsbXZGOXV4UzljRWE1Wk8xNE1YcDFBMUFkYXMzdUVzQTRFNFBGM0kwa2lDN3Bwc25hTHZ5YTVVM3BoclEya1JKSVZSTEZZaWxXZTZKRkROWUlwSDk5WUplSTk4Szd1UjdjM21VOG1hRXFQOE83RnBQZGRsN0hSZ05jTDVQblk3dlVSNGtETkZHUUhNV0JyLVFOZV9vTnJtUzAxb0taa1pZbE5WMlZn?oc=5",
-          "date": "2026-10-22T15:51:20+00:00"
+          "evidence_url": "https://www.fooddive.com/news/protein-general-mills-meat-sticks-epic/833705/",
+          "date": "2026-10-22T10:00:00-04:00"
+        },
+        {
+          "title": "Rupee Beer Launches “Light One. Pour One.” 2026 Diwali Campaign, Celebrating the Indian Festival of Lights - BevNET.com",
+          "company": "Unknown",
+          "product": "sugar_free",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSzlwcmlZX0hja0ZRSndSNkc4aDhQM1RjSHltWnZ1YmUxVUc1eEdaSE5hczNIMDVWdi1KMUJpd0cyQS1vQVJ3aWpVMEpJTDRMck11UzV3dl84MmFWTnlwemhUQTc1TDBxSldIRGJHWWFyRDYtZUhiRHg3YXJUOEhtZWwwVWRKcFh1MURNUndNczNvcU5lczVieTJIbDBGU29ha1RBLXJ3RnZEMER4MXB6RVZRRjI2VW50Rll3dlA5dXNWZ2xqUjhDUGZQR2Y4cUFkUVR2Ng?oc=5",
+          "date": "2026-10-21T15:50:47+00:00"
         }
       ],
       "competitor_moves": [
@@ -131,15 +131,6 @@
       ],
       "signals": [
         {
-          "signal": "Carbonated trending in United States",
-          "explanation": "4 articles mention carbonated in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in United States",
           "explanation": "2 articles mention premium in the last 28 days",
           "support_count": 2,
@@ -158,6 +149,15 @@
           "confidence": "medium"
         },
         {
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Rtd trending in United States",
           "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
@@ -167,11 +167,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Organic trending in United States",
-          "explanation": "1 articles mention organic in the last 28 days",
+          "signal": "Sugar Free trending in United States",
+          "explanation": "1 articles mention sugar free in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "organic"
+            "sugar_free"
           ],
           "confidence": "low"
         }
@@ -183,7 +183,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3Rzdm9kLVVYZjFQTGxDcHlKQTRhZ3diSXU3WXNsbGc0eXZ5aUVFYkxCRmVjRkl2TGVxaXpXcW1qUTVkR2xnNUcxQXhTT3NYcE9YeUFaTWhNVzhkcHBRUlNIU3VNMjhzMVZzaE9aWmJ0RC1yTjBmZkhBTXAwVGdWMlVJeWwxSEpFd2hYekNrajR3LUVhYnNvMzVNeU5KSjhuS0NETF8tUUtUQQ?oc=5",
-            "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObmpHeVlGVU1LV2Z6LUl2VlNUOGtZYl8tQ053eGp6RDJsOVR0UVRGQ3pLbUpDcDhGalM2TUVUeHlzZ2V6YVdYa215ZTdLWFVyR1V6WXRnNzQ5SVhLRkRNNlNQZVM0WDFyZnljX19HcUJSWl90RUhWQ0l3bkFkRjVjSVJLRG5KYlVKN3JFVVNJVF8xY1lUR3hZZXNxaEs1Vzd0MEdVamtzN2xleDFHRTBRT28wMGRBNVpTUENtRG5XVk1RZmx3MUF6c080dGlwMmQ1VVNaSEMwcHNXRG04MkVNWVFNVlFjczJkLXdN?oc=5"
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHVRMzRyVlZVMThEVUFTU2htS1pEblJKS3VtcFdCRFVXb21iV3luLU9uRlFyTGJUQVB0aktxX1JUWkJ1ZjFqZmtrdFlWTXdyZmFFclA4eTJKanRiTkN0a1Bzd19CMWxXNVp5UEJjOHJpd0NwdTF6WVdXczl4VUtfTUt3TTF2RUZGOUZsWmxVRkI3Mnp0bi1WT2tuUktVRFdr?oc=5"
           ]
         },
         {
@@ -210,7 +210,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3Rzdm9kLVVYZjFQTGxDcHlKQTRhZ3diSXU3WXNsbGc0eXZ5aUVFYkxCRmVjRkl2TGVxaXpXcW1qUTVkR2xnNUcxQXhTT3NYcE9YeUFaTWhNVzhkcHBRUlNIU3VNMjhzMVZzaE9aWmJ0RC1yTjBmZkhBTXAwVGdWMlVJeWwxSEpFd2hYekNrajR3LUVhYnNvMzVNeU5KSjhuS0NETF8tUUtUQQ?oc=5",
-            "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObmpHeVlGVU1LV2Z6LUl2VlNUOGtZYl8tQ053eGp6RDJsOVR0UVRGQ3pLbUpDcDhGalM2TUVUeHlzZ2V6YVdYa215ZTdLWFVyR1V6WXRnNzQ5SVhLRkRNNlNQZVM0WDFyZnljX19HcUJSWl90RUhWQ0l3bkFkRjVjSVJLRG5KYlVKN3JFVVNJVF8xY1lUR3hZZXNxaEs1Vzd0MEdVamtzN2xleDFHRTBRT28wMGRBNVpTUENtRG5XVk1RZmx3MUF6c080dGlwMmQ1VVNaSEMwcHNXRG04MkVNWVFNVlFjczJkLXdN?oc=5"
+            "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHVRMzRyVlZVMThEVUFTU2htS1pEblJKS3VtcFdCRFVXb21iV3luLU9uRlFyTGJUQVB0aktxX1JUWkJ1ZjFqZmtrdFlWTXdyZmFFclA4eTJKanRiTkN0a1Bzd19CMWxXNVp5UEJjOHJpd0NwdTF6WVdXczl4VUtfTUt3TTF2RUZGOUZsWmxVRkI3Mnp0bi1WT2tuUktVRFdr?oc=5"
           ]
         },
         {
@@ -384,20 +384,20 @@
           "confidence": "low"
         },
         {
+          "signal": "Alcohol Free trending in Germany",
+          "explanation": "1 articles mention alcohol free in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Energy trending in Germany",
           "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
           "top_keywords": [
             "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Protein trending in Germany",
-          "explanation": "1 articles mention protein in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "protein"
           ],
           "confidence": "low"
         }
@@ -472,18 +472,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
-          "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
+          "headline": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims - Just Drinks",
+          "detail": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSjh6UjM4OFByQk1ILXRFRk4tQ0JsQlBRYk5DbGRxdWxSNTNRTXlIOXpCQXp5UWZzV24yN1A0bEtaUTBGRW04MnZWQklhMmQtTzJ3NEV2NUpVMlB5YWNmS1NEcTNxZnZlNXRMQTVsZ19WRUlrYUtVLUJVQU5YdDU3aHhKME9QMGhYVUNBLUY1ek9YVXF0a2Z2ZGh5d0NPTEJ2UmZV?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zU09mSEtzcm5OVW9Zc2dySGJpb3hjM3BJVExVQ20yNnpDSENDVkZHSDJRMy1Ub0FZU0tfb2s1bmtjWDVCOG9fMFVzTGwtazdqNFRoTTJHUFdVUjFtSGVldzdyaVM5S1VvNkJMQQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Vita Coco ups guidance again - Just Drinks",
-          "detail": "Vita Coco ups guidance again Just Drinks",
+          "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
+          "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FSTVvVTdidGZqeHIzSDBYeWFCQXZpT3ViTl83RTZHbUJJZktXb0lNVTlIMlhVVk1BX3Z0OU9CVko1SFhvQWVEdDFWTmU2dDJ3ZGZFaV9iTS1IWXJlT3FHWkNlc1E1LVBZUW9ia0d6Yw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSjh6UjM4OFByQk1ILXRFRk4tQ0JsQlBRYk5DbGRxdWxSNTNRTXlIOXpCQXp5UWZzV24yN1A0bEtaUTBGRW04MnZWQklhMmQtTzJ3NEV2NUpVMlB5YWNmS1NEcTNxZnZlNXRMQTVsZ19WRUlrYUtVLUJVQU5YdDU3aHhKME9QMGhYVUNBLUY1ek9YVXF0a2Z2ZGh5d0NPTEJ2UmZV?oc=5"
           ],
           "confidence": "medium"
         }
@@ -582,12 +582,12 @@
       "signals": [
         {
           "signal": "Functional trending in France",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Premium trending in France",
@@ -595,6 +595,15 @@
           "support_count": 3,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in France",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -613,15 +622,6 @@
           "support_count": 1,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Carbonated trending in France",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
           ],
           "confidence": "low"
         }
@@ -649,9 +649,9 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0RwVGZ2RUNyN2IzZ2tDcndVdlo2eXRyaVJCbnFrZHk1SHFLQU9XOFVtZ0xVNWtXMmYycmlTeU1YeWlOX29fWW9tMl9hN2ZabmNqVVFnVmpkendEbEVmZTNZUmtLX0lmeDZlbWp3WDUxOTdKRGRQa1V5a1M0WjJsM3QzcEhuU0V5SHo1S3RpY1pHVmNxLUV5WjRWeFRONHctbnc?oc=5",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2tweHJRWXJsVDJhbTV3MXd3eTF5UzF0ZngyelJSX1FCV3FNS0w1M3ZfYzI4di1GaENVNi1UdW8wUmxLWUFBNlJ2UUxLRmt6MVRvc3dEUXdiMlFwMzJud2liczFrOEF0dzJyaExwZ1JoTFNuU3kwYUdvN0pKSnVGM1h1OC1RVjFibmJST0xpbmRPLWQ5bzBMdnZaSGlHN3hmRFQ2cjdheWlFUERta2RfR3VPTQ?oc=5"
           ]
         }
       ],
@@ -697,6 +697,14 @@
           "confidence": "medium"
         },
         {
+          "headline": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims - Just Drinks",
+          "detail": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zU09mSEtzcm5OVW9Zc2dySGJpb3hjM3BJVExVQ20yNnpDSENDVkZHSDJRMy1Ub0FZU0tfb2s1bmtjWDVCOG9fMFVzTGwtazdqNFRoTTJHUFdVUjFtSGVldzdyaVM5S1VvNkJMQQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
           "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
           "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
           "evidence_urls": [
@@ -709,14 +717,6 @@
           "detail": "Vita Coco ups guidance again Just Drinks",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FSTVvVTdidGZqeHIzSDBYeWFCQXZpT3ViTl83RTZHbUJJZktXb0lNVTlIMlhVVk1BX3Z0OU9CVko1SFhvQWVEdDFWTmU2dDJ3ZGZFaV9iTS1IWXJlT3FHWkNlc1E1LVBZUW9ia0d6Yw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "US soft-drinks firm Zevia attracts “milestone” investment - Just Drinks",
-          "detail": "US soft-drinks firm Zevia attracts “milestone” investment Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMia0FVX3lxTE91V00zaEVXM0g3OFl0OGN3aFdnQ2U1d256QzkwcG9hdWhXR3BpU240M214akJjQy16ZU1wT1k1a3gxaThNeWdfWlVhXzJZd09nNkZ3OGlUQVR4YmNNdmRtYzZkZXhsNm1xOFlv?oc=5"
           ],
           "confidence": "medium"
         }
@@ -815,12 +815,12 @@
       "signals": [
         {
           "signal": "Functional trending in Spain",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Premium trending in Spain",
@@ -828,6 +828,15 @@
           "support_count": 3,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Spain",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -846,15 +855,6 @@
           "support_count": 1,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Carbonated trending in Spain",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
           ],
           "confidence": "low"
         }
@@ -882,9 +882,9 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0RwVGZ2RUNyN2IzZ2tDcndVdlo2eXRyaVJCbnFrZHk1SHFLQU9XOFVtZ0xVNWtXMmYycmlTeU1YeWlOX29fWW9tMl9hN2ZabmNqVVFnVmpkendEbEVmZTNZUmtLX0lmeDZlbWp3WDUxOTdKRGRQa1V5a1M0WjJsM3QzcEhuU0V5SHo1S3RpY1pHVmNxLUV5WjRWeFRONHctbnc?oc=5",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2tweHJRWXJsVDJhbTV3MXd3eTF5UzF0ZngyelJSX1FCV3FNS0w1M3ZfYzI4di1GaENVNi1UdW8wUmxLWUFBNlJ2UUxLRmt6MVRvc3dEUXdiMlFwMzJud2liczFrOEF0dzJyaExwZ1JoTFNuU3kwYUdvN0pKSnVGM1h1OC1RVjFibmJST0xpbmRPLWQ5bzBMdnZaSGlHN3hmRFQ2cjdheWlFUERta2RfR3VPTQ?oc=5"
           ]
         }
       ],
@@ -938,18 +938,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
-          "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
+          "headline": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims - Just Drinks",
+          "detail": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSjh6UjM4OFByQk1ILXRFRk4tQ0JsQlBRYk5DbGRxdWxSNTNRTXlIOXpCQXp5UWZzV24yN1A0bEtaUTBGRW04MnZWQklhMmQtTzJ3NEV2NUpVMlB5YWNmS1NEcTNxZnZlNXRMQTVsZ19WRUlrYUtVLUJVQU5YdDU3aHhKME9QMGhYVUNBLUY1ek9YVXF0a2Z2ZGh5d0NPTEJ2UmZV?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zU09mSEtzcm5OVW9Zc2dySGJpb3hjM3BJVExVQ20yNnpDSENDVkZHSDJRMy1Ub0FZU0tfb2s1bmtjWDVCOG9fMFVzTGwtazdqNFRoTTJHUFdVUjFtSGVldzdyaVM5S1VvNkJMQQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Vita Coco ups guidance again - Just Drinks",
-          "detail": "Vita Coco ups guidance again Just Drinks",
+          "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
+          "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FSTVvVTdidGZqeHIzSDBYeWFCQXZpT3ViTl83RTZHbUJJZktXb0lNVTlIMlhVVk1BX3Z0OU9CVko1SFhvQWVEdDFWTmU2dDJ3ZGZFaV9iTS1IWXJlT3FHWkNlc1E1LVBZUW9ia0d6Yw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSjh6UjM4OFByQk1ILXRFRk4tQ0JsQlBRYk5DbGRxdWxSNTNRTXlIOXpCQXp5UWZzV24yN1A0bEtaUTBGRW04MnZWQklhMmQtTzJ3NEV2NUpVMlB5YWNmS1NEcTNxZnZlNXRMQTVsZ19WRUlrYUtVLUJVQU5YdDU3aHhKME9QMGhYVUNBLUY1ek9YVXF0a2Z2ZGh5d0NPTEJ2UmZV?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1048,12 +1048,12 @@
       "signals": [
         {
           "signal": "Functional trending in Italy",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "4 articles mention functional in the last 28 days",
+          "support_count": 4,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Premium trending in Italy",
@@ -1061,6 +1061,15 @@
           "support_count": 3,
           "top_keywords": [
             "premium"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Alcohol Free trending in Italy",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
           ],
           "confidence": "medium"
         },
@@ -1079,15 +1088,6 @@
           "support_count": 1,
           "top_keywords": [
             "rtd"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Carbonated trending in Italy",
-          "explanation": "1 articles mention carbonated in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "carbonated"
           ],
           "confidence": "low"
         }
@@ -1115,9 +1115,9 @@
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0RwVGZ2RUNyN2IzZ2tDcndVdlo2eXRyaVJCbnFrZHk1SHFLQU9XOFVtZ0xVNWtXMmYycmlTeU1YeWlOX29fWW9tMl9hN2ZabmNqVVFnVmpkendEbEVmZTNZUmtLX0lmeDZlbWp3WDUxOTdKRGRQa1V5a1M0WjJsM3QzcEhuU0V5SHo1S3RpY1pHVmNxLUV5WjRWeFRONHctbnc?oc=5",
             "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5"
+            "https://news.google.com/rss/articles/CBMimAFBVV95cUxObFktTHFFc3VZYS1xTnVJblNyeVJKLXA0QkpkZUJFWkNHOE43TkJQbWdJY3JBTllqdzdVejJXNFlGeTEzUXdBaUN5UFNlVlJtUGFqZER2eV9qdUhVQ0xDWXVxVFBHbW1GUGhRTHJMWUR5cVY5azR2Z3FGSS0wMGJaYlRJM1luNDg2NDV4SjdkVGdwNHRPY2w4UA?oc=5",
+            "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2tweHJRWXJsVDJhbTV3MXd3eTF5UzF0ZngyelJSX1FCV3FNS0w1M3ZfYzI4di1GaENVNi1UdW8wUmxLWUFBNlJ2UUxLRmt6MVRvc3dEUXdiMlFwMzJud2liczFrOEF0dzJyaExwZ1JoTFNuU3kwYUdvN0pKSnVGM1h1OC1RVjFibmJST0xpbmRPLWQ5bzBMdnZaSGlHN3hmRFQ2cjdheWlFUERta2RfR3VPTQ?oc=5"
           ]
         }
       ],
@@ -1171,18 +1171,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
-          "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
+          "headline": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims - Just Drinks",
+          "detail": "Danone joins Coca-Cola, Nestlé in agreeing to tweak recycling claims Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSjh6UjM4OFByQk1ILXRFRk4tQ0JsQlBRYk5DbGRxdWxSNTNRTXlIOXpCQXp5UWZzV24yN1A0bEtaUTBGRW04MnZWQklhMmQtTzJ3NEV2NUpVMlB5YWNmS1NEcTNxZnZlNXRMQTVsZ19WRUlrYUtVLUJVQU5YdDU3aHhKME9QMGhYVUNBLUY1ek9YVXF0a2Z2ZGh5d0NPTEJ2UmZV?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zU09mSEtzcm5OVW9Zc2dySGJpb3hjM3BJVExVQ20yNnpDSENDVkZHSDJRMy1Ub0FZU0tfb2s1bmtjWDVCOG9fMFVzTGwtazdqNFRoTTJHUFdVUjFtSGVldzdyaVM5S1VvNkJMQQ?oc=5"
           ],
           "confidence": "medium"
         },
         {
-          "headline": "Vita Coco ups guidance again - Just Drinks",
-          "detail": "Vita Coco ups guidance again Just Drinks",
+          "headline": "Chocolate has a new problem. And it’s not cocoa prices - FoodNavigator.com",
+          "detail": "Chocolate has a new problem. And it’s not cocoa prices FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FSTVvVTdidGZqeHIzSDBYeWFCQXZpT3ViTl83RTZHbUJJZktXb0lNVTlIMlhVVk1BX3Z0OU9CVko1SFhvQWVEdDFWTmU2dDJ3ZGZFaV9iTS1IWXJlT3FHWkNlc1E1LVBZUW9ia0d6Yw?oc=5"
+            "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSjh6UjM4OFByQk1ILXRFRk4tQ0JsQlBRYk5DbGRxdWxSNTNRTXlIOXpCQXp5UWZzV24yN1A0bEtaUTBGRW04MnZWQklhMmQtTzJ3NEV2NUpVMlB5YWNmS1NEcTNxZnZlNXRMQTVsZ19WRUlrYUtVLUJVQU5YdDU3aHhKME9QMGhYVUNBLUY1ek9YVXF0a2Z2ZGh5d0NPTEJ2UmZV?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1251,6 +1251,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UOHZFQTBBV0dFMjljdG5TVG52OGYxVlRhbTZhTU92Z09YMEc2a1NSeFZ0SG1XNzZXRWh0QS1CUU9JX1A5UVhiTjduakpTRHlTWVMwVEVzMNIBYkFVX3lxTE15UXQtV3B1V0RqRjJQSV9TSDhWQWRKbUF6ZTFrcUtwT1lqTkJpX2pBSHdTRkZHNVJ3QnJCOTIzdEV2RVpKNmc2b1p5N3c2OVBsMWM5ZEJWOXpHeWUxNGQ1NTFn?oc=5",
           "date": "2026-10-14T07:00:00+00:00"
+        },
+        {
+          "title": "“Why beverages again?”: UzBev calls for delay in introducing sugar-content labeling - Spot.uz",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hM3dYSXlzMEQtUW9nMHNTc1RwTGZtb0ZCZGV6alZjY3l4czJWRkVzSTVBdlN2LTh2U2tZWllyamhqRDk5bWxfUnd0S2l0SlBDQVE?oc=5",
+          "date": "2026-10-05T07:00:00+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1264,11 +1271,29 @@
       ],
       "signals": [
         {
+          "signal": "Alcohol Free trending in Austria",
+          "explanation": "2 articles mention alcohol free in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "alcohol_free"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Carbonated trending in Austria",
           "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in Austria",
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "medium"
         },
@@ -1287,24 +1312,6 @@
           "support_count": 1,
           "top_keywords": [
             "premium"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Austria",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
-        },
-        {
-          "signal": "Protein trending in Austria",
-          "explanation": "1 articles mention protein in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "protein"
           ],
           "confidence": "low"
         }
