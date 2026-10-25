@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-24T16:25:52.512104+00:00",
-  "generated_date": "Saturday, 24 October 2026",
-  "briefing": "Sales intelligence tracked 287 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; regulatory changes reshaping strategies. Latest: Baxter Brewing CO - Packaging Lead - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "generated_at": "2026-10-25T09:31:52.460240+00:00",
+  "generated_date": "Sunday, 25 October 2026",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Commonhouse Aleworks - Sales Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Premium trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (46 items)",
-    "spain": "Functional trending. (45 items)",
-    "italy": "Functional trending. (46 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "france": "Functional trending. (50 items)",
+    "spain": "Functional trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 287,
+    "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 176,
-      "launch": 46,
-      "regulatory": 23,
-      "supply_chain": 18,
-      "functional": 14,
-      "premium": 13,
-      "innovation": 12,
-      "alcohol_free": 10,
-      "energy": 10,
-      "carbonated": 9
+      "trend": 184,
+      "launch": 44,
+      "innovation": 21,
+      "functional": 21,
+      "regulatory": 20,
+      "supply_chain": 17,
+      "rtd": 15,
+      "carbonated": 14,
+      "premium": 12,
+      "pricing": 8
     }
   }
 }
