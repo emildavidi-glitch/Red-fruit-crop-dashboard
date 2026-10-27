@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-27T10:09:33.445515+00:00",
+  "generated_at": "2026-10-27T18:32:45.115455+00:00",
   "generated_date": "Tuesday, 27 October 2026",
-  "briefing": "Sales intelligence tracked 286 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: KATLENBURGER erweitert Wichtel-Sortiment um alkoholfreie Wichtelparty - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 273 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Energy drinks are outpacing soft drinks: What’s behind the boom? - FoodNavigator.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Functional trending. (45 items)",
-    "spain": "Functional trending. (46 items)",
-    "italy": "Functional trending. (45 items)",
-    "austria": "Functional trending. (50 items)"
+    "germany": "Energy trending. (50 items)",
+    "france": "Energy trending. (41 items)",
+    "spain": "Energy trending. (41 items)",
+    "italy": "Energy trending. (41 items)",
+    "austria": "Energy trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 286,
+    "total_articles_analyzed": 273,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 42,
-      "innovation": 33,
-      "functional": 20,
-      "supply_chain": 18,
+      "trend": 176,
+      "launch": 34,
+      "supply_chain": 27,
+      "energy": 16,
+      "innovation": 14,
       "regulatory": 14,
-      "pricing": 12,
-      "rtd": 10,
-      "energy": 10,
-      "carbonated": 8
+      "premium": 9,
+      "alcohol_free": 9,
+      "carbonated": 8,
+      "functional": 8
     }
   }
 }
