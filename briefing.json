@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-28T18:38:56.421850+00:00",
-  "generated_date": "Wednesday, 28 October 2026",
-  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: good2grow bottles up holiday cheer with limited-edition release of Frostberry Kiwi 6-ounce juice - B.",
+  "generated_at": "2026-10-29T11:13:40.554047+00:00",
+  "generated_date": "Thursday, 29 October 2026",
+  "briefing": "Sales intelligence tracked 255 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Aqua Römer Quelle wird Clubpartner der Basketballer von ratiopharm ulm - about-drinks.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (50 items)",
-    "italy": "Functional trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (35 items)",
+    "spain": "Functional trending. (35 items)",
+    "italy": "Functional trending. (35 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 300,
+    "total_articles_analyzed": 255,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 181,
-      "launch": 39,
-      "innovation": 33,
-      "regulatory": 27,
-      "functional": 27,
-      "energy": 12,
-      "pricing": 10,
-      "supply_chain": 9,
-      "rtd": 8,
-      "premium": 5
+      "trend": 126,
+      "regulatory": 39,
+      "launch": 37,
+      "functional": 31,
+      "innovation": 27,
+      "supply_chain": 18,
+      "rtd": 10,
+      "premium": 8,
+      "pricing": 7,
+      "energy": 7
     }
   }
 }
