@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:13:40.554047+00:00",
+  "generated_at": "2026-10-29T18:47:27.359575+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -30,7 +30,7 @@
         },
         {
           "headline": "Danone joins Nestlé, Coca-Cola in revising recycling labels after EU greenwashing probe",
-          "detail": "The Evian owner committed to specifying what parts of its water bottles are made from 100% recycled plastics and will refrain from misleading marketing claims.",
+          "detail": "The Evian owner committed to specifying what parts of its water bottles are made from 100% recycled plastics and will refrain from misleading marketing.",
           "evidence_urls": [
             "https://www.fooddive.com/news/danone-joins-nestle-coca-cola-revises-recycling-labels-after-eu-greenwashing-complaint/872777/"
           ],
@@ -101,7 +101,7 @@
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFJDZDFtNVNnRHE2Wl9SNG4yTVZXdzdBaXlMUDZhUTVKbDFTTktkM1dUWFl1TlR5ZXBtWkFGZ1V4LWhlQWNyb094SExHb21ZOTFod3E4V3BPdml6YzJ5cVlSb0RTU1NRdFo2Xy1JWFBmWTh0Ync4M0M5bWJzaUxiM1h0NHU4S0RLOFhRVS0yRjA3ZURjbjVxNHpTdXJpTHU4SGc?oc=5",
-          "date": "2026-10-29T00:10:09+00:00"
+          "date": "2026-10-29T01:00:00+00:00"
         },
         {
           "title": "Danone joins Nestlé, Coca-Cola in revising recycling labels after EU greenwashing probe",
@@ -144,19 +144,10 @@
       "signals": [
         {
           "signal": "Functional trending in United States",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Carbonated trending in United States",
-          "explanation": "3 articles mention carbonated in the last 28 days",
+          "explanation": "3 articles mention functional in the last 28 days",
           "support_count": 3,
           "top_keywords": [
-            "carbonated"
+            "functional"
           ],
           "confidence": "medium"
         },
@@ -170,11 +161,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Energy trending in United States",
-          "explanation": "2 articles mention energy in the last 28 days",
+          "signal": "Carbonated trending in United States",
+          "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "energy"
+            "carbonated"
           ],
           "confidence": "medium"
         },
@@ -184,6 +175,15 @@
           "support_count": 2,
           "top_keywords": [
             "hydration"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in United States",
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "medium"
         }
@@ -213,7 +213,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWE2OWhNMFpCRjI1VnpJaWNkRlVqbVNZS010SkFVUXNtanpwTGZGUkh0WXlNUnhFQ1MwU2V0WE9oOGFtZTNpcjNFaW0yRVJCamh6dUllbEVmb1ZSbkJadHNIRFhrcnRnZjNzUWNZaDBIMGNTMjE3YkhKRVNIbmNzb2RCNTVkWWxQMzVCMXlvOTVMSzI1X21YcHFwek4yM2ltQkxnWGpIcEd3UFF3RHlCNmpwVGZKbFRXcnpfY0VoRFY5cWRmMVhPMUxWWFpDUnkwUmZj?oc=5",
             "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUGtjemVCZ1RLQzBDT1lvYmduRWs3VEhKczh3b1B2cEo4RXlKTVhaU0V0WWp2c1dGNDExSVlwQ2NmaXRERmRRYUhxT1h6SVA5UFNDRVhQM19VVzFSLVhGQ1N0Xzl5YzhxRExidXd3Q3ZLc0NjeWlvS1dXQU9iT0dldUE1eVpoMVFiczVHRXY1cw?oc=5",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGZUdkVUZG15UGp4S1Z1bWNaVWdwOWVvLTRzQU90ZHVCYVFOZnktajdxbDZUTDlWaWZOeXF0aFdLa2ViczBtVlZBY3JUZVVleXduUFdvY3RHeC04cUZxYVJkdHZzT1g1dGlhc2FuMFhmc2E3bEJoMWxkY0d1TWR6S0g0ZzhMcGNwcTJUM3NFd1p4T1pOeDcxUXNqenhEUHVsNXBVYmdwb2RQa2UzZ1M2dmxybUZUb1NSOUlIbTBOR2RycGVKaGlaeg?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5"
           ]
         }
       ],
@@ -299,22 +299,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5",
           "date": "2026-10-23T12:03:37+00:00"
-        },
-        {
-          "title": "New beverage launches: Malibu, Hebridean Cream Liqueur and more... - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5",
-          "date": "2026-10-16T07:00:00+00:00"
-        },
-        {
-          "title": "Caffè Nero and Myprotein launch new protein lattes - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTXRpanhqenAxU3U0QVZhWkN3S2xiV2dWS0o2Vm9BM2J1aXhpVkppVmJTMXFraTVjaDBYM2JPUG5PcFlIS01PUFo4bXAydFBIWEFXbXE2MnlLNFFkN2hyTnk1eG9PcTJuN2t0dTZ0dFVndHNPamFIQ2pFdlBpOGpxSGlJTG14Q3JqOGhnbEFsSXdIWXJacDJkTmUtWVo?oc=5",
-          "date": "2026-10-14T07:00:00+00:00"
         }
       ],
       "competitor_moves": [],
@@ -331,7 +315,7 @@
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFJDZDFtNVNnRHE2Wl9SNG4yTVZXdzdBaXlMUDZhUTVKbDFTTktkM1dUWFl1TlR5ZXBtWkFGZ1V4LWhlQWNyb094SExHb21ZOTFod3E4V3BPdml6YzJ5cVlSb0RTU1NRdFo2Xy1JWFBmWTh0Ync4M0M5bWJzaUxiM1h0NHU4S0RLOFhRVS0yRjA3ZURjbjVxNHpTdXJpTHU4SGc?oc=5",
-          "date": "2026-10-29T00:10:09+00:00"
+          "date": "2026-10-29T01:00:00+00:00"
         },
         {
           "title": "Radico Khaitan visited by India tax officials - Just Drinks",
@@ -367,19 +351,10 @@
       "signals": [
         {
           "signal": "Functional trending in Germany",
-          "explanation": "4 articles mention functional in the last 28 days",
-          "support_count": 4,
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "functional"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Rtd trending in Germany",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
           ],
           "confidence": "medium"
         },
@@ -402,11 +377,20 @@
           "confidence": "low"
         },
         {
-          "signal": "Energy trending in Germany",
-          "explanation": "1 articles mention energy in the last 28 days",
+          "signal": "Rtd trending in Germany",
+          "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "energy"
+            "rtd"
+          ],
+          "confidence": "low"
+        },
+        {
+          "signal": "Carbonated trending in Germany",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "carbonated"
           ],
           "confidence": "low"
         }
@@ -414,11 +398,10 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "4 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "2 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMkpZb0p4WTFRYlJYalZEOWNEQ0NQOElQNTBCckl4RXRNZ2dIRFc5NVRxeVVHM085NTR3MnREUDEtLXF0aTVSV3RqckpNNElBRWNQdVBWQXJPUmZwTmMtNTU4ZVlKSzBVOUp1dUt3VnRvRFBpYjREUFg5MlI1OEkxMlhjLU0wa0tPTHp5WDdWeTNvYnBESHJDeEROQTJqZE5yMXUzMFJCbG5uZkxMR0Jva1YydzZZUlB2NnVURFhnSUk5OUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5",
-            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5"
           ]
         },
         {
@@ -435,20 +418,18 @@
           "pitch": "Functional beverage demand rising in Germany — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWE2OWhNMFpCRjI1VnpJaWNkRlVqbVNZS010SkFVUXNtanpwTGZGUkh0WXlNUnhFQ1MwU2V0WE9oOGFtZTNpcjNFaW0yRVJCamh6dUllbEVmb1ZSbkJadHNIRFhrcnRnZjNzUWNZaDBIMGNTMjE3YkhKRVNIbmNzb2RCNTVkWWxQMzVCMXlvOTVMSzI1X21YcHFwek4yM2ltQkxnWGpIcEd3UFF3RHlCNmpwVGZKbFRXcnpfY0VoRFY5cWRmMVhPMUxWWFpDUnkwUmZj?oc=5",
-            "https://news.google.com/rss/articles/CBMisAFBVV95cUxPemdHZnhYZHpvdy1zeHlFM283dFYwSTJ5ajRld3h1a0oxal9PT04xclNXMG1ab0s4ZEtyU1NxS2xXejhSb3F6cXZkbmxsdExWOUxvWV9VSHE3THpOMDdBYm5Ud0dTbm9FZ29RakhJTGZZX1FSZUt1eEdMLTJqd2R4Y295LXZHYmp6bGs2SkRuNGNxa2g5VXRNSE9uZDl5azRMYkZmQlp4YUx2SGdhRkNUMg?oc=5",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGZUdkVUZG15UGp4S1Z1bWNaVWdwOWVvLTRzQU90ZHVCYVFOZnktajdxbDZUTDlWaWZOeXF0aFdLa2ViczBtVlZBY3JUZVVleXduUFdvY3RHeC04cUZxYVJkdHZzT1g1dGlhc2FuMFhmc2E3bEJoMWxkY0d1TWR6S0g0ZzhMcGNwcTJUM3NFd1p4T1pOeDcxUXNqenhEUHVsNXBVYmdwb2RQa2UzZ1M2dmxybUZUb1NSOUlIbTBOR2RycGVKaGlaeg?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 4 new launches for competitive overlap",
+          "action": "Review 2 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMkpZb0p4WTFRYlJYalZEOWNEQ0NQOElQNTBCckl4RXRNZ2dIRFc5NVRxeVVHM085NTR3MnREUDEtLXF0aTVSV3RqckpNNElBRWNQdVBWQXJPUmZwTmMtNTU4ZVlKSzBVOUp1dUt3VnRvRFBpYjREUFg5MlI1OEkxMlhjLU0wa0tPTHp5WDdWeTNvYnBESHJDeEROQTJqZE5yMXUzMFJCbG5uZkxMR0Jva1YydzZZUlB2NnVURFhnSUk5OUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5",
-            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5"
           ]
         },
         {
@@ -498,10 +479,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "GLP-1 and taste: How it could reshape beverage reformulation - BeverageDaily.com",
-          "detail": "GLP-1 and taste: How it could reshape beverage reformulation BeverageDaily.com",
+          "headline": "UK Budget: wine, spirits sector hits out at \"breath-taking\" duty raise - Just Drinks",
+          "detail": "UK Budget: wine, spirits sector hits out at \"breath-taking\" duty raise Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbE1rbUNsZVNGcW9ZTHdXTUJMaHpTQ3VPSHQ5TFkzR1owZ3p1QTdkdXJ6UTRCb0plblRhd1hkcmVuWTNrZDJwQV9UV3p4UDFBNXc1enVyOXNzZHZHU2V5TG91Q3BuSWN4ZmY1Um83TlFEQmgtSDNxQUNJVG1xaEViQWJDQ29ESWFjSWlBRWpHeDlwWHB5ZTd0WGUzTllwWGZ5R3g3QUxreUtfeDRDTkE?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGozd0lrUHlKaGhxN0NtMDFBakp0VjFZQ245azRnRHNXX0dMOGJBVUsycHNDWVc5STM3VWYzajZqaS1qMGlHYzdXTGhDd3pvRzM0QktwU3c5N056aVFWY0YyM3h2M0tiQU9MZkZMOFB1eDRjckcxRVI0MmZ0Z0dlSXNBMk5YUmgtNF9hSzZGbDYwVHFjSkQybWJqb1haUUtFWFE?oc=5"
           ],
           "confidence": "medium"
         }
@@ -562,7 +543,7 @@
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFJDZDFtNVNnRHE2Wl9SNG4yTVZXdzdBaXlMUDZhUTVKbDFTTktkM1dUWFl1TlR5ZXBtWkFGZ1V4LWhlQWNyb094SExHb21ZOTFod3E4V3BPdml6YzJ5cVlSb0RTU1NRdFo2Xy1JWFBmWTh0Ync4M0M5bWJzaUxiM1h0NHU4S0RLOFhRVS0yRjA3ZURjbjVxNHpTdXJpTHU4SGc?oc=5",
-          "date": "2026-10-29T00:10:09+00:00"
+          "date": "2026-10-29T01:00:00+00:00"
         },
         {
           "title": "Radico Khaitan visited by India tax officials - Just Drinks",
@@ -598,8 +579,8 @@
       "signals": [
         {
           "signal": "Functional trending in France",
-          "explanation": "6 articles mention functional in the last 28 days",
-          "support_count": 6,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -666,8 +647,8 @@
           "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWE2OWhNMFpCRjI1VnpJaWNkRlVqbVNZS010SkFVUXNtanpwTGZGUkh0WXlNUnhFQ1MwU2V0WE9oOGFtZTNpcjNFaW0yRVJCamh6dUllbEVmb1ZSbkJadHNIRFhrcnRnZjNzUWNZaDBIMGNTMjE3YkhKRVNIbmNzb2RCNTVkWWxQMzVCMXlvOTVMSzI1X21YcHFwek4yM2ltQkxnWGpIcEd3UFF3RHlCNmpwVGZKbFRXcnpfY0VoRFY5cWRmMVhPMUxWWFpDUnkwUmZj?oc=5",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGZUdkVUZG15UGp4S1Z1bWNaVWdwOWVvLTRzQU90ZHVCYVFOZnktajdxbDZUTDlWaWZOeXF0aFdLa2ViczBtVlZBY3JUZVVleXduUFdvY3RHeC04cUZxYVJkdHZzT1g1dGlhc2FuMFhmc2E3bEJoMWxkY0d1TWR6S0g0ZzhMcGNwcTJUM3NFd1p4T1pOeDcxUXNqenhEUHVsNXBVYmdwb2RQa2UzZ1M2dmxybUZUb1NSOUlIbTBOR2RycGVKaGlaeg?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
@@ -729,10 +710,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "GLP-1 and taste: How it could reshape beverage reformulation - BeverageDaily.com",
-          "detail": "GLP-1 and taste: How it could reshape beverage reformulation BeverageDaily.com",
+          "headline": "UK Budget: wine, spirits sector hits out at \"breath-taking\" duty raise - Just Drinks",
+          "detail": "UK Budget: wine, spirits sector hits out at \"breath-taking\" duty raise Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbE1rbUNsZVNGcW9ZTHdXTUJMaHpTQ3VPSHQ5TFkzR1owZ3p1QTdkdXJ6UTRCb0plblRhd1hkcmVuWTNrZDJwQV9UV3p4UDFBNXc1enVyOXNzZHZHU2V5TG91Q3BuSWN4ZmY1Um83TlFEQmgtSDNxQUNJVG1xaEViQWJDQ29ESWFjSWlBRWpHeDlwWHB5ZTd0WGUzTllwWGZ5R3g3QUxreUtfeDRDTkE?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGozd0lrUHlKaGhxN0NtMDFBakp0VjFZQ245azRnRHNXX0dMOGJBVUsycHNDWVc5STM3VWYzajZqaS1qMGlHYzdXTGhDd3pvRzM0QktwU3c5N056aVFWY0YyM3h2M0tiQU9MZkZMOFB1eDRjckcxRVI0MmZ0Z0dlSXNBMk5YUmgtNF9hSzZGbDYwVHFjSkQybWJqb1haUUtFWFE?oc=5"
           ],
           "confidence": "medium"
         }
@@ -793,7 +774,7 @@
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFJDZDFtNVNnRHE2Wl9SNG4yTVZXdzdBaXlMUDZhUTVKbDFTTktkM1dUWFl1TlR5ZXBtWkFGZ1V4LWhlQWNyb094SExHb21ZOTFod3E4V3BPdml6YzJ5cVlSb0RTU1NRdFo2Xy1JWFBmWTh0Ync4M0M5bWJzaUxiM1h0NHU4S0RLOFhRVS0yRjA3ZURjbjVxNHpTdXJpTHU4SGc?oc=5",
-          "date": "2026-10-29T00:10:09+00:00"
+          "date": "2026-10-29T01:00:00+00:00"
         },
         {
           "title": "Radico Khaitan visited by India tax officials - Just Drinks",
@@ -829,8 +810,8 @@
       "signals": [
         {
           "signal": "Functional trending in Spain",
-          "explanation": "6 articles mention functional in the last 28 days",
-          "support_count": 6,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -897,8 +878,8 @@
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWE2OWhNMFpCRjI1VnpJaWNkRlVqbVNZS010SkFVUXNtanpwTGZGUkh0WXlNUnhFQ1MwU2V0WE9oOGFtZTNpcjNFaW0yRVJCamh6dUllbEVmb1ZSbkJadHNIRFhrcnRnZjNzUWNZaDBIMGNTMjE3YkhKRVNIbmNzb2RCNTVkWWxQMzVCMXlvOTVMSzI1X21YcHFwek4yM2ltQkxnWGpIcEd3UFF3RHlCNmpwVGZKbFRXcnpfY0VoRFY5cWRmMVhPMUxWWFpDUnkwUmZj?oc=5",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGZUdkVUZG15UGp4S1Z1bWNaVWdwOWVvLTRzQU90ZHVCYVFOZnktajdxbDZUTDlWaWZOeXF0aFdLa2ViczBtVlZBY3JUZVVleXduUFdvY3RHeC04cUZxYVJkdHZzT1g1dGlhc2FuMFhmc2E3bEJoMWxkY0d1TWR6S0g0ZzhMcGNwcTJUM3NFd1p4T1pOeDcxUXNqenhEUHVsNXBVYmdwb2RQa2UzZ1M2dmxybUZUb1NSOUlIbTBOR2RycGVKaGlaeg?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
@@ -960,10 +941,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "GLP-1 and taste: How it could reshape beverage reformulation - BeverageDaily.com",
-          "detail": "GLP-1 and taste: How it could reshape beverage reformulation BeverageDaily.com",
+          "headline": "UK Budget: wine, spirits sector hits out at \"breath-taking\" duty raise - Just Drinks",
+          "detail": "UK Budget: wine, spirits sector hits out at \"breath-taking\" duty raise Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbE1rbUNsZVNGcW9ZTHdXTUJMaHpTQ3VPSHQ5TFkzR1owZ3p1QTdkdXJ6UTRCb0plblRhd1hkcmVuWTNrZDJwQV9UV3p4UDFBNXc1enVyOXNzZHZHU2V5TG91Q3BuSWN4ZmY1Um83TlFEQmgtSDNxQUNJVG1xaEViQWJDQ29ESWFjSWlBRWpHeDlwWHB5ZTd0WGUzTllwWGZ5R3g3QUxreUtfeDRDTkE?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGozd0lrUHlKaGhxN0NtMDFBakp0VjFZQ245azRnRHNXX0dMOGJBVUsycHNDWVc5STM3VWYzajZqaS1qMGlHYzdXTGhDd3pvRzM0QktwU3c5N056aVFWY0YyM3h2M0tiQU9MZkZMOFB1eDRjckcxRVI0MmZ0Z0dlSXNBMk5YUmgtNF9hSzZGbDYwVHFjSkQybWJqb1haUUtFWFE?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1024,7 +1005,7 @@
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFJDZDFtNVNnRHE2Wl9SNG4yTVZXdzdBaXlMUDZhUTVKbDFTTktkM1dUWFl1TlR5ZXBtWkFGZ1V4LWhlQWNyb094SExHb21ZOTFod3E4V3BPdml6YzJ5cVlSb0RTU1NRdFo2Xy1JWFBmWTh0Ync4M0M5bWJzaUxiM1h0NHU4S0RLOFhRVS0yRjA3ZURjbjVxNHpTdXJpTHU4SGc?oc=5",
-          "date": "2026-10-29T00:10:09+00:00"
+          "date": "2026-10-29T01:00:00+00:00"
         },
         {
           "title": "Radico Khaitan visited by India tax officials - Just Drinks",
@@ -1060,8 +1041,8 @@
       "signals": [
         {
           "signal": "Functional trending in Italy",
-          "explanation": "6 articles mention functional in the last 28 days",
-          "support_count": 6,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -1128,8 +1109,8 @@
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWE2OWhNMFpCRjI1VnpJaWNkRlVqbVNZS010SkFVUXNtanpwTGZGUkh0WXlNUnhFQ1MwU2V0WE9oOGFtZTNpcjNFaW0yRVJCamh6dUllbEVmb1ZSbkJadHNIRFhrcnRnZjNzUWNZaDBIMGNTMjE3YkhKRVNIbmNzb2RCNTVkWWxQMzVCMXlvOTVMSzI1X21YcHFwek4yM2ltQkxnWGpIcEd3UFF3RHlCNmpwVGZKbFRXcnpfY0VoRFY5cWRmMVhPMUxWWFpDUnkwUmZj?oc=5",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGZUdkVUZG15UGp4S1Z1bWNaVWdwOWVvLTRzQU90ZHVCYVFOZnktajdxbDZUTDlWaWZOeXF0aFdLa2ViczBtVlZBY3JUZVVleXduUFdvY3RHeC04cUZxYVJkdHZzT1g1dGlhc2FuMFhmc2E3bEJoMWxkY0d1TWR6S0g0ZzhMcGNwcTJUM3NFd1p4T1pOeDcxUXNqenhEUHVsNXBVYmdwb2RQa2UzZ1M2dmxybUZUb1NSOUlIbTBOR2RycGVKaGlaeg?oc=5",
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5",
+            "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHl0ZjRhV1FwUjdiV2l5bHBsUGRaUW9uemtnSU5XZ0I3WEc5bF80QktPSjZ5T3A1WGdnM3BJV3FCS0NmSjB3bVl2UjFVd0pEdnoybExXQmI5ZXFBZW1XU1kyT0pkcTZmamx1NzNFcDJvX1J3TVpxM3pFY3hORmVwNXRXMWhMNndNWW1GMkhrYzJSQ1RfUjVoXzg5cw?oc=5"
           ]
         }
       ],
@@ -1231,14 +1212,6 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTXRpanhqenAxU3U0QVZhWkN3S2xiV2dWS0o2Vm9BM2J1aXhpVkppVmJTMXFraTVjaDBYM2JPUG5PcFlIS01PUFo4bXAydFBIWEFXbXE2MnlLNFFkN2hyTnk1eG9PcTJuN2t0dTZ0dFVndHNPamFIQ2pFdlBpOGpxSGlJTG14Q3JqOGhnbEFsSXdIWXJacDJkTmUtWVo?oc=5",
           "date": "2026-10-14T07:00:00+00:00"
-        },
-        {
-          "title": "New beverage launches: Grey Goose, MOMO and more... - BeverageDaily.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaUduQmVWOGg1Skh2aE9ncGFKTGZreVBZTXhNbUNXckp3Q0w0dUI5b2FIZ253ekxvNHd2anZoN0xQQTZiNmNNY3UtWUFncGh5QWs2T0JZZHlHSERaNFNWNVJLVURoYUhzTzUtZWhhZWRyTjdHMVllVnFPY0RUQTJlZGJST0FSVHJnNElrR0lGZ3lXNHNVNS1FUUJqLTQxcWozZTBV?oc=5",
-          "date": "2026-10-02T07:00:00+00:00"
         }
       ],
       "competitor_moves": [],
@@ -1255,7 +1228,7 @@
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFJDZDFtNVNnRHE2Wl9SNG4yTVZXdzdBaXlMUDZhUTVKbDFTTktkM1dUWFl1TlR5ZXBtWkFGZ1V4LWhlQWNyb094SExHb21ZOTFod3E4V3BPdml6YzJ5cVlSb0RTU1NRdFo2Xy1JWFBmWTh0Ync4M0M5bWJzaUxiM1h0NHU4S0RLOFhRVS0yRjA3ZURjbjVxNHpTdXJpTHU4SGc?oc=5",
-          "date": "2026-10-29T00:10:09+00:00"
+          "date": "2026-10-29T01:00:00+00:00"
         },
         {
           "title": "Radico Khaitan visited by India tax officials - Just Drinks",
@@ -1291,12 +1264,12 @@
       "signals": [
         {
           "signal": "Functional trending in Austria",
-          "explanation": "5 articles mention functional in the last 28 days",
-          "support_count": 5,
+          "explanation": "2 articles mention functional in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "functional"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "signal": "Rtd trending in Austria",
@@ -1317,6 +1290,15 @@
           "confidence": "low"
         },
         {
+          "signal": "Carbonated trending in Austria",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "carbonated"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Energy trending in Austria",
           "explanation": "1 articles mention energy in the last 28 days",
           "support_count": 1,
@@ -1324,21 +1306,12 @@
             "energy"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Hydration trending in Austria",
-          "explanation": "1 articles mention hydration in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "hydration"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMkpZb0p4WTFRYlJYalZEOWNEQ0NQOElQNTBCckl4RXRNZ2dIRFc5NVRxeVVHM085NTR3MnREUDEtLXF0aTVSV3RqckpNNElBRWNQdVBWQXJPUmZwTmMtNTU4ZVlKSzBVOUp1dUt3VnRvRFBpYjREUFg5MlI1OEkxMlhjLU0wa0tPTHp5WDdWeTNvYnBESHJDeEROQTJqZE5yMXUzMFJCbG5uZkxMR0Jva1YydzZZUlB2NnVURFhnSUk5OUE?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamtpRzR3UzE3V18zcXdxZnFSVEFmejFPWVNLYmlxeU9YZHlrbnhlcHRWVG5KbWdKdGlLd0NaRDRuVlFHTjNXQk5ZVEN1ZUd3RWI0bkRwdEp3VFZPYndseHhjaVo2X1F2TjRaRmVadXY4aEYxZmpWbHdjS2xJb3MxYzRRQTNpbHVCWnpsSlJpTE9xcUQtS1dGLWhINzd0Nk5YcEo1Qlo0TXBxdw?oc=5",
@@ -1359,15 +1332,14 @@
           "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWE2OWhNMFpCRjI1VnpJaWNkRlVqbVNZS010SkFVUXNtanpwTGZGUkh0WXlNUnhFQ1MwU2V0WE9oOGFtZTNpcjNFaW0yRVJCamh6dUllbEVmb1ZSbkJadHNIRFhrcnRnZjNzUWNZaDBIMGNTMjE3YkhKRVNIbmNzb2RCNTVkWWxQMzVCMXlvOTVMSzI1X21YcHFwek4yM2ltQkxnWGpIcEd3UFF3RHlCNmpwVGZKbFRXcnpfY0VoRFY5cWRmMVhPMUxWWFpDUnkwUmZj?oc=5",
-            "https://news.google.com/rss/articles/CBMisAFBVV95cUxPemdHZnhYZHpvdy1zeHlFM283dFYwSTJ5ajRld3h1a0oxal9PT04xclNXMG1ab0s4ZEtyU1NxS2xXejhSb3F6cXZkbmxsdExWOUxvWV9VSHE3THpOMDdBYm5Ud0dTbm9FZ29RakhJTGZZX1FSZUt1eEdMLTJqd2R4Y295LXZHYmp6bGs2SkRuNGNxa2g5VXRNSE9uZDl5azRMYkZmQlp4YUx2SGdhRkNUMg?oc=5",
-            "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGZUdkVUZG15UGp4S1Z1bWNaVWdwOWVvLTRzQU90ZHVCYVFOZnktajdxbDZUTDlWaWZOeXF0aFdLa2ViczBtVlZBY3JUZVVleXduUFdvY3RHeC04cUZxYVJkdHZzT1g1dGlhc2FuMFhmc2E3bEJoMWxkY0d1TWR6S0g0ZzhMcGNwcTJUM3NFd1p4T1pOeDcxUXNqenhEUHVsNXBVYmdwb2RQa2UzZ1M2dmxybUZUb1NSOUlIbTBOR2RycGVKaGlaeg?oc=5"
+            "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEV3WmdZVmJHekduRUk2bk8zS0c0dml1N1ROXzFvdU9VTlpBMWtDLWZIWlZXckhkdndXUVgyZVMwWURRRzJjMkQ4N0pwd01jbXh6QXlmNUdQaGczdHhvc0hEZVdyVnlaejItdXQyMEVPZm1TZlEtbWk3WjV1WTZVaWNfaVpRSl9xbUtEdQ?oc=5"
           ]
         }
       ],
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMkpZb0p4WTFRYlJYalZEOWNEQ0NQOElQNTBCckl4RXRNZ2dIRFc5NVRxeVVHM085NTR3MnREUDEtLXF0aTVSV3RqckpNNElBRWNQdVBWQXJPUmZwTmMtNTU4ZVlKSzBVOUp1dUt3VnRvRFBpYjREUFg5MlI1OEkxMlhjLU0wa0tPTHp5WDdWeTNvYnBESHJDeEROQTJqZE5yMXUzMFJCbG5uZkxMR0Jva1YydzZZUlB2NnVURFhnSUk5OUE?oc=5",
