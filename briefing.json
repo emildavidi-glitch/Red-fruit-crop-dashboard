@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-30T11:08:00.958427+00:00",
+  "generated_at": "2026-10-30T18:24:30.650110+00:00",
   "generated_date": "Friday, 30 October 2026",
-  "briefing": "Sales intelligence tracked 273 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Deposit Return Scheme: What drinks businesses need to know - BeverageDaily.com.",
+  "briefing": "Sales intelligence tracked 300 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: 7 consumer shifts that will define food and drink in 2027 - FoodNavigator.com.",
   "signals": {
     "usa": "Energy trending. (50 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Functional trending. (41 items)",
-    "spain": "Functional trending. (41 items)",
-    "italy": "Functional trending. (41 items)",
+    "germany": "Energy trending. (50 items)",
+    "france": "Functional trending. (50 items)",
+    "spain": "Functional trending. (50 items)",
+    "italy": "Functional trending. (50 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 273,
+    "total_articles_analyzed": 300,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 167,
-      "launch": 36,
-      "innovation": 30,
-      "functional": 21,
-      "regulatory": 20,
-      "energy": 14,
-      "supply_chain": 13,
-      "carbonated": 9,
-      "premium": 8,
-      "pricing": 7
+      "trend": 191,
+      "launch": 42,
+      "innovation": 27,
+      "functional": 24,
+      "supply_chain": 19,
+      "energy": 19,
+      "regulatory": 11,
+      "rtd": 11,
+      "pricing": 10,
+      "carbonated": 7
     }
   }
 }
