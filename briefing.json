@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-01T11:37:16.460502+00:00",
+  "generated_at": "2026-11-01T18:15:20.360096+00:00",
   "generated_date": "Sunday, 01 November 2026",
-  "briefing": "Sales intelligence tracked 257 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: 7 consumer shifts that will define food and drink in 2027 - FoodNavigator.com.",
+  "briefing": "Sales intelligence tracked 237 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Government maintains sugar tax to fund healthcare - Herald.co.zw.",
   "signals": {
-    "usa": "Functional trending. (49 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (37 items)",
-    "spain": "Functional trending. (37 items)",
-    "italy": "Functional trending. (37 items)",
-    "austria": "Functional trending. (47 items)"
+    "usa": "Functional trending. (43 items)",
+    "germany": "Functional trending. (48 items)",
+    "france": "Functional trending. (34 items)",
+    "spain": "Functional trending. (34 items)",
+    "italy": "Functional trending. (34 items)",
+    "austria": "Functional trending. (44 items)"
   },
   "meta": {
-    "total_articles_analyzed": 257,
+    "total_articles_analyzed": 237,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 121,
-      "functional": 43,
-      "launch": 40,
+      "trend": 114,
       "regulatory": 38,
-      "innovation": 27,
+      "launch": 33,
+      "functional": 31,
+      "innovation": 21,
       "energy": 14,
       "supply_chain": 13,
       "pricing": 12,
       "alcohol_free": 7,
-      "rtd": 7
+      "sugar_free": 6
     }
   }
 }
