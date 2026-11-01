@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-31T17:29:55.874716+00:00",
-  "generated_date": "Saturday, 31 October 2026",
-  "briefing": "Sales intelligence tracked 276 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Keg Logistics - Southwest Sales Manager - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "generated_at": "2026-11-01T11:37:16.460502+00:00",
+  "generated_date": "Sunday, 01 November 2026",
+  "briefing": "Sales intelligence tracked 257 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: 7 consumer shifts that will define food and drink in 2027 - FoodNavigator.com.",
   "signals": {
-    "usa": "Energy trending. (50 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Functional trending. (42 items)",
-    "spain": "Functional trending. (42 items)",
-    "italy": "Functional trending. (42 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Functional trending. (49 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (37 items)",
+    "italy": "Functional trending. (37 items)",
+    "austria": "Functional trending. (47 items)"
   },
   "meta": {
-    "total_articles_analyzed": 276,
+    "total_articles_analyzed": 257,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 163,
-      "launch": 41,
-      "supply_chain": 23,
-      "regulatory": 22,
-      "functional": 18,
+      "trend": 121,
+      "functional": 43,
+      "launch": 40,
+      "regulatory": 38,
+      "innovation": 27,
       "energy": 14,
-      "innovation": 14,
-      "rtd": 13,
-      "alcohol_free": 9,
-      "pricing": 7
+      "supply_chain": 13,
+      "pricing": 12,
+      "alcohol_free": 7,
+      "rtd": 7
     }
   }
 }
