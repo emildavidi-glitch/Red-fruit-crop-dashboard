@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-02T13:00:14.115872+00:00",
+  "generated_at": "2026-11-02T22:08:29.127744+00:00",
   "generated_date": "Monday, 02 November 2026",
-  "briefing": "Sales intelligence tracked 264 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Varun Beverages plans another factory in India - Just Drinks.",
+  "briefing": "Sales intelligence tracked 291 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; supply_chain trending. Latest: Aarke launcht Trinkbecher aus Edelstahl für unterwegs - about-drinks.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (38 items)",
-    "spain": "Functional trending. (38 items)",
-    "italy": "Functional trending. (38 items)",
+    "germany": "Energy trending. (50 items)",
+    "france": "Functional trending. (47 items)",
+    "spain": "Functional trending. (47 items)",
+    "italy": "Functional trending. (47 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 264,
+    "total_articles_analyzed": 291,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 143,
-      "launch": 41,
-      "functional": 28,
-      "regulatory": 27,
-      "supply_chain": 22,
-      "innovation": 18,
-      "energy": 14,
-      "rtd": 13,
-      "alcohol_free": 8,
-      "pricing": 6
+      "trend": 152,
+      "launch": 49,
+      "supply_chain": 24,
+      "functional": 23,
+      "regulatory": 19,
+      "energy": 18,
+      "pricing": 17,
+      "innovation": 17,
+      "rtd": 12,
+      "retail": 6
     }
   }
 }
