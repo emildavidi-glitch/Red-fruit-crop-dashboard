@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-01T18:15:20.360096+00:00",
-  "generated_date": "Sunday, 01 November 2026",
-  "briefing": "Sales intelligence tracked 237 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; new product launches intensifying. Latest: Government maintains sugar tax to fund healthcare - Herald.co.zw.",
+  "generated_at": "2026-11-02T13:00:14.115872+00:00",
+  "generated_date": "Monday, 02 November 2026",
+  "briefing": "Sales intelligence tracked 264 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Varun Beverages plans another factory in India - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (43 items)",
-    "germany": "Functional trending. (48 items)",
-    "france": "Functional trending. (34 items)",
-    "spain": "Functional trending. (34 items)",
-    "italy": "Functional trending. (34 items)",
-    "austria": "Functional trending. (44 items)"
+    "usa": "Functional trending. (50 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (38 items)",
+    "spain": "Functional trending. (38 items)",
+    "italy": "Functional trending. (38 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 237,
+    "total_articles_analyzed": 264,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 114,
-      "regulatory": 38,
-      "launch": 33,
-      "functional": 31,
-      "innovation": 21,
+      "trend": 143,
+      "launch": 41,
+      "functional": 28,
+      "regulatory": 27,
+      "supply_chain": 22,
+      "innovation": 18,
       "energy": 14,
-      "supply_chain": 13,
-      "pricing": 12,
-      "alcohol_free": 7,
-      "sugar_free": 6
+      "rtd": 13,
+      "alcohol_free": 8,
+      "pricing": 6
     }
   }
 }
