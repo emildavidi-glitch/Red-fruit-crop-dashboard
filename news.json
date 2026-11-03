@@ -1,7 +1,22 @@
 {
-  "last_updated": "2026-11-02T22:08:28.962928+00:00",
-  "article_count": 18,
+  "last_updated": "2026-11-03T12:33:50.283583+00:00",
+  "article_count": 19,
   "articles": [
+    {
+      "id": "48532606a83b",
+      "title": "Agronometrics in Charts: US fresh fruit prices outpace grocery inflation as supply tightens",
+      "summary": "Rain-damaged strawberry harvests and smaller domestic yields for apples and peaches are adding immediate pressure to supply chains. Keep reading",
+      "url": "https://www.freshfruitportal.com/news/2026/11/03/fresh-fruit-price-26/",
+      "source": "FreshFruitPortal",
+      "region": "Global",
+      "crops": [
+        "strawberry"
+      ],
+      "crop": "strawberry",
+      "is_concentrate": false,
+      "published": "2026-11-03T11:00:28+00:00",
+      "fetched": "2026-11-03T12:33:38.717846+00:00"
+    },
     {
       "id": "2750067bc4ca",
       "title": "Peru seeks to extend blueberry export season in Europe - FreshPlaza",
@@ -199,6 +214,19 @@
       "fetched": "2026-11-02T13:00:13.869281+00:00"
     },
     {
+      "id": "621dfba79cb5",
+      "title": "Frozen Apple Juice Concentrate Malaysia Prices & Trade Data | Market Overview 2026 - Tridge",
+      "summary": "Frozen Apple Juice Concentrate Malaysia Prices & Trade Data | Market Overview 2026 Tridge",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tcDlGeEZMQ1daRVpsSlYwLVhQdVIxcEtrazdhR3RSM3lIZVc0WUVTanh6aElFUG5FZjJmODBrc0U0Rmd4bnYxaVdhNzhKelVfOVZrWWRfWXdSMzJQVENWTHVnRUFkQVFqcFZUMWQwdnpKYWVzQ3VzejZPaUg?oc=5",
+      "source": "GNews: Fruit Concentrate",
+      "region": "Global",
+      "crops": [],
+      "crop": "concentrate & juice",
+      "is_concentrate": true,
+      "published": "2026-10-29T07:00:00+00:00",
+      "fetched": "2026-11-03T12:33:46.867014+00:00"
+    },
+    {
       "id": "2bbfc94b41d4",
       "title": "Peruvian Blueberry Production Surges 29.8 Percent in August as Agricultural Sector Navigates Climatic Shifts - https://streamlinefeed.co.ke/",
       "summary": "Peruvian Blueberry Production Surges 29.8 Percent in August as Agricultural Sector Navigates Climatic Shifts https://streamlinefeed.co.ke/",
@@ -242,21 +270,6 @@
       "is_concentrate": false,
       "published": "2026-10-21T12:28:48+00:00",
       "fetched": "2026-10-21T17:54:00.903070+00:00"
-    },
-    {
-      "id": "bafcc74810b8",
-      "title": "Agronometrics in Charts: Weekly EU trade data from Agronometrics brings real-time visibility to grape and blueberry markets",
-      "summary": "Industry leaders share how real-time insights into European import and export trends are transforming seasonal planning and retail engagement. Keep reading",
-      "url": "https://www.freshfruitportal.com/news/2026/10/20/agronometrics-eu/",
-      "source": "FreshFruitPortal",
-      "region": "Global",
-      "crops": [
-        "blueberry"
-      ],
-      "crop": "blueberry",
-      "is_concentrate": false,
-      "published": "2026-10-20T11:05:38+00:00",
-      "fetched": "2026-10-20T17:46:07.341364+00:00"
     }
   ]
 }
