@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-05T12:53:40.881485+00:00",
+  "generated_at": "2026-11-05T20:27:58.813566+00:00",
   "generated_date": "Thursday, 05 November 2026",
-  "briefing": "Sales intelligence tracked 243 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Thousands affected by Suntory personal data leak - Just Drinks.",
+  "briefing": "Sales intelligence tracked 252 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Tip Top Proper Cocktails Introduces Passion Fruit Martini Just in Time for Holiday Entertaining - Be.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (31 items)",
-    "spain": "Functional trending. (31 items)",
-    "italy": "Functional trending. (31 items)",
+    "france": "Functional trending. (34 items)",
+    "spain": "Functional trending. (34 items)",
+    "italy": "Functional trending. (34 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 243,
+    "total_articles_analyzed": 252,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 155,
-      "launch": 40,
-      "functional": 20,
-      "pricing": 13,
-      "carbonated": 13,
-      "supply_chain": 11,
-      "innovation": 10,
-      "regulatory": 6,
+      "trend": 159,
+      "launch": 35,
+      "pricing": 31,
+      "functional": 11,
+      "supply_chain": 10,
+      "innovation": 8,
+      "carbonated": 6,
       "energy": 5,
+      "retail": 4,
       "rtd": 4
     }
   }
