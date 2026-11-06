@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-06T12:39:55.606733+00:00",
+  "generated_at": "2026-11-06T19:50:38.025820+00:00",
   "generated_date": "Friday, 06 November 2026",
-  "briefing": "Sales intelligence tracked 255 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Jägermeister steigt in RTD-Markt ein - Getränke News.",
+  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Sap's Launches Harmons Grocery across the state of Utah - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (35 items)",
-    "spain": "Functional trending. (35 items)",
-    "italy": "Functional trending. (35 items)",
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (37 items)",
+    "italy": "Functional trending. (37 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 255,
+    "total_articles_analyzed": 261,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 167,
-      "launch": 31,
-      "pricing": 24,
-      "functional": 14,
+      "trend": 173,
+      "launch": 25,
+      "pricing": 18,
+      "supply_chain": 14,
+      "functional": 13,
+      "competitor": 13,
+      "carbonated": 12,
       "regulatory": 10,
-      "supply_chain": 8,
-      "innovation": 8,
       "rtd": 7,
-      "carbonated": 6,
-      "energy": 5
+      "innovation": 6
     }
   }
 }
