@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-06T19:50:38.025820+00:00",
-  "generated_date": "Friday, 06 November 2026",
-  "briefing": "Sales intelligence tracked 261 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Sap's Launches Harmons Grocery across the state of Utah - BevNET.com.",
+  "generated_at": "2026-11-07T11:26:44.056666+00:00",
+  "generated_date": "Saturday, 07 November 2026",
+  "briefing": "Sales intelligence tracked 246 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: View Media | 49504 | Photo of Strawberry + Wildflower Honey Sparkling Drink - BeePop (uploaded by co.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (37 items)",
-    "spain": "Functional trending. (37 items)",
-    "italy": "Functional trending. (37 items)",
+    "usa": "Carbonated trending. (50 items)",
+    "germany": "Rtd trending. (50 items)",
+    "france": "Functional trending. (32 items)",
+    "spain": "Functional trending. (32 items)",
+    "italy": "Functional trending. (32 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 261,
+    "total_articles_analyzed": 246,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 173,
-      "launch": 25,
-      "pricing": 18,
-      "supply_chain": 14,
+      "trend": 156,
+      "launch": 29,
+      "pricing": 24,
+      "supply_chain": 16,
+      "carbonated": 15,
       "functional": 13,
-      "competitor": 13,
-      "carbonated": 12,
-      "regulatory": 10,
-      "rtd": 7,
-      "innovation": 6
+      "rtd": 9,
+      "competitor": 7,
+      "innovation": 7,
+      "regulatory": 5
     }
   }
 }
