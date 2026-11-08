@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-11-08T11:38:26.595997+00:00",
+  "generated_at": "2026-11-08T18:12:55.555158+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
+        {
+          "headline": "Kraft Heinz to sell North American coffee business for $650M - BeverageDaily.com",
+          "detail": "Kraft Heinz to sell North American coffee business for $650M BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSTd1Sk9lUERUZ2pCX3JlYzNBc2Q4ak1IbTJHaXdJcUp2T2FfTzVVeS1OQnlLVjE3Y0ZjZVFWVVcwY1dYT0g2bS1wb2NhOC1zcVlaU1Uxb3RCbWNvYnNJakhzWHJpRTBuMkNsZW11RTNUNHNUQ25VVTFlX3B2MGc3UzVSb3NmaDAwN1dCdmpTdm15SXRtQ0NpSmo1elZxd2M?oc=5"
+          ],
+          "confidence": "high"
+        },
         {
           "headline": "Kraft Heinz to sell North American coffee business to private equity firm",
           "detail": "The food giant is offloading brands including Maxwell House and Sanka in a deal that values the segment at $650 million.",
@@ -33,14 +41,6 @@
           "detail": "PepsiCo renews KFC partnership across eight markets following US split BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU1JWb3E4MktYcVlWYkxUa29QSEJsN0p3U1kzZ0NUS05MVnp5VlgtM1RNeGxMR1o1ZnpTLThyQnJJaThINEZiR2R5RUpUUkNGZUZkLURhbFVUbnB5OWFoX2c4dGlEQUswQ2V0bXBIcTN5a0dtOUJreEpDZ205b3dEZ2RaZHV2aGU1amVZc2dtZ1dORWFyZXoydThaZU82NzR3a3ZkaGlwcFJkTU43M3Rr?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
-          "detail": "Russia ups tariffs on spirits from ‘unfriendly’ countries Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc2gwc0tKRlZRekFEdEItNGU3NExEVlV5SzJoOHc4cHM5cUNZcDBsRVFFb1RIb0FhdTNiZ0s4WVkzYXFIRXNNT21Td0dScTkyOXNmYko0RERjam44cDlSUFVWdlVUT2VmdllPX3ZGZ2ZnNHBvWkZiRzl6TEo2bXVRQXl5MA?oc=5"
           ],
           "confidence": "medium"
         }
@@ -146,6 +146,15 @@
       ],
       "signals": [
         {
+          "signal": "Energy trending in United States",
+          "explanation": "3 articles mention energy in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "medium"
+        },
+        {
           "signal": "Functional trending in United States",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -160,15 +169,6 @@
           "support_count": 2,
           "top_keywords": [
             "carbonated"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "signal": "Energy trending in United States",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
           ],
           "confidence": "medium"
         },
@@ -241,10 +241,10 @@
     "germany": {
       "executive_summary": [
         {
-          "headline": "Duftikone 4711 und Siegfried launchen 4711 Cologne Gin - about-drinks.com",
-          "detail": "Duftikone 4711 und Siegfried launchen 4711 Cologne Gin about-drinks.com",
+          "headline": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "detail": "China urged to target sugar-rich drinks during consumption tax overhaul South China Morning Post",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5"
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
           ],
           "confidence": "medium"
         },
@@ -282,14 +282,6 @@
         }
       ],
       "key_launches": [
-        {
-          "title": "Duftikone 4711 und Siegfried launchen 4711 Cologne Gin - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
-          "date": "2026-11-07T08:04:35+00:00"
-        },
         {
           "title": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
           "company": "Unknown",
@@ -334,6 +326,13 @@
         }
       ],
       "regulatory_watch": [
+        {
+          "title": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
+          "date": "2026-11-08T07:00:25+00:00"
+        },
         {
           "title": "Germany approves draft sugar tax on soft drinks – what this means for manufacturers - BeverageDaily.com",
           "topic": "regulation",
@@ -408,6 +407,15 @@
           "confidence": "low"
         },
         {
+          "signal": "Energy trending in Germany",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Protein trending in Germany",
           "explanation": "1 articles mention protein in the last 28 days",
           "support_count": 1,
@@ -420,17 +428,18 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Germany — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Germany — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5"
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
           ]
         },
         {
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0k2Ukh3YldPUm5fVlM3VnNnSC00bkE3VVJTaHhmbXA0cEQzLVdieFk2X0t2UU9fNWJMMjFoTktSVTNoR05ua2M5V3NxbmFFVDlmWVVlamkxaW1hYW9pZTYwQ1k3NVptOTVLMi1vVjNWcnFmOWd3N2dFMlRCYlN4R3F2UXQ1TXdfaWRuQXV1NmdpOHp6bUlnRXJsV0RsS0VVSU5NUWEyelV5dw?oc=5",
             "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbFlZM1A5MkFMbmJBQUstUTBhZkw2YW1WdzA3YWdzLVNJdjIwdWJGTVgyMnZOcWVUTDdrSmJJYWtkS2lDOHpkbWcxVUtPSWZDc1VrQ1VNTl83MHBLT0E5RF93Y25sMG1TcE93ZDR2LXczY0ZSdzVrRG9rRjlkU3lwODhId0QxcllnbFVjWFdRR1hxNkNmZXpqUlE4YnBtUG5VQTFDTFMxcEdvUmFxTWthb1dUOG1BZThvdS1hSXRod0I1RU5kTVdPN3VidmVJUUl0NkRvV3NNZUJhRVIyeTB2MzJB?oc=5"
           ]
@@ -447,12 +456,12 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5"
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
           ]
         },
         {
@@ -460,6 +469,7 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0k2Ukh3YldPUm5fVlM3VnNnSC00bkE3VVJTaHhmbXA0cEQzLVdieFk2X0t2UU9fNWJMMjFoTktSVTNoR05ua2M5V3NxbmFFVDlmWVVlamkxaW1hYW9pZTYwQ1k3NVptOTVLMi1vVjNWcnFmOWd3N2dFMlRCYlN4R3F2UXQ1TXdfaWRuQXV1NmdpOHp6bUlnRXJsV0RsS0VVSU5NUWEyelV5dw?oc=5",
             "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbFlZM1A5MkFMbmJBQUstUTBhZkw2YW1WdzA3YWdzLVNJdjIwdWJGTVgyMnZOcWVUTDdrSmJJYWtkS2lDOHpkbWcxVUtPSWZDc1VrQ1VNTl83MHBLT0E5RF93Y25sMG1TcE93ZDR2LXczY0ZSdzVrRG9rRjlkU3lwODhId0QxcllnbFVjWFdRR1hxNkNmZXpqUlE4YnBtUG5VQTFDTFMxcEdvUmFxTWthb1dUOG1BZThvdS1hSXRod0I1RU5kTVdPN3VidmVJUUl0NkRvV3NNZUJhRVIyeTB2MzJB?oc=5"
           ]
@@ -468,6 +478,14 @@
     },
     "france": {
       "executive_summary": [
+        {
+          "headline": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "detail": "China urged to target sugar-rich drinks during consumption tax overhaul South China Morning Post",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
           "detail": "New beverage launches: Functional innovation, bold flavours and a whisky twist BeverageDaily.com",
@@ -497,14 +515,6 @@
           "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Can the US midterms break the US-Canada alcohol trade deadlock? - BeverageDaily.com",
-          "detail": "Can the US midterms break the US-Canada alcohol trade deadlock? BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGpmb3lVWVJLUHhpV3VFaHNiNm1kUFVaNmVoVlJ3UlBTZkwyTWROdURBR094REZnZHgwQkIwbkducDRVUXZTNVpxbU95SXJNZmFsanEzaFhxZDlPc1Y5UnIwdG9yd09zU1pGdURuMHZlbXk1ZDhiR0RvWExkNS1wTTdVSHpGNE9UWF9Mc3h1UUlmTTdlMEpGRi14ajhXbXJNRm9YSg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -553,7 +563,15 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [],
+      "regulatory_watch": [
+        {
+          "title": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
+          "date": "2026-11-08T07:00:25+00:00"
+        }
+      ],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -604,6 +622,15 @@
           "confidence": "low"
         },
         {
+          "signal": "Energy trending in France",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in France",
           "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
@@ -633,6 +660,13 @@
           ]
         },
         {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ]
+        },
+        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -651,11 +685,27 @@
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
           ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ]
         }
       ]
     },
     "spain": {
       "executive_summary": [
+        {
+          "headline": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "detail": "China urged to target sugar-rich drinks during consumption tax overhaul South China Morning Post",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
           "detail": "New beverage launches: Functional innovation, bold flavours and a whisky twist BeverageDaily.com",
@@ -685,14 +735,6 @@
           "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Can the US midterms break the US-Canada alcohol trade deadlock? - BeverageDaily.com",
-          "detail": "Can the US midterms break the US-Canada alcohol trade deadlock? BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGpmb3lVWVJLUHhpV3VFaHNiNm1kUFVaNmVoVlJ3UlBTZkwyTWROdURBR094REZnZHgwQkIwbkducDRVUXZTNVpxbU95SXJNZmFsanEzaFhxZDlPc1Y5UnIwdG9yd09zU1pGdURuMHZlbXk1ZDhiR0RvWExkNS1wTTdVSHpGNE9UWF9Mc3h1UUlmTTdlMEpGRi14ajhXbXJNRm9YSg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -741,7 +783,15 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [],
+      "regulatory_watch": [
+        {
+          "title": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
+          "date": "2026-11-08T07:00:25+00:00"
+        }
+      ],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -792,6 +842,15 @@
           "confidence": "low"
         },
         {
+          "signal": "Energy trending in Spain",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Spain",
           "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
@@ -821,6 +880,13 @@
           ]
         },
         {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ]
+        },
+        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -839,11 +905,27 @@
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
           ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ]
         }
       ]
     },
     "italy": {
       "executive_summary": [
+        {
+          "headline": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "detail": "China urged to target sugar-rich drinks during consumption tax overhaul South China Morning Post",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ],
+          "confidence": "medium"
+        },
         {
           "headline": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
           "detail": "New beverage launches: Functional innovation, bold flavours and a whisky twist BeverageDaily.com",
@@ -873,14 +955,6 @@
           "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "Can the US midterms break the US-Canada alcohol trade deadlock? - BeverageDaily.com",
-          "detail": "Can the US midterms break the US-Canada alcohol trade deadlock? BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGpmb3lVWVJLUHhpV3VFaHNiNm1kUFVaNmVoVlJ3UlBTZkwyTWROdURBR094REZnZHgwQkIwbkducDRVUXZTNVpxbU95SXJNZmFsanEzaFhxZDlPc1Y5UnIwdG9yd09zU1pGdURuMHZlbXk1ZDhiR0RvWExkNS1wTTdVSHpGNE9UWF9Mc3h1UUlmTTdlMEpGRi14ajhXbXJNRm9YSg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -929,7 +1003,15 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [],
+      "regulatory_watch": [
+        {
+          "title": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
+          "date": "2026-11-08T07:00:25+00:00"
+        }
+      ],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -980,6 +1062,15 @@
           "confidence": "low"
         },
         {
+          "signal": "Energy trending in Italy",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Italy",
           "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
@@ -1009,6 +1100,13 @@
           ]
         },
         {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ]
+        },
+        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -1027,16 +1125,24 @@
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
           ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
+          ]
         }
       ]
     },
     "austria": {
       "executive_summary": [
         {
-          "headline": "Duftikone 4711 und Siegfried launchen 4711 Cologne Gin - about-drinks.com",
-          "detail": "Duftikone 4711 und Siegfried launchen 4711 Cologne Gin about-drinks.com",
+          "headline": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "detail": "China urged to target sugar-rich drinks during consumption tax overhaul South China Morning Post",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5"
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
           ],
           "confidence": "medium"
         },
@@ -1074,14 +1180,6 @@
         }
       ],
       "key_launches": [
-        {
-          "title": "Duftikone 4711 und Siegfried launchen 4711 Cologne Gin - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
-          "date": "2026-11-07T08:04:35+00:00"
-        },
         {
           "title": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
           "company": "Unknown",
@@ -1125,7 +1223,15 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [],
+      "regulatory_watch": [
+        {
+          "title": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
+          "date": "2026-11-08T07:00:25+00:00"
+        }
+      ],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -1176,6 +1282,15 @@
           "confidence": "low"
         },
         {
+          "signal": "Energy trending in Austria",
+          "explanation": "1 articles mention energy in the last 28 days",
+          "support_count": 1,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "low"
+        },
+        {
           "signal": "Rtd trending in Austria",
           "explanation": "1 articles mention rtd in the last 28 days",
           "support_count": 1,
@@ -1197,11 +1312,18 @@
       "talking_points": [
         {
           "customer_type": "retail",
-          "pitch": "5 new product launches in Austria — ask about shelf space for new formats",
+          "pitch": "4 new product launches in Austria — ask about shelf space for new formats",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5"
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
+          ]
+        },
+        {
+          "customer_type": "key_account",
+          "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
+          "supporting_evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
           ]
         },
         {
@@ -1216,12 +1338,20 @@
       "recommended_actions": [
         {
           "owner": "sales",
-          "action": "Review 5 new launches for competitive overlap",
+          "action": "Review 4 new launches for competitive overlap",
           "why_now": "New products entering market require positioning response",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5"
+            "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
+            "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
+          ]
+        },
+        {
+          "owner": "sales",
+          "action": "Brief quality team on regulatory developments",
+          "why_now": "Compliance deadlines may affect product specifications",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5"
           ]
         }
       ]
