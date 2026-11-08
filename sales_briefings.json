@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-11-07T17:56:25.173221+00:00",
+  "generated_at": "2026-11-08T11:38:26.595997+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
       "executive_summary": [
-        {
-          "headline": "Kraft Heinz to sell North American coffee business for $650M - BeverageDaily.com",
-          "detail": "Kraft Heinz to sell North American coffee business for $650M BeverageDaily.com",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSTd1Sk9lUERUZ2pCX3JlYzNBc2Q4ak1IbTJHaXdJcUp2T2FfTzVVeS1OQnlLVjE3Y0ZjZVFWVVcwY1dYT0g2bS1wb2NhOC1zcVlaU1Uxb3RCbWNvYnNJakhzWHJpRTBuMkNsZW11RTNUNHNUQ25VVTFlX3B2MGc3UzVSb3NmaDAwN1dCdmpTdm15SXRtQ0NpSmo1elZxd2M?oc=5"
-          ],
-          "confidence": "high"
-        },
         {
           "headline": "Kraft Heinz to sell North American coffee business to private equity firm",
           "detail": "The food giant is offloading brands including Maxwell House and Sanka in a deal that values the segment at $650 million.",
@@ -29,18 +21,26 @@
           "confidence": "medium"
         },
         {
-          "headline": "Thousands affected by Suntory personal data leak - Just Drinks",
-          "detail": "Thousands affected by Suntory personal data leak Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EdDhMWWpiYnE0RWNRU3FPX2xJaTEyRmxUYThfY2UtdnFHNmRmcG10a3JLTVJEY19IWThscUdheVdNcExKZEw3MmJYVUtsVEV3Z2M4N3EtY0VRR0w3QlVXTDEyMnQwZDVxSzNkZg?oc=5"
-          ],
-          "confidence": "high"
-        },
-        {
           "headline": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
           "detail": "New beverage launches: Functional innovation, bold flavours and a whisky twist BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "PepsiCo renews KFC partnership across eight markets following US split - BeverageDaily.com",
+          "detail": "PepsiCo renews KFC partnership across eight markets following US split BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU1JWb3E4MktYcVlWYkxUa29QSEJsN0p3U1kzZ0NUS05MVnp5VlgtM1RNeGxMR1o1ZnpTLThyQnJJaThINEZiR2R5RUpUUkNGZUZkLURhbFVUbnB5OWFoX2c4dGlEQUswQ2V0bXBIcTN5a0dtOUJreEpDZ205b3dEZ2RaZHV2aGU1amVZc2dtZ1dORWFyZXoydThaZU82NzR3a3ZkaGlwcFJkTU43M3Rr?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
+          "detail": "Russia ups tariffs on spirits from ‘unfriendly’ countries Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc2gwc0tKRlZRekFEdEItNGU3NExEVlV5SzJoOHc4cHM5cUNZcDBsRVFFb1RIb0FhdTNiZ0s4WVkzYXFIRXNNT21Td0dScTkyOXNmYko0RERjam44cDlSUFVWdlVUT2VmdllPX3ZGZ2ZnNHBvWkZiRzl6TEo2bXVRQXl5MA?oc=5"
           ],
           "confidence": "medium"
         }
@@ -155,20 +155,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Energy trending in United States",
-          "explanation": "2 articles mention energy in the last 28 days",
-          "support_count": 2,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Carbonated trending in United States",
           "explanation": "2 articles mention carbonated in the last 28 days",
           "support_count": 2,
           "top_keywords": [
             "carbonated"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in United States",
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "medium"
         },
@@ -182,11 +182,11 @@
           "confidence": "medium"
         },
         {
-          "signal": "Protein trending in United States",
-          "explanation": "1 articles mention protein in the last 28 days",
+          "signal": "Premium trending in United States",
+          "explanation": "1 articles mention premium in the last 28 days",
           "support_count": 1,
           "top_keywords": [
-            "protein"
+            "premium"
           ],
           "confidence": "low"
         }
@@ -273,10 +273,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "detail": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations The Nation Newspaper",
+          "headline": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
+          "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
+            "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
           ],
           "confidence": "medium"
         }
@@ -334,13 +334,6 @@
         }
       ],
       "regulatory_watch": [
-        {
-          "title": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
-          "date": "2026-11-05T03:47:30+00:00"
-        },
         {
           "title": "Germany approves draft sugar tax on soft drinks – what this means for manufacturers - BeverageDaily.com",
           "topic": "regulation",
@@ -388,15 +381,6 @@
       ],
       "signals": [
         {
-          "signal": "Rtd trending in Germany",
-          "explanation": "3 articles mention rtd in the last 28 days",
-          "support_count": 3,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Functional trending in Germany",
           "explanation": "2 articles mention functional in the last 28 days",
           "support_count": 2,
@@ -406,13 +390,22 @@
           "confidence": "medium"
         },
         {
-          "signal": "Carbonated trending in Germany",
-          "explanation": "2 articles mention carbonated in the last 28 days",
+          "signal": "Rtd trending in Germany",
+          "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
+          "top_keywords": [
+            "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Carbonated trending in Germany",
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Protein trending in Germany",
@@ -438,7 +431,6 @@
           "customer_type": "key_account",
           "pitch": "Regulatory changes in Germany may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0k2Ukh3YldPUm5fVlM3VnNnSC00bkE3VVJTaHhmbXA0cEQzLVdieFk2X0t2UU9fNWJMMjFoTktSVTNoR05ua2M5V3NxbmFFVDlmWVVlamkxaW1hYW9pZTYwQ1k3NVptOTVLMi1vVjNWcnFmOWd3N2dFMlRCYlN4R3F2UXQ1TXdfaWRuQXV1NmdpOHp6bUlnRXJsV0RsS0VVSU5NUWEyelV5dw?oc=5",
             "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbFlZM1A5MkFMbmJBQUstUTBhZkw2YW1WdzA3YWdzLVNJdjIwdWJGTVgyMnZOcWVUTDdrSmJJYWtkS2lDOHpkbWcxVUtPSWZDc1VrQ1VNTl83MHBLT0E5RF93Y25sMG1TcE93ZDR2LXczY0ZSdzVrRG9rRjlkU3lwODhId0QxcllnbFVjWFdRR1hxNkNmZXpqUlE4YnBtUG5VQTFDTFMxcEdvUmFxTWthb1dUOG1BZThvdS1hSXRod0I1RU5kTVdPN3VidmVJUUl0NkRvV3NNZUJhRVIyeTB2MzJB?oc=5"
           ]
@@ -468,7 +460,6 @@
           "action": "Brief quality team on regulatory developments",
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0k2Ukh3YldPUm5fVlM3VnNnSC00bkE3VVJTaHhmbXA0cEQzLVdieFk2X0t2UU9fNWJMMjFoTktSVTNoR05ua2M5V3NxbmFFVDlmWVVlamkxaW1hYW9pZTYwQ1k3NVptOTVLMi1vVjNWcnFmOWd3N2dFMlRCYlN4R3F2UXQ1TXdfaWRuQXV1NmdpOHp6bUlnRXJsV0RsS0VVSU5NUWEyelV5dw?oc=5",
             "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbFlZM1A5MkFMbmJBQUstUTBhZkw2YW1WdzA3YWdzLVNJdjIwdWJGTVgyMnZOcWVUTDdrSmJJYWtkS2lDOHpkbWcxVUtPSWZDc1VrQ1VNTl83MHBLT0E5RF93Y25sMG1TcE93ZDR2LXczY0ZSdzVrRG9rRjlkU3lwODhId0QxcllnbFVjWFdRR1hxNkNmZXpqUlE4YnBtUG5VQTFDTFMxcEdvUmFxTWthb1dUOG1BZThvdS1hSXRod0I1RU5kTVdPN3VidmVJUUl0NkRvV3NNZUJhRVIyeTB2MzJB?oc=5"
           ]
@@ -502,18 +493,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "detail": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations The Nation Newspaper",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
           "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can the US midterms break the US-Canada alcohol trade deadlock? - BeverageDaily.com",
+          "detail": "Can the US midterms break the US-Canada alcohol trade deadlock? BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGpmb3lVWVJLUHhpV3VFaHNiNm1kUFVaNmVoVlJ3UlBTZkwyTWROdURBR094REZnZHgwQkIwbkducDRVUXZTNVpxbU95SXJNZmFsanEzaFhxZDlPc1Y5UnIwdG9yd09zU1pGdURuMHZlbXk1ZDhiR0RvWExkNS1wTTdVSHpGNE9UWF9Mc3h1UUlmTTdlMEpGRi14ajhXbXJNRm9YSg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -562,15 +553,7 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [
-        {
-          "title": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
-          "date": "2026-11-05T03:47:30+00:00"
-        }
-      ],
+      "regulatory_watch": [],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -613,12 +596,12 @@
         },
         {
           "signal": "Carbonated trending in France",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Rtd trending in France",
@@ -650,13 +633,6 @@
           ]
         },
         {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ]
-        },
-        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in France — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -674,14 +650,6 @@
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
           ]
         }
       ]
@@ -713,18 +681,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "detail": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations The Nation Newspaper",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
           "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can the US midterms break the US-Canada alcohol trade deadlock? - BeverageDaily.com",
+          "detail": "Can the US midterms break the US-Canada alcohol trade deadlock? BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGpmb3lVWVJLUHhpV3VFaHNiNm1kUFVaNmVoVlJ3UlBTZkwyTWROdURBR094REZnZHgwQkIwbkducDRVUXZTNVpxbU95SXJNZmFsanEzaFhxZDlPc1Y5UnIwdG9yd09zU1pGdURuMHZlbXk1ZDhiR0RvWExkNS1wTTdVSHpGNE9UWF9Mc3h1UUlmTTdlMEpGRi14ajhXbXJNRm9YSg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -773,15 +741,7 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [
-        {
-          "title": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
-          "date": "2026-11-05T03:47:30+00:00"
-        }
-      ],
+      "regulatory_watch": [],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -824,12 +784,12 @@
         },
         {
           "signal": "Carbonated trending in Spain",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Rtd trending in Spain",
@@ -861,13 +821,6 @@
           ]
         },
         {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ]
-        },
-        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Spain — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -885,14 +838,6 @@
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
           ]
         }
       ]
@@ -924,18 +869,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "detail": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations The Nation Newspaper",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
           "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Can the US midterms break the US-Canada alcohol trade deadlock? - BeverageDaily.com",
+          "detail": "Can the US midterms break the US-Canada alcohol trade deadlock? BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGpmb3lVWVJLUHhpV3VFaHNiNm1kUFVaNmVoVlJ3UlBTZkwyTWROdURBR094REZnZHgwQkIwbkducDRVUXZTNVpxbU95SXJNZmFsanEzaFhxZDlPc1Y5UnIwdG9yd09zU1pGdURuMHZlbXk1ZDhiR0RvWExkNS1wTTdVSHpGNE9UWF9Mc3h1UUlmTTdlMEpGRi14ajhXbXJNRm9YSg?oc=5"
           ],
           "confidence": "medium"
         }
@@ -984,15 +929,7 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [
-        {
-          "title": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
-          "date": "2026-11-05T03:47:30+00:00"
-        }
-      ],
+      "regulatory_watch": [],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -1035,12 +972,12 @@
         },
         {
           "signal": "Carbonated trending in Italy",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Rtd trending in Italy",
@@ -1072,13 +1009,6 @@
           ]
         },
         {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ]
-        },
-        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Italy — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -1096,14 +1026,6 @@
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5",
             "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDlCNkhVOUtPQi1XLV9OcmZLY3RQRmFXVm5nZWNVcHc0SFFDSTVFakJadThSVGFoVkgxNFZxY3NKNHhNV1N5Y0I1eUYzY1d6c1NvWVRSWUxFU0RWRmJYYV9Sc09ENWc5eVJ0X1RocW1pVk1lcHR4OGJrQWttNGRZQllOUy0wbGp6dUM4QTVpbVZpS1RjbHV0VE1LV0syYnEzY21KVi1n?oc=5"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
           ]
         }
       ]
@@ -1143,10 +1065,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "detail": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations The Nation Newspaper",
+          "headline": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
+          "detail": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
+            "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1203,15 +1125,7 @@
           "date": "2026-11-06T13:00:39+00:00"
         }
       ],
-      "regulatory_watch": [
-        {
-          "title": "Why manufacturers, tax experts oppose Customs’ excise stamp regulations - The Nation Newspaper",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5",
-          "date": "2026-11-05T03:47:30+00:00"
-        }
-      ],
+      "regulatory_watch": [],
       "pricing_promotions": [
         {
           "title": "Russia ups tariffs on spirits from ‘unfriendly’ countries - Just Drinks",
@@ -1254,21 +1168,21 @@
         },
         {
           "signal": "Carbonated trending in Austria",
-          "explanation": "2 articles mention carbonated in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention carbonated in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "carbonated"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Rtd trending in Austria",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "1 articles mention rtd in the last 28 days",
+          "support_count": 1,
           "top_keywords": [
             "rtd"
           ],
-          "confidence": "medium"
+          "confidence": "low"
         },
         {
           "signal": "Protein trending in Austria",
@@ -1291,13 +1205,6 @@
           ]
         },
         {
-          "customer_type": "key_account",
-          "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
-          "supporting_evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
-          ]
-        },
-        {
           "customer_type": "distributor",
           "pitch": "Functional beverage demand rising in Austria — expand functional SKU range in next order",
           "supporting_evidence_urls": [
@@ -1315,14 +1222,6 @@
             "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
             "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
             "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkNFbHExNWtVMGMtT1dDcHphQW1ZMFRRTlVLQnJyZTA5UGtCYkI2OVpMM3oyMHk4QjRFRWlrZ281Si0yalZ6SWpESXdpWkdfcktJRkV1VDBJZTZVVWtRT3JSc2p1ZE5CbUVpMzlKbzE4NEh3SHg5MmZaWGtGTkVHRDViWXNuZUxw?oc=5"
-          ]
-        },
-        {
-          "owner": "sales",
-          "action": "Brief quality team on regulatory developments",
-          "why_now": "Compliance deadlines may affect product specifications",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWks5Z3N0RTg0cnpleGtlbE1tOW9TdDNPWE93T2lSaXo0Rzl6cUh5QVFWTFg2ZllzYXdwQ3gtTXJoeS02MWhmc0xmcnRvNVRZNzRqWC0xVWZ4NW91VmJqRkFieXllakFJeUs5WHFjbzB6XzMwU3N0VF9zNlp1VjlrenU2REd4X2JFb3BiRjgtVGdCb2haeGVnbWZtOXJBMmVEdUHSAacBQVVfeXFMTXQtbTI4NG1CaHlJM2JCNlZlS1J1Y1pRR2NZNURmcFFNRk4zbnBRb2ZjMWwxYlN0aklBczl1NkgzZDI2Q2htSExpamk5RThwdGFvRmxudDlHdF9Da2hjQ25ZNHhzcmVXNDRRcXNwMGZpSldiTE9yZUF5WFZ0VDdRWTdPdUswallWNm50WDJLdzJmdGEzYlNYYU01RzVkZGJyNFQzNUJ0OFU?oc=5"
           ]
         }
       ]
