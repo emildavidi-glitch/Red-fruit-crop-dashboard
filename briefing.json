@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-09T13:32:32.747561+00:00",
+  "generated_at": "2026-11-09T22:52:02.611271+00:00",
   "generated_date": "Monday, 09 November 2026",
-  "briefing": "Sales intelligence tracked 227 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Suntory takes Teacher’s into single malts - Just Drinks.",
+  "briefing": "Sales intelligence tracked 246 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Cold Brew - Classic Black Coffee — Beach City Coffee - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (43 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (28 items)",
-    "spain": "Functional trending. (28 items)",
-    "italy": "Functional trending. (28 items)",
+    "france": "Functional trending. (32 items)",
+    "spain": "Functional trending. (32 items)",
+    "italy": "Functional trending. (32 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 227,
+    "total_articles_analyzed": 246,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 131,
-      "launch": 34,
+      "trend": 147,
       "pricing": 25,
-      "functional": 25,
-      "supply_chain": 12,
-      "carbonated": 12,
-      "rtd": 9,
-      "innovation": 9,
-      "competitor": 7,
-      "energy": 7
+      "launch": 24,
+      "functional": 24,
+      "carbonated": 22,
+      "supply_chain": 14,
+      "innovation": 14,
+      "regulatory": 12,
+      "rtd": 10,
+      "competitor": 8
     }
   }
 }
