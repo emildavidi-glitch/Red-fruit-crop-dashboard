@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-08T18:12:55.555158+00:00",
-  "generated_date": "Sunday, 08 November 2026",
-  "briefing": "Sales intelligence tracked 187 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post.",
+  "generated_at": "2026-11-09T13:32:32.747561+00:00",
+  "generated_date": "Monday, 09 November 2026",
+  "briefing": "Sales intelligence tracked 227 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Suntory takes Teacher’s into single malts - Just Drinks.",
   "signals": {
-    "usa": "Energy trending. (39 items)",
-    "germany": "Functional trending. (40 items)",
-    "france": "Functional trending. (24 items)",
-    "spain": "Functional trending. (24 items)",
-    "italy": "Functional trending. (24 items)",
-    "austria": "Functional trending. (36 items)"
+    "usa": "Functional trending. (43 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (28 items)",
+    "spain": "Functional trending. (28 items)",
+    "italy": "Functional trending. (28 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 187,
+    "total_articles_analyzed": 227,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 93,
-      "launch": 25,
-      "pricing": 24,
-      "supply_chain": 19,
-      "functional": 12,
-      "energy": 8,
-      "regulatory": 8,
-      "rtd": 8,
-      "innovation": 8,
-      "competitor": 7
+      "trend": 131,
+      "launch": 34,
+      "pricing": 25,
+      "functional": 25,
+      "supply_chain": 12,
+      "carbonated": 12,
+      "rtd": 9,
+      "innovation": 9,
+      "competitor": 7,
+      "energy": 7
     }
   }
 }
