@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-09T22:52:02.611271+00:00",
-  "generated_date": "Monday, 09 November 2026",
-  "briefing": "Sales intelligence tracked 246 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; new product launches intensifying. Latest: Cold Brew - Classic Black Coffee — Beach City Coffee - BevNET.com.",
+  "generated_at": "2026-11-10T13:11:29.580518+00:00",
+  "generated_date": "Tuesday, 10 November 2026",
+  "briefing": "Sales intelligence tracked 241 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Briefs: Celsius Appoints Brand Presidents. Monster Sees Foodservice Opportunity. MAHA Discord. KDP L.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (32 items)",
-    "spain": "Functional trending. (32 items)",
-    "italy": "Functional trending. (32 items)",
+    "france": "Functional trending. (30 items)",
+    "spain": "Functional trending. (30 items)",
+    "italy": "Functional trending. (31 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 246,
+    "total_articles_analyzed": 241,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 147,
-      "pricing": 25,
-      "launch": 24,
-      "functional": 24,
-      "carbonated": 22,
-      "supply_chain": 14,
-      "innovation": 14,
-      "regulatory": 12,
-      "rtd": 10,
-      "competitor": 8
+      "trend": 141,
+      "launch": 27,
+      "functional": 23,
+      "regulatory": 19,
+      "pricing": 19,
+      "carbonated": 17,
+      "innovation": 13,
+      "supply_chain": 11,
+      "competitor": 8,
+      "rtd": 7
     }
   }
 }
