@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-10T13:11:29.580518+00:00",
+  "generated_at": "2026-11-10T20:12:29.871898+00:00",
   "generated_date": "Tuesday, 10 November 2026",
-  "briefing": "Sales intelligence tracked 241 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Briefs: Celsius Appoints Brand Presidents. Monster Sees Foodservice Opportunity. MAHA Discord. KDP L.",
+  "briefing": "Sales intelligence tracked 250 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: BevNET Live L.A. on Dec. 6-8: Meet the New Beverage Showdown Semifinalists - BevNET.com.",
   "signals": {
     "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (30 items)",
-    "spain": "Functional trending. (30 items)",
-    "italy": "Functional trending. (31 items)",
+    "france": "Functional trending. (33 items)",
+    "spain": "Functional trending. (33 items)",
+    "italy": "Functional trending. (34 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 241,
+    "total_articles_analyzed": 250,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 141,
-      "launch": 27,
-      "functional": 23,
+      "trend": 144,
+      "launch": 29,
+      "functional": 26,
+      "pricing": 25,
       "regulatory": 19,
-      "pricing": 19,
-      "carbonated": 17,
-      "innovation": 13,
+      "carbonated": 16,
+      "innovation": 12,
       "supply_chain": 11,
       "competitor": 8,
       "rtd": 7
