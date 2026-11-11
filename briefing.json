@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-11T12:20:33.373716+00:00",
+  "generated_at": "2026-11-11T19:59:44.479500+00:00",
   "generated_date": "Wednesday, 11 November 2026",
-  "briefing": "Sales intelligence tracked 241 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Underberg Gruppe: Diversa übernimmt Vertrieb von Loch Lomond - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Ready To Drink Podcast - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Rtd trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (30 items)",
-    "spain": "Functional trending. (30 items)",
-    "italy": "Functional trending. (31 items)",
+    "france": "Functional trending. (36 items)",
+    "spain": "Functional trending. (36 items)",
+    "italy": "Functional trending. (37 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 241,
+    "total_articles_analyzed": 259,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 137,
-      "functional": 30,
-      "launch": 29,
-      "pricing": 26,
-      "carbonated": 19,
-      "innovation": 15,
-      "regulatory": 13,
-      "supply_chain": 11,
-      "competitor": 8,
-      "rtd": 7
+      "trend": 160,
+      "launch": 25,
+      "pricing": 24,
+      "functional": 22,
+      "supply_chain": 16,
+      "carbonated": 14,
+      "regulatory": 12,
+      "innovation": 11,
+      "rtd": 10,
+      "protein": 9
     }
   }
 }
