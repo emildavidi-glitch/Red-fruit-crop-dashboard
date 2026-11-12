@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T19:59:44.479500+00:00",
-  "generated_date": "Wednesday, 11 November 2026",
-  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; pricing pressures in focus. Latest: Ready To Drink Podcast - BevNET.com.",
+  "generated_at": "2026-11-12T13:29:15.904168+00:00",
+  "generated_date": "Thursday, 12 November 2026",
+  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: Deutschlands bester Brauer-Azubi 2026 kommt von Radeberger - about-drinks.com.",
   "signals": {
-    "usa": "Rtd trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (36 items)",
     "spain": "Functional trending. (36 items)",
@@ -15,15 +15,15 @@
     "method": "rss-analysis",
     "top_topics": {
       "trend": 160,
-      "launch": 25,
-      "pricing": 24,
-      "functional": 22,
-      "supply_chain": 16,
-      "carbonated": 14,
-      "regulatory": 12,
-      "innovation": 11,
-      "rtd": 10,
-      "protein": 9
+      "functional": 40,
+      "innovation": 32,
+      "launch": 22,
+      "pricing": 20,
+      "carbonated": 15,
+      "rtd": 13,
+      "supply_chain": 11,
+      "regulatory": 8,
+      "protein": 6
     }
   }
 }
