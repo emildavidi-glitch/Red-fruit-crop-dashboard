@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-12T13:29:15.904168+00:00",
+  "generated_at": "2026-11-12T20:38:35.521053+00:00",
   "generated_date": "Thursday, 12 November 2026",
-  "briefing": "Sales intelligence tracked 259 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: Deutschlands bester Brauer-Azubi 2026 kommt von Radeberger - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 262 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: Peet’s Coffee and Q Mixers Continue Dynamic National Partnership with Sparkling Energy Holiday Drink.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (36 items)",
-    "spain": "Functional trending. (36 items)",
-    "italy": "Functional trending. (37 items)",
+    "france": "Functional trending. (37 items)",
+    "spain": "Functional trending. (37 items)",
+    "italy": "Functional trending. (38 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 259,
+    "total_articles_analyzed": 262,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 160,
+      "trend": 163,
       "functional": 40,
       "innovation": 32,
       "launch": 22,
-      "pricing": 20,
       "carbonated": 15,
-      "rtd": 13,
-      "supply_chain": 11,
-      "regulatory": 8,
-      "protein": 6
+      "regulatory": 14,
+      "pricing": 13,
+      "rtd": 12,
+      "supply_chain": 10,
+      "energy": 10
     }
   }
 }
