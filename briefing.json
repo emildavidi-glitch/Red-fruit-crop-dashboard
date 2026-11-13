@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-13T12:47:17.311793+00:00",
+  "generated_at": "2026-11-13T20:18:54.397136+00:00",
   "generated_date": "Friday, 13 November 2026",
-  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: Radeberger und Dinkelacker gründen Stuttgarter Brauerei-Gesellschaft - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 241 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Oishii Sake Appoints Beverage Industry Veteran Rudy Ruiz To Its Board - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (46 items)",
+    "usa": "Carbonated trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (26 items)",
-    "spain": "Functional trending. (26 items)",
-    "italy": "Functional trending. (27 items)",
+    "france": "Functional trending. (30 items)",
+    "spain": "Functional trending. (30 items)",
+    "italy": "Functional trending. (31 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 225,
+    "total_articles_analyzed": 241,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 149,
-      "functional": 29,
-      "innovation": 27,
-      "launch": 20,
-      "regulatory": 14,
+      "trend": 143,
+      "functional": 31,
+      "launch": 27,
+      "regulatory": 25,
+      "innovation": 25,
       "rtd": 12,
-      "energy": 11,
       "carbonated": 10,
-      "pricing": 7,
-      "protein": 6
+      "energy": 10,
+      "protein": 7,
+      "pricing": 7
     }
   }
 }
