@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-13T20:18:54.397136+00:00",
-  "generated_date": "Friday, 13 November 2026",
-  "briefing": "Sales intelligence tracked 241 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Oishii Sake Appoints Beverage Industry Veteran Rudy Ruiz To Its Board - BevNET.com.",
+  "generated_at": "2026-11-14T11:53:45.150635+00:00",
+  "generated_date": "Saturday, 14 November 2026",
+  "briefing": "Sales intelligence tracked 247 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Theon Global Makes Waves in the Functional Beverage Industry - BevNET.com.",
   "signals": {
-    "usa": "Carbonated trending. (50 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (30 items)",
-    "spain": "Functional trending. (30 items)",
-    "italy": "Functional trending. (31 items)",
+    "france": "Functional trending. (32 items)",
+    "spain": "Functional trending. (32 items)",
+    "italy": "Functional trending. (33 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 241,
+    "total_articles_analyzed": 247,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 143,
-      "functional": 31,
-      "launch": 27,
-      "regulatory": 25,
-      "innovation": 25,
-      "rtd": 12,
-      "carbonated": 10,
-      "energy": 10,
-      "protein": 7,
-      "pricing": 7
+      "trend": 115,
+      "functional": 40,
+      "launch": 36,
+      "regulatory": 32,
+      "innovation": 31,
+      "pricing": 17,
+      "supply_chain": 13,
+      "energy": 13,
+      "rtd": 11,
+      "carbonated": 10
     }
   }
 }
