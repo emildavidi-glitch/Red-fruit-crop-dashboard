@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:53:45.150635+00:00",
+  "generated_at": "2026-11-14T18:38:26.599092+00:00",
   "window_days": 28,
   "regions": {
     "usa": {
@@ -21,16 +21,8 @@
           "confidence": "medium"
         },
         {
-          "headline": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "detail": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Kraft Heinz expects return to growth in 2027 as innovation investments pay off",
-          "detail": "Recent launches, including ketchup with lower sugar and lactose-free cream cheese, are helping grow market share and volume.",
+          "detail": "Recent launches, including ketchup with lower sugar and gluten-free cream cheese, are helping grow market share and volume.",
           "evidence_urls": [
             "https://www.fooddive.com/news/kraft-heinz-return-to-growth-innovation-investments-payoff/874643/"
           ],
@@ -41,6 +33,14 @@
           "detail": "A New Silky Smooth Ritual: GoodOnya Unveils the Matcha Collagen Latte BevNET.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcnRydy0xTnNac01fQnlfN2RGXzRpMGljbUlGUUtieVl5b1FURnNjVXdQTEFUMDB2aldBRFFXbjRIMTFSZGhxV0hUcDZjX1Q5OF9QcjRyNjBISzVwbmtpNmVwOUZ3bk5rbkVKUHQyaHdhVThENG9FakZlY2FoUGdGS2hLdmcxcVJmaGZsVzdfUkxjbnV5YkFZTGFfZHRzSWdZSkg4UTdMVDU?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Quincy Teams Up with Content Creator Hallie Batchelder to Launch “Hallie’s Way” Spicy Dirty Martini Mix - BevNET.com",
+          "detail": "Quincy Teams Up with Content Creator Hallie Batchelder to Launch “Hallie’s Way” Spicy Dirty Martini Mix BevNET.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTGpyZG1HNTF4VjdxV0V6NHAyT3NXRl8wVGdiZEFWNGJVc3F5Q3ZlRUloYnBaQ3FURDVneVk0UFF2ZGxnNGtXamFXek81bW9FSzVubWRSSEJxLXFDNG9wempRU1lpT0dsdWF5eHZ3bXlpcFhDZ1NNZ1pVSHREc2pycnNVN255SFZHTExPNzAwMEgxY19lVVNsWnVPNnJjcnhMc1YxTllCNGNMQUNNbVkxcENHWnRfZjN2Q0huSExrZTNWMld5MkxLYmprRlV3cEg4R013?oc=5"
           ],
           "confidence": "medium"
         }
@@ -114,13 +114,6 @@
           "date": "2026-11-13T16:57:07+00:00"
         },
         {
-          "title": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-          "date": "2026-11-13T07:26:34+00:00"
-        },
-        {
           "title": "Briefs: Celsius Appoints Brand Presidents. Monster Sees Foodservice Opportunity. MAHA Discord. KDP Launches Modern Brewer. Report: Higher-Income Shoppers Gravitate to Private Label. FTC Probes Personalized Pricing. More State SNAP Soda Bans Ta - Beverage-Digest",
           "topic": "carbonated",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -178,15 +171,6 @@
           "confidence": "high"
         },
         {
-          "signal": "Rtd trending in United States",
-          "explanation": "4 articles mention rtd in the last 28 days",
-          "support_count": 4,
-          "top_keywords": [
-            "rtd"
-          ],
-          "confidence": "medium"
-        },
-        {
           "signal": "Premium trending in United States",
           "explanation": "3 articles mention premium in the last 28 days",
           "support_count": 3,
@@ -196,11 +180,20 @@
           "confidence": "medium"
         },
         {
-          "signal": "Hydration trending in United States",
-          "explanation": "2 articles mention hydration in the last 28 days",
+          "signal": "Energy trending in United States",
+          "explanation": "3 articles mention energy in the last 28 days",
+          "support_count": 3,
+          "top_keywords": [
+            "energy"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Rtd trending in United States",
+          "explanation": "2 articles mention rtd in the last 28 days",
           "support_count": 2,
           "top_keywords": [
-            "hydration"
+            "rtd"
           ],
           "confidence": "medium"
         }
@@ -220,8 +213,8 @@
           "pitch": "Regulatory changes in United States may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMinwNBVV95cUxPUU1NOHRIUUctelNIZTBLWlphNEhoVGRYcnk1QXlfOUxleGNvQjRSdlJ3NTJPUGttUGd1cmZZdVU5T3lZX3FyYkhEQmtyZUdEVGRqMUJ3ZlE4NjFZWlVrZ01zMVZZZm9GcjVWUkVNVTZLNlZNTFMzSUVpbVJpWU5xdUFZWnlPZ3RwQVRYTzR0RTJyNTJIWkZOY050Y3FEeEFyS3drZ3ZIdl9UdnJWeWt1ZUFJWGhNc0V2NnhSY0JNbG5uVFZxYlJSdHhRR1MxbnlpMFJ0aDUzdl9IWEFQd3FJSHI3UWc4c2NkdDhHci05djdaX0lTZEdzbHllbTZUVXZMMWF6OWdBNk9SUHRPOGRDZ3dOZm1lVnhhVjFGbWpsSXNoY3Zyakh6aGdjOU1LcHE4dDFFWFBxNk1rN01PZzAwVXJ0dTMyZHduVDhjR3pNbUxpdnVMUUVVSjRENUV4anZyZjlvSGZXSnJPX1lUN2Zkd0REd0QyYlFyS2RLeXlvSWI0UXhiQWFXalRjejlpSEJUQjExblR1RjRXSkkzS2NJ?oc=5"
+            "https://news.google.com/rss/articles/CBMinwNBVV95cUxPUU1NOHRIUUctelNIZTBLWlphNEhoVGRYcnk1QXlfOUxleGNvQjRSdlJ3NTJPUGttUGd1cmZZdVU5T3lZX3FyYkhEQmtyZUdEVGRqMUJ3ZlE4NjFZWlVrZ01zMVZZZm9GcjVWUkVNVTZLNlZNTFMzSUVpbVJpWU5xdUFZWnlPZ3RwQVRYTzR0RTJyNTJIWkZOY050Y3FEeEFyS3drZ3ZIdl9UdnJWeWt1ZUFJWGhNc0V2NnhSY0JNbG5uVFZxYlJSdHhRR1MxbnlpMFJ0aDUzdl9IWEFQd3FJSHI3UWc4c2NkdDhHci05djdaX0lTZEdzbHllbTZUVXZMMWF6OWdBNk9SUHRPOGRDZ3dOZm1lVnhhVjFGbWpsSXNoY3Zyakh6aGdjOU1LcHE4dDFFWFBxNk1rN01PZzAwVXJ0dTMyZHduVDhjR3pNbUxpdnVMUUVVSjRENUV4anZyZjlvSGZXSnJPX1lUN2Zkd0REd0QyYlFyS2RLeXlvSWI0UXhiQWFXalRjejlpSEJUQjExblR1RjRXSkkzS2NJ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         },
         {
@@ -251,8 +244,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMinwNBVV95cUxPUU1NOHRIUUctelNIZTBLWlphNEhoVGRYcnk1QXlfOUxleGNvQjRSdlJ3NTJPUGttUGd1cmZZdVU5T3lZX3FyYkhEQmtyZUdEVGRqMUJ3ZlE4NjFZWlVrZ01zMVZZZm9GcjVWUkVNVTZLNlZNTFMzSUVpbVJpWU5xdUFZWnlPZ3RwQVRYTzR0RTJyNTJIWkZOY050Y3FEeEFyS3drZ3ZIdl9UdnJWeWt1ZUFJWGhNc0V2NnhSY0JNbG5uVFZxYlJSdHhRR1MxbnlpMFJ0aDUzdl9IWEFQd3FJSHI3UWc4c2NkdDhHci05djdaX0lTZEdzbHllbTZUVXZMMWF6OWdBNk9SUHRPOGRDZ3dOZm1lVnhhVjFGbWpsSXNoY3Zyakh6aGdjOU1LcHE4dDFFWFBxNk1rN01PZzAwVXJ0dTMyZHduVDhjR3pNbUxpdnVMUUVVSjRENUV4anZyZjlvSGZXSnJPX1lUN2Zkd0REd0QyYlFyS2RLeXlvSWI0UXhiQWFXalRjejlpSEJUQjExblR1RjRXSkkzS2NJ?oc=5"
+            "https://news.google.com/rss/articles/CBMinwNBVV95cUxPUU1NOHRIUUctelNIZTBLWlphNEhoVGRYcnk1QXlfOUxleGNvQjRSdlJ3NTJPUGttUGd1cmZZdVU5T3lZX3FyYkhEQmtyZUdEVGRqMUJ3ZlE4NjFZWlVrZ01zMVZZZm9GcjVWUkVNVTZLNlZNTFMzSUVpbVJpWU5xdUFZWnlPZ3RwQVRYTzR0RTJyNTJIWkZOY050Y3FEeEFyS3drZ3ZIdl9UdnJWeWt1ZUFJWGhNc0V2NnhSY0JNbG5uVFZxYlJSdHhRR1MxbnlpMFJ0aDUzdl9IWEFQd3FJSHI3UWc4c2NkdDhHci05djdaX0lTZEdzbHllbTZUVXZMMWF6OWdBNk9SUHRPOGRDZ3dOZm1lVnhhVjFGbWpsSXNoY3Zyakh6aGdjOU1LcHE4dDFFWFBxNk1rN01PZzAwVXJ0dTMyZHduVDhjR3pNbUxpdnVMUUVVSjRENUV4anZyZjlvSGZXSnJPX1lUN2Zkd0REd0QyYlFyS2RLeXlvSWI0UXhiQWFXalRjejlpSEJUQjExblR1RjRXSkkzS2NJ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         }
       ]
@@ -284,18 +277,18 @@
           "confidence": "high"
         },
         {
-          "headline": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "detail": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "Warsteiner gibt Einblick in Markenrelaunch - Getränke News",
           "detail": "Warsteiner gibt Einblick in Markenrelaunch Getränke News",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sY0x0WklObl90Sl9KeHJyTG1LcGN2enAtRlRwdmQ2aUlaZC10WkpLSlpHMHlibEo3bE1uZzAyanl2NGg1em1OeDNaRUFvUXdaWERtSUJsZXlZV0V0b0xlZmtJcl9fdVlMTmhNTDZrWFdydi1jREFRaA?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "New beverage launches: Poppi, Celsius and more… - BeverageDaily.com",
+          "detail": "New beverage launches: Poppi, Celsius and more… BeverageDaily.com",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5"
           ],
           "confidence": "medium"
         }
@@ -318,14 +311,6 @@
           "date": "2026-11-13T14:17:39+00:00"
         },
         {
-          "title": "Null Prozent, kein Kompromiss: ODE launcht Pink Grapefruit - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5",
-          "date": "2026-11-13T08:39:56+00:00"
-        },
-        {
           "title": "Almave eyes more listings as non-alc RTDs make Target debut - Just Drinks",
           "company": "Target",
           "product": "rtd",
@@ -340,6 +325,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
           "date": "2026-11-07T08:04:35+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
+          "date": "2026-11-06T10:29:31+00:00"
         }
       ],
       "competitor_moves": [],
@@ -359,13 +352,6 @@
           "date": "2026-11-13T16:57:07+00:00"
         },
         {
-          "title": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-          "date": "2026-11-13T07:26:34+00:00"
-        },
-        {
           "title": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods - Bioengineer.org",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -378,6 +364,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5",
           "date": "2026-11-09T15:09:56+00:00"
+        },
+        {
+          "title": "China urged to target sugar-rich drinks during consumption tax overhaul - South China Morning Post",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
+          "date": "2026-11-08T07:00:25+00:00"
         }
       ],
       "pricing_promotions": [
@@ -408,8 +401,8 @@
         },
         {
           "signal": "Rtd trending in Germany",
-          "explanation": "2 articles mention rtd in the last 28 days",
-          "support_count": 2,
+          "explanation": "3 articles mention rtd in the last 28 days",
+          "support_count": 3,
           "top_keywords": [
             "rtd"
           ],
@@ -450,7 +443,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sY0x0WklObl90Sl9KeHJyTG1LcGN2enAtRlRwdmQ2aUlaZC10WkpLSlpHMHlibEo3bE1uZzAyanl2NGg1em1OeDNaRUFvUXdaWERtSUJsZXlZV0V0b0xlZmtJcl9fdVlMTmhNTDZrWFdydi1jREFRaA?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5",
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEM2NFWjBROWVNTEVzTmRCV1p1ZUY3cjN5cXpNeEwxNGRvTWduRlViWnhDNmw4S2tmcl94RXp5UlhROW9NaXNZTFc2RDhvUUdJVUlSYzFXTGk2Ukpnd1dqUGlrVEVRSGJkV3d0eA?oc=5"
           ]
         },
         {
@@ -459,7 +452,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMUlPRFlBT0Utakg3SGN1U0Zkamg5TVQ5cFVIeU5OdEcxN19GWW5rRmNEUkQyRmplQmYxSl83SkwtTFNzNFJvUU1ha0xKZWlURDJYYlllcy00RlIzQ2dYYVQwMUZ5MHJjX0tBTGxqWG1EdEFhNU5mUzlZZ1RQOFRiMTlB?oc=5",
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
           ]
         },
         {
@@ -480,7 +473,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sY0x0WklObl90Sl9KeHJyTG1LcGN2enAtRlRwdmQ2aUlaZC10WkpLSlpHMHlibEo3bE1uZzAyanl2NGg1em1OeDNaRUFvUXdaWERtSUJsZXlZV0V0b0xlZmtJcl9fdVlMTmhNTDZrWFdydi1jREFRaA?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5",
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEM2NFWjBROWVNTEVzTmRCV1p1ZUY3cjN5cXpNeEwxNGRvTWduRlViWnhDNmw4S2tmcl94RXp5UlhROW9NaXNZTFc2RDhvUUdJVUlSYzFXTGk2Ukpnd1dqUGlrVEVRSGJkV3d0eA?oc=5"
           ]
         },
         {
@@ -490,7 +483,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMUlPRFlBT0Utakg3SGN1U0Zkamg5TVQ5cFVIeU5OdEcxN19GWW5rRmNEUkQyRmplQmYxSl83SkwtTFNzNFJvUU1ha0xKZWlURDJYYlllcy00RlIzQ2dYYVQwMUZ5MHJjX0tBTGxqWG1EdEFhNU5mUzlZZ1RQOFRiMTlB?oc=5",
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
           ]
         }
       ]
@@ -506,18 +499,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "detail": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "New beverage launches: Poppi, Celsius and more… - BeverageDaily.com",
           "detail": "New beverage launches: Poppi, Celsius and more… BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
+          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
           ],
           "confidence": "medium"
         },
@@ -530,10 +523,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
-          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
+          "headline": "Packaging progress: 5 food and beverage companies making sustainability swaps - FoodNavigator.com",
+          "detail": "Packaging progress: 5 food and beverage companies making sustainability swaps FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU09TMUZqZUJkVlNPeGl0Q04wZDlEdVBQcWhCYXlaVVVJZVRvMjgwb0RnVzg4NGpwVnc4bTM2TjVrX00zazJCTHFBb3pFdTFvcGUxcDJPd1lwZndNTVdGT2hLdTBKMkx3TXIyZE9qR21pa29WRE9va3JlOTlKOE40a1FKSEtUZnptMGN3NzVOUzlfMFNIS1BTUFVoNWxKel8xWGc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -582,13 +575,6 @@
           "date": "2026-11-13T16:57:07+00:00"
         },
         {
-          "title": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-          "date": "2026-11-13T07:26:34+00:00"
-        },
-        {
           "title": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods - Bioengineer.org",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -624,20 +610,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFI1aXU1a3U0ZWlPeWptclN4dWd3SHRnUVBaWkp6R3ZFNElWREtVUlBQSXNhVWRqSXRkbmF6VjF1RWlIVDFLSUowZzJFTnVxU0hxUGhBbmJub251NWV0ZTRLdjJtY0Y0VFNHSlNyOXI2eEprVEp1bl9XUVp3RS1sRnNiUjlVaGJROXJIcWpHdVltWFRuLXpHalR6WFFDNGhlV3NVc1JURC1vZzQ?oc=5",
           "date": "2026-11-09T14:46:29+00:00"
-        },
-        {
-          "title": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
-          "what_changed": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5",
-          "date": "2026-11-05T14:25:22+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Functional trending in France",
-          "explanation": "7 articles mention functional in the last 28 days",
-          "support_count": 7,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -645,8 +624,8 @@
         },
         {
           "signal": "Energy trending in France",
-          "explanation": "3 articles mention energy in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "energy"
           ],
@@ -695,8 +674,8 @@
           "pitch": "Regulatory changes in France may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         },
         {
@@ -726,8 +705,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         }
       ]
@@ -743,18 +722,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "detail": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "New beverage launches: Poppi, Celsius and more… - BeverageDaily.com",
           "detail": "New beverage launches: Poppi, Celsius and more… BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
+          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
           ],
           "confidence": "medium"
         },
@@ -767,10 +746,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
-          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
+          "headline": "Packaging progress: 5 food and beverage companies making sustainability swaps - FoodNavigator.com",
+          "detail": "Packaging progress: 5 food and beverage companies making sustainability swaps FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU09TMUZqZUJkVlNPeGl0Q04wZDlEdVBQcWhCYXlaVVVJZVRvMjgwb0RnVzg4NGpwVnc4bTM2TjVrX00zazJCTHFBb3pFdTFvcGUxcDJPd1lwZndNTVdGT2hLdTBKMkx3TXIyZE9qR21pa29WRE9va3JlOTlKOE40a1FKSEtUZnptMGN3NzVOUzlfMFNIS1BTUFVoNWxKel8xWGc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -819,13 +798,6 @@
           "date": "2026-11-13T16:57:07+00:00"
         },
         {
-          "title": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-          "date": "2026-11-13T07:26:34+00:00"
-        },
-        {
           "title": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods - Bioengineer.org",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -861,20 +833,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFI1aXU1a3U0ZWlPeWptclN4dWd3SHRnUVBaWkp6R3ZFNElWREtVUlBQSXNhVWRqSXRkbmF6VjF1RWlIVDFLSUowZzJFTnVxU0hxUGhBbmJub251NWV0ZTRLdjJtY0Y0VFNHSlNyOXI2eEprVEp1bl9XUVp3RS1sRnNiUjlVaGJROXJIcWpHdVltWFRuLXpHalR6WFFDNGhlV3NVc1JURC1vZzQ?oc=5",
           "date": "2026-11-09T14:46:29+00:00"
-        },
-        {
-          "title": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
-          "what_changed": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5",
-          "date": "2026-11-05T14:25:22+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Functional trending in Spain",
-          "explanation": "7 articles mention functional in the last 28 days",
-          "support_count": 7,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -882,8 +847,8 @@
         },
         {
           "signal": "Energy trending in Spain",
-          "explanation": "3 articles mention energy in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "energy"
           ],
@@ -932,8 +897,8 @@
           "pitch": "Regulatory changes in Spain may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         },
         {
@@ -963,8 +928,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         }
       ]
@@ -980,18 +945,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "detail": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
           "headline": "New beverage launches: Poppi, Celsius and more… - BeverageDaily.com",
           "detail": "New beverage launches: Poppi, Celsius and more… BeverageDaily.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
+          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
           ],
           "confidence": "medium"
         },
@@ -1004,10 +969,10 @@
           "confidence": "medium"
         },
         {
-          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
-          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
+          "headline": "Packaging progress: 5 food and beverage companies making sustainability swaps - FoodNavigator.com",
+          "detail": "Packaging progress: 5 food and beverage companies making sustainability swaps FoodNavigator.com",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU09TMUZqZUJkVlNPeGl0Q04wZDlEdVBQcWhCYXlaVVVJZVRvMjgwb0RnVzg4NGpwVnc4bTM2TjVrX00zazJCTHFBb3pFdTFvcGUxcDJPd1lwZndNTVdGT2hLdTBKMkx3TXIyZE9qR21pa29WRE9va3JlOTlKOE40a1FKSEtUZnptMGN3NzVOUzlfMFNIS1BTUFVoNWxKel8xWGc?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1056,13 +1021,6 @@
           "date": "2026-11-13T16:57:07+00:00"
         },
         {
-          "title": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-          "date": "2026-11-13T07:26:34+00:00"
-        },
-        {
           "title": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods - Bioengineer.org",
           "topic": "regulation",
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
@@ -1098,20 +1056,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFI1aXU1a3U0ZWlPeWptclN4dWd3SHRnUVBaWkp6R3ZFNElWREtVUlBQSXNhVWRqSXRkbmF6VjF1RWlIVDFLSUowZzJFTnVxU0hxUGhBbmJub251NWV0ZTRLdjJtY0Y0VFNHSlNyOXI2eEprVEp1bl9XUVp3RS1sRnNiUjlVaGJROXJIcWpHdVltWFRuLXpHalR6WFFDNGhlV3NVc1JURC1vZzQ?oc=5",
           "date": "2026-11-09T14:46:29+00:00"
-        },
-        {
-          "title": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
-          "what_changed": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5",
-          "date": "2026-11-05T14:25:22+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Functional trending in Italy",
-          "explanation": "7 articles mention functional in the last 28 days",
-          "support_count": 7,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -1119,8 +1070,8 @@
         },
         {
           "signal": "Energy trending in Italy",
-          "explanation": "3 articles mention energy in the last 28 days",
-          "support_count": 3,
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
           "top_keywords": [
             "energy"
           ],
@@ -1169,8 +1120,8 @@
           "pitch": "Regulatory changes in Italy may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         },
         {
@@ -1200,8 +1151,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         }
       ]
@@ -1213,14 +1164,6 @@
           "detail": "What does the new unfair trading practices regulation mean for food? FoodNavigator.com",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "headline": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "detail": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges Just Drinks",
-          "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5"
           ],
           "confidence": "medium"
         },
@@ -1241,10 +1184,18 @@
           "confidence": "medium"
         },
         {
-          "headline": "Null Prozent, kein Kompromiss: ODE launcht Pink Grapefruit - about-drinks.com",
-          "detail": "Null Prozent, kein Kompromiss: ODE launcht Pink Grapefruit about-drinks.com",
+          "headline": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity - Just Drinks",
+          "detail": "“Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunity Just Drinks",
           "evidence_urls": [
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5"
+            "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUC0wYmdMTzhFdWpFMWNrVnRTUjRqZm82SjBIa0oxZ0RkZGI1NFktdDczdjVNakVMZ1BRVEpZTExSV2JiNlhzWVFFc2JOTmN5TUlfalBDaFRqNVdhdU9vZlQyOHdtcVZNVWxVRVhjbUlFSElvZXlEYXZyS21Lc2NBMU1SZ3NjeU9qejYwNnNtaTBoTWhuQmhSVUhZQnMtOWE0ejhGUTRLVjlpY29TaW1rV1M3QzBoM2ZrcEt1UXNoMkcyYndKMHlYTEVkdk96aFhMVUMw?oc=5"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "headline": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods - Bioengineer.org",
+          "detail": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods Bioengineer.org",
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
           ],
           "confidence": "medium"
         }
@@ -1267,14 +1218,6 @@
           "date": "2026-11-13T14:17:39+00:00"
         },
         {
-          "title": "Null Prozent, kein Kompromiss: ODE launcht Pink Grapefruit - about-drinks.com",
-          "company": "Unknown",
-          "product": "beverage",
-          "angle": "Map against our portfolio for overlap",
-          "evidence_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5",
-          "date": "2026-11-13T08:39:56+00:00"
-        },
-        {
           "title": "Almave eyes more listings as non-alc RTDs make Target debut - Just Drinks",
           "company": "Target",
           "product": "rtd",
@@ -1289,6 +1232,14 @@
           "angle": "Map against our portfolio for overlap",
           "evidence_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDdPb2pOWG81aXpMLWpodEFlVS1vc2NpME1iYjVnUmt5YTR2X0hJdl9RQnlxWEVjRHRrODE2all1UE5YMmpyVF8yY3Z4UmRMUUUwQzJ6OEFueWdNaXAxMldORW1oYjJmSUlXNWlfbnhsT29mT3puVDlHVHBoUUpLbko3a3NmVGdiSFJSTw?oc=5",
           "date": "2026-11-07T08:04:35+00:00"
+        },
+        {
+          "title": "New beverage launches: Functional innovation, bold flavours and a whisky twist - BeverageDaily.com",
+          "company": "Unknown",
+          "product": "functional",
+          "angle": "Map against our portfolio for overlap",
+          "evidence_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFE0ZVRFSGVFQ3dlY29vdEozQ29aMl9lcUEwWnBjdndTbXNmUWN0MG9mZ3hwNmRZZFl4c25ZUUkxQmg5eFRRN2k5Qmh3a2JzSHA3U3U5aFBRQWZlT2poYy1OSDU4R1g3NUx2elQ2aVF0WDBOLUdDR0ZRS1A5WGU2azUzSFZaTGVxdHJEMzVNcEROR2pHbWRqNUpSRklZd1hVOUE?oc=5",
+          "date": "2026-11-06T10:29:31+00:00"
         }
       ],
       "competitor_moves": [],
@@ -1299,13 +1250,6 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
           "date": "2026-11-13T16:57:07+00:00"
-        },
-        {
-          "title": "EU budgets, ageing drinkers, warning labels: CEEV on wine’s challenges - Just Drinks",
-          "topic": "regulation",
-          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-          "date": "2026-11-13T07:26:34+00:00"
         },
         {
           "title": "Global Health Commentary Urges Food Sovereignty and Regulation to Counter Ultra-Processed Foods - Bioengineer.org",
@@ -1327,6 +1271,13 @@
           "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
           "evidence_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk1iSXh0eTZBTjhNVVZiZ3p3ZS1zcEpidm5QcHdGcGJ1LXVsdDVRWGgxOHNGOHBoNXFiZ0JaZ3RROTk4TjdTX2hjOEl6Q0EzMWFLYXlXdFBrbHNVdnBkUkVGSTdSVTBiank3elFEUEdvM0hVbllpNkVrNktXd0FUcEhIWE5rT0xqMXlIUnlKT3I0T3lhNXdldmt6QjVlZVlhM2cxdzVDaWZQNGVWVGEtcGM1OUZzc1ZXZVUtLVhFVGNiQndGaGfSAcYBQVVfeXFMT1hQX0lyLWlxd3h2XzdkUm9PVy1ydnVTUVVVWjZ5Z25uVEtxU0FJQTRrUFk4c0lMXzN5TXpUSTNLVXVlRF9JaXhKWHUzVVFLaUdPQ2JkbHFkakJSRzlDM0g2QzdPb0FvcWdGMGN6c1RGN2VwWFViek5ZRUdFMlhBaGJ0N1NGYngyTUViLS1EQ0lSZTY1emFRdFBYYWEtT3hfWlhwUGp0MGFnR09QRjJ2TWRtNjZueG1lcTZHUGFNRjNWYUtFcWxn?oc=5",
           "date": "2026-11-08T07:00:25+00:00"
+        },
+        {
+          "title": "Kölner Brauerei-Verband lehnt Zucker- und Plastiksteuer ab - about-drinks.com",
+          "topic": "regulation",
+          "impact_on_sales": "Regulatory change may require product reformulation, relabeling, or pricing adjustments. Monitor compliance timelines.",
+          "evidence_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdnFGNllvM3AyTmE5OUpKdEJweFZKOWlkRWNGb3FaLU9HeHlZRmpsRjljQmtLM28wdDEzekFuZU55QmF1NDRCT2VhdGVwQ3lqdUNBMkREaFY2enE3U25iTkpNNW9ZTUw0ZFVqLXRscnhZbllfWWs5czdremJPbWFwdmhINFgzUHNleUttVlV4amptUQ?oc=5",
+          "date": "2026-11-06T09:32:34+00:00"
         }
       ],
       "pricing_promotions": [
@@ -1343,20 +1294,13 @@
           "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
           "evidence_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFI1aXU1a3U0ZWlPeWptclN4dWd3SHRnUVBaWkp6R3ZFNElWREtVUlBQSXNhVWRqSXRkbmF6VjF1RWlIVDFLSUowZzJFTnVxU0hxUGhBbmJub251NWV0ZTRLdjJtY0Y0VFNHSlNyOXI2eEprVEp1bl9XUVp3RS1sRnNiUjlVaGJROXJIcWpHdVltWFRuLXpHalR6WFFDNGhlV3NVc1JURC1vZzQ?oc=5",
           "date": "2026-11-09T14:46:29+00:00"
-        },
-        {
-          "title": "Can Diageo’s price cuts and restructure get it back on track? - BeverageDaily.com",
-          "what_changed": "Can Diageo’s price cuts and restructure get it back on track? BeverageDaily.com",
-          "sales_risk_or_opportunity": "Pricing shift affects margins and competitive positioning. Review impact on current contracts and shelf price strategy.",
-          "evidence_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkNyb3BGcjFLRnFPcGg5R0V5QUJkWHE2bXZEcnNxclVmQ2tVQ1ZGZmZCNHhlQ0MtS25DMjhlZ2kycEwyZDl6X05CWGk1WmNWLWx1cmljWnpIY1E1UDA1ZmpRLTZnTTlQR3lPemhUZWRJZHBkRGx6TTFvNDFoV1dxOXlYb0lab1U0bW1OajVxbGl3M0dOX053SmZsdFVGWEd5Qk5SWEduVWNMSDRi?oc=5",
-          "date": "2026-11-05T14:25:22+00:00"
         }
       ],
       "signals": [
         {
           "signal": "Functional trending in Austria",
-          "explanation": "6 articles mention functional in the last 28 days",
-          "support_count": 6,
+          "explanation": "5 articles mention functional in the last 28 days",
+          "support_count": 5,
           "top_keywords": [
             "functional"
           ],
@@ -1368,6 +1312,15 @@
           "support_count": 2,
           "top_keywords": [
             "rtd"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "signal": "Energy trending in Austria",
+          "explanation": "2 articles mention energy in the last 28 days",
+          "support_count": 2,
+          "top_keywords": [
+            "energy"
           ],
           "confidence": "medium"
         },
@@ -1388,15 +1341,6 @@
             "carbonated"
           ],
           "confidence": "low"
-        },
-        {
-          "signal": "Energy trending in Austria",
-          "explanation": "1 articles mention energy in the last 28 days",
-          "support_count": 1,
-          "top_keywords": [
-            "energy"
-          ],
-          "confidence": "low"
         }
       ],
       "talking_points": [
@@ -1406,7 +1350,7 @@
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sY0x0WklObl90Sl9KeHJyTG1LcGN2enAtRlRwdmQ2aUlaZC10WkpLSlpHMHlibEo3bE1uZzAyanl2NGg1em1OeDNaRUFvUXdaWERtSUJsZXlZV0V0b0xlZmtJcl9fdVlMTmhNTDZrWFdydi1jREFRaA?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5",
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEM2NFWjBROWVNTEVzTmRCV1p1ZUY3cjN5cXpNeEwxNGRvTWduRlViWnhDNmw4S2tmcl94RXp5UlhROW9NaXNZTFc2RDhvUUdJVUlSYzFXTGk2Ukpnd1dqUGlrVEVRSGJkV3d0eA?oc=5"
           ]
         },
         {
@@ -1414,8 +1358,8 @@
           "pitch": "Regulatory changes in Austria may affect product specs — position as proactive compliance partner",
           "supporting_evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         },
         {
@@ -1436,7 +1380,7 @@
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sY0x0WklObl90Sl9KeHJyTG1LcGN2enAtRlRwdmQ2aUlaZC10WkpLSlpHMHlibEo3bE1uZzAyanl2NGg1em1OeDNaRUFvUXdaWERtSUJsZXlZV0V0b0xlZmtJcl9fdVlMTmhNTDZrWFdydi1jREFRaA?oc=5",
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDJfQTI4c2RDb1dFOHVMQUNsUElNU2VUcUFHRElBQUxSYmdqZkFrOVBxRmFVNE9pc2VJMngyN0xBUWppaTBOMnNXR1ZaS19Fd1FtS2QwWjh5ZjNsRkVmSWlXX0R5c2Z5RXhvU25pQmtfZmlfbVl1MkwtbDM2OGp6WWFJQ19NLVFmUTBocWpsWExoZVF1dVZDSjRfbGlpSENKdGdQY1pVWQ?oc=5",
-            "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmYzMWRIb1p1MXhzUHBsazBaZ01IVWhoUXVHMjNOZ3FfTnhJeUtTTTNXWG4wb0RsbHhReDgyY0pkWU9WVVBVM3lwTVlkM2lqX192aC1vYjZPZkJwUmRrQmZadEc5RzFYRnE4a2t5SGdyX2pOV1gtRnBRYzVVbWc3UUpzTXBKVVRSdDJoVTZkYw?oc=5"
+            "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEM2NFWjBROWVNTEVzTmRCV1p1ZUY3cjN5cXpNeEwxNGRvTWduRlViWnhDNmw4S2tmcl94RXp5UlhROW9NaXNZTFc2RDhvUUdJVUlSYzFXTGk2Ukpnd1dqUGlrVEVRSGJkV3d0eA?oc=5"
           ]
         },
         {
@@ -1445,8 +1389,8 @@
           "why_now": "Compliance deadlines may affect product specifications",
           "evidence_urls": [
             "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWNnSy03NEQ3ZHRwdmZ4ZGxnNjAtWmpVWnFaU1dFYkFJLTVtM2sxdU0xZDZES2ZMMzdvRlhNVnNEZmx4dHc1N3lRczdYYWdMemlGMHRHLUdxZEt2NmU5RWdya1dzSjh6NjM2N2pIdE9ham1KVXo3aURKaExiU0RzQmdIR3ZHQXNvM0M2SW5NQ1pvQXVyd2dIejBuWXMxLU00NzFfdFE4Qm9PVHd5?oc=5",
-            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFBfcE5wdnZKWDQwb0Z4Q2pGSGludlVMaGtBczFSYmpUajFRR0dUbmNaN2IzVHkyU1VKa2tpWWpSNXJXS0c0OGJ2QlhJOXkyRFlNVzJzQjFhVHRRMVhDT05KLVhWR3JkY3ZiZ0gyU21VZThHaWpZLWFYWE5jcC1tcGliNUFYUDQtU2lFVTllZGdlaVk3MkZjRWZKUFJYV1dzNnFEZk00Q2xmZw?oc=5",
-            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5"
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSWlKTVByWm9zOVdKQllxZUlvXzVSaXYtcTlJTU5qWVdVVlNwVnplRkJCUVRfY09hamdIRVBkZWlTM2R1RXNXREpwNVRyRmdVRUdWaXBCVVU4c0pSUDloTEpMRHdoWnVmSjZtN3hPTkVXNDhSdVNjSmJ6cWlFd1ljdDM2SzZ6TUxuVHd1dkNCaWZ6WGtvWFl4cy11aXBoUURTcV8tX09nU0hhd0tDaVdiXzB3QXdGSUlpcUhoNQ?oc=5",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFdZeHJjRk1pWnZQSEF4WmdMa01tN0VKdzc3S1o3ZUpvejFKTVdZS0h1bURzQWQwWFEyc3FiNmdJRDdSS19sbjVRZ3pJbjg3SHFDMWlPU3F0UEpGSmk0R2UxUjc3SFBRYVhsY3EwMEJUOWhQWFFQSENtdnctZ0dfbkNVT1ZpMDRtU0h3R3gyN2NfTVdhMWc?oc=5"
           ]
         }
       ]

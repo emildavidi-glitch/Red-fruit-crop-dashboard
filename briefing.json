@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-14T11:53:45.150635+00:00",
+  "generated_at": "2026-11-14T18:38:26.599092+00:00",
   "generated_date": "Saturday, 14 November 2026",
-  "briefing": "Sales intelligence tracked 247 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; new product launches intensifying. Latest: Theon Global Makes Waves in the Functional Beverage Industry - BevNET.com.",
+  "briefing": "Sales intelligence tracked 225 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: “Premiumisation is happening and will continue” – Volcan de mi Tierra talks Tequila craft opportunit.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (32 items)",
-    "spain": "Functional trending. (32 items)",
-    "italy": "Functional trending. (33 items)",
+    "france": "Functional trending. (25 items)",
+    "spain": "Functional trending. (25 items)",
+    "italy": "Functional trending. (25 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 247,
+    "total_articles_analyzed": 225,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 115,
-      "functional": 40,
-      "launch": 36,
-      "regulatory": 32,
-      "innovation": 31,
-      "pricing": 17,
+      "trend": 109,
+      "launch": 38,
+      "functional": 33,
+      "regulatory": 26,
+      "innovation": 22,
       "supply_chain": 13,
-      "energy": 13,
-      "rtd": 11,
-      "carbonated": 10
+      "pricing": 13,
+      "energy": 12,
+      "carbonated": 10,
+      "rtd": 10
     }
   }
 }
