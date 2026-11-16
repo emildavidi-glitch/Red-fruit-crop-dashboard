@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-15T19:14:04.812244+00:00",
-  "generated_date": "Sunday, 15 November 2026",
-  "briefing": "Sales intelligence tracked 147 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Theon Global Makes Waves in the Functional Beverage Industry - BevNET.com.",
+  "generated_at": "2026-11-16T13:18:07.806152+00:00",
+  "generated_date": "Monday, 16 November 2026",
+  "briefing": "Sales intelligence tracked 192 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: „Das gute Leben ist eine Kunst für sich“: Tanja Steffen über Diplomático - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (27 items)",
-    "germany": "Functional trending. (37 items)",
-    "france": "Functional trending. (16 items)",
-    "spain": "Functional trending. (16 items)",
-    "italy": "Functional trending. (16 items)",
-    "austria": "Functional trending. (35 items)"
+    "usa": "Functional trending. (32 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (20 items)",
+    "spain": "Functional trending. (20 items)",
+    "italy": "Functional trending. (20 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 147,
+    "total_articles_analyzed": 192,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 70,
-      "launch": 25,
-      "functional": 25,
-      "innovation": 20,
-      "energy": 13,
-      "regulatory": 12,
-      "supply_chain": 12,
-      "pricing": 7,
-      "rtd": 6,
-      "protein": 6
+      "trend": 103,
+      "functional": 37,
+      "innovation": 33,
+      "regulatory": 22,
+      "launch": 18,
+      "pricing": 9,
+      "supply_chain": 6,
+      "energy": 6,
+      "rtd": 5,
+      "alcohol_free": 5
     }
   }
 }
