@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-16T13:18:07.806152+00:00",
+  "generated_at": "2026-11-16T22:43:57.461813+00:00",
   "generated_date": "Monday, 16 November 2026",
-  "briefing": "Sales intelligence tracked 192 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: „Das gute Leben ist eine Kunst für sich“: Tanja Steffen über Diplomático - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 110 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; regulatory changes reshaping strategies; innovation trending. Latest: The Spirit of Rum: Große Geschichten, starke Charaktere - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (32 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (20 items)",
-    "spain": "Functional trending. (20 items)",
-    "italy": "Functional trending. (20 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Functional trending. (10 items)",
+    "germany": "Functional trending. (40 items)",
+    "france": "Functional trending. (7 items)",
+    "spain": "Functional trending. (7 items)",
+    "italy": "Functional trending. (7 items)",
+    "austria": "Functional trending. (39 items)"
   },
   "meta": {
-    "total_articles_analyzed": 192,
+    "total_articles_analyzed": 110,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 103,
-      "functional": 37,
-      "innovation": 33,
-      "regulatory": 22,
-      "launch": 18,
-      "pricing": 9,
-      "supply_chain": 6,
-      "energy": 6,
-      "rtd": 5,
-      "alcohol_free": 5
+      "trend": 67,
+      "regulatory": 15,
+      "innovation": 13,
+      "functional": 12,
+      "launch": 10,
+      "alcohol_free": 5,
+      "rtd": 3,
+      "supply_chain": 3,
+      "pricing": 2,
+      "premium": 2
     }
   }
 }

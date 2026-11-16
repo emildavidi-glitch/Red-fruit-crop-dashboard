@@ -1,58 +1,67 @@
 {
-  "generated_at": "2026-11-16T13:18:07.806152+00:00",
+  "generated_at": "2026-11-16T22:43:57.461813+00:00",
   "regions": {
     "usa": {
       "status": "ok",
-      "items": 32,
-      "sources_ok": 14,
-      "sources_failed": 1,
-      "last_item_date": "2026-11-16T12:19:01+00:00",
+      "items": 10,
+      "sources_ok": 7,
+      "sources_failed": 8,
+      "last_item_date": "2026-11-16T10:39:51+00:00",
       "notes": []
     },
     "germany": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 14,
-      "sources_failed": 1,
-      "last_item_date": "2026-11-16T13:16:10+00:00",
+      "items": 40,
+      "sources_ok": 7,
+      "sources_failed": 8,
+      "last_item_date": "2026-11-16T19:16:08+00:00",
       "notes": []
     },
     "france": {
-      "status": "ok",
-      "items": 20,
-      "sources_ok": 14,
-      "sources_failed": 1,
-      "last_item_date": "2026-11-16T12:19:01+00:00",
-      "notes": []
+      "status": "warning",
+      "items": 7,
+      "sources_ok": 7,
+      "sources_failed": 8,
+      "last_item_date": "2026-11-16T09:48:42+00:00",
+      "notes": [
+        "Expanded to 42-day window (only 6 items in 28d)",
+        "Below 10-item threshold: 7 items"
+      ]
     },
     "spain": {
-      "status": "ok",
-      "items": 20,
-      "sources_ok": 14,
-      "sources_failed": 1,
-      "last_item_date": "2026-11-16T12:19:01+00:00",
-      "notes": []
+      "status": "warning",
+      "items": 7,
+      "sources_ok": 7,
+      "sources_failed": 8,
+      "last_item_date": "2026-11-16T09:48:42+00:00",
+      "notes": [
+        "Expanded to 42-day window (only 6 items in 28d)",
+        "Below 10-item threshold: 7 items"
+      ]
     },
     "italy": {
-      "status": "ok",
-      "items": 20,
-      "sources_ok": 14,
-      "sources_failed": 1,
-      "last_item_date": "2026-11-16T12:19:01+00:00",
-      "notes": []
+      "status": "warning",
+      "items": 7,
+      "sources_ok": 7,
+      "sources_failed": 8,
+      "last_item_date": "2026-11-16T09:48:42+00:00",
+      "notes": [
+        "Expanded to 42-day window (only 6 items in 28d)",
+        "Below 10-item threshold: 7 items"
+      ]
     },
     "austria": {
       "status": "ok",
-      "items": 50,
-      "sources_ok": 14,
-      "sources_failed": 1,
-      "last_item_date": "2026-11-16T13:16:10+00:00",
+      "items": 39,
+      "sources_ok": 7,
+      "sources_failed": 8,
+      "last_item_date": "2026-11-16T19:16:08+00:00",
       "notes": []
     }
   },
   "global": {
-    "total_items": 192,
-    "total_sources_ok": 14,
-    "total_sources_failed": 1
+    "total_items": 110,
+    "total_sources_ok": 7,
+    "total_sources_failed": 8
   }
 }
