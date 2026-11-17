@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T14:03:00.349900+00:00",
+  "generated_at": "2026-11-17T21:29:46.626229+00:00",
   "generated_date": "Tuesday, 17 November 2026",
-  "briefing": "Sales intelligence tracked 217 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; functional beverages gaining momentum; innovation trending. Latest: Review: Solzi Offers A Sparkling Twist on Espresso - BevNET.com.",
+  "briefing": "Sales intelligence tracked 218 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: “We are ready now” – Stoli on US ambitions post-Chapter 11 - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (42 items)",
+    "usa": "Functional trending. (43 items)",
     "germany": "Functional trending. (50 items)",
     "france": "Functional trending. (25 items)",
     "spain": "Functional trending. (25 items)",
@@ -11,19 +11,19 @@
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 217,
+    "total_articles_analyzed": 218,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 126,
+      "innovation": 33,
       "functional": 29,
-      "innovation": 27,
-      "regulatory": 23,
+      "regulatory": 17,
       "pricing": 15,
       "supply_chain": 13,
-      "launch": 12,
+      "launch": 11,
       "energy": 8,
       "alcohol_free": 5,
-      "rtd": 4
+      "carbonated": 4
     }
   }
 }
