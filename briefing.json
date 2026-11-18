@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-17T21:29:46.626229+00:00",
-  "generated_date": "Tuesday, 17 November 2026",
-  "briefing": "Sales intelligence tracked 218 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: “We are ready now” – Stoli on US ambitions post-Chapter 11 - Just Drinks.",
+  "generated_at": "2026-11-18T13:37:21.269292+00:00",
+  "generated_date": "Wednesday, 18 November 2026",
+  "briefing": "Sales intelligence tracked 216 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: The Rare Cask Club präsentiert „The Limited Rum Collection #2“ - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (43 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (25 items)",
+    "usa": "Functional trending. (40 items)",
+    "germany": "Sugar Free trending. (50 items)",
+    "france": "Functional trending. (26 items)",
     "spain": "Functional trending. (25 items)",
     "italy": "Functional trending. (25 items)",
-    "austria": "Functional trending. (50 items)"
+    "austria": "Sugar Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 218,
+    "total_articles_analyzed": 216,
     "method": "rss-analysis",
     "top_topics": {
       "trend": 126,
-      "innovation": 33,
-      "functional": 29,
-      "regulatory": 17,
-      "pricing": 15,
+      "innovation": 29,
+      "functional": 27,
+      "launch": 18,
+      "regulatory": 16,
       "supply_chain": 13,
-      "launch": 11,
-      "energy": 8,
-      "alcohol_free": 5,
-      "carbonated": 4
+      "pricing": 12,
+      "sugar_free": 10,
+      "carbonated": 10,
+      "premium": 7
     }
   }
 }
