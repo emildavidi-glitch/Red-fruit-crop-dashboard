@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-18T21:05:07.779221+00:00",
-  "generated_date": "Wednesday, 18 November 2026",
-  "briefing": "Sales intelligence tracked 239 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; supply_chain trending. Latest: Can European food and drink manufacturing stay competitive on the global stage? - FoodNavigator.com.",
+  "generated_at": "2026-11-19T14:03:21.352655+00:00",
+  "generated_date": "Thursday, 19 November 2026",
+  "briefing": "Sales intelligence tracked 216 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: Global wine output seen below average again in 2026 - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (48 items)",
-    "germany": "Premium trending. (50 items)",
-    "france": "Functional trending. (31 items)",
-    "spain": "Functional trending. (30 items)",
-    "italy": "Functional trending. (30 items)",
-    "austria": "Premium trending. (50 items)"
+    "usa": "Functional trending. (43 items)",
+    "germany": "Functional trending. (50 items)",
+    "france": "Functional trending. (25 items)",
+    "spain": "Functional trending. (24 items)",
+    "italy": "Functional trending. (24 items)",
+    "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 239,
+    "total_articles_analyzed": 216,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 128,
-      "innovation": 29,
-      "supply_chain": 28,
-      "functional": 25,
-      "pricing": 17,
-      "launch": 17,
-      "premium": 13,
-      "regulatory": 12,
-      "carbonated": 9,
-      "competitor": 7
+      "trend": 121,
+      "innovation": 28,
+      "functional": 17,
+      "supply_chain": 17,
+      "launch": 15,
+      "pricing": 15,
+      "regulatory": 11,
+      "competitor": 8,
+      "carbonated": 8,
+      "premium": 7
     }
   }
 }
