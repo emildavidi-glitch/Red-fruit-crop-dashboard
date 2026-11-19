@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-19T14:03:21.352655+00:00",
+  "generated_at": "2026-11-19T21:10:10.285174+00:00",
   "generated_date": "Thursday, 19 November 2026",
-  "briefing": "Sales intelligence tracked 216 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: Global wine output seen below average again in 2026 - Just Drinks.",
+  "briefing": "Sales intelligence tracked 244 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: 7 drinks for dogs: From functional hydration to beer and wine - BeverageDaily.com.",
   "signals": {
-    "usa": "Functional trending. (43 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (25 items)",
-    "spain": "Functional trending. (24 items)",
-    "italy": "Functional trending. (24 items)",
+    "france": "Functional trending. (32 items)",
+    "spain": "Functional trending. (31 items)",
+    "italy": "Functional trending. (31 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 216,
+    "total_articles_analyzed": 244,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 121,
-      "innovation": 28,
-      "functional": 17,
-      "supply_chain": 17,
-      "launch": 15,
-      "pricing": 15,
+      "trend": 140,
+      "innovation": 30,
+      "functional": 22,
+      "launch": 21,
+      "pricing": 16,
+      "competitor": 14,
+      "supply_chain": 11,
+      "alcohol_free": 11,
       "regulatory": 11,
-      "competitor": 8,
-      "carbonated": 8,
-      "premium": 7
+      "carbonated": 8
     }
   }
 }
