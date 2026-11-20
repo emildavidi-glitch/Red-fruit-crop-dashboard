@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-19T21:10:10.285174+00:00",
-  "generated_date": "Thursday, 19 November 2026",
-  "briefing": "Sales intelligence tracked 244 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: 7 drinks for dogs: From functional hydration to beer and wine - BeverageDaily.com.",
+  "generated_at": "2026-11-20T13:46:30.355260+00:00",
+  "generated_date": "Friday, 20 November 2026",
+  "briefing": "Sales intelligence tracked 220 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Super Bock, Pascual to push Pedras sparkling water in Spain - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Functional trending. (41 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (32 items)",
-    "spain": "Functional trending. (31 items)",
-    "italy": "Functional trending. (31 items)",
+    "france": "Functional trending. (26 items)",
+    "spain": "Functional trending. (27 items)",
+    "italy": "Functional trending. (26 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 244,
+    "total_articles_analyzed": 220,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 140,
-      "innovation": 30,
-      "functional": 22,
-      "launch": 21,
-      "pricing": 16,
-      "competitor": 14,
-      "supply_chain": 11,
-      "alcohol_free": 11,
-      "regulatory": 11,
-      "carbonated": 8
+      "trend": 138,
+      "launch": 27,
+      "innovation": 26,
+      "functional": 24,
+      "alcohol_free": 18,
+      "regulatory": 14,
+      "premium": 8,
+      "carbonated": 8,
+      "supply_chain": 7,
+      "competitor": 6
     }
   }
 }
