@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-20T13:46:30.355260+00:00",
+  "generated_at": "2026-11-20T20:54:57.009005+00:00",
   "generated_date": "Friday, 20 November 2026",
-  "briefing": "Sales intelligence tracked 220 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Super Bock, Pascual to push Pedras sparkling water in Spain - Just Drinks.",
+  "briefing": "Sales intelligence tracked 250 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Herti at WIN Expo 2026 - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (41 items)",
+    "usa": "Functional trending. (50 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (26 items)",
-    "spain": "Functional trending. (27 items)",
-    "italy": "Functional trending. (26 items)",
+    "france": "Functional trending. (33 items)",
+    "spain": "Functional trending. (34 items)",
+    "italy": "Functional trending. (33 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 220,
+    "total_articles_analyzed": 250,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 138,
-      "launch": 27,
-      "innovation": 26,
-      "functional": 24,
-      "alcohol_free": 18,
-      "regulatory": 14,
-      "premium": 8,
-      "carbonated": 8,
-      "supply_chain": 7,
-      "competitor": 6
+      "trend": 149,
+      "launch": 31,
+      "innovation": 31,
+      "functional": 28,
+      "carbonated": 16,
+      "supply_chain": 16,
+      "alcohol_free": 14,
+      "premium": 12,
+      "regulatory": 8,
+      "hydration": 7
     }
   }
 }
