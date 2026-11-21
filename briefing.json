@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-21T13:11:13.978196+00:00",
+  "generated_at": "2026-11-21T19:55:45.347014+00:00",
   "generated_date": "Saturday, 21 November 2026",
-  "briefing": "Sales intelligence tracked 232 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: New Realm Beverage - BevNET.com.",
+  "briefing": "Sales intelligence tracked 226 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: How to Get a Distributor and Find the Right Co-Packer for Your Beverage Brand - BevNET.com.",
   "signals": {
     "usa": "Functional trending. (47 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (28 items)",
-    "spain": "Functional trending. (29 items)",
-    "italy": "Functional trending. (28 items)",
+    "france": "Functional trending. (26 items)",
+    "spain": "Functional trending. (27 items)",
+    "italy": "Functional trending. (26 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 232,
+    "total_articles_analyzed": 226,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 129,
+      "trend": 116,
+      "launch": 43,
+      "functional": 37,
       "innovation": 32,
-      "launch": 31,
-      "functional": 31,
-      "alcohol_free": 18,
-      "regulatory": 16,
+      "regulatory": 22,
       "carbonated": 15,
-      "pricing": 14,
+      "alcohol_free": 12,
+      "pricing": 9,
       "hydration": 7,
-      "supply_chain": 6
+      "energy": 4
     }
   }
 }
