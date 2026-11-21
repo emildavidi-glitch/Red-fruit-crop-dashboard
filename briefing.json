@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-20T20:54:57.009005+00:00",
-  "generated_date": "Friday, 20 November 2026",
-  "briefing": "Sales intelligence tracked 250 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Herti at WIN Expo 2026 - Just Drinks.",
+  "generated_at": "2026-11-21T13:11:13.978196+00:00",
+  "generated_date": "Saturday, 21 November 2026",
+  "briefing": "Sales intelligence tracked 232 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: New Realm Beverage - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (50 items)",
+    "usa": "Functional trending. (47 items)",
     "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (33 items)",
-    "spain": "Functional trending. (34 items)",
-    "italy": "Functional trending. (33 items)",
+    "france": "Functional trending. (28 items)",
+    "spain": "Functional trending. (29 items)",
+    "italy": "Functional trending. (28 items)",
     "austria": "Functional trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 250,
+    "total_articles_analyzed": 232,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 149,
+      "trend": 129,
+      "innovation": 32,
       "launch": 31,
-      "innovation": 31,
-      "functional": 28,
-      "carbonated": 16,
-      "supply_chain": 16,
-      "alcohol_free": 14,
-      "premium": 12,
-      "regulatory": 8,
-      "hydration": 7
+      "functional": 31,
+      "alcohol_free": 18,
+      "regulatory": 16,
+      "carbonated": 15,
+      "pricing": 14,
+      "hydration": 7,
+      "supply_chain": 6
     }
   }
 }
