@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-22T12:59:58.371800+00:00",
+  "generated_at": "2026-11-22T20:07:56.635433+00:00",
   "generated_date": "Sunday, 22 November 2026",
-  "briefing": "Sales intelligence tracked 196 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Flerish Hydration - Director of Marketing - BevNET.com Beverage Industry Job Listing - BevNET.com.",
+  "briefing": "Sales intelligence tracked 176 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Flerish Hydration - Director of Marketing - BevNET.com Beverage Industry Job Listing - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (37 items)",
-    "germany": "Functional trending. (46 items)",
-    "france": "Functional trending. (23 items)",
-    "spain": "Functional trending. (24 items)",
-    "italy": "Functional trending. (23 items)",
-    "austria": "Functional trending. (43 items)"
+    "usa": "Carbonated trending. (34 items)",
+    "germany": "Functional trending. (42 items)",
+    "france": "Functional trending. (20 items)",
+    "spain": "Carbonated trending. (21 items)",
+    "italy": "Functional trending. (20 items)",
+    "austria": "Functional trending. (39 items)"
   },
   "meta": {
-    "total_articles_analyzed": 196,
+    "total_articles_analyzed": 176,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 112,
-      "innovation": 31,
-      "launch": 30,
-      "functional": 30,
-      "carbonated": 15,
-      "energy": 11,
-      "pricing": 9,
-      "alcohol_free": 7,
-      "regulatory": 6,
-      "supply_chain": 6
+      "trend": 113,
+      "launch": 24,
+      "functional": 24,
+      "carbonated": 21,
+      "regulatory": 15,
+      "innovation": 14,
+      "alcohol_free": 12,
+      "supply_chain": 6,
+      "energy": 6,
+      "rtd": 3
     }
   }
 }
