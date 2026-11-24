@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-24T00:34:52.126424+00:00",
+  "generated_at": "2026-11-24T15:28:31.367663+00:00",
   "generated_date": "Tuesday, 24 November 2026",
-  "briefing": "Sales intelligence tracked 206 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: OOSO Goes ‘Next Gen’: A Bigger Can, $2.99 Price and No Carbonation - BevNET.com.",
+  "briefing": "Sales intelligence tracked 254 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: Vranken-Pommery richtet Portfolio neu aus: Heidsieck raus, Demoiselle rein - about-drinks.com.",
   "signals": {
-    "usa": "Functional trending. (40 items)",
-    "germany": "Functional trending. (49 items)",
-    "france": "Functional trending. (24 items)",
-    "spain": "Functional trending. (24 items)",
-    "italy": "Functional trending. (24 items)",
-    "austria": "Functional trending. (45 items)"
+    "usa": "Carbonated trending. (49 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Functional trending. (35 items)",
+    "spain": "Functional trending. (35 items)",
+    "italy": "Functional trending. (35 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 206,
+    "total_articles_analyzed": 254,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 104,
-      "innovation": 32,
-      "functional": 25,
-      "launch": 25,
-      "pricing": 20,
-      "regulatory": 18,
-      "carbonated": 16,
-      "alcohol_free": 12,
-      "energy": 11,
-      "supply_chain": 6
+      "trend": 170,
+      "innovation": 29,
+      "functional": 20,
+      "launch": 19,
+      "carbonated": 18,
+      "regulatory": 16,
+      "alcohol_free": 14,
+      "pricing": 12,
+      "energy": 10,
+      "supply_chain": 8
     }
   }
 }
