@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-23T15:36:51.619752+00:00",
-  "generated_date": "Monday, 23 November 2026",
-  "briefing": "Sales intelligence tracked 246 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: Mouthfeel Masterclass: Formulating for the New Beverage Consumer - FoodNavigator.com.",
+  "generated_at": "2026-11-24T00:34:52.126424+00:00",
+  "generated_date": "Tuesday, 24 November 2026",
+  "briefing": "Sales intelligence tracked 206 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: OOSO Goes ‘Next Gen’: A Bigger Can, $2.99 Price and No Carbonation - BevNET.com.",
   "signals": {
-    "usa": "Functional trending. (46 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (33 items)",
-    "spain": "Functional trending. (34 items)",
-    "italy": "Functional trending. (33 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Functional trending. (40 items)",
+    "germany": "Functional trending. (49 items)",
+    "france": "Functional trending. (24 items)",
+    "spain": "Functional trending. (24 items)",
+    "italy": "Functional trending. (24 items)",
+    "austria": "Functional trending. (45 items)"
   },
   "meta": {
-    "total_articles_analyzed": 246,
+    "total_articles_analyzed": 206,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 135,
-      "innovation": 50,
-      "functional": 47,
+      "trend": 104,
+      "innovation": 32,
+      "functional": 25,
+      "launch": 25,
       "pricing": 20,
       "regulatory": 18,
-      "alcohol_free": 17,
-      "carbonated": 15,
-      "launch": 14,
-      "supply_chain": 7,
-      "hydration": 6
+      "carbonated": 16,
+      "alcohol_free": 12,
+      "energy": 11,
+      "supply_chain": 6
     }
   }
 }
