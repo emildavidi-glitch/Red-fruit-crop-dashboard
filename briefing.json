@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-24T22:54:24.838891+00:00",
-  "generated_date": "Tuesday, 24 November 2026",
-  "briefing": "Sales intelligence tracked 298 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; functional beverages gaining momentum. Latest: Laird Superfood Expands Instant Coffee Portfolio With Two New Collections - BevNET.com.",
+  "generated_at": "2026-11-25T15:14:14.694020+00:00",
+  "generated_date": "Wednesday, 25 November 2026",
+  "briefing": "Sales intelligence tracked 219 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; innovation trending. Latest: BLÆK und Spirit of HafenCity launchen limitierten Kaffeelikör - about-drinks.com.",
   "signals": {
-    "usa": "Alcohol Free trending. (50 items)",
-    "germany": "Functional trending. (50 items)",
-    "france": "Functional trending. (50 items)",
-    "spain": "Functional trending. (49 items)",
-    "italy": "Functional trending. (49 items)",
-    "austria": "Functional trending. (50 items)"
+    "usa": "Functional trending. (50 items)",
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Functional trending. (23 items)",
+    "spain": "Functional trending. (23 items)",
+    "italy": "Functional trending. (23 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 298,
+    "total_articles_analyzed": 219,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 158,
-      "launch": 37,
-      "functional": 31,
-      "pricing": 30,
-      "innovation": 29,
-      "regulatory": 27,
-      "alcohol_free": 19,
-      "supply_chain": 16,
-      "premium": 10,
-      "carbonated": 8
+      "trend": 113,
+      "pricing": 31,
+      "innovation": 31,
+      "launch": 28,
+      "functional": 20,
+      "carbonated": 16,
+      "alcohol_free": 13,
+      "regulatory": 10,
+      "energy": 5,
+      "macro": 4
     }
   }
 }
