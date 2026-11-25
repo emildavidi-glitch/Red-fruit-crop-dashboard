@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-25T15:14:14.694020+00:00",
+  "generated_at": "2026-11-25T22:07:42.666609+00:00",
   "generated_date": "Wednesday, 25 November 2026",
-  "briefing": "Sales intelligence tracked 219 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; pricing pressures in focus; innovation trending. Latest: BLÆK und Spirit of HafenCity launchen limitierten Kaffeelikör - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 263 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Heineken cuts jobs in Poland - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (23 items)",
-    "spain": "Functional trending. (23 items)",
-    "italy": "Functional trending. (23 items)",
-    "austria": "Carbonated trending. (50 items)"
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Functional trending. (38 items)",
+    "spain": "Carbonated trending. (38 items)",
+    "italy": "Functional trending. (37 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 219,
+    "total_articles_analyzed": 263,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 113,
-      "pricing": 31,
-      "innovation": 31,
-      "launch": 28,
-      "functional": 20,
-      "carbonated": 16,
-      "alcohol_free": 13,
+      "trend": 187,
+      "innovation": 28,
+      "launch": 21,
+      "functional": 19,
+      "carbonated": 19,
+      "alcohol_free": 18,
+      "energy": 11,
       "regulatory": 10,
-      "energy": 5,
-      "macro": 4
+      "supply_chain": 9,
+      "premium": 9
     }
   }
 }
