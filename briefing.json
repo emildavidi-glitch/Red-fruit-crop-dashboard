@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-25T22:07:42.666609+00:00",
-  "generated_date": "Wednesday, 25 November 2026",
-  "briefing": "Sales intelligence tracked 263 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Heineken cuts jobs in Poland - Just Drinks.",
+  "generated_at": "2026-11-26T14:39:19.293873+00:00",
+  "generated_date": "Thursday, 26 November 2026",
+  "briefing": "Sales intelligence tracked 292 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Max Sabato: „Ich musste 15 verschiedene Wasser am Geschmack erkennen.“ - about-drinks.com.",
   "signals": {
     "usa": "Functional trending. (50 items)",
-    "germany": "Alcohol Free trending. (50 items)",
-    "france": "Functional trending. (38 items)",
-    "spain": "Carbonated trending. (38 items)",
-    "italy": "Functional trending. (37 items)",
-    "austria": "Alcohol Free trending. (50 items)"
+    "germany": "Carbonated trending. (50 items)",
+    "france": "Functional trending. (48 items)",
+    "spain": "Functional trending. (47 items)",
+    "italy": "Functional trending. (47 items)",
+    "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 263,
+    "total_articles_analyzed": 292,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 187,
-      "innovation": 28,
-      "launch": 21,
-      "functional": 19,
-      "carbonated": 19,
-      "alcohol_free": 18,
-      "energy": 11,
+      "trend": 184,
+      "innovation": 37,
+      "launch": 29,
+      "functional": 26,
+      "pricing": 23,
+      "alcohol_free": 15,
+      "carbonated": 14,
       "regulatory": 10,
-      "supply_chain": 9,
-      "premium": 9
+      "energy": 9,
+      "supply_chain": 7
     }
   }
 }
