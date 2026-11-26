@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-26T14:39:19.293873+00:00",
+  "generated_at": "2026-11-26T22:06:38.008986+00:00",
   "generated_date": "Thursday, 26 November 2026",
-  "briefing": "Sales intelligence tracked 292 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Max Sabato: „Ich musste 15 verschiedene Wasser am Geschmack erkennen.“ - about-drinks.com.",
+  "briefing": "Sales intelligence tracked 277 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; functional beverages gaining momentum. Latest: Why there is no one-size-fits-all RTD strategy - Just Drinks.",
   "signals": {
     "usa": "Functional trending. (50 items)",
     "germany": "Carbonated trending. (50 items)",
-    "france": "Functional trending. (48 items)",
-    "spain": "Functional trending. (47 items)",
-    "italy": "Functional trending. (47 items)",
+    "france": "Functional trending. (43 items)",
+    "spain": "Functional trending. (42 items)",
+    "italy": "Functional trending. (42 items)",
     "austria": "Carbonated trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 292,
+    "total_articles_analyzed": 277,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 184,
-      "innovation": 37,
-      "launch": 29,
-      "functional": 26,
-      "pricing": 23,
+      "trend": 212,
+      "innovation": 20,
+      "functional": 19,
+      "carbonated": 18,
       "alcohol_free": 15,
-      "carbonated": 14,
+      "launch": 14,
+      "rtd": 13,
+      "pricing": 12,
       "regulatory": 10,
-      "energy": 9,
-      "supply_chain": 7
+      "energy": 9
     }
   }
 }
