@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-27T14:36:34.731860+00:00",
+  "generated_at": "2026-11-27T21:48:14.949968+00:00",
   "generated_date": "Friday, 27 November 2026",
-  "briefing": "Sales intelligence tracked 273 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; new product launches intensifying; innovation trending. Latest: Maspex recruits internally for next CEO - Just Drinks.",
+  "briefing": "Sales intelligence tracked 268 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Nestlé starts \"voluntary departures\" process at waters site in France - Just Drinks.",
   "signals": {
-    "usa": "Functional trending. (49 items)",
-    "germany": "Rtd trending. (50 items)",
-    "france": "Alcohol Free trending. (42 items)",
-    "spain": "Alcohol Free trending. (41 items)",
-    "italy": "Alcohol Free trending. (41 items)",
-    "austria": "Rtd trending. (50 items)"
+    "usa": "Functional trending. (48 items)",
+    "germany": "Alcohol Free trending. (50 items)",
+    "france": "Functional trending. (41 items)",
+    "spain": "Functional trending. (40 items)",
+    "italy": "Functional trending. (39 items)",
+    "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 273,
+    "total_articles_analyzed": 268,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 195,
-      "launch": 26,
-      "innovation": 26,
-      "alcohol_free": 20,
-      "functional": 19,
-      "rtd": 18,
-      "pricing": 12,
-      "carbonated": 12,
-      "premium": 10,
-      "regulatory": 9
+      "trend": 167,
+      "innovation": 39,
+      "launch": 28,
+      "functional": 26,
+      "alcohol_free": 21,
+      "pricing": 17,
+      "rtd": 12,
+      "carbonated": 9,
+      "regulatory": 7,
+      "premium": 6
     }
   }
 }
