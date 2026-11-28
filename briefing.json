@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-27T21:48:14.949968+00:00",
-  "generated_date": "Friday, 27 November 2026",
-  "briefing": "Sales intelligence tracked 268 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; new product launches intensifying. Latest: Nestlé starts \"voluntary departures\" process at waters site in France - Just Drinks.",
+  "generated_at": "2026-11-28T13:49:03.337156+00:00",
+  "generated_date": "Saturday, 28 November 2026",
+  "briefing": "Sales intelligence tracked 252 items across 6 regions in the past 28 days. Key themes: consumer trends shifting; innovation trending; pricing pressures in focus. Latest: YBF bei Henkel: Innovationen auf der Spur - Lebensmittel Zeitung.",
   "signals": {
-    "usa": "Functional trending. (48 items)",
+    "usa": "Functional trending. (41 items)",
     "germany": "Alcohol Free trending. (50 items)",
-    "france": "Functional trending. (41 items)",
-    "spain": "Functional trending. (40 items)",
-    "italy": "Functional trending. (39 items)",
+    "france": "Alcohol Free trending. (38 items)",
+    "spain": "Alcohol Free trending. (37 items)",
+    "italy": "Alcohol Free trending. (36 items)",
     "austria": "Alcohol Free trending. (50 items)"
   },
   "meta": {
-    "total_articles_analyzed": 268,
+    "total_articles_analyzed": 252,
     "method": "rss-analysis",
     "top_topics": {
-      "trend": 167,
-      "innovation": 39,
-      "launch": 28,
-      "functional": 26,
-      "alcohol_free": 21,
-      "pricing": 17,
+      "trend": 165,
+      "innovation": 31,
+      "pricing": 24,
+      "functional": 19,
+      "alcohol_free": 18,
+      "launch": 18,
       "rtd": 12,
-      "carbonated": 9,
-      "regulatory": 7,
-      "premium": 6
+      "premium": 12,
+      "energy": 11,
+      "carbonated": 11
     }
   }
 }
